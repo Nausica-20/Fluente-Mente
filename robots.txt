@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://TUO-USERNAME.github.io/Fluente-Mente/sitemap.xml
