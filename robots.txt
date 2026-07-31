@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://TUO-USERNAME.github.io/Fluente-Mente/sitemap.xml
+Sitemap: Sitemap: https://nausica-c.github.io/Fluente-Mente/sitemap.xml
