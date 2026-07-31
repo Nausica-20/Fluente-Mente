@@ -1,0 +1,60 @@
+# ============================================================
+# FLUENTE-MENTE
+# Configurazione Jekyll
+# ============================================================
+
+title: "Fluente-Mente"
+
+description: "Guide pratiche, metodi e risorse per imparare le lingue in modo semplice e concreto."
+
+lang: "it"
+
+url: "https://TUO-USERNAME.github.io"
+baseurl: "/Fluente-Mente"
+
+timezone: "Europe/Rome"
+
+
+# ============================================================
+# AUTORE
+# ============================================================
+
+author:
+  name: "Fluente-Mente"
+
+
+# ============================================================
+# JEKYLL
+# ============================================================
+
+markdown: kramdown
+
+permalink: /:categories/:title/
+
+
+# ============================================================
+# PLUGIN
+# ============================================================
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+
+# ============================================================
+# IMPOSTAZIONI
+# ============================================================
+
+show_excerpts: true
+
+
+# ============================================================
+# FILE DA NON PUBBLICARE
+# ============================================================
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
