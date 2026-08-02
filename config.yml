@@ -1,60 +1,82 @@
-# ============================================================
+# =========================================================
 # FLUENTE-MENTE
-# Configurazione Jekyll
-# ============================================================
+# Jekyll Configuration
+# =========================================================
 
 title: "Fluente-Mente"
-
-description: "Guide pratiche, metodi e risorse per imparare le lingue in modo semplice e concreto."
-
+description: "Inglese pratico, spiegato in modo semplice."
 lang: "it"
 
-url: "url: "https://nausica-c.github.io""
-baseurl: "/Fluente-Mente"
-
-timezone: "Europe/Rome"
-
-
-# ============================================================
-# AUTORE
-# ============================================================
+url: "https://nausica-20.github.io"
+baseurl: "/FluenteMente"
 
 author:
   name: "Fluente-Mente"
 
+github_username: "Nausica-20"
 
-# ============================================================
-# JEKYLL
-# ============================================================
+# ---------------------------------------------------------
+# Build
+# ---------------------------------------------------------
 
 markdown: kramdown
-
 permalink: /:categories/:title/
 
+timezone: Europe/Rome
 
-# ============================================================
-# PLUGIN
-# ============================================================
+# ---------------------------------------------------------
+# Collections
+# ---------------------------------------------------------
+
+collections:
+  series:
+    output: true
+    permalink: /serie/:name/
+
+# ---------------------------------------------------------
+# Defaults
+# ---------------------------------------------------------
+
+defaults:
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      lang: "it"
+
+  - scope:
+      path: ""
+      type: "series"
+    values:
+      layout: "series"
+      lang: "it"
+
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      lang: "it"
+
+# ---------------------------------------------------------
+# Plugins
+# ---------------------------------------------------------
 
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
+  - jekyll-seo-tag
 
-
-# ============================================================
-# IMPOSTAZIONI
-# ============================================================
-
-show_excerpts: true
-
-
-# ============================================================
-# FILE DA NON PUBBLICARE
-# ============================================================
+# ---------------------------------------------------------
+# Exclude
+# ---------------------------------------------------------
 
 exclude:
+  - README.md
   - Gemfile
   - Gemfile.lock
-  - README.md
   - node_modules
   - vendor
+  - scripts
+  - prompts
+  - output
