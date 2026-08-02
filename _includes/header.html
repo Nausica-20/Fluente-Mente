@@ -1,0 +1,71 @@
+<header class="site-header">
+
+  <div class="container header-inner">
+
+    <a
+      class="site-logo"
+      href="{{ '/' | relative_url }}"
+      aria-label="{{ site.data.site.site.name }} - Home"
+    >
+      {{ site.data.site.site.name }}
+    </a>
+
+
+    <nav
+      class="site-nav"
+      aria-label="Navigazione principale"
+    >
+
+      {% for item in site.data.site.navigation.main %}
+
+        <a
+          href="{{ item.url | relative_url }}"
+          class="nav-link{% if page.url == item.url %} active{% endif %}"
+        >
+          {{ item.title }}
+        </a>
+
+      {% endfor %}
+
+    </nav>
+
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Apri il menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+
+
+  <nav
+    id="mobile-menu"
+    class="mobile-nav"
+    aria-label="Navigazione mobile"
+  >
+
+    <div class="container">
+
+      {% for item in site.data.site.navigation.main %}
+
+        <a
+          href="{{ item.url | relative_url }}"
+          class="mobile-nav-link{% if page.url == item.url %} active{% endif %}"
+        >
+          {{ item.title }}
+        </a>
+
+      {% endfor %}
+
+    </div>
+
+  </nav>
+
+</header>
