@@ -1,76 +1,48 @@
-# =========================================================
-# FLUENTE-MENTE
-# Jekyll Configuration
-# =========================================================
-
 title: "Fluente-Mente"
 
 description: >
-  Inglese pratico, inglese reale e metodi semplici
-  per imparare e usare l'inglese nella vita quotidiana.
+  Impara l'inglese in modo pratico, semplice e sostenibile.
+
+url: "https://nausica-20.github.io"
+
+baseurl: "/Fluente-Mente"
 
 lang: "it"
 
-url: "https://nausica-20.github.io"
-baseurl: "/FluenteMente"
+timezone: "Europe/Rome"
 
 author:
   name: "Fluente-Mente"
 
-github_username: "Nausica-20"
+
+# Permalink degli articoli
+permalink: /:categories/:title/
 
 
-# =========================================================
-# BUILD
-# =========================================================
-
+# Markdown
 markdown: kramdown
 
-timezone: Europe/Rome
+kramdown:
+  input: GFM
+  hard_wrap: false
 
-permalink: pretty
 
-
-# =========================================================
-# PLUGINS
-# =========================================================
-
-  plugins:
-  - jekyll-feed
+# Plugin essenziali
+plugins:
   - jekyll-seo-tag
+  - jekyll-feed
   - jekyll-sitemap
 
 
-# =========================================================
-# DEFAULTS
-# =========================================================
-
-defaults:
-
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      lang: "it"
-
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-      lang: "it"
-
-
-# =========================================================
-# EXCLUDE
-# =========================================================
-
+# Esclusioni
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
-  - scripts
-  - prompts
-  - output
+
+
+# Feed
+feed:
+  path: feed.xml
