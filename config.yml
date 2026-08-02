@@ -16,8 +16,7 @@ author:
 
 
 # Permalink degli articoli
-permalink: /:categories/:title/
-
+permalink: /:title/
 
 # Markdown
 markdown: kramdown
