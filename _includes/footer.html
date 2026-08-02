@@ -1,0 +1,58 @@
+<footer class="site-footer">
+
+  <div class="container footer-inner">
+
+
+    <div class="footer-brand">
+
+      <a
+        class="footer-logo"
+        href="{{ '/' | relative_url }}"
+      >
+        {{ site.data.site.site.name }}
+      </a>
+
+      <p class="footer-tagline">
+        {{ site.data.site.site.tagline }}
+      </p>
+
+    </div>
+
+
+    <nav
+      class="footer-nav"
+      aria-label="Navigazione footer"
+    >
+
+      {% for item in site.data.site.navigation.footer %}
+
+        <a
+          href="{{ item.url | relative_url }}"
+          class="footer-link"
+        >
+          {{ item.title }}
+        </a>
+
+      {% endfor %}
+
+    </nav>
+
+
+    <div class="footer-bottom">
+
+      <p>
+        © {{ 'now' | date: '%Y' }}
+        {{ site.data.site.site.name }}.
+        Tutti i diritti riservati.
+      </p>
+
+      <p class="footer-disclosure">
+        Alcuni link presenti sul sito possono essere
+        link affiliati.
+      </p>
+
+    </div>
+
+  </div>
+
+</footer>
