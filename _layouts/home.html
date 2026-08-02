@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<!-- ==================================================
+     HERO
+     ================================================== -->
+
 <section class="hero">
 
   <div class="container hero-inner">
@@ -22,20 +26,115 @@ layout: default
 
     {% endif %}
 
-    {% if page.cta_url %}
+  </div>
+
+</section>
+
+
+<!-- ==================================================
+     SERIES
+     ================================================== -->
+
+<section class="home-series">
+
+  <div class="container">
+
+    <header class="section-header">
+
+      <h2>
+        Scegli come imparare
+      </h2>
+
+      <p>
+        Percorsi pratici per imparare e usare l'inglese nella vita reale.
+      </p>
+
+    </header>
+
+
+    <div class="series-grid">
+
+      {% assign featured_series = site.data.site.series
+        | where: "featured", true
+        | sort: "order" %}
+
+      {% for series in featured_series limit: 6 %}
+
+        <article class="series-card">
+
+          <span class="series-number">
+            {{ series.order }}
+          </span>
+
+          <h3>
+            {{ series.title }}
+          </h3>
+
+          {% if series.description %}
+
+            <p>
+              {{ series.description }}
+            </p>
+
+          {% endif %}
+
+          <a
+            href="{{ series.permalink | relative_url }}"
+            class="series-link"
+          >
+            Scopri la serie →
+          </a>
+
+        </article>
+
+      {% endfor %}
+
+    </div>
+
+
+    <div class="section-action">
 
       <a
-        class="button button-primary"
-        href="{{ page.cta_url | relative_url }}"
+        href="{{ '/serie/' | relative_url }}"
+        class="button button-secondary"
       >
-        {{ page.cta_text }}
+        Vedi tutte le serie
       </a>
 
-    {% endif %}
+    </div>
 
   </div>
 
 </section>
 
 
-{{ content }}
+<!-- ==================================================
+     METHOD
+     ================================================== -->
+
+<section class="home-method">
+
+  <div class="container">
+
+    <header class="section-header">
+
+      <h2>
+        Un metodo semplice
+      </h2>
+
+      <p>
+        Impara, pratica e usa l'inglese con un approccio concreto e sostenibile.
+      </p>
+
+    </header>
+
+    <a
+      href="{{ '/metodo/' | relative_url }}"
+      class="button button-primary"
+    >
+      Scopri il metodo
+    </a>
+
+  </div>
+
+</section>
