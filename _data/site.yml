@@ -1,0 +1,128 @@
+# =========================================================
+# FLUENTE-MENTE
+# Site Data
+# =========================================================
+
+site:
+  name: "Fluente-Mente"
+  tagline: "L'inglese che ti serve. Spiegato in modo semplice."
+
+  description: "Inglese pratico, spiegato in modo semplice, con percorsi pensati per adulti."
+
+  language: "it"
+
+  github:
+    username: "Nausica-20"
+    repository: "FluenteMente"
+
+  urls:
+    site: "https://nausica-20.github.io/FluenteMente/"
+    github: "https://github.com/Nausica-20/FluenteMente"
+
+
+# ---------------------------------------------------------
+# BRAND
+# ---------------------------------------------------------
+
+brand:
+  primary_color: "#FF7A00"
+
+  light:
+    background: "#FFFDF9"
+    surface: "#FFFFFF"
+    text: "#202020"
+    text_soft: "#66615B"
+    border: "#E9E4DC"
+
+  dark:
+    background: "#171717"
+    surface: "#202020"
+    text: "#F4F1EC"
+    text_soft: "#B9B4AC"
+    border: "#35312C"
+
+
+# ---------------------------------------------------------
+# AFFILIATE
+# ---------------------------------------------------------
+
+affiliate:
+
+  babbel:
+    name: "Babbel Lifetime"
+
+    description: "Abbonamento a Babbel tutte le lingue per sempre (100 anni)."
+
+    network: "AWIN"
+
+    sponsored: true
+
+    url: "https://www.awin1.com/awclick.php?gid=416550&mid=9659&awinaffid=2764918&linkid=3421150&clickref="
+
+
+# ---------------------------------------------------------
+# NAVIGATION
+# ---------------------------------------------------------
+
+navigation:
+
+  main:
+    - title: "Serie"
+      url: "/serie/"
+
+    - title: "Blog"
+      url: "/blog/"
+
+    - title: "Metodo"
+      url: "/metodo/"
+
+  footer:
+    - title: "Chi siamo"
+      url: "/chi-siamo/"
+
+    - title: "Contatti"
+      url: "/contatti/"
+
+    - title: "Privacy"
+      url: "/privacy/"
+
+    - title: "Cookie Policy"
+      url: "/cookie-policy/"
+
+    - title: "Disclaimer"
+      url: "/disclaimer/"
+
+    - title: "Affiliate Disclosure"
+      url: "/affiliate-disclosure/"
+
+
+# ---------------------------------------------------------
+# EDITORIAL STRUCTURE
+# ---------------------------------------------------------
+
+editorial:
+
+  clusters:
+    - "beginner"
+    - "speaking"
+    - "travel"
+    - "business"
+    - "method"
+    - "mindset"
+    - "grammar"
+    - "vocabulary"
+    - "mistakes"
+    - "english-after-40"
+
+  series:
+    - "your-daily-english"
+    - "english-in-real-life"
+    - "real-english"
+    - "speak-english-with-confidence"
+    - "english-mistakes-italians-make"
+    - "15-minutes-of-english"
+    - "english-for-travel"
+    - "1000-english-phrases"
+    - "think-in-english"
+    - "english-made-simple"
+    - "english-after-40"
