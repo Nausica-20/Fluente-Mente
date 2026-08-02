@@ -3,7 +3,7 @@ layout: post
 title: "10 frasi inglesi da usare ogni giorno"
 description: "10 frasi inglesi semplici e utili da imparare per iniziare a usare l'inglese ogni giorno, con esempi e spiegazioni in italiano."
 date: 2026-08-03
-permalink: /blog/10-frasi-inglesi-da-usare-ogni-giorno/
+permalink: /10-frasi-inglesi-da-usare-ogni-giorno/
 category: vocabolario
 series: "your-daily-english"
 author: "Fluente-Mente"
