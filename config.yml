@@ -46,7 +46,6 @@ plugins:
 
 defaults:
 
-  # Articoli
   - scope:
       path: ""
       type: "posts"
@@ -54,7 +53,6 @@ defaults:
       layout: "post"
       lang: "it"
 
-  # Pagine
   - scope:
       path: ""
     values:
