@@ -1,0 +1,148 @@
+---
+layout: default
+---
+
+<section class="hero">
+
+  <div class="container hero-inner">
+
+    <span class="hero-label">
+      {{ site.data.site.name }}
+    </span>
+
+    <h1>
+      {{ page.title }}
+    </h1>
+
+    {% if page.description %}
+      <p class="hero-description">
+        {{ page.description }}
+      </p>
+    {% endif %}
+
+    <a
+      href="{{ '/serie/' | relative_url }}"
+      class="button button-primary"
+    >
+      Inizia da una serie
+    </a>
+
+  </div>
+
+</section>
+
+
+<section class="intro">
+
+  <div class="container">
+
+    <h2>
+      Inglese pratico. Inglese reale.
+    </h2>
+
+    <p>
+      {{ site.data.site.description }}
+    </p>
+
+  </div>
+
+</section>
+
+
+<section class="series-preview">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-label">
+        I percorsi
+      </span>
+
+      <h2>
+        Scegli come imparare
+      </h2>
+
+      <p>
+        Serie pensate per obiettivi, situazioni
+        e modi diversi di imparare l'inglese.
+      </p>
+
+    </div>
+
+
+    <div class="series-grid">
+
+      {% for series in site.data.site.series limit: 6 %}
+
+        <article class="series-card">
+
+          <span class="series-number">
+            {{ series.number | prepend: '0' | slice: -2, 2 }}
+          </span>
+
+          <h3>
+            {{ series.title }}
+          </h3>
+
+          <p>
+            {{ series.description }}
+          </p>
+
+          <a
+            href="{{ series.permalink | relative_url }}"
+            class="card-link"
+          >
+            Scopri la serie
+          </a>
+
+        </article>
+
+      {% endfor %}
+
+    </div>
+
+
+    <div class="section-action">
+
+      <a
+        href="{{ '/serie/' | relative_url }}"
+        class="button button-secondary"
+      >
+        Vedi tutte le serie
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="method-preview">
+
+  <div class="container">
+
+    <span class="section-label">
+      Metodo consigliato
+    </span>
+
+    <h2>
+      Imparare inglese può essere più semplice.
+    </h2>
+
+    <p>
+      Scopri un approccio pratico e sostenibile
+      per trasformare lo studio in una routine reale.
+    </p>
+
+    <a
+      href="{{ '/metodo/' | relative_url }}"
+      class="button button-primary"
+    >
+      Scopri il metodo
+    </a>
+
+  </div>
+
+</section>
