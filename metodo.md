@@ -374,20 +374,7 @@ permalink: /metodo/
 
   </div></section><!-- ==================================================
      CTA
-     ================================================== --><section class="method-preview">  <div class="container"><div class="method-cta">
-
-  <h2>
-    Vuoi un percorso più strutturato?
-  </h2>
-
-  <p>
-    Puoi affiancare ai contenuti gratuiti
-    di Fluente-Mente una piattaforma progettata
-    per accompagnarti nello studio dell'inglese.
-  </p>
+     =================================================
 
   {% include cta.html %}
 
-</div>
-
-  </div></section>
