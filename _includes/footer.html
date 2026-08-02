@@ -2,33 +2,34 @@
 
   <div class="container footer-inner">
 
-
+    <!-- Brand -->
     <div class="footer-brand">
 
       <a
         class="footer-logo"
         href="{{ '/' | relative_url }}"
       >
-        {{ site.data.site.name }}
+        {{ site.data.site.brand.logo_text }}
       </a>
 
       <p class="footer-tagline">
-        {{ site.data.site.tagline }}
+        {{ site.data.site.brand.tagline }}
       </p>
 
     </div>
 
 
+    <!-- Navigazione -->
     <nav
       class="footer-nav"
       aria-label="Navigazione footer"
     >
 
-      {% for item in site.data.site.navigation.footer %}
+      {% for item in site.data.site.footer.navigation %}
 
         <a
-          href="{{ item.url | relative_url }}"
           class="footer-link"
+          href="{{ item.url | relative_url }}"
         >
           {{ item.title }}
         </a>
@@ -38,18 +39,23 @@
     </nav>
 
 
+    <!-- Copyright -->
     <div class="footer-bottom">
 
       <p>
-        © {{ 'now' | date: '%Y' }}
-        {{ site.data.site.name }}.
+        © {{ 'now' | date: "%Y" }}
+        {{ site.data.site.footer.copyright }}.
         Tutti i diritti riservati.
       </p>
 
-      <p class="footer-disclosure">
-        Alcuni link presenti sul sito possono essere
-        link affiliati.
-      </p>
+
+      {% if site.data.site.affiliate.enabled %}
+
+        <p class="footer-disclosure">
+          {{ site.data.site.affiliate.disclosure }}
+        </p>
+
+      {% endif %}
 
     </div>
 
