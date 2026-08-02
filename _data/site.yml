@@ -8,24 +8,30 @@
 # SITE
 # =========================================================
 
-site:
+name: "Fluente-Mente"
 
-  name: "Fluente-Mente"
+tagline: "L'inglese che ti serve. Spiegato in modo semplice."
 
-  tagline: "L'inglese che ti serve. Spiegato in modo semplice."
+description: >
+  Inglese pratico, inglese reale e metodi semplici
+  per imparare e usare l'inglese nella vita quotidiana.
 
-  description: >
-    Inglese pratico, inglese reale e metodi semplici
-    per imparare e usare l'inglese nella vita quotidiana.
+language: "it"
 
-  language: "it"
+url: "https://nausica-20.github.io/FluenteMente/"
 
-  url: "https://nausica-20.github.io/FluenteMente/"
 
-  github:
-    username: "Nausica-20"
-    repository: "FluenteMente"
-    url: "https://github.com/Nausica-20/FluenteMente"
+# =========================================================
+# GITHUB
+# =========================================================
+
+github:
+
+  username: "Nausica-20"
+
+  repository: "FluenteMente"
+
+  url: "https://github.com/Nausica-20/FluenteMente"
 
 
 # =========================================================
@@ -158,6 +164,7 @@ clusters:
   - id: "english-after-40"
     title: "English After 40"
     description: "Imparare inglese da adulti con un metodo sostenibile."
+
 
 
 # =========================================================
