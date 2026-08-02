@@ -4,9 +4,8 @@ title: "Serie di inglese"
 description: "Percorsi e serie pratiche per imparare, ripassare e usare l'inglese nella vita reale."
 permalink: /serie/
 ---
-==================================================
-     HERO
-     ================================================== --><section class="page-header">  <div class="container"><span class="section-label">
+
+--><section class="page-header">  <div class="container"><span class="section-label">
   FLUENTE-MENTE
 </span>
 
