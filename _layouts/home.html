@@ -32,7 +32,7 @@ layout: default
 
 
 <!-- ==================================================
-     SERIES
+     SERIE PRINCIPALI
      ================================================== -->
 
 <section class="home-series">
@@ -46,7 +46,8 @@ layout: default
       </h2>
 
       <p>
-        Percorsi pratici per imparare e usare l'inglese nella vita reale.
+        Percorsi pratici per imparare e usare l'inglese
+        nella vita reale.
       </p>
 
     </header>
@@ -54,26 +55,32 @@ layout: default
 
     <div class="series-grid">
 
-      {% assign featured_series = site.data.site.series
-        | where: "featured", true
-        | sort: "order" %}
+      {% assign series_list = site.data.site.series | sort: "number" %}
 
-      {% for series in featured_series limit: 6 %}
+      {% for series in series_list limit: 6 %}
 
         <article class="series-card">
 
           <span class="series-number">
-            {{ series.order }}
+            {{ series.number }}
           </span>
 
           <h3>
             {{ series.title }}
           </h3>
 
-          {% if series.description %}
+          {% if series.tagline %}
+
+            <p class="series-tagline">
+              {{ series.tagline }}
+            </p>
+
+          {% endif %}
+
+          {% if series.short_description %}
 
             <p>
-              {{ series.description }}
+              {{ series.short_description }}
             </p>
 
           {% endif %}
@@ -95,7 +102,7 @@ layout: default
     <div class="section-action">
 
       <a
-        href="{{ '/serie/' | relative_url }}"
+        href="{{ site.data.site.urls.series | relative_url }}"
         class="button button-secondary"
       >
         Vedi tutte le serie
@@ -109,7 +116,7 @@ layout: default
 
 
 <!-- ==================================================
-     METHOD
+     METODO
      ================================================== -->
 
 <section class="home-method">
@@ -123,13 +130,14 @@ layout: default
       </h2>
 
       <p>
-        Impara, pratica e usa l'inglese con un approccio concreto e sostenibile.
+        Impara, pratica e usa l'inglese con un approccio
+        concreto e sostenibile.
       </p>
 
     </header>
 
     <a
-      href="{{ '/metodo/' | relative_url }}"
+      href="{{ site.data.site.urls.method | relative_url }}"
       class="button button-primary"
     >
       Scopri il metodo
