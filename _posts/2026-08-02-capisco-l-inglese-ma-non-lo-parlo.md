@@ -189,7 +189,7 @@ L'obiettivo è abituare il cervello a recuperare le parole direttamente in ingle
 
 Con la pratica, il passaggio da "capisco" a "riesco a parlare" diventa progressivamente più naturale.
 
-{% include cta.html type="strong" %}
+
 
 ---
 
