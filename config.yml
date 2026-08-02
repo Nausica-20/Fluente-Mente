@@ -4,7 +4,11 @@
 # =========================================================
 
 title: "Fluente-Mente"
-description: "Inglese pratico, spiegato in modo semplice."
+
+description: >
+  Inglese pratico, inglese reale e metodi semplici
+  per imparare e usare l'inglese nella vita quotidiana.
+
 lang: "it"
 
 url: "https://nausica-20.github.io"
@@ -15,30 +19,34 @@ author:
 
 github_username: "Nausica-20"
 
-# ---------------------------------------------------------
-# Build
-# ---------------------------------------------------------
+
+# =========================================================
+# BUILD
+# =========================================================
 
 markdown: kramdown
-permalink: /:categories/:title/
 
 timezone: Europe/Rome
 
-# ---------------------------------------------------------
-# Collections
-# ---------------------------------------------------------
+permalink: pretty
 
-collections:
-  series:
-    output: true
-    permalink: /serie/:name/
 
-# ---------------------------------------------------------
-# Defaults
-# ---------------------------------------------------------
+# =========================================================
+# PLUGINS
+# =========================================================
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+
+# =========================================================
+# DEFAULTS
+# =========================================================
 
 defaults:
 
+  # Articoli
   - scope:
       path: ""
       type: "posts"
@@ -46,30 +54,17 @@ defaults:
       layout: "post"
       lang: "it"
 
-  - scope:
-      path: ""
-      type: "series"
-    values:
-      layout: "series"
-      lang: "it"
-
+  # Pagine
   - scope:
       path: ""
     values:
       layout: "default"
       lang: "it"
 
-# ---------------------------------------------------------
-# Plugins
-# ---------------------------------------------------------
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# ---------------------------------------------------------
-# Exclude
-# ---------------------------------------------------------
+# =========================================================
+# EXCLUDE
+# =========================================================
 
 exclude:
   - README.md
