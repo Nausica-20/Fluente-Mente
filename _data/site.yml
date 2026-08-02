@@ -3,35 +3,45 @@
 # Site Data
 # =========================================================
 
+
+# =========================================================
+# SITE
+# =========================================================
+
 site:
+
   name: "Fluente-Mente"
+
   tagline: "L'inglese che ti serve. Spiegato in modo semplice."
 
-  description: "Inglese pratico, spiegato in modo semplice, con percorsi pensati per adulti."
+  description: >
+    Inglese pratico, inglese reale e metodi semplici
+    per imparare e usare l'inglese nella vita quotidiana.
 
   language: "it"
+
+  url: "https://nausica-20.github.io/FluenteMente/"
 
   github:
     username: "Nausica-20"
     repository: "FluenteMente"
-
-  urls:
-    site: "https://nausica-20.github.io/FluenteMente/"
-    github: "https://github.com/Nausica-20/FluenteMente"
+    url: "https://github.com/Nausica-20/FluenteMente"
 
 
-# ---------------------------------------------------------
+# =========================================================
 # BRAND
-# ---------------------------------------------------------
+# =========================================================
 
 brand:
-  primary_color: "#FF7A00"
+
+  primary: "#FF7A00"
 
   light:
     background: "#FFFDF9"
     surface: "#FFFFFF"
     text: "#202020"
     text_soft: "#66615B"
+    text_muted: "#8B857D"
     border: "#E9E4DC"
 
   dark:
@@ -39,34 +49,18 @@ brand:
     surface: "#202020"
     text: "#F4F1EC"
     text_soft: "#B9B4AC"
+    text_muted: "#8F8A83"
     border: "#35312C"
 
 
-# ---------------------------------------------------------
-# AFFILIATE
-# ---------------------------------------------------------
-
-affiliate:
-
-  babbel:
-    name: "Babbel Lifetime"
-
-    description: "Abbonamento a Babbel tutte le lingue per sempre (100 anni)."
-
-    network: "AWIN"
-
-    sponsored: true
-
-    url: "https://www.awin1.com/awclick.php?gid=416550&mid=9659&awinaffid=2764918&linkid=3421150&clickref="
-
-
-# ---------------------------------------------------------
+# =========================================================
 # NAVIGATION
-# ---------------------------------------------------------
+# =========================================================
 
 navigation:
 
   main:
+
     - title: "Serie"
       url: "/serie/"
 
@@ -76,7 +70,9 @@ navigation:
     - title: "Metodo"
       url: "/metodo/"
 
+
   footer:
+
     - title: "Chi siamo"
       url: "/chi-siamo/"
 
@@ -96,33 +92,608 @@ navigation:
       url: "/affiliate-disclosure/"
 
 
-# ---------------------------------------------------------
-# EDITORIAL STRUCTURE
-# ---------------------------------------------------------
+# =========================================================
+# AFFILIATE
+# =========================================================
 
-editorial:
+affiliate:
 
-  clusters:
-    - "beginner"
-    - "speaking"
-    - "travel"
-    - "business"
-    - "method"
-    - "mindset"
-    - "grammar"
-    - "vocabulary"
-    - "mistakes"
-    - "english-after-40"
+  babbel:
 
-  series:
-    - "your-daily-english"
-    - "english-in-real-life"
-    - "real-english"
-    - "speak-english-with-confidence"
-    - "english-mistakes-italians-make"
-    - "15-minutes-of-english"
-    - "english-for-travel"
-    - "1000-english-phrases"
-    - "think-in-english"
-    - "english-made-simple"
-    - "english-after-40"
+    name: "Babbel Lifetime"
+
+    description: >
+      Abbonamento a Babbel tutte le lingue per sempre
+      (100 anni).
+
+    network: "AWIN"
+
+    sponsored: true
+
+    url: "https://www.awin1.com/awclick.php?gid=416550&mid=9659&awinaffid=2764918&linkid=3421150&clickref="
+
+
+# =========================================================
+# EDITORIAL CLUSTERS
+# =========================================================
+
+clusters:
+
+  - id: "beginner"
+    title: "Inglese per principianti"
+    description: "Impara le basi dell'inglese in modo semplice e pratico."
+
+  - id: "speaking"
+    title: "Parlare inglese"
+    description: "Strategie e pratica per parlare inglese con maggiore sicurezza."
+
+  - id: "grammar"
+    title: "Grammatica pratica"
+    description: "La grammatica inglese spiegata in modo chiaro e utile."
+
+  - id: "vocabulary"
+    title: "Vocabolario"
+    description: "Parole ed espressioni inglesi da usare nella vita reale."
+
+  - id: "travel"
+    title: "Inglese per viaggiare"
+    description: "L'inglese pratico che serve durante un viaggio."
+
+  - id: "business"
+    title: "Business English"
+    description: "Inglese utile per lavoro, riunioni, email e carriera."
+
+  - id: "method"
+    title: "Metodo"
+    description: "Come imparare inglese in modo efficace e sostenibile."
+
+  - id: "mindset"
+    title: "Mindset"
+    description: "Motivazione, abitudini e mentalità per imparare meglio."
+
+  - id: "mistakes"
+    title: "Errori degli italiani"
+    description: "Gli errori più comuni degli italiani quando parlano inglese."
+
+  - id: "english-after-40"
+    title: "English After 40"
+    description: "Imparare inglese da adulti con un metodo sostenibile."
+
+
+# =========================================================
+# SERIES
+# =========================================================
+
+series:
+
+
+  # -------------------------------------------------------
+  # 01 — YOUR DAILY ENGLISH
+  # -------------------------------------------------------
+
+  - id: "your-daily-english"
+    number: 1
+
+    title: "Your Daily English — 365"
+    short_title: "Your Daily English"
+
+    slug: "your-daily-english"
+    permalink: "/serie/your-daily-english/"
+
+    tagline: "Un piccolo passo di inglese ogni giorno."
+
+    description: >
+      365 lezioni brevi e pratiche per imparare,
+      ripassare e usare l'inglese un giorno alla volta.
+
+    audience:
+      - "adulti"
+      - "principianti"
+      - "livello intermedio"
+
+    goal: >
+      Creare una routine quotidiana semplice e sostenibile
+      per migliorare il proprio inglese.
+
+    format: "micro-learning"
+    frequency: "daily"
+
+    content_type:
+      - "daily lesson"
+      - "phrase"
+      - "vocabulary"
+      - "grammar"
+      - "mini practice"
+
+    primary_cluster: "method"
+
+    related_clusters:
+      - "beginner"
+      - "vocabulary"
+      - "grammar"
+      - "speaking"
+      - "mindset"
+
+
+  # -------------------------------------------------------
+  # 02 — ENGLISH IN REAL LIFE
+  # -------------------------------------------------------
+
+  - id: "english-in-real-life"
+    number: 2
+
+    title: "English in Real Life"
+    short_title: "English in Real Life"
+
+    slug: "english-in-real-life"
+    permalink: "/serie/english-in-real-life/"
+
+    tagline: "L'inglese nelle situazioni che vivi davvero."
+
+    description: >
+      Inglese pratico per affrontare conversazioni
+      e situazioni quotidiane con frasi realmente utilizzabili.
+
+    audience:
+      - "adulti"
+      - "principianti"
+      - "livello intermedio"
+
+    goal: >
+      Imparare l'inglese attraverso situazioni concrete
+      della vita quotidiana.
+
+    format: "practical situations"
+    frequency: "evergreen"
+
+    content_type:
+      - "real-life situations"
+      - "dialogues"
+      - "useful phrases"
+      - "vocabulary"
+      - "practice"
+
+    primary_cluster: "speaking"
+
+    related_clusters:
+      - "beginner"
+      - "vocabulary"
+      - "travel"
+      - "business"
+      - "speaking"
+
+
+  # -------------------------------------------------------
+  # 03 — REAL ENGLISH
+  # -------------------------------------------------------
+
+  - id: "real-english"
+    number: 3
+
+    title: "Real English"
+    short_title: "Real English"
+
+    slug: "real-english"
+    permalink: "/serie/real-english/"
+
+    tagline: "L'inglese naturale che si usa davvero."
+
+    description: >
+      Parole, espressioni, abbreviazioni e modi di dire
+      che incontreresti nella comunicazione reale,
+      oltre l'inglese dei libri di scuola.
+
+    audience:
+      - "adulti"
+      - "livello intermedio"
+      - "livello avanzato"
+
+    goal: >
+      Aiutare il lettore a riconoscere e usare
+      un inglese più naturale e autentico.
+
+    format: "real-world English"
+    frequency: "evergreen"
+
+    content_type:
+      - "natural English"
+      - "expressions"
+      - "collocations"
+      - "spoken English"
+      - "real examples"
+
+    primary_cluster: "vocabulary"
+
+    related_clusters:
+      - "speaking"
+      - "mindset"
+      - "travel"
+      - "business"
+
+
+  # -------------------------------------------------------
+  # 04 — SPEAK ENGLISH WITH CONFIDENCE
+  # -------------------------------------------------------
+
+  - id: "speak-english-with-confidence"
+    number: 4
+
+    title: "Speak English with Confidence"
+    short_title: "Speak English with Confidence"
+
+    slug: "speak-english-with-confidence"
+    permalink: "/serie/speak-english-with-confidence/"
+
+    tagline: "Parlare inglese senza bloccarsi."
+
+    description: >
+      Strategie pratiche per superare il blocco,
+      trovare le parole e iniziare a parlare inglese
+      con maggiore sicurezza.
+
+    audience:
+      - "adulti"
+      - "principianti"
+      - "livello intermedio"
+
+    goal: >
+      Trasformare la conoscenza passiva dell'inglese
+      in una capacità concreta di comunicare.
+
+    format: "speaking practice"
+    frequency: "evergreen"
+
+    content_type:
+      - "speaking strategies"
+      - "confidence"
+      - "conversation"
+      - "practice"
+      - "common situations"
+
+    primary_cluster: "speaking"
+
+    related_clusters:
+      - "mindset"
+      - "beginner"
+      - "method"
+      - "mistakes"
+
+
+  # -------------------------------------------------------
+  # 05 — ENGLISH MISTAKES ITALIANS MAKE
+  # -------------------------------------------------------
+
+  - id: "english-mistakes-italians-make"
+    number: 5
+
+    title: "English Mistakes Italians Make"
+    short_title: "English Mistakes Italians Make"
+
+    slug: "english-mistakes-italians-make"
+    permalink: "/serie/english-mistakes-italians-make/"
+
+    tagline: "Gli errori più comuni degli italiani in inglese."
+
+    description: >
+      Gli errori tipici che gli italiani commettono
+      quando parlano, scrivono o traducono mentalmente
+      dall'italiano all'inglese.
+
+    audience:
+      - "italiani"
+      - "adulti"
+      - "principianti"
+      - "livello intermedio"
+
+    goal: >
+      Riconoscere gli errori ricorrenti e sostituirli
+      con forme inglesi naturali e corrette.
+
+    format: "mistake correction"
+    frequency: "evergreen"
+
+    content_type:
+      - "common mistakes"
+      - "Italianisms"
+      - "grammar mistakes"
+      - "false friends"
+      - "translation mistakes"
+
+    primary_cluster: "mistakes"
+
+    related_clusters:
+      - "grammar"
+      - "speaking"
+      - "vocabulary"
+      - "beginner"
+
+
+  # -------------------------------------------------------
+  # 06 — 15 MINUTES OF ENGLISH
+  # -------------------------------------------------------
+
+  - id: "15-minutes-of-english"
+    number: 6
+
+    title: "15 Minutes of English"
+    short_title: "15 Minutes of English"
+
+    slug: "15-minutes-of-english"
+    permalink: "/serie/15-minutes-of-english/"
+
+    tagline: "Una micro-routine per migliorare ogni giorno."
+
+    description: >
+      Routine di inglese da 15 minuti pensate per chi
+      ha poco tempo ma vuole continuare a migliorare
+      con costanza.
+
+    audience:
+      - "adulti"
+      - "professionisti"
+      - "persone con poco tempo"
+
+    goal: >
+      Rendere l'apprendimento dell'inglese sostenibile
+      anche nelle giornate più impegnative.
+
+    format: "15-minute routine"
+    frequency: "evergreen"
+
+    content_type:
+      - "daily routines"
+      - "micro-learning"
+      - "speaking practice"
+      - "vocabulary practice"
+      - "grammar practice"
+
+    primary_cluster: "method"
+
+    related_clusters:
+      - "mindset"
+      - "speaking"
+      - "vocabulary"
+      - "grammar"
+      - "english-after-40"
+
+
+  # -------------------------------------------------------
+  # 07 — ENGLISH FOR TRAVEL
+  # -------------------------------------------------------
+
+  - id: "english-for-travel"
+    number: 7
+
+    title: "English for Travel"
+    short_title: "English for Travel"
+
+    slug: "english-for-travel"
+    permalink: "/serie/english-for-travel/"
+
+    tagline: "Inglese pratico per viaggiare."
+
+    description: >
+      Frasi, parole, dialoghi e situazioni indispensabili
+      per usare l'inglese durante un viaggio.
+
+    audience:
+      - "viaggiatori"
+      - "adulti"
+      - "principianti"
+      - "livello intermedio"
+
+    goal: >
+      Permettere al lettore di gestire con maggiore
+      sicurezza le principali situazioni di viaggio.
+
+    format: "travel English"
+    frequency: "evergreen"
+
+    content_type:
+      - "airport English"
+      - "hotel English"
+      - "restaurant English"
+      - "transport"
+      - "directions"
+      - "travel phrases"
+
+    primary_cluster: "travel"
+
+    related_clusters:
+      - "speaking"
+      - "vocabulary"
+      - "beginner"
+      - "real-english"
+
+
+  # -------------------------------------------------------
+  # 08 — 1000 ENGLISH PHRASES
+  # -------------------------------------------------------
+
+  - id: "1000-english-phrases"
+    number: 8
+
+    title: "1000 English Phrases"
+    short_title: "1000 English Phrases"
+
+    slug: "1000-english-phrases"
+    permalink: "/serie/1000-english-phrases/"
+
+    tagline: "Frasi inglesi realmente utilizzabili."
+
+    description: >
+      Una raccolta progressiva di frasi inglesi utili
+      organizzate per situazione, contesto e livello.
+
+    audience:
+      - "adulti"
+      - "principianti"
+      - "livello intermedio"
+
+    goal: >
+      Costruire un repertorio di frasi pronte all'uso
+      per parlare inglese in situazioni reali.
+
+    format: "phrase library"
+    frequency: "evergreen"
+
+    content_type:
+      - "useful phrases"
+      - "conversation"
+      - "travel phrases"
+      - "work phrases"
+      - "daily English"
+
+    primary_cluster: "vocabulary"
+
+    related_clusters:
+      - "speaking"
+      - "travel"
+      - "business"
+      - "beginner"
+      - "real-english"
+
+
+  # -------------------------------------------------------
+  # 09 — THINK IN ENGLISH
+  # -------------------------------------------------------
+
+  - id: "think-in-english"
+    number: 9
+
+    title: "Think in English"
+    short_title: "Think in English"
+
+    slug: "think-in-english"
+    permalink: "/serie/think-in-english/"
+
+    tagline: "Smettere di tradurre mentalmente."
+
+    description: >
+      Strategie ed esercizi per ridurre gradualmente
+      la traduzione dall'italiano all'inglese e sviluppare
+      una risposta più diretta in inglese.
+
+    audience:
+      - "adulti"
+      - "livello intermedio"
+      - "livello avanzato"
+
+    goal: >
+      Rendere il passaggio dall'idea alla frase inglese
+      più rapido, naturale e automatico.
+
+    format: "language mindset"
+    frequency: "evergreen"
+
+    content_type:
+      - "thinking exercises"
+      - "mental translation"
+      - "speaking"
+      - "fluency"
+      - "language habits"
+
+    primary_cluster: "method"
+
+    related_clusters:
+      - "speaking"
+      - "mindset"
+      - "vocabulary"
+      - "english-after-40"
+
+
+  # -------------------------------------------------------
+  # 10 — ENGLISH MADE SIMPLE
+  # -------------------------------------------------------
+
+  - id: "english-made-simple"
+    number: 10
+
+    title: "English Made Simple"
+    short_title: "English Made Simple"
+
+    slug: "english-made-simple"
+    permalink: "/serie/english-made-simple/"
+
+    tagline: "L'inglese spiegato in modo semplice."
+
+    description: >
+      Spiegazioni chiare e pratiche di grammatica,
+      vocaboli, strutture e concetti dell'inglese
+      senza tecnicismi inutili.
+
+    audience:
+      - "adulti"
+      - "principianti"
+      - "livello intermedio"
+
+    goal: >
+      Rendere comprensibili anche gli aspetti dell'inglese
+      che spesso vengono spiegati in modo troppo complicato.
+
+    format: "simple explanations"
+    frequency: "evergreen"
+
+    content_type:
+      - "grammar"
+      - "vocabulary"
+      - "language structures"
+      - "simple explanations"
+      - "examples"
+
+    primary_cluster: "grammar"
+
+    related_clusters:
+      - "beginner"
+      - "vocabulary"
+      - "mistakes"
+      - "method"
+
+
+  # -------------------------------------------------------
+  # 11 — ENGLISH AFTER 40
+  # -------------------------------------------------------
+
+  - id: "english-after-40"
+    number: 11
+
+    title: "English After 40"
+    short_title: "English After 40"
+
+    slug: "english-after-40"
+    permalink: "/serie/english-after-40/"
+
+    tagline: "Imparare inglese da adulti, con un metodo sostenibile."
+
+    description: >
+      Strategie, metodo e motivazione per continuare
+      a imparare inglese dopo i 40 anni con un approccio
+      realistico e sostenibile.
+
+    audience:
+      - "adulti 40+"
+      - "lifelong learners"
+      - "adulti che ricominciano da zero"
+
+    goal: >
+      Costruire un approccio realistico e sostenibile
+      all'apprendimento dell'inglese in età adulta.
+
+    format: "adult learning"
+    frequency: "evergreen"
+
+    content_type:
+      - "adult learning"
+      - "study methods"
+      - "motivation"
+      - "memory"
+      - "speaking confidence"
+      - "learning routines"
+
+    primary_cluster: "english-after-40"
+
+    related_clusters:
+      - "method"
+      - "mindset"
+      - "speaking"
+      - "beginner"
