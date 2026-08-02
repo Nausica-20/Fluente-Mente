@@ -189,12 +189,10 @@ L'obiettivo è abituare il cervello a recuperare le parole direttamente in ingle
 
 Con la pratica, il passaggio da "capisco" a "riesco a parlare" diventa progressivamente più naturale.
 
-
-
 ---
 
 ### Continua da qui
 
-Se il problema non è solo parlare, ma anche **pensare continuamente in italiano prima di formulare una frase inglese**, puoi approfondire il tema con la serie **Think in English**.
+Se il problema non è solo parlare, ma anche **pensare continuamente in italiano prima di formulare una frase inglese**, puoi approfondire il tema con la serie [Think in English](/Fluente-Mente/serie/think-in-english/).
 
-Oppure puoi continuare con gli altri articoli di **Speak English with Confidence** per costruire gradualmente più sicurezza nella conversazione.
+Oppure puoi continuare con gli altri articoli di [Speak English with Confidence](/Fluente-Mente/serie/speak-english-with-confidence/) per costruire gradualmente più sicurezza nella conversazione.
