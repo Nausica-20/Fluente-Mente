@@ -1,34 +1,68 @@
-<section class="affiliate-cta">
+{% comment %}
+============================================================
+FLUENTE-MENTE — AFFILIATE CTA
+============================================================
 
-  <div class="container affiliate-cta-inner">
+Utilizzo:
+
+{% include cta.html %}
+
+oppure:
+
+{% include cta.html type="soft" %}
+{% include cta.html type="medium" %}
+{% include cta.html type="strong" %}
+
+Il contenuto e il link vengono recuperati
+automaticamente da _data/site.yml.
+{% endcomment %}
+
+
+{% assign cta_type = include.type | default: "default" %}
+
+{% assign cta = site.data.site.affiliate.cta[cta_type] %}
+
+
+{% if site.data.site.affiliate.enabled and cta %}
+
+<section
+  class="affiliate-cta"
+  aria-label="Risorsa consigliata"
+>
+
+  <div class="affiliate-cta-inner">
 
     <span class="affiliate-cta-label">
-      Metodo consigliato
+      {{ site.data.site.affiliate.partner }}
     </span>
 
+
     <h2>
-      Impara l'inglese con Babbel
+      {{ cta.title }}
     </h2>
 
+
     <p>
-      Un percorso strutturato per imparare l'inglese
-      con lezioni pratiche, brevi e adatte alla vita reale.
+      {{ cta.text }}
     </p>
 
+
     <a
-      href="{{ site.data.site.affiliate.babbel.url }}"
       class="affiliate-cta-button"
-      rel="sponsored"
+      href="{{ site.data.site.affiliate.url }}"
+      rel="{{ site.data.site.affiliate.rel }}"
       target="_blank"
     >
-      Scopri Babbel Lifetime
+      {{ cta.button }}
     </a>
 
+
     <small class="affiliate-cta-note">
-      Link affiliato. Fluente-Mente potrebbe ricevere
-      una commissione senza costi aggiuntivi per te.
+      {{ site.data.site.affiliate.disclosure }}
     </small>
 
   </div>
 
 </section>
+
+{% endif %}
