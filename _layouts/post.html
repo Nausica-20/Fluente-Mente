@@ -1,0 +1,149 @@
+---
+layout: default
+---
+
+<article class="article">
+
+  <div class="container article-container">
+
+
+    <!-- Breadcrumb -->
+
+    <nav
+      class="breadcrumbs"
+      aria-label="Breadcrumb"
+    >
+
+      <a href="{{ '/' | relative_url }}">
+        Home
+      </a>
+
+      <span aria-hidden="true">
+        /
+      </span>
+
+      <a href="{{ '/blog/' | relative_url }}">
+        Blog
+      </a>
+
+      {% if page.cluster %}
+
+        <span aria-hidden="true">
+          /
+        </span>
+
+        <span>
+          {{ page.cluster | replace: '-', ' ' | capitalize }}
+        </span>
+
+      {% endif %}
+
+    </nav>
+
+
+    <!-- Article Header -->
+
+    <header class="article-header">
+
+      {% if page.series %}
+
+        {% assign current_series = site.data.site.series
+          | where: "id", page.series
+          | first
+        %}
+
+        {% if current_series %}
+
+          <a
+            class="article-series"
+            href="{{ current_series.permalink | relative_url }}"
+          >
+            {{ current_series.title }}
+          </a>
+
+        {% endif %}
+
+      {% endif %}
+
+
+      <h1>
+        {{ page.title }}
+      </h1>
+
+
+      {% if page.description %}
+
+        <p class="article-description">
+          {{ page.description }}
+        </p>
+
+      {% endif %}
+
+
+      <div class="article-meta">
+
+        {% if page.date %}
+
+          <time datetime="{{ page.date | date_to_xmlschema }}">
+            {{ page.date | date: "%d/%m/%Y" }}
+          </time>
+
+        {% endif %}
+
+        {% if page.reading_time %}
+
+          <span aria-hidden="true">
+            ·
+          </span>
+
+          <span>
+            {{ page.reading_time }} min di lettura
+          </span>
+
+        {% endif %}
+
+      </div>
+
+    </header>
+
+
+    <!-- Article Content -->
+
+    <div class="article-content">
+
+      {{ content }}
+
+    </div>
+
+
+    <!-- Affiliate CTA -->
+
+    {% include cta.html %}
+
+
+    <!-- Article Footer -->
+
+    <footer class="article-footer">
+
+      {% if page.tags %}
+
+        <div class="article-tags">
+
+          {% for tag in page.tags %}
+
+            <span class="tag">
+              {{ tag }}
+            </span>
+
+          {% endfor %}
+
+        </div>
+
+      {% endif %}
+
+    </footer>
+
+
+  </div>
+
+</article>
