@@ -7,7 +7,9 @@ layout: default
   <div class="container article-container">
 
 
-    <!-- Breadcrumb -->
+    <!-- ==================================================
+         BREADCRUMB
+         ================================================== -->
 
     <nav
       class="breadcrumbs"
@@ -18,65 +20,56 @@ layout: default
         Home
       </a>
 
-      <span aria-hidden="true">
-        /
-      </span>
+      <span aria-hidden="true">/</span>
 
       <a href="{{ '/serie/' | relative_url }}">
         Serie
       </a>
 
-      {% if page.series %}
-
-        <span aria-hidden="true">
-          /
-        </span>
-
-        <span>
-          {{ page.series }}
-        </span>
-
-      {% endif %}
-
-    </nav>
-
-
-    <!-- Article header -->
-
-    <header class="article-header">
-
+      {% assign current_series = nil %}
 
       {% if page.series %}
-
-        {% assign current_series = nil %}
 
         {% for series in site.data.site.series %}
 
           {% if series.id == page.series %}
 
             {% assign current_series = series %}
+            {% break %}
 
           {% endif %}
 
         {% endfor %}
 
-
         {% if current_series %}
 
-          <a
-            class="article-series"
-            href="{{ current_series.permalink | relative_url }}"
-          >
+          <span aria-hidden="true">/</span>
+
+          <a href="{{ current_series.permalink | relative_url }}">
             {{ current_series.title }}
           </a>
 
-        {% else %}
-
-          <span class="article-series">
-            {{ page.series }}
-          </span>
-
         {% endif %}
+
+      {% endif %}
+
+    </nav>
+
+
+    <!-- ==================================================
+         ARTICLE HEADER
+         ================================================== -->
+
+    <header class="article-header">
+
+      {% if current_series %}
+
+        <a
+          class="article-series"
+          href="{{ current_series.permalink | relative_url }}"
+        >
+          {{ current_series.title }}
+        </a>
 
       {% endif %}
 
@@ -105,11 +98,10 @@ layout: default
 
         {% endif %}
 
+
         {% if page.author %}
 
-          <span aria-hidden="true">
-            ·
-          </span>
+          <span aria-hidden="true">·</span>
 
           <span>
             {{ page.author }}
@@ -122,7 +114,9 @@ layout: default
     </header>
 
 
-    <!-- Article content -->
+    <!-- ==================================================
+         ARTICLE CONTENT
+         ================================================== -->
 
     <div class="article-content">
 
@@ -131,13 +125,13 @@ layout: default
     </div>
 
 
-    <!-- CTA -->
+    <!-- ==================================================
+         AFFILIATE CTA
+         ================================================== -->
 
-    {% assign article_cta = page.cta %}
+    {% if page.cta %}
 
-    {% if article_cta %}
-
-      {% include cta.html type=article_cta %}
+      {% include cta.html type=page.cta %}
 
     {% elsif current_series and current_series.cta %}
 
@@ -150,7 +144,9 @@ layout: default
     {% endif %}
 
 
-    <!-- Article footer -->
+    <!-- ==================================================
+         ARTICLE FOOTER / TAGS
+         ================================================== -->
 
     {% if page.tags %}
 
@@ -172,7 +168,6 @@ layout: default
 
     {% endif %}
 
-
   </div>
 
-</article>
+  </article>
