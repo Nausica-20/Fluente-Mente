@@ -3,7 +3,6 @@ layout: default
 title: "Serie di inglese"
 description: "Percorsi pratici per imparare, ripassare e usare l'inglese nella vita reale."
 permalink: /serie/
----
 
 <!-- ==================================================
      HERO
