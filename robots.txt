@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nausica-20.github.io/FluenteMente/sitemap.xml
