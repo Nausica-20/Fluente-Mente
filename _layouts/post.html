@@ -22,18 +22,18 @@ layout: default
         /
       </span>
 
-      <a href="{{ '/blog/' | relative_url }}">
-        Blog
+      <a href="{{ '/serie/' | relative_url }}">
+        Serie
       </a>
 
-      {% if page.cluster %}
+      {% if page.series %}
 
         <span aria-hidden="true">
           /
         </span>
 
         <span>
-          {{ page.cluster | replace: '-', ' ' | capitalize }}
+          {{ page.series }}
         </span>
 
       {% endif %}
@@ -41,16 +41,25 @@ layout: default
     </nav>
 
 
-    <!-- Article Header -->
+    <!-- Article header -->
 
     <header class="article-header">
 
+
       {% if page.series %}
 
-        {% assign current_series = site.data.site.series
-          | where: "id", page.series
-          | first
-        %}
+        {% assign current_series = nil %}
+
+        {% for series in site.data.site.series %}
+
+          {% if series.id == page.series %}
+
+            {% assign current_series = series %}
+
+          {% endif %}
+
+        {% endfor %}
+
 
         {% if current_series %}
 
@@ -60,6 +69,12 @@ layout: default
           >
             {{ current_series.title }}
           </a>
+
+        {% else %}
+
+          <span class="article-series">
+            {{ page.series }}
+          </span>
 
         {% endif %}
 
@@ -90,14 +105,14 @@ layout: default
 
         {% endif %}
 
-        {% if page.reading_time %}
+        {% if page.author %}
 
           <span aria-hidden="true">
             ·
           </span>
 
           <span>
-            {{ page.reading_time }} min di lettura
+            {{ page.author }}
           </span>
 
         {% endif %}
@@ -107,7 +122,7 @@ layout: default
     </header>
 
 
-    <!-- Article Content -->
+    <!-- Article content -->
 
     <div class="article-content">
 
@@ -116,16 +131,30 @@ layout: default
     </div>
 
 
-    <!-- Affiliate CTA -->
+    <!-- CTA -->
 
-    {% include cta.html %}
+    {% assign article_cta = page.cta %}
+
+    {% if article_cta %}
+
+      {% include cta.html type=article_cta %}
+
+    {% elsif current_series and current_series.cta %}
+
+      {% include cta.html type=current_series.cta %}
+
+    {% else %}
+
+      {% include cta.html type="default" %}
+
+    {% endif %}
 
 
-    <!-- Article Footer -->
+    <!-- Article footer -->
 
-    <footer class="article-footer">
+    {% if page.tags %}
 
-      {% if page.tags %}
+      <footer class="article-footer">
 
         <div class="article-tags">
 
@@ -139,9 +168,9 @@ layout: default
 
         </div>
 
-      {% endif %}
+      </footer>
 
-    </footer>
+    {% endif %}
 
 
   </div>
