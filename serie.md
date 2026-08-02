@@ -1,11 +1,13 @@
 ---
 layout: default
 title: "Serie di inglese"
-description: "Percorsi e serie pratiche per imparare, ripassare e usare l'inglese nella vita reale."
+description: "Percorsi pratici per imparare, ripassare e usare l'inglese nella vita reale."
 permalink: /serie/
 ---
 
-<section class="page-header">  <div class="container"><span class="section-label">
+<!-- ==================================================
+     HERO
+     ================================================== --><section class="page-header">  <div class="container"><span class="section-label">
   FLUENTE-MENTE
 </span>
 
@@ -145,16 +147,3 @@ permalink: /serie/
 </a>
 
   </div></section>
-          >
-            Scopri la serie
-          </a>
-
-        </article>
-
-      {% endfor %}
-
-    </div>
-
-  </div>
-
-</section>
