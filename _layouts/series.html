@@ -1,0 +1,232 @@
+---
+
+layout: default
+
+{% assign current_series = site.data.site.series | where: "id", page.series_id | first %}
+
+{% if current_series %}
+
+<!-- ==================================================
+     BREADCRUMB
+     ================================================== --><nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="{{ site.data.site.urls.home | relative_url }}">Home</a>
+  <span aria-hidden="true">→</span>
+  <a href="{{ site.data.site.urls.series | relative_url }}">Serie</a>
+  <span aria-hidden="true">→</span>
+  <span>{{ current_series.title }}</span>
+</nav><!-- ==================================================
+     HERO SERIE
+     ================================================== --><section class="series-hero">  <div class="container"><span class="series-number">
+  Serie {{ current_series.number | prepend: "0" | slice: -2, 2 }}
+</span>
+
+<h1>
+  {{ current_series.title }}
+</h1>
+
+{% if current_series.tagline %}
+  <p class="series-tagline">
+    {{ current_series.tagline }}
+  </p>
+{% endif %}
+
+{% if current_series.description %}
+  <p class="series-description">
+    {{ current_series.description }}
+  </p>
+{% endif %}
+
+  </div></section><!-- ==================================================
+     INFO SERIE
+     ================================================== --><section class="series-info">  <div class="container"><div class="series-info-grid">
+
+  {% if current_series.audience %}
+
+    <div class="series-info-item">
+
+      <h2>Per chi è</h2>
+
+      <p>
+        {{ current_series.audience }}
+      </p>
+
+    </div>
+
+  {% endif %}
+
+
+  {% if current_series.goal %}
+
+    <div class="series-info-item">
+
+      <h2>Obiettivo</h2>
+
+      <p>
+        {{ current_series.goal }}
+      </p>
+
+    </div>
+
+  {% endif %}
+
+
+  {% if current_series.format %}
+
+    <div class="series-info-item">
+
+      <h2>Formato</h2>
+
+      <p>
+        {{ current_series.format }}
+      </p>
+
+    </div>
+
+  {% endif %}
+
+</div>
+
+  </div></section><!-- ==================================================
+     ARTICOLI DELLA SERIE
+     ================================================== --><section class="series-articles">  <div class="container"><header class="section-header">
+
+  <h2>
+    Articoli della serie
+  </h2>
+
+  <p>
+    Tutti gli articoli di {{ current_series.title }}.
+  </p>
+
+</header>
+
+
+{% assign series_posts = site.posts | where: "series", current_series.id %}
+
+{% if series_posts.size > 0 %}
+
+  <div class="articles-grid">
+
+    {% for post in series_posts %}
+
+      <article class="article-card">
+
+        {% if post.category %}
+          <span class="article-category">
+            {{ post.category }}
+          </span>
+        {% endif %}
+
+        <h3>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+
+        {% if post.description %}
+
+          <p>
+            {{ post.description }}
+          </p>
+
+        {% elsif post.excerpt %}
+
+          <p>
+            {{ post.excerpt | strip_html | truncate: 160 }}
+          </p>
+
+        {% endif %}
+
+        <a
+          href="{{ post.url | relative_url }}"
+          class="article-link"
+        >
+          Leggi l'articolo →
+        </a>
+
+      </article>
+
+    {% endfor %}
+
+  </div>
+
+{% else %}
+
+  <div class="series-empty">
+
+    <p>
+      Gli articoli di questa serie arriveranno presto.
+    </p>
+
+  </div>
+
+{% endif %}
+
+  </div></section><!-- ==================================================
+     NAVIGAZIONE SERIE
+     ================================================== --><section class="series-navigation">  <div class="container">{% assign previous_number = current_series.number | minus: 1 %}
+{% assign next_number = current_series.number | plus: 1 %}
+
+{% assign previous_series = site.data.site.series
+  | where: "number", previous_number
+  | first %}
+
+{% assign next_series = site.data.site.series
+  | where: "number", next_number
+  | first %}
+
+
+{% if previous_series %}
+
+  <a
+    href="{{ previous_series.permalink | relative_url }}"
+    class="series-nav previous"
+  >
+    ← {{ previous_series.title }}
+  </a>
+
+{% endif %}
+
+
+<a
+  href="{{ site.data.site.urls.series | relative_url }}"
+  class="series-nav all-series"
+>
+  Tutte le serie
+</a>
+
+
+{% if next_series %}
+
+  <a
+    href="{{ next_series.permalink | relative_url }}"
+    class="series-nav next"
+  >
+    {{ next_series.title }} →
+  </a>
+
+{% endif %}
+
+  </div></section><!-- ==================================================
+     METODO
+     ================================================== --><section class="series-method">  <div class="container"><header class="section-header">
+
+  <h2>
+    Vuoi un metodo semplice?
+  </h2>
+
+  <p>
+    Scopri il metodo Fluente-Mente per imparare,
+    praticare e usare l'inglese in modo sostenibile.
+  </p>
+
+</header>
+
+<a
+  href="{{ site.data.site.urls.method | relative_url }}"
+  class="button button-primary"
+>
+  Scopri il metodo
+</a>
+
+  </div></section>{% endif %}
