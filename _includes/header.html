@@ -2,15 +2,17 @@
 
   <div class="container header-inner">
 
+    <!-- Logo -->
     <a
       class="site-logo"
       href="{{ '/' | relative_url }}"
-      aria-label="{{ site.data.site.name }} - Home"
+      aria-label="{{ site.data.site.brand.name }} - Home"
     >
-      {{ site.data.site.name }}
+      {{ site.data.site.brand.logo_text }}
     </a>
 
 
+    <!-- Navigazione desktop -->
     <nav
       class="site-nav"
       aria-label="Navigazione principale"
@@ -19,8 +21,8 @@
       {% for item in site.data.site.navigation.main %}
 
         <a
-          href="{{ item.url | relative_url }}"
           class="nav-link{% if page.url == item.url %} active{% endif %}"
+          href="{{ item.url | relative_url }}"
         >
           {{ item.title }}
         </a>
@@ -30,25 +32,36 @@
     </nav>
 
 
+    <!-- Pulsante menu mobile -->
     <button
       class="menu-toggle"
       type="button"
       aria-label="Apri il menu"
       aria-expanded="false"
-      aria-controls="mobile-menu"
+      aria-controls="mobile-navigation"
+      onclick="
+        const menu = document.getElementById('mobile-navigation');
+        const open = menu.style.display === 'block';
+        menu.style.display = open ? 'none' : 'block';
+        this.setAttribute('aria-expanded', String(!open));
+      "
     >
+
       <span></span>
       <span></span>
       <span></span>
+
     </button>
 
   </div>
 
 
+  <!-- Navigazione mobile -->
   <nav
-    id="mobile-menu"
+    id="mobile-navigation"
     class="mobile-nav"
     aria-label="Navigazione mobile"
+    style="display: none;"
   >
 
     <div class="container">
@@ -56,8 +69,8 @@
       {% for item in site.data.site.navigation.main %}
 
         <a
-          href="{{ item.url | relative_url }}"
           class="mobile-nav-link{% if page.url == item.url %} active{% endif %}"
+          href="{{ item.url | relative_url }}"
         >
           {{ item.title }}
         </a>
@@ -68,4 +81,4 @@
 
   </nav>
 
-</header>
+    </header>
