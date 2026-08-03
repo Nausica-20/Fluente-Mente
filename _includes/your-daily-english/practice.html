@@ -1,0 +1,77 @@
+<section class="yde-practice">
+
+  <div class="yde-practice-header">
+
+    <span class="yde-section-label">
+      LA PRATICA DI OGGI
+    </span>
+
+    <h2>
+      {{ include.title | default: "Usa le frasi nella vita reale" }}
+    </h2>
+
+    {% if include.intro %}
+      <p>
+        {{ include.intro }}
+      </p>
+    {% endif %}
+
+  </div>
+
+  {% if include.items %}
+
+    <div class="yde-practice-list">
+
+      {% for item in include.items %}
+
+        <div class="yde-practice-item">
+
+          <div class="yde-practice-number">
+            {{ forloop.index }}
+          </div>
+
+          <div class="yde-practice-content">
+
+            {% if item.situation %}
+
+              <span class="yde-practice-label">
+                SITUAZIONE
+              </span>
+
+              <p>
+                {{ item.situation }}
+              </p>
+
+            {% endif %}
+
+            {% if item.answer %}
+
+              <span class="yde-practice-label">
+                PUOI DIRE
+              </span>
+
+              <strong class="yde-practice-answer">
+                {{ item.answer }}
+              </strong>
+
+            {% endif %}
+
+          </div>
+
+        </div>
+
+      {% endfor %}
+
+    </div>
+
+  {% endif %}
+
+  {% if include.footer %}
+
+    <div class="yde-practice-footer">
+      {{ include.footer }}
+    </div>
+
+  {% endif %}
+
+</section>
