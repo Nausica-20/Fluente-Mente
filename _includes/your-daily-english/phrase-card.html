@@ -1,0 +1,81 @@
+{% assign phrase_number = include.number %}
+{% assign phrase = include.phrase %}
+{% assign translation = include.translation %}
+{% assign when = include.when %}
+{% assign example = include.example %}
+{% assign example_translation = include.example_translation %}
+{% assign tip = include.tip %}
+
+<section class="yde-phrase-card">
+
+  <div class="yde-phrase-number">
+    <span>{{ phrase_number }}</span>
+  </div>
+
+  <div class="yde-phrase-content">
+
+    <span class="yde-section-label">
+      EVERYDAY ENGLISH
+    </span>
+
+    <h2 class="yde-phrase">
+      {{ phrase }}
+    </h2>
+
+    {% if translation %}
+      <p class="yde-translation">
+        {{ translation }}
+      </p>
+    {% endif %}
+
+    {% if when %}
+      <div class="yde-phrase-section">
+
+        <span class="yde-section-label">
+          QUANDO USARLA
+        </span>
+
+        <p>
+          {{ when }}
+        </p>
+
+      </div>
+    {% endif %}
+
+    {% if example %}
+      <div class="yde-example">
+
+        <span class="yde-section-label">
+          ESEMPIO
+        </span>
+
+        <p class="yde-example-en">
+          {{ example }}
+        </p>
+
+        {% if example_translation %}
+          <p class="yde-example-it">
+            {{ example_translation }}
+          </p>
+        {% endif %}
+
+      </div>
+    {% endif %}
+
+    {% if tip %}
+      <div class="yde-think-mini">
+
+        <span class="yde-section-label">
+          THINK IN ENGLISH
+        </span>
+
+        <p>
+          {{ tip }}
+        </p>
+
+      </div>
+    {% endif %}
+
+  </div>
+
+</section>
