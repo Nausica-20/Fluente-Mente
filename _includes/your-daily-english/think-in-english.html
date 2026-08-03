@@ -1,0 +1,65 @@
+<section class="yde-think-box">
+
+  <div class="yde-think-icon" aria-hidden="true">
+    →
+  </div>
+
+  <div class="yde-think-content">
+
+    <span class="yde-section-label">
+      THINK IN ENGLISH
+    </span>
+
+    {% if include.title %}
+      <h2>
+        {{ include.title }}
+      </h2>
+    {% endif %}
+
+    {% if include.situation and include.phrase %}
+
+      <div class="yde-think-flow">
+
+        <div class="yde-think-step">
+
+          <span>
+            SITUAZIONE
+          </span>
+
+          <strong>
+            {{ include.situation }}
+          </strong>
+
+        </div>
+
+        <div class="yde-think-arrow" aria-hidden="true">
+          →
+        </div>
+
+        <div class="yde-think-step">
+
+          <span>
+            PENSA DIRETTAMENTE
+          </span>
+
+          <strong>
+            {{ include.phrase }}
+          </strong>
+
+        </div>
+
+      </div>
+
+    {% endif %}
+
+    {% if include.text %}
+
+      <p class="yde-think-text">
+        {{ include.text }}
+      </p>
+
+    {% endif %}
+
+  </div>
+
+</section>
