@@ -1,4 +1,5 @@
 ---
+
 layout: your-daily-english-post
 title: "10 frasi inglesi da usare ogni giorno"
 description: "10 frasi inglesi semplici e utili da imparare per iniziare a usare l'inglese ogni giorno, con esempi e spiegazioni in italiano."
@@ -9,426 +10,319 @@ series: "your-daily-english"
 author: "Fluente-Mente"
 lang: "it"
 featured: false
+tags:
+
+- frasi inglesi
+- inglese quotidiano
+- vocabolario inglese
+- imparare inglese
+- inglese per adulti
+
 ---
 
-Imparare l'inglese non significa necessariamente studiare decine di parole nuove ogni giorno.
+10 frasi inglesi da usare ogni giorno
 
-A volte è molto più utile imparare una frase intera e iniziare a usarla in situazioni reali.
+Imparare l'inglese non significa conoscere migliaia di parole.
 
-È proprio questa l'idea di Your Daily English: piccoli passi quotidiani che, nel tempo, trasformano l'inglese da materia da studiare in una lingua da usare.
+Significa soprattutto riuscire a usare le parole e le frasi giuste quando servono.
 
-In questo primo appuntamento vediamo 10 frasi inglesi semplici e utili che puoi incontrare continuamente nella vita quotidiana.
+Per questo nasce Your Daily English: un percorso di 365 giorni in cui impari ogni giorno poche espressioni inglesi realmente utilizzabili nella vita quotidiana.
 
-Non serve impararle tutte subito.
+Oggi iniziamo con 10 frasi semplici che puoi incontrare e usare continuamente.
 
-Scegline due o tre, ripetile ad alta voce e prova a usarle mentalmente durante la giornata.
+Non cercare di memorizzarle tutte perfettamente.
+
+Leggile, pronunciale e prova a immaginare una situazione reale in cui potresti usarle.
 
 ---
 
 1. How are you?
 
-Come stai?
-
-È una delle domande più comuni dell'inglese quotidiano.
-
-Puoi usarla quando incontri qualcuno, quando inizi una conversazione o semplicemente quando vuoi sapere come sta una persona.
-
-Esempio
-
-«Hi, Anna! How are you?
-Ciao Anna! Come stai?»
-
-Una risposta semplice può essere:
-
-«I'm good, thanks. And you?
-Sto bene, grazie. E tu?»
-
-Una cosa importante
-
-Non pensare a How are you? come a una frase da tradurre ogni volta.
-
-Prova invece ad associarla direttamente alla situazione:
-
-incontri qualcuno → How are you?
-
-Questo è uno dei primi passi per ridurre la traduzione mentale.
+{% include your-daily-english/phrase-card.html
+number="01"
+phrase="How are you?"
+translation="Come stai?"
+when="Puoi usarla quando saluti qualcuno e vuoi chiedergli come sta."
+example="Hi, Anna! How are you?"
+example_translation="Ciao Anna! Come stai?"
+tip="Quando incontri qualcuno, pensa direttamente a How are you? invece di tradurre mentalmente «Come stai?»."
+%}
 
 ---
 
 2. I'm fine, thanks.
 
-Sto bene, grazie.
-
-È una risposta semplice a How are you?
-
-Esempio
-
-«How are you?
-I'm fine, thanks.»
-
-Puoi anche usare:
-
-«I'm good, thanks.»
-
-Nel parlato quotidiano entrambe le forme sono molto comuni.
-
-Mini-pratica
-
-Immagina di incontrare un collega.
-
-Lui dice:
-
-«Hi! How are you?»
-
-Tu rispondi:
-
-«I'm good, thanks.»
-
-Ripeti questa mini-conversazione ad alta voce due o tre volte.
+{% include your-daily-english/phrase-card.html
+number="02"
+phrase="I'm fine, thanks."
+translation="Sto bene, grazie."
+when="È una risposta semplice a How are you?"
+example="I'm fine, thanks. And you?"
+example_translation="Sto bene, grazie. E tu?"
+tip="Puoi aggiungere And you? per restituire la domanda e continuare la conversazione."
+%}
 
 ---
 
 3. What are you doing?
 
-Cosa stai facendo?
-
-Questa frase è molto utile nelle conversazioni quotidiane.
-
-Esempio
-
-«What are you doing?
-Cosa stai facendo?»
-
-Puoi rispondere:
-
-«I'm working.
-Sto lavorando.»
-
-Oppure:
-
-«I'm cooking.
-Sto cucinando.»
-
-O ancora:
-
-«I'm watching TV.
-Sto guardando la TV.»
-
-Impara la struttura
-
-Invece di memorizzare soltanto una frase, puoi utilizzare lo stesso schema:
-
-What are you doing?
-
-→ I'm working.
-→ I'm cooking.
-→ I'm studying.
-→ I'm reading.
-→ I'm waiting.
-
-In questo modo una sola struttura ti permette di creare molte frasi.
+{% include your-daily-english/phrase-card.html
+number="03"
+phrase="What are you doing?"
+translation="Cosa stai facendo?"
+when="Usala quando vuoi chiedere a qualcuno cosa sta facendo in questo momento."
+example="What are you doing this evening?"
+example_translation="Cosa fai questa sera?"
+tip="Quando vedi qualcuno impegnato in qualcosa, prova a formulare direttamente What are you doing?"
+%}
 
 ---
 
 4. I don't know.
 
-Non lo so.
-
-Una delle frasi più semplici dell'inglese e anche una delle più utili.
-
-Quando qualcuno ti fa una domanda e non conosci la risposta, puoi semplicemente dire:
-
-«I don't know.»
-
-Non è necessario costruire una frase complicata.
-
-Esempio
-
-«Where is John?
-Dov'è John?»
-
-«I don't know.»
-
-Questa frase è particolarmente importante per chi ha paura di parlare inglese.
-
-Non devi sempre avere una risposta perfetta.
-
-A volte basta saper dire:
-
-I don't know.
+{% include your-daily-english/phrase-card.html
+number="04"
+phrase="I don't know."
+translation="Non lo so."
+when="Usala quando non conosci la risposta o non sei sicuro di qualcosa."
+example="Where is John? — I don't know."
+example_translation="Dov'è John? — Non lo so."
+tip="Non cercare una risposta perfetta. Se non sai qualcosa, pensa semplicemente I don't know."
+%}
 
 ---
 
-5. I think so.
+5. I don't understand.
 
-Penso di sì.
-
-Questa espressione è utile quando pensi che qualcosa sia vero ma non ne sei completamente sicuro.
-
-Esempio
-
-«Is Sarah coming tonight?
-Sarah viene stasera?»
-
-«I think so.
-Penso di sì.»
-
-È una frase molto più naturale, in molte situazioni, rispetto a cercare una risposta lunga e complicata.
-
-Puoi anche imparare l'espressione opposta:
-
-«I don't think so.»
-
-Non credo.
+{% include your-daily-english/phrase-card.html
+number="05"
+phrase="I don't understand."
+translation="Non capisco."
+when="Usala quando qualcuno parla o spiega qualcosa e non riesci a capire."
+example="Sorry, I don't understand."
+example_translation="Scusa, non capisco."
+tip="Questa frase è molto più utile che rimanere in silenzio quando non capisci."
+%}
 
 ---
 
-6. I'm not sure.
+6. Can you help me?
 
-Non sono sicuro/a.
-
-Questa è un'altra frase fondamentale quando non sei completamente certo di qualcosa.
-
-Esempio
-
-«Is this the right bus?
-È questo l'autobus giusto?»
-
-«I'm not sure.»
-
-Non sono sicuro/a.
-
-È una frase particolarmente utile quando viaggi, fai domande o ti trovi in una situazione in cui non conosci bene la risposta.
+{% include your-daily-english/phrase-card.html
+number="06"
+phrase="Can you help me?"
+translation="Puoi aiutarmi?"
+when="Usala quando hai bisogno che qualcuno ti aiuti."
+example="Excuse me, can you help me?"
+example_translation="Scusi, può aiutarmi?"
+tip="Immagina una situazione reale in cui hai bisogno di aiuto e pensa direttamente Can you help me?"
+%}
 
 ---
 
-7. Can you help me?
+7. What do you mean?
 
-Puoi aiutarmi?
-
-Questa frase può essere utile praticamente ovunque.
-
-In un negozio.
-
-In aeroporto.
-
-In hotel.
-
-Per strada.
-
-Al lavoro.
-
-Esempio
-
-«Excuse me, can you help me?»
-
-«Mi scusi, può aiutarmi?»
-
-Puoi poi aggiungere quello di cui hai bisogno:
-
-«Can you help me find the station?»
-
-Puoi aiutarmi a trovare la stazione?
-
-Oppure:
-
-«Can you help me with this?»
-
-Puoi aiutarmi con questo?
-
-La struttura da ricordare
-
-Can you help me + ...?
-
-Una semplice struttura che puoi riutilizzare in moltissime situazioni.
+{% include your-daily-english/phrase-card.html
+number="07"
+phrase="What do you mean?"
+translation="Cosa intendi?"
+when="Usala quando vuoi capire meglio ciò che una persona ha appena detto."
+example="What do you mean? I don't understand."
+example_translation="Cosa intendi? Non capisco."
+tip="Puoi usare questa frase per chiedere chiarimenti senza dover tradurre mentalmente tutta la conversazione."
+%}
 
 ---
 
-8. I need some help.
+8. That's a good idea.
 
-Ho bisogno di aiuto.
-
-È simile alla frase precedente, ma ha una funzione leggermente diversa.
-
-Con:
-
-«Can you help me?»
-
-stai chiedendo a qualcuno se può aiutarti.
-
-Con:
-
-«I need some help.»
-
-stai comunicando che hai bisogno di aiuto.
-
-Esempio
-
-«Excuse me. I need some help.»
-
-«Mi scusi. Ho bisogno di aiuto.»
-
-È una frase semplice, naturale e molto utile.
+{% include your-daily-english/phrase-card.html
+number="08"
+phrase="That's a good idea."
+translation="È una buona idea."
+when="Usala quando qualcuno propone qualcosa che ti sembra interessante o utile."
+example="Let's go for a walk. — That's a good idea."
+example_translation="Andiamo a fare una passeggiata. — È una buona idea."
+tip="Quando qualcuno propone qualcosa che ti piace, prova a reagire automaticamente con That's a good idea."
+%}
 
 ---
 
-9. See you later.
+9. Sounds good.
 
-Ci vediamo dopo.
-
-Questa è una delle espressioni che puoi usare quando saluti qualcuno sapendo che probabilmente lo rivedrai più tardi.
-
-Esempio
-
-«I'm going to lunch. See you later!»
-
-«Vado a pranzo. Ci vediamo dopo!»
-
-Non è necessario tradurre mentalmente ogni parola.
-
-Prova ad associare direttamente:
-
-saluto informale → See you later.
-
-Puoi anche incontrare:
-
-«See you soon.»
-
-Ci vediamo presto.
-
-Oppure:
-
-«See you tomorrow.»
-
-Ci vediamo domani.
+{% include your-daily-english/phrase-card.html
+number="09"
+phrase="Sounds good."
+translation="Va bene. / Sembra una buona idea."
+when="Usala per accettare una proposta in modo naturale e informale."
+example="Let's meet at seven. — Sounds good."
+example_translation="Vediamoci alle sette. — Va bene."
+tip="È una risposta molto comune nella conversazione quotidiana. Impara a riconoscerla come un'unica espressione."
+%}
 
 ---
 
-10. Have a good day!
+10. See you later.
 
-Buona giornata!
-
-Una frase semplice per concludere una conversazione.
-
-Esempio
-
-«Thanks for your help. Have a good day!»
-
-«Grazie per il tuo aiuto. Buona giornata!»
-
-Puoi usarla con colleghi, commessi, persone che incontri durante la giornata e in moltissime altre situazioni.
-
-Una risposta possibile è:
-
-«You too!»
-
-Anche tu!
-
-Questa combinazione è molto utile da imparare insieme:
-
-«Have a good day!
-You too!»
+{% include your-daily-english/phrase-card.html
+number="10"
+phrase="See you later."
+translation="Ci vediamo dopo."
+when="Usala quando saluti qualcuno sapendo o immaginando che lo rivedrai più tardi."
+example="See you later! Have a nice day."
+example_translation="Ci vediamo dopo! Buona giornata."
+tip="Quando stai per salutare qualcuno, prova a pensare direttamente See you later."
+%}
 
 ---
 
-Le 10 frasi da ricordare
+Ora prova a pensare in inglese
 
-Ecco le frasi di oggi tutte insieme:
+Conoscere una frase è il primo passo.
 
-Inglese| Italiano
-How are you?| Come stai?
-I'm fine, thanks.| Sto bene, grazie.
-What are you doing?| Cosa stai facendo?
-I don't know.| Non lo so.
-I think so.| Penso di sì.
-I'm not sure.| Non sono sicuro/a.
-Can you help me?| Puoi aiutarmi?
-I need some help.| Ho bisogno di aiuto.
-See you later.| Ci vediamo dopo.
-Have a good day!| Buona giornata!
+Il passo successivo è smettere di tradurla ogni volta dall'italiano.
 
-Non cercare di memorizzarle tutte contemporaneamente.
+{% include your-daily-english/think-in-english.html
+title="Collega la situazione direttamente alla frase"
+situation="Incontri una persona che conosci"
+phrase="How are you?"
+text="La prossima volta che incontri qualcuno, prova a far comparire direttamente How are you? nella tua mente. Non partire dalla frase italiana «Come stai?»."
+%}
 
-La cosa più importante è iniziare a usarle.
+Prova lo stesso esercizio con altre tre situazioni:
 
----
+- qualcuno ti chiede qualcosa e non conosci la risposta → I don't know.
+- qualcuno parla troppo velocemente → I don't understand.
+- hai bisogno di aiuto → Can you help me?
 
-Il mini-esercizio di oggi
+L'obiettivo non è tradurre più velocemente.
 
-Scegli 3 frasi dalla lista.
-
-Per esempio:
-
-- How are you?
-- I don't know.
-- Can you help me?
-
-Adesso pronunciale ad alta voce.
-
-Poi prova a immaginare una situazione reale per ciascuna.
-
-Situazione 1
-
-Incontri un amico.
-
-«Hi! How are you?»
-
-Situazione 2
-
-Qualcuno ti fa una domanda e non conosci la risposta.
-
-«I don't know.»
-
-Situazione 3
-
-Hai bisogno di aiuto.
-
-«Can you help me?»
-
-Ripeti ogni frase almeno tre volte.
-
-Non concentrarti sulla perfezione.
-
-Concentrati sulla capacità di recuperare la frase rapidamente.
+È avere sempre meno bisogno di tradurre.
 
 ---
 
-Una piccola sfida per oggi
+Le 10 frasi di oggi
 
-Durante la giornata prova a scegliere una sola frase e a utilizzarla mentalmente quando si presenta una situazione adatta.
+{% assign recap_items = "" | split: "" %}
 
-Per esempio, se incontri qualcuno che conosci, pensa:
+{% assign recap_items = recap_items
+| push: "How are you?||Come stai?"
+%}
 
-«How are you?»
+{% assign recap_items = recap_items
+| push: "I'm fine, thanks.||Sto bene, grazie."
+%}
 
-Se non sai qualcosa:
+{% assign recap_items = recap_items
+| push: "What are you doing?||Cosa stai facendo?"
+%}
 
-«I don't know.»
+{% assign recap_items = recap_items
+| push: "I don't know.||Non lo so."
+%}
 
-Se hai bisogno di aiuto:
+{% assign recap_items = recap_items
+| push: "I don't understand.||Non capisco."
+%}
 
-«Can you help me?»
+{% assign recap_items = recap_items
+| push: "Can you help me?||Puoi aiutarmi?"
+%}
 
-L'obiettivo non è studiare per un'ora.
+{% assign recap_items = recap_items
+| push: "What do you mean?||Cosa intendi?"
+%}
 
-L'obiettivo è creare un piccolo collegamento tra inglese e vita reale.
+{% assign recap_items = recap_items
+| push: "That's a good idea.||È una buona idea."
+%}
 
-È proprio questa pratica costante che, nel tempo, rende l'inglese più naturale.
+{% assign recap_items = recap_items
+| push: "Sounds good.||Va bene."
+%}
+
+{% assign recap_items = recap_items
+| push: "See you later.||Ci vediamo dopo."
+%}
+
+{% assign recap_formatted = "" | split: "" %}
+
+{% for item in recap_items %}
+
+{% assign parts = item | split: "||" %}
+
+{% assign recap_item = "" | split: "" %}
+
+{% assign recap_item = recap_item
+| push: parts[0]
+| push: parts[1]
+%}
+
+{% assign recap_formatted = recap_formatted
+| push: recap_item
+%}
+
+{% endfor %}
+
+{% include your-daily-english/phrase-recap.html
+count="10"
+intro="Non cercare di impararle tutte a memoria oggi. Scegli le frasi che senti più utili e riportale nella tua giornata."
+items=recap_formatted
+%}
 
 ---
 
-Da ricordare
+La pratica di oggi
 
-Non devi conoscere migliaia di parole per iniziare a parlare inglese.
+Adesso trasformiamo le frasi in situazioni reali.
 
-Devi avere a disposizione frasi semplici che riesci a recuperare quando ti servono.
+{% assign practice_items = "" | split: "" %}
+
+{% assign practice_items = practice_items
+| push: "Incontri un collega al mattino. Vuoi chiedergli come sta.||How are you?"
+%}
+
+{% assign practice_items = practice_items
+| push: "Qualcuno ti fa una domanda e non conosci la risposta.||I don't know."
+%}
+
+{% assign practice_items = practice_items
+| push: "Qualcuno ti sta spiegando qualcosa ma non riesci a capire.||I don't understand."
+%}
+
+{% include your-daily-english/practice.html
+title="Tre situazioni, tre frasi"
+intro="Leggi ogni situazione e prova a pronunciare la risposta inglese senza guardarla subito."
+items=practice_items
+footer="Ripeti ogni frase ad alta voce almeno tre volte."
+%}
+
+---
+
+La challenge del giorno
+
+Non devi studiare per un'ora.
+
+Oggi scegli una sola frase e prova a usarla mentalmente ogni volta che si presenta la situazione giusta.
+
+{% include your-daily-english/challenge.html
+title="Scegli una frase e usala oggi"
+text="Scegli una delle 10 frasi di oggi. Per tutta la giornata, quando si presenta una situazione adatta, prova a pensare direttamente alla frase inglese."
+phrase="How are you?"
+%}
+
+---
+
+Un piccolo passo, ogni giorno
+
+Non serve imparare tutto in una volta.
+
+L'obiettivo di Your Daily English è costruire, giorno dopo giorno, un repertorio di frasi che diventano sempre più familiari e naturali.
 
 Oggi hai iniziato con 10.
 
-Domani potrai aggiungerne altre.
+Domani ne aggiungerai altre 10.
 
-E, un giorno alla volta, il tuo repertorio crescerà.
+Ma soprattutto, prova a usare almeno una delle frasi di oggi nella tua mente durante la giornata.
 
-Questo è Your Daily English: un piccolo passo ogni giorno.
-
-{% include cta.html %}
+È così che l'inglese passa lentamente dal libro alla vita reale.
