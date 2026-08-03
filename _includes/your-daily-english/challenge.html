@@ -1,0 +1,58 @@
+<section class="yde-challenge">
+
+  <div class="yde-challenge-inner">
+
+    <span class="yde-section-label">
+      CHALLENGE DEL GIORNO
+    </span>
+
+    <h2>
+      {{ include.title | default: "Una frase. Una situazione reale." }}
+    </h2>
+
+    {% if include.text %}
+
+      <p>
+        {{ include.text }}
+      </p>
+
+    {% else %}
+
+      <p>
+        Scegli una frase imparata oggi e usala
+        mentalmente ogni volta che durante la giornata
+        si presenta la situazione giusta.
+      </p>
+
+    {% endif %}
+
+    {% if include.phrase %}
+
+      <div class="yde-challenge-phrase">
+        {{ include.phrase }}
+      </div>
+
+    {% endif %}
+
+    <div class="yde-challenge-rules">
+
+      <div>
+        <strong>1</strong>
+        <span>frase</span>
+      </div>
+
+      <div>
+        <strong>3</strong>
+        <span>ripetizioni</span>
+      </div>
+
+      <div>
+        <strong>1</strong>
+        <span>situazione reale</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
