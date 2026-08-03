@@ -1,0 +1,55 @@
+<section class="yde-recap">
+
+  <div class="yde-recap-header">
+
+    <span class="yde-section-label">
+      DA PORTARE CON TE
+    </span>
+
+    <h2>
+      Le {{ include.count | default: "10" }} frasi di oggi
+    </h2>
+
+    {% if include.intro %}
+      <p>
+        {{ include.intro }}
+      </p>
+    {% endif %}
+
+  </div>
+
+  {% if include.items %}
+
+    <div class="yde-recap-list">
+
+      {% for item in include.items %}
+
+        <div class="yde-recap-item">
+
+          <span class="yde-recap-number">
+            {{ forloop.index | prepend: "0" | slice: -2, 2 }}
+          </span>
+
+          <div>
+
+            <strong>
+              {{ item.phrase }}
+            </strong>
+
+            {% if item.translation %}
+              <span>
+                {{ item.translation }}
+              </span>
+            {% endif %}
+
+          </div>
+
+        </div>
+
+      {% endfor %}
+
+    </div>
+
+  {% endif %}
+
+</section>
