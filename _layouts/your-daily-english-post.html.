@@ -1,6 +1,6 @@
 ---
-
 layout: default
+---
 
 {% assign series_id = "your-daily-english" %}
 {% assign total_days = 365 %}
