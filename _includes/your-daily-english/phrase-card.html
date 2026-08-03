@@ -4,78 +4,87 @@
 {% assign when = include.when %}
 {% assign example = include.example %}
 {% assign example_translation = include.example_translation %}
-{% assign tip = include.tip %}
 
-<section class="yde-phrase-card">
+<section class="yde-phrase-card">  <!-- ============================================================
+       HEADER
+       ============================================================ -->  <div class="yde-phrase-card-header"><span class="yde-phrase-number">
+  {{ phrase_number }}
+</span>
 
-  <div class="yde-phrase-number">
-    <span>{{ phrase_number }}</span>
-  </div>
+<span class="yde-section-label">
+  EVERYDAY ENGLISH
+</span>
 
-  <div class="yde-phrase-content">
+  </div>  <!-- ============================================================
+       PHRASE
+       ============================================================ -->  <div class="yde-phrase-main"><h2 class="yde-phrase">
+  {{ phrase }}
+</h2>
 
-    <span class="yde-section-label">
-      EVERYDAY ENGLISH
-    </span>
+{% if translation %}
 
-    <h2 class="yde-phrase">
-      {{ phrase }}
-    </h2>
+  <p class="yde-translation">
+    {{ translation }}
+  </p>
 
-    {% if translation %}
-      <p class="yde-translation">
-        {{ translation }}
-      </p>
-    {% endif %}
+{% endif %}
 
-    {% if when %}
-      <div class="yde-phrase-section">
+  </div>  <!-- ============================================================
+       QUANDO USARLA
+       ============================================================ -->{% if when %}
 
-        <span class="yde-section-label">
-          QUANDO USARLA
-        </span>
+<div class="yde-phrase-when">
 
-        <p>
-          {{ when }}
-        </p>
+  <span class="yde-section-label">
+    QUANDO USARLA
+  </span>
 
-      </div>
-    {% endif %}
+  <p>
+    {{ when }}
+  </p>
 
-    {% if example %}
-      <div class="yde-example">
+</div>
 
-        <span class="yde-section-label">
-          ESEMPIO
-        </span>
+{% endif %}
 
-        <p class="yde-example-en">
-          {{ example }}
-        </p>
+  <!-- ============================================================
+       ESEMPIO
+       ============================================================ -->{% if example %}
 
-        {% if example_translation %}
-          <p class="yde-example-it">
-            {{ example_translation }}
-          </p>
-        {% endif %}
+<div class="yde-example">
 
-      </div>
-    {% endif %}
+  <span class="yde-section-label">
+    ESEMPIO
+  </span>
 
-    {% if tip %}
-      <div class="yde-think-mini">
+  <p class="yde-example-en">
+    {{ example }}
+  </p>
 
-        <span class="yde-section-label">
-          THINK IN ENGLISH
-        </span>
+  {% if example_translation %}
 
-        <p>
-          {{ tip }}
-        </p>
+    <p class="yde-example-it">
+      {{ example_translation }}
+    </p>
 
-      </div>
-    {% endif %}
+  {% endif %}
 
-  </div>
+</div>
 
-</section>
+{% endif %}
+
+  <!-- ============================================================
+       DIALOGO
+       ============================================================ -->{% if include.dialogue %}
+
+<div class="yde-phrase-dialogue">
+
+  {% include your-daily-english/dialogue.html
+    lines=include.dialogue
+  %}
+
+</div>
+
+{% endif %}
+
+  </section>
