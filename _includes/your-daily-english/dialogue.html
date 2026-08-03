@@ -1,0 +1,73 @@
+{% assign dialogue_lines = include.lines %}
+
+<div class="yde-dialogue">  <!-- ============================================================
+       HEADER
+       ============================================================ -->  <div class="yde-dialogue-header"><span class="yde-section-label">
+  {{ include.label | default: "IN CONTESTO" }}
+</span>
+
+{% if include.title %}
+
+  <h3>
+    {{ include.title }}
+  </h3>
+
+{% endif %}
+
+  </div>  <!-- ============================================================
+       DIALOGUE
+       ============================================================ -->{% if dialogue_lines %}
+
+<div class="yde-dialogue-body">
+
+  {% for line in dialogue_lines %}
+
+    <div class="yde-dialogue-line">
+
+      <div class="yde-dialogue-speaker">
+        {{ line.speaker }}
+      </div>
+
+      <div class="yde-dialogue-content">
+
+        <p class="yde-dialogue-en">
+          {{ line.english }}
+        </p>
+
+        {% if line.italian %}
+
+          <p class="yde-dialogue-it">
+            {{ line.italian }}
+          </p>
+
+        {% endif %}
+
+      </div>
+
+    </div>
+
+  {% endfor %}
+
+</div>
+
+{% endif %}
+
+  <!-- ============================================================
+       CONTEXT NOTE
+       ============================================================ -->{% if include.note %}
+
+<div class="yde-dialogue-note">
+
+  <span class="yde-section-label">
+    IN QUESTA SITUAZIONE
+  </span>
+
+  <p>
+    {{ include.note }}
+  </p>
+
+</div>
+
+{% endif %}
+
+</div>
