@@ -1,0 +1,158 @@
+// ============================================================
+// Fluente-Mente — Header & Navigation
+// ============================================================
+
+.site-header {
+  position: relative;
+  z-index: $z-header;
+  width: 100%;
+  border-bottom: $border-width solid $color-border;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: $header-height;
+  gap: $space-6;
+}
+
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  color: $color-text;
+  text-decoration: none;
+}
+
+.site-brand:hover {
+  color: $color-primary;
+  text-decoration: none;
+}
+
+.site-logo {
+  width: auto;
+  max-width: 160px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.site-name {
+  font-size: $font-size-xl;
+  font-weight: $font-weight-bold;
+  letter-spacing: -0.02em;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: $space-5;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: $header-height;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-medium;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-link::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  border-radius: $radius-pill;
+  background: $color-primary;
+  content: "";
+  opacity: 0;
+  transform: scaleX(0.5);
+  transition: opacity $transition-fast, transform $transition-fast;
+}
+
+.nav-link:hover {
+  color: $color-primary;
+}
+
+.nav-link:hover::after,
+.nav-link.is-active::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.nav-link.is-active {
+  color: $color-primary;
+  font-weight: $font-weight-semibold;
+}
+
+.nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: $space-2 $space-4;
+  border: $border-width solid $color-border;
+  border-radius: $radius-pill;
+  background: $color-background;
+  color: $color-text;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+}
+
+.nav-toggle:hover {
+  border-color: $color-primary;
+  color: $color-primary;
+}
+
+@media (max-width: $breakpoint-lg) {
+  .header-inner { min-height: 68px; }
+  .nav-menu { gap: $space-3; }
+  .nav-link { font-size: $font-size-xs; }
+}
+
+@media (max-width: $breakpoint-md) {
+  .site-header { position: sticky; top: 0; }
+  .header-inner { min-height: 64px; }
+  .site-logo { max-width: 140px; height: 42px; }
+  .nav-toggle { display: inline-flex; }
+
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: $z-menu;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: $space-3 $space-6 $space-5;
+    border-bottom: $border-width solid $color-border;
+    background: $color-background;
+    box-shadow: $shadow-md;
+  }
+
+  .site-nav:focus-within .nav-menu,
+  .nav-menu.is-open { display: flex; }
+
+  .nav-link {
+    min-height: auto;
+    padding: $space-3 0;
+    border-bottom: $border-width solid $color-border;
+    font-size: $font-size-base;
+  }
+
+  .nav-link:last-child { border-bottom: 0; }
+  .nav-link::after { display: none; }
+}
