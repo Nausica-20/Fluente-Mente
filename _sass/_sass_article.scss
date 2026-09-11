@@ -1,0 +1,371 @@
+// ============================================================
+// Fluente-Mente — Article Layout & Content
+// ============================================================
+
+.article-page {
+  padding-bottom: $space-16;
+}
+
+.article-container {
+  max-width: $container-reading-max;
+}
+
+.article-header {
+  max-width: $container-reading-max;
+  margin: 0 auto $space-10;
+  padding-top: $space-10;
+}
+
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: $space-2 $space-4;
+  margin-bottom: $space-4;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+}
+
+.article-day,
+.article-rubric,
+.article-level {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: $space-1 $space-3;
+  border: $border-width solid $color-border;
+  border-radius: $radius-pill;
+  background: $color-background-soft;
+  font-weight: $font-weight-semibold;
+}
+
+.article-rubric {
+  color: $color-primary;
+}
+
+.article-level {
+  color: $color-text-muted;
+}
+
+.article-title {
+  max-width: 900px;
+  margin: 0;
+  font-size: clamp($font-size-3xl, 5vw, $font-size-5xl);
+  line-height: $line-height-tight;
+  letter-spacing: -0.035em;
+}
+
+.article-subtitle {
+  max-width: 760px;
+  margin: $space-5 0 0;
+  color: $color-text-muted;
+  font-size: $font-size-xl;
+  line-height: $line-height-relaxed;
+}
+
+.article-description {
+  max-width: 760px;
+  margin: $space-4 0 0;
+  color: $color-text-muted;
+  font-size: $font-size-base;
+}
+
+.article-author {
+  margin-top: $space-5;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+}
+
+.article-layout {
+  align-items: start;
+}
+
+.article-main {
+  min-width: 0;
+}
+
+.article-content,
+.article-body {
+  max-width: $reading-max;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.article-intro {
+  margin-bottom: $space-8;
+  padding: $space-6 $space-7;
+  border-left: 4px solid $color-primary;
+  border-radius: 0 $radius-md $radius-md 0;
+  background: $color-primary-soft;
+  color: $color-text;
+  font-size: $font-size-lg;
+}
+
+.article-body {
+  font-size: $font-size-lg;
+  line-height: $line-height-relaxed;
+}
+
+.article-body > * + *,
+.article-content > * + * {
+  margin-top: $space-6;
+}
+
+.article-body h2,
+.article-content h2 {
+  margin-top: $space-12;
+  margin-bottom: $space-4;
+  font-size: $font-size-2xl;
+  line-height: $line-height-tight;
+}
+
+.article-body h3,
+.article-content h3 {
+  margin-top: $space-8;
+  margin-bottom: $space-3;
+  font-size: $font-size-xl;
+}
+
+.article-body ul,
+.article-body ol,
+.article-content ul,
+.article-content ol {
+  padding-left: $space-7;
+}
+
+.article-body li + li,
+.article-content li + li {
+  margin-top: $space-2;
+}
+
+.article-body strong,
+.article-content strong {
+  font-weight: $font-weight-bold;
+}
+
+.article-body em,
+.article-content em {
+  color: $color-text-muted;
+}
+
+.article-body a,
+.article-content a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.article-body blockquote,
+.article-content blockquote {
+  margin: $space-8 0;
+  padding: $space-5 $space-6;
+  border-left: 4px solid $color-accent;
+  border-radius: 0 $radius-md $radius-md 0;
+  background: $color-background-soft;
+}
+
+.article-body pre,
+.article-content pre {
+  overflow-x: auto;
+  padding: $space-5;
+  border-radius: $radius-md;
+  font-size: $font-size-sm;
+}
+
+.article-body code,
+.article-content code {
+  font-size: 0.9em;
+}
+
+.article-body img,
+.article-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: $radius-lg;
+}
+
+.article-body table,
+.article-content table {
+  width: 100%;
+  overflow: hidden;
+  border-collapse: collapse;
+  font-size: $font-size-sm;
+}
+
+.article-body th,
+.article-body td,
+.article-content th,
+.article-content td {
+  padding: $space-3 $space-4;
+  border: $border-width solid $color-border;
+  text-align: left;
+  vertical-align: top;
+}
+
+.article-body th,
+.article-content th {
+  background: $color-background-soft;
+  font-weight: $font-weight-semibold;
+}
+
+// English dialogue blocks
+.dialogue {
+  margin: $space-8 0;
+  padding: $space-6;
+  border: $border-width solid $color-border;
+  border-radius: $radius-lg;
+  background: $color-background-soft;
+}
+
+.dialogue-line {
+  margin: 0;
+  padding: $space-3 0;
+}
+
+.dialogue-line + .dialogue-line {
+  border-top: $border-width solid $color-border;
+}
+
+.dialogue-speaker {
+  font-weight: $font-weight-bold;
+  color: $color-primary;
+}
+
+// English vs. natural English comparison
+.english-comparison,
+.english-vs-natural {
+  margin: $space-10 0;
+  padding: $space-6;
+  border: $border-width solid $color-border;
+  border-radius: $radius-lg;
+  background: $color-background;
+}
+
+.english-comparison h2,
+.english-vs-natural h2 {
+  margin-top: 0;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: $space-4;
+}
+
+.comparison-item {
+  padding: $space-4;
+  border-radius: $radius-md;
+  background: $color-background-soft;
+}
+
+.comparison-label {
+  display: block;
+  margin-bottom: $space-2;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+// Key expressions / takeaway
+.key-expressions,
+.article-takeaway {
+  max-width: $reading-max;
+  margin: $space-10 auto 0;
+  padding: $space-6;
+  border-radius: $radius-lg;
+  background: $color-background-soft;
+}
+
+.key-expressions h2,
+.article-takeaway h2 {
+  margin-top: 0;
+}
+
+.key-expression {
+  display: grid;
+  grid-template-columns: minmax(160px, 0.8fr) 1fr;
+  gap: $space-4;
+  padding: $space-4 0;
+  border-bottom: $border-width solid $color-border;
+}
+
+.key-expression:last-child {
+  border-bottom: 0;
+}
+
+.key-expression-term {
+  font-weight: $font-weight-bold;
+}
+
+.key-expression-meaning {
+  color: $color-text-muted;
+}
+
+.article-footer {
+  max-width: $reading-max;
+  margin: $space-12 auto 0;
+  padding-top: $space-6;
+  border-top: $border-width solid $color-border;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+}
+
+@media (max-width: $breakpoint-md) {
+  .article-header {
+    padding-top: $space-8;
+    margin-bottom: $space-8;
+  }
+
+  .article-title {
+    font-size: $font-size-3xl;
+  }
+
+  .article-subtitle {
+    font-size: $font-size-lg;
+  }
+
+  .article-body {
+    font-size: $font-size-base;
+  }
+
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .key-expression {
+    grid-template-columns: 1fr;
+    gap: $space-2;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .article-page {
+    padding-bottom: $space-12;
+  }
+
+  .article-header {
+    padding-top: $space-6;
+  }
+
+  .article-meta {
+    gap: $space-2;
+  }
+
+  .article-title {
+    font-size: $font-size-2xl;
+  }
+
+  .article-intro,
+  .dialogue,
+  .english-comparison,
+  .english-vs-natural,
+  .key-expressions,
+  .article-takeaway {
+    padding: $space-5;
+  }
+}
