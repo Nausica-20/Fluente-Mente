@@ -1,0 +1,5017 @@
+schema_version: '1.0'
+project: Fluente-Mente
+purpose: Master editorial registry for 365 days of unique English-learning content.
+content_model:
+  id: FM-001 ... FM-365
+  day: 1
+  week: 1
+  rubric: slug from rubrics.yml
+  macro_theme: slug from macro_themes.yml
+  title: Article title
+  slug: url-friendly-slug
+  content_type: one allowed value from taxonomy.content_types
+  primary_purpose: one allowed value from taxonomy.primary_purposes
+  unique_angle: What makes this article materially different from all existing content.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: one allowed value from taxonomy.levels
+  search_intent: one allowed value from taxonomy.search_intents
+  keywords:
+    primary: ''
+    secondary: []
+    long_tail: []
+  core_concepts: []
+  target_language:
+    expressions: []
+    grammar_points: []
+    vocabulary_groups: []
+    cultural_points: []
+  forbidden_overlap: []
+  related_content:
+    pillar: null
+    previous: []
+    next: []
+    cross_rubric: []
+    cross_theme: []
+  seo:
+    meta_title: ''
+    meta_description: ''
+    canonical: ''
+    schema_type: Article
+  pinterest:
+    primary_hook: ''
+    pin_titles: []
+    visual_angles: []
+    cta_type: read_article
+  babbel:
+    enabled: false
+    cta_level: none
+    cta_angle: ''
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 6
+    evergreen: true
+  anti_duplication:
+    concept_ids: []
+    expression_ids: []
+    situation_ids: []
+    excluded_article_ids: []
+    uniqueness_check: pending
+  internal_links:
+    pillar: Primary pillar for the article.
+    same_week: Optional links to complementary articles in the same 7-day theme.
+    same_rubric: Links to complementary content in the same editorial rubric.
+    same_theme: Links to complementary content on the same macro-theme from another week.
+    cross_rubric: Links to a different rubric when it provides a genuinely complementary perspective.
+    visible_limit: Show no more than 3-5 editorial links in the article's main continuation area.
+  internal_link_record:
+    id: FM-000
+    relationship: one allowed value from taxonomy.relationship_types
+    priority: 1
+    anchor_intent: Why the reader would want to click this link.
+taxonomy:
+  levels:
+  - A2
+  - A2-B1
+  - B1
+  - B1-B2
+  - B2
+  - B2+
+  - C1
+  content_types:
+  - situational_guide
+  - conversation
+  - conversation_breakdown
+  - natural_language_analysis
+  - comparison
+  - meaning_in_context
+  - strategy
+  - mindset_guide
+  - cultural_explainer
+  - social_etiquette_guide
+  - travel_scenario
+  - problem_scenario
+  - workplace_guide
+  - career_guide
+  - writing_guide
+  - media_language
+  - internet_language
+  - real_world_language
+  - myth_buster
+  - mini_story
+  - how_to
+  - explainer
+  primary_purposes:
+  - communication
+  - naturalness
+  - fluency
+  - comprehension
+  - culture
+  - travel_survival
+  - work_communication
+  - writing
+  - confidence
+  - real_world_recognition
+  search_intents:
+  - informational
+  - practical
+  - comparative
+  - meaning
+  - how_to
+  - scenario
+  - cultural
+  babbel_cta_levels:
+  - none
+  - soft
+  - contextual
+  - direct
+  statuses:
+  - planned
+  - briefed
+  - drafting
+  - review
+  - approved
+  - published
+  - needs_update
+  - archived
+  schema_types:
+  - Article
+  - HowTo
+  - FAQPage
+  relationship_types:
+    natural_extension: Deepens the same learner problem from a different editorial angle.
+    cultural_context: Explains cultural context behind language or behaviour.
+    practical_application: Applies previously learned language to a concrete situation.
+    confidence_strategy: Provides a complementary speaking or communication strategy.
+    real_world_example: Shows how the language appears in authentic real-world use.
+    travel_application: Applies the concept to a travel situation.
+    work_application: Applies the concept to work or professional life.
+    deeper_dive: Provides a deeper explanation of a concept already introduced.
+    same_theme_extension: Explores the same macro-theme from a distinct angle.
+    next_step: A logical next article for the reader's learning journey.
+planning_rules:
+  annual_capacity:
+    total_days: 365
+    editorial_articles: 364
+    annual_special: 1
+  weekly_distribution:
+    weeks: 52
+    articles_per_week: 7
+  rubric_distribution:
+    english-in-real-life: 52
+    natural-english: 52
+    english-mindset: 52
+    english-culture: 52
+    english-for-adventure: 52
+    english-for-life-work: 52
+    english-from-the-real-world: 52
+  special_day:
+    day: 365
+    type: annual_special
+    recommended_title: '365 Days of Real English: What You Can Do Now That You Couldn''t Do a Year Ago'
+  completed_weeks:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+anti_duplication_rules:
+  required_before_publish:
+  - A new article must have exactly one primary rubric.
+  - A new article must have exactly one primary macro theme.
+  - The unique_angle must be materially different from existing articles.
+  - The primary purpose must not be duplicated within the same topic unless the angle and learner problem are clearly different.
+  - Core concepts must be checked against existing concept_ids.
+  - Expressions should not be reused as the main teaching asset unless the context or meaning is substantially different.
+  - The same situation should not produce multiple articles unless the reader problem, outcome, or editorial lens is materially
+    different.
+  - Do not create a new article solely by changing the title, examples, or wording of an existing article.
+  - Cross-rubric overlap is allowed only when the rubric's mission changes the teaching objective.
+  - Babbel CTA content must never replace the article's primary educational purpose.
+  recommended_thresholds:
+    same_core_concepts_max: 0
+    same_primary_intent_same_topic_max: 1
+    same_primary_expression_as_main_asset_max: 1
+  internal_linking:
+    required:
+    - Every article must have a primary pillar.
+    - Every internal link must have an explicit relationship type.
+    - A link must provide a clear reason for the reader to continue.
+    - Do not create links solely because two articles share keywords.
+    - Avoid linking articles that substantially repeat the same explanation.
+    - Cross-rubric links are encouraged when they provide a genuinely different perspective.
+    - The visible continuation section should normally contain 3-5 editorial links maximum.
+    preferred_distribution:
+      pillar: 1
+      same_week: 0-2
+      same_rubric: 0-1
+      same_theme: 0-1
+      cross_rubric: 0-1
+workflow:
+  step_1: Select rubric from rubrics.yml.
+  step_2: Select macro_theme from macro_themes.yml.
+  step_3: Define learner problem and unique_angle.
+  step_4: Check concept, expression, situation, topic and internal-link overlap.
+  step_5: Assign content_type, primary_purpose, level and search_intent.
+  step_6: Create SEO metadata, Pinterest hook and internal-link relationships.
+  step_7: Assign Babbel CTA only when contextually appropriate and keep it separate from editorial linking.
+  step_8: Review uniqueness and internal-link usefulness before drafting.
+  step_9: Draft and editorially review.
+  step_10: Publish and update registry status.
+relationship_rules:
+  rubrics_file: data/rubrics.yml
+  macro_themes_file: data/macro_themes.yml
+  future_registry_population: 364 editorial records + 1 annual special record
+  babbel_section: Separate commercial vertical; do not classify Babbel pages as editorial rubric articles.
+records:
+- id: FM-001
+  day: 1
+  week: 1
+  rubric: english-in-real-life
+  macro_theme: meeting-people
+  title: Meeting Someone for the First Time
+  slug: meeting-someone-for-the-first-time
+  content_type: situational_guide
+  primary_purpose: communication
+  unique_angle: A complete first-meeting situation, from the initial greeting through introductions, follow-up questions,
+    reactions and a natural ending.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: A2-B1
+  search_intent: practical
+  keywords:
+    primary: how to talk to someone you just met
+    secondary:
+    - meeting someone for the first time in English
+    - English conversation when meeting someone
+    - how to introduce yourself in English
+    long_tail:
+    - what to say when meeting someone for the first time in English
+    - how to start a conversation with someone you just met
+  core_concepts:
+  - first meeting
+  - greetings
+  - introductions
+  - follow-up questions
+  - showing interest
+  - ending a conversation
+  target_language:
+    expressions:
+    - Hi, I'm...
+    - Nice to meet you.
+    - How do you know...?
+    - What brings you here?
+    - It was nice talking to you.
+    grammar_points: []
+    vocabulary_groups:
+    - introductions
+    - social interaction
+    cultural_points: []
+  forbidden_overlap:
+  - Do not become a general article about small talk.
+  - Do not focus primarily on textbook versus natural English.
+  - Do not focus on conversation anxiety or speaking strategies.
+  - Do not turn into a travel-specific meeting guide.
+  - Do not focus on workplace introductions.
+  related_content:
+    pillar: english-in-real-life
+    previous: []
+    next:
+    - FM-002
+    cross_rubric:
+    - FM-003
+    - FM-004
+    cross_theme: []
+  internal_links:
+    pillar: english-in-real-life
+    same_week:
+    - id: FM-002
+      relationship: natural_extension
+      priority: 1
+      anchor_intent: Learn how to make first-meeting language sound more natural.
+    - id: FM-003
+      relationship: confidence_strategy
+      priority: 2
+      anchor_intent: Learn what to do when the conversation gets stuck.
+    - id: FM-004
+      relationship: cultural_context
+      priority: 3
+      anchor_intent: Understand why small talk plays such an important social role.
+    same_rubric: []
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-002
+    - FM-003
+    - FM-004
+  seo:
+    meta_title: Meeting Someone for the First Time in English
+    meta_description: Learn how to handle a first conversation in English, from saying hello and introducing yourself to asking
+      natural follow-up questions.
+    canonical: /english-in-real-life/meeting-someone-for-the-first-time/
+    schema_type: Article
+  pinterest:
+    primary_hook: How to Talk to Someone You've Just Met
+    pin_titles:
+    - How to Talk to Someone You've Just Met
+    - What to Say When Meeting Someone for the First Time
+    - English for Your First Conversation
+    visual_angles:
+    - two people meeting
+    - conversation starter
+    - first introduction
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: soft
+    cta_angle: Practise everyday English conversations regularly.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - meeting-people
+    - first-meeting
+    - introductions
+    expression_ids:
+    - nice-to-meet-you
+    - how-do-you-know-them
+    situation_ids:
+    - first-meeting
+    excluded_article_ids: []
+    uniqueness_check: passed
+- id: FM-002
+  day: 2
+  week: 1
+  rubric: natural-english
+  macro_theme: meeting-people
+  title: Stop Saying 'Nice to Meet You' Every Time
+  slug: stop-saying-nice-to-meet-you-every-time
+  content_type: natural_language_analysis
+  primary_purpose: naturalness
+  unique_angle: Explore natural alternatives and conversational follow-ups to standard introductions, focusing on register,
+    context and conversational flow rather than teaching the mechanics of introducing yourself.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2
+  search_intent: informational
+  keywords:
+    primary: natural English meeting someone
+    secondary:
+    - natural ways to say nice to meet you
+    - English introductions native speakers
+    - natural English phrases for meeting people
+    long_tail:
+    - what native English speakers say when meeting someone
+    - natural alternatives to nice to meet you
+  core_concepts:
+  - natural introductions
+  - register
+  - conversational flow
+  - follow-up language
+  - textbook English versus natural English
+  target_language:
+    expressions:
+    - Good to meet you.
+    - Great to meet you.
+    - How's it going?
+    - What brings you here?
+    - So, how do you know...?
+    grammar_points: []
+    vocabulary_groups:
+    - greetings
+    - conversation openers
+    cultural_points: []
+  forbidden_overlap:
+  - Do not provide a complete first-meeting dialogue as the primary content.
+  - Do not teach how to overcome speaking anxiety.
+  - Do not explain the cultural importance of small talk.
+  - Do not focus on travel.
+  - Do not focus on workplace introductions.
+  related_content:
+    pillar: natural-english
+    previous:
+    - FM-001
+    next:
+    - FM-003
+    cross_rubric:
+    - FM-001
+    - FM-007
+    cross_theme: []
+  internal_links:
+    pillar: natural-english
+    same_week:
+    - id: FM-001
+      relationship: practical_application
+      priority: 1
+      anchor_intent: See the full first-meeting situation where these natural expressions are used.
+    - id: FM-007
+      relationship: real_world_example
+      priority: 2
+      anchor_intent: See how conversational English like this appears at real social events.
+    same_rubric: []
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-001
+    - FM-007
+  seo:
+    meta_title: 'Natural English for Meeting Someone: What Native Speakers Say'
+    meta_description: Discover natural ways English speakers greet and talk to someone they have just met, beyond textbook
+      introductions.
+    canonical: /natural-english/meeting-someone-naturally/
+    schema_type: Article
+  pinterest:
+    primary_hook: 'Textbook English vs Real English: Meeting Someone'
+    pin_titles:
+    - Textbook English vs Real English
+    - Stop Saying This Every Time You Meet Someone
+    - Natural English for Meeting People
+    visual_angles:
+    - textbook versus natural speech
+    - conversation comparison
+    - native speaker language
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Build a wider range of natural everyday English.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 6
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - natural-introductions
+    - register
+    - conversation-openers
+    expression_ids:
+    - good-to-meet-you
+    - great-to-meet-you
+    - how-is-it-going
+    situation_ids:
+    - first-meeting
+    excluded_article_ids:
+    - FM-001
+    uniqueness_check: passed
+- id: FM-003
+  day: 3
+  week: 1
+  rubric: english-mindset
+  macro_theme: meeting-people
+  title: What to Say When You Don't Know What to Say
+  slug: what-to-say-when-you-dont-know-what-to-say
+  content_type: strategy
+  primary_purpose: confidence
+  unique_angle: Teach communication recovery strategies for moments when the learner's mind goes blank, including follow-up
+    questions, reactions, clarification, buying time and changing topics.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: A2-B2
+  search_intent: how_to
+  keywords:
+    primary: what to say when you don't know what to say in English
+    secondary:
+    - English conversation when you get stuck
+    - how to keep a conversation going in English
+    - English speaking confidence
+    long_tail:
+    - what to say when your mind goes blank speaking English
+    - how to continue an English conversation when you get stuck
+  core_concepts:
+  - conversation recovery
+  - buying time
+  - follow-up questions
+  - clarification
+  - topic switching
+  - speaking confidence
+  target_language:
+    expressions:
+    - Let me think.
+    - That's a good question.
+    - What about you?
+    - What do you mean?
+    - Actually...
+    grammar_points: []
+    vocabulary_groups:
+    - conversation management
+    cultural_points: []
+  forbidden_overlap:
+  - Do not become an article about first-meeting phrases.
+  - Do not explain small-talk culture.
+  - Do not focus on travel situations.
+  - Do not focus on workplace communication.
+  - Do not analyze individual expressions as the main purpose.
+  related_content:
+    pillar: english-mindset
+    previous:
+    - FM-002
+    next:
+    - FM-004
+    cross_rubric:
+    - FM-001
+    - FM-002
+    cross_theme: []
+  internal_links:
+    pillar: english-mindset
+    same_week:
+    - id: FM-001
+      relationship: confidence_strategy
+      priority: 1
+      anchor_intent: Apply conversation-recovery strategies to a first meeting.
+    - id: FM-002
+      relationship: natural_extension
+      priority: 2
+      anchor_intent: Combine conversation strategies with more natural language.
+    same_rubric: []
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-001
+    - FM-002
+  seo:
+    meta_title: What to Say When Your Mind Goes Blank in English
+    meta_description: Learn simple strategies for keeping an English conversation going when you don't know what to say next.
+    canonical: /english-mindset/what-to-say-when-you-get-stuck/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: What to Say When Your English Brain Goes Blank
+    pin_titles:
+    - What to Say When Your English Brain Goes Blank
+    - How to Keep an English Conversation Going
+    - Never Get Stuck in an English Conversation Again
+    visual_angles:
+    - conversation block
+    - speaking confidence
+    - conversation rescue strategies
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: soft
+    cta_angle: Practise speaking situations until conversation feels easier.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - conversation-recovery
+    - speaking-confidence
+    - conversation-strategies
+    expression_ids:
+    - let-me-think
+    - thats-a-good-question
+    - what-about-you
+    situation_ids:
+    - conversation-block
+    excluded_article_ids:
+    - FM-001
+    - FM-002
+    uniqueness_check: passed
+- id: FM-004
+  day: 4
+  week: 1
+  rubric: english-culture
+  macro_theme: meeting-people
+  title: Why Small Talk Matters So Much in English
+  slug: why-small-talk-matters-in-english
+  content_type: cultural_explainer
+  primary_purpose: culture
+  unique_angle: Explain the social function of small talk in English-speaking cultures, including connection, politeness,
+    social comfort and conversational boundaries, without turning the article into a phrase list.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2+
+  search_intent: cultural
+  keywords:
+    primary: why small talk matters in English
+    secondary:
+    - English small talk culture
+    - small talk in English-speaking countries
+    - why English speakers make small talk
+    long_tail:
+    - why do English speakers talk about the weather
+    - why small talk is important in English culture
+  core_concepts:
+  - small talk
+  - social connection
+  - politeness
+  - awkward silence
+  - social boundaries
+  - weather talk
+  target_language:
+    expressions:
+    - How's it going?
+    - How's your day going?
+    grammar_points: []
+    vocabulary_groups:
+    - small talk topics
+    cultural_points:
+    - small talk as social bonding
+    - weather as a safe topic
+    - personal boundaries
+    - social politeness
+  forbidden_overlap:
+  - Do not become a phrasebook for small talk.
+  - Do not focus on first-meeting conversation mechanics.
+  - Do not teach conversation recovery strategies.
+  - Do not focus on travel.
+  - Do not focus on workplace introductions.
+  related_content:
+    pillar: english-culture
+    previous:
+    - FM-003
+    next:
+    - FM-005
+    cross_rubric:
+    - FM-001
+    - FM-007
+    cross_theme: []
+  internal_links:
+    pillar: english-culture
+    same_week:
+    - id: FM-001
+      relationship: cultural_context
+      priority: 1
+      anchor_intent: Understand the cultural context behind the first-meeting conversation.
+    - id: FM-007
+      relationship: real_world_example
+      priority: 2
+      anchor_intent: See small-talk language in an authentic social-event context.
+    same_rubric: []
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-001
+    - FM-007
+  seo:
+    meta_title: Why Small Talk Matters So Much in English
+    meta_description: Understand why small talk is so important in English-speaking cultures and what conversations about
+      the weather and everyday life really do.
+    canonical: /english-culture/why-small-talk-matters/
+    schema_type: Article
+  pinterest:
+    primary_hook: Why Do English Speakers Talk About the Weather?
+    pin_titles:
+    - Why Do English Speakers Talk About the Weather?
+    - The Real Reason Small Talk Matters
+    - 'English Small Talk: The Cultural Rules'
+    visual_angles:
+    - weather small talk
+    - cultural differences
+    - social conversation
+    cta_type: read_article
+  babbel:
+    enabled: false
+    cta_level: none
+    cta_angle: ''
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 8
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - small-talk-culture
+    - social-politeness
+    - social-bonding
+    expression_ids:
+    - hows-it-going
+    situation_ids: []
+    excluded_article_ids:
+    - FM-001
+    - FM-002
+    - FM-003
+    uniqueness_check: passed
+- id: FM-005
+  day: 5
+  week: 1
+  rubric: english-for-adventure
+  macro_theme: meeting-people
+  title: Meeting People While Travelling
+  slug: meeting-people-while-travelling
+  content_type: travel_scenario
+  primary_purpose: travel_survival
+  unique_angle: Show how to start and manage social interactions with new people while travelling, especially in informal
+    settings such as hostels, tours, cafés, trains and local events.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: A2-B1
+  search_intent: scenario
+  keywords:
+    primary: English for meeting people while travelling
+    secondary:
+    - how to make friends while travelling
+    - travel English social situations
+    - English phrases for meeting people abroad
+    long_tail:
+    - how to make friends when travelling alone
+    - what to say when meeting people abroad in English
+  core_concepts:
+  - meeting people abroad
+  - travel social situations
+  - starting conversations
+  - making friends
+  - asking about travel plans
+  target_language:
+    expressions:
+    - Where are you from?
+    - Are you travelling alone?
+    - How long are you staying?
+    - Have you been here before?
+    - What are you doing tomorrow?
+    grammar_points: []
+    vocabulary_groups:
+    - travel and socialising
+    cultural_points:
+    - informal social interaction while travelling
+  forbidden_overlap:
+  - Do not become a general guide to first meetings.
+  - Do not focus on the psychology of speaking anxiety.
+  - Do not explain small-talk culture in general.
+  - Do not focus on workplace introductions.
+  - Do not become a generic airport or hotel vocabulary article.
+  related_content:
+    pillar: english-for-adventure
+    previous:
+    - FM-004
+    next:
+    - FM-006
+    cross_rubric:
+    - FM-001
+    cross_theme: []
+  internal_links:
+    pillar: english-for-adventure
+    same_week:
+    - id: FM-001
+      relationship: travel_application
+      priority: 1
+      anchor_intent: Apply the basic first-meeting framework to travel.
+    - id: FM-003
+      relationship: confidence_strategy
+      priority: 2
+      anchor_intent: Use conversation-recovery strategies when meeting people abroad.
+    same_rubric: []
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-001
+    - FM-003
+  seo:
+    meta_title: 'How to Meet People While Travelling: English You Can Use'
+    meta_description: Learn practical English for meeting people, starting conversations and making friends while travelling
+      abroad.
+    canonical: /english-for-adventure/meeting-people-while-travelling/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: How to Make Friends When Travelling Alone
+    pin_titles:
+    - How to Make Friends When Travelling Alone
+    - Travel English for Meeting New People
+    - What to Say When You Meet People Abroad
+    visual_angles:
+    - solo travel
+    - travellers meeting
+    - hostel or café conversation
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Practise English before using it on your next trip.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - meeting-people-abroad
+    - travel-socialising
+    - making-friends
+    expression_ids:
+    - where-are-you-from
+    - are-you-travelling-alone
+    - how-long-are-you-staying
+    situation_ids:
+    - meeting-people-while-travelling
+    excluded_article_ids:
+    - FM-001
+    - FM-003
+    uniqueness_check: passed
+- id: FM-006
+  day: 6
+  week: 1
+  rubric: english-for-life-work
+  macro_theme: meeting-people
+  title: Introducing Yourself at Work Without Sounding Stiff
+  slug: introducing-yourself-at-work-without-sounding-stiff
+  content_type: workplace_guide
+  primary_purpose: work_communication
+  unique_angle: Adapt first-meeting language to professional situations while showing how to sound competent and natural without
+    becoming excessively formal or sounding like a textbook.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2+
+  search_intent: practical
+  keywords:
+    primary: how to introduce yourself at work in English
+    secondary:
+    - professional English introduction
+    - introducing yourself to colleagues
+    - natural English at work
+    long_tail:
+    - how to introduce yourself to new colleagues in English
+    - how to introduce yourself in a work meeting naturally
+  core_concepts:
+  - professional introductions
+  - new colleagues
+  - first day at work
+  - networking
+  - professional register
+  - remote meetings
+  target_language:
+    expressions:
+    - Hi, I'm...
+    - I work in...
+    - I've just joined the team.
+    - What do you do?
+    - It's great to be here.
+    grammar_points: []
+    vocabulary_groups:
+    - work introductions
+    - professional roles
+    cultural_points:
+    - professional versus casual register
+  forbidden_overlap:
+  - Do not become a general first-meeting guide.
+  - Do not focus on travel.
+  - Do not focus on speaking anxiety.
+  - Do not explain general small-talk culture.
+  - Do not become a general business English vocabulary list.
+  related_content:
+    pillar: english-for-life-work
+    previous:
+    - FM-005
+    next:
+    - FM-007
+    cross_rubric:
+    - FM-001
+    - FM-002
+    cross_theme: []
+  internal_links:
+    pillar: english-for-life-work
+    same_week:
+    - id: FM-001
+      relationship: work_application
+      priority: 1
+      anchor_intent: See the general first-meeting framework before adapting it to work.
+    - id: FM-002
+      relationship: natural_extension
+      priority: 2
+      anchor_intent: Make professional introductions sound more natural.
+    same_rubric: []
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-001
+    - FM-002
+  seo:
+    meta_title: How to Introduce Yourself at Work in Natural English
+    meta_description: Learn how to introduce yourself to colleagues, teams and professional contacts in English without sounding
+      stiff or overly formal.
+    canonical: /english-for-life-work/introducing-yourself-at-work/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: How to Introduce Yourself at Work in Natural English
+    pin_titles:
+    - How to Introduce Yourself at Work in English
+    - Natural English for Your First Day at Work
+    - 'Stop Sounding Stiff at Work: English Introductions'
+    visual_angles:
+    - office introduction
+    - new colleague
+    - professional networking
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Build confidence for real English conversations at work.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - professional-introductions
+    - workplace-register
+    - new-colleagues
+    expression_ids:
+    - ive-just-joined-the-team
+    - i-work-in
+    situation_ids:
+    - first-day-at-work
+    - work-networking
+    excluded_article_ids:
+    - FM-001
+    - FM-002
+    uniqueness_check: passed
+- id: FM-007
+  day: 7
+  week: 1
+  rubric: english-from-the-real-world
+  macro_theme: meeting-people
+  title: '"How Do You Know Them?" — English You Hear at Social Events'
+  slug: how-do-you-know-them-english-social-events
+  content_type: real_world_language
+  primary_purpose: real_world_recognition
+  unique_angle: Start from an authentic question commonly heard at social gatherings and decode its meaning, context, implied
+    purpose and natural responses, using it as a window into real-world conversational English.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2
+  search_intent: meaning
+  keywords:
+    primary: how do you know them meaning
+    secondary:
+    - English phrases at social events
+    - real English conversation phrases
+    - how do you know someone in English
+    long_tail:
+    - what does how do you know them mean in English
+    - English questions you hear at parties and social events
+  core_concepts:
+  - authentic spoken English
+  - social-event language
+  - contextual meaning
+  - conversation openers
+  - implicit social meaning
+  target_language:
+    expressions:
+    - How do you know them?
+    - How do you know each other?
+    - Are you friends with...?
+    - Have you met before?
+    grammar_points:
+    - present simple with do for questions
+    vocabulary_groups:
+    - social relationships
+    - social events
+    cultural_points: []
+  forbidden_overlap:
+  - Do not become a general guide to meeting someone.
+  - Do not explain the cultural importance of small talk.
+  - Do not focus on travel.
+  - Do not focus on professional introductions.
+  - Do not become a generic phrase list.
+  related_content:
+    pillar: english-from-the-real-world
+    previous:
+    - FM-006
+    next: []
+    cross_rubric:
+    - FM-001
+    - FM-002
+    - FM-004
+    cross_theme: []
+  internal_links:
+    pillar: english-from-the-real-world
+    same_week:
+    - id: FM-002
+      relationship: real_world_example
+      priority: 1
+      anchor_intent: Connect the authentic phrase to natural conversational alternatives.
+    - id: FM-004
+      relationship: cultural_context
+      priority: 2
+      anchor_intent: Understand the social context behind questions at gatherings.
+    same_rubric: []
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-002
+    - FM-004
+  seo:
+    meta_title: '"How Do You Know Them?" Meaning in Natural English'
+    meta_description: Discover what “How do you know them?” means, when native speakers use it, and how to respond naturally
+      at social events.
+    canonical: /english-from-the-real-world/how-do-you-know-them/
+    schema_type: Article
+  pinterest:
+    primary_hook: This Is How Native Speakers Start Conversations
+    pin_titles:
+    - What Does 'How Do You Know Them?' Mean?
+    - English You Hear at Parties
+    - Real English You Don't Learn in Textbooks
+    visual_angles:
+    - party conversation
+    - real-world English
+    - speech bubble explanation
+    cta_type: read_article
+  babbel:
+    enabled: false
+    cta_level: none
+    cta_angle: ''
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 6
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - authentic-social-language
+    - contextual-meaning
+    - social-event-conversation
+    expression_ids:
+    - how-do-you-know-them
+    - how-do-you-know-each-other
+    - have-you-met-before
+    situation_ids:
+    - social-event
+    excluded_article_ids:
+    - FM-001
+    - FM-002
+    - FM-004
+    uniqueness_check: passed
+- id: FM-008
+  day: 8
+  week: 2
+  rubric: english-in-real-life
+  macro_theme: friends-and-friendship
+  title: Making Plans with a Friend
+  slug: making-plans-with-a-friend
+  content_type: situational_guide
+  primary_purpose: communication
+  unique_angle: 'Organising something with an existing friend: suggesting ideas, checking availability, accepting or declining,
+    changing details, and confirming plans.'
+  audience: Italian learners of English who want to use natural English in real life
+  level: A2-B1
+  search_intent: practical
+  keywords:
+    primary: making plans with a friend in English
+    secondary:
+    - how to make plans in English
+    - English phrases for making plans
+    - making plans with friends
+    long_tail:
+    - what to say when making plans with a friend in English
+    - how to arrange plans naturally in English
+  core_concepts:
+  - suggesting plans
+  - checking availability
+  - accepting
+  - declining
+  - changing details
+  - confirming plans
+  target_language:
+    expressions:
+    - Do you want to...?
+    - Are you free on...?
+    - How about...?
+    - I'm up for it.
+    - I can't make it.
+    - Sounds good.
+    grammar_points:
+    - present continuous for arrangements
+    - be free + time expression
+    vocabulary_groups:
+    - plans and arrangements
+    - free time
+    - social activities
+    cultural_points: []
+  forbidden_overlap:
+  - Do not repeat first-meeting introductions from Week 1.
+  - Do not become a generic friendship vocabulary list.
+  - Do not focus on workplace invitations.
+  related_content:
+    pillar: english-in-real-life
+    previous:
+    - FM-007
+    next:
+    - FM-009
+    cross_rubric:
+    - FM-009
+    - FM-003
+    cross_theme: []
+  seo:
+    meta_title: Making Plans with a Friend in English | Fluente-Mente
+    meta_description: Learn natural English for suggesting, accepting, declining, changing and confirming plans with a friend.
+    canonical: /english-in-real-life/making-plans-with-a-friend/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: How to Make Plans with a Friend in English
+    pin_titles:
+    - How to Make Plans with a Friend in English
+    - Natural English for Making Plans
+    - What to Say When Making Plans in English
+    visual_angles:
+    - friends planning
+    - chat messages
+    - weekend plans
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: soft
+    cta_angle: Practise everyday English conversations so making plans feels more natural.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - making-plans
+    - social-arrangements
+    - availability
+    - confirming-plans
+    expression_ids:
+    - do-you-want-to
+    - are-you-free
+    - sounds-good
+    situation_ids:
+    - making-plans-with-a-friend
+    excluded_article_ids:
+    - FM-001
+    - FM-005
+    - FM-006
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-in-real-life
+    same_week:
+    - id: FM-009
+      relationship: natural_extension
+      priority: 1
+      anchor_intent: Learn how to describe friendships naturally while talking about plans.
+    - id: FM-010
+      relationship: practical_application
+      priority: 2
+      anchor_intent: Keep the conversation going after the initial plan is suggested.
+    same_rubric: []
+    same_theme: []
+    cross_rubric:
+    - id: FM-003
+      relationship: confidence_strategy
+      priority: 3
+      anchor_intent: Know what to say if you hesitate or need to change the subject.
+    visible_recommendations:
+    - FM-009
+    - FM-010
+    - FM-003
+  internal_link_record:
+  - target: FM-009
+    relationship: natural_extension
+  - target: FM-010
+    relationship: practical_application
+  - target: FM-003
+    relationship: confidence_strategy
+- id: FM-009
+  day: 9
+  week: 2
+  rubric: natural-english
+  macro_theme: friends-and-friendship
+  title: How Native Speakers Talk About Friends
+  slug: how-native-speakers-talk-about-friends
+  content_type: natural_language_analysis
+  primary_purpose: naturalness
+  unique_angle: How English speakers naturally describe friendships without repeatedly relying on literal textbook phrases.
+  audience: Italian learners of English who want to use natural English in real life
+  level: B1-B2
+  search_intent: informational
+  keywords:
+    primary: how to talk about friends in English
+    secondary:
+    - natural English friendship phrases
+    - native English expressions for friends
+    - how native speakers describe friends
+    long_tail:
+    - natural ways to describe a close friend in English
+    - how to say we have known each other for years in English
+  core_concepts:
+  - close friend
+  - old friend
+  - a friend of mine
+  - long-term friendship
+  - degree of closeness
+  - natural collocations
+  target_language:
+    expressions:
+    - a close friend
+    - a good friend of mine
+    - we go way back
+    - we're pretty close
+    - we've known each other for years
+    grammar_points:
+    - present perfect with for and since
+    - possessive structures
+    vocabulary_groups:
+    - friendship descriptions
+    - degree of closeness
+    - relationship vocabulary
+    cultural_points: []
+  forbidden_overlap:
+  - Do not focus on making plans.
+  - Do not repeat first-meeting phrases from Week 1.
+  - Do not become a dictionary-style list of friendship vocabulary.
+  related_content:
+    pillar: natural-english
+    previous:
+    - FM-008
+    next:
+    - FM-010
+    cross_rubric:
+    - FM-002
+    - FM-014
+    cross_theme: []
+  seo:
+    meta_title: How Native Speakers Talk About Friends | Fluente-Mente
+    meta_description: Discover natural English phrases native speakers use to describe friends and long-term friendships.
+    canonical: /natural-english/how-native-speakers-talk-about-friends/
+    schema_type: Article
+  pinterest:
+    primary_hook: How Native Speakers Really Talk About Their Friends
+    pin_titles:
+    - How Native Speakers Really Talk About Their Friends
+    - Natural English for Talking About Friends
+    - Stop Saying My Best Friend Every Time
+    visual_angles:
+    - friendship phrases
+    - textbook vs natural English
+    - friendship conversation
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Build a wider range of natural everyday English through regular practice.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 6
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - describing-friendships
+    - degree-of-closeness
+    - friendship-collocations
+    expression_ids:
+    - close-friend
+    - friend-of-mine
+    - go-way-back
+    - pretty-close
+    situation_ids:
+    - talking-about-friends
+    excluded_article_ids:
+    - FM-001
+    - FM-002
+    uniqueness_check: passed
+  internal_links:
+    pillar: natural-english
+    same_week:
+    - id: FM-008
+      relationship: same_theme_extension
+      priority: 1
+      anchor_intent: Use natural friendship descriptions while making plans.
+    - id: FM-010
+      relationship: natural_extension
+      priority: 2
+      anchor_intent: Keep a conversation going with someone you already know.
+    same_rubric:
+    - id: FM-002
+      relationship: deeper_dive
+      priority: 3
+      anchor_intent: Explore the same natural-English principle in first-meeting situations.
+    same_theme: []
+    cross_rubric:
+    - id: FM-014
+      relationship: real_world_example
+      priority: 4
+      anchor_intent: See friendship language as it appears in real conversations and messages.
+    visible_recommendations:
+    - FM-008
+    - FM-010
+    - FM-002
+    - FM-014
+  internal_link_record:
+  - target: FM-008
+    relationship: same_theme_extension
+  - target: FM-010
+    relationship: natural_extension
+  - target: FM-002
+    relationship: deeper_dive
+  - target: FM-014
+    relationship: real_world_example
+- id: FM-010
+  day: 10
+  week: 2
+  rubric: english-mindset
+  macro_theme: friends-and-friendship
+  title: How to Keep a Friendship Going in English
+  slug: how-to-keep-a-friendship-going-in-english
+  content_type: strategy
+  primary_purpose: confidence
+  unique_angle: Maintaining conversation with someone you already know through follow-up questions, reactions, shared experiences
+    and restarting after a long gap.
+  audience: Italian learners of English who want to use natural English in real life
+  level: B1-B2
+  search_intent: informational
+  keywords:
+    primary: how to keep a conversation going with friends in English
+    secondary:
+    - English conversation with friends
+    - keep an English conversation going
+    - English speaking confidence
+    long_tail:
+    - how to avoid awkward silence with friends in English
+    - what to say when you run out of things to say with an English-speaking friend
+  core_concepts:
+  - follow-up questions
+  - active reactions
+  - shared experiences
+  - conversation continuity
+  - restarting after a gap
+  target_language:
+    expressions:
+    - How did that go?
+    - What happened with...?
+    - How's that going?
+    - What about you?
+    - I remember you said...
+    grammar_points:
+    - follow-up questions
+    - present perfect for recent experiences
+    vocabulary_groups:
+    - conversation management
+    - friendship and shared experiences
+    cultural_points: []
+  forbidden_overlap:
+  - Do not focus on meeting strangers.
+  - Do not present this as a vocabulary lesson.
+  - Do not repeat the general conversation-recovery framework from FM-003.
+  related_content:
+    pillar: english-mindset
+    previous:
+    - FM-009
+    next:
+    - FM-011
+    cross_rubric:
+    - FM-009
+    - FM-003
+    cross_theme: []
+  seo:
+    meta_title: How to Keep a Conversation Going with Friends in English
+    meta_description: Practical strategies for keeping conversations with friends going in natural English, even when you
+      run out of things to say.
+    canonical: /english-mindset/keep-a-conversation-going-with-friends/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: How to Keep an English Conversation Going with Friends
+    pin_titles:
+    - How to Keep an English Conversation Going
+    - Never Run Out of Things to Say in English
+    - English Conversation Tips for Talking to Friends
+    visual_angles:
+    - conversation flow
+    - friends talking
+    - conversation rescue
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: soft
+    cta_angle: Practise real conversation situations until keeping a conversation going feels easier.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - conversation-continuity
+    - follow-up-questions
+    - shared-experiences
+    expression_ids:
+    - how-did-that-go
+    - what-about-you
+    - i-remember-you-said
+    situation_ids:
+    - conversation-with-a-friend
+    excluded_article_ids:
+    - FM-003
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-mindset
+    same_week:
+    - id: FM-008
+      relationship: practical_application
+      priority: 1
+      anchor_intent: Apply conversation strategies while making plans with a friend.
+    - id: FM-009
+      relationship: natural_extension
+      priority: 2
+      anchor_intent: Use natural friendship language instead of translated phrases.
+    same_rubric:
+    - id: FM-003
+      relationship: deeper_dive
+      priority: 3
+      anchor_intent: Build on the broader strategy for recovering when conversation gets stuck.
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-008
+    - FM-009
+    - FM-003
+  internal_link_record:
+  - target: FM-008
+    relationship: practical_application
+  - target: FM-009
+    relationship: natural_extension
+  - target: FM-003
+    relationship: deeper_dive
+- id: FM-011
+  day: 11
+  week: 2
+  rubric: english-and-culture
+  macro_theme: friends-and-friendship
+  title: What Does 'Let's Catch Up' Really Mean?
+  slug: what-does-lets-catch-up-really-mean
+  content_type: cultural_explainer
+  primary_purpose: culture
+  unique_angle: The social meaning of catch up as a relationship-maintenance concept, beyond a dictionary definition.
+  audience: Italian learners of English who want to use natural English in real life
+  level: B1-B2+
+  search_intent: cultural
+  keywords:
+    primary: what does let's catch up mean in English
+    secondary:
+    - catch up with someone meaning
+    - English social phrases
+    - catch up meaning in conversation
+    long_tail:
+    - why do English speakers say let's catch up
+    - what does we should catch up mean in English
+  core_concepts:
+  - reconnecting
+  - relationship maintenance
+  - time gap
+  - social bonding
+  - informal invitation
+  target_language:
+    expressions:
+    - Let's catch up sometime.
+    - We should catch up.
+    - It's been ages.
+    - We have a lot to catch up on.
+    grammar_points:
+    - catch up with + person
+    - catch up on + information
+    vocabulary_groups:
+    - reconnecting
+    - friendship and social relationships
+    cultural_points:
+    - catching up as social bonding
+    - informal invitations
+  forbidden_overlap:
+  - Do not treat catch up only as a vocabulary definition.
+  - Do not turn this into a list of friendship idioms.
+  - Do not duplicate the real-world analysis of hang out.
+  related_content:
+    pillar: english-and-culture
+    previous:
+    - FM-010
+    next:
+    - FM-012
+    cross_rubric:
+    - FM-014
+    - FM-007
+    - FM-009
+    cross_theme: []
+  seo:
+    meta_title: What Does Let's Catch Up Mean in English? | Fluente-Mente
+    meta_description: Understand the real social and cultural meaning of Let's catch up and when English speakers use it.
+    canonical: /english-and-culture/lets-catch-up-meaning/
+    schema_type: Article
+  pinterest:
+    primary_hook: What Does Let's Catch Up Actually Mean?
+    pin_titles:
+    - What Does Let's Catch Up Actually Mean?
+    - The Real Meaning of Catch Up
+    - English Phrases That Make More Sense in Context
+    visual_angles:
+    - catch up text message
+    - friends reconnecting
+    - cultural explanation
+    cta_type: read_article
+  babbel:
+    enabled: false
+    cta_level: none
+    cta_angle: ''
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - reconnecting
+    - relationship-maintenance
+    - social-invitation
+    expression_ids:
+    - lets-catch-up
+    - catch-up-on
+    - its-been-ages
+    situation_ids:
+    - reconnecting-with-someone
+    excluded_article_ids:
+    - FM-007
+    - FM-014
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-and-culture
+    same_week:
+    - id: FM-014
+      relationship: natural_extension
+      priority: 1
+      anchor_intent: Compare catch up with another common phrase for spending time together.
+    same_rubric: []
+    same_theme: []
+    cross_rubric:
+    - id: FM-007
+      relationship: cultural_context
+      priority: 2
+      anchor_intent: See how social questions work in real English-speaking gatherings.
+    - id: FM-009
+      relationship: real_world_example
+      priority: 3
+      anchor_intent: Connect friendship descriptions with the social context of reconnecting.
+    visible_recommendations:
+    - FM-014
+    - FM-007
+    - FM-009
+  internal_link_record:
+  - target: FM-014
+    relationship: natural_extension
+  - target: FM-007
+    relationship: cultural_context
+  - target: FM-009
+    relationship: real_world_example
+- id: FM-012
+  day: 12
+  week: 2
+  rubric: english-for-adventure
+  macro_theme: friends-and-friendship
+  title: Making Friends in a New City
+  slug: making-friends-in-a-new-city
+  content_type: travel_scenario
+  primary_purpose: travel_survival
+  unique_angle: Building a social network during an extended stay through events, classes, cafes, sports and language exchanges.
+  audience: Italian learners of English who want to use natural English in real life
+  level: B1
+  search_intent: practical
+  keywords:
+    primary: how to make friends in a new city in English
+    secondary:
+    - English for making friends abroad
+    - social English in a new city
+    - English phrases for meeting people abroad
+    long_tail:
+    - how to make friends when living in a new city
+    - what to say when joining a social activity in English
+  core_concepts:
+  - joining activities
+  - introducing yourself
+  - suggesting plans
+  - following up
+  - social invitations
+  - building a social network
+  target_language:
+    expressions:
+    - I'm new around here.
+    - Are you going to the event?
+    - Want to grab a coffee?
+    - Do you fancy joining us?
+    - How did you hear about this place?
+    grammar_points:
+    - present simple questions
+    - would you like to / want to for invitations
+    vocabulary_groups:
+    - local activities
+    - social events
+    - community and hobbies
+    cultural_points:
+    - low-pressure social invitations
+    - joining groups and activities
+  forbidden_overlap:
+  - Do not repeat FM-005's one-off travel encounters.
+  - Focus on building ongoing friendships during an extended stay.
+  - Do not turn this into an airport, hotel or transport vocabulary article.
+  related_content:
+    pillar: english-for-adventure
+    previous:
+    - FM-011
+    next:
+    - FM-013
+    cross_rubric:
+    - FM-005
+    cross_theme: []
+  seo:
+    meta_title: How to Make Friends in a New City Using English
+    meta_description: Learn natural English for joining activities, inviting people out and building a social circle in a
+      new city.
+    canonical: /english-for-adventure/making-friends-in-a-new-city/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: How to Make Friends in a New City
+    pin_titles:
+    - How to Make Friends in a New City
+    - English for Making Friends Abroad
+    - What to Say When Joining a New Social Group
+    visual_angles:
+    - new city
+    - language exchange
+    - social event
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Prepare for real conversations before using English in a new city.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - new-city-social-life
+    - joining-activities
+    - building-friendships
+    expression_ids:
+    - im-new-around-here
+    - fancy-joining-us
+    - grab-a-coffee
+    situation_ids:
+    - making-friends-in-new-city
+    excluded_article_ids:
+    - FM-005
+    - FM-001
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-for-adventure
+    same_week:
+    - id: FM-008
+      relationship: practical_application
+      priority: 1
+      anchor_intent: Turn a new connection into an actual plan.
+    - id: FM-010
+      relationship: confidence_strategy
+      priority: 2
+      anchor_intent: Keep new friendships developing after the first conversation.
+    same_rubric:
+    - id: FM-005
+      relationship: travel_application
+      priority: 3
+      anchor_intent: Compare longer-term friendship building with meeting people while travelling.
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-008
+    - FM-010
+    - FM-005
+  internal_link_record:
+  - target: FM-005
+    relationship: travel_application
+  - target: FM-008
+    relationship: practical_application
+  - target: FM-010
+    relationship: confidence_strategy
+- id: FM-013
+  day: 13
+  week: 2
+  rubric: english-for-life-and-work
+  macro_theme: friends-and-friendship
+  title: Inviting a Colleague to Do Something Outside Work
+  slug: inviting-a-colleague-to-do-something-outside-work
+  content_type: workplace_guide
+  primary_purpose: work_communication
+  unique_angle: Inviting a colleague out while balancing friendly, professional and personal boundaries.
+  audience: Italian learners of English who want to use natural English in real life
+  level: B1-B2+
+  search_intent: practical
+  keywords:
+    primary: how to invite a coworker out in English
+    secondary:
+    - English phrases for inviting colleagues
+    - natural workplace English invitations
+    - invite a colleague for coffee
+    long_tail:
+    - how to invite a colleague to lunch in English
+    - how to invite a coworker out without sounding awkward
+  core_concepts:
+  - friendly invitation
+  - professional boundaries
+  - accepting
+  - declining
+  - low-pressure wording
+  - register
+  target_language:
+    expressions:
+    - Fancy grabbing a coffee?
+    - Would you like to join us for lunch?
+    - Do you fancy joining us?
+    - No worries.
+    - Maybe another time.
+    grammar_points:
+    - would you like to for polite invitations
+    - Do you fancy + -ing
+    - want to for informal invitations
+    vocabulary_groups:
+    - workplace socialising
+    - invitations
+    - professional relationships
+    cultural_points:
+    - professional versus personal boundaries
+    - low-pressure invitations at work
+  forbidden_overlap:
+  - Do not repeat self-introduction language from FM-006.
+  - Do not make this a generic friendship invitation lesson.
+  - Do not focus on job interviews or meetings.
+  related_content:
+    pillar: english-for-life-and-work
+    previous:
+    - FM-012
+    next:
+    - FM-014
+    cross_rubric:
+    - FM-006
+    - FM-009
+    cross_theme: []
+  seo:
+    meta_title: How to Invite a Coworker Out in Natural English
+    meta_description: Learn natural, professional ways to invite a colleague for coffee, lunch or an activity outside work.
+    canonical: /english-for-life-work/invite-a-coworker-out/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: How to Invite a Coworker Out in Natural English
+    pin_titles:
+    - How to Invite a Coworker Out in English
+    - Natural English for Inviting Colleagues
+    - What to Say When You Want to Grab Coffee with a Coworker
+    visual_angles:
+    - coworkers at coffee
+    - office socialising
+    - invitation messages
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Build confidence for natural English conversations at work and beyond.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - workplace-socialising
+    - professional-boundaries
+    - workplace-invitations
+    expression_ids:
+    - fancy-grabbing-a-coffee
+    - would-you-like-to-join-us
+    - maybe-another-time
+    situation_ids:
+    - inviting-colleague-outside-work
+    excluded_article_ids:
+    - FM-006
+    - FM-008
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-for-life-and-work
+    same_week:
+    - id: FM-008
+      relationship: practical_application
+      priority: 1
+      anchor_intent: Compare a friendship invitation with a workplace-social invitation.
+    same_rubric:
+    - id: FM-006
+      relationship: work_application
+      priority: 2
+      anchor_intent: Build from professional introductions to informal workplace relationships.
+    same_theme: []
+    cross_rubric:
+    - id: FM-009
+      relationship: natural_extension
+      priority: 3
+      anchor_intent: Use natural language to describe relationships with colleagues.
+    visible_recommendations:
+    - FM-008
+    - FM-006
+    - FM-009
+  internal_link_record:
+  - target: FM-006
+    relationship: work_application
+  - target: FM-008
+    relationship: practical_application
+  - target: FM-009
+    relationship: natural_extension
+- id: FM-014
+  day: 14
+  week: 2
+  rubric: english-from-the-real-world
+  macro_theme: friends-and-friendship
+  title: '''We Should Hang Out Sometime'' — What Does It Really Mean?'
+  slug: we-should-hang-out-sometime---what-does-it-really-mean
+  content_type: real_world_language
+  primary_purpose: real_world_recognition
+  unique_angle: Decode 'We should hang out sometime' in conversations, films, series and messages, including genuine invitations
+    versus friendly formulas.
+  audience: Italian learners of English who want to use natural English in real life
+  level: B1-B2
+  search_intent: meaning
+  keywords:
+    primary: we should hang out sometime meaning
+    secondary:
+    - hang out meaning in English
+    - English phrases in real life
+    - what does hang out mean
+    long_tail:
+    - what does we should hang out sometime mean
+    - how to respond to we should hang out sometime
+  core_concepts:
+  - hang out
+  - friendly formula
+  - genuine invitation
+  - context
+  - response options
+  target_language:
+    expressions:
+    - We should hang out sometime.
+    - Do you want to hang out?
+    - We should do this again.
+    - Yeah, definitely.
+    - Let me know when you're free.
+    grammar_points:
+    - should for suggestions
+    - sometime versus sometimes
+    vocabulary_groups:
+    - informal socialising
+    - invitations
+    - friendship language
+    cultural_points:
+    - indirect social invitations
+    - context and conversational intent
+  forbidden_overlap:
+  - Do not turn this into a culture essay about friendship.
+  - Do not duplicate the cultural explanation of catch up.
+  - Do not become a generic phrasal-verb lesson.
+  related_content:
+    pillar: english-from-the-real-world
+    previous:
+    - FM-013
+    next: []
+    cross_rubric:
+    - FM-009
+    - FM-007
+    cross_theme: []
+  seo:
+    meta_title: We Should Hang Out Sometime Meaning in English
+    meta_description: What does We should hang out sometime really mean? Learn how context changes this everyday English phrase.
+    canonical: /english-from-the-real-world/we-should-hang-out-sometime-meaning/
+    schema_type: Article
+  pinterest:
+    primary_hook: What We Should Hang Out Sometime Really Means
+    pin_titles:
+    - What We Should Hang Out Sometime Really Means
+    - 'Hang Out: What Native Speakers Actually Mean'
+    - English Phrases You Hear in Real Life
+    visual_angles:
+    - text message
+    - film-style conversation
+    - phrase decoding
+    cta_type: read_article
+  babbel:
+    enabled: false
+    cta_level: none
+    cta_angle: ''
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 6
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - hang-out
+    - social-invitation-intent
+    - real-world-context
+    expression_ids:
+    - we-should-hang-out
+    - do-you-want-to-hang-out
+    - let-me-know-when-youre-free
+    situation_ids:
+    - informal-invitation
+    excluded_article_ids:
+    - FM-011
+    - FM-007
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-from-the-real-world
+    same_week:
+    - id: FM-011
+      relationship: cultural_context
+      priority: 1
+      anchor_intent: Compare hang out with catch up and understand the social difference.
+    - id: FM-009
+      relationship: natural_extension
+      priority: 2
+      anchor_intent: Connect informal social language with natural ways of describing friendships.
+    same_rubric:
+    - id: FM-007
+      relationship: real_world_example
+      priority: 3
+      anchor_intent: Continue decoding everyday English heard at social events.
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-011
+    - FM-009
+    - FM-007
+  internal_link_record:
+  - target: FM-011
+    relationship: cultural_context
+  - target: FM-009
+    relationship: natural_extension
+  - target: FM-007
+    relationship: real_world_example
+- id: FM-015
+  day: 15
+  week: 3
+  rubric: english-in-real-life
+  macro_theme: small-talk
+  title: How to Start Small Talk Without Saying “How Are You?”
+  slug: how-to-start-small-talk-without-saying-how-are-you
+  content_type: situational_guide
+  primary_purpose: communication
+  unique_angle: A practical guide to opening light conversation in everyday situations by using the immediate context, simple
+    observations and low-pressure questions instead of relying on the default “How are you?” opener.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: A2-B1
+  search_intent: practical
+  keywords:
+    primary: how to start small talk in English
+    secondary:
+    - start small talk in English
+    - English conversation starters
+    - natural small talk questions
+    long_tail:
+    - what to say to start small talk with a stranger
+    - easy small talk openers in English for everyday situations
+  core_concepts:
+  - conversation openings
+  - situational observations
+  - low-pressure questions
+  - follow-up prompts
+  - topic transitions
+  target_language:
+    expressions:
+    - Hi, how’s your day going?
+    - Busy today?
+    - Have you been here before?
+    - What brings you here?
+    - That looks good. What is it?
+    grammar_points:
+    - question forms for conversation starters
+    - present continuous for current situations
+    vocabulary_groups:
+    - small talk openers
+    - places and activities
+    - everyday observations
+    cultural_points: []
+  forbidden_overlap:
+  - Do not make the article a general first-meeting guide like FM-001.
+  - Do not focus on native-speaker alternatives to “How are you?” as a language-analysis lesson; that is FM-016.
+  - Do not focus on awkwardness recovery strategies; that is FM-017.
+  - Do not turn this into a cultural explanation of small talk; that is FM-018.
+  - Do not focus on travel, workplace or real-world phrase decoding.
+  related_content:
+    pillar: english-in-real-life
+    previous:
+    - FM-014
+    next:
+    - FM-016
+    cross_rubric:
+    - FM-017
+    - FM-018
+    cross_theme: []
+  seo:
+    meta_title: How to Start Small Talk in English Without Saying “How Are You?”
+    meta_description: Learn practical ways to start small talk in English using observations, simple questions and natural
+      follow-ups.
+    canonical: /english-in-real-life/start-small-talk-without-how-are-you/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: What to Say Instead of “How Are You?” to Start a Conversation
+    pin_titles:
+    - How to Start Small Talk in English
+    - 5 Easy English Conversation Starters
+    - What to Say When You Want to Start a Conversation
+    visual_angles:
+    - cafe or queue conversation
+    - two people chatting
+    - everyday observation starters
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: soft
+    cta_angle: Practise everyday conversation patterns so starting a conversation feels more automatic.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - small-talk-openers
+    - situational-openers
+    - low-pressure-questions
+    expression_ids:
+    - busy-today
+    - been-here-before
+    - what-brings-you-here
+    situation_ids:
+    - starting-small-talk
+    excluded_article_ids:
+    - FM-001
+    - FM-003
+    - FM-004
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-in-real-life
+    same_week:
+    - id: FM-016
+      relationship: natural_extension
+      priority: 1
+      anchor_intent: See which alternatives to “How are you?” sound natural in different contexts.
+    - id: FM-017
+      relationship: confidence_strategy
+      priority: 2
+      anchor_intent: Learn what to do when the conversation becomes awkward after the opening.
+    - id: FM-018
+      relationship: cultural_context
+      priority: 3
+      anchor_intent: Understand why light conversation works differently across cultures.
+    same_rubric: []
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-016
+    - FM-017
+    - FM-018
+  internal_link_record:
+  - target: FM-016
+    relationship: natural_extension
+  - target: FM-017
+    relationship: confidence_strategy
+  - target: FM-018
+    relationship: cultural_context
+- id: FM-016
+  day: 16
+  week: 3
+  rubric: natural-english
+  macro_theme: small-talk
+  title: Stop Asking “How Are You?” — What Native Speakers Actually Say
+  slug: stop-asking-how-are-you-what-native-speakers-actually-say
+  content_type: natural_language_analysis
+  primary_purpose: naturalness
+  unique_angle: Analyse the range of natural responses and alternatives surrounding “How are you?”—including register, context,
+    tone and what speakers actually mean—rather than treating the phrase as a fixed textbook exchange.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2
+  search_intent: informational
+  keywords:
+    primary: natural ways to ask how are you in English
+    secondary:
+    - how native speakers say how are you
+    - natural English greetings
+    - alternatives to how are you
+    long_tail:
+    - what do native English speakers say instead of how are you
+    - natural responses to how are you in everyday English
+  core_concepts:
+  - register
+  - routine greetings
+  - real questions versus social formulas
+  - tone
+  - context
+  target_language:
+    expressions:
+    - How’s it going?
+    - How are things?
+    - How’s your day going?
+    - You alright?
+    - Not too bad.
+    grammar_points:
+    - question forms
+    - short answers and conversational ellipsis
+    vocabulary_groups:
+    - greetings
+    - wellbeing and everyday states
+    - register markers
+    cultural_points:
+    - small talk as a low-stakes social routine
+  forbidden_overlap:
+  - Do not teach how to start a conversation from scratch; that is FM-015.
+  - Do not turn the article into a mindset guide for awkwardness.
+  - Do not explain the broad cultural role of small talk; that is FM-018.
+  - Do not decode one phrase as a real-world recognition lesson; that is FM-021.
+  related_content:
+    pillar: natural-english
+    previous:
+    - FM-015
+    next:
+    - FM-017
+    cross_rubric:
+    - FM-021
+    - FM-018
+    cross_theme: []
+  seo:
+    meta_title: Natural Alternatives to “How Are You?” in English
+    meta_description: Learn how native speakers vary “How are you?” and how to choose natural greetings and responses by context
+      and tone.
+    canonical: /natural-english/alternatives-to-how-are-you/
+    schema_type: Article
+  pinterest:
+    primary_hook: How Native Speakers Actually Ask “How Are You?”
+    pin_titles:
+    - Natural English Instead of “How Are You?”
+    - What Native Speakers Say Instead of How Are You
+    - 'English Greetings: Natural vs Textbook'
+    visual_angles:
+    - textbook versus natural comparison
+    - chat bubbles
+    - different registers
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Build a more flexible everyday English repertoire for real conversations.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - how-are-you-register
+    - greeting-variation
+    - social-formulas
+    expression_ids:
+    - hows-it-going
+    - how-are-things
+    - not-too-bad
+    - you-alright
+    situation_ids:
+    - asking-about-someones-day
+    excluded_article_ids:
+    - FM-002
+    - FM-015
+    - FM-021
+    uniqueness_check: passed
+  internal_links:
+    pillar: natural-english
+    same_week:
+    - id: FM-015
+      relationship: practical_application
+      priority: 1
+      anchor_intent: Put these natural alternatives into a real small-talk opening.
+    - id: FM-021
+      relationship: real_world_example
+      priority: 2
+      anchor_intent: Recognise “How’s it going?” when you hear it outside a lesson.
+    same_rubric: []
+    same_theme: []
+    cross_rubric:
+    - id: FM-018
+      relationship: cultural_context
+      priority: 3
+      anchor_intent: Understand the social function behind routine English greetings.
+    visible_recommendations:
+    - FM-015
+    - FM-021
+    - FM-018
+  internal_link_record:
+  - target: FM-015
+    relationship: practical_application
+  - target: FM-021
+    relationship: real_world_example
+  - target: FM-018
+    relationship: cultural_context
+- id: FM-017
+  day: 17
+  week: 3
+  rubric: english-mindset
+  macro_theme: small-talk
+  title: What to Say When Small Talk Feels Awkward
+  slug: what-to-say-when-small-talk-feels-awkward
+  content_type: mindset_guide
+  primary_purpose: confidence
+  unique_angle: 'A small-talk-specific recovery system for awkward moments: notice something, react briefly, ask a follow-up,
+    shift topic or exit naturally without trying to produce a perfect sentence.'
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: A2-B2
+  search_intent: how_to
+  keywords:
+    primary: what to say when small talk is awkward in English
+    secondary:
+    - awkward small talk in English
+    - how to keep small talk going
+    - English speaking confidence
+    long_tail:
+    - what to say after an awkward silence in English small talk
+    - how to recover when small talk gets awkward in English
+  core_concepts:
+  - awkward silence recovery
+  - observation-reaction-question
+  - topic shifting
+  - graceful exits
+  - perfectionism
+  target_language:
+    expressions:
+    - Oh, really?
+    - No way!
+    - How about you?
+    - Speaking of that...
+    - Anyway, it was nice talking to you.
+    grammar_points:
+    - follow-up questions
+    - discourse markers for topic shifts
+    vocabulary_groups:
+    - reactions
+    - conversation management
+    - topic categories
+    cultural_points: []
+  forbidden_overlap:
+  - Do not repeat FM-003’s general “mind goes blank” framework; this article is specifically about small-talk awkwardness.
+  - Do not teach natural alternatives to “How are you?” as the main asset.
+  - Do not explain why small talk exists culturally.
+  - Do not make this a travel or workplace article.
+  related_content:
+    pillar: english-mindset
+    previous:
+    - FM-016
+    next:
+    - FM-018
+    cross_rubric:
+    - FM-015
+    - FM-021
+    cross_theme: []
+  seo:
+    meta_title: What to Say When Small Talk Gets Awkward in English
+    meta_description: Use simple recovery moves to handle pauses, weak answers and awkward small talk without needing perfect
+      English.
+    canonical: /english-mindset/awkward-small-talk/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: Small Talk Got Awkward? Here’s What to Say
+    pin_titles:
+    - What to Say When Small Talk Gets Awkward
+    - English Conversation Rescue Phrases
+    - How to Handle Awkward Silence in English
+    visual_angles:
+    - awkward silence
+    - conversation rescue
+    - topic change
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: soft
+    cta_angle: Practise flexible conversation skills so you can recover instead of freezing.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - small-talk-recovery
+    - awkward-silence
+    - topic-shifting
+    expression_ids:
+    - oh-really
+    - no-way
+    - speaking-of-that
+    - anyway-nice-talking
+    situation_ids:
+    - awkward-small-talk
+    excluded_article_ids:
+    - FM-003
+    - FM-010
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-mindset
+    same_week:
+    - id: FM-018
+      relationship: cultural_context
+      priority: 1
+      anchor_intent: See how cultural expectations around small talk can make awkwardness feel different.
+    - id: FM-015
+      relationship: practical_application
+      priority: 2
+      anchor_intent: Start with a simple opener before using recovery strategies.
+    same_rubric:
+    - id: FM-003
+      relationship: deeper_dive
+      priority: 3
+      anchor_intent: Move from general conversation recovery to the specific problem of awkward small talk.
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-018
+    - FM-015
+    - FM-003
+  internal_link_record:
+  - target: FM-018
+    relationship: cultural_context
+  - target: FM-015
+    relationship: practical_application
+  - target: FM-003
+    relationship: deeper_dive
+- id: FM-018
+  day: 18
+  week: 3
+  rubric: english-culture
+  macro_theme: small-talk
+  title: Why Do English Speakers Talk About the Weather?
+  slug: why-do-english-speakers-talk-about-the-weather
+  content_type: cultural_explainer
+  primary_purpose: culture
+  unique_angle: 'Explain weather talk as a culturally useful, low-risk conversational tool: how it opens contact, fills transitions
+    and signals friendliness without requiring personal disclosure, while avoiding claims that all English speakers behave
+    identically.'
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2+
+  search_intent: cultural
+  keywords:
+    primary: why English speakers talk about the weather
+    secondary:
+    - weather small talk in English
+    - English small talk culture
+    - why people talk about weather
+    long_tail:
+    - why do British people talk about the weather
+    - what does weather small talk mean in English culture
+  core_concepts:
+  - small talk as social lubricant
+  - safe topics
+  - low-risk personal boundaries
+  - conversation openings
+  - context and regional variation
+  target_language:
+    expressions:
+    - Lovely day, isn’t it?
+    - Bit chilly today.
+    - Looks like rain.
+    - Beautiful day, isn’t it?
+    - Weather’s been crazy lately.
+    grammar_points:
+    - tag questions
+    - present forms for current weather
+    vocabulary_groups:
+    - weather vocabulary
+    - everyday observations
+    - social conversation
+    cultural_points:
+    - weather as a low-risk topic
+    - social bonding without intimacy
+    - regional and individual variation
+  forbidden_overlap:
+  - 'Do not repeat FM-004’s broad explanation of why small talk matters; this article zooms in on one cultural mechanism:
+    weather talk.'
+  - Do not become a list of weather phrases.
+  - Do not teach conversation recovery.
+  - Do not focus on travel or workplace small talk.
+  related_content:
+    pillar: english-culture
+    previous:
+    - FM-017
+    next:
+    - FM-019
+    cross_rubric:
+    - FM-004
+    - FM-021
+    cross_theme: []
+  seo:
+    meta_title: Why Do English Speakers Talk About the Weather?
+    meta_description: Discover the social role of weather talk in English conversations and why such an ordinary topic can
+      make interaction easier.
+    canonical: /english-culture/why-english-speakers-talk-about-the-weather/
+    schema_type: Article
+  pinterest:
+    primary_hook: The Real Reason English Speakers Talk About the Weather
+    pin_titles:
+    - Why Do English Speakers Always Talk About the Weather?
+    - The Secret Social Role of Weather Talk
+    - 'English Small Talk: Why Weather Comes Up So Often'
+    visual_angles:
+    - weather conversation
+    - cultural comparison
+    - people chatting outdoors
+    cta_type: read_article
+  babbel:
+    enabled: false
+    cta_level: none
+    cta_angle: ''
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 8
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - weather-small-talk
+    - safe-conversation-topics
+    - social-lubrication
+    expression_ids:
+    - lovely-day-isnt-it
+    - bit-chilly-today
+    - looks-like-rain
+    situation_ids:
+    - weather-small-talk
+    excluded_article_ids:
+    - FM-004
+    - FM-016
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-culture
+    same_week:
+    - id: FM-019
+      relationship: travel_application
+      priority: 1
+      anchor_intent: See how light weather talk can work when travelling and meeting people casually.
+    - id: FM-017
+      relationship: confidence_strategy
+      priority: 2
+      anchor_intent: Use a safe topic when you need an easy way out of an awkward pause.
+    same_rubric:
+    - id: FM-004
+      relationship: deeper_dive
+      priority: 3
+      anchor_intent: Go deeper into one concrete example of the broader cultural role of small talk.
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-019
+    - FM-017
+    - FM-004
+  internal_link_record:
+  - target: FM-019
+    relationship: travel_application
+  - target: FM-017
+    relationship: confidence_strategy
+  - target: FM-004
+    relationship: deeper_dive
+- id: FM-019
+  day: 19
+  week: 3
+  rubric: english-for-adventure
+  macro_theme: small-talk
+  title: Making Small Talk While Travelling
+  slug: making-small-talk-while-travelling
+  content_type: travel_scenario
+  primary_purpose: travel_survival
+  unique_angle: Teach light, low-commitment conversation for travel moments such as queues, hotel breakfast, trains, tours
+    and cafés, with the goal of making interaction easier—not necessarily making friends.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: A2-B1
+  search_intent: scenario
+  keywords:
+    primary: small talk while travelling in English
+    secondary:
+    - travel small talk in English
+    - English conversation while travelling
+    - travel conversation starters
+    long_tail:
+    - what to say to people while travelling in English
+    - easy small talk phrases for hotels trains tours and cafes
+  core_concepts:
+  - travel small talk
+  - shared travel context
+  - short interactions
+  - polite curiosity
+  - conversation exits
+  target_language:
+    expressions:
+    - Where are you headed?
+    - Is this your first time here?
+    - How long are you staying?
+    - Have you been here before?
+    - Enjoy the rest of your trip!
+    grammar_points:
+    - present continuous for current plans
+    - present perfect for travel experience
+    - wh- questions
+    vocabulary_groups:
+    - transport
+    - accommodation
+    - sightseeing
+    - food and local places
+    cultural_points:
+    - brief social contact in travel settings
+  forbidden_overlap:
+  - Do not make this about making friends in a new city; that is FM-012.
+  - Do not repeat FM-005’s focus on meeting people while travelling; this is about light small talk during routine travel
+    moments.
+  - Do not teach generic small-talk culture.
+  - Do not make it a vocabulary-only article.
+  related_content:
+    pillar: english-for-adventure
+    previous:
+    - FM-018
+    next:
+    - FM-020
+    cross_rubric:
+    - FM-005
+    - FM-012
+    cross_theme: []
+  seo:
+    meta_title: 'Travel Small Talk in English: What to Say on the Way'
+    meta_description: Learn easy English for short conversations on trains, at hotels, in queues, cafés and tours without
+      forcing a friendship.
+    canonical: /english-for-adventure/small-talk-while-travelling/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: 'Travel Small Talk: What to Say Without Feeling Awkward'
+    pin_titles:
+    - Travel Small Talk in English
+    - What to Say to People While Travelling
+    - Easy English for Talking to People on a Trip
+    visual_angles:
+    - train or airport queue
+    - hotel breakfast
+    - tour group conversation
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Build practical conversation confidence before using English in unfamiliar travel situations.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - travel-small-talk
+    - shared-travel-context
+    - short-social-interactions
+    expression_ids:
+    - where-are-you-headed
+    - first-time-here
+    - how-long-are-you-staying
+    - enjoy-the-rest-of-your-trip
+    situation_ids:
+    - travel-small-talk
+    excluded_article_ids:
+    - FM-005
+    - FM-012
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-for-adventure
+    same_week:
+    - id: FM-018
+      relationship: cultural_context
+      priority: 1
+      anchor_intent: Understand why safe topics such as weather work well for brief social contact.
+    - id: FM-020
+      relationship: work_application
+      priority: 2
+      anchor_intent: Compare informal travel small talk with the more bounded small talk used before work meetings.
+    same_rubric: []
+    same_theme:
+    - id: FM-012
+      relationship: same_theme_extension
+      priority: 3
+      anchor_intent: Move from brief travel small talk to the deeper task of making friends in a new city.
+    cross_rubric: []
+    visible_recommendations:
+    - FM-018
+    - FM-020
+    - FM-012
+  internal_link_record:
+  - target: FM-018
+    relationship: cultural_context
+  - target: FM-020
+    relationship: work_application
+  - target: FM-012
+    relationship: same_theme_extension
+- id: FM-020
+  day: 20
+  week: 3
+  rubric: english-for-life-work
+  macro_theme: small-talk
+  title: 'Small Talk at Work: What to Say Before a Meeting'
+  slug: small-talk-at-work-before-a-meeting
+  content_type: workplace_guide
+  primary_purpose: work_communication
+  unique_angle: 'A practical guide to the few minutes before a meeting: light rapport about the day, commute, weekend, current
+    work or the meeting itself, with clear boundaries around topics that may feel too personal.'
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2+
+  search_intent: practical
+  keywords:
+    primary: small talk before a meeting in English
+    secondary:
+    - workplace small talk in English
+    - English before a meeting
+    - professional small talk
+    long_tail:
+    - what to say before a work meeting in English
+    - natural small talk with colleagues before a meeting
+  core_concepts:
+  - pre-meeting small talk
+  - professional rapport
+  - safe workplace topics
+  - transition into agenda
+  - remote meeting chat
+  target_language:
+    expressions:
+    - How’s your morning going?
+    - How was your weekend?
+    - Busy day?
+    - Are you all set for the meeting?
+    - Shall we get started?
+    grammar_points:
+    - present perfect for recent experiences
+    - past simple for weekend talk
+    - shall we for transition
+    vocabulary_groups:
+    - workday routines
+    - meetings
+    - weekend and commute
+    - project updates
+    cultural_points:
+    - professional boundaries
+    - rapport before business
+    - in-person versus remote context
+  forbidden_overlap:
+  - Do not repeat FM-006’s self-introduction content.
+  - Do not become an invitation lesson like FM-013.
+  - Do not teach meeting/presentation language itself.
+  - Do not become a generic business English vocabulary list.
+  - Do not focus on cultural small talk theory.
+  related_content:
+    pillar: english-for-life-work
+    previous:
+    - FM-019
+    next:
+    - FM-021
+    cross_rubric:
+    - FM-006
+    - FM-013
+    cross_theme: []
+  seo:
+    meta_title: 'Small Talk Before a Meeting: Natural Workplace English'
+    meta_description: Learn what to say in the few minutes before a meeting, from light conversation to a natural transition
+      into work.
+    canonical: /english-for-life-work/small-talk-before-a-meeting/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: What to Say Before a Work Meeting in English
+    pin_titles:
+    - Small Talk Before a Meeting in English
+    - Natural Workplace Small Talk
+    - What to Say Before a Meeting Starts
+    visual_angles:
+    - office conversation
+    - video-call waiting room
+    - coworkers chatting
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Practise natural workplace conversation so professional English feels less scripted.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - pre-meeting-small-talk
+    - professional-rapport
+    - workplace-boundaries
+    - meeting-transition
+    expression_ids:
+    - hows-your-morning-going
+    - busy-day
+    - all-set-for-the-meeting
+    - shall-we-get-started
+    situation_ids:
+    - pre-meeting-small-talk
+    excluded_article_ids:
+    - FM-006
+    - FM-013
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-for-life-work
+    same_week:
+    - id: FM-019
+      relationship: same_theme_extension
+      priority: 1
+      anchor_intent: Compare travel small talk with workplace small talk in another real-life setting.
+    - id: FM-021
+      relationship: real_world_example
+      priority: 2
+      anchor_intent: Recognise casual greetings such as “How’s it going?” when colleagues use them.
+    same_rubric:
+    - id: FM-006
+      relationship: deeper_dive
+      priority: 3
+      anchor_intent: Move from introducing yourself professionally to building rapport before a meeting.
+    same_theme: []
+    cross_rubric:
+    - id: FM-013
+      relationship: work_application
+      priority: 4
+      anchor_intent: Continue from small talk into informal social interaction with colleagues.
+    visible_recommendations:
+    - FM-019
+    - FM-021
+    - FM-006
+    - FM-013
+  internal_link_record:
+  - target: FM-019
+    relationship: same_theme_extension
+  - target: FM-021
+    relationship: real_world_example
+  - target: FM-006
+    relationship: deeper_dive
+  - target: FM-013
+    relationship: work_application
+- id: FM-021
+  day: 21
+  week: 3
+  rubric: english-from-the-real-world
+  macro_theme: small-talk
+  title: “How’s It Going?” — What It Really Means
+  slug: hows-it-going-what-it-really-means
+  content_type: real_world_language
+  primary_purpose: real_world_recognition
+  unique_angle: 'Decode “How’s it going?” as it appears in real conversations, messages and media: when it is a genuine question,
+    a routine greeting, how responses vary and how context changes its force.'
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2
+  search_intent: meaning
+  keywords:
+    primary: how’s it going meaning in English
+    secondary:
+    - how’s it going meaning
+    - what does how’s it going mean
+    - real English phrases
+    long_tail:
+    - how to respond to how’s it going
+    - how’s it going versus how are you in English
+  core_concepts:
+  - routine greeting
+  - genuine enquiry
+  - response range
+  - intonation/context without audio dependence
+  - informal register
+  target_language:
+    expressions:
+    - How’s it going?
+    - Pretty good.
+    - Not too bad.
+    - Can’t complain.
+    - Yeah, good. You?
+    grammar_points:
+    - present continuous in fixed conversational usage
+    - short conversational responses
+    vocabulary_groups:
+    - informal greetings
+    - wellbeing responses
+    - social formulas
+    cultural_points:
+    - informal greeting conventions
+    - context determines whether an answer is expected
+  forbidden_overlap:
+  - Do not become FM-016’s broad analysis of greeting alternatives.
+  - Do not make this a pronunciation/audio lesson.
+  - Do not focus on the cultural history of small talk.
+  - Do not teach a complete conversation starter system.
+  - Do not duplicate FM-014’s “hang out” decoding.
+  related_content:
+    pillar: english-from-the-real-world
+    previous:
+    - FM-020
+    next: []
+    cross_rubric:
+    - FM-016
+    - FM-002
+    cross_theme: []
+  seo:
+    meta_title: '“How’s It Going?” Meaning: How to Understand and Respond'
+    meta_description: Decode “How’s it going?” in everyday English and learn the range of natural responses you may hear in
+      real life.
+    canonical: /english-from-the-real-world/hows-it-going-meaning/
+    schema_type: FAQPage
+  pinterest:
+    primary_hook: You Hear “How’s It Going?” Everywhere. What Does It Mean?
+    pin_titles:
+    - “How’s It Going?” Meaning in Real English
+    - How to Respond to “How’s It Going?”
+    - 'English You Hear in Real Life: How’s It Going?'
+    visual_angles:
+    - text-message example
+    - TV or street conversation
+    - greeting and response pairs
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: soft
+    cta_angle: Get more comfortable recognising everyday English as it appears naturally in conversations and media.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 6
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - hows-it-going-real-world
+    - routine-greeting
+    - response-range
+    expression_ids:
+    - hows-it-going
+    - pretty-good
+    - not-too-bad
+    - cant-complain
+    situation_ids:
+    - hows-it-going
+    excluded_article_ids:
+    - FM-002
+    - FM-016
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-from-the-real-world
+    same_week:
+    - id: FM-016
+      relationship: deeper_dive
+      priority: 1
+      anchor_intent: Compare the phrase with other natural greetings and understand register.
+    - id: FM-020
+      relationship: work_application
+      priority: 2
+      anchor_intent: See how the same everyday greeting can appear in workplace small talk.
+    same_rubric:
+    - id: FM-014
+      relationship: real_world_example
+      priority: 3
+      anchor_intent: Continue decoding informal English that appears in real social interaction.
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-016
+    - FM-020
+    - FM-014
+  internal_link_record:
+  - target: FM-016
+    relationship: deeper_dive
+  - target: FM-020
+    relationship: work_application
+  - target: FM-014
+    relationship: real_world_example
+- id: FM-022
+  day: 22
+  week: 4
+  rubric: english-in-real-life
+  macro_theme: weekend-and-free-time
+  title: Making Weekend Plans in Natural English
+  slug: making-weekend-plans-in-natural-english
+  content_type: situational_guide
+  primary_purpose: communication
+  unique_angle: Handle a real weekend-planning conversation from suggesting an idea to checking availability, reacting to
+    uncertainty, and settling on a simple plan without sounding overly formal.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: A2-B1
+  search_intent: practical
+  keywords:
+    primary: how to make weekend plans in English
+    secondary:
+    - making plans in English
+    - weekend plans English conversation
+    - how to suggest plans in English
+    long_tail:
+    - what to say when making weekend plans in English
+    - how to ask someone what they are doing this weekend
+  core_concepts:
+  - making suggestions
+  - checking availability
+  - accepting or declining plans
+  - uncertainty
+  - finalising details
+  target_language:
+    expressions:
+    - What are you up to this weekend?
+    - Do you fancy...?
+    - I’m up for that.
+    - I’m not sure yet.
+    - Sounds good.
+    - What time works for you?
+    grammar_points:
+    - be + -ing for fixed arrangements
+    - Do you want to...? for suggestions
+    - What time works for you? for arranging details
+    vocabulary_groups:
+    - weekend activities
+    - plans and availability
+    - time arrangements
+    cultural_points:
+    - low-pressure invitations
+    - flexibility in casual plans
+  forbidden_overlap:
+  - Do not focus on friendship vocabulary as the main teaching asset; that belongs to Week 2.
+  - Do not make this a generic guide to invitations.
+  - Do not focus on workplace plans.
+  - Do not turn the article into a natural-English phrase analysis; the primary goal is handling the situation.
+  - Do not repeat first-meeting conversation mechanics from FM-001.
+  related_content:
+    pillar: english-in-real-life
+    previous:
+    - FM-021
+    next:
+    - FM-023
+    cross_rubric:
+    - FM-023
+    - FM-024
+    cross_theme: []
+  seo:
+    meta_title: 'Making Weekend Plans in English: What to Say Naturally'
+    meta_description: Learn what to say when making weekend plans in English, from suggesting an activity to checking times
+      and confirming the plan.
+    canonical: /english-in-real-life/making-weekend-plans-in-natural-english/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: What to Say When Making Weekend Plans in English
+    pin_titles:
+    - Making Weekend Plans in English
+    - How to Suggest Plans in Natural English
+    - What Are You Up To This Weekend?
+    - Weekend English You’ll Actually Use
+    visual_angles:
+    - friends planning a weekend
+    - chat message with plans
+    - calendar and conversation
+    - weekend activity choices
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: soft
+    cta_angle: Practise everyday conversations so making plans in English feels more automatic.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - weekend-planning
+    - suggesting-activities
+    - availability
+    - confirming-plans
+    expression_ids:
+    - what-are-you-up-to
+    - im-up-for-that
+    - sounds-good
+    - what-time-works-for-you
+    situation_ids:
+    - making-weekend-plans
+    excluded_article_ids:
+    - FM-008
+    - FM-013
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-in-real-life
+    same_week:
+    - id: FM-023
+      relationship: natural_extension
+      priority: 1
+      anchor_intent: Learn how native speakers make casual weekend plans sound less textbook-like.
+    - id: FM-024
+      relationship: confidence_strategy
+      priority: 2
+      anchor_intent: Know what to say when a weekend-planning conversation does not go as expected.
+    same_rubric: []
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-023
+    - FM-024
+    same_week_note: Continue from practical planning into natural phrasing and confidence.
+  internal_link_record:
+  - target: FM-023
+    relationship: natural_extension
+  - target: FM-024
+    relationship: confidence_strategy
+- id: FM-023
+  day: 23
+  week: 4
+  rubric: natural-english
+  macro_theme: weekend-and-free-time
+  title: 'Stop Saying “I Have Free Time”: More Natural Ways to Talk About Your Weekend'
+  slug: more-natural-ways-to-talk-about-your-weekend
+  content_type: natural_language_analysis
+  primary_purpose: naturalness
+  unique_angle: Show how English speakers naturally describe availability and free-time plans through collocations, contractions,
+    informal phrasing, and context instead of translating Italian structures literally.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2
+  search_intent: informational
+  keywords:
+    primary: natural English for talking about weekend plans
+    secondary:
+    - natural ways to say free time in English
+    - how native speakers talk about weekends
+    - weekend English phrases
+    long_tail:
+    - how to say I have free time naturally in English
+    - natural English phrases for weekend plans and availability
+  core_concepts:
+  - free time collocations
+  - availability language
+  - natural verb choices
+  - register
+  - literal translation traps
+  target_language:
+    expressions:
+    - I’m free this weekend.
+    - I’ve got nothing planned.
+    - I’m tied up on Saturday.
+    - I’m up for it.
+    - I’ve got plans.
+    - I’m around later.
+    grammar_points:
+    - have got in informal availability statements
+    - be + adjective for availability
+    - contractions in conversational English
+    vocabulary_groups:
+    - free-time collocations
+    - availability
+    - weekend activities
+    - casual scheduling
+    cultural_points:
+    - casual planning language tends to be concise
+    - context changes how direct an invitation or response sounds
+  forbidden_overlap:
+  - Do not teach the complete planning situation; FM-022 owns the practical sequence.
+  - Do not focus on “catch up” or “hang out” as the central lesson.
+  - Do not become a list of weekend vocabulary.
+  - Do not focus on workplace scheduling.
+  - Do not repeat FM-002’s first-meeting greeting analysis.
+  related_content:
+    pillar: natural-english
+    previous:
+    - FM-022
+    next:
+    - FM-024
+    cross_rubric:
+    - FM-022
+    - FM-025
+    cross_theme: []
+  seo:
+    meta_title: 'Natural English for Weekend Plans: Sound Less Textbook'
+    meta_description: Learn natural ways to talk about free time, availability and weekend plans in English without translating
+      directly from Italian.
+    canonical: /natural-english/weekend-plans-and-free-time/
+    schema_type: Article
+  pinterest:
+    primary_hook: Stop Saying “I Have Free Time” Like a Textbook
+    pin_titles:
+    - Natural English for Weekend Plans
+    - Stop Translating Weekend Plans Literally
+    - How Native Speakers Talk About Free Time
+    - 'Weekend English: Textbook vs Natural'
+    visual_angles:
+    - textbook vs natural comparison
+    - weekend text messages
+    - phrase transformation
+    - calendar availability
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Build a broader bank of natural everyday phrases for making plans and talking about your free time.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - free-time-collocations
+    - availability-language
+    - natural-weekend-phrasing
+    - literal-translation-traps
+    expression_ids:
+    - im-free
+    - got-nothing-planned
+    - tied-up
+    - im-around
+    - got-plans
+    situation_ids:
+    - talking-about-weekend-availability
+    excluded_article_ids:
+    - FM-002
+    - FM-008
+    - FM-011
+    - FM-014
+    uniqueness_check: passed
+  internal_links:
+    pillar: natural-english
+    same_week:
+    - id: FM-022
+      relationship: practical_application
+      priority: 1
+      anchor_intent: Use these natural expressions inside a complete weekend-planning situation.
+    - id: FM-024
+      relationship: confidence_strategy
+      priority: 2
+      anchor_intent: See how natural phrases can help when you are unsure what to say.
+    same_rubric: []
+    same_theme: []
+    cross_rubric:
+    - id: FM-025
+      relationship: cultural_context
+      priority: 3
+      anchor_intent: Understand why leisure and free-time choices can be discussed differently across cultures.
+    visible_recommendations:
+    - FM-022
+    - FM-024
+    - FM-025
+  internal_link_record:
+  - target: FM-022
+    relationship: practical_application
+  - target: FM-024
+    relationship: confidence_strategy
+  - target: FM-025
+    relationship: cultural_context
+- id: FM-024
+  day: 24
+  week: 4
+  rubric: english-mindset
+  macro_theme: weekend-and-free-time
+  title: What to Say When Your Weekend Plans Fall Apart
+  slug: what-to-say-when-your-weekend-plans-fall-apart
+  content_type: mindset_guide
+  primary_purpose: confidence
+  unique_angle: Use flexible communication strategies when plans change, get cancelled, or become uncertain, focusing on reacting,
+    proposing alternatives, and staying engaged instead of searching for perfect sentences.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2
+  search_intent: how_to
+  keywords:
+    primary: English conversation when plans change
+    secondary:
+    - what to say when plans change in English
+    - English speaking confidence plans
+    - handling cancelled plans in English
+    long_tail:
+    - what to say in English when someone cancels plans
+    - how to respond naturally when weekend plans change
+  core_concepts:
+  - handling uncertainty
+  - reacting without freezing
+  - alternative suggestions
+  - repairing a plan
+  - conversation flexibility
+  target_language:
+    expressions:
+    - No worries.
+    - That works for me.
+    - What if we...?
+    - We could always...
+    - Let’s figure something else out.
+    - I’ll let you know.
+    grammar_points:
+    - What if + present for suggestions
+    - could for alternative options
+    - will for simple decisions and promises
+    vocabulary_groups:
+    - changes and cancellations
+    - alternative plans
+    - reactions
+    cultural_points:
+    - low-drama responses to cancelled plans
+    - flexibility as part of casual social planning
+  forbidden_overlap:
+  - Do not repeat FM-003’s general mind-blank recovery framework.
+  - Do not focus on awkward silence as the main problem; FM-017 owns that.
+  - Do not become a phrase-by-phrase cancellation vocabulary list.
+  - Do not focus on workplace rescheduling.
+  - Do not teach the complete weekend-planning sequence from FM-022.
+  related_content:
+    pillar: english-mindset
+    previous:
+    - FM-023
+    next:
+    - FM-025
+    cross_rubric:
+    - FM-022
+    - FM-026
+    cross_theme: []
+  seo:
+    meta_title: What to Say in English When Weekend Plans Change
+    meta_description: Learn simple strategies and natural English for reacting when plans change, get cancelled or need to
+      be rearranged.
+    canonical: /english-mindset/weekend-plans-change/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: Your Plans Changed? Here’s What to Say in English
+    pin_titles:
+    - What to Say When Plans Change in English
+    - English for Cancelled Plans
+    - How to Handle Last-Minute Changes in English
+    - Don’t Freeze When Plans Change
+    visual_angles:
+    - cancelled plan text message
+    - last-minute change
+    - alternative plan conversation
+    - confidence strategy
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: soft
+    cta_angle: Practise everyday scenarios so unexpected changes feel easier to handle in English.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - plan-changes
+    - conversation-flexibility
+    - alternative-suggestions
+    - reacting-to-cancellations
+    expression_ids:
+    - no-worries
+    - what-if-we
+    - we-could-always
+    - figure-something-out
+    situation_ids:
+    - weekend-plan-change
+    excluded_article_ids:
+    - FM-003
+    - FM-017
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-mindset
+    same_week:
+    - id: FM-022
+      relationship: practical_application
+      priority: 1
+      anchor_intent: Start with the basic planning situation before dealing with changes.
+    - id: FM-023
+      relationship: natural_extension
+      priority: 2
+      anchor_intent: Use natural availability language when proposing a new plan.
+    same_rubric: []
+    same_theme: []
+    cross_rubric:
+    - id: FM-027
+      relationship: real_world_example
+      priority: 3
+      anchor_intent: Recognise the informal language used when plans change in real messages.
+    visible_recommendations:
+    - FM-022
+    - FM-023
+    - FM-027
+  internal_link_record:
+  - target: FM-022
+    relationship: practical_application
+  - target: FM-023
+    relationship: natural_extension
+  - target: FM-027
+    relationship: real_world_example
+- id: FM-025
+  day: 25
+  week: 4
+  rubric: english-culture
+  macro_theme: weekend-and-free-time
+  title: Why “What Are You Doing This Weekend?” Is More Than a Question
+  slug: why-what-are-you-doing-this-weekend-is-more-than-a-question
+  content_type: cultural_explainer
+  primary_purpose: culture
+  unique_angle: 'Explain the social role of asking about weekend plans: genuine curiosity, conversational opening, indirect
+    invitation, and relationship-building, with attention to context and personal boundaries.'
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2+
+  search_intent: cultural
+  keywords:
+    primary: what are you doing this weekend meaning
+    secondary:
+    - weekend small talk in English
+    - English weekend conversation culture
+    - why ask about weekend plans
+    long_tail:
+    - what does what are you doing this weekend mean in English
+    - is what are you doing this weekend an invitation
+  core_concepts:
+  - weekend small talk
+  - social openings
+  - indirect invitations
+  - personal boundaries
+  - contextual intent
+  target_language:
+    expressions:
+    - What are you doing this weekend?
+    - Got anything planned?
+    - Are you up to anything?
+    - Sounds like fun.
+    - Have a good one.
+    grammar_points:
+    - present continuous for future arrangements
+    - any in informal questions
+    - ellipsis in conversational questions
+    vocabulary_groups:
+    - weekend activities
+    - social plans
+    - casual reactions
+    cultural_points:
+    - asking about plans as a low-pressure social opener
+    - indirect invitations
+    - privacy and personal boundaries
+    - different levels of genuine interest
+  forbidden_overlap:
+  - Do not repeat FM-004’s broad explanation of why small talk matters.
+  - Do not turn this into a phrase list for weekend plans.
+  - Do not teach how to arrange a weekend plan step by step; FM-022 owns that.
+  - Do not focus on workplace small talk; FM-026 owns that.
+  - Do not decode one fixed phrase as FM-021 does.
+  related_content:
+    pillar: english-culture
+    previous:
+    - FM-024
+    next:
+    - FM-026
+    cross_rubric:
+    - FM-023
+    - FM-027
+    cross_theme: []
+  seo:
+    meta_title: “What Are You Doing This Weekend?” What It Really Means
+    meta_description: Understand the cultural meaning behind questions about weekend plans in English and when they are simply
+      small talk or an indirect invitation.
+    canonical: /english-culture/what-are-you-doing-this-weekend/
+    schema_type: Article
+  pinterest:
+    primary_hook: Is “What Are You Doing This Weekend?” Actually an Invitation?
+    pin_titles:
+    - What This English Question Really Means
+    - 'Weekend Small Talk: The Hidden Meaning'
+    - Is “What Are You Doing This Weekend?” an Invitation?
+    - 'English Culture: Talking About Weekend Plans'
+    visual_angles:
+    - question with multiple meanings
+    - social conversation context
+    - small-talk culture
+    - invitation vs small talk
+    cta_type: read_article
+  babbel:
+    enabled: false
+    cta_level: none
+    cta_angle: ''
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 8
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - weekend-small-talk
+    - indirect-invitations
+    - social-intent
+    - personal-boundaries
+    expression_ids:
+    - what-are-you-doing-this-weekend
+    - got-anything-planned
+    - are-you-up-to-anything
+    situation_ids:
+    - weekend-small-talk
+    excluded_article_ids:
+    - FM-004
+    - FM-018
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-culture
+    same_week:
+    - id: FM-023
+      relationship: cultural_context
+      priority: 1
+      anchor_intent: See how natural availability phrases fit the social context explained here.
+    - id: FM-026
+      relationship: work_application
+      priority: 2
+      anchor_intent: Compare casual weekend small talk with the version used before a work meeting.
+    same_rubric: []
+    same_theme: []
+    cross_rubric:
+    - id: FM-027
+      relationship: real_world_example
+      priority: 3
+      anchor_intent: Recognise weekend-plan questions in real messages and media.
+    visible_recommendations:
+    - FM-023
+    - FM-026
+    - FM-027
+  internal_link_record:
+  - target: FM-023
+    relationship: cultural_context
+  - target: FM-026
+    relationship: work_application
+  - target: FM-027
+    relationship: real_world_example
+- id: FM-026
+  day: 26
+  week: 4
+  rubric: english-for-adventure
+  macro_theme: weekend-and-free-time
+  title: Making Small Talk on a Weekend Trip
+  slug: making-small-talk-on-a-weekend-trip
+  content_type: travel_scenario
+  primary_purpose: travel_survival
+  unique_angle: Handle light, low-pressure conversations during a short trip—on a train, at breakfast, in a queue, on a tour
+    or in a shared space—without turning the encounter into forced friendship.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: A2-B1
+  search_intent: scenario
+  keywords:
+    primary: small talk while travelling in English
+    secondary:
+    - travel small talk English
+    - English conversation on a trip
+    - weekend trip English phrases
+    long_tail:
+    - what to say to people while travelling in English
+    - how to make small talk on a train or at a hotel in English
+  core_concepts:
+  - travel small talk
+  - low-pressure conversation
+  - observations
+  - light questions
+  - polite exits
+  target_language:
+    expressions:
+    - Is this seat taken?
+    - Have you been here before?
+    - Are you here for the weekend?
+    - Looks like we picked a good day for it.
+    - Enjoy your trip!
+    - Have a good one.
+    grammar_points:
+    - present perfect for travel experience
+    - be here for + period
+    - short question forms in conversation
+    vocabulary_groups:
+    - transport
+    - hotel and breakfast
+    - tourism
+    - travel plans
+    cultural_points:
+    - brief conversations with strangers
+    - polite ways to end a short travel conversation
+    - shared context as an easy conversation opener
+  forbidden_overlap:
+  - Do not focus on making friends in a new city; FM-012 owns ongoing social integration.
+  - Do not repeat FM-005’s broader meeting-people-while-travelling lesson.
+  - Do not focus on booking, directions or travel problems.
+  - Do not become a general small-talk culture article.
+  - Do not make workplace travel the main context.
+  related_content:
+    pillar: english-for-adventure
+    previous:
+    - FM-025
+    next:
+    - FM-027
+    cross_rubric:
+    - FM-022
+    - FM-028
+    cross_theme: []
+  seo:
+    meta_title: 'Small Talk While Travelling: Useful English for a Weekend Trip'
+    meta_description: Learn simple English for making light conversation with strangers during a weekend trip, from trains
+      and hotels to tours and cafés.
+    canonical: /english-for-adventure/small-talk-while-travelling/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: Easy Small Talk for Your Next Trip
+    pin_titles:
+    - Small Talk English for Travelling
+    - What to Say to People on a Trip
+    - Travel English You’ll Actually Use
+    - Easy English for Weekend Travel
+    visual_angles:
+    - train conversation
+    - hotel breakfast
+    - tour group
+    - traveller in a queue
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Practise everyday travel conversations before your next trip.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - travel-small-talk
+    - shared-context-openers
+    - polite-exits
+    - brief-stranger-conversations
+    expression_ids:
+    - seat-taken
+    - been-here-before
+    - here-for-the-weekend
+    - enjoy-your-trip
+    situation_ids:
+    - small-talk-on-weekend-trip
+    excluded_article_ids:
+    - FM-005
+    - FM-012
+    - FM-019
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-for-adventure
+    same_week:
+    - id: FM-027
+      relationship: real_world_example
+      priority: 1
+      anchor_intent: Recognise the same short travel conversations when they appear in real messages or media.
+    - id: FM-022
+      relationship: practical_application
+      priority: 2
+      anchor_intent: Transfer casual planning language from everyday weekends to a weekend trip.
+    same_rubric:
+    - id: FM-019
+      relationship: deeper_dive
+      priority: 3
+      anchor_intent: Compare weekend-trip small talk with the broader challenge of meeting people while travelling.
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-027
+    - FM-022
+    - FM-019
+  internal_link_record:
+  - target: FM-027
+    relationship: real_world_example
+  - target: FM-022
+    relationship: practical_application
+  - target: FM-019
+    relationship: deeper_dive
+- id: FM-027
+  day: 27
+  week: 4
+  rubric: english-for-life-work
+  macro_theme: weekend-and-free-time
+  title: 'Small Talk at Work on Friday: What to Say Before Everyone Leaves'
+  slug: small-talk-at-work-on-friday
+  content_type: workplace_guide
+  primary_purpose: work_communication
+  unique_angle: 'Handle end-of-week workplace small talk naturally: weekend questions, light reactions, boundaries, and graceful
+    exits before leaving work, without turning the exchange into an invitation or formal business conversation.'
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2+
+  search_intent: practical
+  keywords:
+    primary: Friday small talk at work in English
+    secondary:
+    - workplace small talk before the weekend
+    - English small talk with coworkers
+    - what to say to coworkers on Friday
+    long_tail:
+    - what to say to coworkers before the weekend in English
+    - natural Friday small talk at work in English
+  core_concepts:
+  - workplace small talk
+  - weekend questions
+  - professional boundaries
+  - light reactions
+  - conversation exits
+  target_language:
+    expressions:
+    - Any plans for the weekend?
+    - Doing anything nice this weekend?
+    - I’m keeping it pretty low-key.
+    - Have a good weekend!
+    - See you Monday.
+    - Enjoy your weekend.
+    grammar_points:
+    - present continuous for future arrangements
+    - anything + adjective in casual questions
+    - short replies and ellipsis
+    vocabulary_groups:
+    - weekend plans
+    - workplace socialising
+    - casual reactions
+    - professional boundaries
+    cultural_points:
+    - Friday small talk as rapport-building
+    - appropriate personal detail at work
+    - natural conversation endings
+  forbidden_overlap:
+  - Do not teach professional introductions; FM-006 owns that.
+  - Do not focus on inviting a colleague out; FM-013 owns that.
+  - Do not become a generic workplace small-talk guide detached from the Friday/weekend context.
+  - Do not repeat FM-020’s pre-meeting small talk context.
+  - Do not turn this into a general weekend phrase list.
+  related_content:
+    pillar: english-for-life-work
+    previous:
+    - FM-026
+    next:
+    - FM-028
+    cross_rubric:
+    - FM-025
+    - FM-021
+    cross_theme: []
+  seo:
+    meta_title: 'Friday Small Talk at Work: Natural English for the Weekend'
+    meta_description: Learn natural ways to make small talk with coworkers on Friday, talk about weekend plans and end the
+      conversation comfortably.
+    canonical: /english-for-life-work/friday-small-talk-at-work/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: What to Say to Coworkers on Friday in English
+    pin_titles:
+    - Friday Small Talk at Work
+    - Natural English for Talking About Weekend Plans at Work
+    - What to Say Before the Weekend
+    - Workplace English You’ll Actually Use
+    visual_angles:
+    - office Friday conversation
+    - coworkers leaving work
+    - weekend question at work
+    - chat message from coworker
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Build confidence in the everyday workplace conversations that happen before and after formal meetings.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - friday-workplace-small-talk
+    - weekend-at-work
+    - professional-boundaries
+    - workplace-conversation-exits
+    expression_ids:
+    - any-plans-for-the-weekend
+    - keeping-it-low-key
+    - have-a-good-weekend
+    - see-you-monday
+    situation_ids:
+    - friday-small-talk-at-work
+    excluded_article_ids:
+    - FM-006
+    - FM-013
+    - FM-020
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-for-life-work
+    same_week:
+    - id: FM-025
+      relationship: cultural_context
+      priority: 1
+      anchor_intent: Understand the cultural meaning behind asking colleagues about weekend plans.
+    - id: FM-022
+      relationship: practical_application
+      priority: 2
+      anchor_intent: Transfer everyday weekend-planning language into a workplace setting.
+    same_rubric:
+    - id: FM-020
+      relationship: deeper_dive
+      priority: 3
+      anchor_intent: Compare Friday small talk with the short conversations that happen before a meeting.
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-025
+    - FM-022
+    - FM-020
+  internal_link_record:
+  - target: FM-025
+    relationship: cultural_context
+  - target: FM-022
+    relationship: practical_application
+  - target: FM-020
+    relationship: deeper_dive
+- id: FM-028
+  day: 28
+  week: 4
+  rubric: english-from-the-real-world
+  macro_theme: weekend-and-free-time
+  title: “Any Plans for the Weekend?” — English You’ll See in Messages and Media
+  slug: any-plans-for-the-weekend-real-english
+  content_type: real_world_language
+  primary_purpose: real_world_recognition
+  unique_angle: Decode common weekend-plan language as it appears in texts, group chats, films, social posts and casual conversation,
+    including shorthand, implied meaning and typical responses.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2
+  search_intent: meaning
+  keywords:
+    primary: any plans for the weekend meaning
+    secondary:
+    - weekend English phrases in real life
+    - what does any plans mean in English
+    - English messages weekend plans
+    long_tail:
+    - how to understand weekend plans in English texts
+    - what does any plans for the weekend mean
+  core_concepts:
+  - message shorthand
+  - implied invitation
+  - context
+  - informal ellipsis
+  - real-world recognition
+  target_language:
+    expressions:
+    - Any plans for the weekend?
+    - You doing anything?
+    - Got anything on?
+    - I’m just taking it easy.
+    - We might head out.
+    - Let me know.
+    grammar_points:
+    - ellipsis in informal questions
+    - present continuous for future plans
+    - might for uncertain plans
+    vocabulary_groups:
+    - text-message shorthand
+    - weekend activities
+    - informal planning
+    - casual responses
+    cultural_points:
+    - ellipsis in informal English
+    - context-driven invitations
+    - difference between literal wording and conversational intent
+  forbidden_overlap:
+  - Do not become a general weekend-planning guide; FM-022 owns practical planning.
+  - Do not provide a broad cultural essay; FM-025 owns the cultural explanation.
+  - Do not focus on workplace Friday talk; FM-027 owns that.
+  - Do not duplicate FM-021’s analysis of “How’s it going?”
+  - Do not focus on making friends or meeting people while travelling.
+  related_content:
+    pillar: english-from-the-real-world
+    previous:
+    - FM-027
+    next: []
+    cross_rubric:
+    - FM-023
+    - FM-025
+    cross_theme: []
+  seo:
+    meta_title: “Any Plans for the Weekend?” Meaning in Real English
+    meta_description: Decode common weekend-plan questions and informal expressions you’ll see in English messages, films,
+      social media and everyday conversations.
+    canonical: /english-from-the-real-world/any-plans-for-the-weekend/
+    schema_type: FAQPage
+  pinterest:
+    primary_hook: You’ll See This English Phrase Everywhere at the Weekend
+    pin_titles:
+    - “Any Plans for the Weekend?” Meaning
+    - English You’ll See in Text Messages
+    - 'Real English: Weekend Plans'
+    - What “Got Anything On?” Means
+    visual_angles:
+    - text message screenshot concept
+    - group chat
+    - film subtitle style
+    - real-world phrase decoding
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: soft
+    cta_angle: Practise the everyday language you recognise in real conversations, messages and media.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 6
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - weekend-real-world-language
+    - informal-ellipsis
+    - implied-invitation
+    - message-shorthand
+    expression_ids:
+    - any-plans-for-the-weekend
+    - you-doing-anything
+    - got-anything-on
+    - taking-it-easy
+    situation_ids:
+    - weekend-plans-in-messages-and-media
+    excluded_article_ids:
+    - FM-021
+    - FM-025
+    - FM-027
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-from-the-real-world
+    same_week:
+    - id: FM-022
+      relationship: practical_application
+      priority: 1
+      anchor_intent: Use the decoded expressions in a real weekend-planning situation.
+    - id: FM-023
+      relationship: deeper_dive
+      priority: 2
+      anchor_intent: Explore why these short phrases sound natural to native speakers.
+    same_rubric:
+    - id: FM-021
+      relationship: real_world_example
+      priority: 3
+      anchor_intent: Compare another everyday question whose meaning depends on context.
+    same_theme: []
+    cross_rubric:
+    - id: FM-025
+      relationship: cultural_context
+      priority: 4
+      anchor_intent: Understand the social context behind weekend-plan questions.
+    visible_recommendations:
+    - FM-022
+    - FM-023
+    - FM-021
+    - FM-025
+  internal_link_record:
+  - target: FM-022
+    relationship: practical_application
+  - target: FM-023
+    relationship: deeper_dive
+  - target: FM-021
+    relationship: real_world_example
+  - target: FM-025
+    relationship: cultural_context
+- id: FM-029
+  day: 29
+  week: 5
+  rubric: english-in-real-life
+  macro_theme: daily-routines
+  title: Talking About Your Daily Routine Without Sounding Like a Textbook
+  slug: talking-about-your-daily-routine-without-sounding-like-a-textbook
+  content_type: situational_guide
+  primary_purpose: communication
+  unique_angle: A practical conversation guide for describing a normal day in a natural back-and-forth, from waking up and
+    getting ready to moving through work, meals and evening plans, with emphasis on what to say rather than listing routine
+    verbs.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: A2-B1
+  search_intent: practical
+  keywords:
+    primary: how to talk about your daily routine in English
+    secondary:
+    - daily routine conversation in English
+    - talk about your day in English
+    - English daily routine speaking
+    - natural English daily routine
+    long_tail:
+    - how to describe your daily routine in English naturally
+    - what to say when someone asks about your daily routine in English
+  core_concepts:
+  - describing a normal day
+  - sequencing events
+  - time references
+  - follow-up questions
+  - routine conversation
+  - natural endings
+  target_language:
+    expressions:
+    - I usually...
+    - I tend to...
+    - Then I...
+    - After that, I...
+    - What about you?
+    grammar_points:
+    - present simple for routines
+    - adverbs of frequency
+    - time expressions
+    vocabulary_groups:
+    - morning routine
+    - workday routine
+    - meals and breaks
+    - evening activities
+    cultural_points: []
+  forbidden_overlap:
+  - Do not turn this into a vocabulary list of routine verbs.
+  - Do not focus primarily on textbook versus natural English; that is FM-030.
+  - Do not make missing vocabulary the main learner problem; that is FM-031.
+  - Do not focus on workplace routines; that is FM-034.
+  - Do not focus on travel routines; that is FM-033.
+  related_content:
+    pillar: english-in-real-life
+    previous:
+    - FM-028
+    next:
+    - FM-030
+    cross_rubric:
+    - FM-030
+    - FM-031
+    cross_theme: []
+  seo:
+    meta_title: How to Talk About Your Daily Routine in English
+    meta_description: Learn how to talk naturally about your everyday routine in English, from your morning to your evening,
+      with useful conversation examples.
+    canonical: /english-in-real-life/talking-about-your-daily-routine/
+    schema_type: Article
+  pinterest:
+    primary_hook: How to Talk About Your Daily Routine in English
+    pin_titles:
+    - How to Talk About Your Daily Routine in English
+    - Describe Your Day in Natural English
+    - English Phrases for Talking About Your Day
+    visual_angles:
+    - morning-to-evening timeline
+    - daily routine conversation
+    - English phrases for everyday life
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: soft
+    cta_angle: Build confidence talking about everyday life through regular English practice.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - daily-routine-conversation
+    - sequencing-events
+    - routine-follow-up
+    - time-references
+    expression_ids:
+    - i-usually
+    - i-tend-to
+    - after-that
+    - what-about-you
+    situation_ids:
+    - describing-a-normal-day
+    excluded_article_ids:
+    - FM-001
+    - FM-015
+    - FM-030
+    - FM-031
+    - FM-034
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-in-real-life
+    same_week:
+    - id: FM-030
+      relationship: natural_extension
+      priority: 1
+      anchor_intent: Make the same daily-routine content sound more natural and less textbook-like.
+    - id: FM-031
+      relationship: confidence_strategy
+      priority: 2
+      anchor_intent: Learn what to do when you cannot remember the exact word while describing your day.
+    same_rubric: []
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-030
+    - FM-031
+  internal_link_record:
+  - target: FM-030
+    relationship: natural_extension
+  - target: FM-031
+    relationship: confidence_strategy
+- id: FM-030
+  day: 30
+  week: 5
+  rubric: natural-english
+  macro_theme: daily-routines
+  title: 'Stop Saying “I Wake Up at 7”: How Native Speakers Talk About Their Daily Routine'
+  slug: stop-saying-i-wake-up-at-7-how-native-speakers-talk-about-their-daily-routine
+  content_type: natural_language_analysis
+  primary_purpose: naturalness
+  unique_angle: Analyse how everyday English speakers describe routines through chunks, collocations, reduced repetition and
+    natural choices such as get up, head to work, grab a coffee, take a break and wind down, rather than translating Italian
+    sentence by sentence.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2
+  search_intent: informational
+  keywords:
+    primary: natural English daily routine phrases
+    secondary:
+    - how native speakers talk about daily routines
+    - natural ways to describe your day in English
+    - daily routine English expressions
+    - English collocations for daily life
+    long_tail:
+    - how to talk about your daily routine like a native speaker
+    - natural alternatives to textbook daily routine English
+  core_concepts:
+  - collocations
+  - lexical chunks
+  - verb choice
+  - avoiding repetition
+  - natural sequencing
+  - spoken register
+  target_language:
+    expressions:
+    - get up
+    - get ready
+    - head to work
+    - grab a coffee
+    - take a break
+    - wind down
+    grammar_points:
+    - present simple with natural adverb placement
+    - verb patterns in routine expressions
+    vocabulary_groups:
+    - routine collocations
+    - commuting expressions
+    - workday chunks
+    - evening routine chunks
+    cultural_points: []
+  forbidden_overlap:
+  - Do not provide a complete situational guide; that is FM-029.
+  - Do not focus on conversation-recovery strategies; that is FM-031.
+  - Do not explain workplace routine language as the primary context; that is FM-034.
+  - Do not make this a cultural explanation of daily habits.
+  - Do not frame every example as a textbook-versus-native binary; focus on useful natural language patterns.
+  related_content:
+    pillar: natural-english
+    previous:
+    - FM-029
+    next:
+    - FM-031
+    cross_rubric:
+    - FM-029
+    - FM-035
+    cross_theme: []
+  seo:
+    meta_title: Natural English for Talking About Your Daily Routine
+    meta_description: Learn the everyday English phrases and collocations native speakers use to talk about their routines
+      without sounding translated or repetitive.
+    canonical: /natural-english/daily-routine-phrases/
+    schema_type: Article
+  pinterest:
+    primary_hook: Stop Translating Your Daily Routine Word for Word
+    pin_titles:
+    - Natural English for Your Daily Routine
+    - Stop Saying Your Daily Routine Like a Textbook
+    - How Native Speakers Talk About Their Day
+    visual_angles:
+    - textbook vs natural phrases
+    - routine phrase swaps
+    - daily-life collocations
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Practise everyday English in context so natural phrases become easier to use.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - routine-collocations
+    - lexical-chunks
+    - natural-verb-choice
+    - spoken-register
+    expression_ids:
+    - get-ready
+    - head-to-work
+    - grab-a-coffee
+    - take-a-break
+    - wind-down
+    situation_ids:
+    - describing-daily-routine
+    excluded_article_ids:
+    - FM-029
+    - FM-008
+    - FM-009
+    uniqueness_check: passed
+  internal_links:
+    pillar: natural-english
+    same_week:
+    - id: FM-029
+      relationship: practical_application
+      priority: 1
+      anchor_intent: See these natural patterns inside a complete everyday conversation.
+    - id: FM-031
+      relationship: confidence_strategy
+      priority: 2
+      anchor_intent: Learn how to keep speaking when the exact natural word does not come to mind.
+    same_rubric: []
+    same_theme: []
+    cross_rubric:
+    - id: FM-035
+      relationship: real_world_example
+      priority: 3
+      anchor_intent: Recognise routine expressions when you encounter them in authentic English.
+    visible_recommendations:
+    - FM-029
+    - FM-031
+    - FM-035
+  internal_link_record:
+  - target: FM-029
+    relationship: practical_application
+  - target: FM-031
+    relationship: confidence_strategy
+  - target: FM-035
+    relationship: real_world_example
+- id: FM-031
+  day: 31
+  week: 5
+  rubric: english-mindset
+  macro_theme: daily-routines
+  title: How to Talk About Your Day When You Don't Know the Right Word
+  slug: how-to-talk-about-your-day-when-you-dont-know-the-right-word
+  content_type: mindset_guide
+  primary_purpose: confidence
+  unique_angle: Teach learners to keep describing their day when a specific routine word is missing by paraphrasing, using
+    simpler verbs, giving examples, asking for a word and moving on instead of stopping the conversation.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: A2-B2
+  search_intent: how_to
+  keywords:
+    primary: what to say when you don't know a word in English
+    secondary:
+    - English speaking when you forget a word
+    - how to describe something without knowing the word
+    - English conversation confidence
+    - paraphrasing in English
+    long_tail:
+    - how to keep talking in English when you forget a word
+    - how to explain a word you do not know in English
+  core_concepts:
+  - paraphrasing
+  - simplifying
+  - describing around a word
+  - asking for help
+  - communication over perfection
+  - conversation recovery
+  target_language:
+    expressions:
+    - It’s like...
+    - It’s the thing you use to...
+    - I don’t know the word for it.
+    - What do you call it?
+    - Basically...
+    - You know what I mean?
+    grammar_points:
+    - relative clauses for description
+    - simple definitions with it is/you use it to
+    vocabulary_groups:
+    - paraphrasing language
+    - descriptive language
+    - conversation repair
+    cultural_points: []
+  forbidden_overlap:
+  - Do not repeat the broad mind-blank framework from FM-003; keep the strategy tied to missing vocabulary while describing
+    a daily routine.
+  - Do not teach a vocabulary list of routine words.
+  - Do not analyse natural routine collocations as the main purpose; that is FM-030.
+  - Do not focus on travel or workplace communication.
+  related_content:
+    pillar: english-mindset
+    previous:
+    - FM-030
+    next:
+    - FM-032
+    cross_rubric:
+    - FM-029
+    - FM-030
+    cross_theme: []
+  seo:
+    meta_title: How to Keep Speaking English When You Forget a Word
+    meta_description: Learn simple paraphrasing strategies for talking about your day in English even when you do not know
+      or remember the exact word.
+    canonical: /english-mindset/when-you-dont-know-the-word/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: Forgot the Word? Keep Speaking in English
+    pin_titles:
+    - What to Say When You Forget an English Word
+    - How to Keep Talking When You Don’t Know a Word
+    - 'English Speaking Trick: Describe It Instead'
+    visual_angles:
+    - forgotten-word rescue
+    - paraphrasing examples
+    - confidence strategy
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: soft
+    cta_angle: Regular practice helps you become more comfortable communicating even when your English is not perfect.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - paraphrasing
+    - lexical-gap-recovery
+    - communication-over-perfection
+    - descriptive-language
+    expression_ids:
+    - its-like
+    - thing-you-use-to
+    - what-do-you-call-it
+    - basically
+    situation_ids:
+    - describing-day-with-missing-word
+    excluded_article_ids:
+    - FM-003
+    - FM-029
+    - FM-030
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-mindset
+    same_week:
+    - id: FM-029
+      relationship: practical_application
+      priority: 1
+      anchor_intent: Apply the missing-word strategy while describing a real daily routine.
+    - id: FM-030
+      relationship: natural_extension
+      priority: 2
+      anchor_intent: Learn the natural routine chunks you will hear and want to reproduce.
+    same_rubric:
+    - id: FM-003
+      relationship: deeper_dive
+      priority: 3
+      anchor_intent: Build on the broader conversation-recovery strategy with a specific lexical-gap technique.
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-029
+    - FM-030
+    - FM-003
+  internal_link_record:
+  - target: FM-029
+    relationship: practical_application
+  - target: FM-030
+    relationship: natural_extension
+  - target: FM-003
+    relationship: deeper_dive
+- id: FM-032
+  day: 32
+  week: 5
+  rubric: english-culture
+  macro_theme: daily-routines
+  title: Why English Speakers Ask “How’s Your Day Going?”
+  slug: why-english-speakers-ask-hows-your-day-going
+  content_type: cultural_explainer
+  primary_purpose: culture
+  unique_angle: Explain the social role of asking about someone’s day as a low-pressure connection ritual, including when
+    the question is genuine, when it is simply friendly contact, and how much detail is normally expected.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2+
+  search_intent: cultural
+  keywords:
+    primary: why do English speakers ask how's your day going
+    secondary:
+    - How’s your day going meaning
+    - English small talk about your day
+    - English social questions
+    - daily small talk culture
+    long_tail:
+    - what does how is your day going mean in English
+    - how much should you say when someone asks about your day
+  core_concepts:
+  - social ritual
+  - low-pressure questions
+  - genuine versus formulaic interest
+  - appropriate detail
+  - rapport
+  - personal boundaries
+  target_language:
+    expressions:
+    - How’s your day going?
+    - How’s your day been?
+    - How’s everything going?
+    - Pretty good, thanks.
+    - It’s been a bit hectic.
+    grammar_points:
+    - present continuous in How’s ... going?
+    - present perfect in How’s your day been?
+    vocabulary_groups:
+    - everyday check-ins
+    - workday and routine states
+    - positive and negative responses
+    cultural_points:
+    - small talk as social maintenance
+    - expected response length
+    - politeness and personal boundaries
+    - difference between a check-in and a request for detailed information
+  forbidden_overlap:
+  - Do not become a general article about why small talk matters; that was FM-004.
+  - Do not focus on alternatives to How are you as a natural-language analysis; that is FM-016.
+  - Do not decode one phrase as a real-world language lesson; that is FM-021.
+  - Do not turn this into a list of small-talk phrases.
+  related_content:
+    pillar: english-culture
+    previous:
+    - FM-031
+    next:
+    - FM-033
+    cross_rubric:
+    - FM-016
+    - FM-021
+    cross_theme: []
+  seo:
+    meta_title: Why Do English Speakers Ask “How’s Your Day Going?”
+    meta_description: Understand the cultural meaning behind everyday questions about your day and learn how much detail people
+      usually expect in response.
+    canonical: /english-culture/hows-your-day-going/
+    schema_type: Article
+  pinterest:
+    primary_hook: Why Do They Keep Asking About Your Day?
+    pin_titles:
+    - What “How’s Your Day Going?” Really Means
+    - Why English Speakers Ask About Your Day
+    - 'English Small Talk: How Much Should You Say?'
+    visual_angles:
+    - social check-in
+    - culture comparison
+    - conversation expectation
+    cta_type: read_article
+  babbel:
+    enabled: false
+    cta_level: none
+    cta_angle: ''
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 8
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - daily-check-in-culture
+    - social-maintenance
+    - expected-response-length
+    - personal-boundaries
+    expression_ids:
+    - hows-your-day-going
+    - hows-your-day-been
+    - pretty-good-thanks
+    situation_ids:
+    - daily-social-check-in
+    excluded_article_ids:
+    - FM-004
+    - FM-016
+    - FM-021
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-culture
+    same_week:
+    - id: FM-033
+      relationship: practical_application
+      priority: 1
+      anchor_intent: See how light daily conversation works when you are away from your normal routine.
+    same_rubric:
+    - id: FM-004
+      relationship: deeper_dive
+      priority: 2
+      anchor_intent: Understand the broader social role of small talk before focusing on daily check-ins.
+    same_theme: []
+    cross_rubric:
+    - id: FM-021
+      relationship: real_world_example
+      priority: 3
+      anchor_intent: Decode a closely related everyday phrase when you encounter it in authentic English.
+    visible_recommendations:
+    - FM-033
+    - FM-004
+    - FM-021
+  internal_link_record:
+  - target: FM-033
+    relationship: practical_application
+  - target: FM-004
+    relationship: deeper_dive
+  - target: FM-021
+    relationship: real_world_example
+- id: FM-033
+  day: 33
+  week: 5
+  rubric: english-for-adventure
+  macro_theme: daily-routines
+  title: Talking About Your Routine When You're Travelling
+  slug: talking-about-your-routine-when-youre-travelling
+  content_type: travel_scenario
+  primary_purpose: travel_survival
+  unique_angle: 'Apply routine language to travel situations where normal habits change: explaining when you usually eat or
+    leave, discussing a changed schedule, answering casual questions and coordinating simple plans without turning the lesson
+    into general travel English.'
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: A2-B1
+  search_intent: scenario
+  keywords:
+    primary: English for talking about your routine while travelling
+    secondary:
+    - travel English daily routine
+    - talking about your day while travelling
+    - English phrases for travel conversations
+    - holiday routine English
+    long_tail:
+    - how to talk about your daily routine on holiday in English
+    - what to say about your routine when travelling abroad
+  core_concepts:
+  - changed routines
+  - travel schedules
+  - casual travel conversation
+  - time coordination
+  - explaining habits
+  - flexible plans
+  target_language:
+    expressions:
+    - I usually get up around...
+    - We’re heading out at...
+    - I normally eat around...
+    - I’m taking it easy today.
+    - What are you doing later?
+    grammar_points:
+    - present simple versus present continuous for routines and current plans
+    - around/about for approximate times
+    vocabulary_groups:
+    - travel-day routine
+    - meals and breaks
+    - sightseeing schedule
+    - hotel and transport timing
+    cultural_points:
+    - flexibility in travel conversations
+    - light conversation with other travellers
+  forbidden_overlap:
+  - Do not focus on meeting people or making friends while travelling; see FM-005 and FM-012.
+  - Do not become a generic travel phrasebook.
+  - Do not focus on workplace routines; that is FM-034.
+  - Do not explain the cultural function of daily check-in questions; that is FM-032.
+  related_content:
+    pillar: english-for-adventure
+    previous:
+    - FM-032
+    next:
+    - FM-034
+    cross_rubric:
+    - FM-029
+    - FM-032
+    cross_theme: []
+  seo:
+    meta_title: Talking About Your Routine While Travelling in English
+    meta_description: Learn practical English for describing your routine, schedule and plans when travelling, from breakfast
+      to sightseeing and evenings.
+    canonical: /english-for-adventure/talking-about-your-routine-while-travelling/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: 'Travel English: Talk About Your Daily Routine'
+    pin_titles:
+    - Travel English for Talking About Your Day
+    - How to Describe Your Routine While Travelling
+    - English Phrases for Your Day Abroad
+    visual_angles:
+    - traveller daily schedule
+    - hotel breakfast conversation
+    - travel day timeline
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Practise everyday English before you need it in real travel situations.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - travel-routine
+    - changed-schedule
+    - travel-small-talk
+    - time-coordination
+    expression_ids:
+    - heading-out
+    - taking-it-easy
+    - around-for-time
+    situation_ids:
+    - talking-about-routine-while-travelling
+    excluded_article_ids:
+    - FM-005
+    - FM-012
+    - FM-029
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-for-adventure
+    same_week:
+    - id: FM-029
+      relationship: practical_application
+      priority: 1
+      anchor_intent: Start with everyday routine language before adapting it to travel.
+    - id: FM-034
+      relationship: work_application
+      priority: 2
+      anchor_intent: See how routine language changes when the context becomes professional.
+    same_rubric:
+    - id: FM-005
+      relationship: deeper_dive
+      priority: 3
+      anchor_intent: Move from describing your own routine to interacting socially while travelling.
+    same_theme: []
+    cross_rubric: []
+    visible_recommendations:
+    - FM-029
+    - FM-034
+    - FM-005
+  internal_link_record:
+  - target: FM-029
+    relationship: practical_application
+  - target: FM-034
+    relationship: work_application
+  - target: FM-005
+    relationship: deeper_dive
+- id: FM-034
+  day: 34
+  week: 5
+  rubric: english-for-life-work
+  macro_theme: daily-routines
+  title: Talking About Your Typical Workday in English
+  slug: talking-about-your-typical-workday-in-english
+  content_type: workplace_guide
+  primary_purpose: work_communication
+  unique_angle: Teach adults how to describe a typical workday naturally in professional conversations, including responsibilities,
+    meetings, breaks, commuting and workload, without turning the lesson into a business vocabulary list or job-interview
+    answer.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2+
+  search_intent: practical
+  keywords:
+    primary: how to talk about your workday in English
+    secondary:
+    - describe your typical workday in English
+    - English for talking about your job
+    - natural workplace English
+    - daily work routine English
+    long_tail:
+    - how to describe a typical day at work in English
+    - what to say when someone asks what your workday is like in English
+  core_concepts:
+  - workday description
+  - responsibilities
+  - work schedule
+  - meetings and breaks
+  - workload
+  - professional small talk
+  target_language:
+    expressions:
+    - I usually start at...
+    - Most of my day is spent...
+    - I have a couple of meetings...
+    - I’m usually tied up with...
+    - It depends on the day.
+    grammar_points:
+    - present simple for regular responsibilities
+    - present continuous for current workload
+    vocabulary_groups:
+    - workday activities
+    - meetings and tasks
+    - workload and availability
+    - commuting
+    cultural_points:
+    - appropriate level of detail at work
+    - professional small talk versus formal reporting
+  forbidden_overlap:
+  - Do not focus on introducing yourself at work; that is FM-006.
+  - Do not focus on inviting colleagues out; that is FM-013.
+  - Do not focus on pre-meeting small talk; that is FM-027.
+  - Do not turn this into job-interview preparation.
+  - Do not make it a general business vocabulary list.
+  related_content:
+    pillar: english-for-life-work
+    previous:
+    - FM-033
+    next:
+    - FM-035
+    cross_rubric:
+    - FM-029
+    - FM-030
+    cross_theme: []
+  seo:
+    meta_title: How to Talk About Your Typical Workday in English
+    meta_description: Learn natural English for describing your typical workday, responsibilities, meetings, workload and
+      schedule in professional conversations.
+    canonical: /english-for-life-work/talking-about-your-workday/
+    schema_type: HowTo
+  pinterest:
+    primary_hook: How to Describe Your Workday in English
+    pin_titles:
+    - Talk About Your Workday in English
+    - English Phrases for Describing Your Job
+    - How to Explain What You Do All Day at Work
+    visual_angles:
+    - office workday
+    - professional routine
+    - workday timeline
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Build confidence for everyday professional conversations in English.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - workday-description
+    - work-responsibilities
+    - workload-language
+    - professional-detail
+    expression_ids:
+    - start-at
+    - spent-most-of-my-day
+    - tied-up-with
+    - depends-on-the-day
+    situation_ids:
+    - describing-typical-workday
+    excluded_article_ids:
+    - FM-006
+    - FM-013
+    - FM-027
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-for-life-work
+    same_week:
+    - id: FM-027
+      relationship: same_theme_extension
+      priority: 1
+      anchor_intent: Compare describing your workday with the lighter small talk used before a meeting.
+    same_rubric:
+    - id: FM-006
+      relationship: work_application
+      priority: 2
+      anchor_intent: Move from introducing yourself professionally to describing what your working day is actually like.
+    same_theme: []
+    cross_rubric:
+    - id: FM-029
+      relationship: practical_application
+      priority: 3
+      anchor_intent: Start with the everyday routine framework before applying it to work.
+    visible_recommendations:
+    - FM-027
+    - FM-006
+    - FM-029
+  internal_link_record:
+  - target: FM-027
+    relationship: same_theme_extension
+  - target: FM-006
+    relationship: work_application
+  - target: FM-029
+    relationship: practical_application
+- id: FM-035
+  day: 35
+  week: 5
+  rubric: english-from-the-real-world
+  macro_theme: daily-routines
+  title: “I’m Heading to Work” — Everyday English for Talking About Your Day
+  slug: im-heading-to-work-everyday-english-for-talking-about-your-day
+  content_type: real_world_language
+  primary_purpose: real_world_recognition
+  unique_angle: Decode routine expressions that appear naturally in messages, captions, conversations and media, focusing
+    on what phrases such as head to, grab, run late, be on my way and crash imply in real context rather than teaching them
+    as isolated vocabulary.
+  audience:
+    primary: Italian learners of English
+    profile: adult_general
+  level: B1-B2+
+  search_intent: meaning
+  keywords:
+    primary: everyday English phrases for talking about your day
+    secondary:
+    - I’m heading to work meaning
+    - English daily routine phrases in real life
+    - everyday English expressions
+    - English phrases you hear in real life
+    long_tail:
+    - what does I’m heading to work mean in English
+    - everyday English phrases about daily routines and plans
+  core_concepts:
+  - head to
+  - be on my way
+  - run late
+  - grab something
+  - crash
+  - contextual meaning
+  target_language:
+    expressions:
+    - I’m heading to work.
+    - I’m on my way.
+    - I’m running late.
+    - I’ll grab something to eat.
+    - I’m gonna crash.
+    grammar_points:
+    - present continuous for current movement and plans
+    - going to/gonna in informal speech
+    vocabulary_groups:
+    - movement and commuting
+    - time pressure
+    - food and quick actions
+    - informal evening language
+    cultural_points:
+    - informal spoken English in messages and media
+    - context-dependent meaning
+    - register in everyday digital communication
+  forbidden_overlap:
+  - Do not become a general daily-routine article; use real-world decoding as the main objective.
+  - Do not duplicate FM-030’s systematic collocation analysis.
+  - Do not focus on travel or workplace-specific communication.
+  - Do not teach “How’s it going?” as the main expression; that is FM-021.
+  related_content:
+    pillar: english-from-the-real-world
+    previous:
+    - FM-034
+    next: []
+    cross_rubric:
+    - FM-030
+    - FM-021
+    cross_theme: []
+  seo:
+    meta_title: “I’m Heading to Work” and Other Everyday English Phrases
+    meta_description: Decode everyday English phrases you see and hear when people talk about work, plans, delays, food and
+      the rest of their day.
+    canonical: /english-from-the-real-world/heading-to-work/
+    schema_type: Article
+  pinterest:
+    primary_hook: 'English You Actually Hear: “I’m Heading to Work”'
+    pin_titles:
+    - What Does “I’m Heading to Work” Mean?
+    - 5 Everyday English Phrases You’ll Hear Everywhere
+    - Real English for Talking About Your Day
+    visual_angles:
+    - text-message snippets
+    - commuting phrases
+    - real-world English examples
+    cta_type: read_article
+  babbel:
+    enabled: true
+    cta_level: contextual
+    cta_angle: Train your ear and instincts with everyday English you can use beyond the textbook.
+    destination: /babbel/
+  editorial:
+    status: planned
+    author: Fluente-Mente
+    estimated_read_minutes: 7
+    evergreen: true
+  anti_duplication:
+    concept_ids:
+    - real-world-routine-language
+    - contextual-meaning
+    - informal-digital-English
+    - movement-expressions
+    expression_ids:
+    - head-to
+    - on-my-way
+    - running-late
+    - grab-something
+    - gonna-crash
+    situation_ids:
+    - seeing-routine-language-in-real-world-content
+    excluded_article_ids:
+    - FM-021
+    - FM-028
+    - FM-030
+    uniqueness_check: passed
+  internal_links:
+    pillar: english-from-the-real-world
+    same_week:
+    - id: FM-030
+      relationship: deeper_dive
+      priority: 1
+      anchor_intent: Learn the broader natural-language patterns behind everyday routine expressions.
+    same_rubric:
+    - id: FM-021
+      relationship: real_world_example
+      priority: 2
+      anchor_intent: Decode another high-frequency everyday expression you will encounter in authentic English.
+    same_theme: []
+    cross_rubric:
+    - id: FM-029
+      relationship: practical_application
+      priority: 3
+      anchor_intent: Use the decoded expressions in a complete everyday routine conversation.
+    visible_recommendations:
+    - FM-030
+    - FM-021
+    - FM-029
+  internal_link_record:
+  - target: FM-030
+    relationship: deeper_dive
+  - target: FM-021
+    relationship: real_world_example
+  - target: FM-029
+    relationship: practical_application
+internal_linking_policy:
+  purpose: Turn the 365-day archive into a useful learning network rather than a chronological list.
+  architecture:
+  - pillar
+  - same_week
+  - same_rubric
+  - same_theme
+  - cross_rubric
+  directionality: Relationships should be logically bidirectional in the registry even if only selected links are displayed
+    on-page.
+  visible_section:
+    recommended_heading: Continue Learning
+    max_links: 5
+    min_links: 2
+  editorial_principle: Link because the next article solves a new or complementary reader need, not because it is merely related
+    by topic.
+  babbel_separation: Babbel pages are commercial destinations and are not counted as editorial internal links.
+completed_weeks:
+- 1
+- 2
+- 3
+- 4
+week_validation:
+  week_01:
+    record_count: 7
+    days: 1-7
+    status: validated
+  week_02:
+    record_count: 7
+    days: 8-14
+    rubrics:
+    - english-in-real-life
+    - natural-english
+    - english-mindset
+    - english-and-culture
+    - english-for-adventure
+    - english-for-life-and-work
+    - english-from-the-real-world
+    uniqueness_check: passed
+    internal_linking_check: passed
+    babbel_separation_check: passed
+    status: validated
+  week_03:
+    days: 15-21
+    record_count: 7
+    rubrics_count: 7
+    distinct_rubrics: true
+    macro_theme: small-talk
+    required_fields_complete: true
+    seo_complete: true
+    pinterest_complete: true
+    babbel_separated_from_editorial_links: true
+    anti_duplication_checked: true
+    internal_links_explicit_relationships: true
+    visible_recommendations_within_limit: true
+    status: passed
+  week_04:
+    days: 22-28
+    record_count: 7
+    rubrics_count: 7
+    distinct_rubrics: true
+    macro_theme: weekend-and-free-time
+    required_fields_complete: true
+    seo_complete: true
+    pinterest_complete: true
+    babbel_separated_from_editorial_links: true
+    anti_duplication_checked: true
+    internal_links_explicit_relationships: true
+    visible_recommendations_within_limit: true
+    status: passed
+  week_05:
+    week: 5
+    macro_theme: daily-routines
+    days:
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    record_count: 7
+    ids:
+    - FM-029
+    - FM-030
+    - FM-031
+    - FM-032
+    - FM-033
+    - FM-034
+    - FM-035
+    rubrics:
+    - english-in-real-life
+    - natural-english
+    - english-mindset
+    - english-culture
+    - english-for-adventure
+    - english-for-life-work
+    - english-from-the-real-world
+    checks:
+      seven_records: true
+      seven_distinct_rubrics: true
+      single_macro_theme: true
+      complete_schema: true
+      unique_angles: true
+      anti_duplication_checked: true
+      internal_links_have_relationships: true
+      visible_links_within_limit: true
+      babbel_separate_from_editorial_links: true
+    status: passed

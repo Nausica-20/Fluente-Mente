@@ -1,0 +1,1482 @@
+schema_version: '1.0'
+project: fluente-mente
+purpose: Operational weekly content map connecting each annual macro-theme to the seven editorial rubrics.
+rules:
+  total_weeks: 52
+  articles_per_week: 7
+  editorial_articles: 364
+  one_article_per_rubric_per_week: true
+  week_365_special: content/special/day-365.md
+  public_article_urls_use_rubric_and_slug: true
+  day_number_is_editorial_metadata_not_primary_url: true
+rubrics:
+- english-in-real-life
+- natural-english
+- english-mindset
+- english-culture
+- english-for-adventure
+- english-for-life-work
+- english-from-the-real-world
+weeks:
+- id: week-001
+  week: 1
+  macro_theme: Meeting People
+  macro_theme_slug: meeting-people
+  description_it: Incontrare persone, presentarsi e iniziare conversazioni
+  weekly_learning_goal: How to meet people and start conversations naturally
+  articles:
+  - rubric: english-in-real-life
+    day: 1
+    status: planned
+  - rubric: natural-english
+    day: 2
+    status: planned
+  - rubric: english-mindset
+    day: 3
+    status: planned
+  - rubric: english-culture
+    day: 4
+    status: planned
+  - rubric: english-for-adventure
+    day: 5
+    status: planned
+  - rubric: english-for-life-work
+    day: 6
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 7
+    status: planned
+- id: week-002
+  week: 2
+  macro_theme: Friends & Friendship
+  macro_theme_slug: friends-friendship
+  description_it: Parlare di amicizia, relazioni e tempo con gli amici
+  weekly_learning_goal: How to talk about friends, friendship and making plans
+  articles:
+  - rubric: english-in-real-life
+    day: 8
+    status: planned
+  - rubric: natural-english
+    day: 9
+    status: planned
+  - rubric: english-mindset
+    day: 10
+    status: planned
+  - rubric: english-culture
+    day: 11
+    status: planned
+  - rubric: english-for-adventure
+    day: 12
+    status: planned
+  - rubric: english-for-life-work
+    day: 13
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 14
+    status: planned
+- id: week-003
+  week: 3
+  macro_theme: Small Talk
+  macro_theme_slug: small-talk
+  description_it: Iniziare e mantenere conversazioni leggere
+  weekly_learning_goal: How to start and keep everyday small talk going
+  articles:
+  - rubric: english-in-real-life
+    day: 15
+    status: planned
+  - rubric: natural-english
+    day: 16
+    status: planned
+  - rubric: english-mindset
+    day: 17
+    status: planned
+  - rubric: english-culture
+    day: 18
+    status: planned
+  - rubric: english-for-adventure
+    day: 19
+    status: planned
+  - rubric: english-for-life-work
+    day: 20
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 21
+    status: planned
+- id: week-004
+  week: 4
+  macro_theme: Weekend & Free Time
+  macro_theme_slug: weekend-free-time
+  description_it: Parlare di programmi, tempo libero e attività
+  weekly_learning_goal: How to talk about weekend plans and free time
+  articles:
+  - rubric: english-in-real-life
+    day: 22
+    status: planned
+  - rubric: natural-english
+    day: 23
+    status: planned
+  - rubric: english-mindset
+    day: 24
+    status: planned
+  - rubric: english-culture
+    day: 25
+    status: planned
+  - rubric: english-for-adventure
+    day: 26
+    status: planned
+  - rubric: english-for-life-work
+    day: 27
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 28
+    status: planned
+- id: week-005
+  week: 5
+  macro_theme: Daily Routines
+  macro_theme_slug: daily-routines
+  description_it: Parlare di abitudini e attività quotidiane
+  weekly_learning_goal: How to describe everyday routines naturally
+  articles:
+  - rubric: english-in-real-life
+    day: 29
+    status: planned
+  - rubric: natural-english
+    day: 30
+    status: planned
+  - rubric: english-mindset
+    day: 31
+    status: planned
+  - rubric: english-culture
+    day: 32
+    status: planned
+  - rubric: english-for-adventure
+    day: 33
+    status: planned
+  - rubric: english-for-life-work
+    day: 34
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 35
+    status: planned
+- id: week-006
+  week: 6
+  macro_theme: Home & Living
+  macro_theme_slug: home-living
+  description_it: Parlare della casa, della vita domestica e della convivenza
+  weekly_learning_goal: How to talk about home, living situations and everyday domestic life
+  articles:
+  - rubric: english-in-real-life
+    day: 36
+    status: planned
+  - rubric: natural-english
+    day: 37
+    status: planned
+  - rubric: english-mindset
+    day: 38
+    status: planned
+  - rubric: english-culture
+    day: 39
+    status: planned
+  - rubric: english-for-adventure
+    day: 40
+    status: planned
+  - rubric: english-for-life-work
+    day: 41
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 42
+    status: planned
+- id: week-007
+  week: 7
+  macro_theme: Food & Eating
+  macro_theme_slug: food-eating
+  description_it: Parlare di cibo, pasti, gusti e abitudini alimentari
+  weekly_learning_goal: How to talk about food, meals and eating habits
+  articles:
+  - rubric: english-in-real-life
+    day: 43
+    status: planned
+  - rubric: natural-english
+    day: 44
+    status: planned
+  - rubric: english-mindset
+    day: 45
+    status: planned
+  - rubric: english-culture
+    day: 46
+    status: planned
+  - rubric: english-for-adventure
+    day: 47
+    status: planned
+  - rubric: english-for-life-work
+    day: 48
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 49
+    status: planned
+- id: week-008
+  week: 8
+  macro_theme: Restaurants & Cafés
+  macro_theme_slug: restaurants-cafes
+  description_it: Ordinare, chiedere informazioni e interagire in locali
+  weekly_learning_goal: How to communicate naturally in restaurants and cafés
+  articles:
+  - rubric: english-in-real-life
+    day: 50
+    status: planned
+  - rubric: natural-english
+    day: 51
+    status: planned
+  - rubric: english-mindset
+    day: 52
+    status: planned
+  - rubric: english-culture
+    day: 53
+    status: planned
+  - rubric: english-for-adventure
+    day: 54
+    status: planned
+  - rubric: english-for-life-work
+    day: 55
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 56
+    status: planned
+- id: week-009
+  week: 9
+  macro_theme: Shopping
+  macro_theme_slug: shopping
+  description_it: Comprare, confrontare prodotti e chiedere assistenza
+  weekly_learning_goal: How to shop, compare products and ask for help
+  articles:
+  - rubric: english-in-real-life
+    day: 57
+    status: planned
+  - rubric: natural-english
+    day: 58
+    status: planned
+  - rubric: english-mindset
+    day: 59
+    status: planned
+  - rubric: english-culture
+    day: 60
+    status: planned
+  - rubric: english-for-adventure
+    day: 61
+    status: planned
+  - rubric: english-for-life-work
+    day: 62
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 63
+    status: planned
+- id: week-010
+  week: 10
+  macro_theme: Money & Spending
+  macro_theme_slug: money-spending
+  description_it: Parlare di prezzi, pagamenti, budget e spese
+  weekly_learning_goal: How to talk about prices, payments and spending
+  articles:
+  - rubric: english-in-real-life
+    day: 64
+    status: planned
+  - rubric: natural-english
+    day: 65
+    status: planned
+  - rubric: english-mindset
+    day: 66
+    status: planned
+  - rubric: english-culture
+    day: 67
+    status: planned
+  - rubric: english-for-adventure
+    day: 68
+    status: planned
+  - rubric: english-for-life-work
+    day: 69
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 70
+    status: planned
+- id: week-011
+  week: 11
+  macro_theme: Travel Planning
+  macro_theme_slug: travel-planning
+  description_it: Organizzare viaggi, itinerari e prenotazioni
+  weekly_learning_goal: How to plan trips, bookings and itineraries
+  articles:
+  - rubric: english-in-real-life
+    day: 71
+    status: planned
+  - rubric: natural-english
+    day: 72
+    status: planned
+  - rubric: english-mindset
+    day: 73
+    status: planned
+  - rubric: english-culture
+    day: 74
+    status: planned
+  - rubric: english-for-adventure
+    day: 75
+    status: planned
+  - rubric: english-for-life-work
+    day: 76
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 77
+    status: planned
+- id: week-012
+  week: 12
+  macro_theme: Airports & Flying
+  macro_theme_slug: airports-flying
+  description_it: Gestire situazioni tipiche in aeroporto e in volo
+  weekly_learning_goal: How to handle everyday English at airports and on flights
+  articles:
+  - rubric: english-in-real-life
+    day: 78
+    status: planned
+  - rubric: natural-english
+    day: 79
+    status: planned
+  - rubric: english-mindset
+    day: 80
+    status: planned
+  - rubric: english-culture
+    day: 81
+    status: planned
+  - rubric: english-for-adventure
+    day: 82
+    status: planned
+  - rubric: english-for-life-work
+    day: 83
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 84
+    status: planned
+- id: week-013
+  week: 13
+  macro_theme: Hotels & Accommodation
+  macro_theme_slug: hotels-accommodation
+  description_it: Prenotare, fare il check-in e gestire il soggiorno
+  weekly_learning_goal: How to communicate at hotels and other accommodation
+  articles:
+  - rubric: english-in-real-life
+    day: 85
+    status: planned
+  - rubric: natural-english
+    day: 86
+    status: planned
+  - rubric: english-mindset
+    day: 87
+    status: planned
+  - rubric: english-culture
+    day: 88
+    status: planned
+  - rubric: english-for-adventure
+    day: 89
+    status: planned
+  - rubric: english-for-life-work
+    day: 90
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 91
+    status: planned
+- id: week-014
+  week: 14
+  macro_theme: Getting Around
+  macro_theme_slug: getting-around
+  description_it: Muoversi in città e chiedere indicazioni
+  weekly_learning_goal: How to get around and ask for directions
+  articles:
+  - rubric: english-in-real-life
+    day: 92
+    status: planned
+  - rubric: natural-english
+    day: 93
+    status: planned
+  - rubric: english-mindset
+    day: 94
+    status: planned
+  - rubric: english-culture
+    day: 95
+    status: planned
+  - rubric: english-for-adventure
+    day: 96
+    status: planned
+  - rubric: english-for-life-work
+    day: 97
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 98
+    status: planned
+- id: week-015
+  week: 15
+  macro_theme: Travel Problems
+  macro_theme_slug: travel-problems
+  description_it: Gestire ritardi, errori e imprevisti durante un viaggio
+  weekly_learning_goal: How to handle travel problems and unexpected changes
+  articles:
+  - rubric: english-in-real-life
+    day: 99
+    status: planned
+  - rubric: natural-english
+    day: 100
+    status: planned
+  - rubric: english-mindset
+    day: 101
+    status: planned
+  - rubric: english-culture
+    day: 102
+    status: planned
+  - rubric: english-for-adventure
+    day: 103
+    status: planned
+  - rubric: english-for-life-work
+    day: 104
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 105
+    status: planned
+- id: week-016
+  week: 16
+  macro_theme: Meeting People Abroad
+  macro_theme_slug: meeting-people-abroad
+  description_it: Conoscere persone quando si è all'estero
+  weekly_learning_goal: How to meet and talk to people while abroad
+  articles:
+  - rubric: english-in-real-life
+    day: 106
+    status: planned
+  - rubric: natural-english
+    day: 107
+    status: planned
+  - rubric: english-mindset
+    day: 108
+    status: planned
+  - rubric: english-culture
+    day: 109
+    status: planned
+  - rubric: english-for-adventure
+    day: 110
+    status: planned
+  - rubric: english-for-life-work
+    day: 111
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 112
+    status: planned
+- id: week-017
+  week: 17
+  macro_theme: Work & Jobs
+  macro_theme_slug: work-jobs
+  description_it: Parlare di lavoro, ruoli e attività professionali
+  weekly_learning_goal: How to talk about jobs, roles and work
+  articles:
+  - rubric: english-in-real-life
+    day: 113
+    status: planned
+  - rubric: natural-english
+    day: 114
+    status: planned
+  - rubric: english-mindset
+    day: 115
+    status: planned
+  - rubric: english-culture
+    day: 116
+    status: planned
+  - rubric: english-for-adventure
+    day: 117
+    status: planned
+  - rubric: english-for-life-work
+    day: 118
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 119
+    status: planned
+- id: week-018
+  week: 18
+  macro_theme: Job Interviews
+  macro_theme_slug: job-interviews
+  description_it: Affrontare colloqui e parlare della propria esperienza
+  weekly_learning_goal: How to handle job interviews and describe your experience
+  articles:
+  - rubric: english-in-real-life
+    day: 120
+    status: planned
+  - rubric: natural-english
+    day: 121
+    status: planned
+  - rubric: english-mindset
+    day: 122
+    status: planned
+  - rubric: english-culture
+    day: 123
+    status: planned
+  - rubric: english-for-adventure
+    day: 124
+    status: planned
+  - rubric: english-for-life-work
+    day: 125
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 126
+    status: planned
+- id: week-019
+  week: 19
+  macro_theme: Workplace Communication
+  macro_theme_slug: workplace-communication
+  description_it: Comunicare con colleghi e responsabili
+  weekly_learning_goal: How to communicate naturally at work
+  articles:
+  - rubric: english-in-real-life
+    day: 127
+    status: planned
+  - rubric: natural-english
+    day: 128
+    status: planned
+  - rubric: english-mindset
+    day: 129
+    status: planned
+  - rubric: english-culture
+    day: 130
+    status: planned
+  - rubric: english-for-adventure
+    day: 131
+    status: planned
+  - rubric: english-for-life-work
+    day: 132
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 133
+    status: planned
+- id: week-020
+  week: 20
+  macro_theme: Meetings & Presentations
+  macro_theme_slug: meetings-presentations
+  description_it: Partecipare a riunioni e presentazioni
+  weekly_learning_goal: How to participate in meetings and presentations
+  articles:
+  - rubric: english-in-real-life
+    day: 134
+    status: planned
+  - rubric: natural-english
+    day: 135
+    status: planned
+  - rubric: english-mindset
+    day: 136
+    status: planned
+  - rubric: english-culture
+    day: 137
+    status: planned
+  - rubric: english-for-adventure
+    day: 138
+    status: planned
+  - rubric: english-for-life-work
+    day: 139
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 140
+    status: planned
+- id: week-021
+  week: 21
+  macro_theme: Emails & Messages
+  macro_theme_slug: emails-messages
+  description_it: Scrivere e comprendere messaggi ed email
+  weekly_learning_goal: How to write and understand everyday emails and messages
+  articles:
+  - rubric: english-in-real-life
+    day: 141
+    status: planned
+  - rubric: natural-english
+    day: 142
+    status: planned
+  - rubric: english-mindset
+    day: 143
+    status: planned
+  - rubric: english-culture
+    day: 144
+    status: planned
+  - rubric: english-for-adventure
+    day: 145
+    status: planned
+  - rubric: english-for-life-work
+    day: 146
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 147
+    status: planned
+- id: week-022
+  week: 22
+  macro_theme: Career & Ambition
+  macro_theme_slug: career-ambition
+  description_it: Parlare di obiettivi professionali e crescita
+  weekly_learning_goal: How to talk about career goals and ambitions
+  articles:
+  - rubric: english-in-real-life
+    day: 148
+    status: planned
+  - rubric: natural-english
+    day: 149
+    status: planned
+  - rubric: english-mindset
+    day: 150
+    status: planned
+  - rubric: english-culture
+    day: 151
+    status: planned
+  - rubric: english-for-adventure
+    day: 152
+    status: planned
+  - rubric: english-for-life-work
+    day: 153
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 154
+    status: planned
+- id: week-023
+  week: 23
+  macro_theme: Study & Learning
+  macro_theme_slug: study-learning
+  description_it: Parlare di studio, apprendimento e formazione
+  weekly_learning_goal: How to talk about studying and learning
+  articles:
+  - rubric: english-in-real-life
+    day: 155
+    status: planned
+  - rubric: natural-english
+    day: 156
+    status: planned
+  - rubric: english-mindset
+    day: 157
+    status: planned
+  - rubric: english-culture
+    day: 158
+    status: planned
+  - rubric: english-for-adventure
+    day: 159
+    status: planned
+  - rubric: english-for-life-work
+    day: 160
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 161
+    status: planned
+- id: week-024
+  week: 24
+  macro_theme: Technology & Digital Life
+  macro_theme_slug: technology-digital-life
+  description_it: Usare l'inglese nella vita digitale e tecnologica
+  weekly_learning_goal: How to communicate about technology and digital life
+  articles:
+  - rubric: english-in-real-life
+    day: 162
+    status: planned
+  - rubric: natural-english
+    day: 163
+    status: planned
+  - rubric: english-mindset
+    day: 164
+    status: planned
+  - rubric: english-culture
+    day: 165
+    status: planned
+  - rubric: english-for-adventure
+    day: 166
+    status: planned
+  - rubric: english-for-life-work
+    day: 167
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 168
+    status: planned
+- id: week-025
+  week: 25
+  macro_theme: Social Media
+  macro_theme_slug: social-media
+  description_it: Capire e usare l'inglese dei social network
+  weekly_learning_goal: How to understand and use English on social media
+  articles:
+  - rubric: english-in-real-life
+    day: 169
+    status: planned
+  - rubric: natural-english
+    day: 170
+    status: planned
+  - rubric: english-mindset
+    day: 171
+    status: planned
+  - rubric: english-culture
+    day: 172
+    status: planned
+  - rubric: english-for-adventure
+    day: 173
+    status: planned
+  - rubric: english-for-life-work
+    day: 174
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 175
+    status: planned
+- id: week-026
+  week: 26
+  macro_theme: Phones & Communication
+  macro_theme_slug: phones-communication
+  description_it: Gestire chiamate, messaggi e comunicazione a distanza
+  weekly_learning_goal: How to communicate naturally by phone and message
+  articles:
+  - rubric: english-in-real-life
+    day: 176
+    status: planned
+  - rubric: natural-english
+    day: 177
+    status: planned
+  - rubric: english-mindset
+    day: 178
+    status: planned
+  - rubric: english-culture
+    day: 179
+    status: planned
+  - rubric: english-for-adventure
+    day: 180
+    status: planned
+  - rubric: english-for-life-work
+    day: 181
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 182
+    status: planned
+- id: week-027
+  week: 27
+  macro_theme: Health & Wellbeing
+  macro_theme_slug: health-wellbeing
+  description_it: Parlare di benessere, bisogni e situazioni legate alla salute
+  weekly_learning_goal: How to communicate about everyday health and wellbeing
+  articles:
+  - rubric: english-in-real-life
+    day: 183
+    status: planned
+  - rubric: natural-english
+    day: 184
+    status: planned
+  - rubric: english-mindset
+    day: 185
+    status: planned
+  - rubric: english-culture
+    day: 186
+    status: planned
+  - rubric: english-for-adventure
+    day: 187
+    status: planned
+  - rubric: english-for-life-work
+    day: 188
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 189
+    status: planned
+- id: week-028
+  week: 28
+  macro_theme: Exercise & Fitness
+  macro_theme_slug: exercise-fitness
+  description_it: Parlare di sport, allenamento e attività fisica
+  weekly_learning_goal: How to talk about exercise, fitness and activity
+  articles:
+  - rubric: english-in-real-life
+    day: 190
+    status: planned
+  - rubric: natural-english
+    day: 191
+    status: planned
+  - rubric: english-mindset
+    day: 192
+    status: planned
+  - rubric: english-culture
+    day: 193
+    status: planned
+  - rubric: english-for-adventure
+    day: 194
+    status: planned
+  - rubric: english-for-life-work
+    day: 195
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 196
+    status: planned
+- id: week-029
+  week: 29
+  macro_theme: Weather & Seasons
+  macro_theme_slug: weather-seasons
+  description_it: Parlare del tempo atmosferico e delle stagioni
+  weekly_learning_goal: How to talk naturally about weather and seasons
+  articles:
+  - rubric: english-in-real-life
+    day: 197
+    status: planned
+  - rubric: natural-english
+    day: 198
+    status: planned
+  - rubric: english-mindset
+    day: 199
+    status: planned
+  - rubric: english-culture
+    day: 200
+    status: planned
+  - rubric: english-for-adventure
+    day: 201
+    status: planned
+  - rubric: english-for-life-work
+    day: 202
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 203
+    status: planned
+- id: week-030
+  week: 30
+  macro_theme: Clothes & Personal Style
+  macro_theme_slug: clothes-personal-style
+  description_it: Parlare di abbigliamento, stile e aspetto
+  weekly_learning_goal: How to talk about clothes, style and appearance
+  articles:
+  - rubric: english-in-real-life
+    day: 204
+    status: planned
+  - rubric: natural-english
+    day: 205
+    status: planned
+  - rubric: english-mindset
+    day: 206
+    status: planned
+  - rubric: english-culture
+    day: 207
+    status: planned
+  - rubric: english-for-adventure
+    day: 208
+    status: planned
+  - rubric: english-for-life-work
+    day: 209
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 210
+    status: planned
+- id: week-031
+  week: 31
+  macro_theme: Beauty & Personal Care
+  macro_theme_slug: beauty-personal-care
+  description_it: Parlare di cura personale e servizi di bellezza
+  weekly_learning_goal: How to communicate about personal care and beauty
+  articles:
+  - rubric: english-in-real-life
+    day: 211
+    status: planned
+  - rubric: natural-english
+    day: 212
+    status: planned
+  - rubric: english-mindset
+    day: 213
+    status: planned
+  - rubric: english-culture
+    day: 214
+    status: planned
+  - rubric: english-for-adventure
+    day: 215
+    status: planned
+  - rubric: english-for-life-work
+    day: 216
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 217
+    status: planned
+- id: week-032
+  week: 32
+  macro_theme: Entertainment
+  macro_theme_slug: entertainment
+  description_it: Parlare di attività e forme di intrattenimento
+  weekly_learning_goal: How to talk about entertainment and leisure activities
+  articles:
+  - rubric: english-in-real-life
+    day: 218
+    status: planned
+  - rubric: natural-english
+    day: 219
+    status: planned
+  - rubric: english-mindset
+    day: 220
+    status: planned
+  - rubric: english-culture
+    day: 221
+    status: planned
+  - rubric: english-for-adventure
+    day: 222
+    status: planned
+  - rubric: english-for-life-work
+    day: 223
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 224
+    status: planned
+- id: week-033
+  week: 33
+  macro_theme: Books & Reading
+  macro_theme_slug: books-reading
+  description_it: Parlare di libri, lettura e opinioni sui testi
+  weekly_learning_goal: How to talk about books and reading
+  articles:
+  - rubric: english-in-real-life
+    day: 225
+    status: planned
+  - rubric: natural-english
+    day: 226
+    status: planned
+  - rubric: english-mindset
+    day: 227
+    status: planned
+  - rubric: english-culture
+    day: 228
+    status: planned
+  - rubric: english-for-adventure
+    day: 229
+    status: planned
+  - rubric: english-for-life-work
+    day: 230
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 231
+    status: planned
+- id: week-034
+  week: 34
+  macro_theme: Music & Songs
+  macro_theme_slug: music-songs
+  description_it: Parlare di musica, canzoni e gusti musicali
+  weekly_learning_goal: How to talk about music and songs
+  articles:
+  - rubric: english-in-real-life
+    day: 232
+    status: planned
+  - rubric: natural-english
+    day: 233
+    status: planned
+  - rubric: english-mindset
+    day: 234
+    status: planned
+  - rubric: english-culture
+    day: 235
+    status: planned
+  - rubric: english-for-adventure
+    day: 236
+    status: planned
+  - rubric: english-for-life-work
+    day: 237
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 238
+    status: planned
+- id: week-035
+  week: 35
+  macro_theme: Movies & TV Shows
+  macro_theme_slug: movies-tv-shows
+  description_it: Capire e discutere film, serie e dialoghi
+  weekly_learning_goal: How to talk about movies, TV shows and their language
+  articles:
+  - rubric: english-in-real-life
+    day: 239
+    status: planned
+  - rubric: natural-english
+    day: 240
+    status: planned
+  - rubric: english-mindset
+    day: 241
+    status: planned
+  - rubric: english-culture
+    day: 242
+    status: planned
+  - rubric: english-for-adventure
+    day: 243
+    status: planned
+  - rubric: english-for-life-work
+    day: 244
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 245
+    status: planned
+- id: week-036
+  week: 36
+  macro_theme: News & Current Events
+  macro_theme_slug: news-current-events
+  description_it: Capire e discutere notizie ed eventi attuali
+  weekly_learning_goal: How to understand and discuss news and current events
+  articles:
+  - rubric: english-in-real-life
+    day: 246
+    status: planned
+  - rubric: natural-english
+    day: 247
+    status: planned
+  - rubric: english-mindset
+    day: 248
+    status: planned
+  - rubric: english-culture
+    day: 249
+    status: planned
+  - rubric: english-for-adventure
+    day: 250
+    status: planned
+  - rubric: english-for-life-work
+    day: 251
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 252
+    status: planned
+- id: week-037
+  week: 37
+  macro_theme: Opinions & Preferences
+  macro_theme_slug: opinions-preferences
+  description_it: Esprimere gusti, opinioni e preferenze
+  weekly_learning_goal: How to express opinions, preferences and personal choices
+  articles:
+  - rubric: english-in-real-life
+    day: 253
+    status: planned
+  - rubric: natural-english
+    day: 254
+    status: planned
+  - rubric: english-mindset
+    day: 255
+    status: planned
+  - rubric: english-culture
+    day: 256
+    status: planned
+  - rubric: english-for-adventure
+    day: 257
+    status: planned
+  - rubric: english-for-life-work
+    day: 258
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 259
+    status: planned
+- id: week-038
+  week: 38
+  macro_theme: Agreeing & Disagreeing
+  macro_theme_slug: agreeing-disagreeing
+  description_it: Esprimere accordo, disaccordo e sfumature
+  weekly_learning_goal: How to agree, disagree and soften your opinions
+  articles:
+  - rubric: english-in-real-life
+    day: 260
+    status: planned
+  - rubric: natural-english
+    day: 261
+    status: planned
+  - rubric: english-mindset
+    day: 262
+    status: planned
+  - rubric: english-culture
+    day: 263
+    status: planned
+  - rubric: english-for-adventure
+    day: 264
+    status: planned
+  - rubric: english-for-life-work
+    day: 265
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 266
+    status: planned
+- id: week-039
+  week: 39
+  macro_theme: Feelings & Emotions
+  macro_theme_slug: feelings-emotions
+  description_it: Descrivere emozioni, stati d'animo e reazioni
+  weekly_learning_goal: How to describe feelings, emotions and reactions
+  articles:
+  - rubric: english-in-real-life
+    day: 267
+    status: planned
+  - rubric: natural-english
+    day: 268
+    status: planned
+  - rubric: english-mindset
+    day: 269
+    status: planned
+  - rubric: english-culture
+    day: 270
+    status: planned
+  - rubric: english-for-adventure
+    day: 271
+    status: planned
+  - rubric: english-for-life-work
+    day: 272
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 273
+    status: planned
+- id: week-040
+  week: 40
+  macro_theme: Problems & Solutions
+  macro_theme_slug: problems-solutions
+  description_it: Descrivere problemi e trovare soluzioni
+  weekly_learning_goal: How to explain problems and work toward solutions
+  articles:
+  - rubric: english-in-real-life
+    day: 274
+    status: planned
+  - rubric: natural-english
+    day: 275
+    status: planned
+  - rubric: english-mindset
+    day: 276
+    status: planned
+  - rubric: english-culture
+    day: 277
+    status: planned
+  - rubric: english-for-adventure
+    day: 278
+    status: planned
+  - rubric: english-for-life-work
+    day: 279
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 280
+    status: planned
+- id: week-041
+  week: 41
+  macro_theme: Making Decisions
+  macro_theme_slug: making-decisions
+  description_it: Confrontare opzioni, decidere e motivare una scelta
+  weekly_learning_goal: How to compare options and make decisions
+  articles:
+  - rubric: english-in-real-life
+    day: 281
+    status: planned
+  - rubric: natural-english
+    day: 282
+    status: planned
+  - rubric: english-mindset
+    day: 283
+    status: planned
+  - rubric: english-culture
+    day: 284
+    status: planned
+  - rubric: english-for-adventure
+    day: 285
+    status: planned
+  - rubric: english-for-life-work
+    day: 286
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 287
+    status: planned
+- id: week-042
+  week: 42
+  macro_theme: Plans & Future
+  macro_theme_slug: plans-future
+  description_it: Parlare di progetti, intenzioni e futuro
+  weekly_learning_goal: How to talk about plans, intentions and the future
+  articles:
+  - rubric: english-in-real-life
+    day: 288
+    status: planned
+  - rubric: natural-english
+    day: 289
+    status: planned
+  - rubric: english-mindset
+    day: 290
+    status: planned
+  - rubric: english-culture
+    day: 291
+    status: planned
+  - rubric: english-for-adventure
+    day: 292
+    status: planned
+  - rubric: english-for-life-work
+    day: 293
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 294
+    status: planned
+- id: week-043
+  week: 43
+  macro_theme: Time & Deadlines
+  macro_theme_slug: time-deadlines
+  description_it: Gestire scadenze, tempi e priorità
+  weekly_learning_goal: How to talk about time, deadlines and priorities
+  articles:
+  - rubric: english-in-real-life
+    day: 295
+    status: planned
+  - rubric: natural-english
+    day: 296
+    status: planned
+  - rubric: english-mindset
+    day: 297
+    status: planned
+  - rubric: english-culture
+    day: 298
+    status: planned
+  - rubric: english-for-adventure
+    day: 299
+    status: planned
+  - rubric: english-for-life-work
+    day: 300
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 301
+    status: planned
+- id: week-044
+  week: 44
+  macro_theme: Invitations & Events
+  macro_theme_slug: invitations-events
+  description_it: Invitare, accettare, rifiutare e organizzare eventi
+  weekly_learning_goal: How to invite, accept, decline and arrange events
+  articles:
+  - rubric: english-in-real-life
+    day: 302
+    status: planned
+  - rubric: natural-english
+    day: 303
+    status: planned
+  - rubric: english-mindset
+    day: 304
+    status: planned
+  - rubric: english-culture
+    day: 305
+    status: planned
+  - rubric: english-for-adventure
+    day: 306
+    status: planned
+  - rubric: english-for-life-work
+    day: 307
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 308
+    status: planned
+- id: week-045
+  week: 45
+  macro_theme: Dating & Relationships
+  macro_theme_slug: dating-relationships
+  description_it: Parlare di appuntamenti e relazioni personali
+  weekly_learning_goal: How to communicate about dating and relationships
+  articles:
+  - rubric: english-in-real-life
+    day: 309
+    status: planned
+  - rubric: natural-english
+    day: 310
+    status: planned
+  - rubric: english-mindset
+    day: 311
+    status: planned
+  - rubric: english-culture
+    day: 312
+    status: planned
+  - rubric: english-for-adventure
+    day: 313
+    status: planned
+  - rubric: english-for-life-work
+    day: 314
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 315
+    status: planned
+- id: week-046
+  week: 46
+  macro_theme: Politeness & Social Rules
+  macro_theme_slug: politeness-social-rules
+  description_it: Capire cortesia, formule sociali e confini
+  weekly_learning_goal: How to communicate politely and navigate social rules
+  articles:
+  - rubric: english-in-real-life
+    day: 316
+    status: planned
+  - rubric: natural-english
+    day: 317
+    status: planned
+  - rubric: english-mindset
+    day: 318
+    status: planned
+  - rubric: english-culture
+    day: 319
+    status: planned
+  - rubric: english-for-adventure
+    day: 320
+    status: planned
+  - rubric: english-for-life-work
+    day: 321
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 322
+    status: planned
+- id: week-047
+  week: 47
+  macro_theme: British vs American English
+  macro_theme_slug: british-vs-american
+  description_it: Riconoscere differenze tra varietà di inglese
+  weekly_learning_goal: How to recognize useful differences between British and American English
+  articles:
+  - rubric: english-in-real-life
+    day: 323
+    status: planned
+  - rubric: natural-english
+    day: 324
+    status: planned
+  - rubric: english-mindset
+    day: 325
+    status: planned
+  - rubric: english-culture
+    day: 326
+    status: planned
+  - rubric: english-for-adventure
+    day: 327
+    status: planned
+  - rubric: english-for-life-work
+    day: 328
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 329
+    status: planned
+- id: week-048
+  week: 48
+  macro_theme: Slang & Informal English
+  macro_theme_slug: slang-informal-english
+  description_it: Capire linguaggio informale e slang contemporaneo
+  weekly_learning_goal: How to understand informal English and contemporary slang
+  articles:
+  - rubric: english-in-real-life
+    day: 330
+    status: planned
+  - rubric: natural-english
+    day: 331
+    status: planned
+  - rubric: english-mindset
+    day: 332
+    status: planned
+  - rubric: english-culture
+    day: 333
+    status: planned
+  - rubric: english-for-adventure
+    day: 334
+    status: planned
+  - rubric: english-for-life-work
+    day: 335
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 336
+    status: planned
+- id: week-049
+  week: 49
+  macro_theme: English on the Internet
+  macro_theme_slug: english-on-the-internet
+  description_it: Capire abbreviazioni, formule e linguaggio online
+  weekly_learning_goal: How to decode English used online
+  articles:
+  - rubric: english-in-real-life
+    day: 337
+    status: planned
+  - rubric: natural-english
+    day: 338
+    status: planned
+  - rubric: english-mindset
+    day: 339
+    status: planned
+  - rubric: english-culture
+    day: 340
+    status: planned
+  - rubric: english-for-adventure
+    day: 341
+    status: planned
+  - rubric: english-for-life-work
+    day: 342
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 343
+    status: planned
+- id: week-050
+  week: 50
+  macro_theme: English in the Real World
+  macro_theme_slug: english-in-the-real-world
+  description_it: Decodificare l'inglese che compare nella vita quotidiana
+  weekly_learning_goal: How to understand English encountered in everyday life
+  articles:
+  - rubric: english-in-real-life
+    day: 344
+    status: planned
+  - rubric: natural-english
+    day: 345
+    status: planned
+  - rubric: english-mindset
+    day: 346
+    status: planned
+  - rubric: english-culture
+    day: 347
+    status: planned
+  - rubric: english-for-adventure
+    day: 348
+    status: planned
+  - rubric: english-for-life-work
+    day: 349
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 350
+    status: planned
+- id: week-051
+  week: 51
+  macro_theme: Living Abroad
+  macro_theme_slug: living-abroad
+  description_it: Gestire lingua e situazioni della vita all'estero
+  weekly_learning_goal: How to handle everyday life in an English-speaking environment
+  articles:
+  - rubric: english-in-real-life
+    day: 351
+    status: planned
+  - rubric: natural-english
+    day: 352
+    status: planned
+  - rubric: english-mindset
+    day: 353
+    status: planned
+  - rubric: english-culture
+    day: 354
+    status: planned
+  - rubric: english-for-adventure
+    day: 355
+    status: planned
+  - rubric: english-for-life-work
+    day: 356
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 357
+    status: planned
+- id: week-052
+  week: 52
+  macro_theme: Becoming More Fluent
+  macro_theme_slug: becoming-more-fluent
+  description_it: Trasformare conoscenza passiva in uso più fluido
+  weekly_learning_goal: How to turn English knowledge into more confident, fluent communication
+  articles:
+  - rubric: english-in-real-life
+    day: 358
+    status: planned
+  - rubric: natural-english
+    day: 359
+    status: planned
+  - rubric: english-mindset
+    day: 360
+    status: planned
+  - rubric: english-culture
+    day: 361
+    status: planned
+  - rubric: english-for-adventure
+    day: 362
+    status: planned
+  - rubric: english-for-life-work
+    day: 363
+    status: planned
+  - rubric: english-from-the-real-world
+    day: 364
+    status: planned
+annual_special:
+  day: 365
+  title: '365 Days of Real English: What You Can Do Now That You Couldn''t Do a Year Ago'
+  slug: 365-days-of-real-english
+  path: content/special/day-365.md
+  status: planned
