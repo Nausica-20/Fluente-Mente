@@ -1,0 +1,193 @@
+title: "Fluente-Mente"
+description: "Impara l'inglese naturale che usi davvero: situazioni reali, espressioni naturali e inglese quotidiano."
+tagline: "Natural English for real life"
+lang: "it"
+locale: "it_IT"
+timezone: "Europe/Rome"
+
+url: "https://YOUR-USERNAME.github.io"
+baseurl: "/fluente-mente"
+
+author:
+  name: "Fluente-Mente"
+
+logo: "/assets/images/logo/logo.png"
+image: "/assets/images/og/default.jpg"
+
+social:
+  name: "Fluente-Mente"
+  links: []
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - scripts
+  - README.md
+  - "*.yml.bak"
+
+collections:
+  articles:
+    output: true
+    permalink: "/:path/"
+
+# Articles should normally define an explicit permalink in front matter:
+# /rubric/slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "article"
+      author: "Fluente-Mente"
+      lang: "it"
+      toc: false
+      comments: false
+      share: true
+      evergreen: true
+
+  - scope:
+      path: "pillars"
+    values:
+      layout: "pillar"
+      author: "Fluente-Mente"
+      lang: "it"
+
+  - scope:
+      path: "rubrics"
+    values:
+      layout: "pillar"
+      author: "Fluente-Mente"
+      lang: "it"
+
+  - scope:
+      path: "babbel"
+    values:
+      layout: "babbel"
+      author: "Fluente-Mente"
+      lang: "it"
+      commercial: true
+
+  - scope:
+      path: "content/special"
+    values:
+      layout: "article"
+      author: "Fluente-Mente"
+      lang: "it"
+      content_type: "annual_special"
+
+editorial:
+  daily_series_name: "Your Daily English Lesson"
+  daily_series_tagline: "English you'll actually use"
+  audience: "Italian learners of English"
+  primary_language: "Italian"
+  example_language: "English"
+  core_promise: "Natural English, not textbook English"
+  levels: ["A2", "A2-B1", "B1", "B1-B2", "B2", "B2+", "C1"]
+  total_days: 365
+  editorial_articles: 364
+  annual_special_day: 365
+  articles_per_week: 7
+  weeks: 52
+  rubrics: 7
+
+seo:
+  site_name: "Fluente-Mente"
+  default_type: "WebSite"
+  article_type: "Article"
+  organization_type: "Organization"
+  default_meta_title_suffix: " | Fluente-Mente"
+  robots: "index, follow"
+  twitter:
+    card: "summary_large_image"
+
+pinterest:
+  enabled: true
+  default_image: "/assets/images/pinterest/default-pin.jpg"
+  default_board: "Learn English Naturally"
+  image_ratio: "2:3"
+  overlay_brand: "Fluente-Mente"
+
+affiliate:
+  enabled: true
+
+babbel:
+  enabled: true
+  section_path: "/babbel/"
+  program: "affiliate"
+  default_destination: "YOUR_BABBEL_AFFILIATE_URL"
+  disclosure:
+    enabled: true
+    text: "Alcuni link presenti su Fluente-Mente sono link affiliati. Se acquisti tramite questi link, potremmo ricevere una commissione, senza costi aggiuntivi per te."
+  cta_levels: ["none", "soft", "contextual", "direct"]
+
+navigation:
+  main:
+    - title: "Home"
+      url: "/"
+    - title: "Daily Lesson"
+      url: "/daily/"
+    - title: "English in Real Life"
+      url: "/english-in-real-life/"
+    - title: "Natural English"
+      url: "/natural-english/"
+    - title: "Mindset"
+      url: "/english-mindset/"
+    - title: "Culture"
+      url: "/english-and-culture/"
+    - title: "Adventure"
+      url: "/english-for-adventure/"
+    - title: "Life & Work"
+      url: "/english-for-life-work/"
+    - title: "Real World"
+      url: "/english-from-the-real-world/"
+    - title: "Babbel"
+      url: "/babbel/"
+
+labels:
+  continue_learning: "Continua a imparare"
+  read_next: "Leggi anche"
+  daily_lesson: "Today's Daily English Lesson"
+  start_here: "Da dove iniziare"
+  key_expressions: "Espressioni chiave"
+  takeaway: "La cosa da ricordare"
+  level: "Livello"
+  article: "Articolo"
+  rubric: "Rubrica"
+  week: "Settimana"
+
+performance:
+  lazy_load_images: true
+  responsive_images: true
+
+accessibility:
+  skip_link: true
+  semantic_html: true
+  visible_focus: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: "/feed.xml"
+
+sitemap:
+  enabled: true
+
+analytics:
+  enabled: false
+  provider: "none"
+  measurement_id: ""
+
+show_drafts: false
+future: false
+unpublished: false
+safe: true
