@@ -1,0 +1,67 @@
+<header class="article-header">
+
+  {% assign rubric_data = nil %}
+  {% if page.rubric %}
+    {% assign rubric_data = site.data.rubrics.rubrics
+      | where: "id", page.rubric
+      | first
+    %}
+  {% endif %}
+
+  <div class="article-meta">
+
+    {% if page.day %}
+      <span class="article-day">
+        Day {{ page.day }}
+      </span>
+    {% endif %}
+
+    {% if rubric_data %}
+      <span class="article-rubric">
+        {{ rubric_data.name }}
+      </span>
+    {% elsif page.rubric %}
+      <span class="article-rubric">
+        {{ page.rubric | replace: "-", " " | capitalize }}
+      </span>
+    {% endif %}
+
+    {% if page.level %}
+      <span class="article-level">
+        {{ site.labels.level | default: "Livello" }}: {{ page.level }}
+      </span>
+    {% endif %}
+
+  </div>
+
+  <h1>{{ page.title }}</h1>
+
+  {% if page.subtitle %}
+    <p class="article-subtitle">{{ page.subtitle }}</p>
+  {% endif %}
+
+  {% if page.description %}
+    <p class="article-description">{{ page.description }}</p>
+  {% endif %}
+
+  {% if page.author or page.date %}
+    <div class="article-byline">
+
+      {% if page.author %}
+        <span>Di {{ page.author }}</span>
+      {% endif %}
+
+      {% if page.author and page.date %}
+        <span aria-hidden="true">·</span>
+      {% endif %}
+
+      {% if page.date %}
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%d/%m/%Y" }}
+        </time>
+      {% endif %}
+
+    </div>
+  {% endif %}
+
+</header>

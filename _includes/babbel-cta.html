@@ -1,0 +1,76 @@
+{% assign cta_level = page.babbel.cta_level | default: "none" %}
+
+{% if site.babbel.enabled and cta_level != "none" %}
+
+<section class="babbel-cta babbel-cta-{{ cta_level }}" aria-labelledby="babbel-cta-title">
+
+  <div class="babbel-cta-content">
+
+    {% case cta_level %}
+      {% when "soft" %}
+        <p class="eyebrow">VUOI CONTINUARE?</p>
+        <h2 id="babbel-cta-title">Trasforma questa lezione in pratica.</h2>
+        <p>
+          Fluente-Mente ti mostra l'inglese nel contesto.
+          Per allenarti con un percorso più strutturato, puoi scoprire Babbel.
+        </p>
+
+      {% when "contextual" %}
+        <p class="eyebrow">UN PASSO IN PIÙ</p>
+        <h2 id="babbel-cta-title">
+          Vuoi esercitarti su quello che hai appena imparato?
+        </h2>
+        <p>
+          Dopo aver visto queste espressioni in contesto,
+          un percorso strutturato può aiutarti a trasformarle in competenza attiva.
+        </p>
+
+      {% when "direct" %}
+        <p class="eyebrow">IMPARA CON UN PERCORSO STRUTTURATO</p>
+        <h2 id="babbel-cta-title">
+          Continua il tuo percorso con Babbel.
+        </h2>
+        <p>
+          Abbina le lezioni di Fluente-Mente a una pratica più sistematica
+          per costruire inglese con continuità.
+        </p>
+
+      {% else %}
+        <p class="eyebrow">CONTINUA A IMPARARE</p>
+        <h2 id="babbel-cta-title">Scopri Babbel.</h2>
+        <p>
+          Un percorso strutturato può affiancare ciò che impari qui.
+        </p>
+    {% endcase %}
+
+    {% assign babbel_destination = page.babbel.destination
+      | default: site.babbel.default_destination
+    %}
+
+    {% if babbel_destination and babbel_destination != "YOUR_BABBEL_AFFILIATE_URL" %}
+      <a
+        class="button button-primary"
+        href="{{ babbel_destination }}"
+        rel="sponsored nofollow"
+        target="_blank">
+        Scopri Babbel
+      </a>
+    {% else %}
+      <a
+        class="button button-primary"
+        href="{{ '/babbel/' | relative_url }}">
+        Scopri Babbel
+      </a>
+    {% endif %}
+
+  </div>
+
+  <div class="babbel-cta-disclosure">
+    <p>
+      {{ site.babbel.disclosure.text }}
+    </p>
+  </div>
+
+</section>
+
+{% endif %}

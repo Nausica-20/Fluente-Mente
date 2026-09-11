@@ -1,0 +1,87 @@
+{% assign has_continuation =
+  page.related_articles
+  or page.related_content
+  or page.next_article
+  or page.previous_article
+  or page.cross_rubric
+%}
+
+{% if has_continuation %}
+<section class="continue-learning" aria-labelledby="continue-learning-title">
+  <div class="continue-learning-heading">
+    <p class="eyebrow">CONTINUA A IMPARARE</p>
+    <h2 id="continue-learning-title">
+      {{ site.labels.continue_learning | default: "Continua a imparare" }}
+    </h2>
+  </div>
+
+  <div class="continue-learning-grid">
+
+    {% if page.next_article %}
+      {% assign next = site.articles | where: "slug", page.next_article | first %}
+      {% if next %}
+        <a class="article-card" href="{{ next.url | relative_url }}">
+          <span class="article-card-label">Prossimo passo</span>
+          <strong>{{ next.title }}</strong>
+          {% if next.description %}
+            <span>{{ next.description }}</span>
+          {% endif %}
+        </a>
+      {% endif %}
+    {% endif %}
+
+    {% if page.previous_article %}
+      {% assign previous = site.articles | where: "slug", page.previous_article | first %}
+      {% if previous %}
+        <a class="article-card" href="{{ previous.url | relative_url }}">
+          <span class="article-card-label">Articolo collegato</span>
+          <strong>{{ previous.title }}</strong>
+          {% if previous.description %}
+            <span>{{ previous.description }}</span>
+          {% endif %}
+        </a>
+      {% endif %}
+    {% endif %}
+
+    {% if page.related_articles %}
+      {% for related_slug in page.related_articles limit:3 %}
+        {% assign related = site.articles | where: "slug", related_slug | first %}
+        {% if related %}
+          <a class="article-card" href="{{ related.url | relative_url }}">
+            <span class="article-card-label">Leggi anche</span>
+            <strong>{{ related.title }}</strong>
+            {% if related.description %}
+              <span>{{ related.description }}</span>
+            {% endif %}
+          </a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% if page.related_content %}
+      {% for item in page.related_content limit:3 %}
+        {% assign related = site.articles | where: "slug", item.slug | first %}
+        {% if related %}
+          <a class="article-card" href="{{ related.url | relative_url }}">
+            <span class="article-card-label">
+              {{ item.relationship | default: "Approfondisci" }}
+            </span>
+            <strong>{{ related.title }}</strong>
+            {% if related.description %}
+              <span>{{ related.description }}</span>
+            {% endif %}
+          </a>
+        {% elsif item.url %}
+          <a class="article-card" href="{{ item.url | relative_url }}">
+            <span class="article-card-label">
+              {{ item.relationship | default: "Approfondisci" }}
+            </span>
+            <strong>{{ item.title }}</strong>
+          </a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+  </div>
+</section>
+{% endif %}
