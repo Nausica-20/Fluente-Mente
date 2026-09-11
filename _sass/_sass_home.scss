@@ -1,0 +1,449 @@
+// ============================================================
+// Fluente-Mente — Homepage
+// ============================================================
+
+.home-page {
+  overflow: hidden;
+}
+
+// ------------------------------------------------------------
+// Hero
+// ------------------------------------------------------------
+
+.home-hero {
+  padding: $space-16 0 $space-14;
+  background:
+    radial-gradient(circle at 85% 15%, $color-primary-soft 0, transparent 28%),
+    linear-gradient(180deg, $color-background 0%, $color-surface 100%);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  align-items: center;
+  gap: $space-12;
+}
+
+.hero-copy {
+  max-width: 720px;
+}
+
+.hero-eyebrow {
+  margin-bottom: $space-4;
+}
+
+.hero-title {
+  margin: 0;
+  max-width: 760px;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.045em;
+}
+
+.hero-subtitle {
+  max-width: 680px;
+  margin: $space-6 0 0;
+  color: $color-text-muted;
+  font-size: clamp(1.08rem, 2vw, 1.3rem);
+  line-height: 1.65;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-3;
+  margin-top: $space-8;
+}
+
+.hero-note {
+  margin-top: $space-4;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+}
+
+.hero-visual {
+  position: relative;
+}
+
+.hero-card {
+  position: relative;
+  padding: $space-8;
+  border: $border-width solid $color-border;
+  border-radius: $radius-xl;
+  background: $color-background;
+  box-shadow: $shadow-lg;
+}
+
+.hero-card::before {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: $color-accent;
+  content: "";
+}
+
+.hero-card-kicker {
+  margin-bottom: $space-2;
+  color: $color-text-muted;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-semibold;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-card-title {
+  margin: 0;
+  font-family: $font-family-serif;
+  font-size: $font-size-3xl;
+  line-height: 1.15;
+}
+
+.hero-card-copy {
+  margin: $space-4 0 0;
+  color: $color-text-muted;
+}
+
+.hero-card-phrase {
+  margin-top: $space-6;
+  padding: $space-4 $space-5;
+  border-left: 4px solid $color-primary;
+  border-radius: $radius-md;
+  background: $color-primary-soft;
+  font-weight: $font-weight-semibold;
+}
+
+// ------------------------------------------------------------
+// Daily lesson
+// ------------------------------------------------------------
+
+.home-daily {
+  padding: $space-14 0;
+}
+
+.daily-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: $space-8;
+  padding: $space-8;
+  border: $border-width solid $color-border;
+  border-radius: $radius-xl;
+  background: $color-background;
+  box-shadow: $shadow-sm;
+}
+
+.daily-card-content {
+  min-width: 0;
+}
+
+.daily-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: $space-2 $space-4;
+  margin-bottom: $space-3;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+}
+
+.daily-meta strong {
+  color: $color-primary;
+}
+
+.daily-title {
+  margin: 0;
+  font-size: $font-size-2xl;
+}
+
+.daily-description {
+  max-width: 760px;
+  margin: $space-3 0 0;
+  color: $color-text-muted;
+}
+
+.daily-card-action {
+  flex-shrink: 0;
+}
+
+// ------------------------------------------------------------
+// Rubrics
+// ------------------------------------------------------------
+
+.home-rubrics {
+  padding: $space-14 0;
+  background: $color-surface;
+}
+
+.rubrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: $space-5;
+  margin-top: $space-8;
+}
+
+.rubric-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 230px;
+  padding: $space-6;
+  border: $border-width solid $color-border;
+  border-radius: $radius-lg;
+  background: $color-background;
+  transition:
+    transform $transition-fast,
+    box-shadow $transition-fast,
+    border-color $transition-fast;
+}
+
+.rubric-card:hover {
+  border-color: $color-primary;
+  box-shadow: $shadow-md;
+  transform: translateY(-3px);
+}
+
+.rubric-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin-bottom: $space-5;
+  border-radius: 50%;
+  background: $color-primary-soft;
+  color: $color-primary;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-bold;
+}
+
+.rubric-title {
+  margin: 0;
+  font-size: $font-size-lg;
+}
+
+.rubric-description {
+  margin: $space-3 0 0;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+  line-height: 1.6;
+}
+
+.rubric-link {
+  margin-top: auto;
+  padding-top: $space-5;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+}
+
+// ------------------------------------------------------------
+// Start here
+// ------------------------------------------------------------
+
+.home-start {
+  padding: $space-14 0;
+}
+
+.start-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: $space-5;
+  margin-top: $space-8;
+}
+
+.start-card {
+  padding: $space-7;
+  border: $border-width solid $color-border;
+  border-radius: $radius-lg;
+  background: $color-background;
+}
+
+.start-card-title {
+  margin: 0;
+  font-size: $font-size-xl;
+}
+
+.start-card-copy {
+  margin: $space-3 0 0;
+  color: $color-text-muted;
+}
+
+.start-card-link {
+  display: inline-flex;
+  margin-top: $space-5;
+  font-weight: $font-weight-semibold;
+}
+
+// ------------------------------------------------------------
+// Method / why Fluente-Mente
+// ------------------------------------------------------------
+
+.home-method {
+  padding: $space-16 0;
+  background: $color-text;
+  color: $color-background;
+}
+
+.home-method .section-heading p {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: $space-5;
+  margin-top: $space-8;
+}
+
+.method-card {
+  padding: $space-7;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: $radius-lg;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.method-card-number {
+  margin-bottom: $space-4;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-bold;
+  opacity: 0.65;
+}
+
+.method-card-title {
+  margin: 0;
+  color: $color-background;
+  font-size: $font-size-lg;
+}
+
+.method-card-copy {
+  margin: $space-3 0 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: $font-size-sm;
+}
+
+// ------------------------------------------------------------
+// Babbel section
+// ------------------------------------------------------------
+
+.home-babbel {
+  padding: $space-14 0 $space-16;
+}
+
+.babbel-home-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: $space-8;
+  padding: $space-9;
+  border: $border-width solid $color-border;
+  border-radius: $radius-xl;
+  background: $color-primary-soft;
+}
+
+.babbel-home-copy {
+  max-width: 760px;
+}
+
+.babbel-home-title {
+  margin: 0;
+  font-size: $font-size-2xl;
+}
+
+.babbel-home-copy p {
+  margin: $space-3 0 0;
+  color: $color-text-muted;
+}
+
+.babbel-home-action {
+  flex-shrink: 0;
+}
+
+// ------------------------------------------------------------
+// Shared homepage utilities
+// ------------------------------------------------------------
+
+.home-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-3;
+  margin-top: $space-6;
+}
+
+.home-empty {
+  padding: $space-8;
+  border: $border-width dashed $color-border;
+  border-radius: $radius-lg;
+  color: $color-text-muted;
+  text-align: center;
+}
+
+// ------------------------------------------------------------
+// Responsive homepage adjustments
+// ------------------------------------------------------------
+
+@media (max-width: $breakpoint-lg) {
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
+    gap: $space-8;
+  }
+
+  .rubrics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .home-hero {
+    padding: $space-12 0;
+  }
+
+  .hero-grid,
+  .daily-card,
+  .babbel-home-card {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    max-width: 620px;
+  }
+
+  .daily-card-action,
+  .babbel-home-action {
+    width: 100%;
+  }
+
+  .daily-card-action .button,
+  .babbel-home-action .button {
+    width: 100%;
+  }
+
+  .start-grid,
+  .method-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .hero-actions,
+  .home-cta-row {
+    flex-direction: column;
+  }
+
+  .hero-actions .button,
+  .home-cta-row .button {
+    width: 100%;
+  }
+
+  .rubrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-card,
+  .daily-card,
+  .start-card,
+  .method-card,
+  .babbel-home-card {
+    padding: $space-6;
+  }
+}
