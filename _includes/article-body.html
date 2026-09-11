@@ -1,0 +1,78 @@
+<div class="article-body">
+
+  {% if page.intro %}
+    <section class="article-section article-intro" aria-label="Introduzione">
+      {{ page.intro | markdownify }}
+    </section>
+  {% endif %}
+
+  <div class="article-prose">
+    {{ content }}
+  </div>
+
+  {% if page.key_expressions %}
+    <section class="article-section key-expressions" aria-labelledby="key-expressions-title">
+      <div class="section-heading">
+        <p class="eyebrow">DA PORTARE CON TE</p>
+        <h2 id="key-expressions-title">
+          {{ site.labels.key_expressions | default: "Espressioni chiave" }}
+        </h2>
+      </div>
+
+      <ul class="expression-list">
+        {% for expression in page.key_expressions %}
+          <li>
+            {% if expression.expression %}
+              <strong>{{ expression.expression }}</strong>
+              {% if expression.meaning %}
+                <span>{{ expression.meaning }}</span>
+              {% endif %}
+            {% else %}
+              {{ expression }}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
+  {% if page.english_vs_natural %}
+    <section class="article-section comparison-box" aria-labelledby="natural-english-title">
+      <div class="section-heading">
+        <p class="eyebrow">NATURAL ENGLISH</p>
+        <h2 id="natural-english-title">Textbook English vs natural English</h2>
+      </div>
+
+      <div class="comparison-grid">
+        {% if page.english_vs_natural.textbook %}
+          <div class="comparison-column">
+            <span class="comparison-label">Textbook English</span>
+            <p>{{ page.english_vs_natural.textbook }}</p>
+          </div>
+        {% endif %}
+
+        {% if page.english_vs_natural.natural %}
+          <div class="comparison-column">
+            <span class="comparison-label">More natural</span>
+            <p>{{ page.english_vs_natural.natural }}</p>
+          </div>
+        {% endif %}
+      </div>
+
+      {% if page.english_vs_natural.note %}
+        <p class="comparison-note">{{ page.english_vs_natural.note }}</p>
+      {% endif %}
+    </section>
+  {% endif %}
+
+  {% if page.takeaway %}
+    <section class="article-section article-takeaway" aria-labelledby="takeaway-title">
+      <p class="eyebrow">RICORDA</p>
+      <h2 id="takeaway-title">
+        {{ site.labels.takeaway | default: "La cosa da ricordare" }}
+      </h2>
+      <p>{{ page.takeaway }}</p>
+    </section>
+  {% endif %}
+
+</div>
