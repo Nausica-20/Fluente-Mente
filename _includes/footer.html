@@ -1,0 +1,99 @@
+<footer class="site-footer" role="contentinfo">
+
+  <div class="container footer-main">
+
+    <div class="footer-brand">
+      <a class="footer-logo" href="{{ '/' | relative_url }}">
+        {{ site.title }}
+      </a>
+
+      <p class="footer-tagline">
+        {{ site.tagline | default: "Natural English for real life" }}
+      </p>
+
+      <p class="footer-description">
+        Inglese naturale per italiani: situazioni reali, espressioni utili
+        e strategie per comunicare con più sicurezza.
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h2>Impara</h2>
+      <ul>
+        <li>
+          <a href="{{ '/daily/' | relative_url }}">Daily English Lesson</a>
+        </li>
+        <li>
+          <a href="{{ '/start-here/' | relative_url }}">Start Here</a>
+        </li>
+        <li>
+          <a href="{{ '/english-in-real-life/' | relative_url }}">English in Real Life</a>
+        </li>
+        <li>
+          <a href="{{ '/natural-english/' | relative_url }}">Natural English</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h2>Esplora</h2>
+      <ul>
+        <li>
+          <a href="{{ '/english-mindset/' | relative_url }}">English Mindset</a>
+        </li>
+        <li>
+          <a href="{{ '/english-and-culture/' | relative_url }}">English &amp; Culture</a>
+        </li>
+        <li>
+          <a href="{{ '/english-for-adventure/' | relative_url }}">English for Adventure</a>
+        </li>
+        <li>
+          <a href="{{ '/english-for-life-work/' | relative_url }}">English for Life &amp; Work</a>
+        </li>
+        <li>
+          <a href="{{ '/english-from-the-real-world/' | relative_url }}">English from the Real World</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h2>Fluente-Mente</h2>
+      <ul>
+        <li>
+          <a href="{{ '/about/' | relative_url }}">Chi siamo</a>
+        </li>
+        <li>
+          <a href="{{ '/babbel/' | relative_url }}">Babbel</a>
+        </li>
+        <li>
+          <a href="{{ '/contact/' | relative_url }}">Contatti</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="container footer-bottom">
+
+    <div class="footer-legal">
+      <a href="{{ '/legal/privacy/' | relative_url }}">Privacy</a>
+      <a href="{{ '/legal/cookie/' | relative_url }}">Cookie</a>
+      <a href="{{ '/legal/terms/' | relative_url }}">Termini</a>
+    </div>
+
+    <p class="footer-copyright">
+      © {{ 'now' | date: "%Y" }} {{ site.title }}. Tutti i diritti riservati.
+    </p>
+
+  </div>
+
+  {% if site.affiliate.enabled and site.babbel.disclosure.enabled %}
+    <div class="container footer-disclosure">
+      <p>
+        <strong>Disclosure affiliata:</strong>
+        {{ site.babbel.disclosure.text }}
+      </p>
+    </div>
+  {% endif %}
+
+</footer>
