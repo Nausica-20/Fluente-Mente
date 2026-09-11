@@ -14,34 +14,7 @@ layout: default
 
       <div class="article-main">
 
-        {% if page.intro %}
-          <div class="article-intro">
-            {{ page.intro | markdownify }}
-          </div>
-        {% endif %}
-
-        <div class="article-content">
-          {{ content }}
-        </div>
-
-        {% if page.key_expressions %}
-          <section class="article-key-expressions">
-            <h2>{{ site.labels.key_expressions | default: "Espressioni chiave" }}</h2>
-
-            <ul>
-              {% for expression in page.key_expressions %}
-                <li>{{ expression }}</li>
-              {% endfor %}
-            </ul>
-          </section>
-        {% endif %}
-
-        {% if page.takeaway %}
-          <section class="article-takeaway">
-            <h2>{{ site.labels.takeaway | default: "La cosa da ricordare" }}</h2>
-            <p>{{ page.takeaway }}</p>
-          </section>
-        {% endif %}
+        {% include article-body.html %}
 
         {% include continue-learning.html %}
 
