@@ -1,0 +1,21 @@
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}">
+      {% if site.logo %}
+        <img
+          src="{{ site.logo | relative_url }}"
+          alt="{{ site.title }}"
+          class="site-logo"
+          width="160"
+          height="48"
+          loading="eager">
+      {% else %}
+        <span class="site-name">{{ site.title }}</span>
+      {% endif %}
+    </a>
+
+    {% include nav.html %}
+
+  </div>
+</header>
