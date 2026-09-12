@@ -3,15 +3,17 @@
 // ============================================================
 
 // ------------------------------------------------------------
-// Colors
+// Brand & Interface Colors
 // ------------------------------------------------------------
 
 $color-text: #202124;
 $color-text-muted: #5f6368;
+
 $color-background: #ffffff;
-$color-background-soft: #f7f7f5;
+$color-background-soft: #f5f3ee;
 $color-surface: #ffffff;
-$color-border: #e5e5e0;
+
+$color-border: #e5e1d8;
 
 $color-primary: #1f4d3a;
 $color-primary-dark: #163a2c;
@@ -25,6 +27,38 @@ $color-warning: #b7791f;
 
 $color-white: #ffffff;
 $color-black: #111111;
+
+// ------------------------------------------------------------
+// Rubric Colors
+// ------------------------------------------------------------
+
+// 1 — English in Real Life
+$rubric-real-life: #e9785b;
+$rubric-real-life-soft: #fbe8e2;
+
+// 2 — Natural English
+$rubric-natural: #1f4d3a;
+$rubric-natural-soft: #e8f0eb;
+
+// 3 — English Mindset
+$rubric-mindset: #8067a5;
+$rubric-mindset-soft: #eee9f4;
+
+// 4 — English & Culture
+$rubric-culture: #c47a52;
+$rubric-culture-soft: #f5e9e0;
+
+// 5 — English for Adventure
+$rubric-adventure: #4f7cac;
+$rubric-adventure-soft: #e7eef5;
+
+// 6 — English for Life & Work
+$rubric-life-work: #2f6f4e;
+$rubric-life-work-soft: #e5f0e9;
+
+// 7 — English from the Real World
+$rubric-real-world: #6fa8dc;
+$rubric-real-world-soft: #e8f2fb;
 
 // ------------------------------------------------------------
 // Typography
