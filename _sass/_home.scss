@@ -346,6 +346,265 @@
 // 5 — English for Adventure
 
 .rubric-english-for-adventure {
+// ------------------------------------------------------------
+// Rubrics
+// ------------------------------------------------------------
+
+.home-rubrics {
+  padding: $space-16 0;
+
+  background: $color-background-soft;
+}
+
+.rubrics-heading {
+  max-width: 760px;
+}
+
+.rubrics-heading .eyebrow {
+  color: $brand-orange;
+}
+
+.rubrics-heading h2 {
+  color: $brand-navy;
+}
+
+
+// ------------------------------------------------------------
+// Rubrics grid
+// ------------------------------------------------------------
+
+.rubrics-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  gap: $space-5;
+
+  margin-top: $space-10;
+}
+
+
+// ------------------------------------------------------------
+// Rubric card
+// ------------------------------------------------------------
+
+.rubric-card {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  min-height: 290px;
+
+  padding: $space-6;
+
+  border: $border-width solid $color-border;
+  border-top-width: 5px;
+
+  border-radius: $radius-lg;
+
+  background: $color-background;
+
+  transition:
+    transform $transition-base,
+    box-shadow $transition-base,
+    border-color $transition-base;
+}
+
+.rubric-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow: $shadow-md;
+}
+
+
+// ------------------------------------------------------------
+// Rubric top area
+// ------------------------------------------------------------
+
+.rubric-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: $space-3;
+
+  margin-bottom: $space-6;
+}
+
+.rubric-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  font-size: $font-size-sm;
+  font-weight: $font-weight-bold;
+}
+
+.rubric-label {
+  color: $color-text-muted;
+
+  font-size: $font-size-xs;
+  font-weight: $font-weight-bold;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+
+// ------------------------------------------------------------
+// Rubric content
+// ------------------------------------------------------------
+
+.rubric-card-content {
+  flex: 1;
+}
+
+.rubric-title {
+  margin: 0;
+
+  color: $brand-navy;
+
+  font-size: $font-size-xl;
+
+  line-height: $line-height-heading;
+}
+
+.rubric-title a {
+  color: inherit;
+
+  text-decoration: none;
+}
+
+.rubric-title a:hover {
+  color: $brand-orange;
+}
+
+.rubric-description {
+  margin: $space-4 0 0;
+
+  color: $color-text-muted;
+
+  font-size: $font-size-sm;
+
+  line-height: 1.65;
+}
+
+
+// ------------------------------------------------------------
+// Rubric link
+// ------------------------------------------------------------
+
+.rubric-link {
+  display: inline-flex;
+
+  align-self: flex-start;
+
+  margin-top: $space-6;
+
+  color: $brand-navy;
+
+  font-size: $font-size-sm;
+  font-weight: $font-weight-bold;
+
+  text-decoration: none;
+
+  transition:
+    color $transition-fast,
+    transform $transition-fast;
+}
+
+.rubric-link:hover {
+  color: $brand-orange;
+
+  transform: translateX(2px);
+}
+
+
+// ------------------------------------------------------------
+// 1 — English in Real Life
+// ------------------------------------------------------------
+
+.rubric-english-in-real-life {
+  border-top-color: $rubric-real-life;
+}
+
+.rubric-english-in-real-life .rubric-number {
+  background: $rubric-real-life-soft;
+  color: $rubric-real-life;
+}
+
+.rubric-english-in-real-life .rubric-link {
+  color: $rubric-real-life;
+}
+
+
+// ------------------------------------------------------------
+// 2 — Natural English
+// ------------------------------------------------------------
+
+.rubric-natural-english {
+  border-top-color: $rubric-natural;
+}
+
+.rubric-natural-english .rubric-number {
+  background: $rubric-natural-soft;
+  color: $rubric-natural;
+}
+
+.rubric-natural-english .rubric-link {
+  color: $rubric-natural;
+}
+
+
+// ------------------------------------------------------------
+// 3 — English Mindset
+// ------------------------------------------------------------
+
+.rubric-english-mindset {
+  border-top-color: $rubric-mindset;
+}
+
+.rubric-english-mindset .rubric-number {
+  background: $rubric-mindset-soft;
+  color: $rubric-mindset;
+}
+
+.rubric-english-mindset .rubric-link {
+  color: $rubric-mindset;
+}
+
+
+// ------------------------------------------------------------
+// 4 — English & Culture
+// ------------------------------------------------------------
+
+.rubric-english-culture {
+  border-top-color: $rubric-culture;
+}
+
+.rubric-english-culture .rubric-number {
+  background: $rubric-culture-soft;
+  color: $rubric-culture;
+}
+
+.rubric-english-culture .rubric-link {
+  color: $rubric-culture;
+}
+
+
+// ------------------------------------------------------------
+// 5 — English for Adventure
+// ------------------------------------------------------------
+
+.rubric-english-for-adventure {
   border-top-color: $rubric-adventure;
 }
 
@@ -358,7 +617,10 @@
   color: $rubric-adventure;
 }
 
+
+// ------------------------------------------------------------
 // 6 — English for Life & Work
+// ------------------------------------------------------------
 
 .rubric-english-for-life-work {
   border-top-color: $rubric-life-work;
@@ -373,7 +635,10 @@
   color: $rubric-life-work;
 }
 
+
+// ------------------------------------------------------------
 // 7 — English from the Real World
+// ------------------------------------------------------------
 
 .rubric-english-from-the-real-world {
   border-top-color: $rubric-real-world;
@@ -388,49 +653,41 @@
   color: $rubric-real-world;
 }
 
-.rubric-number {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
 
-  width: 36px;
-  height: 36px;
+// ------------------------------------------------------------
+// Responsive — Tablet
+// ------------------------------------------------------------
 
-  margin-bottom: $space-5;
+@media (max-width: $breakpoint-lg) {
 
-  border-radius: 50%;
-
-  background: $color-primary-soft;
-  color: $brand-navy;
-
-  font-size: $font-size-sm;
-  font-weight: $font-weight-bold;
+  .rubrics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
-.rubric-title {
-  margin: 0;
 
-  color: $brand-navy;
+// ------------------------------------------------------------
+// Responsive — Mobile
+// ------------------------------------------------------------
 
-  font-size: $font-size-lg;
-}
+@media (max-width: $breakpoint-sm) {
 
-.rubric-description {
-  margin: $space-3 0 0;
+  .home-rubrics {
+    padding: $space-12 0;
+  }
 
-  color: $color-text-muted;
+  .rubrics-grid {
+    grid-template-columns: 1fr;
 
-  font-size: $font-size-sm;
-  line-height: 1.6;
-}
+    gap: $space-4;
+  }
 
-.rubric-link {
-  margin-top: auto;
-  padding-top: $space-5;
+  .rubric-card {
+    min-height: 0;
 
-  font-size: $font-size-sm;
-  font-weight: $font-weight-semibold;
-}
+    padding: $space-6;
+  }
+  }
 
 // ------------------------------------------------------------
 // Start here
