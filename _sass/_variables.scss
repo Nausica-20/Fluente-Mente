@@ -10,17 +10,19 @@ $color-text: #202124;
 $color-text-muted: #5f6368;
 
 $color-background: #ffffff;
-$color-background-soft: #f5f3ee;
+$color-background-soft: #fff7ed;
 $color-surface: #ffffff;
 
 $color-border: #e5e1d8;
 
-$color-primary: #1f4d3a;
-$color-primary-dark: #163a2c;
-$color-primary-soft: #e8f0eb;
+// Brand principale — Navy
+$color-primary: #183b56;
+$color-primary-dark: #102c40;
+$color-primary-soft: #edf3f7;
 
-$color-accent: #f2b84b;
-$color-accent-soft: #fff4dc;
+// Accent principale — Orange
+$color-accent: #f26b38;
+$color-accent-soft: #fff0e9;
 
 $color-success: #2f6f4e;
 $color-warning: #b7791f;
@@ -29,13 +31,31 @@ $color-white: #ffffff;
 $color-black: #111111;
 
 // ------------------------------------------------------------
+// Fluente-Mente Brand Colors
+// ------------------------------------------------------------
+
+// Colori ufficiali derivati dal logo
+$brand-navy: #183b56;
+$brand-navy-dark: #102c40;
+
+$brand-orange: #f26b38;
+$brand-orange-dark: #d95728;
+
+$brand-cream: #fff7ed;
+
+
+// ------------------------------------------------------------
 // Babbel Brand Colors
 // ------------------------------------------------------------
+
+// Separati dai colori editoriali di Fluente-Mente.
+// Da usare esclusivamente nelle sezioni/CTA Babbel.
 
 $babbel-orange: #f26b38;
 $babbel-orange-dark: #d95728;
 $babbel-navy: #183b56;
 $babbel-cream: #fff7ed;
+
 
 // ------------------------------------------------------------
 // Rubric Colors
@@ -68,6 +88,7 @@ $rubric-life-work-soft: #e5f0e9;
 // 7 — English from the Real World
 $rubric-real-world: #6fa8dc;
 $rubric-real-world-soft: #e8f2fb;
+
 
 // ------------------------------------------------------------
 // Typography
@@ -103,6 +124,7 @@ $line-height-heading: 1.2;
 $line-height-base: 1.65;
 $line-height-relaxed: 1.8;
 
+
 // ------------------------------------------------------------
 // Font weights
 // ------------------------------------------------------------
@@ -111,6 +133,7 @@ $font-weight-regular: 400;
 $font-weight-medium: 500;
 $font-weight-semibold: 600;
 $font-weight-bold: 700;
+
 
 // ------------------------------------------------------------
 // Spacing
@@ -130,6 +153,7 @@ $space-20: 5rem;
 $space-24: 6rem;
 $space-32: 8rem;
 
+
 // ------------------------------------------------------------
 // Layout
 // ------------------------------------------------------------
@@ -139,6 +163,7 @@ $reading-max-width: 760px;
 $sidebar-width: 260px;
 
 $header-height: 76px;
+
 
 // ------------------------------------------------------------
 // Borders & Radius
@@ -152,6 +177,7 @@ $radius-lg: 20px;
 $radius-xl: 28px;
 $radius-pill: 999px;
 
+
 // ------------------------------------------------------------
 // Shadows
 // ------------------------------------------------------------
@@ -159,6 +185,7 @@ $radius-pill: 999px;
 $shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
 $shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
 $shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.10);
+
 
 // ------------------------------------------------------------
 // Transitions
@@ -168,6 +195,7 @@ $transition-fast: 150ms ease;
 $transition-base: 250ms ease;
 $transition-slow: 400ms ease;
 
+
 // ------------------------------------------------------------
 // Breakpoints
 // ------------------------------------------------------------
@@ -176,6 +204,7 @@ $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 1024px;
 $breakpoint-xl: 1200px;
+
 
 // ------------------------------------------------------------
 // Z-index
