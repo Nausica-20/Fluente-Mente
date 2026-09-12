@@ -7,7 +7,10 @@
 
   <title>{{ page.title | default: site.title | escape }}</title>
 
-  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
+  <link
+    rel="canonical"
+    href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}"
+  >
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
@@ -41,11 +44,17 @@
           </p>
 
           <div class="hero-actions">
-            <a class="button button-primary" href="{{ '/daily/' | relative_url }}">
+            <a
+              class="button button-primary"
+              href="{{ '/daily/' | relative_url }}"
+            >
               Inizia la Daily English Lesson
             </a>
 
-            <a class="button button-secondary" href="{{ '/start-here/' | relative_url }}">
+            <a
+              class="button button-secondary"
+              href="{{ '/start-here/' | relative_url }}"
+            >
               Da dove iniziare
             </a>
           </div>
@@ -55,9 +64,14 @@
           </p>
         </div>
 
-        <div class="hero-card" aria-label="Il metodo Fluente-Mente">
+        <div
+          class="hero-card"
+          aria-label="Il metodo Fluente-Mente"
+        >
           <span class="hero-card-label">Il metodo</span>
+
           <h2>Natural English, not textbook English.</h2>
+
           <p>
             Non impari solo cosa è corretto.
             Impari cosa dire, quando dirlo e come farlo suonare naturale.
@@ -66,6 +80,7 @@
 
       </div>
     </section>
+
 
     <!-- =====================================================
          TODAY'S LESSON
@@ -79,7 +94,10 @@
             <h2>Your Daily English Lesson</h2>
           </div>
 
-          <a class="text-link" href="{{ '/daily/' | relative_url }}">
+          <a
+            class="text-link"
+            href="{{ '/daily/' | relative_url }}"
+          >
             Tutte le Daily Lessons →
           </a>
         </div>
@@ -87,9 +105,14 @@
         {% assign latest_article = site.articles | sort: 'day' | last %}
 
         {% if latest_article %}
+
           <article class="featured-lesson-card">
+
             <div class="featured-lesson-meta">
-              <span>{{ latest_article.rubric | default: 'English in Real Life' }}</span>
+              <span>
+                {{ latest_article.rubric | default: 'English in Real Life' }}
+              </span>
+
               {% if latest_article.level %}
                 <span>{{ latest_article.level }}</span>
               {% endif %}
@@ -102,20 +125,36 @@
             </h3>
 
             {% if latest_article.excerpt %}
-              <p>{{ latest_article.excerpt | strip_html | truncate: 220 }}</p>
+
+              <p>
+                {{ latest_article.excerpt
+                  | strip_html
+                  | truncate: 220
+                }}
+              </p>
+
             {% else %}
+
               <p>
                 Una micro-lezione per imparare inglese utile,
                 naturale e immediatamente spendibile.
               </p>
+
             {% endif %}
 
-            <a class="button button-primary" href="{{ latest_article.url | relative_url }}">
+            <a
+              class="button button-primary"
+              href="{{ latest_article.url | relative_url }}"
+            >
               Leggi la lezione
             </a>
+
           </article>
+
         {% else %}
+
           <article class="featured-lesson-card featured-lesson-placeholder">
+
             <div class="featured-lesson-meta">
               <span>Day 1</span>
               <span>A2–B1</span>
@@ -128,14 +167,20 @@
               iniziare una conversazione e non suonare come un libro di testo.
             </p>
 
-            <a class="button button-primary" href="{{ '/english-in-real-life/' | relative_url }}">
+            <a
+              class="button button-primary"
+              href="{{ '/english-in-real-life/' | relative_url }}"
+            >
               Esplora la prima lezione
             </a>
+
           </article>
+
         {% endif %}
 
       </div>
     </section>
+
 
     <!-- =====================================================
          SEVEN RUBRICS
@@ -145,7 +190,9 @@
 
         <div class="section-heading section-heading-centered">
           <p class="eyebrow">7 MODI DI IMPARARE</p>
+
           <h2>Ogni rubrica ha un compito diverso.</h2>
+
           <p>
             Così non rileggi la stessa lezione con parole diverse:
             ogni contenuto risolve un problema preciso.
@@ -157,33 +204,46 @@
           {% assign rubric_list = site.data.rubrics.rubrics %}
 
           {% for rubric in rubric_list %}
-            <article class="rubric-card rubric-card-{{ rubric.number }}">
+
+            <article class="rubric-card rubric-{{ rubric.slug }}">
 
               <div class="rubric-card-number">
-                {{ rubric.number | prepend: '0' | slice: -2, 2 }}
+                {{ rubric.number
+                  | prepend: '0'
+                  | slice: -2, 2
+                }}
               </div>
 
               <div class="rubric-card-content">
+
                 <h3>
                   <a href="{{ rubric.default_pillar | relative_url }}">
                     {{ rubric.name }}
                   </a>
                 </h3>
 
-                <p>{{ rubric.description_it }}</p>
+                <p>
+                  {{ rubric.description_it }}
+                </p>
 
-                <a class="text-link" href="{{ rubric.default_pillar | relative_url }}">
+                <a
+                  class="text-link rubric-link"
+                  href="{{ rubric.default_pillar | relative_url }}"
+                >
                   Esplora la rubrica →
                 </a>
+
               </div>
 
             </article>
+
           {% endfor %}
 
         </div>
 
       </div>
     </section>
+
 
     <!-- =====================================================
          START HERE
@@ -194,40 +254,89 @@
         <div class="section-heading">
           <div>
             <p class="eyebrow">START HERE</p>
+
             <h2>Non sai da dove partire?</h2>
           </div>
         </div>
 
         <div class="start-grid">
 
-          <a class="start-card" href="{{ '/english-in-real-life/' | relative_url }}">
-            <span class="start-card-label">Se vuoi parlare</span>
-            <strong>English in Real Life</strong>
-            <span>Situazioni concrete e frasi da usare subito.</span>
+          <a
+            class="start-card"
+            href="{{ '/english-in-real-life/' | relative_url }}"
+          >
+            <span class="start-card-label">
+              Se vuoi parlare
+            </span>
+
+            <strong>
+              English in Real Life
+            </strong>
+
+            <span>
+              Situazioni concrete e frasi da usare subito.
+            </span>
           </a>
 
-          <a class="start-card" href="{{ '/natural-english/' | relative_url }}">
-            <span class="start-card-label">Se vuoi suonare naturale</span>
-            <strong>Natural English</strong>
-            <span>Dal textbook English al modo in cui si parla davvero.</span>
+
+          <a
+            class="start-card"
+            href="{{ '/natural-english/' | relative_url }}"
+          >
+            <span class="start-card-label">
+              Se vuoi suonare naturale
+            </span>
+
+            <strong>
+              Natural English
+            </strong>
+
+            <span>
+              Dal textbook English al modo in cui si parla davvero.
+            </span>
           </a>
 
-          <a class="start-card" href="{{ '/english-mindset/' | relative_url }}">
-            <span class="start-card-label">Se ti blocchi</span>
-            <strong>English Mindset</strong>
-            <span>Strategie per continuare a comunicare anche senza la parola perfetta.</span>
+
+          <a
+            class="start-card"
+            href="{{ '/english-mindset/' | relative_url }}"
+          >
+            <span class="start-card-label">
+              Se ti blocchi
+            </span>
+
+            <strong>
+              English Mindset
+            </strong>
+
+            <span>
+              Strategie per continuare a comunicare anche senza la parola perfetta.
+            </span>
           </a>
 
-          <a class="start-card" href="{{ '/english-from-the-real-world/' | relative_url }}">
-            <span class="start-card-label">Se vuoi capire l'inglese fuori dal corso</span>
-            <strong>English from the Real World</strong>
-            <span>Messaggi, internet, media, menu, recensioni e vita quotidiana.</span>
+
+          <a
+            class="start-card"
+            href="{{ '/english-from-the-real-world/' | relative_url }}"
+          >
+            <span class="start-card-label">
+              Se vuoi capire l'inglese fuori dal corso
+            </span>
+
+            <strong>
+              English from the Real World
+            </strong>
+
+            <span>
+              Messaggi, internet, media, menu, recensioni e vita quotidiana.
+            </span>
           </a>
 
         </div>
 
       </div>
     </section>
+
 
     <!-- =====================================================
          WHY FLUENTE-MENTE
@@ -237,63 +346,100 @@
 
         <div>
           <p class="eyebrow">PERCHÉ FLUENTE-MENTE</p>
-          <h2>Non devi conoscere tutto per riuscire a comunicare.</h2>
+
+          <h2>
+            Non devi conoscere tutto per riuscire a comunicare.
+          </h2>
         </div>
 
         <div class="method-points">
+
           <div class="method-point">
             <strong>Situazioni reali</strong>
-            <p>Impari partendo da quello che succede, non da una lista astratta di regole.</p>
+
+            <p>
+              Impari partendo da quello che succede,
+              non da una lista astratta di regole.
+            </p>
           </div>
+
 
           <div class="method-point">
             <strong>English naturale</strong>
-            <p>Scopri alternative più spontanee a tante frasi corrette ma poco usate.</p>
+
+            <p>
+              Scopri alternative più spontanee a tante frasi
+              corrette ma poco usate.
+            </p>
           </div>
+
 
           <div class="method-point">
             <strong>Spiegazioni in italiano</strong>
-            <p>Capisci il perché in italiano, poi vedi e usi l'inglese nel suo contesto.</p>
+
+            <p>
+              Capisci il perché in italiano,
+              poi vedi e usi l'inglese nel suo contesto.
+            </p>
           </div>
+
         </div>
 
       </div>
     </section>
 
+
     <!-- =====================================================
-         BABBel
+         BABBEL
          ===================================================== -->
     {% if site.babbel.enabled %}
+
     <section class="section section-babbel">
       <div class="container">
 
         <div class="babbel-home-card">
 
           <div class="babbel-home-copy">
-            <p class="eyebrow">PER CONTINUARE A ESERCITARTI</p>
-            <h2>Hai bisogno di una pratica più strutturata?</h2>
+
+            <p class="eyebrow">
+              PER CONTINUARE A ESERCITARTI
+            </p>
+
+            <h2>
+              Hai bisogno di una pratica più strutturata?
+            </h2>
+
             <p>
               Fluente-Mente ti aiuta a capire l'inglese reale.
               Babbel può affiancarti con un percorso più strutturato e progressivo.
             </p>
 
-            <a class="button button-primary" href="{{ '/babbel/' | relative_url }}">
+            <a
+              class="button button-primary"
+              href="{{ '/babbel/' | relative_url }}"
+            >
               Scopri Babbel
             </a>
+
           </div>
 
+
           <div class="babbel-home-note">
+
             <strong>Nota</strong>
+
             <p>
               Questa è una sezione commerciale separata dal contenuto editoriale.
               Alcuni link possono essere affiliati.
             </p>
+
           </div>
 
         </div>
 
       </div>
     </section>
+
     {% endif %}
 
   </main>
@@ -301,4 +447,4 @@
   {% include footer.html %}
 
 </body>
-</html>
+            </html>
