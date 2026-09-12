@@ -2,9 +2,15 @@
 // Fluente-Mente — Homepage
 // ============================================================
 
-.home-page {
-  overflow: hidden;
+
+// ------------------------------------------------------------
+// Homepage base
+// ------------------------------------------------------------
+
+.page-home {
+  overflow-x: hidden;
 }
+
 
 // ------------------------------------------------------------
 // Hero
@@ -28,8 +34,13 @@
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+
+  grid-template-columns:
+    minmax(0, 1.15fr)
+    minmax(320px, 0.85fr);
+
   align-items: center;
+
   gap: $space-12;
 }
 
@@ -40,47 +51,68 @@
 .hero-eyebrow {
   margin-bottom: $space-4;
 
-  color: $brand-orange;
+  color: $babbel-orange;
+
   font-weight: $font-weight-bold;
 }
 
 .hero-title {
   margin: 0;
+
   max-width: 760px;
 
-  color: $brand-navy;
+  color: $babbel-navy;
 
-  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-size: clamp(
+    2.5rem,
+    6vw,
+    4.5rem
+  );
+
   line-height: 1.02;
+
   letter-spacing: -0.045em;
 }
 
 .hero-subtitle {
   max-width: 680px;
+
   margin: $space-6 0 0;
 
   color: $color-text-muted;
 
-  font-size: clamp(1.08rem, 2vw, 1.3rem);
+  font-size: clamp(
+    1.08rem,
+    2vw,
+    1.3rem
+  );
+
   line-height: 1.65;
 }
 
 .hero-actions {
   display: flex;
+
   flex-wrap: wrap;
+
   gap: $space-3;
+
   margin-top: $space-8;
 }
 
 .hero-actions .button-primary {
-  background: $brand-orange;
-  border-color: $brand-orange;
+  background: $babbel-orange;
+
+  border-color: $babbel-orange;
+
   color: $color-white;
 }
 
 .hero-actions .button-primary:hover {
-  background: $brand-orange-dark;
-  border-color: $brand-orange-dark;
+  background: $babbel-orange-dark;
+
+  border-color: $babbel-orange-dark;
+
   color: $color-white;
 }
 
@@ -88,8 +120,14 @@
   margin-top: $space-4;
 
   color: $color-text-muted;
+
   font-size: $font-size-sm;
 }
+
+
+// ------------------------------------------------------------
+// Hero card
+// ------------------------------------------------------------
 
 .hero-visual {
   position: relative;
@@ -100,7 +138,11 @@
 
   padding: $space-8;
 
-  border: $border-width solid $color-border;
+  border:
+    $border-width
+    solid
+    $color-border;
+
   border-radius: $radius-xl;
 
   background: $color-background;
@@ -119,30 +161,34 @@
 
   border-radius: 50%;
 
-  background: $brand-orange;
+  background: $babbel-orange;
 
   content: "";
 }
 
 .hero-card-kicker {
-  margin-bottom: $space-2;
+  margin: 0 0 $space-2;
 
-  color: $brand-orange;
+  color: $babbel-orange;
 
   font-size: $font-size-xs;
+
   font-weight: $font-weight-bold;
 
   letter-spacing: 0.08em;
+
   text-transform: uppercase;
 }
 
 .hero-card-title {
   margin: 0;
 
-  color: $brand-navy;
+  color: $babbel-navy;
 
   font-family: $font-family-serif;
+
   font-size: $font-size-3xl;
+
   line-height: 1.15;
 }
 
@@ -150,40 +196,78 @@
   margin: $space-4 0 0;
 
   color: $color-text-muted;
+
+  line-height: $line-height-base;
 }
 
 .hero-card-phrase {
   margin-top: $space-6;
 
-  padding: $space-4 $space-5;
+  padding:
+    $space-4
+    $space-5;
 
-  border-left: 4px solid $brand-orange;
+  border-left:
+    4px
+    solid
+    $babbel-orange;
+
   border-radius: $radius-md;
 
-  background: $brand-cream;
+  background: $babbel-cream;
 
-  color: $brand-navy;
+  color: $babbel-navy;
 
   font-weight: $font-weight-semibold;
 }
 
+
 // ------------------------------------------------------------
-// Daily lesson
+// Today's lesson
 // ------------------------------------------------------------
 
 .home-daily {
   padding: $space-12 0;
+
+  background: $color-background;
+}
+
+.home-daily .section-heading {
+  display: flex;
+
+  align-items: flex-end;
+
+  justify-content: space-between;
+
+  gap: $space-6;
+}
+
+.home-daily .section-heading h2 {
+  margin: 0;
+
+  color: $babbel-navy;
 }
 
 .daily-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    auto;
+
   align-items: center;
 
   gap: $space-8;
+
+  margin-top: $space-8;
+
   padding: $space-8;
 
-  border: $border-width solid $color-border;
+  border:
+    $border-width
+    solid
+    $color-border;
+
   border-radius: $radius-xl;
 
   background: $color-background;
@@ -197,33 +281,52 @@
 
 .daily-meta {
   display: flex;
+
   flex-wrap: wrap;
+
   align-items: center;
 
-  gap: $space-2 $space-4;
+  gap:
+    $space-2
+    $space-4;
+
   margin-bottom: $space-3;
 
   color: $color-text-muted;
+
   font-size: $font-size-sm;
 }
 
 .daily-meta strong {
-  color: $brand-orange;
+  color: $babbel-orange;
 }
 
 .daily-title {
   margin: 0;
 
-  color: $brand-navy;
+  color: $babbel-navy;
 
   font-size: $font-size-2xl;
 }
 
+.daily-title a {
+  color: inherit;
+
+  text-decoration: none;
+}
+
+.daily-title a:hover {
+  color: $babbel-orange;
+}
+
 .daily-description {
-  max-width: 760px;
+  max-width: $reading-max-width;
+
   margin: $space-3 0 0;
 
   color: $color-text-muted;
+
+  line-height: $line-height-base;
 }
 
 .daily-card-action {
@@ -231,123 +334,24 @@
 }
 
 .daily-card-action .button {
-  background: $brand-navy;
-  border-color: $brand-navy;
+  background: $babbel-navy;
+
+  border-color: $babbel-navy;
+
   color: $color-white;
 }
 
 .daily-card-action .button:hover {
-  background: $brand-navy-dark;
-  border-color: $brand-navy-dark;
+  background: $color-primary-dark;
+
+  border-color: $color-primary-dark;
+
+  color: $color-white;
 }
+
 
 // ------------------------------------------------------------
-// Rubrics
-// ------------------------------------------------------------
-
-.home-rubrics {
-  padding: $space-12 0;
-
-  background: $color-background-soft;
-}
-
-.rubrics-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-
-  gap: $space-5;
-  margin-top: $space-8;
-}
-
-.rubric-card {
-  display: flex;
-  flex-direction: column;
-
-  min-height: 230px;
-  padding: $space-6;
-
-  border: $border-width solid $color-border;
-  border-top-width: 4px;
-  border-radius: $radius-lg;
-
-  background: $color-background;
-
-  transition:
-    transform $transition-fast,
-    box-shadow $transition-fast,
-    border-color $transition-fast;
-}
-
-.rubric-card:hover {
-  box-shadow: $shadow-md;
-  transform: translateY(-3px);
-}
-
-// 1 — English in Real Life
-
-.rubric-english-in-real-life {
-  border-top-color: $rubric-real-life;
-}
-
-.rubric-english-in-real-life .rubric-number {
-  background: $rubric-real-life-soft;
-  color: $rubric-real-life;
-}
-
-.rubric-english-in-real-life .rubric-link {
-  color: $rubric-real-life;
-}
-
-// 2 — Natural English
-
-.rubric-natural-english {
-  border-top-color: $rubric-natural;
-}
-
-.rubric-natural-english .rubric-number {
-  background: $rubric-natural-soft;
-  color: $rubric-natural;
-}
-
-.rubric-natural-english .rubric-link {
-  color: $rubric-natural;
-}
-
-// 3 — English Mindset
-
-.rubric-english-mindset {
-  border-top-color: $rubric-mindset;
-}
-
-.rubric-english-mindset .rubric-number {
-  background: $rubric-mindset-soft;
-  color: $rubric-mindset;
-}
-
-.rubric-english-mindset .rubric-link {
-  color: $rubric-mindset;
-}
-
-// 4 — English & Culture
-
-.rubric-english-culture {
-  border-top-color: $rubric-culture;
-}
-
-.rubric-english-culture .rubric-number {
-  background: $rubric-culture-soft;
-  color: $rubric-culture;
-}
-
-.rubric-english-culture .rubric-link {
-  color: $rubric-culture;
-}
-
-// 5 — English for Adventure
-
-.rubric-english-for-adventure {
-// ------------------------------------------------------------
-// Rubrics
+// Seven rubrics
 // ------------------------------------------------------------
 
 .home-rubrics {
@@ -357,26 +361,36 @@
 }
 
 .rubrics-heading {
-  max-width: 760px;
+  max-width: $reading-max-width;
 }
 
 .rubrics-heading .eyebrow {
-  color: $brand-orange;
+  color: $babbel-orange;
 }
 
 .rubrics-heading h2 {
-  color: $brand-navy;
+  margin-bottom: $space-4;
+
+  color: $babbel-navy;
+}
+
+.rubrics-heading > p:last-child {
+  color: $color-text-muted;
 }
 
 
 // ------------------------------------------------------------
-// Rubrics grid
+// Rubric grid
 // ------------------------------------------------------------
 
 .rubrics-grid {
   display: grid;
 
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns:
+    repeat(
+      4,
+      minmax(0, 1fr)
+    );
 
   gap: $space-5;
 
@@ -392,23 +406,29 @@
   position: relative;
 
   display: flex;
+
   flex-direction: column;
 
   min-height: 290px;
 
   padding: $space-6;
 
-  border: $border-width solid $color-border;
+  border:
+    $border-width
+    solid
+    $color-border;
+
   border-top-width: 5px;
 
   border-radius: $radius-lg;
 
   background: $color-background;
 
+  box-shadow: $shadow-sm;
+
   transition:
     transform $transition-base,
-    box-shadow $transition-base,
-    border-color $transition-base;
+    box-shadow $transition-base;
 }
 
 .rubric-card:hover {
@@ -419,12 +439,14 @@
 
 
 // ------------------------------------------------------------
-// Rubric top area
+// Rubric card top
 // ------------------------------------------------------------
 
 .rubric-card-top {
   display: flex;
+
   align-items: center;
+
   justify-content: space-between;
 
   gap: $space-3;
@@ -434,7 +456,9 @@
 
 .rubric-number {
   display: inline-flex;
+
   align-items: center;
+
   justify-content: center;
 
   width: 42px;
@@ -445,6 +469,7 @@
   border-radius: 50%;
 
   font-size: $font-size-sm;
+
   font-weight: $font-weight-bold;
 }
 
@@ -452,9 +477,11 @@
   color: $color-text-muted;
 
   font-size: $font-size-xs;
+
   font-weight: $font-weight-bold;
 
   letter-spacing: 0.08em;
+
   text-transform: uppercase;
 }
 
@@ -470,7 +497,7 @@
 .rubric-title {
   margin: 0;
 
-  color: $brand-navy;
+  color: $babbel-navy;
 
   font-size: $font-size-xl;
 
@@ -484,7 +511,7 @@
 }
 
 .rubric-title a:hover {
-  color: $brand-orange;
+  color: $babbel-orange;
 }
 
 .rubric-description {
@@ -497,11 +524,6 @@
   line-height: 1.65;
 }
 
-
-// ------------------------------------------------------------
-// Rubric link
-// ------------------------------------------------------------
-
 .rubric-link {
   display: inline-flex;
 
@@ -509,9 +531,10 @@
 
   margin-top: $space-6;
 
-  color: $brand-navy;
+  color: $babbel-navy;
 
   font-size: $font-size-sm;
+
   font-weight: $font-weight-bold;
 
   text-decoration: none;
@@ -522,14 +545,14 @@
 }
 
 .rubric-link:hover {
-  color: $brand-orange;
+  color: $babbel-orange;
 
   transform: translateX(2px);
 }
 
 
 // ------------------------------------------------------------
-// 1 — English in Real Life
+// Rubric 1 — English in Real Life
 // ------------------------------------------------------------
 
 .rubric-english-in-real-life {
@@ -538,6 +561,7 @@
 
 .rubric-english-in-real-life .rubric-number {
   background: $rubric-real-life-soft;
+
   color: $rubric-real-life;
 }
 
@@ -547,7 +571,7 @@
 
 
 // ------------------------------------------------------------
-// 2 — Natural English
+// Rubric 2 — Natural English
 // ------------------------------------------------------------
 
 .rubric-natural-english {
@@ -556,6 +580,7 @@
 
 .rubric-natural-english .rubric-number {
   background: $rubric-natural-soft;
+
   color: $rubric-natural;
 }
 
@@ -565,7 +590,7 @@
 
 
 // ------------------------------------------------------------
-// 3 — English Mindset
+// Rubric 3 — English Mindset
 // ------------------------------------------------------------
 
 .rubric-english-mindset {
@@ -574,6 +599,7 @@
 
 .rubric-english-mindset .rubric-number {
   background: $rubric-mindset-soft;
+
   color: $rubric-mindset;
 }
 
@@ -583,7 +609,7 @@
 
 
 // ------------------------------------------------------------
-// 4 — English & Culture
+// Rubric 4 — English & Culture
 // ------------------------------------------------------------
 
 .rubric-english-culture {
@@ -592,6 +618,7 @@
 
 .rubric-english-culture .rubric-number {
   background: $rubric-culture-soft;
+
   color: $rubric-culture;
 }
 
@@ -601,7 +628,7 @@
 
 
 // ------------------------------------------------------------
-// 5 — English for Adventure
+// Rubric 5 — English for Adventure
 // ------------------------------------------------------------
 
 .rubric-english-for-adventure {
@@ -610,6 +637,7 @@
 
 .rubric-english-for-adventure .rubric-number {
   background: $rubric-adventure-soft;
+
   color: $rubric-adventure;
 }
 
@@ -619,7 +647,7 @@
 
 
 // ------------------------------------------------------------
-// 6 — English for Life & Work
+// Rubric 6 — English for Life & Work
 // ------------------------------------------------------------
 
 .rubric-english-for-life-work {
@@ -628,6 +656,7 @@
 
 .rubric-english-for-life-work .rubric-number {
   background: $rubric-life-work-soft;
+
   color: $rubric-life-work;
 }
 
@@ -637,7 +666,7 @@
 
 
 // ------------------------------------------------------------
-// 7 — English from the Real World
+// Rubric 7 — English from the Real World
 // ------------------------------------------------------------
 
 .rubric-english-from-the-real-world {
@@ -646,6 +675,7 @@
 
 .rubric-english-from-the-real-world .rubric-number {
   background: $rubric-real-world-soft;
+
   color: $rubric-real-world;
 }
 
@@ -655,46 +685,12 @@
 
 
 // ------------------------------------------------------------
-// Responsive — Tablet
-// ------------------------------------------------------------
-
-@media (max-width: $breakpoint-lg) {
-
-  .rubrics-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-
-// ------------------------------------------------------------
-// Responsive — Mobile
-// ------------------------------------------------------------
-
-@media (max-width: $breakpoint-sm) {
-
-  .home-rubrics {
-    padding: $space-12 0;
-  }
-
-  .rubrics-grid {
-    grid-template-columns: 1fr;
-
-    gap: $space-4;
-  }
-
-  .rubric-card {
-    min-height: 0;
-
-    padding: $space-6;
-  }
-  }
-
-// ------------------------------------------------------------
 // Start here
 // ------------------------------------------------------------
 
 .section-start {
   padding: $space-16 0;
+
   background: $color-background;
 }
 
@@ -703,13 +699,20 @@
 }
 
 .section-heading-start .eyebrow {
-  color: $brand-orange;
+  color: $babbel-orange;
 }
 
 .start-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
   gap: $space-5;
+
   margin-top: $space-8;
 }
 
@@ -717,12 +720,18 @@
   position: relative;
 
   display: flex;
+
   flex-direction: column;
 
   min-height: 310px;
+
   padding: $space-8;
 
-  border: $border-width solid $color-border;
+  border:
+    $border-width
+    solid
+    $color-border;
+
   border-radius: $radius-xl;
 
   background: $color-background;
@@ -737,27 +746,36 @@
 
 .start-card:hover {
   transform: translateY(-4px);
+
+  border-color: $babbel-orange;
+
   box-shadow: $shadow-md;
-  border-color: $brand-orange;
 }
 
 .start-card-primary {
-  border-top: 4px solid $brand-orange;
+  border-top:
+    4px
+    solid
+    $babbel-orange;
 }
 
 .start-card-featured {
-  background: $brand-navy;
-  border-color: $brand-navy;
+  background: $babbel-navy;
+
+  border-color: $babbel-navy;
+
   color: $color-white;
 }
 
 .start-card-featured:hover {
-  border-color: $brand-orange;
+  border-color: $babbel-orange;
 }
 
 .start-card-number {
   display: inline-flex;
+
   align-items: center;
+
   justify-content: center;
 
   width: 42px;
@@ -767,46 +785,58 @@
 
   border-radius: 50%;
 
-  background: $brand-cream;
-  color: $brand-orange;
+  background: $babbel-cream;
+
+  color: $babbel-orange;
 
   font-size: $font-size-sm;
+
   font-weight: $font-weight-bold;
 }
 
 .start-card-featured .start-card-number {
-  background: rgba(255, 255, 255, 0.12);
-  color: $brand-orange;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.12
+  );
+
+  color: $babbel-orange;
 }
 
 .start-card-label {
   margin: 0 0 $space-2;
 
-  color: $brand-orange;
+  color: $babbel-orange;
 
   font-size: $font-size-xs;
+
   font-weight: $font-weight-bold;
 
   letter-spacing: 0.1em;
+
   text-transform: uppercase;
 }
 
 .start-card-title {
   margin: 0;
 
-  color: $brand-navy;
+  color: $babbel-navy;
 
   font-size: $font-size-2xl;
+
   line-height: $line-height-heading;
 }
 
 .start-card-title a {
   color: inherit;
+
   text-decoration: none;
 }
 
 .start-card-title a:hover {
-  color: $brand-orange;
+  color: $babbel-orange;
 }
 
 .start-card-featured .start-card-title {
@@ -819,102 +849,116 @@
   color: $color-text-muted;
 
   font-size: $font-size-base;
+
   line-height: $line-height-relaxed;
 }
 
 .start-card-featured .start-card-copy {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(
+    255,
+    255,
+    255,
+    0.75
+  );
 }
 
 .start-card-link {
   display: inline-flex;
 
   margin-top: auto;
+
   padding-top: $space-6;
 
-  color: $brand-navy;
+  color: $babbel-navy;
 
   font-size: $font-size-sm;
+
   font-weight: $font-weight-bold;
 
   text-decoration: none;
 }
 
 .start-card-link:hover {
-  color: $brand-orange;
+  color: $babbel-orange;
 }
 
 .start-card-featured .start-card-link {
-  color: $brand-orange;
+  color: $babbel-orange;
 }
 
-// ------------------------------------------------------------
-// Responsive
-// ------------------------------------------------------------
-
-@media (max-width: $breakpoint-md) {
-  .start-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .start-card {
-    min-height: auto;
-  }
-}
-
-@media (max-width: $breakpoint-sm) {
-  .section-start {
-    padding: $space-12 0;
-  }
-
-  .start-card {
-    padding: $space-6;
-  }
-}
 
 // ------------------------------------------------------------
-// Method / why Fluente-Mente
+// Why Fluente-Mente
 // ------------------------------------------------------------
 
 .home-method {
   padding: $space-16 0;
 
-  background: $brand-navy;
-  color: $color-background;
+  background: $babbel-navy;
+
+  color: $color-white;
+}
+
+.home-method .section-heading {
+  max-width: 760px;
+
+  margin-bottom: $space-8;
 }
 
 .home-method .section-heading h2 {
+  margin: 0;
+
   color: $color-white;
 }
 
 .home-method .section-heading p {
-  color: rgba(255, 255, 255, 0.72);
+  color: rgba(
+    255,
+    255,
+    255,
+    0.72
+  );
 }
 
 .home-method .eyebrow {
-  color: $brand-orange;
-}
-  .home-method .section-heading {
-  max-width: 760px;
-  margin-bottom: $space-8;
-  }
+  color: $babbel-orange;
 }
 
 .method-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
 
   gap: $space-5;
+
   margin-top: $space-8;
 }
 
 .method-card {
   padding: $space-6;
 
-  border: 1px solid rgba(255, 255, 255, 0.16);
+  border:
+    1px
+    solid
+    rgba(
+      255,
+      255,
+      255,
+      0.16
+    );
+
   border-radius: $radius-lg;
 
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(
+    255,
+    255,
+    255,
+    0.05
+  );
 
   transition:
     background-color $transition-fast,
@@ -922,25 +966,35 @@
 }
 
 .method-card:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(242, 107, 56, 0.5);
+  background: rgba(
+    255,
+    255,
+    255,
+    0.08
+  );
+
+  border-color: rgba(
+    242,
+    107,
+    56,
+    0.5
+  );
 }
 
 .method-card-number {
-  margin-bottom: $space-4;
+  margin: 0 0 $space-4;
 
-  color: $brand-orange;
+  color: $babbel-orange;
 
   font-size: $font-size-sm;
-  font-weight: $font-weight-bold;
 
-  opacity: 0.95;
+  font-weight: $font-weight-bold;
 }
 
 .method-card-title {
   margin: 0;
 
-  color: $color-background;
+  color: $color-white;
 
   font-size: $font-size-lg;
 }
@@ -948,28 +1002,47 @@
 .method-card-copy {
   margin: $space-3 0 0;
 
-  color: rgba(255, 255, 255, 0.72);
+  color: rgba(
+    255,
+    255,
+    255,
+    0.72
+  );
 
   font-size: $font-size-sm;
+
+  line-height: $line-height-base;
 }
 
+
 // ------------------------------------------------------------
-// Babbel section
+// Babbel
 // ------------------------------------------------------------
 
 .home-babbel {
   padding: $space-12 0 $space-16;
+
+  background: $color-background;
 }
 
 .babbel-home-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(220px, 0.45fr);
+
   align-items: center;
 
   gap: $space-8;
+
   padding: $space-8;
 
-  border: 2px solid $babbel-orange;
+  border:
+    2px
+    solid
+    $babbel-orange;
+
   border-radius: $radius-xl;
 
   background: $babbel-cream;
@@ -979,54 +1052,104 @@
   max-width: 760px;
 }
 
+.babbel-home-copy .eyebrow {
+  color: $babbel-orange;
+}
+
 .babbel-home-title {
   margin: 0;
 
   color: $babbel-navy;
 
   font-size: $font-size-2xl;
+
+  line-height: $line-height-heading;
 }
 
-.babbel-home-copy p {
-  margin: $space-3 0 0;
+.babbel-home-copy > p:not(.eyebrow) {
+  margin: $space-4 0 0;
 
   color: $color-text-muted;
+
+  line-height: $line-height-base;
 }
 
-.babbel-home-action {
-  flex-shrink: 0;
+.babbel-home-note {
+  padding: $space-5;
+
+  border:
+    1px
+    solid
+    rgba(
+      242,
+      107,
+      56,
+      0.25
+    );
+
+  border-radius: $radius-md;
+
+  background: rgba(
+    255,
+    255,
+    255,
+    0.55
+  );
 }
 
-.babbel-home-action .button {
+.babbel-home-note strong {
+  color: $babbel-navy;
+}
+
+.babbel-home-note p {
+  margin: $space-2 0 0;
+
+  color: $color-text-muted;
+
+  font-size: $font-size-sm;
+
+  line-height: $line-height-base;
+}
+
+.babbel-home-card .button-primary {
   background: $babbel-orange;
+
   border-color: $babbel-orange;
 
   color: $color-white;
 }
 
-.babbel-home-action .button:hover {
+.babbel-home-card .button-primary:hover {
   background: $babbel-orange-dark;
+
   border-color: $babbel-orange-dark;
 
   color: $color-white;
 }
 
+
 // ------------------------------------------------------------
-// Shared homepage utilities
+// Shared homepage CTA
 // ------------------------------------------------------------
 
 .home-cta-row {
   display: flex;
+
   flex-wrap: wrap;
 
   gap: $space-3;
+
   margin-top: $space-6;
 }
 
 .home-empty {
   padding: $space-8;
 
-  border: $border-width dashed $color-border;
+  border:
+    $border-width
+    dashed
+    $color-border;
+
   border-radius: $radius-lg;
 
   color: $color-text-muted;
@@ -1034,8 +1157,9 @@
   text-align: center;
 }
 
+
 // ------------------------------------------------------------
-// Responsive homepage adjustments
+// Responsive — Large tablet
 // ------------------------------------------------------------
 
 @media (max-width: $breakpoint-lg) {
@@ -1049,9 +1173,18 @@
   }
 
   .rubrics-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
   }
 }
+
+
+// ------------------------------------------------------------
+// Responsive — Tablet
+// ------------------------------------------------------------
 
 @media (max-width: $breakpoint-md) {
 
@@ -1059,9 +1192,7 @@
     padding: $space-12 0;
   }
 
-  .hero-grid,
-  .daily-card,
-  .babbel-home-card {
+  .hero-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1069,13 +1200,15 @@
     max-width: 620px;
   }
 
-  .daily-card-action,
-  .babbel-home-action {
+  .daily-card {
+    grid-template-columns: 1fr;
+  }
+
+  .daily-card-action {
     width: 100%;
   }
 
-  .daily-card-action .button,
-  .babbel-home-action .button {
+  .daily-card-action .button {
     width: 100%;
   }
 
@@ -1083,9 +1216,26 @@
   .method-grid {
     grid-template-columns: 1fr;
   }
+
+  .babbel-home-card {
+    grid-template-columns: 1fr;
+  }
+
+  .babbel-home-note {
+    max-width: 620px;
+  }
 }
 
+
+// ------------------------------------------------------------
+// Responsive — Small mobile
+// ------------------------------------------------------------
+
 @media (max-width: $breakpoint-sm) {
+
+  .home-hero {
+    padding: $space-10 0;
+  }
 
   .hero-actions,
   .home-cta-row {
@@ -1097,15 +1247,44 @@
     width: 100%;
   }
 
-  .rubrics-grid {
-    grid-template-columns: 1fr;
+  .hero-card {
+    padding: $space-6;
   }
 
-  .hero-card,
-  .daily-card,
-  .start-card,
-  .method-card,
+  .hero-card-title {
+    font-size: $font-size-2xl;
+  }
+
+  .home-daily .section-heading {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .rubrics-grid {
+    grid-template-columns: 1fr;
+
+    gap: $space-4;
+  }
+
+  .rubric-card {
+    min-height: 0;
+
+    padding: $space-6;
+  }
+
+  .start-card {
+    min-height: 0;
+
+    padding: $space-6;
+  }
+
+  .method-card {
+    padding: $space-6;
+  }
+
   .babbel-home-card {
     padding: $space-6;
   }
+
 }
