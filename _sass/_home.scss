@@ -12,9 +12,18 @@
 
 .home-hero {
   padding: $space-16 0 $space-12;
+
   background:
-    radial-gradient(circle at 85% 15%, $color-primary-soft 0, transparent 28%),
-    linear-gradient(180deg, $color-background 0%, $color-surface 100%);
+    radial-gradient(
+      circle at 85% 15%,
+      $color-primary-soft 0,
+      transparent 28%
+    ),
+    linear-gradient(
+      180deg,
+      $color-background 0%,
+      $color-surface 100%
+    );
 }
 
 .hero-grid {
@@ -30,11 +39,17 @@
 
 .hero-eyebrow {
   margin-bottom: $space-4;
+
+  color: $brand-orange;
+  font-weight: $font-weight-bold;
 }
 
 .hero-title {
   margin: 0;
   max-width: 760px;
+
+  color: $brand-navy;
+
   font-size: clamp(2.5rem, 6vw, 4.5rem);
   line-height: 1.02;
   letter-spacing: -0.045em;
@@ -43,7 +58,9 @@
 .hero-subtitle {
   max-width: 680px;
   margin: $space-6 0 0;
+
   color: $color-text-muted;
+
   font-size: clamp(1.08rem, 2vw, 1.3rem);
   line-height: 1.65;
 }
@@ -55,8 +72,21 @@
   margin-top: $space-8;
 }
 
+.hero-actions .button-primary {
+  background: $brand-orange;
+  border-color: $brand-orange;
+  color: $color-white;
+}
+
+.hero-actions .button-primary:hover {
+  background: $brand-orange-dark;
+  border-color: $brand-orange-dark;
+  color: $color-white;
+}
+
 .hero-note {
   margin-top: $space-4;
+
   color: $color-text-muted;
   font-size: $font-size-sm;
 }
@@ -67,35 +97,50 @@
 
 .hero-card {
   position: relative;
+
   padding: $space-8;
+
   border: $border-width solid $color-border;
   border-radius: $radius-xl;
+
   background: $color-background;
+
   box-shadow: $shadow-lg;
 }
 
 .hero-card::before {
   position: absolute;
+
   top: 18px;
   right: 18px;
+
   width: 12px;
   height: 12px;
+
   border-radius: 50%;
-  background: $color-accent;
+
+  background: $brand-orange;
+
   content: "";
 }
 
 .hero-card-kicker {
   margin-bottom: $space-2;
-  color: $color-text-muted;
+
+  color: $brand-orange;
+
   font-size: $font-size-xs;
-  font-weight: $font-weight-semibold;
+  font-weight: $font-weight-bold;
+
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .hero-card-title {
   margin: 0;
+
+  color: $brand-navy;
+
   font-family: $font-family-serif;
   font-size: $font-size-3xl;
   line-height: 1.15;
@@ -103,15 +148,22 @@
 
 .hero-card-copy {
   margin: $space-4 0 0;
+
   color: $color-text-muted;
 }
 
 .hero-card-phrase {
   margin-top: $space-6;
+
   padding: $space-4 $space-5;
-  border-left: 4px solid $color-primary;
+
+  border-left: 4px solid $brand-orange;
   border-radius: $radius-md;
-  background: $color-primary-soft;
+
+  background: $brand-cream;
+
+  color: $brand-navy;
+
   font-weight: $font-weight-semibold;
 }
 
@@ -127,11 +179,15 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
+
   gap: $space-8;
   padding: $space-8;
+
   border: $border-width solid $color-border;
   border-radius: $radius-xl;
+
   background: $color-background;
+
   box-shadow: $shadow-sm;
 }
 
@@ -143,29 +199,46 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+
   gap: $space-2 $space-4;
   margin-bottom: $space-3;
+
   color: $color-text-muted;
   font-size: $font-size-sm;
 }
 
 .daily-meta strong {
-  color: $color-primary;
+  color: $brand-orange;
 }
 
 .daily-title {
   margin: 0;
+
+  color: $brand-navy;
+
   font-size: $font-size-2xl;
 }
 
 .daily-description {
   max-width: 760px;
   margin: $space-3 0 0;
+
   color: $color-text-muted;
 }
 
 .daily-card-action {
   flex-shrink: 0;
+}
+
+.daily-card-action .button {
+  background: $brand-navy;
+  border-color: $brand-navy;
+  color: $color-white;
+}
+
+.daily-card-action .button:hover {
+  background: $brand-navy-dark;
+  border-color: $brand-navy-dark;
 }
 
 // ------------------------------------------------------------
@@ -174,12 +247,14 @@
 
 .home-rubrics {
   padding: $space-12 0;
-  background: $color-surface;
+
+  background: $color-background-soft;
 }
 
 .rubrics-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+
   gap: $space-5;
   margin-top: $space-8;
 }
@@ -187,12 +262,16 @@
 .rubric-card {
   display: flex;
   flex-direction: column;
+
   min-height: 230px;
   padding: $space-6;
+
   border: $border-width solid $color-border;
   border-top-width: 4px;
   border-radius: $radius-lg;
+
   background: $color-background;
+
   transition:
     transform $transition-fast,
     box-shadow $transition-fast,
@@ -205,6 +284,7 @@
 }
 
 // 1 — English in Real Life
+
 .rubric-english-in-real-life {
   border-top-color: $rubric-real-life;
 }
@@ -219,6 +299,7 @@
 }
 
 // 2 — Natural English
+
 .rubric-natural-english {
   border-top-color: $rubric-natural;
 }
@@ -233,6 +314,7 @@
 }
 
 // 3 — English Mindset
+
 .rubric-english-mindset {
   border-top-color: $rubric-mindset;
 }
@@ -247,6 +329,7 @@
 }
 
 // 4 — English & Culture
+
 .rubric-english-culture {
   border-top-color: $rubric-culture;
 }
@@ -261,6 +344,7 @@
 }
 
 // 5 — English for Adventure
+
 .rubric-english-for-adventure {
   border-top-color: $rubric-adventure;
 }
@@ -275,6 +359,7 @@
 }
 
 // 6 — English for Life & Work
+
 .rubric-english-for-life-work {
   border-top-color: $rubric-life-work;
 }
@@ -289,6 +374,7 @@
 }
 
 // 7 — English from the Real World
+
 .rubric-english-from-the-real-world {
   border-top-color: $rubric-real-world;
 }
@@ -306,24 +392,34 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+
   width: 36px;
   height: 36px;
+
   margin-bottom: $space-5;
+
   border-radius: 50%;
+
   background: $color-primary-soft;
-  color: $color-primary;
+  color: $brand-navy;
+
   font-size: $font-size-sm;
   font-weight: $font-weight-bold;
 }
 
 .rubric-title {
   margin: 0;
+
+  color: $brand-navy;
+
   font-size: $font-size-lg;
 }
 
 .rubric-description {
   margin: $space-3 0 0;
+
   color: $color-text-muted;
+
   font-size: $font-size-sm;
   line-height: 1.6;
 }
@@ -331,6 +427,7 @@
 .rubric-link {
   margin-top: auto;
   padding-top: $space-5;
+
   font-size: $font-size-sm;
   font-weight: $font-weight-semibold;
 }
@@ -346,31 +443,55 @@
 .start-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+
   gap: $space-5;
   margin-top: $space-8;
 }
 
 .start-card {
   padding: $space-6;
+
   border: $border-width solid $color-border;
   border-radius: $radius-lg;
+
   background: $color-background;
+
+  transition:
+    transform $transition-fast,
+    box-shadow $transition-fast;
+}
+
+.start-card:hover {
+  box-shadow: $shadow-md;
+  transform: translateY(-2px);
 }
 
 .start-card-title {
   margin: 0;
+
+  color: $brand-navy;
+
   font-size: $font-size-xl;
 }
 
 .start-card-copy {
   margin: $space-3 0 0;
+
   color: $color-text-muted;
 }
 
 .start-card-link {
   display: inline-flex;
+
   margin-top: $space-5;
+
+  color: $brand-orange;
+
   font-weight: $font-weight-semibold;
+}
+
+.start-card-link:hover {
+  color: $brand-orange-dark;
 }
 
 // ------------------------------------------------------------
@@ -379,7 +500,8 @@
 
 .home-method {
   padding: $space-16 0;
-  background: $color-text;
+
+  background: $brand-navy;
   color: $color-background;
 }
 
@@ -390,33 +512,53 @@
 .method-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+
   gap: $space-5;
   margin-top: $space-8;
 }
 
 .method-card {
   padding: $space-6;
+
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: $radius-lg;
+
   background: rgba(255, 255, 255, 0.05);
+
+  transition:
+    background-color $transition-fast,
+    border-color $transition-fast;
+}
+
+.method-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(242, 107, 56, 0.5);
 }
 
 .method-card-number {
   margin-bottom: $space-4;
+
+  color: $brand-orange;
+
   font-size: $font-size-sm;
   font-weight: $font-weight-bold;
-  opacity: 0.65;
+
+  opacity: 0.95;
 }
 
 .method-card-title {
   margin: 0;
+
   color: $color-background;
+
   font-size: $font-size-lg;
 }
 
 .method-card-copy {
   margin: $space-3 0 0;
+
   color: rgba(255, 255, 255, 0.72);
+
   font-size: $font-size-sm;
 }
 
@@ -432,10 +574,13 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
+
   gap: $space-8;
   padding: $space-8;
+
   border: 2px solid $babbel-orange;
   border-radius: $radius-xl;
+
   background: $babbel-cream;
 }
 
@@ -445,12 +590,15 @@
 
 .babbel-home-title {
   margin: 0;
+
   color: $babbel-navy;
+
   font-size: $font-size-2xl;
 }
 
 .babbel-home-copy p {
   margin: $space-3 0 0;
+
   color: $color-text-muted;
 }
 
@@ -460,11 +608,15 @@
 
 .babbel-home-action .button {
   background: $babbel-orange;
+  border-color: $babbel-orange;
+
   color: $color-white;
 }
 
 .babbel-home-action .button:hover {
   background: $babbel-orange-dark;
+  border-color: $babbel-orange-dark;
+
   color: $color-white;
 }
 
@@ -475,15 +627,19 @@
 .home-cta-row {
   display: flex;
   flex-wrap: wrap;
+
   gap: $space-3;
   margin-top: $space-6;
 }
 
 .home-empty {
   padding: $space-8;
+
   border: $border-width dashed $color-border;
   border-radius: $radius-lg;
+
   color: $color-text-muted;
+
   text-align: center;
 }
 
@@ -492,8 +648,12 @@
 // ------------------------------------------------------------
 
 @media (max-width: $breakpoint-lg) {
+
   .hero-grid {
-    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(280px, 0.8fr);
+
     gap: $space-8;
   }
 
@@ -503,6 +663,7 @@
 }
 
 @media (max-width: $breakpoint-md) {
+
   .home-hero {
     padding: $space-12 0;
   }
@@ -534,6 +695,7 @@
 }
 
 @media (max-width: $breakpoint-sm) {
+
   .hero-actions,
   .home-cta-row {
     flex-direction: column;
