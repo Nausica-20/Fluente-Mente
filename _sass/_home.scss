@@ -883,8 +883,21 @@
   color: $color-background;
 }
 
+.home-method .section-heading h2 {
+  color: $color-white;
+}
+
 .home-method .section-heading p {
   color: rgba(255, 255, 255, 0.72);
+}
+
+.home-method .eyebrow {
+  color: $brand-orange;
+}
+  .home-method .section-heading {
+  max-width: 760px;
+  margin-bottom: $space-8;
+  }
 }
 
 .method-grid {
