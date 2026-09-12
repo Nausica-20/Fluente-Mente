@@ -11,7 +11,7 @@
 // ------------------------------------------------------------
 
 .home-hero {
-  padding: $space-16 0 $space-14;
+  padding: $space-16 0 $space-12;
   background:
     radial-gradient(circle at 85% 15%, $color-primary-soft 0, transparent 28%),
     linear-gradient(180deg, $color-background 0%, $color-surface 100%);
@@ -120,7 +120,7 @@
 // ------------------------------------------------------------
 
 .home-daily {
-  padding: $space-14 0;
+  padding: $space-12 0;
 }
 
 .daily-card {
@@ -173,7 +173,7 @@
 // ------------------------------------------------------------
 
 .home-rubrics {
-  padding: $space-14 0;
+  padding: $space-12 0;
   background: $color-surface;
 }
 
@@ -242,7 +242,7 @@
 // ------------------------------------------------------------
 
 .home-start {
-  padding: $space-14 0;
+  padding: $space-12 0;
 }
 
 .start-grid {
@@ -327,7 +327,7 @@
 // ------------------------------------------------------------
 
 .home-babbel {
-  padding: $space-14 0 $space-16;
+  padding: $space-12 0 $space-16;
 }
 
 .babbel-home-card {
