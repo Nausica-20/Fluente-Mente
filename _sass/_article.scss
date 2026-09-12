@@ -7,11 +7,13 @@
 }
 
 .article-container {
-  max-width: $container-reading-max;
+  max-width: $container-max-width;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .article-header {
-  max-width: $container-reading-max;
+  max-width: $container-max-width;
   margin: 0 auto $space-10;
   padding-top: $space-10;
 }
@@ -86,14 +88,14 @@
 
 .article-content,
 .article-body {
-  max-width: $reading-max;
+  max-width: $reading-max-width;
   margin-right: auto;
   margin-left: auto;
 }
 
 .article-intro {
   margin-bottom: $space-8;
-  padding: $space-6 $space-6;
+  padding: $space-6;
   border-left: 4px solid $color-primary;
   border-radius: 0 $radius-md $radius-md 0;
   background: $color-primary-soft;
@@ -211,7 +213,10 @@
   font-weight: $font-weight-semibold;
 }
 
+// ------------------------------------------------------------
 // English dialogue blocks
+// ------------------------------------------------------------
+
 .dialogue {
   margin: $space-8 0;
   padding: $space-6;
@@ -230,11 +235,14 @@
 }
 
 .dialogue-speaker {
-  font-weight: $font-weight-bold;
   color: $color-primary;
+  font-weight: $font-weight-bold;
 }
 
-// English vs. natural English comparison
+// ------------------------------------------------------------
+// English vs. Natural English comparison
+// ------------------------------------------------------------
+
 .english-comparison,
 .english-vs-natural {
   margin: $space-10 0;
@@ -251,121 +259,4 @@
 
 .comparison-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: $space-4;
-}
-
-.comparison-item {
-  padding: $space-4;
-  border-radius: $radius-md;
-  background: $color-background-soft;
-}
-
-.comparison-label {
-  display: block;
-  margin-bottom: $space-2;
-  color: $color-text-muted;
-  font-size: $font-size-sm;
-  font-weight: $font-weight-semibold;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
-// Key expressions / takeaway
-.key-expressions,
-.article-takeaway {
-  max-width: $reading-max;
-  margin: $space-10 auto 0;
-  padding: $space-6;
-  border-radius: $radius-lg;
-  background: $color-background-soft;
-}
-
-.key-expressions h2,
-.article-takeaway h2 {
-  margin-top: 0;
-}
-
-.key-expression {
-  display: grid;
-  grid-template-columns: minmax(160px, 0.8fr) 1fr;
-  gap: $space-4;
-  padding: $space-4 0;
-  border-bottom: $border-width solid $color-border;
-}
-
-.key-expression:last-child {
-  border-bottom: 0;
-}
-
-.key-expression-term {
-  font-weight: $font-weight-bold;
-}
-
-.key-expression-meaning {
-  color: $color-text-muted;
-}
-
-.article-footer {
-  max-width: $reading-max;
-  margin: $space-12 auto 0;
-  padding-top: $space-6;
-  border-top: $border-width solid $color-border;
-  color: $color-text-muted;
-  font-size: $font-size-sm;
-}
-
-@media (max-width: $breakpoint-md) {
-  .article-header {
-    padding-top: $space-8;
-    margin-bottom: $space-8;
-  }
-
-  .article-title {
-    font-size: $font-size-3xl;
-  }
-
-  .article-subtitle {
-    font-size: $font-size-lg;
-  }
-
-  .article-body {
-    font-size: $font-size-base;
-  }
-
-  .comparison-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .key-expression {
-    grid-template-columns: 1fr;
-    gap: $space-2;
-  }
-}
-
-@media (max-width: $breakpoint-sm) {
-  .article-page {
-    padding-bottom: $space-12;
-  }
-
-  .article-header {
-    padding-top: $space-6;
-  }
-
-  .article-meta {
-    gap: $space-2;
-  }
-
-  .article-title {
-    font-size: $font-size-2xl;
-  }
-
-  .article-intro,
-  .dialogue,
-  .english-comparison,
-  .english-vs-natural,
-  .key-expressions,
-  .article-takeaway {
-    padding: $space-5;
-  }
-}
+ 
