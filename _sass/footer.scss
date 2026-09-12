@@ -18,7 +18,7 @@
   display: grid;
 
   grid-template-columns:
-    minmax(240px, 1.5fr)
+    minmax(220px, 1.5fr)
     repeat(3, minmax(150px, 1fr));
 
   gap: $space-10;
@@ -33,36 +33,70 @@
 // ------------------------------------------------------------
 
 .footer-brand {
-  max-width: 340px;
+  max-width: 320px;
 }
+
+
+// ------------------------------------------------------------
+// Footer logo
+// ------------------------------------------------------------
 
 .footer-logo {
   display: inline-flex;
   align-items: center;
 
-  color: $color-white;
+  padding: $space-2 $space-3;
+
+  border-radius: $radius-md;
+
+  background: $color-white;
+
   text-decoration: none;
+
+  transition:
+    transform $transition-fast,
+    box-shadow $transition-fast;
+}
+
+.footer-logo:hover {
+  transform: translateY(-1px);
+  box-shadow: $shadow-sm;
+}
+
+.footer-logo:focus-visible {
+  outline: 3px solid $brand-orange;
+  outline-offset: 3px;
 }
 
 .footer-logo img {
   display: block;
 
   width: auto;
-  height: 52px;
+  height: 40px;
 
-  max-width: 190px;
+  max-width: 155px;
 
   object-fit: contain;
 }
 
-.footer-site-name {
-  color: $color-white;
 
-  font-size: $font-size-2xl;
+// ------------------------------------------------------------
+// Fallback site name
+// ------------------------------------------------------------
+
+.footer-site-name {
+  color: $brand-navy;
+
+  font-size: $font-size-xl;
   font-weight: $font-weight-bold;
 
   text-decoration: none;
 }
+
+
+// ------------------------------------------------------------
+// Footer brand text
+// ------------------------------------------------------------
 
 .footer-tagline {
   margin: $space-4 0 0;
@@ -86,7 +120,7 @@
 
 
 // ------------------------------------------------------------
-// Columns
+// Footer columns
 // ------------------------------------------------------------
 
 .footer-column {
@@ -107,7 +141,7 @@
 
 
 // ------------------------------------------------------------
-// Links
+// Footer links
 // ------------------------------------------------------------
 
 .footer-links {
@@ -143,18 +177,20 @@
 
 .footer-links a:hover {
   color: $brand-orange;
+
   transform: translateX(2px);
 }
 
 .footer-links a:focus-visible {
   outline: 3px solid $brand-orange;
   outline-offset: 3px;
+
   border-radius: $radius-sm;
 }
 
 
 // ------------------------------------------------------------
-// Bottom
+// Footer bottom
 // ------------------------------------------------------------
 
 .footer-bottom {
@@ -204,12 +240,13 @@
 .footer-legal a:focus-visible {
   outline: 3px solid $brand-orange;
   outline-offset: 3px;
+
   border-radius: $radius-sm;
 }
 
 
 // ------------------------------------------------------------
-// Responsive — Tablet
+// Tablet
 // ------------------------------------------------------------
 
 @media (max-width: $breakpoint-lg) {
@@ -222,13 +259,14 @@
 
   .footer-brand {
     grid-column: 1 / -1;
+
     max-width: 560px;
   }
 }
 
 
 // ------------------------------------------------------------
-// Responsive — Mobile
+// Mobile
 // ------------------------------------------------------------
 
 @media (max-width: $breakpoint-md) {
@@ -254,7 +292,7 @@
 
 
 // ------------------------------------------------------------
-// Responsive — Small mobile
+// Small mobile
 // ------------------------------------------------------------
 
 @media (max-width: $breakpoint-sm) {
@@ -267,9 +305,13 @@
     grid-column: auto;
   }
 
+  .footer-logo {
+    padding: $space-2 $space-3;
+  }
+
   .footer-logo img {
-    height: 48px;
-    max-width: 180px;
+    height: 36px;
+    max-width: 145px;
   }
 
   .footer-bottom-inner {
