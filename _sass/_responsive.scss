@@ -2,7 +2,7 @@
 // Fluente-Mente — Responsive Utilities & Layout Adjustments
 // ============================================================
 
-// Base: prevent accidental horizontal overflow from long content.
+// Prevent accidental horizontal overflow from long content.
 html,
 body {
   max-width: 100%;
@@ -13,14 +13,14 @@ body {
 // Large desktop
 // ------------------------------------------------------------
 
-@media (max-width: $breakpoint-xl) {
+@media (max-width: $breakpoint-lg) {
   .container {
     max-width: 1080px;
   }
 
   .section {
-    padding-top: $space-14;
-    padding-bottom: $space-14;
+    padding-top: $space-12;
+    padding-bottom: $space-12;
   }
 }
 
@@ -28,64 +28,33 @@ body {
 // Tablet / laptop
 // ------------------------------------------------------------
 
-@media (max-width: $breakpoint-lg) {
+@media (max-width: $breakpoint-md) {
   .container {
-    width: min(100% - (#{$space-8} * 2), $container-max-width);
+    width: calc(100% - (#{$space-6} * 2));
+    max-width: $container-max-width;
   }
 
   .reading-container {
-    width: min(100% - (#{$space-8} * 2), $reading-width);
+    width: calc(100% - (#{$space-6} * 2));
+    max-width: $reading-max-width;
   }
 
   .article-layout {
-    grid-template-columns: minmax(0, 1fr) $sidebar-width;
+    grid-template-columns: 1fr;
     gap: $space-8;
+  }
+
+  .article-sidebar {
+    position: static;
+    order: 2;
+    margin-top: $space-8;
   }
 
   .grid-4,
   .cards-grid-4 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .grid-3,
-  .cards-grid-3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-}
 
-// ------------------------------------------------------------
-// Tablet
-// ------------------------------------------------------------
-
-@media (max-width: $breakpoint-md) {
-  .container,
-  .reading-container {
-    width: min(100% - (#{$space-6} * 2), $container-max-width);
-  }
-
-  .section {
-    padding-top: $space-12;
-    padding-bottom: $space-12;
-  }
-
-  .section-heading {
-    margin-bottom: $space-6;
-  }
-
-  .article-layout {
-    display: block;
-  }
-
-  .article-sidebar {
-    margin-top: $space-10;
-  }
-
-  .article-toc {
-    position: static;
-  }
-
-  .grid-4,
-  .cards-grid-4,
   .grid-3,
   .cards-grid-3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -112,7 +81,8 @@ body {
 @media (max-width: $breakpoint-sm) {
   .container,
   .reading-container {
-    width: min(100% - (#{$space-4} * 2), $container-max-width);
+    width: calc(100% - (#{$space-4} * 2));
+    max-width: $container-max-width;
   }
 
   .section {
@@ -121,6 +91,7 @@ body {
   }
 
   .section-heading {
+    display: block;
     margin-bottom: $space-5;
   }
 
@@ -170,7 +141,8 @@ body {
 @media (max-width: 380px) {
   .container,
   .reading-container {
-    width: min(100% - (#{$space-3} * 2), $container-max-width);
+    width: calc(100% - (#{$space-3} * 2));
+    max-width: $container-max-width;
   }
 
   .section {
