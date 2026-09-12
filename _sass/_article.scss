@@ -93,7 +93,7 @@
 
 .article-intro {
   margin-bottom: $space-8;
-  padding: $space-6 $space-7;
+  padding: $space-6 $space-6;
   border-left: 4px solid $color-primary;
   border-radius: 0 $radius-md $radius-md 0;
   background: $color-primary-soft;
@@ -130,7 +130,7 @@
 .article-body ol,
 .article-content ul,
 .article-content ol {
-  padding-left: $space-7;
+  padding-left: $space-6;
 }
 
 .article-body li + li,
