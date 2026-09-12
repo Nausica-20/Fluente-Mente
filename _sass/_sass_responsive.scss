@@ -1,0 +1,236 @@
+// ============================================================
+// Fluente-Mente — Responsive Utilities & Layout Adjustments
+// ============================================================
+
+// Base: prevent accidental horizontal overflow from long content.
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+// ------------------------------------------------------------
+// Large desktop
+// ------------------------------------------------------------
+
+@media (max-width: $breakpoint-xl) {
+  .container {
+    max-width: 1080px;
+  }
+
+  .section {
+    padding-top: $space-14;
+    padding-bottom: $space-14;
+  }
+}
+
+// ------------------------------------------------------------
+// Tablet / laptop
+// ------------------------------------------------------------
+
+@media (max-width: $breakpoint-lg) {
+  .container {
+    width: min(100% - (#{$space-8} * 2), $container-max-width);
+  }
+
+  .reading-container {
+    width: min(100% - (#{$space-8} * 2), $reading-width);
+  }
+
+  .article-layout {
+    grid-template-columns: minmax(0, 1fr) $sidebar-width;
+    gap: $space-8;
+  }
+
+  .grid-4,
+  .cards-grid-4 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .grid-3,
+  .cards-grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+// ------------------------------------------------------------
+// Tablet
+// ------------------------------------------------------------
+
+@media (max-width: $breakpoint-md) {
+  .container,
+  .reading-container {
+    width: min(100% - (#{$space-6} * 2), $container-max-width);
+  }
+
+  .section {
+    padding-top: $space-12;
+    padding-bottom: $space-12;
+  }
+
+  .section-heading {
+    margin-bottom: $space-6;
+  }
+
+  .article-layout {
+    display: block;
+  }
+
+  .article-sidebar {
+    margin-top: $space-10;
+  }
+
+  .article-toc {
+    position: static;
+  }
+
+  .grid-4,
+  .cards-grid-4,
+  .grid-3,
+  .cards-grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .grid-2,
+  .cards-grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .hide-md {
+    display: none !important;
+  }
+
+  .show-md {
+    display: block !important;
+  }
+}
+
+// ------------------------------------------------------------
+// Small mobile
+// ------------------------------------------------------------
+
+@media (max-width: $breakpoint-sm) {
+  .container,
+  .reading-container {
+    width: min(100% - (#{$space-4} * 2), $container-max-width);
+  }
+
+  .section {
+    padding-top: $space-10;
+    padding-bottom: $space-10;
+  }
+
+  .section-heading {
+    margin-bottom: $space-5;
+  }
+
+  .grid-4,
+  .cards-grid-4,
+  .grid-3,
+  .cards-grid-3,
+  .grid-2,
+  .cards-grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .article-main {
+    min-width: 0;
+  }
+
+  .article-content,
+  .article-body {
+    overflow-wrap: anywhere;
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .hide-sm {
+    display: none !important;
+  }
+
+  .show-sm {
+    display: block !important;
+  }
+}
+
+// ------------------------------------------------------------
+// Very narrow screens
+// ------------------------------------------------------------
+
+@media (max-width: 380px) {
+  .container,
+  .reading-container {
+    width: min(100% - (#{$space-3} * 2), $container-max-width);
+  }
+
+  .section {
+    padding-top: $space-8;
+    padding-bottom: $space-8;
+  }
+
+  .button,
+  .btn,
+  button,
+  input[type="submit"],
+  input[type="button"] {
+    max-width: 100%;
+  }
+}
+
+// ------------------------------------------------------------
+// Print
+// ------------------------------------------------------------
+
+@media print {
+  .site-header,
+  .site-footer,
+  .nav-toggle,
+  .site-nav,
+  .article-sidebar,
+  .babbel-cta,
+  .cta,
+  .social-share,
+  .continue-learning {
+    display: none !important;
+  }
+
+  .container,
+  .reading-container,
+  .article-container {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .article-page,
+  .article-main {
+    width: 100%;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    overflow-wrap: anywhere;
+  }
+
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+}
