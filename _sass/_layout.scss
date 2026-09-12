@@ -3,7 +3,7 @@
 // ============================================================
 
 .container {
-  width: calc(100% - (1.5rem * 2));
+  width: calc(100% - (#{$space-6} * 2));
   max-width: $container-max-width;
   margin-right: auto;
   margin-left: auto;
@@ -79,6 +79,10 @@ main {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+// ------------------------------------------------------------
+// Article layout
+// ------------------------------------------------------------
+
 .article-container {
   padding-block: $space-10 $space-20;
 }
@@ -99,6 +103,10 @@ main {
   position: sticky;
   top: calc(#{$header-height} + #{$space-6});
 }
+
+// ------------------------------------------------------------
+// Breadcrumbs
+// ------------------------------------------------------------
 
 .breadcrumbs {
   width: calc(100% - (#{$space-6} * 2));
@@ -132,6 +140,10 @@ main {
   color: $color-primary;
 }
 
+// ------------------------------------------------------------
+// Table of contents
+// ------------------------------------------------------------
+
 .article-toc {
   padding: $space-5;
   border: $border-width solid $color-border;
@@ -162,6 +174,10 @@ main {
 .toc-list a:hover {
   color: $color-primary;
 }
+
+// ------------------------------------------------------------
+// Footer
+// ------------------------------------------------------------
 
 .site-footer {
   margin-top: auto;
@@ -199,6 +215,10 @@ main {
   color: $color-text-muted;
   font-size: $font-size-xs;
 }
+
+// ------------------------------------------------------------
+// Responsive
+// ------------------------------------------------------------
 
 @media (max-width: $breakpoint-lg) {
   .article-layout {
