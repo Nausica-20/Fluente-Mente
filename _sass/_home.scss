@@ -190,6 +190,7 @@
   min-height: 230px;
   padding: $space-6;
   border: $border-width solid $color-border;
+  border-top-width: 4px;
   border-radius: $radius-lg;
   background: $color-background;
   transition:
@@ -199,9 +200,106 @@
 }
 
 .rubric-card:hover {
-  border-color: $color-primary;
   box-shadow: $shadow-md;
   transform: translateY(-3px);
+}
+
+// 1 — English in Real Life
+.rubric-english-in-real-life {
+  border-top-color: $rubric-real-life;
+}
+
+.rubric-english-in-real-life .rubric-number {
+  background: $rubric-real-life-soft;
+  color: $rubric-real-life;
+}
+
+.rubric-english-in-real-life .rubric-link {
+  color: $rubric-real-life;
+}
+
+// 2 — Natural English
+.rubric-natural-english {
+  border-top-color: $rubric-natural;
+}
+
+.rubric-natural-english .rubric-number {
+  background: $rubric-natural-soft;
+  color: $rubric-natural;
+}
+
+.rubric-natural-english .rubric-link {
+  color: $rubric-natural;
+}
+
+// 3 — English Mindset
+.rubric-english-mindset {
+  border-top-color: $rubric-mindset;
+}
+
+.rubric-english-mindset .rubric-number {
+  background: $rubric-mindset-soft;
+  color: $rubric-mindset;
+}
+
+.rubric-english-mindset .rubric-link {
+  color: $rubric-mindset;
+}
+
+// 4 — English & Culture
+.rubric-english-culture {
+  border-top-color: $rubric-culture;
+}
+
+.rubric-english-culture .rubric-number {
+  background: $rubric-culture-soft;
+  color: $rubric-culture;
+}
+
+.rubric-english-culture .rubric-link {
+  color: $rubric-culture;
+}
+
+// 5 — English for Adventure
+.rubric-english-for-adventure {
+  border-top-color: $rubric-adventure;
+}
+
+.rubric-english-for-adventure .rubric-number {
+  background: $rubric-adventure-soft;
+  color: $rubric-adventure;
+}
+
+.rubric-english-for-adventure .rubric-link {
+  color: $rubric-adventure;
+}
+
+// 6 — English for Life & Work
+.rubric-english-for-life-work {
+  border-top-color: $rubric-life-work;
+}
+
+.rubric-english-for-life-work .rubric-number {
+  background: $rubric-life-work-soft;
+  color: $rubric-life-work;
+}
+
+.rubric-english-for-life-work .rubric-link {
+  color: $rubric-life-work;
+}
+
+// 7 — English from the Real World
+.rubric-english-from-the-real-world {
+  border-top-color: $rubric-real-world;
+}
+
+.rubric-english-from-the-real-world .rubric-number {
+  background: $rubric-real-world-soft;
+  color: $rubric-real-world;
+}
+
+.rubric-english-from-the-real-world .rubric-link {
+  color: $rubric-real-world;
 }
 
 .rubric-number {
@@ -336,9 +434,9 @@
   align-items: center;
   gap: $space-8;
   padding: $space-8;
-  border: $border-width solid $color-border;
+  border: 2px solid $babbel-orange;
   border-radius: $radius-xl;
-  background: $color-primary-soft;
+  background: $babbel-cream;
 }
 
 .babbel-home-copy {
@@ -347,6 +445,7 @@
 
 .babbel-home-title {
   margin: 0;
+  color: $babbel-navy;
   font-size: $font-size-2xl;
 }
 
@@ -357,6 +456,16 @@
 
 .babbel-home-action {
   flex-shrink: 0;
+}
+
+.babbel-home-action .button {
+  background: $babbel-orange;
+  color: $color-white;
+}
+
+.babbel-home-action .button:hover {
+  background: $babbel-orange-dark;
+  color: $color-white;
 }
 
 // ------------------------------------------------------------
