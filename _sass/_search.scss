@@ -32,7 +32,7 @@
   width: 100%;
   min-height: 52px;
   padding: $space-3 $space-4;
-  border: $border-width solid $color-border-strong;
+  border: $border-width solid $color-border;
   border-radius: $radius-md;
   background: $color-background;
   color: $color-text;
@@ -64,11 +64,11 @@
 }
 
 .search-result-card {
+  overflow: hidden;
   border: $border-width solid $color-border;
   border-radius: $radius-lg;
   background: $color-background;
   box-shadow: $shadow-sm;
-  overflow: hidden;
   transition:
     border-color $transition-fast,
     box-shadow $transition-fast,
@@ -113,7 +113,7 @@
   margin: 0 0 $space-3;
   color: $color-text;
   font-size: $font-size-xl;
-  line-height: $line-height-snug;
+  line-height: $line-height-base;
 }
 
 .search-result-description {
@@ -136,7 +136,7 @@
 
 .search-empty {
   padding: $space-8;
-  border: $border-width dashed $color-border-strong;
+  border: $border-width dashed $color-border;
   border-radius: $radius-lg;
   background: $color-background-soft;
   text-align: center;
