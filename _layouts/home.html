@@ -1,49 +1,90 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: 'it' }}">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ page.description | default: site.description | escape }}">
 
-  <title>{{ page.title | default: site.title | escape }}</title>
+<head>
+
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta
+    name="description"
+    content="{{ page.description | default: site.description | escape }}"
+  >
+
+  <title>
+    {{ page.title | default: site.title | escape }}
+  </title>
 
   <link
     rel="canonical"
     href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}"
   >
 
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/main.css' | relative_url }}"
+  >
 
   {% if site.plugins contains 'jekyll-seo-tag' %}
     {% seo %}
   {% endif %}
+
 </head>
+
 
 <body class="page page-home">
 
-  <a class="skip-link" href="#main-content">Vai al contenuto</a>
+  <!-- Skip link -->
+
+  <a
+    class="skip-link"
+    href="#main-content"
+  >
+    Vai al contenuto
+  </a>
+
+
+  <!-- =====================================================
+       HEADER
+       ===================================================== -->
 
   {% include header.html %}
 
+
   <main id="main-content">
+
 
     <!-- =====================================================
          HERO
          ===================================================== -->
-    <section class="hero hero-home">
-      <div class="container hero-inner">
+
+    <section class="home-hero">
+
+      <div class="container hero-grid">
 
         <div class="hero-copy">
-          <p class="eyebrow">FLUENTE-MENTE</p>
 
-          <h1>Impara l'inglese che usi davvero.</h1>
-
-          <p class="hero-lead">
-            Inglese naturale per italiani: situazioni reali, frasi che suonano spontanee
-            e strategie per parlare senza bloccarti.
+          <p class="eyebrow hero-eyebrow">
+            FLUENTE-MENTE
           </p>
 
+          <h1 class="hero-title">
+            Impara l'inglese che usi davvero.
+          </h1>
+
+          <p class="hero-subtitle">
+            Inglese naturale per italiani: situazioni reali,
+            frasi che suonano spontanee e strategie per parlare
+            senza bloccarti.
+          </p>
+
+
           <div class="hero-actions">
+
             <a
               class="button button-primary"
               href="{{ '/daily/' | relative_url }}"
@@ -57,42 +98,78 @@
             >
               Da dove iniziare
             </a>
+
           </div>
 
+
           <p class="hero-note">
-            A2 → C1 · lezioni brevi · spiegazioni in italiano · esempi in inglese
+            A2 → C1 · lezioni brevi · spiegazioni in italiano ·
+            esempi in inglese
           </p>
+
         </div>
 
-        <div
-          class="hero-card"
-          aria-label="Il metodo Fluente-Mente"
-        >
-          <span class="hero-card-label">Il metodo</span>
 
-          <h2>Natural English, not textbook English.</h2>
+        <!-- Hero visual -->
 
-          <p>
-            Non impari solo cosa è corretto.
-            Impari cosa dire, quando dirlo e come farlo suonare naturale.
-          </p>
+        <div class="hero-visual">
+
+          <div
+            class="hero-card"
+            aria-label="Il metodo Fluente-Mente"
+          >
+
+            <p class="hero-card-kicker">
+              IL METODO
+            </p>
+
+            <h2 class="hero-card-title">
+              Natural English,
+              not textbook English.
+            </h2>
+
+            <p class="hero-card-copy">
+              Non impari solo cosa è corretto.
+              Impari cosa dire, quando dirlo e come farlo
+              suonare naturale.
+            </p>
+
+            <div class="hero-card-phrase">
+              English you can actually use.
+            </div>
+
+          </div>
+
         </div>
 
       </div>
+
     </section>
+
 
 
     <!-- =====================================================
          TODAY'S LESSON
          ===================================================== -->
-    <section class="section section-featured">
+
+    <section class="home-daily">
+
       <div class="container">
 
         <div class="section-heading">
+
           <div>
-            <p class="eyebrow">OGGI</p>
-            <h2>Your Daily English Lesson</h2>
+
+            <p class="eyebrow">
+              OGGI
+            </p>
+
+            <h2>
+              Your Daily English Lesson
+            </h2>
+
           </div>
+
 
           <a
             class="text-link"
@@ -100,140 +177,224 @@
           >
             Tutte le Daily Lessons →
           </a>
+
         </div>
+
 
         {% assign latest_article = site.articles | sort: 'day' | last %}
 
+
         {% if latest_article %}
 
-          <article class="featured-lesson-card">
+          <article class="daily-card">
 
-            <div class="featured-lesson-meta">
-              <span>
-                {{ latest_article.rubric | default: 'English in Real Life' }}
-              </span>
+            <div class="daily-card-content">
 
-              {% if latest_article.level %}
-                <span>{{ latest_article.level }}</span>
+              <div class="daily-meta">
+
+                <span>
+                  {{ latest_article.rubric
+                    | default: 'English in Real Life'
+                  }}
+                </span>
+
+                {% if latest_article.level %}
+
+                  <span>
+                    {{ latest_article.level }}
+                  </span>
+
+                {% endif %}
+
+              </div>
+
+
+              <h3 class="daily-title">
+
+                <a
+                  href="{{ latest_article.url | relative_url }}"
+                >
+                  {{ latest_article.title }}
+                </a>
+
+              </h3>
+
+
+              {% if latest_article.excerpt %}
+
+                <p class="daily-description">
+                  {{ latest_article.excerpt
+                    | strip_html
+                    | truncate: 220
+                  }}
+                </p>
+
+              {% else %}
+
+                <p class="daily-description">
+                  Una micro-lezione per imparare inglese utile,
+                  naturale e immediatamente spendibile.
+                </p>
+
               {% endif %}
+
             </div>
 
-            <h3>
-              <a href="{{ latest_article.url | relative_url }}">
-                {{ latest_article.title }}
+
+            <div class="daily-card-action">
+
+              <a
+                class="button button-primary"
+                href="{{ latest_article.url | relative_url }}"
+              >
+                Leggi la lezione
               </a>
-            </h3>
 
-            {% if latest_article.excerpt %}
-
-              <p>
-                {{ latest_article.excerpt
-                  | strip_html
-                  | truncate: 220
-                }}
-              </p>
-
-            {% else %}
-
-              <p>
-                Una micro-lezione per imparare inglese utile,
-                naturale e immediatamente spendibile.
-              </p>
-
-            {% endif %}
-
-            <a
-              class="button button-primary"
-              href="{{ latest_article.url | relative_url }}"
-            >
-              Leggi la lezione
-            </a>
+            </div>
 
           </article>
 
+
         {% else %}
 
-          <article class="featured-lesson-card featured-lesson-placeholder">
+          <article class="daily-card">
 
-            <div class="featured-lesson-meta">
-              <span>Day 1</span>
-              <span>A2–B1</span>
+            <div class="daily-card-content">
+
+              <div class="daily-meta">
+
+                <span>
+                  Day 1
+                </span>
+
+                <span>
+                  A2–B1
+                </span>
+
+              </div>
+
+
+              <h3 class="daily-title">
+                Meeting Someone for the First Time
+              </h3>
+
+
+              <p class="daily-description">
+                Una prima lezione per imparare a presentarsi,
+                iniziare una conversazione e non suonare
+                come un libro di testo.
+              </p>
+
             </div>
 
-            <h3>Meeting Someone for the First Time</h3>
 
-            <p>
-              Una prima lezione per imparare a presentarsi,
-              iniziare una conversazione e non suonare come un libro di testo.
-            </p>
+            <div class="daily-card-action">
 
-            <a
-              class="button button-primary"
-              href="{{ '/english-in-real-life/' | relative_url }}"
-            >
-              Esplora la prima lezione
-            </a>
+              <a
+                class="button button-primary"
+                href="{{ '/english-in-real-life/' | relative_url }}"
+              >
+                Esplora la prima lezione
+              </a>
+
+            </div>
 
           </article>
 
         {% endif %}
 
       </div>
+
     </section>
+
 
 
     <!-- =====================================================
          SEVEN RUBRICS
          ===================================================== -->
-    <section class="section section-rubrics">
+
+    <section class="home-rubrics">
+
       <div class="container">
 
-        <div class="section-heading section-heading-centered">
-          <p class="eyebrow">7 MODI DI IMPARARE</p>
 
-          <h2>Ogni rubrica ha un compito diverso.</h2>
+        <header class="section-heading rubrics-heading">
+
+          <p class="eyebrow">
+            ESPLORA FLUENTE-MENTE
+          </p>
+
+          <h2>
+            Sette modi per migliorare il tuo inglese.
+          </h2>
 
           <p>
-            Così non rileggi la stessa lezione con parole diverse:
-            ogni contenuto risolve un problema preciso.
+            Ogni rubrica affronta un aspetto diverso
+            dell'inglese che vuoi capire, usare
+            o portare nella vita reale.
           </p>
-        </div>
+
+        </header>
+
 
         <div class="rubrics-grid">
 
           {% assign rubric_list = site.data.rubrics.rubrics %}
 
+
           {% for rubric in rubric_list %}
 
-            <article class="rubric-card rubric-{{ rubric.slug }}">
+            <article
+              class="rubric-card rubric-{{ rubric.slug }}"
+            >
 
-              <div class="rubric-card-number">
-                {{ rubric.number
-                  | prepend: '0'
-                  | slice: -2, 2
-                }}
+
+              <div class="rubric-card-top">
+
+                <span class="rubric-number">
+
+                  {{ rubric.number
+                    | prepend: '0'
+                    | slice: -2, 2
+                  }}
+
+                </span>
+
+
+                <span class="rubric-label">
+                  RUBRICA {{ rubric.number }}
+                </span>
+
               </div>
+
 
               <div class="rubric-card-content">
 
-                <h3>
-                  <a href="{{ rubric.default_pillar | relative_url }}">
+                <h3 class="rubric-title">
+
+                  <a
+                    href="{{ rubric.default_pillar | relative_url }}"
+                  >
                     {{ rubric.name }}
                   </a>
+
                 </h3>
 
-                <p>
+
+                <p class="rubric-description">
                   {{ rubric.description_it }}
                 </p>
 
-                <a
-                  class="text-link rubric-link"
-                  href="{{ rubric.default_pillar | relative_url }}"
-                >
-                  Esplora la rubrica →
-                </a>
-
               </div>
+
+
+              <a
+                class="rubric-link"
+                href="{{ rubric.default_pillar | relative_url }}"
+              >
+                Esplora la rubrica →
+              </a>
+
 
             </article>
 
@@ -242,234 +403,336 @@
         </div>
 
       </div>
+
     </section>
+
 
 
     <!-- =====================================================
          START HERE
          ===================================================== -->
+
     <section class="section-start">
 
-  <div class="container">
+      <div class="container">
 
-    <header class="section-heading section-heading-start">
-      <p class="eyebrow">INIZIA DA QUI</p>
 
-      <h2>Da dove vuoi iniziare?</h2>
+        <header class="section-heading section-heading-start">
 
-      <p>
-        Scegli ciò che vuoi migliorare e trova il percorso giusto
-        per il tuo inglese.
-      </p>
-    </header>
+          <p class="eyebrow">
+            INIZIA DA QUI
+          </p>
 
-    <div class="start-grid">
+          <h2>
+            Da dove vuoi iniziare?
+          </h2>
 
-      <!-- Card 01 -->
-      <article class="start-card start-card-primary">
+          <p>
+            Se è la prima volta che sei qui,
+            scegli il risultato che vuoi ottenere.
+          </p>
 
-        <div class="start-card-number">
-          01
+        </header>
+
+
+        <div class="start-grid">
+
+
+          <!-- 01 -->
+
+          <article class="start-card start-card-primary">
+
+            <div class="start-card-number">
+              01
+            </div>
+
+            <p class="start-card-label">
+              PARLARE
+            </p>
+
+            <h3 class="start-card-title">
+
+              <a
+                href="{{ '/english-in-real-life/' | relative_url }}"
+              >
+                English in Real Life
+              </a>
+
+            </h3>
+
+            <p class="start-card-copy">
+              Situazioni reali, dialoghi ed espressioni
+              da usare subito.
+            </p>
+
+            <a
+              class="start-card-link"
+              href="{{ '/english-in-real-life/' | relative_url }}"
+            >
+              Inizia da qui →
+            </a>
+
+          </article>
+
+
+          <!-- 02 -->
+
+          <article class="start-card start-card-featured">
+
+            <div class="start-card-number">
+              02
+            </div>
+
+            <p class="start-card-label">
+              SUONARE NATURALE
+            </p>
+
+            <h3 class="start-card-title">
+
+              <a
+                href="{{ '/natural-english/' | relative_url }}"
+              >
+                Natural English
+              </a>
+
+            </h3>
+
+            <p class="start-card-copy">
+              Scopri cosa dire davvero invece
+              dell'inglese da libro.
+            </p>
+
+            <a
+              class="start-card-link"
+              href="{{ '/natural-english/' | relative_url }}"
+            >
+              Inizia da qui →
+            </a>
+
+          </article>
+
+
+          <!-- 03 -->
+
+          <article class="start-card">
+
+            <div class="start-card-number">
+              03
+            </div>
+
+            <p class="start-card-label">
+              CAPIRE
+            </p>
+
+            <h3 class="start-card-title">
+
+              <a
+                href="{{ '/english-from-the-real-world/' | relative_url }}"
+              >
+                English from the Real World
+              </a>
+
+            </h3>
+
+            <p class="start-card-copy">
+              Inglese di internet, media, menu,
+              recensioni e vita quotidiana.
+            </p>
+
+            <a
+              class="start-card-link"
+              href="{{ '/english-from-the-real-world/' | relative_url }}"
+            >
+              Inizia da qui →
+            </a>
+
+          </article>
+
+
         </div>
 
-        <p class="start-card-label">
-          PARLARE
-        </p>
-
-        <h3 class="start-card-title">
-          <a href="{{ '/english-in-real-life/' | relative_url }}">
-            English in Real Life
-          </a>
-        </h3>
-
-        <p class="start-card-copy">
-          Situazioni reali, dialoghi ed espressioni da usare subito.
-        </p>
-
-        <a
-          class="start-card-link"
-          href="{{ '/english-in-real-life/' | relative_url }}">
-          Inizia da qui →
-        </a>
-
-      </article>
-
-
-      <!-- Card 02 -->
-      <article class="start-card start-card-featured">
-
-        <div class="start-card-number">
-          02
-        </div>
-
-        <p class="start-card-label">
-          SUONARE NATURALE
-        </p>
-
-        <h3 class="start-card-title">
-          <a href="{{ '/natural-english/' | relative_url }}">
-            Natural English
-          </a>
-        </h3>
-
-        <p class="start-card-copy">
-          Scopri cosa dire davvero invece dell'inglese da libro.
-        </p>
-
-        <a
-          class="start-card-link"
-          href="{{ '/natural-english/' | relative_url }}">
-          Inizia da qui →
-        </a>
-
-      </article>
-
-
-      <!-- Card 03 -->
-      <article class="start-card">
-
-        <div class="start-card-number">
-          03
-        </div>
-
-        <p class="start-card-label">
-          CAPIRE
-        </p>
-
-        <h3 class="start-card-title">
-          <a href="{{ '/english-from-the-real-world/' | relative_url }}">
-            English from the Real World
-          </a>
-        </h3>
-
-        <p class="start-card-copy">
-          Inglese di internet, media, menu, recensioni e vita quotidiana.
-        </p>
-
-        <a
-          class="start-card-link"
-          href="{{ '/english-from-the-real-world/' | relative_url }}">
-          Inizia da qui →
-        </a>
-
-      </article>
-
-    </div>
-
-  </div>
+      </div>
 
     </section>
+
 
 
     <!-- =====================================================
          WHY FLUENTE-MENTE
          ===================================================== -->
-    <section class="section section-method">
-      <div class="container method-grid">
 
-        <div>
-          <p class="eyebrow">PERCHÉ FLUENTE-MENTE</p>
+    <section class="home-method">
+
+      <div class="container">
+
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            PERCHÉ FLUENTE-MENTE
+          </p>
 
           <h2>
-            Non devi conoscere tutto per riuscire a comunicare.
+            Non devi conoscere tutto
+            per riuscire a comunicare.
           </h2>
+
         </div>
 
-        <div class="method-points">
 
-          <div class="method-point">
-            <strong>Situazioni reali</strong>
+        <div class="method-grid">
 
-            <p>
+
+          <article class="method-card">
+
+            <p class="method-card-number">
+              01
+            </p>
+
+            <h3 class="method-card-title">
+              Situazioni reali
+            </h3>
+
+            <p class="method-card-copy">
               Impari partendo da quello che succede,
               non da una lista astratta di regole.
             </p>
-          </div>
+
+          </article>
 
 
-          <div class="method-point">
-            <strong>English naturale</strong>
+          <article class="method-card">
 
-            <p>
-              Scopri alternative più spontanee a tante frasi
-              corrette ma poco usate.
+            <p class="method-card-number">
+              02
             </p>
-          </div>
+
+            <h3 class="method-card-title">
+              English naturale
+            </h3>
+
+            <p class="method-card-copy">
+              Scopri alternative più spontanee
+              a tante frasi corrette ma poco usate.
+            </p>
+
+          </article>
 
 
-          <div class="method-point">
-            <strong>Spiegazioni in italiano</strong>
+          <article class="method-card">
 
-            <p>
+            <p class="method-card-number">
+              03
+            </p>
+
+            <h3 class="method-card-title">
+              Spiegazioni in italiano
+            </h3>
+
+            <p class="method-card-copy">
               Capisci il perché in italiano,
               poi vedi e usi l'inglese nel suo contesto.
             </p>
-          </div>
+
+          </article>
+
 
         </div>
 
       </div>
+
     </section>
+
 
 
     <!-- =====================================================
          BABBEL
          ===================================================== -->
+
     {% if site.babbel.enabled %}
 
-    <section class="section section-babbel">
-      <div class="container">
+      <section class="home-babbel">
 
-        <div class="babbel-home-card">
+        <div class="container">
 
-          <div class="babbel-home-copy">
-
-            <p class="eyebrow">
-              PER CONTINUARE A ESERCITARTI
-            </p>
-
-            <h2>
-              Hai bisogno di una pratica più strutturata?
-            </h2>
-
-            <p>
-              Fluente-Mente ti aiuta a capire l'inglese reale.
-              Babbel può affiancarti con un percorso più strutturato e progressivo.
-            </p>
-
-            <a
-              class="button button-primary"
-              href="{{ '/babbel/' | relative_url }}"
-            >
-              Scopri Babbel
-            </a>
-
-          </div>
+          <div class="babbel-home-card">
 
 
-          <div class="babbel-home-note">
+            <div class="babbel-home-copy">
 
-            <strong>Nota</strong>
+              <p class="eyebrow">
+                PER CONTINUARE A ESERCITARTI
+              </p>
 
-            <p>
-              Questa è una sezione commerciale separata dal contenuto editoriale.
-              Alcuni link possono essere affiliati.
-            </p>
+              <h2 class="babbel-home-title">
+                Hai bisogno di una pratica più strutturata?
+              </h2>
+
+              <p>
+                Fluente-Mente ti aiuta a capire l'inglese reale.
+                Babbel può affiancarti con un percorso più
+                strutturato e progressivo.
+              </p>
+
+
+              <div class="home-cta-row">
+
+                <a
+                  class="button button-primary"
+                  href="{{ '/babbel/' | relative_url }}"
+                >
+                  Scopri Babbel
+                </a>
+
+              </div>
+
+            </div>
+
+
+            <div class="babbel-home-note">
+
+              <strong>
+                Nota
+              </strong>
+
+              <p>
+                Questa è una sezione commerciale separata
+                dal contenuto editoriale.
+                Alcuni link possono essere affiliati.
+              </p>
+
+            </div>
+
 
           </div>
 
         </div>
 
-      </div>
-    </section>
+      </section>
 
     {% endif %}
 
+
   </main>
+
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
 
   {% include footer.html %}
 
-  <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+
+  <!-- =====================================================
+       JAVASCRIPT
+       ===================================================== -->
+
+  <script
+    src="{{ '/assets/js/main.js' | relative_url }}"
+    defer
+  ></script>
+
 
 </body>
-            </html>
+
+          </html>
