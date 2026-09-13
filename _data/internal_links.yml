@@ -1,0 +1,2921 @@
+links:
+  article-001:
+    hub: /travel/
+    related_articles: &id001
+    - article-002
+    - article-003
+    sibling_articles: *id001
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-002:
+    hub: /travel/
+    related_articles: &id002
+    - article-001
+    - article-003
+    sibling_articles: *id002
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-003:
+    hub: /travel/
+    related_articles: &id003
+    - article-002
+    - article-004
+    sibling_articles: *id003
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-004:
+    hub: /travel/
+    related_articles: &id004
+    - article-003
+    - article-005
+    sibling_articles: *id004
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-005:
+    hub: /travel/
+    related_articles: &id005
+    - article-004
+    - article-006
+    sibling_articles: *id005
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-006:
+    hub: /travel/
+    related_articles: &id006
+    - article-005
+    - article-007
+    sibling_articles: *id006
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-007:
+    hub: /travel/
+    related_articles: &id007
+    - article-006
+    - article-008
+    sibling_articles: *id007
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-008:
+    hub: /travel/
+    related_articles: &id008
+    - article-007
+    - article-009
+    sibling_articles: *id008
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-009:
+    hub: /travel/
+    related_articles: &id009
+    - article-008
+    - article-010
+    sibling_articles: *id009
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-010:
+    hub: /travel/
+    related_articles: &id010
+    - article-009
+    - article-011
+    sibling_articles: *id010
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-011:
+    hub: /travel/
+    related_articles: &id011
+    - article-010
+    - article-012
+    sibling_articles: *id011
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-012:
+    hub: /travel/
+    related_articles: &id012
+    - article-011
+    - article-013
+    sibling_articles: *id012
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-013:
+    hub: /travel/
+    related_articles: &id013
+    - article-012
+    - article-014
+    sibling_articles: *id013
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-014:
+    hub: /travel/
+    related_articles: &id014
+    - article-013
+    - article-012
+    sibling_articles: *id014
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-015:
+    hub: /food/
+    related_articles: &id015
+    - article-016
+    - article-017
+    sibling_articles: *id015
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-016:
+    hub: /food/
+    related_articles: &id016
+    - article-015
+    - article-017
+    sibling_articles: *id016
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-017:
+    hub: /food/
+    related_articles: &id017
+    - article-016
+    - article-018
+    sibling_articles: *id017
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-018:
+    hub: /food/
+    related_articles: &id018
+    - article-017
+    - article-019
+    sibling_articles: *id018
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-019:
+    hub: /food/
+    related_articles: &id019
+    - article-018
+    - article-020
+    sibling_articles: *id019
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-020:
+    hub: /food/
+    related_articles: &id020
+    - article-019
+    - article-021
+    sibling_articles: *id020
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-021:
+    hub: /food/
+    related_articles: &id021
+    - article-020
+    - article-022
+    sibling_articles: *id021
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-022:
+    hub: /food/
+    related_articles: &id022
+    - article-021
+    - article-023
+    sibling_articles: *id022
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-023:
+    hub: /food/
+    related_articles: &id023
+    - article-022
+    - article-024
+    sibling_articles: *id023
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-024:
+    hub: /food/
+    related_articles: &id024
+    - article-023
+    - article-025
+    sibling_articles: *id024
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-025:
+    hub: /food/
+    related_articles: &id025
+    - article-024
+    - article-026
+    sibling_articles: *id025
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-026:
+    hub: /food/
+    related_articles: &id026
+    - article-025
+    - article-027
+    sibling_articles: *id026
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-027:
+    hub: /food/
+    related_articles: &id027
+    - article-026
+    - article-028
+    sibling_articles: *id027
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-028:
+    hub: /food/
+    related_articles: &id028
+    - article-027
+    - article-026
+    sibling_articles: *id028
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-029:
+    hub: /shopping/
+    related_articles: &id029
+    - article-030
+    - article-031
+    sibling_articles: *id029
+    parent_cluster: shopping
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-030:
+    hub: /shopping/
+    related_articles: &id030
+    - article-029
+    - article-031
+    sibling_articles: *id030
+    parent_cluster: shopping
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-031:
+    hub: /shopping/
+    related_articles: &id031
+    - article-030
+    - article-032
+    sibling_articles: *id031
+    parent_cluster: shopping
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-032:
+    hub: /shopping/
+    related_articles: &id032
+    - article-031
+    - article-033
+    sibling_articles: *id032
+    parent_cluster: shopping
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-033:
+    hub: /shopping/
+    related_articles: &id033
+    - article-032
+    - article-034
+    sibling_articles: *id033
+    parent_cluster: shopping
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-034:
+    hub: /shopping/
+    related_articles: &id034
+    - article-033
+    - article-035
+    sibling_articles: *id034
+    parent_cluster: shopping
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-035:
+    hub: /shopping/
+    related_articles: &id035
+    - article-034
+    - article-033
+    sibling_articles: *id035
+    parent_cluster: shopping
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-036:
+    hub: /everyday-life/
+    related_articles: &id036
+    - article-037
+    - article-038
+    sibling_articles: *id036
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-037:
+    hub: /everyday-life/
+    related_articles: &id037
+    - article-036
+    - article-038
+    sibling_articles: *id037
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-038:
+    hub: /everyday-life/
+    related_articles: &id038
+    - article-037
+    - article-039
+    sibling_articles: *id038
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-039:
+    hub: /everyday-life/
+    related_articles: &id039
+    - article-038
+    - article-040
+    sibling_articles: *id039
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-040:
+    hub: /everyday-life/
+    related_articles: &id040
+    - article-039
+    - article-041
+    sibling_articles: *id040
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-041:
+    hub: /everyday-life/
+    related_articles: &id041
+    - article-040
+    - article-042
+    sibling_articles: *id041
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-042:
+    hub: /everyday-life/
+    related_articles: &id042
+    - article-041
+    - article-040
+    sibling_articles: *id042
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-043:
+    hub: /social-life/
+    related_articles: &id043
+    - article-044
+    - article-045
+    sibling_articles: *id043
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-044:
+    hub: /social-life/
+    related_articles: &id044
+    - article-043
+    - article-045
+    sibling_articles: *id044
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-045:
+    hub: /social-life/
+    related_articles: &id045
+    - article-044
+    - article-046
+    sibling_articles: *id045
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-046:
+    hub: /social-life/
+    related_articles: &id046
+    - article-045
+    - article-047
+    sibling_articles: *id046
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-047:
+    hub: /social-life/
+    related_articles: &id047
+    - article-046
+    - article-048
+    sibling_articles: *id047
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-048:
+    hub: /social-life/
+    related_articles: &id048
+    - article-047
+    - article-049
+    sibling_articles: *id048
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-049:
+    hub: /social-life/
+    related_articles: &id049
+    - article-048
+    - article-050
+    sibling_articles: *id049
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-050:
+    hub: /social-life/
+    related_articles: &id050
+    - article-049
+    - article-051
+    sibling_articles: *id050
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-051:
+    hub: /social-life/
+    related_articles: &id051
+    - article-050
+    - article-052
+    sibling_articles: *id051
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-052:
+    hub: /social-life/
+    related_articles: &id052
+    - article-051
+    - article-053
+    sibling_articles: *id052
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-053:
+    hub: /social-life/
+    related_articles: &id053
+    - article-052
+    - article-054
+    sibling_articles: *id053
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-054:
+    hub: /social-life/
+    related_articles: &id054
+    - article-053
+    - article-055
+    sibling_articles: *id054
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-055:
+    hub: /social-life/
+    related_articles: &id055
+    - article-054
+    - article-056
+    sibling_articles: *id055
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-056:
+    hub: /social-life/
+    related_articles: &id056
+    - article-055
+    - article-054
+    sibling_articles: *id056
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-057:
+    hub: /conversation/
+    related_articles: &id057
+    - article-058
+    - article-059
+    sibling_articles: *id057
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-058:
+    hub: /conversation/
+    related_articles: &id058
+    - article-057
+    - article-059
+    sibling_articles: *id058
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-059:
+    hub: /conversation/
+    related_articles: &id059
+    - article-058
+    - article-060
+    sibling_articles: *id059
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-060:
+    hub: /conversation/
+    related_articles: &id060
+    - article-059
+    - article-061
+    sibling_articles: *id060
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-061:
+    hub: /conversation/
+    related_articles: &id061
+    - article-060
+    - article-062
+    sibling_articles: *id061
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-062:
+    hub: /conversation/
+    related_articles: &id062
+    - article-061
+    - article-063
+    sibling_articles: *id062
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-063:
+    hub: /conversation/
+    related_articles: &id063
+    - article-062
+    - article-061
+    sibling_articles: *id063
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-064:
+    hub: /home-family/
+    related_articles: &id064
+    - article-065
+    - article-066
+    sibling_articles: *id064
+    parent_cluster: home-family
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-065:
+    hub: /home-family/
+    related_articles: &id065
+    - article-064
+    - article-066
+    sibling_articles: *id065
+    parent_cluster: home-family
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-066:
+    hub: /home-family/
+    related_articles: &id066
+    - article-065
+    - article-067
+    sibling_articles: *id066
+    parent_cluster: home-family
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-067:
+    hub: /home-family/
+    related_articles: &id067
+    - article-066
+    - article-068
+    sibling_articles: *id067
+    parent_cluster: home-family
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-068:
+    hub: /home-family/
+    related_articles: &id068
+    - article-067
+    - article-069
+    sibling_articles: *id068
+    parent_cluster: home-family
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-069:
+    hub: /home-family/
+    related_articles: &id069
+    - article-068
+    - article-070
+    sibling_articles: *id069
+    parent_cluster: home-family
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-070:
+    hub: /home-family/
+    related_articles: &id070
+    - article-069
+    - article-068
+    sibling_articles: *id070
+    parent_cluster: home-family
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-071:
+    hub: /work/
+    related_articles: &id071
+    - article-072
+    - article-073
+    sibling_articles: *id071
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-072:
+    hub: /work/
+    related_articles: &id072
+    - article-071
+    - article-073
+    sibling_articles: *id072
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-073:
+    hub: /work/
+    related_articles: &id073
+    - article-072
+    - article-074
+    sibling_articles: *id073
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-074:
+    hub: /work/
+    related_articles: &id074
+    - article-073
+    - article-075
+    sibling_articles: *id074
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-075:
+    hub: /work/
+    related_articles: &id075
+    - article-074
+    - article-076
+    sibling_articles: *id075
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-076:
+    hub: /work/
+    related_articles: &id076
+    - article-075
+    - article-077
+    sibling_articles: *id076
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-077:
+    hub: /work/
+    related_articles: &id077
+    - article-076
+    - article-078
+    sibling_articles: *id077
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-078:
+    hub: /work/
+    related_articles: &id078
+    - article-077
+    - article-079
+    sibling_articles: *id078
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-079:
+    hub: /work/
+    related_articles: &id079
+    - article-078
+    - article-080
+    sibling_articles: *id079
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-080:
+    hub: /work/
+    related_articles: &id080
+    - article-079
+    - article-081
+    sibling_articles: *id080
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-081:
+    hub: /work/
+    related_articles: &id081
+    - article-080
+    - article-082
+    sibling_articles: *id081
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-082:
+    hub: /work/
+    related_articles: &id082
+    - article-081
+    - article-083
+    sibling_articles: *id082
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-083:
+    hub: /work/
+    related_articles: &id083
+    - article-082
+    - article-084
+    sibling_articles: *id083
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-084:
+    hub: /work/
+    related_articles: &id084
+    - article-083
+    - article-085
+    sibling_articles: *id084
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-085:
+    hub: /work/
+    related_articles: &id085
+    - article-084
+    - article-086
+    sibling_articles: *id085
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-086:
+    hub: /work/
+    related_articles: &id086
+    - article-085
+    - article-087
+    sibling_articles: *id086
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-087:
+    hub: /work/
+    related_articles: &id087
+    - article-086
+    - article-088
+    sibling_articles: *id087
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-088:
+    hub: /work/
+    related_articles: &id088
+    - article-087
+    - article-089
+    sibling_articles: *id088
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-089:
+    hub: /work/
+    related_articles: &id089
+    - article-088
+    - article-090
+    sibling_articles: *id089
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-090:
+    hub: /work/
+    related_articles: &id090
+    - article-089
+    - article-091
+    sibling_articles: *id090
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-091:
+    hub: /work/
+    related_articles: &id091
+    - article-090
+    - article-092
+    sibling_articles: *id091
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-092:
+    hub: /work/
+    related_articles: &id092
+    - article-091
+    - article-093
+    sibling_articles: *id092
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-093:
+    hub: /work/
+    related_articles: &id093
+    - article-092
+    - article-094
+    sibling_articles: *id093
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-094:
+    hub: /work/
+    related_articles: &id094
+    - article-093
+    - article-095
+    sibling_articles: *id094
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-095:
+    hub: /work/
+    related_articles: &id095
+    - article-094
+    - article-096
+    sibling_articles: *id095
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-096:
+    hub: /work/
+    related_articles: &id096
+    - article-095
+    - article-097
+    sibling_articles: *id096
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-097:
+    hub: /work/
+    related_articles: &id097
+    - article-096
+    - article-098
+    sibling_articles: *id097
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-098:
+    hub: /work/
+    related_articles: &id098
+    - article-097
+    - article-096
+    sibling_articles: *id098
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-099:
+    hub: /study/
+    related_articles: &id099
+    - article-100
+    - article-101
+    sibling_articles: *id099
+    parent_cluster: study
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-100:
+    hub: /study/
+    related_articles: &id100
+    - article-099
+    - article-101
+    sibling_articles: *id100
+    parent_cluster: study
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-101:
+    hub: /study/
+    related_articles: &id101
+    - article-100
+    - article-102
+    sibling_articles: *id101
+    parent_cluster: study
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-102:
+    hub: /study/
+    related_articles: &id102
+    - article-101
+    - article-103
+    sibling_articles: *id102
+    parent_cluster: study
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-103:
+    hub: /study/
+    related_articles: &id103
+    - article-102
+    - article-104
+    sibling_articles: *id103
+    parent_cluster: study
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-104:
+    hub: /study/
+    related_articles: &id104
+    - article-103
+    - article-105
+    sibling_articles: *id104
+    parent_cluster: study
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-105:
+    hub: /study/
+    related_articles: &id105
+    - article-104
+    - article-103
+    sibling_articles: *id105
+    parent_cluster: study
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-106:
+    hub: /everyday-life/
+    related_articles: &id106
+    - article-107
+    - article-108
+    sibling_articles: *id106
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-107:
+    hub: /everyday-life/
+    related_articles: &id107
+    - article-106
+    - article-108
+    sibling_articles: *id107
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-108:
+    hub: /everyday-life/
+    related_articles: &id108
+    - article-107
+    - article-109
+    sibling_articles: *id108
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-109:
+    hub: /everyday-life/
+    related_articles: &id109
+    - article-108
+    - article-110
+    sibling_articles: *id109
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-110:
+    hub: /everyday-life/
+    related_articles: &id110
+    - article-109
+    - article-111
+    sibling_articles: *id110
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-111:
+    hub: /everyday-life/
+    related_articles: &id111
+    - article-110
+    - article-112
+    sibling_articles: *id111
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-112:
+    hub: /everyday-life/
+    related_articles: &id112
+    - article-111
+    - article-110
+    sibling_articles: *id112
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-113:
+    hub: /health/
+    related_articles: &id113
+    - article-114
+    - article-115
+    sibling_articles: *id113
+    parent_cluster: health
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-114:
+    hub: /health/
+    related_articles: &id114
+    - article-113
+    - article-115
+    sibling_articles: *id114
+    parent_cluster: health
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-115:
+    hub: /health/
+    related_articles: &id115
+    - article-114
+    - article-116
+    sibling_articles: *id115
+    parent_cluster: health
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-116:
+    hub: /health/
+    related_articles: &id116
+    - article-115
+    - article-117
+    sibling_articles: *id116
+    parent_cluster: health
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-117:
+    hub: /health/
+    related_articles: &id117
+    - article-116
+    - article-118
+    sibling_articles: *id117
+    parent_cluster: health
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-118:
+    hub: /health/
+    related_articles: &id118
+    - article-117
+    - article-119
+    sibling_articles: *id118
+    parent_cluster: health
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-119:
+    hub: /health/
+    related_articles: &id119
+    - article-118
+    - article-117
+    sibling_articles: *id119
+    parent_cluster: health
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-120:
+    hub: /emotions/
+    related_articles: &id120
+    - article-121
+    - article-122
+    sibling_articles: *id120
+    parent_cluster: emotions
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-121:
+    hub: /emotions/
+    related_articles: &id121
+    - article-120
+    - article-122
+    sibling_articles: *id121
+    parent_cluster: emotions
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-122:
+    hub: /emotions/
+    related_articles: &id122
+    - article-121
+    - article-123
+    sibling_articles: *id122
+    parent_cluster: emotions
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-123:
+    hub: /emotions/
+    related_articles: &id123
+    - article-122
+    - article-124
+    sibling_articles: *id123
+    parent_cluster: emotions
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-124:
+    hub: /emotions/
+    related_articles: &id124
+    - article-123
+    - article-125
+    sibling_articles: *id124
+    parent_cluster: emotions
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-125:
+    hub: /emotions/
+    related_articles: &id125
+    - article-124
+    - article-126
+    sibling_articles: *id125
+    parent_cluster: emotions
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-126:
+    hub: /emotions/
+    related_articles: &id126
+    - article-125
+    - article-124
+    sibling_articles: *id126
+    parent_cluster: emotions
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-127:
+    hub: /conversation/
+    related_articles: &id127
+    - article-128
+    - article-129
+    sibling_articles: *id127
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-128:
+    hub: /conversation/
+    related_articles: &id128
+    - article-127
+    - article-129
+    sibling_articles: *id128
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-129:
+    hub: /conversation/
+    related_articles: &id129
+    - article-128
+    - article-130
+    sibling_articles: *id129
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-130:
+    hub: /conversation/
+    related_articles: &id130
+    - article-129
+    - article-131
+    sibling_articles: *id130
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-131:
+    hub: /conversation/
+    related_articles: &id131
+    - article-130
+    - article-132
+    sibling_articles: *id131
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-132:
+    hub: /conversation/
+    related_articles: &id132
+    - article-131
+    - article-133
+    sibling_articles: *id132
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-133:
+    hub: /conversation/
+    related_articles: &id133
+    - article-132
+    - article-131
+    sibling_articles: *id133
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-134:
+    hub: /real-life/
+    related_articles: &id134
+    - article-135
+    - article-136
+    sibling_articles: *id134
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-135:
+    hub: /real-life/
+    related_articles: &id135
+    - article-134
+    - article-136
+    sibling_articles: *id135
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-136:
+    hub: /real-life/
+    related_articles: &id136
+    - article-135
+    - article-137
+    sibling_articles: *id136
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-137:
+    hub: /real-life/
+    related_articles: &id137
+    - article-136
+    - article-138
+    sibling_articles: *id137
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-138:
+    hub: /real-life/
+    related_articles: &id138
+    - article-137
+    - article-139
+    sibling_articles: *id138
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-139:
+    hub: /real-life/
+    related_articles: &id139
+    - article-138
+    - article-140
+    sibling_articles: *id139
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-140:
+    hub: /real-life/
+    related_articles: &id140
+    - article-139
+    - article-141
+    sibling_articles: *id140
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-141:
+    hub: /real-life/
+    related_articles: &id141
+    - article-140
+    - article-142
+    sibling_articles: *id141
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-142:
+    hub: /real-life/
+    related_articles: &id142
+    - article-141
+    - article-143
+    sibling_articles: *id142
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-143:
+    hub: /real-life/
+    related_articles: &id143
+    - article-142
+    - article-144
+    sibling_articles: *id143
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-144:
+    hub: /real-life/
+    related_articles: &id144
+    - article-143
+    - article-145
+    sibling_articles: *id144
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-145:
+    hub: /real-life/
+    related_articles: &id145
+    - article-144
+    - article-146
+    sibling_articles: *id145
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-146:
+    hub: /real-life/
+    related_articles: &id146
+    - article-145
+    - article-147
+    sibling_articles: *id146
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-147:
+    hub: /real-life/
+    related_articles: &id147
+    - article-146
+    - article-145
+    sibling_articles: *id147
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-148:
+    hub: /technology/
+    related_articles: &id148
+    - article-149
+    - article-150
+    sibling_articles: *id148
+    parent_cluster: technology
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-149:
+    hub: /technology/
+    related_articles: &id149
+    - article-148
+    - article-150
+    sibling_articles: *id149
+    parent_cluster: technology
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-150:
+    hub: /technology/
+    related_articles: &id150
+    - article-149
+    - article-151
+    sibling_articles: *id150
+    parent_cluster: technology
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-151:
+    hub: /technology/
+    related_articles: &id151
+    - article-150
+    - article-152
+    sibling_articles: *id151
+    parent_cluster: technology
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-152:
+    hub: /technology/
+    related_articles: &id152
+    - article-151
+    - article-153
+    sibling_articles: *id152
+    parent_cluster: technology
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-153:
+    hub: /technology/
+    related_articles: &id153
+    - article-152
+    - article-154
+    sibling_articles: *id153
+    parent_cluster: technology
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-154:
+    hub: /technology/
+    related_articles: &id154
+    - article-153
+    - article-152
+    sibling_articles: *id154
+    parent_cluster: technology
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-155:
+    hub: /money/
+    related_articles: &id155
+    - article-156
+    - article-157
+    sibling_articles: *id155
+    parent_cluster: money
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-156:
+    hub: /money/
+    related_articles: &id156
+    - article-155
+    - article-157
+    sibling_articles: *id156
+    parent_cluster: money
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-157:
+    hub: /money/
+    related_articles: &id157
+    - article-156
+    - article-158
+    sibling_articles: *id157
+    parent_cluster: money
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-158:
+    hub: /money/
+    related_articles: &id158
+    - article-157
+    - article-159
+    sibling_articles: *id158
+    parent_cluster: money
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-159:
+    hub: /money/
+    related_articles: &id159
+    - article-158
+    - article-160
+    sibling_articles: *id159
+    parent_cluster: money
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-160:
+    hub: /money/
+    related_articles: &id160
+    - article-159
+    - article-161
+    sibling_articles: *id160
+    parent_cluster: money
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-161:
+    hub: /money/
+    related_articles: &id161
+    - article-160
+    - article-159
+    sibling_articles: *id161
+    parent_cluster: money
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-162:
+    hub: /everyday-life/
+    related_articles: &id162
+    - article-163
+    - article-164
+    sibling_articles: *id162
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-163:
+    hub: /everyday-life/
+    related_articles: &id163
+    - article-162
+    - article-164
+    sibling_articles: *id163
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-164:
+    hub: /everyday-life/
+    related_articles: &id164
+    - article-163
+    - article-165
+    sibling_articles: *id164
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-165:
+    hub: /everyday-life/
+    related_articles: &id165
+    - article-164
+    - article-166
+    sibling_articles: *id165
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-166:
+    hub: /everyday-life/
+    related_articles: &id166
+    - article-165
+    - article-167
+    sibling_articles: *id166
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-167:
+    hub: /everyday-life/
+    related_articles: &id167
+    - article-166
+    - article-168
+    sibling_articles: *id167
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-168:
+    hub: /everyday-life/
+    related_articles: &id168
+    - article-167
+    - article-166
+    sibling_articles: *id168
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-169:
+    hub: /social-life/
+    related_articles: &id169
+    - article-170
+    - article-171
+    sibling_articles: *id169
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-170:
+    hub: /social-life/
+    related_articles: &id170
+    - article-169
+    - article-171
+    sibling_articles: *id170
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-171:
+    hub: /social-life/
+    related_articles: &id171
+    - article-170
+    - article-172
+    sibling_articles: *id171
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-172:
+    hub: /social-life/
+    related_articles: &id172
+    - article-171
+    - article-173
+    sibling_articles: *id172
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-173:
+    hub: /social-life/
+    related_articles: &id173
+    - article-172
+    - article-174
+    sibling_articles: *id173
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-174:
+    hub: /social-life/
+    related_articles: &id174
+    - article-173
+    - article-175
+    sibling_articles: *id174
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-175:
+    hub: /social-life/
+    related_articles: &id175
+    - article-174
+    - article-173
+    sibling_articles: *id175
+    parent_cluster: social-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-176:
+    hub: /everyday-life/
+    related_articles: &id176
+    - article-177
+    - article-178
+    sibling_articles: *id176
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-177:
+    hub: /everyday-life/
+    related_articles: &id177
+    - article-176
+    - article-178
+    sibling_articles: *id177
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-178:
+    hub: /everyday-life/
+    related_articles: &id178
+    - article-177
+    - article-179
+    sibling_articles: *id178
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-179:
+    hub: /everyday-life/
+    related_articles: &id179
+    - article-178
+    - article-180
+    sibling_articles: *id179
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-180:
+    hub: /everyday-life/
+    related_articles: &id180
+    - article-179
+    - article-181
+    sibling_articles: *id180
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-181:
+    hub: /everyday-life/
+    related_articles: &id181
+    - article-180
+    - article-182
+    sibling_articles: *id181
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-182:
+    hub: /everyday-life/
+    related_articles: &id182
+    - article-181
+    - article-180
+    sibling_articles: *id182
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-183:
+    hub: /natural-english/
+    related_articles: &id183
+    - article-184
+    - article-185
+    sibling_articles: *id183
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-184:
+    hub: /natural-english/
+    related_articles: &id184
+    - article-183
+    - article-185
+    sibling_articles: *id184
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-185:
+    hub: /natural-english/
+    related_articles: &id185
+    - article-184
+    - article-186
+    sibling_articles: *id185
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-186:
+    hub: /natural-english/
+    related_articles: &id186
+    - article-185
+    - article-187
+    sibling_articles: *id186
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-187:
+    hub: /natural-english/
+    related_articles: &id187
+    - article-186
+    - article-188
+    sibling_articles: *id187
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-188:
+    hub: /natural-english/
+    related_articles: &id188
+    - article-187
+    - article-189
+    sibling_articles: *id188
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-189:
+    hub: /natural-english/
+    related_articles: &id189
+    - article-188
+    - article-187
+    sibling_articles: *id189
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-190:
+    hub: /travel/
+    related_articles: &id190
+    - article-191
+    - article-192
+    sibling_articles: *id190
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-191:
+    hub: /travel/
+    related_articles: &id191
+    - article-190
+    - article-192
+    sibling_articles: *id191
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-192:
+    hub: /travel/
+    related_articles: &id192
+    - article-191
+    - article-193
+    sibling_articles: *id192
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-193:
+    hub: /travel/
+    related_articles: &id193
+    - article-192
+    - article-194
+    sibling_articles: *id193
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-194:
+    hub: /travel/
+    related_articles: &id194
+    - article-193
+    - article-195
+    sibling_articles: *id194
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-195:
+    hub: /travel/
+    related_articles: &id195
+    - article-194
+    - article-196
+    sibling_articles: *id195
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-196:
+    hub: /travel/
+    related_articles: &id196
+    - article-195
+    - article-194
+    sibling_articles: *id196
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-197:
+    hub: /work/
+    related_articles: &id197
+    - article-198
+    - article-199
+    sibling_articles: *id197
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-198:
+    hub: /work/
+    related_articles: &id198
+    - article-197
+    - article-199
+    sibling_articles: *id198
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-199:
+    hub: /work/
+    related_articles: &id199
+    - article-198
+    - article-200
+    sibling_articles: *id199
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-200:
+    hub: /work/
+    related_articles: &id200
+    - article-199
+    - article-201
+    sibling_articles: *id200
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-201:
+    hub: /work/
+    related_articles: &id201
+    - article-200
+    - article-202
+    sibling_articles: *id201
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-202:
+    hub: /work/
+    related_articles: &id202
+    - article-201
+    - article-203
+    sibling_articles: *id202
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-203:
+    hub: /work/
+    related_articles: &id203
+    - article-202
+    - article-201
+    sibling_articles: *id203
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-204:
+    hub: /real-life/
+    related_articles: &id204
+    - article-205
+    - article-206
+    sibling_articles: *id204
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-205:
+    hub: /real-life/
+    related_articles: &id205
+    - article-204
+    - article-206
+    sibling_articles: *id205
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-206:
+    hub: /real-life/
+    related_articles: &id206
+    - article-205
+    - article-207
+    sibling_articles: *id206
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-207:
+    hub: /real-life/
+    related_articles: &id207
+    - article-206
+    - article-208
+    sibling_articles: *id207
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-208:
+    hub: /real-life/
+    related_articles: &id208
+    - article-207
+    - article-209
+    sibling_articles: *id208
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-209:
+    hub: /real-life/
+    related_articles: &id209
+    - article-208
+    - article-210
+    sibling_articles: *id209
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-210:
+    hub: /real-life/
+    related_articles: &id210
+    - article-209
+    - article-208
+    sibling_articles: *id210
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-211:
+    hub: /food/
+    related_articles: &id211
+    - article-212
+    - article-213
+    sibling_articles: *id211
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-212:
+    hub: /food/
+    related_articles: &id212
+    - article-211
+    - article-213
+    sibling_articles: *id212
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-213:
+    hub: /food/
+    related_articles: &id213
+    - article-212
+    - article-214
+    sibling_articles: *id213
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-214:
+    hub: /food/
+    related_articles: &id214
+    - article-213
+    - article-215
+    sibling_articles: *id214
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-215:
+    hub: /food/
+    related_articles: &id215
+    - article-214
+    - article-216
+    sibling_articles: *id215
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-216:
+    hub: /food/
+    related_articles: &id216
+    - article-215
+    - article-217
+    sibling_articles: *id216
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-217:
+    hub: /food/
+    related_articles: &id217
+    - article-216
+    - article-215
+    sibling_articles: *id217
+    parent_cluster: food
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-218:
+    hub: /real-life/
+    related_articles: &id218
+    - article-219
+    - article-220
+    sibling_articles: *id218
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-219:
+    hub: /real-life/
+    related_articles: &id219
+    - article-218
+    - article-220
+    sibling_articles: *id219
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-220:
+    hub: /real-life/
+    related_articles: &id220
+    - article-219
+    - article-221
+    sibling_articles: *id220
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-221:
+    hub: /real-life/
+    related_articles: &id221
+    - article-220
+    - article-222
+    sibling_articles: *id221
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-222:
+    hub: /real-life/
+    related_articles: &id222
+    - article-221
+    - article-223
+    sibling_articles: *id222
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-223:
+    hub: /real-life/
+    related_articles: &id223
+    - article-222
+    - article-224
+    sibling_articles: *id223
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-224:
+    hub: /real-life/
+    related_articles: &id224
+    - article-223
+    - article-222
+    sibling_articles: *id224
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-225:
+    hub: /life/
+    related_articles: &id225
+    - article-226
+    - article-227
+    sibling_articles: *id225
+    parent_cluster: life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-226:
+    hub: /life/
+    related_articles: &id226
+    - article-225
+    - article-227
+    sibling_articles: *id226
+    parent_cluster: life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-227:
+    hub: /life/
+    related_articles: &id227
+    - article-226
+    - article-228
+    sibling_articles: *id227
+    parent_cluster: life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-228:
+    hub: /life/
+    related_articles: &id228
+    - article-227
+    - article-229
+    sibling_articles: *id228
+    parent_cluster: life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-229:
+    hub: /life/
+    related_articles: &id229
+    - article-228
+    - article-230
+    sibling_articles: *id229
+    parent_cluster: life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-230:
+    hub: /life/
+    related_articles: &id230
+    - article-229
+    - article-231
+    sibling_articles: *id230
+    parent_cluster: life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-231:
+    hub: /life/
+    related_articles: &id231
+    - article-230
+    - article-229
+    sibling_articles: *id231
+    parent_cluster: life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-232:
+    hub: /conversation/
+    related_articles: &id232
+    - article-233
+    - article-234
+    sibling_articles: *id232
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-233:
+    hub: /conversation/
+    related_articles: &id233
+    - article-232
+    - article-234
+    sibling_articles: *id233
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-234:
+    hub: /conversation/
+    related_articles: &id234
+    - article-233
+    - article-235
+    sibling_articles: *id234
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-235:
+    hub: /conversation/
+    related_articles: &id235
+    - article-234
+    - article-236
+    sibling_articles: *id235
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-236:
+    hub: /conversation/
+    related_articles: &id236
+    - article-235
+    - article-237
+    sibling_articles: *id236
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-237:
+    hub: /conversation/
+    related_articles: &id237
+    - article-236
+    - article-238
+    sibling_articles: *id237
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-238:
+    hub: /conversation/
+    related_articles: &id238
+    - article-237
+    - article-236
+    sibling_articles: *id238
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-239:
+    hub: /travel/
+    related_articles: &id239
+    - article-240
+    - article-241
+    sibling_articles: *id239
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-240:
+    hub: /travel/
+    related_articles: &id240
+    - article-239
+    - article-241
+    sibling_articles: *id240
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-241:
+    hub: /travel/
+    related_articles: &id241
+    - article-240
+    - article-242
+    sibling_articles: *id241
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-242:
+    hub: /travel/
+    related_articles: &id242
+    - article-241
+    - article-243
+    sibling_articles: *id242
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-243:
+    hub: /travel/
+    related_articles: &id243
+    - article-242
+    - article-244
+    sibling_articles: *id243
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-244:
+    hub: /travel/
+    related_articles: &id244
+    - article-243
+    - article-245
+    sibling_articles: *id244
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-245:
+    hub: /travel/
+    related_articles: &id245
+    - article-244
+    - article-243
+    sibling_articles: *id245
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-246:
+    hub: /conversation/
+    related_articles: &id246
+    - article-247
+    - article-248
+    sibling_articles: *id246
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-247:
+    hub: /conversation/
+    related_articles: &id247
+    - article-246
+    - article-248
+    sibling_articles: *id247
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-248:
+    hub: /conversation/
+    related_articles: &id248
+    - article-247
+    - article-249
+    sibling_articles: *id248
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-249:
+    hub: /conversation/
+    related_articles: &id249
+    - article-248
+    - article-250
+    sibling_articles: *id249
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-250:
+    hub: /conversation/
+    related_articles: &id250
+    - article-249
+    - article-251
+    sibling_articles: *id250
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-251:
+    hub: /conversation/
+    related_articles: &id251
+    - article-250
+    - article-252
+    sibling_articles: *id251
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-252:
+    hub: /conversation/
+    related_articles: &id252
+    - article-251
+    - article-253
+    sibling_articles: *id252
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-253:
+    hub: /conversation/
+    related_articles: &id253
+    - article-252
+    - article-254
+    sibling_articles: *id253
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-254:
+    hub: /conversation/
+    related_articles: &id254
+    - article-253
+    - article-255
+    sibling_articles: *id254
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-255:
+    hub: /conversation/
+    related_articles: &id255
+    - article-254
+    - article-256
+    sibling_articles: *id255
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-256:
+    hub: /conversation/
+    related_articles: &id256
+    - article-255
+    - article-257
+    sibling_articles: *id256
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-257:
+    hub: /conversation/
+    related_articles: &id257
+    - article-256
+    - article-258
+    sibling_articles: *id257
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-258:
+    hub: /conversation/
+    related_articles: &id258
+    - article-257
+    - article-259
+    sibling_articles: *id258
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-259:
+    hub: /conversation/
+    related_articles: &id259
+    - article-258
+    - article-260
+    sibling_articles: *id259
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-260:
+    hub: /conversation/
+    related_articles: &id260
+    - article-259
+    - article-261
+    sibling_articles: *id260
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-261:
+    hub: /conversation/
+    related_articles: &id261
+    - article-260
+    - article-262
+    sibling_articles: *id261
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-262:
+    hub: /conversation/
+    related_articles: &id262
+    - article-261
+    - article-263
+    sibling_articles: *id262
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-263:
+    hub: /conversation/
+    related_articles: &id263
+    - article-262
+    - article-264
+    sibling_articles: *id263
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-264:
+    hub: /conversation/
+    related_articles: &id264
+    - article-263
+    - article-265
+    sibling_articles: *id264
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-265:
+    hub: /conversation/
+    related_articles: &id265
+    - article-264
+    - article-266
+    sibling_articles: *id265
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-266:
+    hub: /conversation/
+    related_articles: &id266
+    - article-265
+    - article-264
+    sibling_articles: *id266
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-267:
+    hub: /everyday-life/
+    related_articles: &id267
+    - article-268
+    - article-269
+    sibling_articles: *id267
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-268:
+    hub: /everyday-life/
+    related_articles: &id268
+    - article-267
+    - article-269
+    sibling_articles: *id268
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-269:
+    hub: /everyday-life/
+    related_articles: &id269
+    - article-268
+    - article-270
+    sibling_articles: *id269
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-270:
+    hub: /everyday-life/
+    related_articles: &id270
+    - article-269
+    - article-271
+    sibling_articles: *id270
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-271:
+    hub: /everyday-life/
+    related_articles: &id271
+    - article-270
+    - article-272
+    sibling_articles: *id271
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-272:
+    hub: /everyday-life/
+    related_articles: &id272
+    - article-271
+    - article-273
+    sibling_articles: *id272
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-273:
+    hub: /everyday-life/
+    related_articles: &id273
+    - article-272
+    - article-271
+    sibling_articles: *id273
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-274:
+    hub: /work/
+    related_articles: &id274
+    - article-275
+    - article-276
+    sibling_articles: *id274
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-275:
+    hub: /work/
+    related_articles: &id275
+    - article-274
+    - article-276
+    sibling_articles: *id275
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-276:
+    hub: /work/
+    related_articles: &id276
+    - article-275
+    - article-277
+    sibling_articles: *id276
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-277:
+    hub: /work/
+    related_articles: &id277
+    - article-276
+    - article-278
+    sibling_articles: *id277
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-278:
+    hub: /work/
+    related_articles: &id278
+    - article-277
+    - article-279
+    sibling_articles: *id278
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-279:
+    hub: /work/
+    related_articles: &id279
+    - article-278
+    - article-280
+    sibling_articles: *id279
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-280:
+    hub: /work/
+    related_articles: &id280
+    - article-279
+    - article-278
+    sibling_articles: *id280
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-281:
+    hub: /natural-english/
+    related_articles: &id281
+    - article-282
+    - article-283
+    sibling_articles: *id281
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-282:
+    hub: /natural-english/
+    related_articles: &id282
+    - article-281
+    - article-283
+    sibling_articles: *id282
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-283:
+    hub: /natural-english/
+    related_articles: &id283
+    - article-282
+    - article-284
+    sibling_articles: *id283
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-284:
+    hub: /natural-english/
+    related_articles: &id284
+    - article-283
+    - article-285
+    sibling_articles: *id284
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-285:
+    hub: /natural-english/
+    related_articles: &id285
+    - article-284
+    - article-286
+    sibling_articles: *id285
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-286:
+    hub: /natural-english/
+    related_articles: &id286
+    - article-285
+    - article-287
+    sibling_articles: *id286
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-287:
+    hub: /natural-english/
+    related_articles: &id287
+    - article-286
+    - article-288
+    sibling_articles: *id287
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-288:
+    hub: /natural-english/
+    related_articles: &id288
+    - article-287
+    - article-289
+    sibling_articles: *id288
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-289:
+    hub: /natural-english/
+    related_articles: &id289
+    - article-288
+    - article-290
+    sibling_articles: *id289
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-290:
+    hub: /natural-english/
+    related_articles: &id290
+    - article-289
+    - article-291
+    sibling_articles: *id290
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-291:
+    hub: /natural-english/
+    related_articles: &id291
+    - article-290
+    - article-292
+    sibling_articles: *id291
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-292:
+    hub: /natural-english/
+    related_articles: &id292
+    - article-291
+    - article-293
+    sibling_articles: *id292
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-293:
+    hub: /natural-english/
+    related_articles: &id293
+    - article-292
+    - article-294
+    sibling_articles: *id293
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-294:
+    hub: /natural-english/
+    related_articles: &id294
+    - article-293
+    - article-295
+    sibling_articles: *id294
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-295:
+    hub: /natural-english/
+    related_articles: &id295
+    - article-294
+    - article-296
+    sibling_articles: *id295
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-296:
+    hub: /natural-english/
+    related_articles: &id296
+    - article-295
+    - article-297
+    sibling_articles: *id296
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-297:
+    hub: /natural-english/
+    related_articles: &id297
+    - article-296
+    - article-298
+    sibling_articles: *id297
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-298:
+    hub: /natural-english/
+    related_articles: &id298
+    - article-297
+    - article-299
+    sibling_articles: *id298
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-299:
+    hub: /natural-english/
+    related_articles: &id299
+    - article-298
+    - article-300
+    sibling_articles: *id299
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-300:
+    hub: /natural-english/
+    related_articles: &id300
+    - article-299
+    - article-301
+    sibling_articles: *id300
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-301:
+    hub: /natural-english/
+    related_articles: &id301
+    - article-300
+    - article-302
+    sibling_articles: *id301
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-302:
+    hub: /natural-english/
+    related_articles: &id302
+    - article-301
+    - article-303
+    sibling_articles: *id302
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-303:
+    hub: /natural-english/
+    related_articles: &id303
+    - article-302
+    - article-304
+    sibling_articles: *id303
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-304:
+    hub: /natural-english/
+    related_articles: &id304
+    - article-303
+    - article-305
+    sibling_articles: *id304
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-305:
+    hub: /natural-english/
+    related_articles: &id305
+    - article-304
+    - article-306
+    sibling_articles: *id305
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-306:
+    hub: /natural-english/
+    related_articles: &id306
+    - article-305
+    - article-307
+    sibling_articles: *id306
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-307:
+    hub: /natural-english/
+    related_articles: &id307
+    - article-306
+    - article-308
+    sibling_articles: *id307
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-308:
+    hub: /natural-english/
+    related_articles: &id308
+    - article-307
+    - article-309
+    sibling_articles: *id308
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-309:
+    hub: /natural-english/
+    related_articles: &id309
+    - article-308
+    - article-310
+    sibling_articles: *id309
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-310:
+    hub: /natural-english/
+    related_articles: &id310
+    - article-309
+    - article-311
+    sibling_articles: *id310
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-311:
+    hub: /natural-english/
+    related_articles: &id311
+    - article-310
+    - article-312
+    sibling_articles: *id311
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-312:
+    hub: /natural-english/
+    related_articles: &id312
+    - article-311
+    - article-313
+    sibling_articles: *id312
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-313:
+    hub: /natural-english/
+    related_articles: &id313
+    - article-312
+    - article-314
+    sibling_articles: *id313
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-314:
+    hub: /natural-english/
+    related_articles: &id314
+    - article-313
+    - article-315
+    sibling_articles: *id314
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-315:
+    hub: /natural-english/
+    related_articles: &id315
+    - article-314
+    - article-313
+    sibling_articles: *id315
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-316:
+    hub: /work/
+    related_articles: &id316
+    - article-317
+    - article-318
+    sibling_articles: *id316
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-317:
+    hub: /work/
+    related_articles: &id317
+    - article-316
+    - article-318
+    sibling_articles: *id317
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-318:
+    hub: /work/
+    related_articles: &id318
+    - article-317
+    - article-319
+    sibling_articles: *id318
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-319:
+    hub: /work/
+    related_articles: &id319
+    - article-318
+    - article-320
+    sibling_articles: *id319
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-320:
+    hub: /work/
+    related_articles: &id320
+    - article-319
+    - article-321
+    sibling_articles: *id320
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-321:
+    hub: /work/
+    related_articles: &id321
+    - article-320
+    - article-322
+    sibling_articles: *id321
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-322:
+    hub: /work/
+    related_articles: &id322
+    - article-321
+    - article-320
+    sibling_articles: *id322
+    parent_cluster: work
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-323:
+    hub: /travel/
+    related_articles: &id323
+    - article-324
+    - article-325
+    sibling_articles: *id323
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-324:
+    hub: /travel/
+    related_articles: &id324
+    - article-323
+    - article-325
+    sibling_articles: *id324
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-325:
+    hub: /travel/
+    related_articles: &id325
+    - article-324
+    - article-326
+    sibling_articles: *id325
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-326:
+    hub: /travel/
+    related_articles: &id326
+    - article-325
+    - article-327
+    sibling_articles: *id326
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-327:
+    hub: /travel/
+    related_articles: &id327
+    - article-326
+    - article-328
+    sibling_articles: *id327
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-328:
+    hub: /travel/
+    related_articles: &id328
+    - article-327
+    - article-329
+    sibling_articles: *id328
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-329:
+    hub: /travel/
+    related_articles: &id329
+    - article-328
+    - article-327
+    sibling_articles: *id329
+    parent_cluster: travel
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-330:
+    hub: /everyday-life/
+    related_articles: &id330
+    - article-331
+    - article-332
+    sibling_articles: *id330
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-331:
+    hub: /everyday-life/
+    related_articles: &id331
+    - article-330
+    - article-332
+    sibling_articles: *id331
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-332:
+    hub: /everyday-life/
+    related_articles: &id332
+    - article-331
+    - article-333
+    sibling_articles: *id332
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-333:
+    hub: /everyday-life/
+    related_articles: &id333
+    - article-332
+    - article-334
+    sibling_articles: *id333
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-334:
+    hub: /everyday-life/
+    related_articles: &id334
+    - article-333
+    - article-335
+    sibling_articles: *id334
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-335:
+    hub: /everyday-life/
+    related_articles: &id335
+    - article-334
+    - article-336
+    sibling_articles: *id335
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-336:
+    hub: /everyday-life/
+    related_articles: &id336
+    - article-335
+    - article-334
+    sibling_articles: *id336
+    parent_cluster: everyday-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-337:
+    hub: /natural-english/
+    related_articles: &id337
+    - article-338
+    - article-339
+    sibling_articles: *id337
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-338:
+    hub: /natural-english/
+    related_articles: &id338
+    - article-337
+    - article-339
+    sibling_articles: *id338
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-339:
+    hub: /natural-english/
+    related_articles: &id339
+    - article-338
+    - article-340
+    sibling_articles: *id339
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-340:
+    hub: /natural-english/
+    related_articles: &id340
+    - article-339
+    - article-341
+    sibling_articles: *id340
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-341:
+    hub: /natural-english/
+    related_articles: &id341
+    - article-340
+    - article-342
+    sibling_articles: *id341
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-342:
+    hub: /natural-english/
+    related_articles: &id342
+    - article-341
+    - article-343
+    sibling_articles: *id342
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-343:
+    hub: /natural-english/
+    related_articles: &id343
+    - article-342
+    - article-341
+    sibling_articles: *id343
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-344:
+    hub: /conversation/
+    related_articles: &id344
+    - article-345
+    - article-346
+    sibling_articles: *id344
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-345:
+    hub: /conversation/
+    related_articles: &id345
+    - article-344
+    - article-346
+    sibling_articles: *id345
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-346:
+    hub: /conversation/
+    related_articles: &id346
+    - article-345
+    - article-347
+    sibling_articles: *id346
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-347:
+    hub: /conversation/
+    related_articles: &id347
+    - article-346
+    - article-348
+    sibling_articles: *id347
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-348:
+    hub: /conversation/
+    related_articles: &id348
+    - article-347
+    - article-349
+    sibling_articles: *id348
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-349:
+    hub: /conversation/
+    related_articles: &id349
+    - article-348
+    - article-350
+    sibling_articles: *id349
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-350:
+    hub: /conversation/
+    related_articles: &id350
+    - article-349
+    - article-348
+    sibling_articles: *id350
+    parent_cluster: conversation
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-351:
+    hub: /real-life/
+    related_articles: &id351
+    - article-352
+    - article-353
+    sibling_articles: *id351
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-352:
+    hub: /real-life/
+    related_articles: &id352
+    - article-351
+    - article-353
+    sibling_articles: *id352
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-353:
+    hub: /real-life/
+    related_articles: &id353
+    - article-352
+    - article-354
+    sibling_articles: *id353
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-354:
+    hub: /real-life/
+    related_articles: &id354
+    - article-353
+    - article-355
+    sibling_articles: *id354
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-355:
+    hub: /real-life/
+    related_articles: &id355
+    - article-354
+    - article-356
+    sibling_articles: *id355
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-356:
+    hub: /real-life/
+    related_articles: &id356
+    - article-355
+    - article-357
+    sibling_articles: *id356
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-357:
+    hub: /real-life/
+    related_articles: &id357
+    - article-356
+    - article-355
+    sibling_articles: *id357
+    parent_cluster: real-life
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-358:
+    hub: /natural-english/
+    related_articles: &id358
+    - article-359
+    - article-360
+    sibling_articles: *id358
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-359:
+    hub: /natural-english/
+    related_articles: &id359
+    - article-358
+    - article-360
+    sibling_articles: *id359
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-360:
+    hub: /natural-english/
+    related_articles: &id360
+    - article-359
+    - article-361
+    sibling_articles: *id360
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-361:
+    hub: /natural-english/
+    related_articles: &id361
+    - article-360
+    - article-362
+    sibling_articles: *id361
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-362:
+    hub: /natural-english/
+    related_articles: &id362
+    - article-361
+    - article-363
+    sibling_articles: *id362
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-363:
+    hub: /natural-english/
+    related_articles: &id363
+    - article-362
+    - article-364
+    sibling_articles: *id363
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-364:
+    hub: /natural-english/
+    related_articles: &id364
+    - article-363
+    - article-365
+    sibling_articles: *id364
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.
+  article-365:
+    hub: /natural-english/
+    related_articles: &id365
+    - article-364
+    - article-363
+    sibling_articles: *id365
+    parent_cluster: natural-english
+    notes: Prefer semantic relevance over mechanical linking during article production.

@@ -1,0 +1,16 @@
+role: discovery
+default_pin_formats:
+- static
+- idea-pin
+statuses:
+- planned
+- designed
+- scheduled
+- published
+article_fields:
+- pinterest_angle
+- pin_title
+- pin_description
+- visual_concept
+- cta
+default_pins_per_article: 1

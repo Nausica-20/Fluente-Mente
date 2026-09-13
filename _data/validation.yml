@@ -1,0 +1,15 @@
+checks:
+- total_articles == 365
+- days are exactly 1..365
+- unique_ids == 365
+- unique_slugs == 365
+- every_article_has_family
+- every_article_has_cluster
+- every_article_has_topic
+- every_article_has_level
+- every_article_has_intent
+- every_article_has_priority
+- every_article_has_pinterest_angle
+- every_article_has_babbel_funnel_angle
+- topic_cluster_references_valid
+- internal_link_targets_exist

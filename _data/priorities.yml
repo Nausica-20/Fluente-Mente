@@ -1,0 +1,10 @@
+priorities:
+- id: HIGH
+  label: High
+  meaning: Core traffic, Pinterest or funnel opportunity.
+- id: MEDIUM
+  label: Medium
+  meaning: Cluster-supporting content.
+- id: SUPPORTING
+  label: Supporting
+  meaning: Supporting content for breadth and internal linking.

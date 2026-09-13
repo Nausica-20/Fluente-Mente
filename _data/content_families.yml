@@ -1,0 +1,33 @@
+families:
+- id: dialogue
+  label: Dialogues
+  description: Real-life English conversations for practical speaking.
+  template: dialogue
+  url_pattern: /dialogues/:slug/
+  seo_role: Capture practical and conversational search intent.
+  pinterest_role: Turn realistic situations into saveable conversation cheat sheets.
+  funnel_role: Move the reader from immediate speaking help toward structured practice.
+- id: story
+  label: Stories in English
+  description: Short original stories with useful language in context.
+  template: story
+  url_pattern: /stories/:slug/
+  seo_role: Capture reading, learning and contextual vocabulary intent.
+  pinterest_role: Create saveable story-based learning content.
+  funnel_role: Move from reading practice toward broader, structured learning.
+- id: talking_about
+  label: Talking About [X]
+  description: Practical guides for speaking about real-life topics in English.
+  template: talking-about
+  url_pattern: /talking-about/:slug/
+  seo_role: Capture topic-led speaking and phrase searches.
+  pinterest_role: Create speaking cheat sheets around a recognizable topic.
+  funnel_role: Build active vocabulary and confidence, then offer structured practice.
+- id: alternative_ways
+  label: Alternative Ways to Say…
+  description: Natural alternatives to repetitive or overly textbook English.
+  template: alternative-ways
+  url_pattern: /alternative-ways-to-say/:slug/
+  seo_role: Capture long-tail alternative-phrase searches.
+  pinterest_role: Create highly saveable phrase-swap graphics.
+  funnel_role: Increase range and naturalness, then offer a structured learning path.
