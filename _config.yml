@@ -5,8 +5,8 @@ lang: "it"
 locale: "it_IT"
 timezone: "Europe/Rome"
 
-url: ""
-baseurl: ""
+url: "https://nausica-20.github.io/Fluente-Mente/"
+baseurl: "Fluente-Mente"
 
 author:
   name: "Fluente-Mente"
