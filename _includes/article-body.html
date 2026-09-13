@@ -1,8 +1,8 @@
 <div class="article-body">
 
-  {% if page.intro %}
-    <section class="article-section article-intro" aria-label="Introduzione">
-      {{ page.intro | markdownify }}
+  {% if page.article_concept %}
+    <section class="article-section article-intro" aria-label="Obiettivo della lezione">
+      <p>{{ page.article_concept }}</p>
     </section>
   {% endif %}
 
@@ -10,68 +10,37 @@
     {{ content }}
   </div>
 
-  {% if page.key_expressions %}
-    <section class="article-section key-expressions" aria-labelledby="key-expressions-title">
+  {% if page.content_family == "dialogue" %}
+    <section class="article-section key-expressions" aria-labelledby="dialogue-method-title">
       <div class="section-heading">
-        <p class="eyebrow">DA PORTARE CON TE</p>
-        <h2 id="key-expressions-title">
-          {{ site.labels.key_expressions | default: "Espressioni chiave" }}
-        </h2>
+        <p class="eyebrow">DIALOGUE</p>
+        <h2 id="dialogue-method-title">Impara dalla situazione</h2>
       </div>
-
-      <ul class="expression-list">
-        {% for expression in page.key_expressions %}
-          <li>
-            {% if expression.expression %}
-              <strong>{{ expression.expression }}</strong>
-              {% if expression.meaning %}
-                <span>{{ expression.meaning }}</span>
-              {% endif %}
-            {% else %}
-              {{ expression }}
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
+      <p>Il focus è usare frasi riutilizzabili in una conversazione reale, non memorizzare un copione.</p>
     </section>
-  {% endif %}
-
-  {% if page.english_vs_natural %}
-    <section class="article-section comparison-box" aria-labelledby="natural-english-title">
+  {% elsif page.content_family == "story" %}
+    <section class="article-section key-expressions" aria-labelledby="story-method-title">
+      <div class="section-heading">
+        <p class="eyebrow">STORY IN ENGLISH</p>
+        <h2 id="story-method-title">Language in context</h2>
+      </div>
+      <p>La storia è il contesto: le parole e le espressioni diventano più facili da ricordare quando le vedi in uso.</p>
+    </section>
+  {% elsif page.content_family == "talking_about" %}
+    <section class="article-section key-expressions" aria-labelledby="talking-about-title">
+      <div class="section-heading">
+        <p class="eyebrow">TALKING ABOUT [X]</p>
+        <h2 id="talking-about-title">Parla dell'argomento con più sicurezza</h2>
+      </div>
+      <p>Parti da parole semplici, aggiungi espressioni utili e costruisci una risposta naturale.</p>
+    </section>
+  {% elsif page.content_family == "alternative_ways" %}
+    <section class="article-section comparison-box" aria-labelledby="alternative-title">
       <div class="section-heading">
         <p class="eyebrow">NATURAL ENGLISH</p>
-        <h2 id="natural-english-title">Textbook English vs natural English</h2>
+        <h2 id="alternative-title">Alternative più naturali</h2>
       </div>
-
-      <div class="comparison-grid">
-        {% if page.english_vs_natural.textbook %}
-          <div class="comparison-column">
-            <span class="comparison-label">Textbook English</span>
-            <p>{{ page.english_vs_natural.textbook }}</p>
-          </div>
-        {% endif %}
-
-        {% if page.english_vs_natural.natural %}
-          <div class="comparison-column">
-            <span class="comparison-label">More natural</span>
-            <p>{{ page.english_vs_natural.natural }}</p>
-          </div>
-        {% endif %}
-      </div>
-
-      {% if page.english_vs_natural.note %}
-        <p class="comparison-note">{{ page.english_vs_natural.note }}</p>
-      {% endif %}
-    </section>
-  {% endif %}
-
-  {% if page.takeaway %}
-    <section class="article-section article-takeaway" aria-labelledby="takeaway-title">
-      <p class="eyebrow">RICORDA</p>
-      <h2 id="takeaway-title">
-        {{ site.labels.takeaway | default: "La cosa da ricordare" }}
-      </h2>
-      <p>{{ page.takeaway }}</p>
+      <p>La scelta della frase dipende da contesto, tono e rapporto con l'altra persona: non esiste sempre un unico “sinonimo migliore”.</p>
     </section>
   {% endif %}
 

@@ -1,12 +1,6 @@
-{% assign has_continuation =
-  page.related_articles
-  or page.related_content
-  or page.next_article
-  or page.previous_article
-  or page.cross_rubric
-%}
+{% assign link_data = site.data.internal_links.links[page.article_id] %}
 
-{% if has_continuation %}
+{% if link_data %}
 <section class="continue-learning" aria-labelledby="continue-learning-title">
   <div class="continue-learning-heading">
     <p class="eyebrow">CONTINUA A IMPARARE</p>
@@ -17,70 +11,26 @@
 
   <div class="continue-learning-grid">
 
-    {% if page.next_article %}
-      {% assign next = site.articles | where: "slug", page.next_article | first %}
-      {% if next %}
-        <a class="article-card" href="{{ next.url | relative_url }}">
-          <span class="article-card-label">Prossimo passo</span>
-          <strong>{{ next.title }}</strong>
-          {% if next.description %}
-            <span>{{ next.description }}</span>
+    {% if link_data.hub %}
+      <a class="article-card" href="{{ link_data.hub | relative_url }}">
+        <span class="article-card-label">Esplora il cluster</span>
+        <strong>Altri contenuti su {{ page.cluster }}</strong>
+        <span>Scopri altre risorse collegate allo stesso argomento.</span>
+      </a>
+    {% endif %}
+
+    {% for related_id in link_data.related_articles limit:3 %}
+      {% assign related = site.articles | where: "article_id", related_id | first %}
+      {% if related %}
+        <a class="article-card" href="{{ related.url | relative_url }}">
+          <span class="article-card-label">Leggi anche</span>
+          <strong>{{ related.h1 | default: related.title }}</strong>
+          {% if related.description %}
+            <span>{{ related.description }}</span>
           {% endif %}
         </a>
       {% endif %}
-    {% endif %}
-
-    {% if page.previous_article %}
-      {% assign previous = site.articles | where: "slug", page.previous_article | first %}
-      {% if previous %}
-        <a class="article-card" href="{{ previous.url | relative_url }}">
-          <span class="article-card-label">Articolo collegato</span>
-          <strong>{{ previous.title }}</strong>
-          {% if previous.description %}
-            <span>{{ previous.description }}</span>
-          {% endif %}
-        </a>
-      {% endif %}
-    {% endif %}
-
-    {% if page.related_articles %}
-      {% for related_slug in page.related_articles limit:3 %}
-        {% assign related = site.articles | where: "slug", related_slug | first %}
-        {% if related %}
-          <a class="article-card" href="{{ related.url | relative_url }}">
-            <span class="article-card-label">Leggi anche</span>
-            <strong>{{ related.title }}</strong>
-            {% if related.description %}
-              <span>{{ related.description }}</span>
-            {% endif %}
-          </a>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-
-    {% if page.related_content %}
-      {% for item in page.related_content limit:3 %}
-        {% assign related = site.articles | where: "slug", item.slug | first %}
-        {% if related %}
-          <a class="article-card" href="{{ related.url | relative_url }}">
-            <span class="article-card-label">
-              {{ item.relationship | default: "Approfondisci" }}
-            </span>
-            <strong>{{ related.title }}</strong>
-            {% if related.description %}
-              <span>{{ related.description }}</span>
-            {% endif %}
-          </a>
-        {% elsif item.url %}
-          <a class="article-card" href="{{ item.url | relative_url }}">
-            <span class="article-card-label">
-              {{ item.relationship | default: "Approfondisci" }}
-            </span>
-            <strong>{{ item.title }}</strong>
-          </a>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
+    {% endfor %}
 
   </div>
 </section>

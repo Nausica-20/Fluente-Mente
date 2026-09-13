@@ -1,201 +1,79 @@
 <footer class="site-footer" role="contentinfo">
-
   <div class="container footer-inner">
 
-    <!-- Brand -->
     <div class="footer-brand">
-
-      <a
-        class="footer-logo"
-        href="{{ '/' | relative_url }}"
-        aria-label="{{ site.title }}"
-      >
+      <a class="footer-logo" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}">
         {% if site.logo %}
-          <img
-            src="{{ site.logo | relative_url }}"
-            alt="{{ site.title | escape }}"
-            width="155"
-            height="40"
-            loading="lazy">
+          <img src="{{ site.logo | relative_url }}" alt="{{ site.title | escape }}" width="155" height="40" loading="lazy">
         {% else %}
-          <span class="footer-site-name">
-            {{ site.title }}
-          </span>
+          <span class="footer-site-name">{{ site.title }}</span>
         {% endif %}
       </a>
 
-      <p class="footer-tagline">
-        {{ site.tagline }}
-      </p>
-
+      <p class="footer-tagline">{{ site.tagline }}</p>
       <p class="footer-description">
-        Inglese naturale per italiani: situazioni reali,
-        espressioni utili e strategie per comunicare con più sicurezza.
+        Dialoghi, storie, conversazioni e Natural English per italiani.
+        {{ site.data.editorial.content_philosophy[0] }}
       </p>
-
     </div>
 
-
-    <!-- Impara -->
     <div class="footer-column">
-
-      <h2 class="footer-heading">
-        Impara
-      </h2>
-
+      <h2 class="footer-heading">Impara</h2>
       <nav aria-label="Impara">
-
         <ul class="footer-links">
-
-          <li>
-            <a href="{{ '/daily/' | relative_url }}">
-              Daily English Lesson
-            </a>
-          </li>
-
-          <li>
-            <a href="{{ '/start-here/' | relative_url }}">
-              Da dove iniziare
-            </a>
-          </li>
-
-          <li>
-            <a href="{{ '/english-in-real-life/' | relative_url }}">
-              English in Real Life
-            </a>
-          </li>
-
-          <li>
-            <a href="{{ '/natural-english/' | relative_url }}">
-              Natural English
-            </a>
-          </li>
-
+          {% for family in site.data.content_families.families limit:4 %}
+            {% case family.id %}
+              {% when "dialogue" %}{% assign url = "/dialogues/" %}
+              {% when "story" %}{% assign url = "/stories/" %}
+              {% when "talking_about" %}{% assign url = "/talking-about/" %}
+              {% when "alternative_ways" %}{% assign url = "/alternative-ways-to-say/" %}
+            {% endcase %}
+            <li><a href="{{ url | relative_url }}">{{ family.label }}</a></li>
+          {% endfor %}
+          <li><a href="{{ '/daily/' | relative_url }}">Tutti i 365 giorni</a></li>
         </ul>
-
       </nav>
-
     </div>
 
-
-    <!-- Esplora -->
     <div class="footer-column">
-
-      <h2 class="footer-heading">
-        Esplora
-      </h2>
-
+      <h2 class="footer-heading">Esplora</h2>
       <nav aria-label="Esplora">
-
         <ul class="footer-links">
-
-          <li>
-            <a href="{{ '/english-mindset/' | relative_url }}">
-              English Mindset
-            </a>
-          </li>
-
-          <li>
-            <a href="{{ '/english-and-culture/' | relative_url }}">
-              English &amp; Culture
-            </a>
-          </li>
-
-          <li>
-            <a href="{{ '/english-for-adventure/' | relative_url }}">
-              English for Adventure
-            </a>
-          </li>
-
-          <li>
-            <a href="{{ '/english-for-life-work/' | relative_url }}">
-              English for Life &amp; Work
-            </a>
-          </li>
-
-          <li>
-            <a href="{{ '/english-from-the-real-world/' | relative_url }}">
-              English from the Real World
-            </a>
-          </li>
-
+          {% assign footer_clusters = site.data.clusters.clusters | sort: "label" %}
+          {% for cluster in footer_clusters limit:6 %}
+            <li><a href="{{ cluster.hub | relative_url }}">{{ cluster.label }}</a></li>
+          {% endfor %}
+          <li><a href="{{ '/search/' | relative_url }}">Cerca</a></li>
         </ul>
-
       </nav>
-
     </div>
 
-
-    <!-- Fluente-Mente -->
     <div class="footer-column">
-
-      <h2 class="footer-heading">
-        Fluente-Mente
-      </h2>
-
+      <h2 class="footer-heading">Fluente-Mente</h2>
       <nav aria-label="Fluente-Mente">
-
         <ul class="footer-links">
-
-          <li>
-            <a href="{{ '/about/' | relative_url }}">
-              Chi siamo
-            </a>
-          </li>
-
-          <li>
-            <a href="{{ '/babbel/' | relative_url }}">
-              Babbel
-            </a>
-          </li>
-
-          <li>
-            <a href="{{ '/contact/' | relative_url }}">
-              Contatti
-            </a>
-          </li>
-
-          <li>
-            <a href="{{ '/search/' | relative_url }}">
-              Cerca
-            </a>
-          </li>
-
+          <li><a href="{{ '/start-here/' | relative_url }}">Da dove iniziare</a></li>
+          <li><a href="{{ '/babbel/' | relative_url }}">Babbel</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">Chi siamo</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contatti</a></li>
+          <li><a href="{{ '/privacy/' | relative_url }}">Privacy</a></li>
+          {% if site.babbel.disclosure.enabled %}
+            <li><a href="{{ '/affiliate-disclosure/' | relative_url }}">Affiliate Disclosure</a></li>
+          {% endif %}
         </ul>
-
       </nav>
-
     </div>
-
   </div>
 
-
-  <!-- Footer bottom -->
   <div class="footer-bottom">
-
     <div class="container footer-bottom-inner">
-
-      <p>
-        © {{ 'now' | date: '%Y' }} {{ site.title }}.
-        Tutti i diritti riservati.
-      </p>
-
+      <p>© {{ 'now' | date: '%Y' }} {{ site.title }}. Tutti i diritti riservati.</p>
       <div class="footer-legal">
-
-        <a href="{{ '/privacy/' | relative_url }}">
-          Privacy
-        </a>
-
+        <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
         {% if site.babbel.disclosure.enabled %}
-          <a href="{{ '/affiliate-disclosure/' | relative_url }}">
-            Affiliate Disclosure
-          </a>
+          <a href="{{ '/affiliate-disclosure/' | relative_url }}">Affiliate Disclosure</a>
         {% endif %}
-
       </div>
-
     </div>
-
   </div>
-
 </footer>

@@ -8,7 +8,6 @@
   </button>
 
   <div id="main-navigation" class="nav-menu">
-
     {% for item in site.navigation.main %}
       <a
         class="nav-link{% if page.url == item.url %} is-active{% endif %}"
@@ -17,6 +16,5 @@
         {{ item.title }}
       </a>
     {% endfor %}
-
   </div>
 </nav>
