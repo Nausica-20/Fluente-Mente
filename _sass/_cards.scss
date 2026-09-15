@@ -1,0 +1,273 @@
+// ============================================================
+// Fluente-Mente — Cards
+// ============================================================
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: $space-6;
+  border: $border-width solid $color-border;
+  border-radius: $radius-lg;
+  background: $color-background;
+  box-shadow: $shadow-sm;
+  transition:
+    transform $transition-fast,
+    box-shadow $transition-fast,
+    border-color $transition-fast;
+}
+
+.card:hover {
+  border-color: $color-primary-soft;
+  box-shadow: $shadow-md;
+  transform: translateY(-2px);
+}
+
+.card-link {
+  display: flex;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-eyebrow {
+  margin-bottom: $space-2;
+  color: $color-primary;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-bold;
+  letter-spacing: 0.06em;
+  line-height: $line-height-tight;
+  text-transform: uppercase;
+}
+
+.card-title {
+  margin: 0 0 $space-3;
+  color: $color-text;
+  font-size: $font-size-xl;
+  line-height: $line-height-tight;
+}
+
+.card-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  color: $color-primary;
+}
+
+.card-text {
+  margin: 0;
+  color: $color-text-muted;
+  line-height: $line-height-relaxed;
+}
+
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: $space-2 $space-4;
+  margin-top: auto;
+  padding-top: $space-5;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+}
+
+.card-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-2;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-4;
+  margin-top: auto;
+  padding-top: $space-5;
+}
+
+.card-arrow {
+  display: inline-flex;
+  align-items: center;
+  color: $color-primary;
+  font-weight: $font-weight-semibold;
+  transition: transform $transition-fast;
+}
+
+.card:hover .card-arrow {
+  transform: translateX(3px);
+}
+
+// ------------------------------------------------------------
+// Article cards
+// ------------------------------------------------------------
+
+.article-card {
+  position: relative;
+}
+
+.article-card .card-title {
+  font-size: $font-size-lg;
+}
+
+.article-card-day {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 30px;
+  margin-bottom: $space-4;
+  padding: $space-1 $space-3;
+  border-radius: $radius-pill;
+  background: $color-primary-soft;
+  color: $color-primary-dark;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-bold;
+}
+
+.article-card-level {
+  margin-left: auto;
+  color: $color-text-muted;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-semibold;
+}
+
+.article-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-3;
+  margin-bottom: $space-3;
+}
+
+// ------------------------------------------------------------
+// Rubric cards
+// ------------------------------------------------------------
+
+.rubric-card {
+  min-height: 100%;
+  padding: $space-6;
+}
+
+.rubric-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-bottom: $space-5;
+  border-radius: $radius-md;
+  background: $color-primary-soft;
+  color: $color-primary;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-bold;
+}
+
+.rubric-card .card-title {
+  margin-bottom: $space-2;
+}
+
+.rubric-card-mission {
+  margin: 0 0 $space-4;
+  color: $color-text;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-relaxed;
+}
+
+.rubric-card-description {
+  margin: 0;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+  line-height: $line-height-relaxed;
+}
+
+// ------------------------------------------------------------
+// Continue learning cards
+// ------------------------------------------------------------
+
+.continue-card {
+  padding: $space-5;
+  border-radius: $radius-md;
+}
+
+.continue-card .card-title {
+  margin-bottom: $space-2;
+  font-size: $font-size-base;
+}
+
+.continue-card .card-text {
+  font-size: $font-size-sm;
+}
+
+// ------------------------------------------------------------
+// Start-here / feature cards
+// ------------------------------------------------------------
+
+.feature-card {
+  padding: $space-6;
+}
+
+.feature-card .card-icon {
+  margin-bottom: $space-4;
+  color: $color-primary;
+  font-size: $font-size-2xl;
+}
+
+.feature-card .card-title {
+  font-size: $font-size-lg;
+}
+
+// ------------------------------------------------------------
+// Card grids
+// ------------------------------------------------------------
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: $space-6;
+}
+
+.cards-grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cards-grid--4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+@media (max-width: $breakpoint-lg) {
+  .cards-grid--4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .cards-grid,
+  .cards-grid--2,
+  .cards-grid--4 {
+    grid-template-columns: 1fr;
+  }
+
+  .card,
+  .rubric-card {
+    padding: $space-5;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .card-title {
+    font-size: $font-size-lg;
+  }
+
+  .rubric-card-icon {
+    width: 42px;
+    height: 42px;
+  }
+}
