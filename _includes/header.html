@@ -1,0 +1,8 @@
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="Fluente-Mente">
+      {% if site.logo %}<img src="{{ site.logo | relative_url }}" alt="Fluente-Mente" class="site-logo" width="210" height="48" loading="eager">{% else %}<span class="site-name">Fluente-Mente</span>{% endif %}
+    </a>
+    {% include nav.html %}
+  </div>
+</header>

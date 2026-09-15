@@ -1,0 +1,3 @@
+<nav class="site-nav" aria-label="Navigazione principale">
+  {% for item in site.data.site.navigation.header %}<a href="{{ item.url | relative_url }}">{{ item.label }}</a>{% endfor %}
+</nav>

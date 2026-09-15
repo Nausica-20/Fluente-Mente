@@ -1,0 +1,7 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div><strong>Fluente-Mente</strong><p>{{ site.data.site.site.description }}</p></div>
+    <nav aria-label="Navigazione footer">{% for item in site.data.site.navigation.footer %}<a href="{{ item.url | relative_url }}">{{ item.label }}</a>{% endfor %}</nav>
+    {% if site.data.site.affiliate.disclosure_url %}<p class="affiliate-note">Link affiliati: consulta la <a href="{{ site.data.site.affiliate.disclosure_url | relative_url }}">disclosure</a>.</p>{% endif %}
+  </div>
+</footer>

@@ -1,0 +1,44 @@
+{% assign toc_source = include.html | default: content %}
+
+{% if toc_source %}
+  {% assign headings = toc_source | split: '<h2' %}
+
+  {% if headings.size > 1 %}
+    <nav class="toc" aria-label="Indice dell'articolo">
+      <ol class="toc-list">
+
+        {% for heading in headings offset:1 %}
+          {% assign heading_parts = heading | split: '</h2>' %}
+          {% assign heading_html = heading_parts[0] %}
+          {% assign heading_text = heading_html
+            | remove_first: '>'
+            | strip_html
+            | strip
+          %}
+
+          {% assign heading_id = heading_text
+            | downcase
+            | replace: "à", "a"
+            | replace: "è", "e"
+            | replace: "é", "e"
+            | replace: "ì", "i"
+            | replace: "ò", "o"
+            | replace: "ù", "u"
+            | replace: "’", "-"
+            | replace: "'", "-"
+            | replace: " ", "-"
+          %}
+
+          {% if heading_text != "" %}
+            <li class="toc-item">
+              <a href="#{{ heading_id | slugify }}">
+                {{ heading_text }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+
+      </ol>
+    </nav>
+  {% endif %}
+{% endif %}

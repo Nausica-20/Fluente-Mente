@@ -1,0 +1,54 @@
+{% assign funnel = page.babbel | default: empty %}
+
+{% if site.babbel.enabled and funnel.cta_level != "none" %}
+
+<section class="babbel-cta babbel-cta-{{ funnel.cta_level | default: 'soft' }}" aria-labelledby="babbel-cta-title">
+
+  <div class="babbel-cta-content">
+
+    {% case funnel.cta_level %}
+      {% when "contextual" %}
+        <p class="eyebrow">UN PASSO IN PIÙ</p>
+        <h2 id="babbel-cta-title">Vuoi continuare a praticare?</h2>
+        <p>
+          Hai appena imparato inglese in un contesto reale.
+          Puoi continuare con un percorso più strutturato per trasformare ciò che sai in una competenza attiva.
+        </p>
+      {% when "direct" %}
+        <p class="eyebrow">CONTINUA A IMPARARE</p>
+        <h2 id="babbel-cta-title">Continua il tuo percorso con Babbel.</h2>
+        <p>
+          Abbina i contenuti gratuiti di Fluente-Mente a una pratica strutturata e progressiva.
+        </p>
+      {% else %}
+        <p class="eyebrow">VUOI CONTINUARE?</p>
+        <h2 id="babbel-cta-title">Trasforma questa lezione in pratica.</h2>
+        <p>
+          Fluente-Mente ti aiuta a usare l'inglese nel contesto.
+          Babbel può diventare il passo successivo per studiare con continuità.
+        </p>
+    {% endcase %}
+
+    {% assign destination = funnel.destination | default: site.babbel.default_destination %}
+    {% if destination %}
+      <a class="button button-primary"
+         href="{{ destination }}"
+         rel="sponsored nofollow"
+         target="_blank">
+        Scopri Babbel
+      </a>
+    {% else %}
+      <a class="button button-primary" href="{{ '/babbel/' | relative_url }}">
+        Scopri Babbel
+      </a>
+    {% endif %}
+  </div>
+
+  {% if site.babbel.disclosure.enabled %}
+    <div class="babbel-cta-disclosure">
+      <p>{{ site.babbel.disclosure.text }}</p>
+    </div>
+  {% endif %}
+</section>
+
+{% endif %}
