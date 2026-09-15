@@ -1,0 +1,505 @@
+schema_version: '1.2'
+purpose: Canonical learning-path layer connecting topics and content units into purposeful learner journeys.
+rules:
+  paths_are_sequences_not_categories: true
+  each_path_has_one_primary_outcome: true
+  steps_should_progress_in_difficulty: true
+  a_content_unit_can_belong_to_multiple_paths: true
+  commercial_steps_should_appear_only_when_relevant: true
+  babbel_is_a_next_step_not_a_requirement: true
+path_types:
+  level_progression: Percorso progressivo basato sul livello.
+  skill: Percorso centrato su una competenza specifica.
+  situation: Percorso centrato su una situazione della vita reale.
+  problem_solution: Percorso costruito attorno a un problema dell'apprendente.
+  decision: Percorso che aiuta a scegliere metodo o strumento.
+learning_paths:
+- path_id: PATH-01
+  name: 'A2 → B1: English for Real Life'
+  type: level_progression
+  primary_outcome: Gestire le principali situazioni quotidiane in inglese con maggiore autonomia.
+  target_levels:
+  - A2
+  - B1
+  recommended_order:
+  - step: 1
+    content_id: UE-001
+    role: start_conversations
+  - step: 2
+    content_id: UE-003
+    role: self_introduction
+  - step: 3
+    content_id: UE-005
+    role: keep_conversations
+  - step: 4
+    content_id: UE-009
+    role: ask_for_help
+  - step: 5
+    content_id: UE-011
+    role: clarify
+  - step: 6
+    content_id: UE-016
+    role: talk_about_plans
+  - step: 7
+    content_id: TR-001
+    role: airport
+  - step: 8
+    content_id: TR-005
+    role: hotel
+  - step: 9
+    content_id: TR-009
+    role: restaurant
+  - step: 10
+    content_id: SL-003
+    role: social_invitation
+  next_paths:
+  - PATH-02
+  - PATH-04
+- path_id: PATH-02
+  name: 'B1 → B2: Speak More Naturally'
+  type: level_progression
+  primary_outcome: Passare da un inglese comprensibile a un inglese più naturale, fluido e flessibile.
+  target_levels:
+  - B1
+  - B2
+  - B2+
+  recommended_order:
+  - step: 1
+    content_id: UE2-001
+    role: everyday_expressions
+  - step: 2
+    content_id: UE2-003
+    role: conversation_chunks
+  - step: 3
+    content_id: UE2-011
+    role: natural_alternatives
+  - step: 4
+    content_id: UE2-012
+    role: basic_vs_natural
+  - step: 5
+    content_id: BE-011
+    role: make_do
+  - step: 6
+    content_id: BE-012
+    role: say_tell
+  - step: 7
+    content_id: BE-013
+    role: speak_talk
+  - step: 8
+    content_id: BE-015
+    role: conversation_collocations
+  - step: 9
+    content_id: UE-013
+    role: opinions
+  - step: 10
+    content_id: UE-015
+    role: polite_disagreement
+  next_paths:
+  - PATH-05
+  - PATH-07
+- path_id: PATH-03
+  name: Understand Real Spoken English
+  type: skill
+  primary_outcome: Capire meglio l’inglese parlato reale, anche quando è veloce o ridotto.
+  target_levels:
+  - A2
+  - B1
+  - B2
+  recommended_order:
+  - step: 1
+    content_id: UE2-005
+    role: spoken_speed
+  - step: 2
+    content_id: UE2-006
+    role: contractions
+  - step: 3
+    content_id: UE2-007
+    role: fillers
+  - step: 4
+    content_id: UE2-008
+    role: connected_speech
+  - step: 5
+    content_id: LS-004
+    role: native_speakers
+  - step: 6
+    content_id: LS-009
+    role: listening
+  - step: 7
+    content_id: LS-010
+    role: fast_english
+  - step: 8
+    content_id: LS-011
+    role: daily_listening
+  - step: 9
+    content_id: LS-012
+    role: accents
+  next_paths:
+  - PATH-02
+  - PATH-05
+- path_id: PATH-04
+  name: Speak Without Translating
+  type: problem_solution
+  primary_outcome: Ridurre la traduzione mentale e aumentare la velocità con cui si formulano risposte in inglese.
+  target_levels:
+  - A2
+  - B1
+  - B2
+  recommended_order:
+  - step: 1
+    content_id: LS-001
+    role: diagnose_speaking_block
+  - step: 2
+    content_id: LS-006
+    role: stop_translating
+  - step: 3
+    content_id: UE2-003
+    role: chunks
+  - step: 4
+    content_id: BE-014
+    role: words_vs_combinations
+  - step: 5
+    content_id: BE-015
+    role: conversation_collocations
+  - step: 6
+    content_id: LS-007
+    role: speaking_alone
+  - step: 7
+    content_id: UE-005
+    role: keep_conversation
+  - step: 8
+    content_id: UE-007
+    role: short_responses
+  next_paths:
+  - PATH-02
+- path_id: PATH-05
+  name: Conversation Skills
+  type: skill
+  primary_outcome: Partecipare a una conversazione in inglese dall’apertura alla chiusura senza dipendere da frasi memorizzate.
+  target_levels:
+  - A2
+  - B1
+  - B2
+  recommended_order:
+  - step: 1
+    content_id: UE-002
+    role: greetings
+  - step: 2
+    content_id: UE-001
+    role: open_conversation
+  - step: 3
+    content_id: UE-006
+    role: follow_up_questions
+  - step: 4
+    content_id: UE-007
+    role: short_responses
+  - step: 5
+    content_id: UE-005
+    role: maintain_conversation
+  - step: 6
+    content_id: UE-008
+    role: change_subject
+  - step: 7
+    content_id: UE-013
+    role: give_opinions
+  - step: 8
+    content_id: UE-014
+    role: agree
+  - step: 9
+    content_id: UE-015
+    role: disagree_politely
+  next_paths:
+  - PATH-02
+  - PATH-06
+- path_id: PATH-06
+  name: Travel English Survival Path
+  type: situation
+  primary_outcome: Muoversi con maggiore sicurezza in aeroporto, hotel e ristorante.
+  target_levels:
+  - A2
+  - B1
+  recommended_order:
+  - step: 1
+    content_id: TR-001
+    role: airport_basics
+  - step: 2
+    content_id: TR-002
+    role: check_in
+  - step: 3
+    content_id: TR-003
+    role: security_boarding
+  - step: 4
+    content_id: TR-004
+    role: flight_delay
+  - step: 5
+    content_id: TR-005
+    role: hotel_basics
+  - step: 6
+    content_id: TR-006
+    role: hotel_check_in_out
+  - step: 7
+    content_id: TR-007
+    role: reception_help
+  - step: 8
+    content_id: TR-008
+    role: room_problem
+  - step: 9
+    content_id: TR-009
+    role: restaurant_basics
+  - step: 10
+    content_id: TR-010
+    role: book_table
+  - step: 11
+    content_id: TR-011
+    role: order_food
+  - step: 12
+    content_id: TR-012
+    role: ask_bill
+  next_paths:
+  - PATH-01
+  - PATH-08
+- path_id: PATH-07
+  name: Work English Essentials
+  type: situation
+  primary_outcome: Gestire le comunicazioni professionali fondamentali in inglese.
+  target_levels:
+  - B1
+  - B2
+  recommended_order:
+  - step: 1
+    content_id: WE-001
+    role: professional_email
+  - step: 2
+    content_id: WE-002
+    role: ask_by_email
+  - step: 3
+    content_id: WE-003
+    role: follow_up
+  - step: 4
+    content_id: WE-004
+    role: professional_apology
+  - step: 5
+    content_id: WE-005
+    role: meeting_basics
+  - step: 6
+    content_id: WE-006
+    role: interrupt_politely
+  - step: 7
+    content_id: WE-007
+    role: agree_disagree
+  - step: 8
+    content_id: WE-008
+    role: clarify
+  - step: 9
+    content_id: WE-009
+    role: interview_intro
+  - step: 10
+    content_id: WE-010
+    role: experience
+  - step: 11
+    content_id: WE-011
+    role: tell_me_about_yourself
+  - step: 12
+    content_id: WE-012
+    role: final_questions
+  next_paths:
+  - PATH-09
+- path_id: PATH-08
+  name: Everyday English Problem Solver
+  type: problem_solution
+  primary_outcome: Gestire in inglese situazioni impreviste, errori e richieste di soluzione.
+  target_levels:
+  - A2
+  - B1
+  - B2
+  recommended_order:
+  - step: 1
+    content_id: UE-009
+    role: ask_for_help
+  - step: 2
+    content_id: UE-010
+    role: polite_requests
+  - step: 3
+    content_id: UE-011
+    role: clarification
+  - step: 4
+    content_id: UE-012
+    role: not_understanding
+  - step: 5
+    content_id: EL-001
+    role: report_problem
+  - step: 6
+    content_id: EL-002
+    role: polite_complaint
+  next_paths:
+  - PATH-06
+  - PATH-07
+- path_id: PATH-09
+  name: English for Calls and Remote Work
+  type: situation
+  primary_outcome: Gestire chiamate e videochiamate in inglese con chiarezza e controllo dell'interazione.
+  target_levels:
+  - B1
+  - B2
+  recommended_order:
+  - step: 1
+    content_id: EL-003
+    role: start_and_manage_call
+  - step: 2
+    content_id: EL-004
+    role: call_repair
+  - step: 3
+    content_id: WE-005
+    role: meetings
+  - step: 4
+    content_id: WE-006
+    role: interrupt
+  - step: 5
+    content_id: WE-008
+    role: clarification
+  next_paths:
+  - PATH-07
+  - PATH-03
+- path_id: PATH-10
+  name: Fix Common Italian English Mistakes
+  type: problem_solution
+  primary_outcome: Ridurre gli errori ricorrenti causati dall'influenza dell'italiano.
+  target_levels:
+  - A2
+  - B1
+  - B2
+  recommended_order:
+  - step: 1
+    content_id: BE-009
+    role: word_order
+  - step: 2
+    content_id: BE-010
+    role: common_mistakes
+  - step: 3
+    content_id: UE2-009
+    role: literal_translation
+  - step: 4
+    content_id: UE2-010
+    role: italian_english
+  - step: 5
+    content_id: UE2-013
+    role: false_friends
+  - step: 6
+    content_id: UE2-015
+    role: work_false_friends
+  - step: 7
+    content_id: UE2-016
+    role: travel_false_friends
+  next_paths:
+  - PATH-02
+- path_id: PATH-11
+  name: Build a Sustainable English Routine
+  type: problem_solution
+  primary_outcome: Creare una routine realistica che permetta di mantenere continuità e progressione.
+  target_levels:
+  - A2
+  - B1
+  - B2
+  recommended_order:
+  - step: 1
+    content_id: LS-003
+    role: no_progress
+  - step: 2
+    content_id: LS-013
+    role: study_time
+  - step: 3
+    content_id: LS-014
+    role: session_length
+  - step: 4
+    content_id: LS-015
+    role: realistic_routine
+  - step: 5
+    content_id: LS-016
+    role: review
+  - step: 6
+    content_id: LS-002
+    role: vocabulary_retention
+  - step: 7
+    content_id: LS-011
+    role: daily_listening
+  next_paths:
+  - PATH-01
+  - PATH-02
+- path_id: PATH-12
+  name: Choose Your English Learning Method
+  type: decision
+  primary_outcome: Scegliere un metodo di apprendimento coerente con obiettivi, tempo disponibile e livello di autonomia desiderato.
+  target_levels:
+  - A2
+  - B1
+  - B2
+  recommended_order:
+  - step: 1
+    content_id: CN-001
+    role: best_way_question
+  - step: 2
+    content_id: CN-002
+    role: self_study
+  - step: 3
+    content_id: CN-003
+    role: course_tutor_app
+  - step: 4
+    content_id: CN-004
+    role: choose_method
+  - step: 5
+    content_id: CN-005
+    role: evaluate_apps
+  - step: 6
+    content_id: CN-006
+    role: apps_for_adults
+  - step: 7
+    content_id: CN-007
+    role: apps_for_busy_people
+  - step: 8
+    content_id: CN-008
+    role: apps_for_consistency
+  next_paths:
+  - PATH-13
+- path_id: PATH-13
+  name: Evaluate Babbel for Your Needs
+  type: decision
+  primary_outcome: Capire se Babbel è compatibile con il proprio livello, obiettivo, tempo e metodo di studio.
+  target_levels:
+  - A2
+  - B1
+  - B2
+  recommended_order:
+  - step: 1
+    content_id: BA-001
+    role: what_is_babbel
+  - step: 2
+    content_id: BA-002
+    role: lessons
+  - step: 3
+    content_id: BA-004
+    role: adults
+  - step: 4
+    content_id: BA-006
+    role: short_daily_sessions
+  - step: 5
+    content_id: BA-003
+    role: existing_learners
+  - step: 6
+    content_id: BA-007
+    role: a2_to_b1
+  - step: 7
+    content_id: BA-009
+    role: pros_and_cons
+  - step: 8
+    content_id: BA-010
+    role: when_it_makes_sense
+  - step: 9
+    content_id: BA-011
+    role: when_not_right
+  - step: 10
+    content_id: BA-012
+    role: vs_self_study
+  next_paths: []
+site:
+  name: Fluente-Mente
+  language: it
+  market: IT

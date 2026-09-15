@@ -1,0 +1,323 @@
+schema_version: '1.1'
+site:
+  name: Fluente-Mente
+  tagline: Impara l'inglese che ti serve davvero.
+  description: Risorse pratiche per italiani che vogliono capire, parlare e usare l'inglese con maggiore naturalezza.
+  language: it
+  market: IT
+  subject: English learning
+  audience: Italian adults learning English
+  base_url: https://nausica-20.github.io/fluente-mente/
+  repository: nausica-20/fluente-mente
+  domain: nausica-20.github.io
+  platform: GitHub Pages
+  generator: Jekyll
+  timezone: Europe/Rome
+  github_username: nausica-20
+brand:
+  positioning: Aiutare italiani adulti a usare l'inglese in situazioni reali, capire l'inglese naturale e costruire una progressione
+    pratica.
+  differentiators:
+  - real-life English
+  - natural English for Italians
+  - problem-solving
+  - clear progression
+  - practical learning resources
+  tone:
+  - clear
+  - practical
+  - encouraging
+  - adult
+  - non-school-like
+  name: Fluente-Mente
+audience:
+  primary: Italian adults learning English
+  core_levels:
+  - A2
+  - B1
+  - B2
+  main_jobs:
+  - speak in everyday situations
+  - understand natural spoken English
+  - avoid common Italian mistakes
+  - use English for travel and work
+  - build a sustainable learning routine
+  - choose a suitable learning method
+navigation:
+  header:
+  - label: Inglese pratico
+    url: /english/
+  - label: Inglese naturale
+    url: /real-english/
+  - label: Impara meglio
+    url: /learn-english/
+  - label: English for real life
+    url: /english-for-real-life/
+  - label: Sblocca il tuo inglese
+    url: /english-learning/
+  - label: Scegli il tuo percorso
+    url: /choose/
+  utility:
+  - label: Percorsi
+    url: /paths/
+  - label: Parole
+    url: /words/
+  - label: Espressioni
+    url: /expressions/
+  footer:
+  - label: Chi siamo
+    url: /about/
+  - label: Contatti
+    url: /contact/
+  - label: Privacy
+    url: /privacy/
+  - label: Cookie
+    url: /cookie/
+  - label: Disclosure affiliati
+    url: /affiliate-disclosure/
+homepage:
+  primary_goal: Portare l'utente da un bisogno concreto al contenuto o percorso più utile.
+  recommended_sections:
+  - hero_with_clear_value_proposition
+  - start_by_goal
+  - popular_real_life_topics
+  - natural_english_for_italians
+  - learning_paths
+  - problem_solver
+  - latest_useful_resources
+  - optional_babbel_next_step
+  - affiliate_disclosure
+  primary_cta: CTA-001
+  secondary_cta: CTA-003
+content_sections:
+  english:
+    label: Inglese pratico
+    url: /english/
+    domain: use_english
+    mission: Parlare e interagire in situazioni quotidiane.
+  real_english:
+    label: Inglese naturale
+    url: /real-english/
+    domain: understand_real_english
+    mission: Capire e usare l'inglese naturale.
+  learn_english:
+    label: Costruisci un inglese migliore
+    url: /learn-english/
+    domain: build_better_english
+    mission: Costruire grammatica, lessico e collocations attraverso l'uso.
+  real_life:
+    label: English for real life
+    url: /english-for-real-life/
+    domain: english_for_real_life
+    mission: Usare l'inglese in viaggio, lavoro, vita sociale e problemi quotidiani.
+  english_learning:
+    label: Sblocca il tuo inglese
+    url: /english-learning/
+    domain: get_unstuck
+    mission: Risolvere i problemi che bloccano l'apprendimento.
+  choose:
+    label: Scegli il tuo prossimo passo
+    url: /choose/
+    domain: choose_next_step
+    mission: Scegliere metodo, strumento o percorso.
+learning_resources:
+  paths:
+    url: /paths/
+    label: Percorsi di inglese
+  words:
+    url: /words/
+    label: Parole inglesi
+  expressions:
+    url: /expressions/
+    label: Espressioni inglesi
+  levels:
+    url: /levels/
+    label: Livelli A2, B1 e B2
+affiliate:
+  brand: Babbel
+  config_source: _data/affiliate.yml
+  show_babbel_in_main_navigation: false
+  show_babbel_as_editorial_category: false
+  recommended_entry_points:
+  - /choose/
+  - /choose/babbel/
+  - contextual_learning_content
+  disclosure_url: /affiliate-disclosure/
+  disclosure_short_label: Link affiliato
+footer:
+  copyright: CONFIGURE
+  show_affiliate_disclosure: true
+  show_privacy_link: true
+  show_cookie_link: true
+  show_contact_link: true
+  show_last_updated: true
+legal:
+  privacy_url: /privacy/
+  cookie_url: /cookie/
+  terms_url: CONFIGURE
+  affiliate_disclosure_url: /affiliate-disclosure/
+  editorial_policy_url: /editorial-policy/
+social:
+  pinterest:
+    enabled: true
+    profile_url: https://pin.it/7AH50mTlA
+    default_source: pinterest
+    username: nausica-20
+analytics:
+  provider: CONFIGURE
+  tracking_id: CONFIGURE
+  consent_mode: CONFIGURE
+  notes: Configurare in base agli strumenti effettivamente usati e ai requisiti applicabili.
+technical:
+  static_hosting: GitHub Pages
+  build_system: Jekyll
+  deployment: GitHub Actions
+  ssl: true
+  custom_domain: false
+  generate_sitemap: true
+  generate_robots: true
+  atom_feed: true
+  image_optimization: true
+  broken_link_check: true
+global_defaults:
+  content_language: it
+  date_format: DD/MM/YYYY
+  default_author: CONFIGURE
+  default_image: /assets/images/default-og.jpg
+  default_og_type: website
+  breadcrumb_enabled: true
+  search_enabled: true
+  related_content_enabled: true
+  learning_path_module_enabled: true
+  affiliate_module_enabled: true
+url_conventions:
+  article: /{{section}}/{{slug}}/
+  cluster: /{{section}}/{{cluster_slug}}/
+  path: /paths/{{path_slug}}/
+  word: /words/{{word_slug}}/
+  expression: /expressions/{{expression_slug}}/
+  static_page: /{{slug}}/
+environment:
+  development:
+    base_url: http://localhost:4000
+    robots: noindex,nofollow
+    analytics: false
+  production:
+    base_url: https://nausica-20.github.io/fluente-mente/
+    robots: index,follow
+    analytics: true
+governance:
+  source_of_truth_files:
+  - _data/content.yml
+  - _data/clusters.yml
+  - _data/topics.yml
+  - _data/learning_paths.yml
+  - _data/ctas.yml
+  - _data/pinterest.yml
+  - _data/affiliate.yml
+  - _data/seo.yml
+  - _data/site.yml
+  content_copy_should_not_be_hardcoded_in_templates: true
+  commercial_copy_should_be_managed_in_ctas_or_affiliate_config: true
+  seo_copy_should_be_managed_in_content_or_seo_config: true
+  navigation_should_be_managed_in_site_config: true
+  style_reference: design_system in site.yml is derived from the supplied Fluente-Mente project
+  style_rule: Keep the visual system consistent across the new site; change information architecture, copy, content and branding
+    as required by the Babbel acquisition project, not the underlying visual language.
+design_system:
+  reference: Fluente-Mente GitHub/Jekyll project supplied by user
+  preserve_visual_language: true
+  principles:
+  - editorial
+  - clean
+  - warm
+  - premium_without_being_luxury
+  - high_readability
+  - content_first
+  - soft_cards
+  - subtle_motion
+  colors:
+    text: '#202124'
+    text_muted: '#5f6368'
+    background: '#ffffff'
+    background_soft: '#fff7ed'
+    border: '#e5e1d8'
+    primary_navy: '#183b56'
+    primary_navy_dark: '#102c40'
+    accent_orange: '#f26b38'
+    accent_orange_dark: '#d95728'
+    primary_soft: '#edf3f7'
+    accent_soft: '#fff0e9'
+    footer_background: '#183b56'
+  typography:
+    font_stack:
+    - Inter
+    - -apple-system
+    - BlinkMacSystemFont
+    - Segoe UI
+    - Roboto
+    - Helvetica
+    - Arial
+    - sans-serif
+    heading_weight: 700
+    body_weight: 400
+    nav_weight: 600
+    base_size: 1rem
+    body_line_height: 1.65
+    heading_line_height: 1.2
+    display_letter_spacing: -0.035em
+  layout:
+    container_max_width: 1180px
+    reading_max_width: 760px
+    sidebar_width: 260px
+    header_height: 76px
+    section_spacing: 5rem
+    mobile_section_spacing: 3rem
+  shape:
+    border_width: 1px
+    radius_sm: 6px
+    radius_md: 12px
+    radius_lg: 20px
+    radius_xl: 28px
+    radius_pill: 999px
+  elevation:
+    small: 0 1px 3px rgba(0, 0, 0, 0.06)
+    medium: 0 8px 24px rgba(0, 0, 0, 0.08)
+    large: 0 16px 40px rgba(0, 0, 0, 0.10)
+  components:
+    header: white background, thin bottom border, compact horizontal navigation
+    mobile_navigation: pill menu button with rounded dropdown
+    hero: two-column editorial hero with strong H1 and simple visual card
+    cards: white cards, thin warm border, rounded corners, subtle shadow, slight lift on hover
+    featured_card: deep navy surface with white text and orange accent
+    eyebrows: small uppercase labels with letter spacing
+    buttons: rounded, compact, high-contrast primary and outlined secondary
+    articles: wide editorial header, readable 760px text column, generous spacing
+    callouts: soft warm/blue backgrounds with left accent border
+    footer: deep navy background, four-column desktop structure, legal row at bottom
+  motion:
+    enabled: true
+    duration_fast: 150ms
+    duration_base: 250ms
+    hover_transform: translateY(-2px) to translateY(-4px)
+    respect_prefers_reduced_motion: true
+  responsive:
+    breakpoints:
+      sm: 576px
+      md: 768px
+      lg: 1024px
+      xl: 1200px
+    mobile_navigation_at: 1024px
+    article_sidebar_collapses_at: 1024px
+    card_grid_collapses_at: 768px
+  image_direction:
+    style: clean editorial, minimal, authentic, no generic stock-photo look
+    corners: rounded to match card system
+    preferred_ratio: 4:3 or 16:10 for website editorial images
+    pinterest_ratio: '2:3'
+    overlays: use typography and simple graphic framing rather than heavy decoration
+github:
+  username: nausica-20
+  repository: fluente-mente
+  repository_full: nausica-20/fluente-mente
+  pages_url: https://nausica-20.github.io/fluente-mente/

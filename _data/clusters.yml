@@ -1,0 +1,245 @@
+schema_version: '1.1'
+site:
+  name: Fluente-Mente
+  language: it
+  market: IT
+  subject: English learning
+  primary_audience: Italian adults learning English
+  base_url: https://nausica-20.github.io/fluente-mente/
+rules:
+  one_primary_cluster_per_content: true
+  one_primary_topic_per_content: true
+  one_primary_user_job_per_content: true
+  avoid_keyword_cannibalization: true
+  cluster_must_have_distinct_mission: true
+  supporting_content_must_add_a_distinct_learning_lens: true
+  commercial_content_must_not_duplicate_educational_content: true
+domains:
+  use_english:
+    mission: Aiutare l'utente a parlare e interagire in inglese nelle conversazioni quotidiane.
+    clusters:
+      keeping_conversations_going:
+        mission: Mantenere, sviluppare e reindirizzare una conversazione.
+        content_ids:
+        - UE-005
+        - UE-006
+        - UE-007
+        - UE-008
+      opinions_and_social:
+        mission: Esprimere opinioni e gestire accordo, disaccordo e conversazioni sociali.
+        content_ids:
+        - UE-013
+        - UE-014
+        - UE-015
+        - UE-016
+      requests_and_help:
+        mission: Chiedere aiuto, fare richieste e gestire incomprensioni.
+        content_ids:
+        - UE-009
+        - UE-010
+        - UE-011
+        - UE-012
+      starting_conversations:
+        mission: Iniziare una conversazione in modo naturale.
+        content_ids:
+        - UE-001
+        - UE-002
+        - UE-003
+  understand_real_english:
+    mission: Aiutare gli italiani a capire l'inglese reale e riconoscere ciò che cambia rispetto all'inglese scolastico.
+    clusters:
+      everyday_expressions:
+        mission: Comprendere espressioni e reazioni frequenti nella conversazione.
+        content_ids:
+        - UE2-001
+        - UE2-002
+        - UE2-003
+      false_friends:
+        mission: Evitare falsi amici e parole ingannevoli per italiani.
+        content_ids:
+        - UE2-013
+        - UE2-014
+        - UE2-015
+        - UE2-016
+      natural_english_for_italians:
+        mission: Riconoscere e correggere le formulazioni troppo letterali o influenzate dall’italiano.
+        content_ids:
+        - UE2-004
+        - UE2-009
+        - UE2-010
+        - UE2-011
+        - UE2-012
+      spoken_english:
+        mission: Capire perché l'inglese parlato dai nativi può sembrare diverso o difficile.
+        content_ids:
+        - UE2-005
+        - UE2-006
+        - UE2-007
+        - UE2-008
+  build_better_english:
+    mission: Costruire una base linguistica più accurata e naturale attraverso l'uso.
+    clusters:
+      collocations:
+        mission: Passare dalle singole parole alle combinazioni naturali di parole.
+        content_ids:
+        - BE-011
+        - BE-012
+        - BE-013
+        - BE-014
+        - BE-015
+        - BE-016
+      grammar_in_context:
+        mission: Imparare la grammatica attraverso situazioni comunicative.
+        content_ids:
+        - BE-001
+        - BE-002
+        - BE-003
+        - BE-004
+        - BE-005
+      italian_mistakes:
+        mission: Individuare e correggere errori tipici degli italiani.
+        content_ids:
+        - BE-009
+        - BE-010
+      prepositions:
+        mission: Risolvere gli errori più comuni nell'uso delle preposizioni.
+        content_ids:
+        - BE-006
+        - BE-007
+        - BE-008
+  english_for_real_life:
+    mission: Preparare l'utente a usare l'inglese in situazioni concrete di viaggio, lavoro, vita sociale e problemi quotidiani.
+    clusters:
+      calls_and_video_calls:
+        mission: Gestire conversazioni telefoniche e videochiamate in inglese.
+        content_ids:
+        - EL-003
+        - EL-004
+      everyday_problem_solving:
+        mission: Gestire problemi, errori e richieste di soluzione nella vita quotidiana.
+        content_ids:
+        - EL-001
+        - EL-002
+      job_interviews:
+        mission: Gestire le principali interazioni linguistiche durante un colloquio.
+        content_ids:
+        - WE-009
+        - WE-010
+        - WE-011
+        - WE-012
+      social_life:
+        mission: Usare l'inglese per creare e mantenere relazioni sociali.
+        content_ids:
+        - SL-001
+        - SL-002
+        - SL-003
+        - SL-004
+      travel_airport:
+        mission: Gestire comunicazioni essenziali in aeroporto.
+        content_ids:
+        - TR-001
+        - TR-002
+        - TR-003
+        - TR-004
+      travel_hotel:
+        mission: Comunicare efficacemente durante il soggiorno in hotel.
+        content_ids:
+        - TR-005
+        - TR-006
+        - TR-007
+        - TR-008
+      travel_restaurant:
+        mission: Gestire prenotazioni, ordini e richieste al ristorante.
+        content_ids:
+        - TR-009
+        - TR-010
+        - TR-011
+        - TR-012
+      work_email:
+        mission: Scrivere email professionali semplici, chiare e naturali.
+        content_ids:
+        - WE-001
+        - WE-002
+        - WE-003
+        - WE-004
+      work_meetings:
+        mission: Partecipare attivamente a riunioni in inglese.
+        content_ids:
+        - WE-005
+        - WE-006
+        - WE-007
+        - WE-008
+  get_unstuck:
+    mission: Risolvere i problemi che impediscono all'utente di trasformare la conoscenza dell'inglese in uso reale.
+    clusters:
+      levels_and_progression:
+        mission: Capire i livelli e orientarsi nella progressione.
+        content_ids:
+        - LS-017
+        - LS-018
+        - LS-019
+        - LS-020
+      listening_problems:
+        mission: Capire meglio l'inglese parlato reale.
+        content_ids:
+        - LS-004
+        - LS-009
+        - LS-010
+        - LS-011
+        - LS-012
+      speaking_problems:
+        mission: Affrontare blocchi e difficoltà nello speaking.
+        content_ids:
+        - LS-001
+        - LS-005
+        - LS-006
+        - LS-007
+        - LS-008
+      study_system:
+        mission: Costruire un sistema di studio realistico e sostenibile.
+        content_ids:
+        - LS-003
+        - LS-013
+        - LS-014
+        - LS-015
+        - LS-016
+      vocabulary_problems:
+        mission: Migliorare memorizzazione e recupero del vocabolario.
+        content_ids:
+        - LS-002
+  choose_next_step:
+    mission: Aiutare l'utente a scegliere un metodo, uno strumento o un percorso coerente con i propri bisogni.
+    clusters:
+      babbel_core:
+        mission: Spiegare come funziona Babbel e per quali profili può essere utile.
+        content_ids:
+        - BA-001
+        - BA-002
+        - BA-003
+        - BA-004
+        - BA-005
+        - BA-006
+      babbel_decision:
+        mission: Aiutare l’utente a capire quando Babbel è o non è una scelta adatta.
+        content_ids:
+        - BA-007
+        - BA-008
+        - BA-009
+        - BA-010
+        - BA-011
+        - BA-012
+      learning_apps:
+        mission: Valutare le app per l'apprendimento delle lingue in base a bisogni concreti.
+        content_ids:
+        - CN-005
+        - CN-006
+        - CN-007
+        - CN-008
+      learning_methods:
+        mission: Confrontare approcci e scegliere un metodo di apprendimento.
+        content_ids:
+        - CN-001
+        - CN-002
+        - CN-003
+        - CN-004
+content_ids_not_yet_assigned: []

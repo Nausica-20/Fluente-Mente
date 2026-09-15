@@ -1,0 +1,587 @@
+schema_version: '1.1'
+purpose: Canonical didactic topic taxonomy linking editorial content to communicative skills and learner progression.
+rules:
+  one_primary_topic_per_content: true
+  topic_is_not_a_keyword: true
+  topic_represents_a_learning_need_or_skill: true
+  same_topic_can_contain_multiple_content_units: true
+  content_must_have_a_distinct_learning_outcome: true
+  levels_are_guidance_not_prerequisites: true
+levels:
+  A2: Can handle familiar everyday communication with simple language.
+  B1: Can manage common situations, explain ideas and maintain conversations with increasing independence.
+  B2: Can interact more spontaneously, precisely and flexibly across familiar and professional situations.
+  B2+: Can refine naturalness, nuance, interaction and control beyond core B2.
+topics:
+- topic_id: TOP-01
+  name: Starting conversations naturally
+  domain: use_english
+  cluster: starting_conversations
+  learning_problem: Non sapere come iniziare una conversazione senza usare formule scolastiche.
+  skill: conversation_opening
+  communicative_goal: Aprire una conversazione in modo naturale e appropriato al contesto.
+  core_levels:
+  - A2
+  - B1
+  content_ids:
+  - UE-001
+  - UE-002
+  progression_role: foundation
+- topic_id: TOP-02
+  name: Introducing yourself
+  domain: use_english
+  cluster: starting_conversations
+  learning_problem: Presentarsi in inglese con informazioni semplici ma naturali.
+  skill: self_introduction
+  communicative_goal: Presentarsi e dare informazioni personali senza tradurre dall'italiano.
+  core_levels:
+  - A2
+  - B1
+  content_ids:
+  - UE-003
+  progression_role: foundation
+- topic_id: TOP-03
+  name: Keeping a conversation going
+  domain: use_english
+  cluster: keeping_conversations_going
+  learning_problem: Rimanere senza parole dopo le prime battute.
+  skill: conversation_maintenance
+  communicative_goal: Fare domande, reagire e aggiungere informazioni per mantenere viva una conversazione.
+  core_levels:
+  - A2
+  - B1
+  content_ids:
+  - UE-005
+  - UE-006
+  - UE-007
+  - UE-008
+  progression_role: development
+- topic_id: TOP-04
+  name: Requests and help
+  domain: use_english
+  cluster: requests_and_help
+  learning_problem: Chiedere qualcosa o chiedere aiuto senza risultare bruschi o poco chiari.
+  skill: requests
+  communicative_goal: Fare richieste e chiedere aiuto in modo appropriato.
+  core_levels:
+  - A2
+  - B1
+  content_ids:
+  - UE-009
+  - UE-010
+  progression_role: development
+- topic_id: TOP-05
+  name: Clarifying and repairing communication
+  domain: use_english
+  cluster: requests_and_help
+  learning_problem: Non sapere cosa dire quando non si capisce qualcosa.
+  skill: communication_repair
+  communicative_goal: Chiedere di ripetere, chiarire o riformulare senza bloccare la conversazione.
+  core_levels:
+  - A2
+  - B1
+  content_ids:
+  - UE-011
+  - UE-012
+  progression_role: development
+- topic_id: TOP-06
+  name: Opinions and polite disagreement
+  domain: use_english
+  cluster: opinions_and_social
+  learning_problem: Esprimere opinioni e dissentire senza sembrare troppo diretti.
+  skill: opinion_exchange
+  communicative_goal: Esprimere, sostenere e modulare opinioni, accordo e disaccordo.
+  core_levels:
+  - B1
+  - B2
+  content_ids:
+  - UE-013
+  - UE-014
+  - UE-015
+  progression_role: development
+- topic_id: TOP-07
+  name: Talking about plans and weekends
+  domain: use_english
+  cluster: opinions_and_social
+  learning_problem: Parlare di programmi futuri nelle conversazioni informali.
+  skill: plans_and_arrangements
+  communicative_goal: Parlare di programmi, disponibilità e intenzioni in modo naturale.
+  core_levels:
+  - A2
+  - B1
+  content_ids:
+  - UE-016
+  progression_role: development
+- topic_id: TOP-08
+  name: Everyday expressions and reactions
+  domain: understand_real_english
+  cluster: everyday_expressions
+  learning_problem: Non riconoscere espressioni brevi che i madrelingua usano continuamente.
+  skill: expression_recognition
+  communicative_goal: Riconoscere e interpretare espressioni e reazioni frequenti.
+  core_levels:
+  - A2
+  - B1
+  content_ids:
+  - UE2-001
+  - UE2-002
+  - UE2-003
+  progression_role: foundation
+- topic_id: TOP-09
+  name: Natural English for Italians
+  domain: understand_real_english
+  cluster: natural_english_for_italians
+  learning_problem: Produrre inglese corretto ma troppo letterale o influenzato dall'italiano.
+  skill: naturalness
+  communicative_goal: Riconoscere formulazioni innaturali e sostituirle con alternative idiomatiche.
+  core_levels:
+  - B1
+  - B2
+  content_ids:
+  - UE2-004
+  - UE2-009
+  - UE2-010
+  - UE2-011
+  - UE2-012
+  progression_role: refinement
+- topic_id: TOP-10
+  name: Understanding spoken English
+  domain: understand_real_english
+  cluster: spoken_english
+  learning_problem: Capire poco l'inglese parlato nonostante una buona conoscenza grammaticale.
+  skill: listening_decoding
+  communicative_goal: Riconoscere velocità, contrazioni, fillers e connected speech.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - UE2-005
+  - UE2-006
+  - UE2-007
+  - UE2-008
+  progression_role: development
+- topic_id: TOP-11
+  name: False friends
+  domain: understand_real_english
+  cluster: false_friends
+  learning_problem: Interpretare parole simili all'italiano nel modo sbagliato.
+  skill: lexical_disambiguation
+  communicative_goal: Evitare gli errori causati da falsi amici in contesti generali, lavorativi e di viaggio.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - UE2-013
+  - UE2-014
+  - UE2-015
+  - UE2-016
+  progression_role: accuracy
+- topic_id: TOP-12
+  name: Grammar through everyday use
+  domain: build_better_english
+  cluster: grammar_in_context
+  learning_problem: Conoscere le regole ma non sapere quando usarle mentre si parla.
+  skill: functional_grammar
+  communicative_goal: Usare tempi verbali comuni per parlare di abitudini, presente, passato, esperienze e piani.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - BE-001
+  - BE-002
+  - BE-003
+  - BE-004
+  - BE-005
+  progression_role: foundation
+- topic_id: TOP-13
+  name: English prepositions
+  domain: build_better_english
+  cluster: prepositions
+  learning_problem: Scegliere la preposizione corretta per influenza dell'italiano o per apprendimento frammentario.
+  skill: preposition_control
+  communicative_goal: Usare correttamente le preposizioni più frequenti in contesti reali.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - BE-006
+  - BE-007
+  - BE-008
+  progression_role: accuracy
+- topic_id: TOP-14
+  name: Italian-to-English interference
+  domain: build_better_english
+  cluster: italian_mistakes
+  learning_problem: Trasferire struttura, ordine o scelta lessicale dall'italiano all'inglese.
+  skill: error_correction
+  communicative_goal: Riconoscere gli errori tipici degli italiani e correggerli in contesto.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - BE-009
+  - BE-010
+  progression_role: accuracy
+- topic_id: TOP-15
+  name: Collocations and natural word combinations
+  domain: build_better_english
+  cluster: collocations
+  learning_problem: Conoscere le parole singolarmente ma combinarle in modo innaturale.
+  skill: collocation_control
+  communicative_goal: Usare combinazioni di parole frequenti e alternative naturali.
+  core_levels:
+  - B1
+  - B2
+  content_ids:
+  - BE-011
+  - BE-012
+  - BE-013
+  - BE-014
+  - BE-015
+  - BE-016
+  progression_role: refinement
+- topic_id: TOP-16
+  name: Airport communication
+  domain: english_for_real_life
+  cluster: travel_airport
+  learning_problem: Non sapere cosa dire o capire nei principali passaggi aeroportuali.
+  skill: travel_communication
+  communicative_goal: Gestire check-in, sicurezza, boarding e ritardi.
+  core_levels:
+  - A2
+  - B1
+  content_ids:
+  - TR-001
+  - TR-002
+  - TR-003
+  - TR-004
+  progression_role: real_life
+- topic_id: TOP-17
+  name: Hotel communication
+  domain: english_for_real_life
+  cluster: travel_hotel
+  learning_problem: Gestire check-in, richieste e problemi durante il soggiorno.
+  skill: hotel_communication
+  communicative_goal: Comunicare con la reception e risolvere problemi comuni.
+  core_levels:
+  - A2
+  - B1
+  content_ids:
+  - TR-005
+  - TR-006
+  - TR-007
+  - TR-008
+  progression_role: real_life
+- topic_id: TOP-18
+  name: Restaurant communication
+  domain: english_for_real_life
+  cluster: travel_restaurant
+  learning_problem: Ordinare, prenotare e chiedere informazioni in un ristorante.
+  skill: restaurant_communication
+  communicative_goal: Gestire prenotazione, ordine, richieste e conto.
+  core_levels:
+  - A2
+  - B1
+  content_ids:
+  - TR-009
+  - TR-010
+  - TR-011
+  - TR-012
+  progression_role: real_life
+- topic_id: TOP-19
+  name: Professional email communication
+  domain: english_for_real_life
+  cluster: work_email
+  learning_problem: Scrivere email professionali troppo lunghe, dirette o tradotte letteralmente.
+  skill: professional_writing
+  communicative_goal: Scrivere richieste, follow-up e scuse professionali in inglese.
+  core_levels:
+  - B1
+  - B2
+  content_ids:
+  - WE-001
+  - WE-002
+  - WE-003
+  - WE-004
+  progression_role: work
+- topic_id: TOP-20
+  name: Participating in meetings
+  domain: english_for_real_life
+  cluster: work_meetings
+  learning_problem: Comprendere e intervenire nelle riunioni senza perdere il turno o risultare bruschi.
+  skill: meeting_interaction
+  communicative_goal: Interrompere, chiarire, concordare e dissentire in una riunione.
+  core_levels:
+  - B1
+  - B2
+  content_ids:
+  - WE-005
+  - WE-006
+  - WE-007
+  - WE-008
+  progression_role: work
+- topic_id: TOP-21
+  name: Job interview communication
+  domain: english_for_real_life
+  cluster: job_interviews
+  learning_problem: Non sapere come parlare di sé e della propria esperienza in un colloquio.
+  skill: interview_communication
+  communicative_goal: Presentarsi, raccontare esperienza e gestire le domande finali.
+  core_levels:
+  - B1
+  - B2
+  content_ids:
+  - WE-009
+  - WE-010
+  - WE-011
+  - WE-012
+  progression_role: work
+- topic_id: TOP-22
+  name: Social English
+  domain: english_for_real_life
+  cluster: social_life
+  learning_problem: Difficoltà a creare e gestire interazioni sociali in inglese.
+  skill: social_interaction
+  communicative_goal: Parlare di interessi, fare inviti e accettare o rifiutare proposte.
+  core_levels:
+  - A2
+  - B1
+  content_ids:
+  - SL-001
+  - SL-002
+  - SL-003
+  - SL-004
+  progression_role: real_life
+- topic_id: TOP-23
+  name: Phone and video calls
+  domain: english_for_real_life
+  cluster: calls_and_video_calls
+  learning_problem: Gestire conversazioni telefoniche o video senza il supporto delle espressioni facciali.
+  skill: remote_interaction
+  communicative_goal: Aprire, chiarire, gestire problemi tecnici e chiudere una chiamata.
+  core_levels:
+  - B1
+  - B2
+  content_ids:
+  - EL-003
+  - EL-004
+  progression_role: real_life
+- topic_id: TOP-24
+  name: Everyday problem solving
+  domain: english_for_real_life
+  cluster: everyday_problem_solving
+  learning_problem: Blocchi linguistici quando qualcosa va storto e bisogna chiedere una soluzione.
+  skill: problem_resolution
+  communicative_goal: Segnalare errori, spiegare un problema e chiedere una soluzione.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - EL-001
+  - EL-002
+  progression_role: real_life
+- topic_id: TOP-25
+  name: Understand but cannot speak
+  domain: get_unstuck
+  cluster: speaking_problems
+  learning_problem: Capire l'inglese ma non riuscire a trasformare la conoscenza in produzione.
+  skill: productive_fluency
+  communicative_goal: Diagnosticare il blocco tra comprensione e produzione.
+  core_levels:
+  - A2
+  - B1
+  content_ids:
+  - LS-001
+  progression_role: diagnostic
+- topic_id: TOP-26
+  name: Building speaking ability
+  domain: get_unstuck
+  cluster: speaking_problems
+  learning_problem: Sapere che bisogna parlare ma non avere un sistema pratico per allenarsi.
+  skill: speaking_practice
+  communicative_goal: Costruire una pratica di speaking progressiva e realistica.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - LS-005
+  - LS-007
+  progression_role: practice
+- topic_id: TOP-27
+  name: Speaking confidence
+  domain: get_unstuck
+  cluster: speaking_problems
+  learning_problem: Paura di sbagliare o di essere giudicati mentre si parla.
+  skill: speaking_confidence
+  communicative_goal: Ridurre il blocco comportamentale e aumentare la disponibilità a parlare.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - LS-008
+  progression_role: behavior
+- topic_id: TOP-28
+  name: Vocabulary retention
+  domain: get_unstuck
+  cluster: vocabulary_problems
+  learning_problem: Imparare parole nuove e dimenticarle rapidamente.
+  skill: vocabulary_retention
+  communicative_goal: Trasformare il vocabolario incontrato in conoscenza recuperabile.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - LS-002
+  progression_role: practice
+- topic_id: TOP-29
+  name: Listening to native speakers
+  domain: get_unstuck
+  cluster: listening_problems
+  learning_problem: Comprendere esercizi e insegnanti ma faticare con parlanti naturali.
+  skill: real_world_listening
+  communicative_goal: Passare dall'ascolto controllato alla comprensione del parlato reale.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - LS-004
+  - LS-009
+  - LS-010
+  - LS-011
+  - LS-012
+  progression_role: development
+- topic_id: TOP-30
+  name: Thinking in English
+  domain: get_unstuck
+  cluster: speaking_problems
+  learning_problem: Tradurre mentalmente ogni frase prima di parlare.
+  skill: direct_formulation
+  communicative_goal: Ridurre la traduzione mentale e aumentare il recupero diretto di frasi e chunks.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - LS-006
+  progression_role: fluency
+- topic_id: TOP-31
+  name: Study consistency
+  domain: get_unstuck
+  cluster: study_system
+  learning_problem: Studiare in modo discontinuo o senza una routine sostenibile.
+  skill: study_habits
+  communicative_goal: Costruire un sistema di studio compatibile con tempo e motivazione reali.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - LS-003
+  - LS-013
+  - LS-014
+  - LS-015
+  - LS-016
+  progression_role: behavior
+- topic_id: TOP-32
+  name: English levels and progression
+  domain: get_unstuck
+  cluster: levels_and_progression
+  learning_problem: Non sapere cosa significhino davvero A2, B1 e B2 o quale sia il passo successivo.
+  skill: self_assessment
+  communicative_goal: Capire il proprio livello e orientarsi verso il livello successivo.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - LS-017
+  - LS-018
+  - LS-019
+  - LS-020
+  progression_role: orientation
+- topic_id: TOP-33
+  name: Choosing a learning method
+  domain: choose_next_step
+  cluster: learning_methods
+  learning_problem: Non sapere quale combinazione di corso, tutor, app o self-study sia adatta.
+  skill: method_selection
+  communicative_goal: Valutare i principali approcci in base a obiettivi, tempo e bisogno di supporto.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - CN-001
+  - CN-002
+  - CN-003
+  - CN-004
+  progression_role: decision
+- topic_id: TOP-34
+  name: Choosing a language app
+  domain: choose_next_step
+  cluster: learning_apps
+  learning_problem: Faticare a distinguere un'app utile da una scelta basata solo su funzionalità o marketing.
+  skill: tool_evaluation
+  communicative_goal: Valutare un'app linguistica per efficacia, routine, profilo e obiettivo.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - CN-005
+  - CN-006
+  - CN-007
+  - CN-008
+  progression_role: decision
+- topic_id: TOP-35
+  name: Understanding Babbel
+  domain: choose_next_step
+  cluster: babbel_core
+  learning_problem: Non sapere come funziona Babbel o per chi può avere senso.
+  skill: product_understanding
+  communicative_goal: Capire il funzionamento generale e i principali casi d'uso di Babbel.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - BA-001
+  - BA-002
+  - BA-003
+  - BA-004
+  - BA-005
+  - BA-006
+  progression_role: commercial_education
+- topic_id: TOP-36
+  name: Deciding whether Babbel fits
+  domain: choose_next_step
+  cluster: babbel_decision
+  learning_problem: Non sapere se Babbel sia adatto al proprio livello, obiettivo e modo di studiare.
+  skill: product_fit_decision
+  communicative_goal: Confrontare bisogni personali e caratteristiche del metodo prima di scegliere.
+  core_levels:
+  - A2
+  - B1
+  - B2
+  content_ids:
+  - BA-007
+  - BA-008
+  - BA-009
+  - BA-010
+  - BA-011
+  - BA-012
+  progression_role: commercial_decision
+site:
+  name: Fluente-Mente
+  language: it
+  market: IT

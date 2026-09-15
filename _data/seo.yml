@@ -1,0 +1,230 @@
+schema_version: '1.1'
+purpose: Centralized SEO configuration for the static GitHub site.
+site:
+  default_language: it
+  market: IT
+  base_url: https://nausica-20.github.io/fluente-mente/
+  site_name: Fluente-Mente
+  title_separator: '|'
+  robots_policy: index,follow
+  default_canonical: self
+  repository: nausica-20/fluente-mente
+  pinterest_profile: https://pin.it/7AH50mTlA
+  github_username: nausica-20
+search_intents:
+  informational: L'utente vuole capire un concetto o ottenere una risposta.
+  learning: L'utente vuole imparare o applicare una competenza.
+  reference: L'utente cerca una risorsa da consultare o salvare.
+  problem: L'utente vuole risolvere un problema specifico.
+  comparison: L'utente vuole confrontare opzioni.
+  commercial: L'utente mostra intenzione di valutare o acquistare un prodotto o servizio.
+keyword_rules:
+  one_primary_keyword_per_content: true
+  secondary_keywords_should_support_primary_intent: true
+  keyword_must_match_content_job: true
+  avoid_exact_match_repetition_across_sibling_pages: true
+  do_not_create_pages_only_for_keyword_variants: true
+  prioritize_search_intent_over_keyword_volume: true
+  italian_language_for_site_copy: true
+  english_terms_may_be_used_when_the_user_searches_for_the_english_expression: true
+url_rules:
+  format: /{{section}}/{{slug}}/
+  lowercase: true
+  use_hyphens: true
+  no_dates: true
+  no_trailing_file_extensions: true
+  keep_urls_stable_after_publish: true
+  avoid_keyword_stuffing: true
+  slug_should_describe_user_intent: true
+content_url_sections:
+  use_english: /english/
+  understand_real_english: /real-english/
+  build_better_english: /learn-english/
+  english_for_real_life: /english-for-real-life/
+  get_unstuck: /english-learning/
+  choose_next_step: /choose/
+metadata:
+  title:
+    recommended_length: 50-60 characters
+    rule: Describe the exact page intent and place the main topic near the beginning when natural.
+  meta_description:
+    recommended_length: 140-160 characters
+    rule: Explain the user benefit and what the page contains; do not keyword-stuff.
+  h1:
+    count: 1
+    rule: One clear H1 aligned with the page intent.
+  intro:
+    rule: Answer the primary user need early and establish why the page is useful.
+  faq:
+    use_only_when_natural: true
+    rule: Add FAQs when they improve comprehension; do not create artificial FAQ blocks.
+content_type_seo:
+  QA:
+    primary_goal: Answer one focused question.
+    recommended_structure:
+    - direct_answer
+    - explanation
+    - examples
+    - related_next_step
+  RLG:
+    primary_goal: Solve a real-life communication task.
+    recommended_structure:
+    - scenario
+    - what_to_say
+    - examples
+    - common_mistakes
+    - next_step
+  LES:
+    primary_goal: Teach one micro-skill.
+    recommended_structure:
+    - goal
+    - concept
+    - examples
+    - practice
+    - next_step
+  PS:
+    primary_goal: Solve a learner problem.
+    recommended_structure:
+    - problem
+    - why_it_happens
+    - what_to_do
+    - practice
+    - next_step
+  REF:
+    primary_goal: Provide a reusable reference resource.
+    recommended_structure:
+    - overview
+    - organized_reference
+    - examples
+    - navigation_to_related_topics
+  PATH:
+    primary_goal: Guide a learner through a progression.
+    recommended_structure:
+    - starting_point
+    - steps
+    - milestones
+    - next_path
+  DG:
+    primary_goal: Support a decision.
+    recommended_structure:
+    - decision_context
+    - criteria
+    - comparison
+    - fit
+    - next_step
+internal_linking:
+  principles:
+    link_for_learning_value: true
+    link_to_parent_cluster: true
+    link_to_next_learning_step: true
+    link_to_related_content_only_when_distinct: true
+    avoid_orphan_pages: true
+  recommended_links_per_article:
+    minimum_contextual: 2
+    recommended: 3-6
+    maximum_before_manual_review: 8
+  link_types:
+    parent_cluster: Collega alla guida o hub superiore.
+    sibling: Collega a un contenuto dello stesso cluster con funzione diversa.
+    prerequisite: Collega al contenuto che prepara la competenza corrente.
+    next_step: Collega al contenuto successivo del percorso.
+    reference: Collega a una risorsa consultabile più ampia.
+    commercial: Collega a contenuti decisionali o Babbel quando appropriato.
+hub_and_cluster_rules:
+  hub_should_have_a_clear_mission: true
+  cluster_page_should_not_compete_with_child_pages: true
+  pillar_pages_target_broad_intent: true
+  child_pages_target_specific_intent: true
+  commercial_pages_are_separate_from_learning_pillars: true
+canonical_and_indexing:
+  default:
+    index: true
+    follow: true
+    canonical: self
+  noindex_candidates:
+  - duplicate_test_pages
+  - internal_search_results
+  - empty_taxonomy_pages
+  - tracking_parameter_variants
+  - thin_pages_without_unique_learning_value
+  - retired_pages_without_search_value
+  redirect_policy:
+    when_url_changes: 301_to_best_replacement
+    avoid_redirect_chains: true
+    update_internal_links_after_redirect: true
+schema_markup:
+  enabled: true
+  allowed_types:
+  - Article
+  - BreadcrumbList
+  - FAQPage
+  rules:
+    use_article_when_page_is_editorial: true
+    use_breadcrumbs_for_hierarchical_pages: true
+    use_faq_only_when_visible_faq_exists: true
+    do_not_add_irrelevant_schema: true
+eeat_and_quality:
+  principles:
+  - Explain concepts accurately and clearly.
+  - Use examples appropriate to Italian English learners.
+  - Distinguish natural usage from merely grammatical alternatives.
+  - Avoid unsupported claims about language learning outcomes.
+  - Commercial claims about Babbel must come from current verified sources.
+  - Prefer usefulness and specificity over content volume.
+cannibalization_audit:
+  check_before_publish:
+  - primary_keyword is not already the primary target of a stronger sibling page
+  - search_intent is distinct
+  - user_job is distinct
+  - learning_outcome is distinct
+  - page has a clear parent cluster
+  - title and H1 do not duplicate another core page
+  - page adds a new angle rather than rephrasing an existing page
+  resolution_order:
+  - merge
+  - differentiate_intent
+  - change_primary_keyword
+  - change_page_type
+  - redirect
+  - retire
+pinterest_search_alignment:
+  principle: Pinterest discovery topics should map to real site search intent and page value.
+  rules:
+    pin_title_should_not_promise_more_than_page_delivers: true
+    pin_destination_should_be_the_most_relevant_page: true
+    avoid_creating_pages_only_to_support_low_value_pin_variants: true
+affiliate_seo_policy:
+  commercial_pages_can_rank_for_comparison_or_product_intent: true
+  educational_pages_should_not_be_over_optimized_for_babbel: true
+  affiliate_links_do_not_change_the_primary_search_intent: true
+  commercial_claims_require_current_verification: true
+technical_checks:
+  before_publish:
+  - title present
+  - meta description present
+  - canonical present
+  - one H1
+  - slug stable and clean
+  - breadcrumb path valid
+  - internal links valid
+  - no broken outbound links
+  - indexing status intentional
+  - structured data valid when used
+  after_publish:
+  - monitor impressions
+  - monitor clicks and CTR
+  - monitor index coverage
+  - monitor queries
+  - review cannibalization signals
+  - update pages when search intent or factual claims change
+seo_fields_expected_in_content_yml:
+- primary_keyword
+- secondary_keywords
+- slug
+- canonical
+- seo_title
+- meta_description
+- search_intent
+- parent_content
+- related_content
+- primary_cta
