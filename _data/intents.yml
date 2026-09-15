@@ -1,7 +1,0 @@
-intents:
-- id: practical/conversational
-  label: Practical / conversational
-- id: learning/informational
-  label: Learning / informational
-- id: learning/practical
-  label: Learning / practical
