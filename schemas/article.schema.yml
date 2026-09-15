@@ -1,0 +1,146 @@
+schema_version: "2.0"
+schema_name: "Fluente-Mente Article Front Matter"
+purpose: "Contratto canonico per _data/content.yml e per il front matter degli articoli Jekyll."
+modes:
+  content_registry:
+    required:
+      - content_id
+      - title
+      - slug
+      - description
+      - domain
+      - cluster
+      - topic
+      - content_type
+      - level
+      - skill
+      - user_job
+      - learning_outcome
+      - search_intent
+      - primary_keyword
+      - funnel_role
+      - commercial_intent
+      - primary_cta
+      - priority
+      - status
+    nullable_until_production:
+      - date
+      - last_modified
+      - primary_language_focus
+      - featured_image
+      - og_image
+  article_front_matter:
+    required:
+      - content_id
+      - title
+      - slug
+      - description
+      - author
+      - language
+      - domain
+      - cluster
+      - topic
+      - content_type
+      - level
+      - skill
+      - user_job
+      - learning_outcome
+      - search_intent
+      - primary_keyword
+      - canonical
+      - meta_title
+      - meta_description
+      - funnel_role
+      - commercial_intent
+      - primary_cta
+      - priority
+      - status
+      - index
+      - follow
+      - sitemap
+    required_learning_for_didactic_types: [QA, RLG, LES, PS, REF]
+enums:
+  content_type: [QA, RLG, LES, PS, REF, PATH, DG]
+  funnel_role: [D, L, P, C]
+  search_intent: [informational, learning, reference, problem, comparison, commercial]
+  commercial_intent: [none, low, medium, high, direct]
+  priority: [P0, P1, P2]
+  status: [idea, approved, brief_ready, drafting, qa, published, update_needed, retired]
+types:
+  string_fields:
+    - content_id
+    - title
+    - slug
+    - description
+    - author
+    - language
+    - domain
+    - cluster
+    - topic
+    - content_type
+    - level
+    - skill
+    - user_job
+    - learning_outcome
+    - search_intent
+    - primary_keyword
+    - canonical
+    - meta_title
+    - meta_description
+    - funnel_role
+    - commercial_intent
+    - primary_cta
+    - priority
+    - status
+    - recommended_path
+    - recommended_cluster
+    - pinterest_intent
+    - pinterest_angle
+    - babbel_relevance
+    - primary_language_focus
+  list_fields:
+    - related_content
+    - learning_path
+    - secondary_keywords
+    - grammar_focus
+    - recommended_next_content
+  boolean_fields:
+    - natural_english
+    - textbook_vs_natural
+    - real_life_context
+    - evergreen
+    - original_content
+    - index
+    - follow
+    - sitemap
+  nullable_string_fields:
+    - date
+    - last_modified
+    - featured_image
+    - og_image
+  integer_fields:
+    - pin_count
+nested:
+  target_expressions:
+    required: [core, supporting]
+    item_type: string
+  target_words:
+    required: [core, supporting]
+    item_type: string
+cross_file_rules:
+  domain_must_exist: true
+  cluster_must_belong_to_domain: true
+  topic_must_exist: true
+  topic_domain_cluster_should_match: true
+  topic_content_mapping_should_match: true
+  references_must_exist: true
+  primary_cta_must_exist: true
+  pinterest_mapping_should_exist: true
+  pinterest_intent_should_match_mapping: true
+  unique_content_ids: true
+  unique_slugs: true
+  unique_canonicals: true
+production:
+  article_path_pattern: "_articles/article-XXX.md"
+  slug_pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+  canonical_must_end_with_slash: true

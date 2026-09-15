@@ -1,0 +1,36 @@
+name: Fluente-Mente Article QA Gate
+
+on:
+  pull_request:
+    paths:
+      - "_articles/drafts/**"
+      - "_data/**"
+      - "scripts/run_qa.py"
+      - "prompts/QA_REVIEW_PROMPT_v1.md"
+      - ".github/workflows/**"
+  workflow_dispatch:
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Run structural QA
+        run: python scripts/run_qa.py --root . --fail-on-review
+
+      - name: Upload QA report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fluente-mente-qa-report
+          path: |
+            _articles/qa/QA_REPORT.yml
+            _articles/qa/REVIEW_QUEUE.yml

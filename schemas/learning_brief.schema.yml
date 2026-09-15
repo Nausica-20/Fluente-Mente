@@ -1,0 +1,48 @@
+schema_version: "1.0"
+name: "Fluente-Mente Learning Brief"
+description: "Schema canonico del brief didattico generato da content.yml."
+required:
+  - schema_version
+  - brief_id
+  - status
+  - source
+  - identity
+  - learner
+  - language_goal
+  - model_sentences
+  - dialogue_design
+  - story_design
+  - textbook_vs_natural
+  - practice
+  - progression
+  - funnel
+  - seo
+  - pinterest
+  - qa
+rules:
+  brief_id_pattern: "^BRIEF-[A-Z0-9]+-[0-9]{3}$"
+  source_content_schema_version: "2.0"
+  core_levels:
+    - A2
+    - B1
+    - B2
+    - A2-B1
+    - B1-B2
+  allowed_statuses:
+    - generated_pending_learning_design
+    - learning_design_ready
+    - approved
+  target_language_core_max: 8
+  target_language_supporting_max: 12
+  practice_types:
+    - controlled
+    - guided
+    - transfer
+    - self_check
+  invariants:
+    - "source.content_id must equal the content registry content_id"
+    - "identity.content_type/domain/cluster/topic/level must match content.yml"
+    - "learner.learner_outcome must equal content.yml learning_outcome"
+    - "seo.primary_keyword must equal content.yml primary_keyword"
+    - "funnel.primary_cta must equal content.yml primary_cta"
+    - "pinterest.intent must equal content.yml pinterest_intent"

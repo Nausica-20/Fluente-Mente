@@ -1,0 +1,6 @@
+Learning Brief Engine
+Source: _data/content.yml
+Content records: 119
+Learning briefs generated: 119
+Learning brief validation: 0 errors
+GitHub Actions: integrated before Jekyll build

@@ -1,0 +1,50 @@
+title: "Fluente-Mente"
+description: "Risorse pratiche per italiani che vogliono capire, parlare e usare l'inglese con maggiore naturalezza."
+tagline: "Impara l'inglese che ti serve davvero."
+lang: "it"
+locale: "it_IT"
+timezone: "Europe/Rome"
+url: "CONFIGURE"
+baseurl: ""
+repository: "nausica-20/fluente-mente"
+author:
+  name: "Fluente-Mente"
+logo: "/assets/images/logo/logo.svg"
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+collections:
+  articles:
+    output: true
+    permalink: /articles/:path/
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: article
+      lang: it
+      toc: true
+      comments: false
+      share: true
+      evergreen: true
+      status: drafting
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+feed:
+  path: "/feed.xml"
+sitemap:
+  enabled: true
+show_drafts: false
+future: false
+unpublished: false
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - scripts
+  - schemas
+  - README.md
