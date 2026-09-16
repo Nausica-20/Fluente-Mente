@@ -2,108 +2,54 @@
 
   <div class="container footer-inner">
 
-    <!-- Brand -->
     <div class="footer-brand">
-
       <a class="footer-site-name" href="{{ '/' | relative_url }}">
         Fluente-Mente
       </a>
 
       <p class="footer-description">
-        {{ site.data.site.site.description }}
+        Risorse pratiche per italiani che vogliono capire, parlare e usare
+        l'inglese con maggiore naturalezza.
       </p>
-
     </div>
 
-    <!-- Navigazione -->
     <div class="footer-column">
-
       <h2 class="footer-heading">Esplora</h2>
 
       <ul class="footer-links">
-        {% for item in site.data.site.navigation.header %}
-          <li>
-            <a href="{{ item.url | relative_url }}">
-              {{ item.label }}
-            </a>
-          </li>
-        {% endfor %}
+        <li><a href="{{ '/inglese-pratico/' | relative_url }}">Inglese pratico</a></li>
+        <li><a href="{{ '/inglese-naturale/' | relative_url }}">Inglese naturale</a></li>
+        <li><a href="{{ '/impara-meglio/' | relative_url }}">Impara meglio</a></li>
+        <li><a href="{{ '/scegli-il-tuo-percorso/' | relative_url }}">Scegli il tuo percorso</a></li>
       </ul>
-
     </div>
 
-    <!-- Risorse -->
     <div class="footer-column">
-
-      <h2 class="footer-heading">Risorse</h2>
-
-      <ul class="footer-links">
-
-        <li>
-          <a href="{{ '/paths/' | relative_url }}">
-            Percorsi di inglese
-          </a>
-        </li>
-
-        <li>
-          <a href="{{ '/words/' | relative_url }}">
-            Parole inglesi
-          </a>
-        </li>
-
-        <li>
-          <a href="{{ '/expressions/' | relative_url }}">
-            Espressioni inglesi
-          </a>
-        </li>
-
-        <li>
-          <a href="{{ '/levels/' | relative_url }}">
-            Livelli A2, B1 e B2
-          </a>
-        </li>
-
-      </ul>
-
-    </div>
-
-    <!-- Informazioni -->
-    <div class="footer-column">
-
       <h2 class="footer-heading">Informazioni</h2>
 
       <ul class="footer-links">
-
-        {% for item in site.data.site.navigation.footer %}
-          <li>
-            <a href="{{ item.url | relative_url }}">
-              {{ item.label }}
-            </a>
-          </li>
-        {% endfor %}
-
+        <li><a href="{{ '/chi-siamo/' | relative_url }}">Chi siamo</a></li>
+        <li><a href="{{ '/contatti/' | relative_url }}">Contatti</a></li>
+        <li><a href="{{ '/privacy/' | relative_url }}">Privacy</a></li>
+        <li><a href="{{ '/cookie/' | relative_url }}">Cookie</a></li>
       </ul>
-
     </div>
 
   </div>
 
-  <!-- Affiliate disclosure -->
-  {% if site.data.site.affiliate.disclosure_url %}
-    <div class="container">
-      <p class="affiliate-note">
-        Alcuni link presenti sul sito sono link affiliati. Se acquisti tramite uno di questi link,
-        potremmo ricevere una commissione senza costi aggiuntivi per te.
-        <a href="{{ site.data.site.affiliate.disclosure_url | relative_url }}">
-          Scopri di più
-        </a>.
-      </p>
-    </div>
-  {% endif %}
+  <div class="container">
 
-  <!-- Footer bottom -->
+    <p class="affiliate-note">
+      Alcuni link sono affiliati. Potremmo ricevere una commissione senza
+      costi aggiuntivi per te.
+      <a href="{{ '/affiliate-disclosure/' | relative_url }}">
+        Scopri di più
+      </a>.
+    </p>
+
+  </div>
+
   <div class="footer-bottom">
-
     <div class="container footer-bottom-inner">
 
       <p>
@@ -111,27 +57,14 @@
       </p>
 
       <div class="footer-legal">
-
-        <a href="{{ '/privacy/' | relative_url }}">
-          Privacy
-        </a>
-
-        <a href="{{ '/cookie/' | relative_url }}">
-          Cookie
-        </a>
-
+        <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+        <a href="{{ '/cookie/' | relative_url }}">Cookie</a>
         <a href="{{ '/affiliate-disclosure/' | relative_url }}">
           Disclosure affiliati
         </a>
-
-        <a href="{{ '/contact/' | relative_url }}">
-          Contatti
-        </a>
-
       </div>
 
     </div>
-
   </div>
 
 </footer>
