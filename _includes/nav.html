@@ -5,14 +5,17 @@
     type="button"
     aria-expanded="false"
     aria-controls="primary-menu"
+    aria-label="Apri il menu"
   >
-    Menu
+    <span class="nav-toggle-label">Menu</span>
+    <span class="nav-toggle-icon" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
   </button>
 
-  <div
-    class="nav-menu"
-    id="primary-menu"
-  >
+  <div class="nav-menu" id="primary-menu">
     {% for item in site.data.site.navigation.header %}
       <a
         class="nav-link{% if page.url == item.url %} is-active{% endif %}"
@@ -22,5 +25,4 @@
       </a>
     {% endfor %}
   </div>
-
 </nav>
