@@ -2,33 +2,37 @@
  * Fluente-Mente
  * Main JavaScript
  *
- * Handles the mobile navigation.
+ * Handles the responsive mobile navigation.
  */
 
 document.addEventListener("DOMContentLoaded", function () {
   const toggle = document.querySelector(".nav-toggle");
   const menu = document.querySelector(".nav-menu");
+  const navigation = document.querySelector(".site-nav");
 
-  if (!toggle || !menu) {
+  if (!toggle || !menu || !navigation) {
     return;
   }
 
   function openMenu() {
     menu.classList.add("is-open");
     toggle.setAttribute("aria-expanded", "true");
+    toggle.setAttribute("aria-label", "Chiudi il menu");
   }
 
   function closeMenu() {
     menu.classList.remove("is-open");
     toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-label", "Apri il menu");
   }
 
   function isMenuOpen() {
     return menu.classList.contains("is-open");
   }
 
-  // Toggle mobile menu
-  toggle.addEventListener("click", function () {
+  toggle.addEventListener("click", function (event) {
+    event.stopPropagation();
+
     if (isMenuOpen()) {
       closeMenu();
     } else {
@@ -36,16 +40,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Close menu when a navigation link is clicked
-  const navLinks = menu.querySelectorAll(".nav-link");
-
-  navLinks.forEach(function (link) {
-    link.addEventListener("click", function () {
-      closeMenu();
-    });
+  menu.querySelectorAll(".nav-link").forEach(function (link) {
+    link.addEventListener("click", closeMenu);
   });
 
-  // Close menu with Escape
   document.addEventListener("keydown", function (event) {
     if (event.key === "Escape" && isMenuOpen()) {
       closeMenu();
@@ -53,22 +51,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Close menu when clicking outside the navigation
   document.addEventListener("click", function (event) {
-    const navigation = document.querySelector(".site-nav");
-
-    if (!navigation) {
-      return;
-    }
-
     if (isMenuOpen() && !navigation.contains(event.target)) {
       closeMenu();
     }
   });
 
-  // Reset mobile menu when returning to desktop
   window.addEventListener("resize", function () {
-    if (window.innerWidth > 1024) { 
+    if (window.innerWidth > 1024 && isMenuOpen()) {
       closeMenu();
     }
   });
