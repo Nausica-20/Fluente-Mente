@@ -1,99 +1,69 @@
 // ============================================================
-// Fluente-Mente — Header
+// Fluente-Mente — Header + text-only wordmark
 // ============================================================
-
-// ------------------------------------------------------------
-// Header
-// ------------------------------------------------------------
 
 .site-header {
   position: relative;
   z-index: $z-header;
-
   width: 100%;
-
   background: $color-background;
   border-bottom: $border-width solid $color-border;
 }
 
-
-// ------------------------------------------------------------
-// Header Inner
-// ------------------------------------------------------------
-
 .header-inner {
   min-height: $header-height;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   gap: $space-6;
 }
 
-
 // ------------------------------------------------------------
-// Brand
+// Text-only wordmark
 // ------------------------------------------------------------
 
 .site-brand {
   display: inline-flex;
   align-items: center;
-
-  flex-shrink: 0;
-
-  color: $brand-navy;
+  flex: 0 0 auto;
+  color: inherit;
   text-decoration: none;
-
-  transition:
-    opacity $transition-fast,
-    transform $transition-fast;
-
-  &:hover {
-    opacity: 0.92;
-  }
-
-  &:focus-visible {
-    outline: 3px solid $brand-orange;
-    outline-offset: 4px;
-    border-radius: $radius-sm;
-  }
-}
-
-
-// ------------------------------------------------------------
-// Logo
-// ------------------------------------------------------------
-
-.site-logo {
-  display: block;
-
-  width: auto;
-  height: 54px;
-
-  max-width: 210px;
-
-  object-fit: contain;
-}
-
-
-// ------------------------------------------------------------
-// Fallback Site Name
-// ------------------------------------------------------------
-
-.site-name {
-  display: inline-block;
-
-  color: $brand-navy;
-
-  font-size: $font-size-xl;
-  font-weight: $font-weight-bold;
-
   line-height: 1;
-
-  letter-spacing: -0.02em;
 }
 
+.site-wordmark {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.wordmark-main {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.75rem, 3vw, 2.35rem);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  color: $brand-navy;
+  white-space: nowrap;
+}
+
+.wordmark-dash {
+  color: $brand-orange;
+  margin: 0 0.035em;
+}
+
+.wordmark-accent {
+  color: $brand-orange;
+}
+
+.site-brand:hover .wordmark-accent,
+.site-brand:hover .wordmark-dash {
+  color: $brand-orange-dark;
+}
+
+.site-brand:focus-visible {
+  outline: 3px solid $brand-orange;
+  outline-offset: 5px;
+  border-radius: $radius-sm;
+}
 
 // ------------------------------------------------------------
 // Navigation
@@ -101,163 +71,129 @@
 
 .site-nav {
   position: relative;
-
   display: flex;
   align-items: center;
+  min-width: 0;
 }
-
-
-// ------------------------------------------------------------
-// Navigation Menu — Desktop
-// ------------------------------------------------------------
 
 .nav-menu {
   display: flex;
   align-items: center;
-
   gap: $space-5;
 }
 
-
-// ------------------------------------------------------------
-// Navigation Links
-// ------------------------------------------------------------
-
 .nav-link {
   position: relative;
-
   display: inline-flex;
   align-items: center;
-
   min-height: 44px;
-
   color: $brand-navy;
-
   font-size: $font-size-sm;
   font-weight: $font-weight-semibold;
-
   text-decoration: none;
-
-  transition:
-    color $transition-fast,
-    opacity $transition-fast;
-
-  &:hover {
-    color: $brand-orange;
-  }
-
-  &:focus-visible {
-    outline: 3px solid $brand-orange;
-    outline-offset: 3px;
-    border-radius: $radius-sm;
-  }
-
-  &.is-active {
-    color: $brand-orange;
-  }
-
-  &.is-active::after {
-    content: "";
-
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 4px;
-
-    height: 2px;
-
-    background: $brand-orange;
-
-    border-radius: $radius-pill;
-  }
+  white-space: nowrap;
+  transition: color $transition-fast, opacity $transition-fast;
 }
 
+.nav-link:hover {
+  color: $brand-orange;
+}
+
+.nav-link:focus-visible {
+  outline: 3px solid $brand-orange;
+  outline-offset: 3px;
+  border-radius: $radius-sm;
+}
+
+.nav-link.is-active {
+  color: $brand-orange;
+}
+
+.nav-link.is-active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4px;
+  height: 2px;
+  background: $brand-orange;
+  border-radius: $radius-pill;
+}
 
 // ------------------------------------------------------------
-// Mobile Menu Button
+// Mobile menu button
 // ------------------------------------------------------------
 
 .nav-toggle {
   display: none;
-
   align-items: center;
   justify-content: center;
-
-  min-width: 120px;
-  min-height: 48px;
-
-  padding: $space-3 $space-5;
-
+  gap: 10px;
+  min-height: 46px;
+  padding: 10px 14px;
   background: $color-background;
-
   border: $border-width solid $color-border;
   border-radius: $radius-pill;
-
   color: $brand-navy;
-
   font-family: inherit;
-  font-size: $font-size-base;
+  font-size: $font-size-sm;
   font-weight: $font-weight-semibold;
-
   cursor: pointer;
-
-  transition:
-    background-color $transition-fast,
-    border-color $transition-fast,
-    color $transition-fast,
-    transform $transition-fast;
-
-  &:hover {
-    background: $brand-cream;
-    border-color: $brand-orange;
-    color: $brand-orange;
-  }
-
-  &:active {
-    transform: translateY(1px);
-  }
-
-  &:focus-visible {
-    outline: 3px solid $brand-orange;
-    outline-offset: 3px;
-  }
+  transition: background-color $transition-fast, border-color $transition-fast, color $transition-fast;
 }
 
+.nav-toggle:hover,
+.nav-toggle[aria-expanded="true"] {
+  background: $brand-orange;
+  border-color: $brand-orange;
+  color: $color-white;
+}
+
+.nav-toggle:focus-visible {
+  outline: 3px solid $brand-orange;
+  outline-offset: 3px;
+}
+
+.nav-toggle-icon {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 19px;
+}
+
+.nav-toggle-icon span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+}
 
 // ------------------------------------------------------------
 // Mobile
 // ------------------------------------------------------------
 
 @media (max-width: $breakpoint-lg) {
-
   .nav-toggle {
     display: inline-flex;
   }
 
   .nav-menu {
     position: absolute;
-
     top: calc(100% + #{$space-3});
     right: 0;
-
     z-index: $z-menu;
-
     display: none;
-
-    width: 280px;
-    max-width: calc(100vw - #{$space-8});
-
+    width: 300px;
+    max-width: calc(100vw - #{$space-6});
     padding: $space-3;
-
     flex-direction: column;
     align-items: stretch;
     gap: $space-1;
-
     background: $color-background;
-
     border: $border-width solid $color-border;
     border-radius: $radius-lg;
-
     box-shadow: $shadow-lg;
   }
 
@@ -267,25 +203,17 @@
 
   .nav-link {
     width: 100%;
-
     min-height: 48px;
-
     padding: $space-3 $space-4;
-
     border-radius: $radius-md;
-
     justify-content: flex-start;
-
     font-size: $font-size-base;
+    white-space: normal;
   }
 
-  .nav-link:hover {
-    background: $brand-cream;
-  }
-
+  .nav-link:hover,
   .nav-link.is-active {
     background: $brand-cream;
-    color: $brand-orange;
   }
 
   .nav-link.is-active::after {
@@ -293,33 +221,35 @@
   }
 }
 
-
-// ------------------------------------------------------------
-// Small Mobile
-// ------------------------------------------------------------
-
 @media (max-width: $breakpoint-sm) {
-
   .header-inner {
     min-height: 68px;
-
     gap: $space-3;
   }
 
-  .site-logo {
-    height: 48px;
-    max-width: 190px;
+  .wordmark-main {
+    font-size: 1.7rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
   }
 
   .nav-toggle {
-    min-width: 104px;
-    min-height: 46px;
-
-    padding: $space-2 $space-4;
+    width: 46px;
+    min-width: 46px;
+    padding: 0;
   }
 
   .nav-menu {
-    width: 260px;
-    max-width: calc(100vw - #{$space-6});
+    width: 280px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-brand,
+  .nav-link,
+  .nav-toggle {
+    transition: none;
   }
 }
