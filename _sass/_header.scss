@@ -1,5 +1,5 @@
 // ============================================================
-// Fluente-Mente — Header + text-only wordmark
+// Fluente-Mente — Header
 // ============================================================
 
 .site-header {
@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: space-between;
   gap: $space-6;
+  min-width: 0;
 }
 
 // ------------------------------------------------------------
@@ -26,43 +27,52 @@
   display: inline-flex;
   align-items: center;
   flex: 0 0 auto;
+  min-width: 0;
   color: inherit;
   text-decoration: none;
   line-height: 1;
 }
 
-.site-wordmark {
+.text-logo {
   display: inline-flex;
   align-items: baseline;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
-.wordmark-main {
+.text-logo-main {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.75rem, 3vw, 2.35rem);
+  font-size: clamp(1.55rem, 3vw, 2.25rem);
   font-weight: 700;
   letter-spacing: -0.045em;
   color: $brand-navy;
-  white-space: nowrap;
 }
 
-.wordmark-dash {
+.text-logo-dash {
   color: $brand-orange;
-  margin: 0 0.035em;
+  margin: 0 0.025em;
 }
 
-.wordmark-accent {
+.text-logo-accent {
   color: $brand-orange;
 }
 
-.site-brand:hover .wordmark-accent,
-.site-brand:hover .wordmark-dash {
+.site-brand:hover .text-logo-accent,
+.site-brand:hover .text-logo-dash {
   color: $brand-orange-dark;
 }
 
 .site-brand:focus-visible {
   outline: 3px solid $brand-orange;
-  outline-offset: 5px;
+  outline-offset: 4px;
   border-radius: $radius-sm;
+}
+
+// Legacy logo/name elements must never appear in the header.
+.site-brand .site-logo,
+.site-brand .site-name,
+.site-brand .site-wordmark {
+  display: none !important;
 }
 
 // ------------------------------------------------------------
@@ -129,23 +139,23 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  min-width: 104px;
   min-height: 46px;
-  padding: 10px 14px;
+  padding: 10px 16px;
   background: $color-background;
-  border: $border-width solid $color-border;
+  border: 1px solid $brand-orange;
   border-radius: $radius-pill;
-  color: $brand-navy;
+  color: $brand-orange;
   font-family: inherit;
-  font-size: $font-size-sm;
+  font-size: $font-size-base;
   font-weight: $font-weight-semibold;
   cursor: pointer;
-  transition: background-color $transition-fast, border-color $transition-fast, color $transition-fast;
+  transition: background-color $transition-fast, color $transition-fast;
 }
 
 .nav-toggle:hover,
 .nav-toggle[aria-expanded="true"] {
   background: $brand-orange;
-  border-color: $brand-orange;
   color: $color-white;
 }
 
@@ -159,7 +169,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 4px;
-  width: 19px;
+  width: 18px;
 }
 
 .nav-toggle-icon span {
@@ -185,7 +195,7 @@
     right: 0;
     z-index: $z-menu;
     display: none;
-    width: 300px;
+    width: 280px;
     max-width: calc(100vw - #{$space-6});
     padding: $space-3;
     flex-direction: column;
@@ -227,29 +237,21 @@
     gap: $space-3;
   }
 
-  .wordmark-main {
+  .text-logo-main {
     font-size: 1.7rem;
+  }
+
+  .nav-toggle {
+    min-width: 46px;
+    width: 46px;
+    padding: 0;
   }
 
   .nav-toggle-label {
     display: none;
   }
 
-  .nav-toggle {
-    width: 46px;
-    min-width: 46px;
-    padding: 0;
-  }
-
   .nav-menu {
-    width: 280px;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .site-brand,
-  .nav-link,
-  .nav-toggle {
-    transition: none;
+    width: 270px;
   }
 }
