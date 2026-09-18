@@ -26,8 +26,6 @@ level: "A2-B1"
 article_id: "FM-001"
 ---
 
-# Meeting Someone for the First Time in English
-
 C'è un momento in cui l'inglese deve smettere di essere una materia studiata e diventare una conversazione vera: quando incontri qualcuno che non conosci.
 
 Può succedere a una festa, a un corso, a un evento, davanti a un caffè o semplicemente perché qualcuno ti presenta a un'altra persona.
