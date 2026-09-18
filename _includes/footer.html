@@ -4,7 +4,7 @@
 
     <div class="footer-brand">
       <a class="footer-wordmark" href="{{ '/' | relative_url }}" aria-label="Fluente-Mente — home">
-        <span>Fluente<span class="footer-wordmark-dash">–</span><span>Mente</span></span>
+        <span class="footer-wordmark-blue">Fluente</span><span class="footer-wordmark-dash">–</span><span class="footer-wordmark-orange">Mente</span>
       </a>
 
       <p class="footer-description">
@@ -15,58 +15,43 @@
     <div class="footer-column">
       <h2 class="footer-heading">Esplora</h2>
       <ul class="footer-links">
-        {% for item in site.data.site.navigation.header %}
-          {% unless item.label == 'English for real life' or item.label == 'Sblocca il tuo inglese' %}
-            <li>
-              <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
-            </li>
-          {% endunless %}
-        {% endfor %}
-      </ul>
-    </div>
-
-    <div class="footer-column">
-      <h2 class="footer-heading">Risorse</h2>
-      <ul class="footer-links">
-        <li><a href="{{ site.data.site.learning_resources.paths.url | relative_url }}">{{ site.data.site.learning_resources.paths.label }}</a></li>
-        <li><a href="{{ site.data.site.learning_resources.words.url | relative_url }}">{{ site.data.site.learning_resources.words.label }}</a></li>
-        <li><a href="{{ site.data.site.learning_resources.expressions.url | relative_url }}">{{ site.data.site.learning_resources.expressions.label }}</a></li>
-        <li><a href="{{ site.data.site.learning_resources.levels.url | relative_url }}">{{ site.data.site.learning_resources.levels.label }}</a></li>
+        <li><a href="{{ '/english/' | relative_url }}">Inglese pratico</a></li>
+        <li><a href="{{ '/real-english/' | relative_url }}">Inglese naturale</a></li>
+        <li><a href="{{ '/learn-english/' | relative_url }}">Impara meglio</a></li>
+        <li><a href="{{ '/choose/' | relative_url }}">Scegli il tuo percorso</a></li>
       </ul>
     </div>
 
     <div class="footer-column">
       <h2 class="footer-heading">Informazioni</h2>
       <ul class="footer-links">
-        {% for item in site.data.site.navigation.footer %}
-          <li>
-            <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
-          </li>
-        {% endfor %}
+        <li><a href="{{ '/about/' | relative_url }}">Chi siamo</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contatti</a></li>
+        <li><a href="{{ '/privacy/' | relative_url }}">Privacy</a></li>
+        <li><a href="{{ '/cookie/' | relative_url }}">Cookie</a></li>
+        <li><a href="{{ '/affiliate-disclosure/' | relative_url }}">Disclosure affiliati</a></li>
       </ul>
     </div>
 
   </div>
 
-  {% if site.data.site.affiliate.show_affiliate_disclosure or site.data.site.footer.show_affiliate_disclosure %}
+  {% if site.data.site.footer.show_affiliate_disclosure %}
     <div class="container">
       <p class="affiliate-note">
-        Alcuni link sono affiliati: potremmo ricevere una commissione senza costi aggiuntivi per te.
-        <a href="{{ site.data.site.affiliate.disclosure_url | relative_url }}">Scopri di più</a>.
+        Alcuni link sono affiliati e possono generare una commissione, senza costi aggiuntivi per te.
+        <a href="{{ site.data.site.affiliate.disclosure_url | relative_url }}">Scopri di più →</a>
       </p>
     </div>
   {% endif %}
 
   <div class="footer-bottom">
     <div class="container footer-bottom-inner">
-      <p>
-        © {{ "now" | date: "%Y" }} Fluente-Mente
-      </p>
+      <p>© {{ "now" | date: "%Y" }} Fluente-Mente</p>
 
       <div class="footer-legal">
-        <a href="{{ site.data.site.legal.privacy_url | relative_url }}">Privacy</a>
-        <a href="{{ site.data.site.legal.cookie_url | relative_url }}">Cookie</a>
-        <a href="{{ site.data.site.affiliate.disclosure_url | relative_url }}">Disclosure affiliati</a>
+        <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+        <a href="{{ '/cookie/' | relative_url }}">Cookie</a>
+        <a href="{{ '/affiliate-disclosure/' | relative_url }}">Disclosure affiliati</a>
       </div>
     </div>
   </div>
