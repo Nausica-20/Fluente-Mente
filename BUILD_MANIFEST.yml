@@ -1,0 +1,5 @@
+schema: fluente-mente-physical-site-manifest-v1
+registry_records: 841
+physical_record_routes: 841
+generated_at_rule: runtime-generated during CI
+status: ready_for_jekyll_build

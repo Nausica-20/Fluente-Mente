@@ -1,0 +1,61 @@
+schema: fluente-mente-physical-site-structure-v1
+basis:
+  technical_source: Fluente-Mente-main.zip
+  content_source: _data/content_registry.yml
+  architecture_source: _data/master_content_architecture.yml
+route_rule: Every registry entry is materialized as <registered URL>/index.md.
+registry_record_count: 841
+directory_layers:
+  core:
+  - pills
+  - situations
+  - grammar
+  contrastive:
+  - non-sono-la-stessa-cosa
+  domains:
+  - travel-english
+  - business-english
+  - english-culture
+  - inglese-da-adulti
+  commercial:
+  - babbel
+  indexes:
+  - pills
+  - situations
+  - grammar
+  - expressions
+  - words
+  - non-sono-la-stessa-cosa
+  support:
+  - about
+  - contact
+  - privacy
+  - cookie
+  - affiliate-disclosure
+  - editorial-policy
+  - choose
+  - paths
+  - levels
+  - search
+publishable_counts:
+  daily_pill: 365
+  situation_article: 52
+  grammar_article: 52
+  confusion_article: 259
+  travel_article: 26
+  business_article: 26
+  culture_article: 24
+  adult_learning_article: 24
+  babbel_page: 7
+  dedicated_indexes: 6
+  total_registry_records: 841
+legacy_removed:
+- english
+- real-english
+- english-for-real-life
+- english-learning
+- learn-english
+- _generated
+production_only:
+- _articles
+validation: scripts/validate_yml.py

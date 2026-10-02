@@ -1,0 +1,4215 @@
+- id: PILL001
+  type: daily_pill
+  title: Go-to — una espressione da usare davvero
+  registry_url: /pills/day-001-go-to/
+  physical_file: pills/day-001-go-to/index.md
+- id: PILL002
+  type: daily_pill
+  title: Read the room — una espressione da usare davvero
+  registry_url: /pills/day-002-read-the-room/
+  physical_file: pills/day-002-read-the-room/index.md
+- id: PILL003
+  type: daily_pill
+  title: Tell me about it — una espressione da usare davvero
+  registry_url: /pills/day-003-tell-me-about-it/
+  physical_file: pills/day-003-tell-me-about-it/index.md
+- id: PILL004
+  type: daily_pill
+  title: By the book — una espressione da usare davvero
+  registry_url: /pills/day-004-by-the-book/
+  physical_file: pills/day-004-by-the-book/index.md
+- id: PILL005
+  type: daily_pill
+  title: Do the trick — una espressione da usare davvero
+  registry_url: /pills/day-005-do-the-trick/
+  physical_file: pills/day-005-do-the-trick/index.md
+- id: PILL006
+  type: daily_pill
+  title: From the get-go — una espressione da usare davvero
+  registry_url: /pills/day-006-from-the-get-go/
+  physical_file: pills/day-006-from-the-get-go/index.md
+- id: PILL007
+  type: daily_pill
+  title: On the fly — una espressione da usare davvero
+  registry_url: /pills/day-007-on-the-fly/
+  physical_file: pills/day-007-on-the-fly/index.md
+- id: PILL008
+  type: daily_pill
+  title: Find your groove — una espressione da usare davvero
+  registry_url: /pills/day-008-find-your-groove/
+  physical_file: pills/day-008-find-your-groove/index.md
+- id: PILL009
+  type: daily_pill
+  title: Top-notch — una espressione da usare davvero
+  registry_url: /pills/day-009-top-notch/
+  physical_file: pills/day-009-top-notch/index.md
+- id: PILL010
+  type: daily_pill
+  title: Off the cuff — una espressione da usare davvero
+  registry_url: /pills/day-010-off-the-cuff/
+  physical_file: pills/day-010-off-the-cuff/index.md
+- id: PILL011
+  type: daily_pill
+  title: Take the plunge — una espressione da usare davvero
+  registry_url: /pills/day-011-take-the-plunge/
+  physical_file: pills/day-011-take-the-plunge/index.md
+- id: PILL012
+  type: daily_pill
+  title: Second nature — una espressione da usare davvero
+  registry_url: /pills/day-012-second-nature/
+  physical_file: pills/day-012-second-nature/index.md
+- id: PILL013
+  type: daily_pill
+  title: Heavy lifting — una espressione da usare davvero
+  registry_url: /pills/day-013-heavy-lifting/
+  physical_file: pills/day-013-heavy-lifting/index.md
+- id: PILL014
+  type: daily_pill
+  title: Stir the pot — una espressione da usare davvero
+  registry_url: /pills/day-014-stir-the-pot/
+  physical_file: pills/day-014-stir-the-pot/index.md
+- id: PILL015
+  type: daily_pill
+  title: Let loose — una espressione da usare davvero
+  registry_url: /pills/day-015-let-loose/
+  physical_file: pills/day-015-let-loose/index.md
+- id: PILL016
+  type: daily_pill
+  title: Walk someone through — una espressione da usare davvero
+  registry_url: /pills/day-016-walk-someone-through/
+  physical_file: pills/day-016-walk-someone-through/index.md
+- id: PILL017
+  type: daily_pill
+  title: Get your act together — una espressione da usare davvero
+  registry_url: /pills/day-017-get-your-act-together/
+  physical_file: pills/day-017-get-your-act-together/index.md
+- id: PILL018
+  type: daily_pill
+  title: Hang in there — una espressione da usare davvero
+  registry_url: /pills/day-018-hang-in-there/
+  physical_file: pills/day-018-hang-in-there/index.md
+- id: PILL019
+  type: daily_pill
+  title: Bite your tongue — una espressione da usare davvero
+  registry_url: /pills/day-019-bite-your-tongue/
+  physical_file: pills/day-019-bite-your-tongue/index.md
+- id: PILL020
+  type: daily_pill
+  title: Off the top of my head — una espressione da usare davvero
+  registry_url: /pills/day-020-off-the-top-of-my-head/
+  physical_file: pills/day-020-off-the-top-of-my-head/index.md
+- id: PILL021
+  type: daily_pill
+  title: I don't buy it — una espressione da usare davvero
+  registry_url: /pills/day-021-i-dont-buy-it/
+  physical_file: pills/day-021-i-dont-buy-it/index.md
+- id: PILL022
+  type: daily_pill
+  title: You can't go wrong with — una espressione da usare davvero
+  registry_url: /pills/day-022-you-cant-go-wrong-with/
+  physical_file: pills/day-022-you-cant-go-wrong-with/index.md
+- id: PILL023
+  type: daily_pill
+  title: The flip side — una espressione da usare davvero
+  registry_url: /pills/day-023-the-flip-side/
+  physical_file: pills/day-023-the-flip-side/index.md
+- id: PILL024
+  type: daily_pill
+  title: Turn over a new leaf — una espressione da usare davvero
+  registry_url: /pills/day-024-turn-over-a-new-leaf/
+  physical_file: pills/day-024-turn-over-a-new-leaf/index.md
+- id: PILL025
+  type: daily_pill
+  title: Plan b — una espressione da usare davvero
+  registry_url: /pills/day-025-plan-b/
+  physical_file: pills/day-025-plan-b/index.md
+- id: PILL026
+  type: daily_pill
+  title: A little something — una espressione da usare davvero
+  registry_url: /pills/day-026-a-little-something/
+  physical_file: pills/day-026-a-little-something/index.md
+- id: PILL027
+  type: daily_pill
+  title: Keep someone on their toes — una espressione da usare davvero
+  registry_url: /pills/day-027-keep-someone-on-their-toes/
+  physical_file: pills/day-027-keep-someone-on-their-toes/index.md
+- id: PILL028
+  type: daily_pill
+  title: No leg to stand on — una espressione da usare davvero
+  registry_url: /pills/day-028-no-leg-to-stand-on/
+  physical_file: pills/day-028-no-leg-to-stand-on/index.md
+- id: PILL029
+  type: daily_pill
+  title: Can't put my finger on it — una espressione da usare davvero
+  registry_url: /pills/day-029-cant-put-my-finger-on-it/
+  physical_file: pills/day-029-cant-put-my-finger-on-it/index.md
+- id: PILL030
+  type: daily_pill
+  title: All hands on deck — una espressione da usare davvero
+  registry_url: /pills/day-030-all-hands-on-deck/
+  physical_file: pills/day-030-all-hands-on-deck/index.md
+- id: PILL031
+  type: daily_pill
+  title: Twist someone's arm — una espressione da usare davvero
+  registry_url: /pills/day-031-twist-someones-arm/
+  physical_file: pills/day-031-twist-someones-arm/index.md
+- id: PILL032
+  type: daily_pill
+  title: Speak someone's language — una espressione da usare davvero
+  registry_url: /pills/day-032-speak-someones-language/
+  physical_file: pills/day-032-speak-someones-language/index.md
+- id: PILL033
+  type: daily_pill
+  title: All you like — una espressione da usare davvero
+  registry_url: /pills/day-033-all-you-like/
+  physical_file: pills/day-033-all-you-like/index.md
+- id: PILL034
+  type: daily_pill
+  title: Around the clock — una espressione da usare davvero
+  registry_url: /pills/day-034-around-the-clock/
+  physical_file: pills/day-034-around-the-clock/index.md
+- id: PILL035
+  type: daily_pill
+  title: On the go — una espressione da usare davvero
+  registry_url: /pills/day-035-on-the-go/
+  physical_file: pills/day-035-on-the-go/index.md
+- id: PILL036
+  type: daily_pill
+  title: The works — una espressione da usare davvero
+  registry_url: /pills/day-036-the-works/
+  physical_file: pills/day-036-the-works/index.md
+- id: PILL037
+  type: daily_pill
+  title: A fresh start — una espressione da usare davvero
+  registry_url: /pills/day-037-a-fresh-start/
+  physical_file: pills/day-037-a-fresh-start/index.md
+- id: PILL038
+  type: daily_pill
+  title: Moment of truth — una espressione da usare davvero
+  registry_url: /pills/day-038-moment-of-truth/
+  physical_file: pills/day-038-moment-of-truth/index.md
+- id: PILL039
+  type: daily_pill
+  title: A big ask — una espressione da usare davvero
+  registry_url: /pills/day-039-a-big-ask/
+  physical_file: pills/day-039-a-big-ask/index.md
+- id: PILL040
+  type: daily_pill
+  title: A hunch — una espressione da usare davvero
+  registry_url: /pills/day-040-a-hunch/
+  physical_file: pills/day-040-a-hunch/index.md
+- id: PILL041
+  type: daily_pill
+  title: Think on your feet — una espressione da usare davvero
+  registry_url: /pills/day-041-think-on-your-feet/
+  physical_file: pills/day-041-think-on-your-feet/index.md
+- id: PILL042
+  type: daily_pill
+  title: Short-change — una espressione da usare davvero
+  registry_url: /pills/day-042-short-change/
+  physical_file: pills/day-042-short-change/index.md
+- id: PILL043
+  type: daily_pill
+  title: Cut corners — una espressione da usare davvero
+  registry_url: /pills/day-043-cut-corners/
+  physical_file: pills/day-043-cut-corners/index.md
+- id: PILL044
+  type: daily_pill
+  title: Kick the can down the road — una espressione da usare davvero
+  registry_url: /pills/day-044-kick-the-can-down-the-road/
+  physical_file: pills/day-044-kick-the-can-down-the-road/index.md
+- id: PILL045
+  type: daily_pill
+  title: Keep yourself to yourself — una espressione da usare davvero
+  registry_url: /pills/day-045-keep-yourself-to-yourself/
+  physical_file: pills/day-045-keep-yourself-to-yourself/index.md
+- id: PILL046
+  type: daily_pill
+  title: One size fits all — una espressione da usare davvero
+  registry_url: /pills/day-046-one-size-fits-all/
+  physical_file: pills/day-046-one-size-fits-all/index.md
+- id: PILL047
+  type: daily_pill
+  title: Side quest — una espressione da usare davvero
+  registry_url: /pills/day-047-side-quest/
+  physical_file: pills/day-047-side-quest/index.md
+- id: PILL048
+  type: daily_pill
+  title: Understood the assignment — una espressione da usare davvero
+  registry_url: /pills/day-048-understood-the-assignment/
+  physical_file: pills/day-048-understood-the-assignment/index.md
+- id: PILL049
+  type: daily_pill
+  title: Hot take — una espressione da usare davvero
+  registry_url: /pills/day-049-hot-take/
+  physical_file: pills/day-049-hot-take/index.md
+- id: PILL050
+  type: daily_pill
+  title: Say less — una espressione da usare davvero
+  registry_url: /pills/day-050-say-less/
+  physical_file: pills/day-050-say-less/index.md
+- id: PILL051
+  type: daily_pill
+  title: Try it on — una espressione da usare davvero
+  registry_url: /pills/day-051-try-it-on/
+  physical_file: pills/day-051-try-it-on/index.md
+- id: PILL052
+  type: daily_pill
+  title: Non-starter — una espressione da usare davvero
+  registry_url: /pills/day-052-non-starter/
+  physical_file: pills/day-052-non-starter/index.md
+- id: PILL053
+  type: daily_pill
+  title: No notes — una espressione da usare davvero
+  registry_url: /pills/day-053-no-notes/
+  physical_file: pills/day-053-no-notes/index.md
+- id: PILL054
+  type: daily_pill
+  title: Share your life story — una espressione da usare davvero
+  registry_url: /pills/day-054-share-your-life-story/
+  physical_file: pills/day-054-share-your-life-story/index.md
+- id: PILL055
+  type: daily_pill
+  title: Passing ships — una espressione da usare davvero
+  registry_url: /pills/day-055-passing-ships/
+  physical_file: pills/day-055-passing-ships/index.md
+- id: PILL056
+  type: daily_pill
+  title: Onto something — una espressione da usare davvero
+  registry_url: /pills/day-056-onto-something/
+  physical_file: pills/day-056-onto-something/index.md
+- id: PILL057
+  type: daily_pill
+  title: Sell yourself short — una espressione da usare davvero
+  registry_url: /pills/day-057-sell-yourself-short/
+  physical_file: pills/day-057-sell-yourself-short/index.md
+- id: PILL058
+  type: daily_pill
+  title: Wrap it up — una espressione da usare davvero
+  registry_url: /pills/day-058-wrap-it-up/
+  physical_file: pills/day-058-wrap-it-up/index.md
+- id: PILL059
+  type: daily_pill
+  title: Throw ideas at the wall — una espressione da usare davvero
+  registry_url: /pills/day-059-throw-ideas-at-the-wall/
+  physical_file: pills/day-059-throw-ideas-at-the-wall/index.md
+- id: PILL060
+  type: daily_pill
+  title: Like a moth to a flame — una espressione da usare davvero
+  registry_url: /pills/day-060-like-a-moth-to-a-flame/
+  physical_file: pills/day-060-like-a-moth-to-a-flame/index.md
+- id: PILL061
+  type: daily_pill
+  title: Gatekeep — una espressione da usare davvero
+  registry_url: /pills/day-061-gatekeep/
+  physical_file: pills/day-061-gatekeep/index.md
+- id: PILL062
+  type: daily_pill
+  title: In over my head — una espressione da usare davvero
+  registry_url: /pills/day-062-in-over-my-head/
+  physical_file: pills/day-062-in-over-my-head/index.md
+- id: PILL063
+  type: daily_pill
+  title: Yap — una espressione da usare davvero
+  registry_url: /pills/day-063-yap/
+  physical_file: pills/day-063-yap/index.md
+- id: PILL064
+  type: daily_pill
+  title: Flow state — una espressione da usare davvero
+  registry_url: /pills/day-064-flow-state/
+  physical_file: pills/day-064-flow-state/index.md
+- id: PILL065
+  type: daily_pill
+  title: A bit of a stretch — una espressione da usare davvero
+  registry_url: /pills/day-065-a-bit-of-a-stretch/
+  physical_file: pills/day-065-a-bit-of-a-stretch/index.md
+- id: PILL066
+  type: daily_pill
+  title: Go through a rough patch — una espressione da usare davvero
+  registry_url: /pills/day-066-go-through-a-rough-patch/
+  physical_file: pills/day-066-go-through-a-rough-patch/index.md
+- id: PILL067
+  type: daily_pill
+  title: Learn the hard way — una espressione da usare davvero
+  registry_url: /pills/day-067-learn-the-hard-way/
+  physical_file: pills/day-067-learn-the-hard-way/index.md
+- id: PILL068
+  type: daily_pill
+  title: Facepalm moment — una espressione da usare davvero
+  registry_url: /pills/day-068-facepalm-moment/
+  physical_file: pills/day-068-facepalm-moment/index.md
+- id: PILL069
+  type: daily_pill
+  title: Shoot off — una espressione da usare davvero
+  registry_url: /pills/day-069-shoot-off/
+  physical_file: pills/day-069-shoot-off/index.md
+- id: PILL070
+  type: daily_pill
+  title: Hot on the heels of — una espressione da usare davvero
+  registry_url: /pills/day-070-hot-on-the-heels-of/
+  physical_file: pills/day-070-hot-on-the-heels-of/index.md
+- id: PILL071
+  type: daily_pill
+  title: Aura farming — una espressione da usare davvero
+  registry_url: /pills/day-071-aura-farming/
+  physical_file: pills/day-071-aura-farming/index.md
+- id: PILL072
+  type: daily_pill
+  title: Lock in — una espressione da usare davvero
+  registry_url: /pills/day-072-lock-in/
+  physical_file: pills/day-072-lock-in/index.md
+- id: PILL073
+  type: daily_pill
+  title: Duck out — una espressione da usare davvero
+  registry_url: /pills/day-073-duck-out/
+  physical_file: pills/day-073-duck-out/index.md
+- id: PILL074
+  type: daily_pill
+  title: Off base — una espressione da usare davvero
+  registry_url: /pills/day-074-off-base/
+  physical_file: pills/day-074-off-base/index.md
+- id: PILL075
+  type: daily_pill
+  title: -coded — una espressione da usare davvero
+  registry_url: /pills/day-075-coded/
+  physical_file: pills/day-075-coded/index.md
+- id: PILL076
+  type: daily_pill
+  title: Make a pig's ear of something — una espressione da usare davvero
+  registry_url: /pills/day-076-make-a-pigs-ear-of-something/
+  physical_file: pills/day-076-make-a-pigs-ear-of-something/index.md
+- id: PILL077
+  type: daily_pill
+  title: -core — una espressione da usare davvero
+  registry_url: /pills/day-077-core/
+  physical_file: pills/day-077-core/index.md
+- id: PILL078
+  type: daily_pill
+  title: Cook — una espressione da usare davvero
+  registry_url: /pills/day-078-cook/
+  physical_file: pills/day-078-cook/index.md
+- id: PILL079
+  type: daily_pill
+  title: Neck of the woods — una espressione da usare davvero
+  registry_url: /pills/day-079-neck-of-the-woods/
+  physical_file: pills/day-079-neck-of-the-woods/index.md
+- id: PILL080
+  type: daily_pill
+  title: Teething problems — una espressione da usare davvero
+  registry_url: /pills/day-080-teething-problems/
+  physical_file: pills/day-080-teething-problems/index.md
+- id: PILL081
+  type: daily_pill
+  title: Muddle along — una espressione da usare davvero
+  registry_url: /pills/day-081-muddle-along/
+  physical_file: pills/day-081-muddle-along/index.md
+- id: PILL082
+  type: daily_pill
+  title: Tough it out — una espressione da usare davvero
+  registry_url: /pills/day-082-tough-it-out/
+  physical_file: pills/day-082-tough-it-out/index.md
+- id: PILL083
+  type: daily_pill
+  title: A you problem — una espressione da usare davvero
+  registry_url: /pills/day-083-a-you-problem/
+  physical_file: pills/day-083-a-you-problem/index.md
+- id: PILL084
+  type: daily_pill
+  title: The ceo of — una espressione da usare davvero
+  registry_url: /pills/day-084-the-ceo-of/
+  physical_file: pills/day-084-the-ceo-of/index.md
+- id: PILL085
+  type: daily_pill
+  title: Up to my eyes in — una espressione da usare davvero
+  registry_url: /pills/day-085-up-to-my-eyes-in/
+  physical_file: pills/day-085-up-to-my-eyes-in/index.md
+- id: PILL086
+  type: daily_pill
+  title: Dabble in — una espressione da usare davvero
+  registry_url: /pills/day-086-dabble-in/
+  physical_file: pills/day-086-dabble-in/index.md
+- id: PILL087
+  type: daily_pill
+  title: Rope someone in — una espressione da usare davvero
+  registry_url: /pills/day-087-rope-someone-in/
+  physical_file: pills/day-087-rope-someone-in/index.md
+- id: PILL088
+  type: daily_pill
+  title: Scratch the surface — una espressione da usare davvero
+  registry_url: /pills/day-088-scratch-the-surface/
+  physical_file: pills/day-088-scratch-the-surface/index.md
+- id: PILL089
+  type: daily_pill
+  title: Step into someone's shoes — una espressione da usare davvero
+  registry_url: /pills/day-089-step-into-someones-shoes/
+  physical_file: pills/day-089-step-into-someones-shoes/index.md
+- id: PILL090
+  type: daily_pill
+  title: Drop — una espressione da usare davvero
+  registry_url: /pills/day-090-drop/
+  physical_file: pills/day-090-drop/index.md
+- id: PILL091
+  type: daily_pill
+  title: Touch grass — una espressione da usare davvero
+  registry_url: /pills/day-091-touch-grass/
+  physical_file: pills/day-091-touch-grass/index.md
+- id: PILL092
+  type: daily_pill
+  title: No cap — una espressione da usare davvero
+  registry_url: /pills/day-092-no-cap/
+  physical_file: pills/day-092-no-cap/index.md
+- id: PILL093
+  type: daily_pill
+  title: Clap back — una espressione da usare davvero
+  registry_url: /pills/day-093-clap-back/
+  physical_file: pills/day-093-clap-back/index.md
+- id: PILL094
+  type: daily_pill
+  title: On point — una espressione da usare davvero
+  registry_url: /pills/day-094-on-point/
+  physical_file: pills/day-094-on-point/index.md
+- id: PILL095
+  type: daily_pill
+  title: Kiss something goodbye — una espressione da usare davvero
+  registry_url: /pills/day-095-kiss-something-goodbye/
+  physical_file: pills/day-095-kiss-something-goodbye/index.md
+- id: PILL096
+  type: daily_pill
+  title: Jump through hoops — una espressione da usare davvero
+  registry_url: /pills/day-096-jump-through-hoops/
+  physical_file: pills/day-096-jump-through-hoops/index.md
+- id: PILL097
+  type: daily_pill
+  title: Call it a day — una espressione da usare davvero
+  registry_url: /pills/day-097-call-it-a-day/
+  physical_file: pills/day-097-call-it-a-day/index.md
+- id: PILL098
+  type: daily_pill
+  title: Got you — una espressione da usare davvero
+  registry_url: /pills/day-098-got-you/
+  physical_file: pills/day-098-got-you/index.md
+- id: PILL099
+  type: daily_pill
+  title: Know the score — una espressione da usare davvero
+  registry_url: /pills/day-099-know-the-score/
+  physical_file: pills/day-099-know-the-score/index.md
+- id: PILL100
+  type: daily_pill
+  title: Steal someone's thunder — una espressione da usare davvero
+  registry_url: /pills/day-100-steal-someones-thunder/
+  physical_file: pills/day-100-steal-someones-thunder/index.md
+- id: PILL101
+  type: daily_pill
+  title: Bring something to the party — una espressione da usare davvero
+  registry_url: /pills/day-101-bring-something-to-the-party/
+  physical_file: pills/day-101-bring-something-to-the-party/index.md
+- id: PILL102
+  type: daily_pill
+  title: Can-do attitude — una espressione da usare davvero
+  registry_url: /pills/day-102-can-do-attitude/
+  physical_file: pills/day-102-can-do-attitude/index.md
+- id: PILL103
+  type: daily_pill
+  title: Skedaddle — una espressione da usare davvero
+  registry_url: /pills/day-103-skedaddle/
+  physical_file: pills/day-103-skedaddle/index.md
+- id: PILL104
+  type: daily_pill
+  title: Fall on stony ground — una espressione da usare davvero
+  registry_url: /pills/day-104-fall-on-stony-ground/
+  physical_file: pills/day-104-fall-on-stony-ground/index.md
+- id: PILL105
+  type: daily_pill
+  title: Make a rod for your own back — una espressione da usare davvero
+  registry_url: /pills/day-105-make-a-rod-for-your-own-back/
+  physical_file: pills/day-105-make-a-rod-for-your-own-back/index.md
+- id: PILL106
+  type: daily_pill
+  title: Ship — una espressione da usare davvero
+  registry_url: /pills/day-106-ship/
+  physical_file: pills/day-106-ship/index.md
+- id: PILL107
+  type: daily_pill
+  title: Twig — una espressione da usare davvero
+  registry_url: /pills/day-107-twig/
+  physical_file: pills/day-107-twig/index.md
+- id: PILL108
+  type: daily_pill
+  title: Mooch — una espressione da usare davvero
+  registry_url: /pills/day-108-mooch/
+  physical_file: pills/day-108-mooch/index.md
+- id: PILL109
+  type: daily_pill
+  title: Give it some welly — una espressione da usare davvero
+  registry_url: /pills/day-109-give-it-some-welly/
+  physical_file: pills/day-109-give-it-some-welly/index.md
+- id: PILL110
+  type: daily_pill
+  title: Shoehorn something in — una espressione da usare davvero
+  registry_url: /pills/day-110-shoehorn-something-in/
+  physical_file: pills/day-110-shoehorn-something-in/index.md
+- id: PILL111
+  type: daily_pill
+  title: That's on you — una espressione da usare davvero
+  registry_url: /pills/day-111-thats-on-you/
+  physical_file: pills/day-111-thats-on-you/index.md
+- id: PILL112
+  type: daily_pill
+  title: Warts and all — una espressione da usare davvero
+  registry_url: /pills/day-112-warts-and-all/
+  physical_file: pills/day-112-warts-and-all/index.md
+- id: PILL113
+  type: daily_pill
+  title: Off the scale — una espressione da usare davvero
+  registry_url: /pills/day-113-off-the-scale/
+  physical_file: pills/day-113-off-the-scale/index.md
+- id: PILL114
+  type: daily_pill
+  title: Throw one's toys out the pram — una espressione da usare davvero
+  registry_url: /pills/day-114-throw-ones-toys-out-the-pram/
+  physical_file: pills/day-114-throw-ones-toys-out-the-pram/index.md
+- id: PILL115
+  type: daily_pill
+  title: Make my skin crawl — una espressione da usare davvero
+  registry_url: /pills/day-115-make-my-skin-crawl/
+  physical_file: pills/day-115-make-my-skin-crawl/index.md
+- id: PILL116
+  type: daily_pill
+  title: An uphill task — una espressione da usare davvero
+  registry_url: /pills/day-116-an-uphill-task/
+  physical_file: pills/day-116-an-uphill-task/index.md
+- id: PILL117
+  type: daily_pill
+  title: Bide your time — una espressione da usare davvero
+  registry_url: /pills/day-117-bide-your-time/
+  physical_file: pills/day-117-bide-your-time/index.md
+- id: PILL118
+  type: daily_pill
+  title: Stomping ground — una espressione da usare davvero
+  registry_url: /pills/day-118-stomping-ground/
+  physical_file: pills/day-118-stomping-ground/index.md
+- id: PILL119
+  type: daily_pill
+  title: Tug at the heartstrings — una espressione da usare davvero
+  registry_url: /pills/day-119-tug-at-the-heartstrings/
+  physical_file: pills/day-119-tug-at-the-heartstrings/index.md
+- id: PILL120
+  type: daily_pill
+  title: Clutch at straws — una espressione da usare davvero
+  registry_url: /pills/day-120-clutch-at-straws/
+  physical_file: pills/day-120-clutch-at-straws/index.md
+- id: PILL121
+  type: daily_pill
+  title: Crank up — una espressione da usare davvero
+  registry_url: /pills/day-121-crank-up/
+  physical_file: pills/day-121-crank-up/index.md
+- id: PILL122
+  type: daily_pill
+  title: Wishy-washy — una espressione da usare davvero
+  registry_url: /pills/day-122-wishy-washy/
+  physical_file: pills/day-122-wishy-washy/index.md
+- id: PILL123
+  type: daily_pill
+  title: Shook — una espressione da usare davvero
+  registry_url: /pills/day-123-shook/
+  physical_file: pills/day-123-shook/index.md
+- id: PILL124
+  type: daily_pill
+  title: Have in your locker — una espressione da usare davvero
+  registry_url: /pills/day-124-have-in-your-locker/
+  physical_file: pills/day-124-have-in-your-locker/index.md
+- id: PILL125
+  type: daily_pill
+  title: Zing — una espressione da usare davvero
+  registry_url: /pills/day-125-zing/
+  physical_file: pills/day-125-zing/index.md
+- id: PILL126
+  type: daily_pill
+  title: Beige flag — una espressione da usare davvero
+  registry_url: /pills/day-126-beige-flag/
+  physical_file: pills/day-126-beige-flag/index.md
+- id: PILL127
+  type: daily_pill
+  title: Lay it on thick — una espressione da usare davvero
+  registry_url: /pills/day-127-lay-it-on-thick/
+  physical_file: pills/day-127-lay-it-on-thick/index.md
+- id: PILL128
+  type: daily_pill
+  title: Telling porkies — una espressione da usare davvero
+  registry_url: /pills/day-128-telling-porkies/
+  physical_file: pills/day-128-telling-porkies/index.md
+- id: PILL129
+  type: daily_pill
+  title: In on it — una espressione da usare davvero
+  registry_url: /pills/day-129-in-on-it/
+  physical_file: pills/day-129-in-on-it/index.md
+- id: PILL130
+  type: daily_pill
+  title: Brick by brick — una espressione da usare davvero
+  registry_url: /pills/day-130-brick-by-brick/
+  physical_file: pills/day-130-brick-by-brick/index.md
+- id: PILL131
+  type: daily_pill
+  title: Cook up an idea — una espressione da usare davvero
+  registry_url: /pills/day-131-cook-up-an-idea/
+  physical_file: pills/day-131-cook-up-an-idea/index.md
+- id: PILL132
+  type: daily_pill
+  title: Rinse, repeat — una espressione da usare davvero
+  registry_url: /pills/day-132-rinse-repeat/
+  physical_file: pills/day-132-rinse-repeat/index.md
+- id: PILL133
+  type: daily_pill
+  title: Cash in on something — una espressione da usare davvero
+  registry_url: /pills/day-133-cash-in-on-something/
+  physical_file: pills/day-133-cash-in-on-something/index.md
+- id: PILL134
+  type: daily_pill
+  title: Make your hair stand on end — una espressione da usare davvero
+  registry_url: /pills/day-134-make-your-hair-stand-on-end/
+  physical_file: pills/day-134-make-your-hair-stand-on-end/index.md
+- id: PILL135
+  type: daily_pill
+  title: A blow — una espressione da usare davvero
+  registry_url: /pills/day-135-a-blow/
+  physical_file: pills/day-135-a-blow/index.md
+- id: PILL136
+  type: daily_pill
+  title: Rear its head — una espressione da usare davvero
+  registry_url: /pills/day-136-rear-its-head/
+  physical_file: pills/day-136-rear-its-head/index.md
+- id: PILL137
+  type: daily_pill
+  title: Elbow grease — una espressione da usare davvero
+  registry_url: /pills/day-137-elbow-grease/
+  physical_file: pills/day-137-elbow-grease/index.md
+- id: PILL138
+  type: daily_pill
+  title: Take the wheel — una espressione da usare davvero
+  registry_url: /pills/day-138-take-the-wheel/
+  physical_file: pills/day-138-take-the-wheel/index.md
+- id: PILL139
+  type: daily_pill
+  title: Dip your toe into — una espressione da usare davvero
+  registry_url: /pills/day-139-dip-your-toe-into/
+  physical_file: pills/day-139-dip-your-toe-into/index.md
+- id: PILL140
+  type: daily_pill
+  title: Peaks and troughs — una espressione da usare davvero
+  registry_url: /pills/day-140-peaks-and-troughs/
+  physical_file: pills/day-140-peaks-and-troughs/index.md
+- id: PILL141
+  type: daily_pill
+  title: Mental gymnastics — una espressione da usare davvero
+  registry_url: /pills/day-141-mental-gymnastics/
+  physical_file: pills/day-141-mental-gymnastics/index.md
+- id: PILL142
+  type: daily_pill
+  title: Call dibs — una espressione da usare davvero
+  registry_url: /pills/day-142-call-dibs/
+  physical_file: pills/day-142-call-dibs/index.md
+- id: PILL143
+  type: daily_pill
+  title: Go with the flow — una espressione da usare davvero
+  registry_url: /pills/day-143-go-with-the-flow/
+  physical_file: pills/day-143-go-with-the-flow/index.md
+- id: PILL144
+  type: daily_pill
+  title: Drip-feed — una espressione da usare davvero
+  registry_url: /pills/day-144-drip-feed/
+  physical_file: pills/day-144-drip-feed/index.md
+- id: PILL145
+  type: daily_pill
+  title: Scatterbrain — una espressione da usare davvero
+  registry_url: /pills/day-145-scatterbrain/
+  physical_file: pills/day-145-scatterbrain/index.md
+- id: PILL146
+  type: daily_pill
+  title: Be in with a shout — una espressione da usare davvero
+  registry_url: /pills/day-146-be-in-with-a-shout/
+  physical_file: pills/day-146-be-in-with-a-shout/index.md
+- id: PILL147
+  type: daily_pill
+  title: Hard pass — una espressione da usare davvero
+  registry_url: /pills/day-147-hard-pass/
+  physical_file: pills/day-147-hard-pass/index.md
+- id: PILL148
+  type: daily_pill
+  title: Level up — una espressione da usare davvero
+  registry_url: /pills/day-148-level-up/
+  physical_file: pills/day-148-level-up/index.md
+- id: PILL149
+  type: daily_pill
+  title: Shout-out — una espressione da usare davvero
+  registry_url: /pills/day-149-shout-out/
+  physical_file: pills/day-149-shout-out/index.md
+- id: PILL150
+  type: daily_pill
+  title: It escapes me — una espressione da usare davvero
+  registry_url: /pills/day-150-it-escapes-me/
+  physical_file: pills/day-150-it-escapes-me/index.md
+- id: PILL151
+  type: daily_pill
+  title: Change for the better — una espressione da usare davvero
+  registry_url: /pills/day-151-change-for-the-better/
+  physical_file: pills/day-151-change-for-the-better/index.md
+- id: PILL152
+  type: daily_pill
+  title: The gift that keeps on giving — una espressione da usare davvero
+  registry_url: /pills/day-152-the-gift-that-keeps-on-giving/
+  physical_file: pills/day-152-the-gift-that-keeps-on-giving/index.md
+- id: PILL153
+  type: daily_pill
+  title: Quiet quitting — una espressione da usare davvero
+  registry_url: /pills/day-153-quiet-quitting/
+  physical_file: pills/day-153-quiet-quitting/index.md
+- id: PILL154
+  type: daily_pill
+  title: Win hands down — una espressione da usare davvero
+  registry_url: /pills/day-154-win-hands-down/
+  physical_file: pills/day-154-win-hands-down/index.md
+- id: PILL155
+  type: daily_pill
+  title: Fever pitch — una espressione da usare davvero
+  registry_url: /pills/day-155-fever-pitch/
+  physical_file: pills/day-155-fever-pitch/index.md
+- id: PILL156
+  type: daily_pill
+  title: Twiddle your thumbs — una espressione da usare davvero
+  registry_url: /pills/day-156-twiddle-your-thumbs/
+  physical_file: pills/day-156-twiddle-your-thumbs/index.md
+- id: PILL157
+  type: daily_pill
+  title: Dog's dinner — una espressione da usare davvero
+  registry_url: /pills/day-157-dogs-dinner/
+  physical_file: pills/day-157-dogs-dinner/index.md
+- id: PILL158
+  type: daily_pill
+  title: Sitting pretty — una espressione da usare davvero
+  registry_url: /pills/day-158-sitting-pretty/
+  physical_file: pills/day-158-sitting-pretty/index.md
+- id: PILL159
+  type: daily_pill
+  title: Feast your eyes — una espressione da usare davvero
+  registry_url: /pills/day-159-feast-your-eyes/
+  physical_file: pills/day-159-feast-your-eyes/index.md
+- id: PILL160
+  type: daily_pill
+  title: Put the brakes on — una espressione da usare davvero
+  registry_url: /pills/day-160-put-the-brakes-on/
+  physical_file: pills/day-160-put-the-brakes-on/index.md
+- id: PILL161
+  type: daily_pill
+  title: Second-guess — una espressione da usare davvero
+  registry_url: /pills/day-161-second-guess/
+  physical_file: pills/day-161-second-guess/index.md
+- id: PILL162
+  type: daily_pill
+  title: Ins and outs — una espressione da usare davvero
+  registry_url: /pills/day-162-ins-and-outs/
+  physical_file: pills/day-162-ins-and-outs/index.md
+- id: PILL163
+  type: daily_pill
+  title: Yes and no — una espressione da usare davvero
+  registry_url: /pills/day-163-yes-and-no/
+  physical_file: pills/day-163-yes-and-no/index.md
+- id: PILL164
+  type: daily_pill
+  title: Eat your words — una espressione da usare davvero
+  registry_url: /pills/day-164-eat-your-words/
+  physical_file: pills/day-164-eat-your-words/index.md
+- id: PILL165
+  type: daily_pill
+  title: Bug someone — una espressione da usare davvero
+  registry_url: /pills/day-165-bug-someone/
+  physical_file: pills/day-165-bug-someone/index.md
+- id: PILL166
+  type: daily_pill
+  title: Willy-nilly — una espressione da usare davvero
+  registry_url: /pills/day-166-willy-nilly/
+  physical_file: pills/day-166-willy-nilly/index.md
+- id: PILL167
+  type: daily_pill
+  title: Gnarly — una espressione da usare davvero
+  registry_url: /pills/day-167-gnarly/
+  physical_file: pills/day-167-gnarly/index.md
+- id: PILL168
+  type: daily_pill
+  title: Smash it — una espressione da usare davvero
+  registry_url: /pills/day-168-smash-it/
+  physical_file: pills/day-168-smash-it/index.md
+- id: PILL169
+  type: daily_pill
+  title: A doddle — una espressione da usare davvero
+  registry_url: /pills/day-169-a-doddle/
+  physical_file: pills/day-169-a-doddle/index.md
+- id: PILL170
+  type: daily_pill
+  title: It's now or never — una espressione da usare davvero
+  registry_url: /pills/day-170-its-now-or-never/
+  physical_file: pills/day-170-its-now-or-never/index.md
+- id: PILL171
+  type: daily_pill
+  title: Happy days — una espressione da usare davvero
+  registry_url: /pills/day-171-happy-days/
+  physical_file: pills/day-171-happy-days/index.md
+- id: PILL172
+  type: daily_pill
+  title: Double down — una espressione da usare davvero
+  registry_url: /pills/day-172-double-down/
+  physical_file: pills/day-172-double-down/index.md
+- id: PILL173
+  type: daily_pill
+  title: Game face — una espressione da usare davvero
+  registry_url: /pills/day-173-game-face/
+  physical_file: pills/day-173-game-face/index.md
+- id: PILL174
+  type: daily_pill
+  title: Bitten by the bug — una espressione da usare davvero
+  registry_url: /pills/day-174-bitten-by-the-bug/
+  physical_file: pills/day-174-bitten-by-the-bug/index.md
+- id: PILL175
+  type: daily_pill
+  title: Onboarding — una espressione da usare davvero
+  registry_url: /pills/day-175-onboarding/
+  physical_file: pills/day-175-onboarding/index.md
+- id: PILL176
+  type: daily_pill
+  title: Thereby hangs a tale — una espressione da usare davvero
+  registry_url: /pills/day-176-thereby-hangs-a-tale/
+  physical_file: pills/day-176-thereby-hangs-a-tale/index.md
+- id: PILL177
+  type: daily_pill
+  title: The royal treatment — una espressione da usare davvero
+  registry_url: /pills/day-177-the-royal-treatment/
+  physical_file: pills/day-177-the-royal-treatment/index.md
+- id: PILL178
+  type: daily_pill
+  title: Creatively bankrupt — una espressione da usare davvero
+  registry_url: /pills/day-178-creatively-bankrupt/
+  physical_file: pills/day-178-creatively-bankrupt/index.md
+- id: PILL179
+  type: daily_pill
+  title: As if — una espressione da usare davvero
+  registry_url: /pills/day-179-as-if/
+  physical_file: pills/day-179-as-if/index.md
+- id: PILL180
+  type: daily_pill
+  title: Ish — una espressione da usare davvero
+  registry_url: /pills/day-180-ish/
+  physical_file: pills/day-180-ish/index.md
+- id: PILL181
+  type: daily_pill
+  title: Bad hair day — una espressione da usare davvero
+  registry_url: /pills/day-181-bad-hair-day/
+  physical_file: pills/day-181-bad-hair-day/index.md
+- id: PILL182
+  type: daily_pill
+  title: Promises, promises — una espressione da usare davvero
+  registry_url: /pills/day-182-promises-promises/
+  physical_file: pills/day-182-promises-promises/index.md
+- id: PILL183
+  type: daily_pill
+  title: Not see hide nor hair — una espressione da usare davvero
+  registry_url: /pills/day-183-not-see-hide-nor-hair/
+  physical_file: pills/day-183-not-see-hide-nor-hair/index.md
+- id: PILL184
+  type: daily_pill
+  title: Curate's egg — una espressione da usare davvero
+  registry_url: /pills/day-184-curates-egg/
+  physical_file: pills/day-184-curates-egg/index.md
+- id: PILL185
+  type: daily_pill
+  title: That'll be the day — una espressione da usare davvero
+  registry_url: /pills/day-185-thatll-be-the-day/
+  physical_file: pills/day-185-thatll-be-the-day/index.md
+- id: PILL186
+  type: daily_pill
+  title: Gathering dust — una espressione da usare davvero
+  registry_url: /pills/day-186-gathering-dust/
+  physical_file: pills/day-186-gathering-dust/index.md
+- id: PILL187
+  type: daily_pill
+  title: Easier said than done — una espressione da usare davvero
+  registry_url: /pills/day-187-easier-said-than-done/
+  physical_file: pills/day-187-easier-said-than-done/index.md
+- id: PILL188
+  type: daily_pill
+  title: The plot thickens — una espressione da usare davvero
+  registry_url: /pills/day-188-the-plot-thickens/
+  physical_file: pills/day-188-the-plot-thickens/index.md
+- id: PILL189
+  type: daily_pill
+  title: All at sea — una espressione da usare davvero
+  registry_url: /pills/day-189-all-at-sea/
+  physical_file: pills/day-189-all-at-sea/index.md
+- id: PILL190
+  type: daily_pill
+  title: Don't mind me — una espressione da usare davvero
+  registry_url: /pills/day-190-dont-mind-me/
+  physical_file: pills/day-190-dont-mind-me/index.md
+- id: PILL191
+  type: daily_pill
+  title: Light up like a christmas tree — una espressione da usare davvero
+  registry_url: /pills/day-191-light-up-like-a-christmas-tree/
+  physical_file: pills/day-191-light-up-like-a-christmas-tree/index.md
+- id: PILL192
+  type: daily_pill
+  title: I'm out — una espressione da usare davvero
+  registry_url: /pills/day-192-im-out/
+  physical_file: pills/day-192-im-out/index.md
+- id: PILL193
+  type: daily_pill
+  title: Sound out — una espressione da usare davvero
+  registry_url: /pills/day-193-sound-out/
+  physical_file: pills/day-193-sound-out/index.md
+- id: PILL194
+  type: daily_pill
+  title: Fly by night — una espressione da usare davvero
+  registry_url: /pills/day-194-fly-by-night/
+  physical_file: pills/day-194-fly-by-night/index.md
+- id: PILL195
+  type: daily_pill
+  title: One-up — una espressione da usare davvero
+  registry_url: /pills/day-195-one-up/
+  physical_file: pills/day-195-one-up/index.md
+- id: PILL196
+  type: daily_pill
+  title: Tread on someone's toes — una espressione da usare davvero
+  registry_url: /pills/day-196-tread-on-someones-toes/
+  physical_file: pills/day-196-tread-on-someones-toes/index.md
+- id: PILL197
+  type: daily_pill
+  title: Run for the hills — una espressione da usare davvero
+  registry_url: /pills/day-197-run-for-the-hills/
+  physical_file: pills/day-197-run-for-the-hills/index.md
+- id: PILL198
+  type: daily_pill
+  title: Hard at it — una espressione da usare davvero
+  registry_url: /pills/day-198-hard-at-it/
+  physical_file: pills/day-198-hard-at-it/index.md
+- id: PILL199
+  type: daily_pill
+  title: Each to their own — una espressione da usare davvero
+  registry_url: /pills/day-199-each-to-their-own/
+  physical_file: pills/day-199-each-to-their-own/index.md
+- id: PILL200
+  type: daily_pill
+  title: Fill your boots — una espressione da usare davvero
+  registry_url: /pills/day-200-fill-your-boots/
+  physical_file: pills/day-200-fill-your-boots/index.md
+- id: PILL201
+  type: daily_pill
+  title: In my travel era — una espressione da usare davvero
+  registry_url: /pills/day-201-in-my-travel-era/
+  physical_file: pills/day-201-in-my-travel-era/index.md
+- id: PILL202
+  type: daily_pill
+  title: Come full circle — una espressione da usare davvero
+  registry_url: /pills/day-202-come-full-circle/
+  physical_file: pills/day-202-come-full-circle/index.md
+- id: PILL203
+  type: daily_pill
+  title: Grind someone's gears — una espressione da usare davvero
+  registry_url: /pills/day-203-grind-someones-gears/
+  physical_file: pills/day-203-grind-someones-gears/index.md
+- id: PILL204
+  type: daily_pill
+  title: Feel seen — una espressione da usare davvero
+  registry_url: /pills/day-204-feel-seen/
+  physical_file: pills/day-204-feel-seen/index.md
+- id: PILL205
+  type: daily_pill
+  title: It's giving — una espressione da usare davvero
+  registry_url: /pills/day-205-its-giving/
+  physical_file: pills/day-205-its-giving/index.md
+- id: PILL206
+  type: daily_pill
+  title: Dial down — una espressione da usare davvero
+  registry_url: /pills/day-206-dial-down/
+  physical_file: pills/day-206-dial-down/index.md
+- id: PILL207
+  type: daily_pill
+  title: The name of the game — una espressione da usare davvero
+  registry_url: /pills/day-207-the-name-of-the-game/
+  physical_file: pills/day-207-the-name-of-the-game/index.md
+- id: PILL208
+  type: daily_pill
+  title: Do it for the plot — una espressione da usare davvero
+  registry_url: /pills/day-208-do-it-for-the-plot/
+  physical_file: pills/day-208-do-it-for-the-plot/index.md
+- id: PILL209
+  type: daily_pill
+  title: Let something slide — una espressione da usare davvero
+  registry_url: /pills/day-209-let-something-slide/
+  physical_file: pills/day-209-let-something-slide/index.md
+- id: PILL210
+  type: daily_pill
+  title: Have someone on — una espressione da usare davvero
+  registry_url: /pills/day-210-have-someone-on/
+  physical_file: pills/day-210-have-someone-on/index.md
+- id: PILL211
+  type: daily_pill
+  title: Take one for the team — una espressione da usare davvero
+  registry_url: /pills/day-211-take-one-for-the-team/
+  physical_file: pills/day-211-take-one-for-the-team/index.md
+- id: PILL212
+  type: daily_pill
+  title: Mind your ps and qs — una espressione da usare davvero
+  registry_url: /pills/day-212-mind-your-ps-and-qs/
+  physical_file: pills/day-212-mind-your-ps-and-qs/index.md
+- id: PILL213
+  type: daily_pill
+  title: Dad dancing — una espressione da usare davvero
+  registry_url: /pills/day-213-dad-dancing/
+  physical_file: pills/day-213-dad-dancing/index.md
+- id: PILL214
+  type: daily_pill
+  title: Big data — una espressione da usare davvero
+  registry_url: /pills/day-214-big-data/
+  physical_file: pills/day-214-big-data/index.md
+- id: PILL215
+  type: daily_pill
+  title: Punch above your weight — una espressione da usare davvero
+  registry_url: /pills/day-215-punch-above-your-weight/
+  physical_file: pills/day-215-punch-above-your-weight/index.md
+- id: PILL216
+  type: daily_pill
+  title: Social media influencer — una espressione da usare davvero
+  registry_url: /pills/day-216-social-media-influencer/
+  physical_file: pills/day-216-social-media-influencer/index.md
+- id: PILL217
+  type: daily_pill
+  title: Goldilocks — una espressione da usare davvero
+  registry_url: /pills/day-217-goldilocks/
+  physical_file: pills/day-217-goldilocks/index.md
+- id: PILL218
+  type: daily_pill
+  title: Ghosting — una espressione da usare davvero
+  registry_url: /pills/day-218-ghosting/
+  physical_file: pills/day-218-ghosting/index.md
+- id: PILL219
+  type: daily_pill
+  title: Slow tv — una espressione da usare davvero
+  registry_url: /pills/day-219-slow-tv/
+  physical_file: pills/day-219-slow-tv/index.md
+- id: PILL220
+  type: daily_pill
+  title: Tiger mother — una espressione da usare davvero
+  registry_url: /pills/day-220-tiger-mother/
+  physical_file: pills/day-220-tiger-mother/index.md
+- id: PILL221
+  type: daily_pill
+  title: Digital detox — una espressione da usare davvero
+  registry_url: /pills/day-221-digital-detox/
+  physical_file: pills/day-221-digital-detox/index.md
+- id: PILL222
+  type: daily_pill
+  title: Leave a bad taste in your mouth — una espressione da usare davvero
+  registry_url: /pills/day-222-leave-a-bad-taste-in-your-mouth/
+  physical_file: pills/day-222-leave-a-bad-taste-in-your-mouth/index.md
+- id: PILL223
+  type: daily_pill
+  title: Pea-souper — una espressione da usare davvero
+  registry_url: /pills/day-223-pea-souper/
+  physical_file: pills/day-223-pea-souper/index.md
+- id: PILL224
+  type: daily_pill
+  title: Throw in the towel — una espressione da usare davvero
+  registry_url: /pills/day-224-throw-in-the-towel/
+  physical_file: pills/day-224-throw-in-the-towel/index.md
+- id: PILL225
+  type: daily_pill
+  title: A walk in the park — una espressione da usare davvero
+  registry_url: /pills/day-225-a-walk-in-the-park/
+  physical_file: pills/day-225-a-walk-in-the-park/index.md
+- id: PILL226
+  type: daily_pill
+  title: Dumbphone — una espressione da usare davvero
+  registry_url: /pills/day-226-dumbphone/
+  physical_file: pills/day-226-dumbphone/index.md
+- id: PILL227
+  type: daily_pill
+  title: No fear — una espressione da usare davvero
+  registry_url: /pills/day-227-no-fear/
+  physical_file: pills/day-227-no-fear/index.md
+- id: PILL228
+  type: daily_pill
+  title: Something to chew on — una espressione da usare davvero
+  registry_url: /pills/day-228-something-to-chew-on/
+  physical_file: pills/day-228-something-to-chew-on/index.md
+- id: PILL229
+  type: daily_pill
+  title: Waffle on — una espressione da usare davvero
+  registry_url: /pills/day-229-waffle-on/
+  physical_file: pills/day-229-waffle-on/index.md
+- id: PILL230
+  type: daily_pill
+  title: Skew-whiff — una espressione da usare davvero
+  registry_url: /pills/day-230-skew-whiff/
+  physical_file: pills/day-230-skew-whiff/index.md
+- id: PILL231
+  type: daily_pill
+  title: Play a blinder — una espressione da usare davvero
+  registry_url: /pills/day-231-play-a-blinder/
+  physical_file: pills/day-231-play-a-blinder/index.md
+- id: PILL232
+  type: daily_pill
+  title: Miffed — una espressione da usare davvero
+  registry_url: /pills/day-232-miffed/
+  physical_file: pills/day-232-miffed/index.md
+- id: PILL233
+  type: daily_pill
+  title: Mardy — una espressione da usare davvero
+  registry_url: /pills/day-233-mardy/
+  physical_file: pills/day-233-mardy/index.md
+- id: PILL234
+  type: daily_pill
+  title: Curry favour — una espressione da usare davvero
+  registry_url: /pills/day-234-curry-favour/
+  physical_file: pills/day-234-curry-favour/index.md
+- id: PILL235
+  type: daily_pill
+  title: Take the biscuit — una espressione da usare davvero
+  registry_url: /pills/day-235-take-the-biscuit/
+  physical_file: pills/day-235-take-the-biscuit/index.md
+- id: PILL236
+  type: daily_pill
+  title: Step on it — una espressione da usare davvero
+  registry_url: /pills/day-236-step-on-it/
+  physical_file: pills/day-236-step-on-it/index.md
+- id: PILL237
+  type: daily_pill
+  title: Ping — una espressione da usare davvero
+  registry_url: /pills/day-237-ping/
+  physical_file: pills/day-237-ping/index.md
+- id: PILL238
+  type: daily_pill
+  title: Crunch time — una espressione da usare davvero
+  registry_url: /pills/day-238-crunch-time/
+  physical_file: pills/day-238-crunch-time/index.md
+- id: PILL239
+  type: daily_pill
+  title: Have a pop — una espressione da usare davvero
+  registry_url: /pills/day-239-have-a-pop/
+  physical_file: pills/day-239-have-a-pop/index.md
+- id: PILL240
+  type: daily_pill
+  title: A necessary evil — una espressione da usare davvero
+  registry_url: /pills/day-240-a-necessary-evil/
+  physical_file: pills/day-240-a-necessary-evil/index.md
+- id: PILL241
+  type: daily_pill
+  title: All that jazz — una espressione da usare davvero
+  registry_url: /pills/day-241-all-that-jazz/
+  physical_file: pills/day-241-all-that-jazz/index.md
+- id: PILL242
+  type: daily_pill
+  title: Not gonna lie — una espressione da usare davvero
+  registry_url: /pills/day-242-not-gonna-lie/
+  physical_file: pills/day-242-not-gonna-lie/index.md
+- id: PILL243
+  type: daily_pill
+  title: Up your game — una espressione da usare davvero
+  registry_url: /pills/day-243-up-your-game/
+  physical_file: pills/day-243-up-your-game/index.md
+- id: PILL244
+  type: daily_pill
+  title: Shout it from the rooftops — una espressione da usare davvero
+  registry_url: /pills/day-244-shout-it-from-the-rooftops/
+  physical_file: pills/day-244-shout-it-from-the-rooftops/index.md
+- id: PILL245
+  type: daily_pill
+  title: Blow the cobwebs away — una espressione da usare davvero
+  registry_url: /pills/day-245-blow-the-cobwebs-away/
+  physical_file: pills/day-245-blow-the-cobwebs-away/index.md
+- id: PILL246
+  type: daily_pill
+  title: A knees-up — una espressione da usare davvero
+  registry_url: /pills/day-246-a-knees-up/
+  physical_file: pills/day-246-a-knees-up/index.md
+- id: PILL247
+  type: daily_pill
+  title: Put someone on the map — una espressione da usare davvero
+  registry_url: /pills/day-247-put-someone-on-the-map/
+  physical_file: pills/day-247-put-someone-on-the-map/index.md
+- id: PILL248
+  type: daily_pill
+  title: Down in the dumps — una espressione da usare davvero
+  registry_url: /pills/day-248-down-in-the-dumps/
+  physical_file: pills/day-248-down-in-the-dumps/index.md
+- id: PILL249
+  type: daily_pill
+  title: Excuse me — una espressione da usare davvero
+  registry_url: /pills/day-249-excuse-me/
+  physical_file: pills/day-249-excuse-me/index.md
+- id: PILL250
+  type: daily_pill
+  title: A sting in the tail — una espressione da usare davvero
+  registry_url: /pills/day-250-a-sting-in-the-tail/
+  physical_file: pills/day-250-a-sting-in-the-tail/index.md
+- id: PILL251
+  type: daily_pill
+  title: Cringe — una espressione da usare davvero
+  registry_url: /pills/day-251-cringe/
+  physical_file: pills/day-251-cringe/index.md
+- id: PILL252
+  type: daily_pill
+  title: It's the … for me — una espressione da usare davvero
+  registry_url: /pills/day-252-its-the-for-me/
+  physical_file: pills/day-252-its-the-for-me/index.md
+- id: PILL253
+  type: daily_pill
+  title: Down / up for something — una espressione da usare davvero
+  registry_url: /pills/day-253-down-up-for-something/
+  physical_file: pills/day-253-down-up-for-something/index.md
+- id: PILL254
+  type: daily_pill
+  title: Lit — una espressione da usare davvero
+  registry_url: /pills/day-254-lit/
+  physical_file: pills/day-254-lit/index.md
+- id: PILL255
+  type: daily_pill
+  title: Vibe — una espressione da usare davvero
+  registry_url: /pills/day-255-vibe/
+  physical_file: pills/day-255-vibe/index.md
+- id: PILL256
+  type: daily_pill
+  title: Noob — una espressione da usare davvero
+  registry_url: /pills/day-256-noob/
+  physical_file: pills/day-256-noob/index.md
+- id: PILL257
+  type: daily_pill
+  title: Adulting — una espressione da usare davvero
+  registry_url: /pills/day-257-adulting/
+  physical_file: pills/day-257-adulting/index.md
+- id: PILL258
+  type: daily_pill
+  title: Slay — una espressione da usare davvero
+  registry_url: /pills/day-258-slay/
+  physical_file: pills/day-258-slay/index.md
+- id: PILL259
+  type: daily_pill
+  title: Push back — una espressione da usare davvero
+  registry_url: /pills/day-259-push-back/
+  physical_file: pills/day-259-push-back/index.md
+- id: PILL260
+  type: daily_pill
+  title: Zip it — una espressione da usare davvero
+  registry_url: /pills/day-260-zip-it/
+  physical_file: pills/day-260-zip-it/index.md
+- id: PILL261
+  type: daily_pill
+  title: Botch job — una espressione da usare davvero
+  registry_url: /pills/day-261-botch-job/
+  physical_file: pills/day-261-botch-job/index.md
+- id: PILL262
+  type: daily_pill
+  title: It slaps — una espressione da usare davvero
+  registry_url: /pills/day-262-it-slaps/
+  physical_file: pills/day-262-it-slaps/index.md
+- id: PILL263
+  type: daily_pill
+  title: Have a lot of plates spinning — una espressione da usare davvero
+  registry_url: /pills/day-263-have-a-lot-of-plates-spinning/
+  physical_file: pills/day-263-have-a-lot-of-plates-spinning/index.md
+- id: PILL264
+  type: daily_pill
+  title: Pizzazz — una espressione da usare davvero
+  registry_url: /pills/day-264-pizzazz/
+  physical_file: pills/day-264-pizzazz/index.md
+- id: PILL265
+  type: daily_pill
+  title: Oomph — una espressione da usare davvero
+  registry_url: /pills/day-265-oomph/
+  physical_file: pills/day-265-oomph/index.md
+- id: PILL266
+  type: daily_pill
+  title: Snap up — una espressione da usare davvero
+  registry_url: /pills/day-266-snap-up/
+  physical_file: pills/day-266-snap-up/index.md
+- id: PILL267
+  type: daily_pill
+  title: Nothingburger — una espressione da usare davvero
+  registry_url: /pills/day-267-nothingburger/
+  physical_file: pills/day-267-nothingburger/index.md
+- id: PILL268
+  type: daily_pill
+  title: Clout — una espressione da usare davvero
+  registry_url: /pills/day-268-clout/
+  physical_file: pills/day-268-clout/index.md
+- id: PILL269
+  type: daily_pill
+  title: Goat — una espressione da usare davvero
+  registry_url: /pills/day-269-goat/
+  physical_file: pills/day-269-goat/index.md
+- id: PILL270
+  type: daily_pill
+  title: Workation — una espressione da usare davvero
+  registry_url: /pills/day-270-workation/
+  physical_file: pills/day-270-workation/index.md
+- id: PILL271
+  type: daily_pill
+  title: Moonshot — una espressione da usare davvero
+  registry_url: /pills/day-271-moonshot/
+  physical_file: pills/day-271-moonshot/index.md
+- id: PILL272
+  type: daily_pill
+  title: Mic drop — una espressione da usare davvero
+  registry_url: /pills/day-272-mic-drop/
+  physical_file: pills/day-272-mic-drop/index.md
+- id: PILL273
+  type: daily_pill
+  title: Tone deaf — una espressione da usare davvero
+  registry_url: /pills/day-273-tone-deaf/
+  physical_file: pills/day-273-tone-deaf/index.md
+- id: PILL274
+  type: daily_pill
+  title: Bring your a game — una espressione da usare davvero
+  registry_url: /pills/day-274-bring-your-a-game/
+  physical_file: pills/day-274-bring-your-a-game/index.md
+- id: PILL275
+  type: daily_pill
+  title: You do you — una espressione da usare davvero
+  registry_url: /pills/day-275-you-do-you/
+  physical_file: pills/day-275-you-do-you/index.md
+- id: PILL276
+  type: daily_pill
+  title: Spoiler alert — una espressione da usare davvero
+  registry_url: /pills/day-276-spoiler-alert/
+  physical_file: pills/day-276-spoiler-alert/index.md
+- id: PILL277
+  type: daily_pill
+  title: Doomscrolling — una espressione da usare davvero
+  registry_url: /pills/day-277-doomscrolling/
+  physical_file: pills/day-277-doomscrolling/index.md
+- id: PILL278
+  type: daily_pill
+  title: Crowdsourcing — una espressione da usare davvero
+  registry_url: /pills/day-278-crowdsourcing/
+  physical_file: pills/day-278-crowdsourcing/index.md
+- id: PILL279
+  type: daily_pill
+  title: One step at a time — una espressione da usare davvero
+  registry_url: /pills/day-279-one-step-at-a-time/
+  physical_file: pills/day-279-one-step-at-a-time/index.md
+- id: PILL280
+  type: daily_pill
+  title: A wake-up call — una espressione da usare davvero
+  registry_url: /pills/day-280-a-wake-up-call/
+  physical_file: pills/day-280-a-wake-up-call/index.md
+- id: PILL281
+  type: daily_pill
+  title: Thirsty — una espressione da usare davvero
+  registry_url: /pills/day-281-thirsty/
+  physical_file: pills/day-281-thirsty/index.md
+- id: PILL282
+  type: daily_pill
+  title: Vanilla — una espressione da usare davvero
+  registry_url: /pills/day-282-vanilla/
+  physical_file: pills/day-282-vanilla/index.md
+- id: PILL283
+  type: daily_pill
+  title: Roast — una espressione da usare davvero
+  registry_url: /pills/day-283-roast/
+  physical_file: pills/day-283-roast/index.md
+- id: PILL284
+  type: daily_pill
+  title: Sticking point — una espressione da usare davvero
+  registry_url: /pills/day-284-sticking-point/
+  physical_file: pills/day-284-sticking-point/index.md
+- id: PILL285
+  type: daily_pill
+  title: A slippery slope — una espressione da usare davvero
+  registry_url: /pills/day-285-a-slippery-slope/
+  physical_file: pills/day-285-a-slippery-slope/index.md
+- id: PILL286
+  type: daily_pill
+  title: Throw shade — una espressione da usare davvero
+  registry_url: /pills/day-286-throw-shade/
+  physical_file: pills/day-286-throw-shade/index.md
+- id: PILL287
+  type: daily_pill
+  title: Bite the bullet — una espressione da usare davvero
+  registry_url: /pills/day-287-bite-the-bullet/
+  physical_file: pills/day-287-bite-the-bullet/index.md
+- id: PILL288
+  type: daily_pill
+  title: Blended working — una espressione da usare davvero
+  registry_url: /pills/day-288-blended-working/
+  physical_file: pills/day-288-blended-working/index.md
+- id: PILL289
+  type: daily_pill
+  title: Jomo — una espressione da usare davvero
+  registry_url: /pills/day-289-jomo/
+  physical_file: pills/day-289-jomo/index.md
+- id: PILL290
+  type: daily_pill
+  title: Spill the tea — una espressione da usare davvero
+  registry_url: /pills/day-290-spill-the-tea/
+  physical_file: pills/day-290-spill-the-tea/index.md
+- id: PILL291
+  type: daily_pill
+  title: Flex — una espressione da usare davvero
+  registry_url: /pills/day-291-flex/
+  physical_file: pills/day-291-flex/index.md
+- id: PILL292
+  type: daily_pill
+  title: Salty — una espressione da usare davvero
+  registry_url: /pills/day-292-salty/
+  physical_file: pills/day-292-salty/index.md
+- id: PILL293
+  type: daily_pill
+  title: Running on fumes — una espressione da usare davvero
+  registry_url: /pills/day-293-running-on-fumes/
+  physical_file: pills/day-293-running-on-fumes/index.md
+- id: PILL294
+  type: daily_pill
+  title: Left on read — una espressione da usare davvero
+  registry_url: /pills/day-294-left-on-read/
+  physical_file: pills/day-294-left-on-read/index.md
+- id: PILL295
+  type: daily_pill
+  title: Talk shop — una espressione da usare davvero
+  registry_url: /pills/day-295-talk-shop/
+  physical_file: pills/day-295-talk-shop/index.md
+- id: PILL296
+  type: daily_pill
+  title: Snackable — una espressione da usare davvero
+  registry_url: /pills/day-296-snackable/
+  physical_file: pills/day-296-snackable/index.md
+- id: PILL297
+  type: daily_pill
+  title: A memory like a sieve — una espressione da usare davvero
+  registry_url: /pills/day-297-a-memory-like-a-sieve/
+  physical_file: pills/day-297-a-memory-like-a-sieve/index.md
+- id: PILL298
+  type: daily_pill
+  title: Peacocking — una espressione da usare davvero
+  registry_url: /pills/day-298-peacocking/
+  physical_file: pills/day-298-peacocking/index.md
+- id: PILL299
+  type: daily_pill
+  title: Rat race — una espressione da usare davvero
+  registry_url: /pills/day-299-rat-race/
+  physical_file: pills/day-299-rat-race/index.md
+- id: PILL300
+  type: daily_pill
+  title: Cabin fever — una espressione da usare davvero
+  registry_url: /pills/day-300-cabin-fever/
+  physical_file: pills/day-300-cabin-fever/index.md
+- id: PILL301
+  type: daily_pill
+  title: Buyer's remorse — una espressione da usare davvero
+  registry_url: /pills/day-301-buyers-remorse/
+  physical_file: pills/day-301-buyers-remorse/index.md
+- id: PILL302
+  type: daily_pill
+  title: Carbon footprint — una espressione da usare davvero
+  registry_url: /pills/day-302-carbon-footprint/
+  physical_file: pills/day-302-carbon-footprint/index.md
+- id: PILL303
+  type: daily_pill
+  title: Cough up — una espressione da usare davvero
+  registry_url: /pills/day-303-cough-up/
+  physical_file: pills/day-303-cough-up/index.md
+- id: PILL304
+  type: daily_pill
+  title: Brain fade — una espressione da usare davvero
+  registry_url: /pills/day-304-brain-fade/
+  physical_file: pills/day-304-brain-fade/index.md
+- id: PILL305
+  type: daily_pill
+  title: Fib — una espressione da usare davvero
+  registry_url: /pills/day-305-fib/
+  physical_file: pills/day-305-fib/index.md
+- id: PILL306
+  type: daily_pill
+  title: Hot under the collar — una espressione da usare davvero
+  registry_url: /pills/day-306-hot-under-the-collar/
+  physical_file: pills/day-306-hot-under-the-collar/index.md
+- id: PILL307
+  type: daily_pill
+  title: Fat chance — una espressione da usare davvero
+  registry_url: /pills/day-307-fat-chance/
+  physical_file: pills/day-307-fat-chance/index.md
+- id: PILL308
+  type: daily_pill
+  title: Milk it — una espressione da usare davvero
+  registry_url: /pills/day-308-milk-it/
+  physical_file: pills/day-308-milk-it/index.md
+- id: PILL309
+  type: daily_pill
+  title: Cherry-pick — una espressione da usare davvero
+  registry_url: /pills/day-309-cherry-pick/
+  physical_file: pills/day-309-cherry-pick/index.md
+- id: PILL310
+  type: daily_pill
+  title: Fight tooth and nail — una espressione da usare davvero
+  registry_url: /pills/day-310-fight-tooth-and-nail/
+  physical_file: pills/day-310-fight-tooth-and-nail/index.md
+- id: PILL311
+  type: daily_pill
+  title: It's a small world — una espressione da usare davvero
+  registry_url: /pills/day-311-its-a-small-world/
+  physical_file: pills/day-311-its-a-small-world/index.md
+- id: PILL312
+  type: daily_pill
+  title: Vanish into thin air — una espressione da usare davvero
+  registry_url: /pills/day-312-vanish-into-thin-air/
+  physical_file: pills/day-312-vanish-into-thin-air/index.md
+- id: PILL313
+  type: daily_pill
+  title: Get the short straw — una espressione da usare davvero
+  registry_url: /pills/day-313-get-the-short-straw/
+  physical_file: pills/day-313-get-the-short-straw/index.md
+- id: PILL314
+  type: daily_pill
+  title: Soft skills — una espressione da usare davvero
+  registry_url: /pills/day-314-soft-skills/
+  physical_file: pills/day-314-soft-skills/index.md
+- id: PILL315
+  type: daily_pill
+  title: Big deal — una espressione da usare davvero
+  registry_url: /pills/day-315-big-deal/
+  physical_file: pills/day-315-big-deal/index.md
+- id: PILL316
+  type: daily_pill
+  title: Clever clogs — una espressione da usare davvero
+  registry_url: /pills/day-316-clever-clogs/
+  physical_file: pills/day-316-clever-clogs/index.md
+- id: PILL317
+  type: daily_pill
+  title: Couch surfing — una espressione da usare davvero
+  registry_url: /pills/day-317-couch-surfing/
+  physical_file: pills/day-317-couch-surfing/index.md
+- id: PILL318
+  type: daily_pill
+  title: Like riding a bike — una espressione da usare davvero
+  registry_url: /pills/day-318-like-riding-a-bike/
+  physical_file: pills/day-318-like-riding-a-bike/index.md
+- id: PILL319
+  type: daily_pill
+  title: On fire — una espressione da usare davvero
+  registry_url: /pills/day-319-on-fire/
+  physical_file: pills/day-319-on-fire/index.md
+- id: PILL320
+  type: daily_pill
+  title: Out of order — una espressione da usare davvero
+  registry_url: /pills/day-320-out-of-order/
+  physical_file: pills/day-320-out-of-order/index.md
+- id: PILL321
+  type: daily_pill
+  title: Give someone the runaround — una espressione da usare davvero
+  registry_url: /pills/day-321-give-someone-the-runaround/
+  physical_file: pills/day-321-give-someone-the-runaround/index.md
+- id: PILL322
+  type: daily_pill
+  title: Laughing all the way to the bank — una espressione da usare davvero
+  registry_url: /pills/day-322-laughing-all-the-way-to-the-bank/
+  physical_file: pills/day-322-laughing-all-the-way-to-the-bank/index.md
+- id: PILL323
+  type: daily_pill
+  title: Keep a lid on it — una espressione da usare davvero
+  registry_url: /pills/day-323-keep-a-lid-on-it/
+  physical_file: pills/day-323-keep-a-lid-on-it/index.md
+- id: PILL324
+  type: daily_pill
+  title: Pull the wool over someone's eyes — una espressione da usare davvero
+  registry_url: /pills/day-324-pull-the-wool-over-someones-eyes/
+  physical_file: pills/day-324-pull-the-wool-over-someones-eyes/index.md
+- id: PILL325
+  type: daily_pill
+  title: Take the rough with the smooth — una espressione da usare davvero
+  registry_url: /pills/day-325-take-the-rough-with-the-smooth/
+  physical_file: pills/day-325-take-the-rough-with-the-smooth/index.md
+- id: PILL326
+  type: daily_pill
+  title: Hard-nosed — una espressione da usare davvero
+  registry_url: /pills/day-326-hard-nosed/
+  physical_file: pills/day-326-hard-nosed/index.md
+- id: PILL327
+  type: daily_pill
+  title: Have a soft spot — una espressione da usare davvero
+  registry_url: /pills/day-327-have-a-soft-spot/
+  physical_file: pills/day-327-have-a-soft-spot/index.md
+- id: PILL328
+  type: daily_pill
+  title: Make a song and dance about something — una espressione da usare davvero
+  registry_url: /pills/day-328-make-a-song-and-dance-about-something/
+  physical_file: pills/day-328-make-a-song-and-dance-about-something/index.md
+- id: PILL329
+  type: daily_pill
+  title: A shock to the system — una espressione da usare davvero
+  registry_url: /pills/day-329-a-shock-to-the-system/
+  physical_file: pills/day-329-a-shock-to-the-system/index.md
+- id: PILL330
+  type: daily_pill
+  title: Small talk — una espressione da usare davvero
+  registry_url: /pills/day-330-small-talk/
+  physical_file: pills/day-330-small-talk/index.md
+- id: PILL331
+  type: daily_pill
+  title: A bright spark — una espressione da usare davvero
+  registry_url: /pills/day-331-a-bright-spark/
+  physical_file: pills/day-331-a-bright-spark/index.md
+- id: PILL332
+  type: daily_pill
+  title: To be all downhill — una espressione da usare davvero
+  registry_url: /pills/day-332-to-be-all-downhill/
+  physical_file: pills/day-332-to-be-all-downhill/index.md
+- id: PILL333
+  type: daily_pill
+  title: It's the thought that counts — una espressione da usare davvero
+  registry_url: /pills/day-333-its-the-thought-that-counts/
+  physical_file: pills/day-333-its-the-thought-that-counts/index.md
+- id: PILL334
+  type: daily_pill
+  title: Humblebrag — una espressione da usare davvero
+  registry_url: /pills/day-334-humblebrag/
+  physical_file: pills/day-334-humblebrag/index.md
+- id: PILL335
+  type: daily_pill
+  title: Out of your depth — una espressione da usare davvero
+  registry_url: /pills/day-335-out-of-your-depth/
+  physical_file: pills/day-335-out-of-your-depth/index.md
+- id: PILL336
+  type: daily_pill
+  title: If the cap fits — una espressione da usare davvero
+  registry_url: /pills/day-336-if-the-cap-fits/
+  physical_file: pills/day-336-if-the-cap-fits/index.md
+- id: PILL337
+  type: daily_pill
+  title: Friends in high places — una espressione da usare davvero
+  registry_url: /pills/day-337-friends-in-high-places/
+  physical_file: pills/day-337-friends-in-high-places/index.md
+- id: PILL338
+  type: daily_pill
+  title: Let the dust settle — una espressione da usare davvero
+  registry_url: /pills/day-338-let-the-dust-settle/
+  physical_file: pills/day-338-let-the-dust-settle/index.md
+- id: PILL339
+  type: daily_pill
+  title: Nothing to shout about — una espressione da usare davvero
+  registry_url: /pills/day-339-nothing-to-shout-about/
+  physical_file: pills/day-339-nothing-to-shout-about/index.md
+- id: PILL340
+  type: daily_pill
+  title: Let sleeping dogs lie — una espressione da usare davvero
+  registry_url: /pills/day-340-let-sleeping-dogs-lie/
+  physical_file: pills/day-340-let-sleeping-dogs-lie/index.md
+- id: PILL341
+  type: daily_pill
+  title: Bleed someone dry — una espressione da usare davvero
+  registry_url: /pills/day-341-bleed-someone-dry/
+  physical_file: pills/day-341-bleed-someone-dry/index.md
+- id: PILL342
+  type: daily_pill
+  title: An old hand — una espressione da usare davvero
+  registry_url: /pills/day-342-an-old-hand/
+  physical_file: pills/day-342-an-old-hand/index.md
+- id: PILL343
+  type: daily_pill
+  title: Out of the loop — una espressione da usare davvero
+  registry_url: /pills/day-343-out-of-the-loop/
+  physical_file: pills/day-343-out-of-the-loop/index.md
+- id: PILL344
+  type: daily_pill
+  title: Rub it in — una espressione da usare davvero
+  registry_url: /pills/day-344-rub-it-in/
+  physical_file: pills/day-344-rub-it-in/index.md
+- id: PILL345
+  type: daily_pill
+  title: Barking up the wrong tree — una espressione da usare davvero
+  registry_url: /pills/day-345-barking-up-the-wrong-tree/
+  physical_file: pills/day-345-barking-up-the-wrong-tree/index.md
+- id: PILL346
+  type: daily_pill
+  title: A taste of your own medicine — una espressione da usare davvero
+  registry_url: /pills/day-346-a-taste-of-your-own-medicine/
+  physical_file: pills/day-346-a-taste-of-your-own-medicine/index.md
+- id: PILL347
+  type: daily_pill
+  title: The best of both worlds — una espressione da usare davvero
+  registry_url: /pills/day-347-the-best-of-both-worlds/
+  physical_file: pills/day-347-the-best-of-both-worlds/index.md
+- id: PILL348
+  type: daily_pill
+  title: To cut a long story short — una espressione da usare davvero
+  registry_url: /pills/day-348-to-cut-a-long-story-short/
+  physical_file: pills/day-348-to-cut-a-long-story-short/index.md
+- id: PILL349
+  type: daily_pill
+  title: Just the ticket — una espressione da usare davvero
+  registry_url: /pills/day-349-just-the-ticket/
+  physical_file: pills/day-349-just-the-ticket/index.md
+- id: PILL350
+  type: daily_pill
+  title: Fomo — una espressione da usare davvero
+  registry_url: /pills/day-350-fomo/
+  physical_file: pills/day-350-fomo/index.md
+- id: PILL351
+  type: daily_pill
+  title: Have a go — una espressione da usare davvero
+  registry_url: /pills/day-351-have-a-go/
+  physical_file: pills/day-351-have-a-go/index.md
+- id: PILL352
+  type: daily_pill
+  title: Wing it — una espressione da usare davvero
+  registry_url: /pills/day-352-wing-it/
+  physical_file: pills/day-352-wing-it/index.md
+- id: PILL353
+  type: daily_pill
+  title: It beats me — una espressione da usare davvero
+  registry_url: /pills/day-353-it-beats-me/
+  physical_file: pills/day-353-it-beats-me/index.md
+- id: PILL354
+  type: daily_pill
+  title: Give us a bell — una espressione da usare davvero
+  registry_url: /pills/day-354-give-us-a-bell/
+  physical_file: pills/day-354-give-us-a-bell/index.md
+- id: PILL355
+  type: daily_pill
+  title: Echo chamber — una espressione da usare davvero
+  registry_url: /pills/day-355-echo-chamber/
+  physical_file: pills/day-355-echo-chamber/index.md
+- id: PILL356
+  type: daily_pill
+  title: The heat is on — una espressione da usare davvero
+  registry_url: /pills/day-356-the-heat-is-on/
+  physical_file: pills/day-356-the-heat-is-on/index.md
+- id: PILL357
+  type: daily_pill
+  title: No picnic — una espressione da usare davvero
+  registry_url: /pills/day-357-no-picnic/
+  physical_file: pills/day-357-no-picnic/index.md
+- id: PILL358
+  type: daily_pill
+  title: Jack-of-all-trades — una espressione da usare davvero
+  registry_url: /pills/day-358-jack-of-all-trades/
+  physical_file: pills/day-358-jack-of-all-trades/index.md
+- id: PILL359
+  type: daily_pill
+  title: The coast is clear — una espressione da usare davvero
+  registry_url: /pills/day-359-the-coast-is-clear/
+  physical_file: pills/day-359-the-coast-is-clear/index.md
+- id: PILL360
+  type: daily_pill
+  title: Pull a fast one — una espressione da usare davvero
+  registry_url: /pills/day-360-pull-a-fast-one/
+  physical_file: pills/day-360-pull-a-fast-one/index.md
+- id: PILL361
+  type: daily_pill
+  title: To cut your teeth — una espressione da usare davvero
+  registry_url: /pills/day-361-to-cut-your-teeth/
+  physical_file: pills/day-361-to-cut-your-teeth/index.md
+- id: PILL362
+  type: daily_pill
+  title: Shrinkflation — una espressione da usare davvero
+  registry_url: /pills/day-362-shrinkflation/
+  physical_file: pills/day-362-shrinkflation/index.md
+- id: PILL363
+  type: daily_pill
+  title: La-la land — una espressione da usare davvero
+  registry_url: /pills/day-363-la-la-land/
+  physical_file: pills/day-363-la-la-land/index.md
+- id: PILL364
+  type: daily_pill
+  title: A different kettle of fish — una espressione da usare davvero
+  registry_url: /pills/day-364-a-different-kettle-of-fish/
+  physical_file: pills/day-364-a-different-kettle-of-fish/index.md
+- id: PILL365
+  type: daily_pill
+  title: At the drop of a hat — una espressione da usare davvero
+  registry_url: /pills/day-365-at-the-drop-of-a-hat/
+  physical_file: pills/day-365-at-the-drop-of-a-hat/index.md
+- id: SITART001
+  type: situation_article
+  title: Meeting Someone for the First Time
+  registry_url: /situations/meeting-someone-for-the-first-time/
+  physical_file: situations/meeting-someone-for-the-first-time/index.md
+- id: SITART002
+  type: situation_article
+  title: Making Small Talk
+  registry_url: /situations/making-small-talk/
+  physical_file: situations/making-small-talk/index.md
+- id: SITART003
+  type: situation_article
+  title: Talking About Yourself Without Sounding Like a Textbook
+  registry_url: /situations/talking-about-yourself/
+  physical_file: situations/talking-about-yourself/index.md
+- id: SITART004
+  type: situation_article
+  title: Talking About Your Weekend
+  registry_url: /situations/talking-about-your-weekend/
+  physical_file: situations/talking-about-your-weekend/index.md
+- id: SITART005
+  type: situation_article
+  title: Talking About Hobbies and Free Time
+  registry_url: /situations/talking-about-hobbies/
+  physical_file: situations/talking-about-hobbies/index.md
+- id: SITART006
+  type: situation_article
+  title: Talking About Your Plans
+  registry_url: /situations/talking-about-plans/
+  physical_file: situations/talking-about-plans/index.md
+- id: SITART007
+  type: situation_article
+  title: Inviting Someone Out
+  registry_url: /situations/inviting-someone-out/
+  physical_file: situations/inviting-someone-out/index.md
+- id: SITART008
+  type: situation_article
+  title: Accepting or Turning Down an Invitation
+  registry_url: /situations/accepting-or-turning-down-an-invitation/
+  physical_file: situations/accepting-or-turning-down-an-invitation/index.md
+- id: SITART009
+  type: situation_article
+  title: Changing Plans at the Last Minute
+  registry_url: /situations/changing-plans-at-the-last-minute/
+  physical_file: situations/changing-plans-at-the-last-minute/index.md
+- id: SITART010
+  type: situation_article
+  title: Keeping a Conversation Going
+  registry_url: /situations/keeping-a-conversation-going/
+  physical_file: situations/keeping-a-conversation-going/index.md
+- id: SITART011
+  type: situation_article
+  title: Ordering Coffee at a Café
+  registry_url: /situations/ordering-coffee-at-a-cafe/
+  physical_file: situations/ordering-coffee-at-a-cafe/index.md
+- id: SITART012
+  type: situation_article
+  title: Ordering at a Restaurant
+  registry_url: /situations/ordering-at-a-restaurant/
+  physical_file: situations/ordering-at-a-restaurant/index.md
+- id: SITART013
+  type: situation_article
+  title: Asking About the Menu
+  registry_url: /situations/asking-about-the-menu/
+  physical_file: situations/asking-about-the-menu/index.md
+- id: SITART014
+  type: situation_article
+  title: Paying the Bill
+  registry_url: /situations/paying-the-bill/
+  physical_file: situations/paying-the-bill/index.md
+- id: SITART015
+  type: situation_article
+  title: Shopping for Groceries
+  registry_url: /situations/shopping-for-groceries/
+  physical_file: situations/shopping-for-groceries/index.md
+- id: SITART016
+  type: situation_article
+  title: Asking Where Something Is in a Shop
+  registry_url: /situations/asking-where-something-is-in-a-shop/
+  physical_file: situations/asking-where-something-is-in-a-shop/index.md
+- id: SITART017
+  type: situation_article
+  title: Returning Something You Bought
+  registry_url: /situations/returning-something-you-bought/
+  physical_file: situations/returning-something-you-bought/index.md
+- id: SITART018
+  type: situation_article
+  title: A Problem With Your Food
+  registry_url: /situations/a-problem-with-your-food/
+  physical_file: situations/a-problem-with-your-food/index.md
+- id: SITART019
+  type: situation_article
+  title: Cooking With Someone
+  registry_url: /situations/cooking-with-someone/
+  physical_file: situations/cooking-with-someone/index.md
+- id: SITART020
+  type: situation_article
+  title: Making Plans for Dinner
+  registry_url: /situations/making-plans-for-dinner/
+  physical_file: situations/making-plans-for-dinner/index.md
+- id: SITART021
+  type: situation_article
+  title: Booking a Hotel Room
+  registry_url: /situations/booking-a-hotel-room/
+  physical_file: situations/booking-a-hotel-room/index.md
+- id: SITART022
+  type: situation_article
+  title: Checking Into a Hotel
+  registry_url: /situations/checking-into-a-hotel/
+  physical_file: situations/checking-into-a-hotel/index.md
+- id: SITART023
+  type: situation_article
+  title: There’s a Problem With Your Hotel Room
+  registry_url: /situations/problem-with-your-hotel-room/
+  physical_file: situations/problem-with-your-hotel-room/index.md
+- id: SITART024
+  type: situation_article
+  title: Checking Out of a Hotel
+  registry_url: /situations/checking-out-of-a-hotel/
+  physical_file: situations/checking-out-of-a-hotel/index.md
+- id: SITART025
+  type: situation_article
+  title: At the Airport Check-In Desk
+  registry_url: /situations/airport-check-in/
+  physical_file: situations/airport-check-in/index.md
+- id: SITART026
+  type: situation_article
+  title: Going Through Airport Security
+  registry_url: /situations/airport-security/
+  physical_file: situations/airport-security/index.md
+- id: SITART027
+  type: situation_article
+  title: Your Flight Is Delayed
+  registry_url: /situations/flight-delayed/
+  physical_file: situations/flight-delayed/index.md
+- id: SITART028
+  type: situation_article
+  title: At the Train Station
+  registry_url: /situations/train-station/
+  physical_file: situations/train-station/index.md
+- id: SITART029
+  type: situation_article
+  title: Asking for Directions
+  registry_url: /situations/asking-for-directions/
+  physical_file: situations/asking-for-directions/index.md
+- id: SITART030
+  type: situation_article
+  title: Getting Around a New City
+  registry_url: /situations/getting-around-a-new-city/
+  physical_file: situations/getting-around-a-new-city/index.md
+- id: SITART031
+  type: situation_article
+  title: Renting a Car
+  registry_url: /situations/renting-a-car/
+  physical_file: situations/renting-a-car/index.md
+- id: SITART032
+  type: situation_article
+  title: Something Goes Wrong on Your Trip
+  registry_url: /situations/something-goes-wrong-on-your-trip/
+  physical_file: situations/something-goes-wrong-on-your-trip/index.md
+- id: SITART033
+  type: situation_article
+  title: Calling to Make an Appointment
+  registry_url: /situations/making-an-appointment/
+  physical_file: situations/making-an-appointment/index.md
+- id: SITART034
+  type: situation_article
+  title: At the Pharmacy
+  registry_url: /situations/at-the-pharmacy/
+  physical_file: situations/at-the-pharmacy/index.md
+- id: SITART035
+  type: situation_article
+  title: Asking for Help
+  registry_url: /situations/asking-for-help/
+  physical_file: situations/asking-for-help/index.md
+- id: SITART036
+  type: situation_article
+  title: Explaining a Problem
+  registry_url: /situations/explaining-a-problem/
+  physical_file: situations/explaining-a-problem/index.md
+- id: SITART037
+  type: situation_article
+  title: Calling Customer Service
+  registry_url: /situations/calling-customer-service/
+  physical_file: situations/calling-customer-service/index.md
+- id: SITART038
+  type: situation_article
+  title: A Delivery Hasn’t Arrived
+  registry_url: /situations/delivery-hasnt-arrived/
+  physical_file: situations/delivery-hasnt-arrived/index.md
+- id: SITART039
+  type: situation_article
+  title: You Lost Something
+  registry_url: /situations/you-lost-something/
+  physical_file: situations/you-lost-something/index.md
+- id: SITART040
+  type: situation_article
+  title: Making a Polite Complaint
+  registry_url: /situations/making-a-polite-complaint/
+  physical_file: situations/making-a-polite-complaint/index.md
+- id: SITART041
+  type: situation_article
+  title: Talking About Where You Live
+  registry_url: /situations/talking-about-where-you-live/
+  physical_file: situations/talking-about-where-you-live/index.md
+- id: SITART042
+  type: situation_article
+  title: Describing Your Daily Routine
+  registry_url: /situations/describing-your-daily-routine/
+  physical_file: situations/describing-your-daily-routine/index.md
+- id: SITART043
+  type: situation_article
+  title: Talking About Household Chores
+  registry_url: /situations/talking-about-household-chores/
+  physical_file: situations/talking-about-household-chores/index.md
+- id: SITART044
+  type: situation_article
+  title: Talking About Your Health and How You Feel
+  registry_url: /situations/talking-about-how-you-feel/
+  physical_file: situations/talking-about-how-you-feel/index.md
+- id: SITART045
+  type: situation_article
+  title: Talking About Exercise and Fitness
+  registry_url: /situations/exercise-and-fitness/
+  physical_file: situations/exercise-and-fitness/index.md
+- id: SITART046
+  type: situation_article
+  title: Talking About Movies and TV Shows
+  registry_url: /situations/movies-and-tv-shows/
+  physical_file: situations/movies-and-tv-shows/index.md
+- id: SITART047
+  type: situation_article
+  title: Making Plans With Friends Online
+  registry_url: /situations/making-plans-online/
+  physical_file: situations/making-plans-online/index.md
+- id: SITART048
+  type: situation_article
+  title: Talking About Social Media
+  registry_url: /situations/talking-about-social-media/
+  physical_file: situations/talking-about-social-media/index.md
+- id: SITART049
+  type: situation_article
+  title: Your First Day at Work
+  registry_url: /situations/first-day-at-work/
+  physical_file: situations/first-day-at-work/index.md
+- id: SITART050
+  type: situation_article
+  title: Asking a Colleague for Help
+  registry_url: /situations/asking-a-colleague-for-help/
+  physical_file: situations/asking-a-colleague-for-help/index.md
+- id: SITART051
+  type: situation_article
+  title: Giving an Update in a Meeting
+  registry_url: /situations/giving-an-update-in-a-meeting/
+  physical_file: situations/giving-an-update-in-a-meeting/index.md
+- id: SITART052
+  type: situation_article
+  title: Talking About a Deadline or Problem at Work
+  registry_url: /situations/talking-about-a-deadline-or-problem-at-work/
+  physical_file: situations/talking-about-a-deadline-or-problem-at-work/index.md
+- id: GRAMART001
+  type: grammar_article
+  title: How to Ask Simple Questions Naturally
+  registry_url: /grammar/asking-simple-questions-naturally/
+  physical_file: grammar/asking-simple-questions-naturally/index.md
+- id: GRAMART002
+  type: grammar_article
+  title: Do and Be Questions in Small Talk
+  registry_url: /grammar/do-and-be-questions-in-small-talk/
+  physical_file: grammar/do-and-be-questions-in-small-talk/index.md
+- id: GRAMART003
+  type: grammar_article
+  title: Present Simple for Talking About Yourself
+  registry_url: /grammar/present-simple-for-talking-about-yourself/
+  physical_file: grammar/present-simple-for-talking-about-yourself/index.md
+- id: GRAMART004
+  type: grammar_article
+  title: Past Simple for Talking About Your Weekend
+  registry_url: /grammar/past-simple-for-talking-about-your-weekend/
+  physical_file: grammar/past-simple-for-talking-about-your-weekend/index.md
+- id: GRAMART005
+  type: grammar_article
+  title: Like, Love, Hate + -ing
+  registry_url: /grammar/like-love-hate-ing/
+  physical_file: grammar/like-love-hate-ing/index.md
+- id: GRAMART006
+  type: grammar_article
+  title: Present Continuous for Future Arrangements
+  registry_url: /grammar/present-continuous-for-future-arrangements/
+  physical_file: grammar/present-continuous-for-future-arrangements/index.md
+- id: GRAMART007
+  type: grammar_article
+  title: Would You Like...? for Invitations
+  registry_url: /grammar/would-you-like-for-invitations/
+  physical_file: grammar/would-you-like-for-invitations/index.md
+- id: GRAMART008
+  type: grammar_article
+  title: Can, Could and Would for Polite Requests
+  registry_url: /grammar/can-could-would-for-polite-requests/
+  physical_file: grammar/can-could-would-for-polite-requests/index.md
+- id: GRAMART009
+  type: grammar_article
+  title: Going to vs Present Continuous for Plans
+  registry_url: /grammar/going-to-vs-present-continuous/
+  physical_file: grammar/going-to-vs-present-continuous/index.md
+- id: GRAMART010
+  type: grammar_article
+  title: Question Tags and Short Responses
+  registry_url: /grammar/question-tags-and-short-responses/
+  physical_file: grammar/question-tags-and-short-responses/index.md
+- id: GRAMART011
+  type: grammar_article
+  title: Can I Get...? and Would You Like...?
+  registry_url: /grammar/can-i-get-and-would-you-like/
+  physical_file: grammar/can-i-get-and-would-you-like/index.md
+- id: GRAMART012
+  type: grammar_article
+  title: I'll Have... vs I'd Like...
+  registry_url: /grammar/ill-have-vs-id-like/
+  physical_file: grammar/ill-have-vs-id-like/index.md
+- id: GRAMART013
+  type: grammar_article
+  title: Some, Any and No
+  registry_url: /grammar/some-any-no-in-food/
+  physical_file: grammar/some-any-no-in-food/index.md
+- id: GRAMART014
+  type: grammar_article
+  title: How Much, How Many and Prices
+  registry_url: /grammar/how-much-how-many-and-prices/
+  physical_file: grammar/how-much-how-many-and-prices/index.md
+- id: GRAMART015
+  type: grammar_article
+  title: Countable and Uncountable Nouns
+  registry_url: /grammar/countable-and-uncountable-shopping/
+  physical_file: grammar/countable-and-uncountable-shopping/index.md
+- id: GRAMART016
+  type: grammar_article
+  title: This, That, These and Those
+  registry_url: /grammar/this-that-these-those-in-shops/
+  physical_file: grammar/this-that-these-those-in-shops/index.md
+- id: GRAMART017
+  type: grammar_article
+  title: Past Simple vs Present Perfect for Returns
+  registry_url: /grammar/past-simple-vs-present-perfect-returns/
+  physical_file: grammar/past-simple-vs-present-perfect-returns/index.md
+- id: GRAMART018
+  type: grammar_article
+  title: There Is / There Are + Some / Any
+  registry_url: /grammar/there-is-there-are-for-problems/
+  physical_file: grammar/there-is-there-are-for-problems/index.md
+- id: GRAMART019
+  type: grammar_article
+  title: Imperatives and Sequencing Words in the Kitchen
+  registry_url: /grammar/imperatives-and-sequencing/
+  physical_file: grammar/imperatives-and-sequencing/index.md
+- id: GRAMART020
+  type: grammar_article
+  title: Prefer, Would Rather and Would Like
+  registry_url: /grammar/prefer-would-rather-would-like/
+  physical_file: grammar/prefer-would-rather-would-like/index.md
+- id: GRAMART021
+  type: grammar_article
+  title: Could I...? and I'd Like to... for Booking
+  registry_url: /grammar/could-id-like-booking/
+  physical_file: grammar/could-id-like-booking/index.md
+- id: GRAMART022
+  type: grammar_article
+  title: Present Perfect for Completed Arrangements
+  registry_url: /grammar/present-perfect-for-bookings/
+  physical_file: grammar/present-perfect-for-bookings/index.md
+- id: GRAMART023
+  type: grammar_article
+  title: There's a Problem With...
+  registry_url: /grammar/theres-a-problem-with-hotel/
+  physical_file: grammar/theres-a-problem-with-hotel/index.md
+- id: GRAMART024
+  type: grammar_article
+  title: Have You...? / Did You...? at Check-out
+  registry_url: /grammar/have-you-did-you-at-checkout/
+  physical_file: grammar/have-you-did-you-at-checkout/index.md
+- id: GRAMART025
+  type: grammar_article
+  title: Present Perfect for Travel Experiences
+  registry_url: /grammar/present-perfect-travel-experiences/
+  physical_file: grammar/present-perfect-travel-experiences/index.md
+- id: GRAMART026
+  type: grammar_article
+  title: Must and Have to for Airport Rules
+  registry_url: /grammar/must-have-to-airport/
+  physical_file: grammar/must-have-to-airport/index.md
+- id: GRAMART027
+  type: grammar_article
+  title: Past Simple + Present Perfect for Delays
+  registry_url: /grammar/past-simple-present-perfect-delay/
+  physical_file: grammar/past-simple-present-perfect-delay/index.md
+- id: GRAMART028
+  type: grammar_article
+  title: Prepositions of Time and Place at Stations
+  registry_url: /grammar/prepositions-time-place-station/
+  physical_file: grammar/prepositions-time-place-station/index.md
+- id: GRAMART029
+  type: grammar_article
+  title: Can / Could for Asking Directions
+  registry_url: /grammar/can-could-directions/
+  physical_file: grammar/can-could-directions/index.md
+- id: GRAMART030
+  type: grammar_article
+  title: How Do I Get to...?
+  registry_url: /grammar/how-do-i-get-to/
+  physical_file: grammar/how-do-i-get-to/index.md
+- id: GRAMART031
+  type: grammar_article
+  title: Would, Could and Can for Services
+  registry_url: /grammar/would-could-can-for-services/
+  physical_file: grammar/would-could-can-for-services/index.md
+- id: GRAMART032
+  type: grammar_article
+  title: First Conditional for Unexpected Travel Problems
+  registry_url: /grammar/first-conditional-for-travel-problems/
+  physical_file: grammar/first-conditional-for-travel-problems/index.md
+- id: GRAMART033
+  type: grammar_article
+  title: I'd Like to Make an Appointment
+  registry_url: /grammar/id-like-to-make-an-appointment/
+  physical_file: grammar/id-like-to-make-an-appointment/index.md
+- id: GRAMART034
+  type: grammar_article
+  title: Should, Need to and Have to
+  registry_url: /grammar/should-need-to-have-to/
+  physical_file: grammar/should-need-to-have-to/index.md
+- id: GRAMART035
+  type: grammar_article
+  title: Can, Could and Would for Asking for Help
+  registry_url: /grammar/asking-for-help-naturally/
+  physical_file: grammar/asking-for-help-naturally/index.md
+- id: GRAMART036
+  type: grammar_article
+  title: Present Simple vs Present Continuous for Problems
+  registry_url: /grammar/present-simple-vs-present-continuous-problems/
+  physical_file: grammar/present-simple-vs-present-continuous-problems/index.md
+- id: GRAMART037
+  type: grammar_article
+  title: Indirect Questions for Customer Service
+  registry_url: /grammar/indirect-questions-customer-service/
+  physical_file: grammar/indirect-questions-customer-service/index.md
+- id: GRAMART038
+  type: grammar_article
+  title: 'Present Perfect Continuous: I''ve Been Waiting...'
+  registry_url: /grammar/present-perfect-continuous-waiting/
+  physical_file: grammar/present-perfect-continuous-waiting/index.md
+- id: GRAMART039
+  type: grammar_article
+  title: I've Lost... vs I Lost...
+  registry_url: /grammar/ive-lost-vs-i-lost/
+  physical_file: grammar/ive-lost-vs-i-lost/index.md
+- id: GRAMART040
+  type: grammar_article
+  title: Softening Complaints With Could / Would
+  registry_url: /grammar/could-would-for-complaints/
+  physical_file: grammar/could-would-for-complaints/index.md
+- id: GRAMART041
+  type: grammar_article
+  title: There Is / There Are + Prepositions
+  registry_url: /grammar/there-is-there-are-and-prepositions-home/
+  physical_file: grammar/there-is-there-are-and-prepositions-home/index.md
+- id: GRAMART042
+  type: grammar_article
+  title: Frequency Adverbs and Word Order
+  registry_url: /grammar/frequency-adverbs-word-order/
+  physical_file: grammar/frequency-adverbs-word-order/index.md
+- id: GRAMART043
+  type: grammar_article
+  title: Have to, Don't Have to and Should for Chores
+  registry_url: /grammar/have-to-dont-have-to-should-chores/
+  physical_file: grammar/have-to-dont-have-to-should-chores/index.md
+- id: GRAMART044
+  type: grammar_article
+  title: Feel, Look and Sound + Adjectives
+  registry_url: /grammar/feel-look-sound-with-adjectives/
+  physical_file: grammar/feel-look-sound-with-adjectives/index.md
+- id: GRAMART045
+  type: grammar_article
+  title: How Often...? + Present Simple
+  registry_url: /grammar/how-often-present-simple/
+  physical_file: grammar/how-often-present-simple/index.md
+- id: GRAMART046
+  type: grammar_article
+  title: Comparatives and Superlatives in Opinions
+  registry_url: /grammar/comparatives-and-superlatives-for-opinions/
+  physical_file: grammar/comparatives-and-superlatives-for-opinions/index.md
+- id: GRAMART047
+  type: grammar_article
+  title: Present Continuous in Messages and Chats
+  registry_url: /grammar/present-continuous-in-messages/
+  physical_file: grammar/present-continuous-in-messages/index.md
+- id: GRAMART048
+  type: grammar_article
+  title: Reported Speech for Talking About Posts
+  registry_url: /grammar/reported-speech-for-online-posts/
+  physical_file: grammar/reported-speech-for-online-posts/index.md
+- id: GRAMART049
+  type: grammar_article
+  title: Present Simple vs Present Continuous at Work
+  registry_url: /grammar/present-simple-vs-continuous-at-work/
+  physical_file: grammar/present-simple-vs-continuous-at-work/index.md
+- id: GRAMART050
+  type: grammar_article
+  title: Could You Explain...? and Indirect Questions
+  registry_url: /grammar/could-you-explain-indirect-questions/
+  physical_file: grammar/could-you-explain-indirect-questions/index.md
+- id: GRAMART051
+  type: grammar_article
+  title: Present Perfect for Work Updates
+  registry_url: /grammar/present-perfect-for-work-updates/
+  physical_file: grammar/present-perfect-for-work-updates/index.md
+- id: GRAMART052
+  type: grammar_article
+  title: By, Until, For and Since With Deadlines
+  registry_url: /grammar/by-until-for-since-deadlines/
+  physical_file: grammar/by-until-for-since-deadlines/index.md
+- id: IDX-PILLS
+  type: pills_index
+  title: La Pillola Inglese del Giorno
+  registry_url: /pills/
+  physical_file: pills/index.md
+- id: IDX-SITUATIONS
+  type: situations_index
+  title: Situational English
+  registry_url: /situations/
+  physical_file: situations/index.md
+- id: IDX-GRAMMAR
+  type: grammar_index
+  title: Situational Grammar
+  registry_url: /grammar/
+  physical_file: grammar/index.md
+- id: IDX-EXPRESSIONS
+  type: expressions_index
+  title: Expressions
+  registry_url: /expressions/
+  physical_file: expressions/index.md
+- id: IDX-WORDS
+  type: words_index
+  title: Words
+  registry_url: /words/
+  physical_file: words/index.md
+- id: conf-001
+  type: confusion_article
+  title: 'a / an / one: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/a-an-one/
+  physical_file: non-sono-la-stessa-cosa/a-an-one/index.md
+- id: conf-002
+  type: confusion_article
+  title: 'able / capable: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/able-capable/
+  physical_file: non-sono-la-stessa-cosa/able-capable/index.md
+- id: conf-003
+  type: confusion_article
+  title: 'accident / incident: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/accident-incident/
+  physical_file: non-sono-la-stessa-cosa/accident-incident/index.md
+- id: conf-004
+  type: confusion_article
+  title: 'accurate / exact / precise: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/accurate-exact-precise/
+  physical_file: non-sono-la-stessa-cosa/accurate-exact-precise/index.md
+- id: conf-005
+  type: confusion_article
+  title: 'ache / pain / hurt: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/ache-pain-hurt/
+  physical_file: non-sono-la-stessa-cosa/ache-pain-hurt/index.md
+- id: conf-006
+  type: confusion_article
+  title: 'actual / current / present: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/actual-current-present/
+  physical_file: non-sono-la-stessa-cosa/actual-current-present/index.md
+- id: conf-007
+  type: confusion_article
+  title: 'administrator / boss / manager: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/administrator-boss-manager/
+  physical_file: non-sono-la-stessa-cosa/administrator-boss-manager/index.md
+- id: conf-008
+  type: confusion_article
+  title: 'adverse / averse: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/adverse-averse/
+  physical_file: non-sono-la-stessa-cosa/adverse-averse/index.md
+- id: conf-009
+  type: confusion_article
+  title: 'advice / advise: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/advice-advise/
+  physical_file: non-sono-la-stessa-cosa/advice-advise/index.md
+- id: conf-010
+  type: confusion_article
+  title: 'affect / effect: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/affect-effect/
+  physical_file: non-sono-la-stessa-cosa/affect-effect/index.md
+- id: conf-011
+  type: confusion_article
+  title: 'afraid / scared / frightened: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/afraid-scared-frightened/
+  physical_file: non-sono-la-stessa-cosa/afraid-scared-frightened/index.md
+- id: conf-012
+  type: confusion_article
+  title: 'after / later: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/after-later/
+  physical_file: non-sono-la-stessa-cosa/after-later/index.md
+- id: conf-013
+  type: confusion_article
+  title: 'agenda / itinerary / schedule: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/agenda-itinerary-schedule/
+  physical_file: non-sono-la-stessa-cosa/agenda-itinerary-schedule/index.md
+- id: conf-014
+  type: confusion_article
+  title: 'ago / back / before: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/ago-back-before/
+  physical_file: non-sono-la-stessa-cosa/ago-back-before/index.md
+- id: conf-015
+  type: confusion_article
+  title: 'aid / assist / help: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/aid-assist-help/
+  physical_file: non-sono-la-stessa-cosa/aid-assist-help/index.md
+- id: conf-016
+  type: confusion_article
+  title: 'aim / goal / objective: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/aim-goal-objective/
+  physical_file: non-sono-la-stessa-cosa/aim-goal-objective/index.md
+- id: conf-017
+  type: confusion_article
+  title: 'alien / foreigner / stranger: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/alien-foreigner-stranger/
+  physical_file: non-sono-la-stessa-cosa/alien-foreigner-stranger/index.md
+- id: conf-018
+  type: confusion_article
+  title: 'alive / life / live: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/alive-life-live/
+  physical_file: non-sono-la-stessa-cosa/alive-life-live/index.md
+- id: conf-019
+  type: confusion_article
+  title: 'already / yet: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/already-yet/
+  physical_file: non-sono-la-stessa-cosa/already-yet/index.md
+- id: conf-020
+  type: confusion_article
+  title: 'all / whole / every: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/all-whole-every/
+  physical_file: non-sono-la-stessa-cosa/all-whole-every/index.md
+- id: conf-021
+  type: confusion_article
+  title: 'all of / each of: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/all-of-each-of/
+  physical_file: non-sono-la-stessa-cosa/all-of-each-of/index.md
+- id: conf-022
+  type: confusion_article
+  title: 'all ready / already / all right / alright: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/all-ready-already-all-right-alright/
+  physical_file: non-sono-la-stessa-cosa/all-ready-already-all-right-alright/index.md
+- id: conf-023
+  type: confusion_article
+  title: 'allow / let / permit: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/allow-let-permit/
+  physical_file: non-sono-la-stessa-cosa/allow-let-permit/index.md
+- id: conf-024
+  type: confusion_article
+  title: 'allude / elude: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/allude-elude/
+  physical_file: non-sono-la-stessa-cosa/allude-elude/index.md
+- id: conf-025
+  type: confusion_article
+  title: 'almost / mostly / nearly: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/almost-mostly-nearly/
+  physical_file: non-sono-la-stessa-cosa/almost-mostly-nearly/index.md
+- id: conf-026
+  type: confusion_article
+  title: 'alone / lonely / only: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/alone-lonely-only/
+  physical_file: non-sono-la-stessa-cosa/alone-lonely-only/index.md
+- id: conf-027
+  type: confusion_article
+  title: 'also / as well / too: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/also-as-well-too/
+  physical_file: non-sono-la-stessa-cosa/also-as-well-too/index.md
+- id: conf-028
+  type: confusion_article
+  title: 'altar / alter: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/altar-alter/
+  physical_file: non-sono-la-stessa-cosa/altar-alter/index.md
+- id: conf-029
+  type: confusion_article
+  title: 'although / though / even though: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/although-though-even-though/
+  physical_file: non-sono-la-stessa-cosa/although-though-even-though/index.md
+- id: conf-030
+  type: confusion_article
+  title: 'among / between: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/among-between/
+  physical_file: non-sono-la-stessa-cosa/among-between/index.md
+- id: conf-031
+  type: confusion_article
+  title: 'amoral / immoral: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/amoral-immoral/
+  physical_file: non-sono-la-stessa-cosa/amoral-immoral/index.md
+- id: conf-032
+  type: confusion_article
+  title: 'amount / number / quantity: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/amount-number-quantity/
+  physical_file: non-sono-la-stessa-cosa/amount-number-quantity/index.md
+- id: conf-033
+  type: confusion_article
+  title: 'ancient / antique: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/ancient-antique/
+  physical_file: non-sono-la-stessa-cosa/ancient-antique/index.md
+- id: conf-034
+  type: confusion_article
+  title: 'angry / upset: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/angry-upset/
+  physical_file: non-sono-la-stessa-cosa/angry-upset/index.md
+- id: conf-035
+  type: confusion_article
+  title: 'another / other / others: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/another-other-others/
+  physical_file: non-sono-la-stessa-cosa/another-other-others/index.md
+- id: conf-036
+  type: confusion_article
+  title: 'answer / reply / respond: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/answer-reply-respond/
+  physical_file: non-sono-la-stessa-cosa/answer-reply-respond/index.md
+- id: conf-037
+  type: confusion_article
+  title: 'any / some: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/any-some/
+  physical_file: non-sono-la-stessa-cosa/any-some/index.md
+- id: conf-038
+  type: confusion_article
+  title: 'apartment / flat / studio: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/apartment-flat-studio/
+  physical_file: non-sono-la-stessa-cosa/apartment-flat-studio/index.md
+- id: conf-039
+  type: confusion_article
+  title: 'apologize / sorry: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/apologize-sorry/
+  physical_file: non-sono-la-stessa-cosa/apologize-sorry/index.md
+- id: conf-040
+  type: confusion_article
+  title: 'apology / excuse: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/apology-excuse/
+  physical_file: non-sono-la-stessa-cosa/apology-excuse/index.md
+- id: conf-041
+  type: confusion_article
+  title: 'appraise / apprise: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/appraise-apprise/
+  physical_file: non-sono-la-stessa-cosa/appraise-apprise/index.md
+- id: conf-042
+  type: confusion_article
+  title: 'arrive / come / get / reach: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/arrive-come-get-reach/
+  physical_file: non-sono-la-stessa-cosa/arrive-come-get-reach/index.md
+- id: conf-043
+  type: confusion_article
+  title: 'as far as / as long as / as soon as: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/as-far-as-as-long-as-as-soon-as/
+  physical_file: non-sono-la-stessa-cosa/as-far-as-as-long-as-as-soon-as/index.md
+- id: conf-044
+  type: confusion_article
+  title: 'assure / ensure / insure: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/assure-ensure-insure/
+  physical_file: non-sono-la-stessa-cosa/assure-ensure-insure/index.md
+- id: conf-045
+  type: confusion_article
+  title: 'automobile / car / vehicle: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/automobile-car-vehicle/
+  physical_file: non-sono-la-stessa-cosa/automobile-car-vehicle/index.md
+- id: conf-046
+  type: confusion_article
+  title: 'await / hope / expect / wait: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/await-hope-expect-wait/
+  physical_file: non-sono-la-stessa-cosa/await-hope-expect-wait/index.md
+- id: conf-047
+  type: confusion_article
+  title: 'award / reward / prize: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/award-reward-prize/
+  physical_file: non-sono-la-stessa-cosa/award-reward-prize/index.md
+- id: conf-048
+  type: confusion_article
+  title: 'awkward / embarrassing: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/awkward-embarrassing/
+  physical_file: non-sono-la-stessa-cosa/awkward-embarrassing/index.md
+- id: conf-049
+  type: confusion_article
+  title: 'baggage / luggage: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/baggage-luggage/
+  physical_file: non-sono-la-stessa-cosa/baggage-luggage/index.md
+- id: conf-050
+  type: confusion_article
+  title: 'beach / coast / shore: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/beach-coast-shore/
+  physical_file: non-sono-la-stessa-cosa/beach-coast-shore/index.md
+- id: conf-051
+  type: confusion_article
+  title: 'beautiful / pretty: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/beautiful-pretty/
+  physical_file: non-sono-la-stessa-cosa/beautiful-pretty/index.md
+- id: conf-052
+  type: confusion_article
+  title: 'become / get / turn: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/become-get-turn/
+  physical_file: non-sono-la-stessa-cosa/become-get-turn/index.md
+- id: conf-053
+  type: confusion_article
+  title: 'been / gone: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/been-gone/
+  physical_file: non-sono-la-stessa-cosa/been-gone/index.md
+- id: conf-054
+  type: confusion_article
+  title: 'before / in front of / opposite / across from: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/before-in-front-of-opposite-across-from/
+  physical_file: non-sono-la-stessa-cosa/before-in-front-of-opposite-across-from/index.md
+- id: conf-055
+  type: confusion_article
+  title: 'beg / plead: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/beg-plead/
+  physical_file: non-sono-la-stessa-cosa/beg-plead/index.md
+- id: conf-056
+  type: confusion_article
+  title: 'begin / start: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/begin-start/
+  physical_file: non-sono-la-stessa-cosa/begin-start/index.md
+- id: conf-057
+  type: confusion_article
+  title: 'belong to / belong with / belong in: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/belong-to-belong-with-belong-in/
+  physical_file: non-sono-la-stessa-cosa/belong-to-belong-with-belong-in/index.md
+- id: conf-058
+  type: confusion_article
+  title: 'below / under / beneath / underneath: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/below-under-beneath-underneath/
+  physical_file: non-sono-la-stessa-cosa/below-under-beneath-underneath/index.md
+- id: conf-059
+  type: confusion_article
+  title: 'beside / besides: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/beside-besides/
+  physical_file: non-sono-la-stessa-cosa/beside-besides/index.md
+- id: conf-060
+  type: confusion_article
+  title: 'big / large: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/big-large/
+  physical_file: non-sono-la-stessa-cosa/big-large/index.md
+- id: conf-061
+  type: confusion_article
+  title: 'big / small / long / short / tall / huge / tiny: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/big-small-long-short-tall-huge-tiny/
+  physical_file: non-sono-la-stessa-cosa/big-small-long-short-tall-huge-tiny/index.md
+- id: conf-062
+  type: confusion_article
+  title: 'bill / invoice / receipt: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/bill-invoice-receipt/
+  physical_file: non-sono-la-stessa-cosa/bill-invoice-receipt/index.md
+- id: conf-063
+  type: confusion_article
+  title: 'blanket / comforter / quilt: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/blanket-comforter-quilt/
+  physical_file: non-sono-la-stessa-cosa/blanket-comforter-quilt/index.md
+- id: conf-064
+  type: confusion_article
+  title: 'borrow / lend / loan / owe: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/borrow-lend-loan-owe/
+  physical_file: non-sono-la-stessa-cosa/borrow-lend-loan-owe/index.md
+- id: conf-065
+  type: confusion_article
+  title: 'bother / disturb: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/bother-disturb/
+  physical_file: non-sono-la-stessa-cosa/bother-disturb/index.md
+- id: conf-066
+  type: confusion_article
+  title: 'bravery / courage: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/bravery-courage/
+  physical_file: non-sono-la-stessa-cosa/bravery-courage/index.md
+- id: conf-067
+  type: confusion_article
+  title: 'bring / take: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/bring-take/
+  physical_file: non-sono-la-stessa-cosa/bring-take/index.md
+- id: conf-068
+  type: confusion_article
+  title: 'bring up / grow up: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/bring-up-grow-up/
+  physical_file: non-sono-la-stessa-cosa/bring-up-grow-up/index.md
+- id: conf-069
+  type: confusion_article
+  title: 'Britain / England / the U.K.: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/britain-england-the-uk/
+  physical_file: non-sono-la-stessa-cosa/britain-england-the-uk/index.md
+- id: conf-070
+  type: confusion_article
+  title: 'broad / wide: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/broad-wide/
+  physical_file: non-sono-la-stessa-cosa/broad-wide/index.md
+- id: conf-071
+  type: confusion_article
+  title: 'by / until: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/by-until/
+  physical_file: non-sono-la-stessa-cosa/by-until/index.md
+- id: conf-072
+  type: confusion_article
+  title: 'can / could / able to: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/can-could-able-to/
+  physical_file: non-sono-la-stessa-cosa/can-could-able-to/index.md
+- id: conf-073
+  type: confusion_article
+  title: 'capital / capitol: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/capital-capitol/
+  physical_file: non-sono-la-stessa-cosa/capital-capitol/index.md
+- id: conf-074
+  type: confusion_article
+  title: 'carpet / mat / rug: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/carpet-mat-rug/
+  physical_file: non-sono-la-stessa-cosa/carpet-mat-rug/index.md
+- id: conf-075
+  type: confusion_article
+  title: 'ceiling / roof: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/ceiling-roof/
+  physical_file: non-sono-la-stessa-cosa/ceiling-roof/index.md
+- id: conf-076
+  type: confusion_article
+  title: 'chance / possibility / opportunity: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/chance-possibility-opportunity/
+  physical_file: non-sono-la-stessa-cosa/chance-possibility-opportunity/index.md
+- id: conf-077
+  type: confusion_article
+  title: 'change / switch: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/change-switch/
+  physical_file: non-sono-la-stessa-cosa/change-switch/index.md
+- id: conf-078
+  type: confusion_article
+  title: 'chauffeur / driver: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/chauffeur-driver/
+  physical_file: non-sono-la-stessa-cosa/chauffeur-driver/index.md
+- id: conf-079
+  type: confusion_article
+  title: 'city / downtown / town: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/city-downtown-town/
+  physical_file: non-sono-la-stessa-cosa/city-downtown-town/index.md
+- id: conf-080
+  type: confusion_article
+  title: 'classic / classical: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/classic-classical/
+  physical_file: non-sono-la-stessa-cosa/classic-classical/index.md
+- id: conf-081
+  type: confusion_article
+  title: 'clever / intelligent / smart: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/clever-intelligent-smart/
+  physical_file: non-sono-la-stessa-cosa/clever-intelligent-smart/index.md
+- id: conf-082
+  type: confusion_article
+  title: 'close / near / next: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/close-near-next/
+  physical_file: non-sono-la-stessa-cosa/close-near-next/index.md
+- id: conf-083
+  type: confusion_article
+  title: 'close / shut: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/close-shut/
+  physical_file: non-sono-la-stessa-cosa/close-shut/index.md
+- id: conf-084
+  type: confusion_article
+  title: 'cloth / clothes / clothing: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/cloth-clothes-clothing/
+  physical_file: non-sono-la-stessa-cosa/cloth-clothes-clothing/index.md
+- id: conf-085
+  type: confusion_article
+  title: 'collect / gather: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/collect-gather/
+  physical_file: non-sono-la-stessa-cosa/collect-gather/index.md
+- id: conf-086
+  type: confusion_article
+  title: 'come back / go back / get back: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/come-back-go-back-get-back/
+  physical_file: non-sono-la-stessa-cosa/come-back-go-back-get-back/index.md
+- id: conf-087
+  type: confusion_article
+  title: 'compliment / complement: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/compliment-complement/
+  physical_file: non-sono-la-stessa-cosa/compliment-complement/index.md
+- id: conf-088
+  type: confusion_article
+  title: 'concern / concerned / concerning: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/concern-concerned-concerning/
+  physical_file: non-sono-la-stessa-cosa/concern-concerned-concerning/index.md
+- id: conf-089
+  type: confusion_article
+  title: 'confident / confidant / confidence: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/confident-confidant-confidence/
+  physical_file: non-sono-la-stessa-cosa/confident-confidant-confidence/index.md
+- id: conf-090
+  type: confusion_article
+  title: 'continual / continuous: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/continual-continuous/
+  physical_file: non-sono-la-stessa-cosa/continual-continuous/index.md
+- id: conf-091
+  type: confusion_article
+  title: 'convince / persuade: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/convince-persuade/
+  physical_file: non-sono-la-stessa-cosa/convince-persuade/index.md
+- id: conf-092
+  type: confusion_article
+  title: 'could / should / would: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/could-should-would/
+  physical_file: non-sono-la-stessa-cosa/could-should-would/index.md
+- id: conf-093
+  type: confusion_article
+  title: 'council / counsel: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/council-counsel/
+  physical_file: non-sono-la-stessa-cosa/council-counsel/index.md
+- id: conf-094
+  type: confusion_article
+  title: 'critic / critical / criticism / critique: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/critic-critical-criticism-critique/
+  physical_file: non-sono-la-stessa-cosa/critic-critical-criticism-critique/index.md
+- id: conf-095
+  type: confusion_article
+  title: 'cure / treat / heal / recover: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/cure-treat-heal-recover/
+  physical_file: non-sono-la-stessa-cosa/cure-treat-heal-recover/index.md
+- id: conf-096
+  type: confusion_article
+  title: 'custom / habit: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/custom-habit/
+  physical_file: non-sono-la-stessa-cosa/custom-habit/index.md
+- id: conf-097
+  type: confusion_article
+  title: 'deadly / fatal / lethal: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/deadly-fatal-lethal/
+  physical_file: non-sono-la-stessa-cosa/deadly-fatal-lethal/index.md
+- id: conf-098
+  type: confusion_article
+  title: 'decent / descent / dissent: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/decent-descent-dissent/
+  physical_file: non-sono-la-stessa-cosa/decent-descent-dissent/index.md
+- id: conf-099
+  type: confusion_article
+  title: 'delay / late / postpone: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/delay-late-postpone/
+  physical_file: non-sono-la-stessa-cosa/delay-late-postpone/index.md
+- id: conf-100
+  type: confusion_article
+  title: 'deny / refuse / reject / decline: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/deny-refuse-reject-decline/
+  physical_file: non-sono-la-stessa-cosa/deny-refuse-reject-decline/index.md
+- id: conf-101
+  type: confusion_article
+  title: 'defect / fault / flaw: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/defect-fault-flaw/
+  physical_file: non-sono-la-stessa-cosa/defect-fault-flaw/index.md
+- id: conf-102
+  type: confusion_article
+  title: 'definitely / definitively: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/definitely-definitively/
+  physical_file: non-sono-la-stessa-cosa/definitely-definitively/index.md
+- id: conf-103
+  type: confusion_article
+  title: 'despite / in spite of: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/despite-in-spite-of/
+  physical_file: non-sono-la-stessa-cosa/despite-in-spite-of/index.md
+- id: conf-104
+  type: confusion_article
+  title: 'die / died / dead: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/die-died-dead/
+  physical_file: non-sono-la-stessa-cosa/die-died-dead/index.md
+- id: conf-105
+  type: confusion_article
+  title: 'difficult / hard: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/difficult-hard/
+  physical_file: non-sono-la-stessa-cosa/difficult-hard/index.md
+- id: conf-106
+  type: confusion_article
+  title: 'dilemma / quandary: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/dilemma-quandary/
+  physical_file: non-sono-la-stessa-cosa/dilemma-quandary/index.md
+- id: conf-107
+  type: confusion_article
+  title: 'dinner / supper / meal / snack: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/dinner-supper-meal-snack/
+  physical_file: non-sono-la-stessa-cosa/dinner-supper-meal-snack/index.md
+- id: conf-108
+  type: confusion_article
+  title: 'dirt / earth / soil: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/dirt-earth-soil/
+  physical_file: non-sono-la-stessa-cosa/dirt-earth-soil/index.md
+- id: conf-109
+  type: confusion_article
+  title: 'dirty / messy: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/dirty-messy/
+  physical_file: non-sono-la-stessa-cosa/dirty-messy/index.md
+- id: conf-110
+  type: confusion_article
+  title: 'disability / handicap / impairment: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/disability-handicap-impairment/
+  physical_file: non-sono-la-stessa-cosa/disability-handicap-impairment/index.md
+- id: conf-111
+  type: confusion_article
+  title: 'discover / find out / notice / realize: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/discover-find-out-notice-realize/
+  physical_file: non-sono-la-stessa-cosa/discover-find-out-notice-realize/index.md
+- id: conf-112
+  type: confusion_article
+  title: 'discreet / discrete: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/discreet-discrete/
+  physical_file: non-sono-la-stessa-cosa/discreet-discrete/index.md
+- id: conf-113
+  type: confusion_article
+  title: 'disease / illness: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/disease-illness/
+  physical_file: non-sono-la-stessa-cosa/disease-illness/index.md
+- id: conf-114
+  type: confusion_article
+  title: 'disinterested / uninterested: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/disinterested-uninterested/
+  physical_file: non-sono-la-stessa-cosa/disinterested-uninterested/index.md
+- id: conf-115
+  type: confusion_article
+  title: 'distinct / distinctive: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/distinct-distinctive/
+  physical_file: non-sono-la-stessa-cosa/distinct-distinctive/index.md
+- id: conf-116
+  type: confusion_article
+  title: 'do / make: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/do-make/
+  physical_file: non-sono-la-stessa-cosa/do-make/index.md
+- id: conf-117
+  type: confusion_article
+  title: 'dress / dressed / wear: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/dress-dressed-wear/
+  physical_file: non-sono-la-stessa-cosa/dress-dressed-wear/index.md
+- id: conf-118
+  type: confusion_article
+  title: 'during / while / meanwhile / meantime: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/during-while-meanwhile-meantime/
+  physical_file: non-sono-la-stessa-cosa/during-while-meanwhile-meantime/index.md
+- id: conf-119
+  type: confusion_article
+  title: 'early / soon: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/early-soon/
+  physical_file: non-sono-la-stessa-cosa/early-soon/index.md
+- id: conf-120
+  type: confusion_article
+  title: 'earn / gain / win: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/earn-gain-win/
+  physical_file: non-sono-la-stessa-cosa/earn-gain-win/index.md
+- id: conf-121
+  type: confusion_article
+  title: 'e.g. / i.e.: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/eg-ie/
+  physical_file: non-sono-la-stessa-cosa/eg-ie/index.md
+- id: conf-122
+  type: confusion_article
+  title: 'economic / economical: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/economic-economical/
+  physical_file: non-sono-la-stessa-cosa/economic-economical/index.md
+- id: conf-123
+  type: confusion_article
+  title: 'effective / efficient: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/effective-efficient/
+  physical_file: non-sono-la-stessa-cosa/effective-efficient/index.md
+- id: conf-124
+  type: confusion_article
+  title: 'either / neither: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/either-neither/
+  physical_file: non-sono-la-stessa-cosa/either-neither/index.md
+- id: conf-125
+  type: confusion_article
+  title: 'electric / electrical / electronic: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/electric-electrical-electronic/
+  physical_file: non-sono-la-stessa-cosa/electric-electrical-electronic/index.md
+- id: conf-126
+  type: confusion_article
+  title: 'empathy / sympathy: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/empathy-sympathy/
+  physical_file: non-sono-la-stessa-cosa/empathy-sympathy/index.md
+- id: conf-127
+  type: confusion_article
+  title: 'employees / staff: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/employees-staff/
+  physical_file: non-sono-la-stessa-cosa/employees-staff/index.md
+- id: conf-128
+  type: confusion_article
+  title: 'end / finish: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/end-finish/
+  physical_file: non-sono-la-stessa-cosa/end-finish/index.md
+- id: conf-129
+  type: confusion_article
+  title: 'enough / too: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/enough-too/
+  physical_file: non-sono-la-stessa-cosa/enough-too/index.md
+- id: conf-130
+  type: confusion_article
+  title: 'enquire / inquire: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/enquire-inquire/
+  physical_file: non-sono-la-stessa-cosa/enquire-inquire/index.md
+- id: conf-131
+  type: confusion_article
+  title: 'especially / specially: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/especially-specially/
+  physical_file: non-sono-la-stessa-cosa/especially-specially/index.md
+- id: conf-132
+  type: confusion_article
+  title: 'every day / everyday: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/every-day-everyday/
+  physical_file: non-sono-la-stessa-cosa/every-day-everyday/index.md
+- id: conf-133
+  type: confusion_article
+  title: 'ex- / former / previous: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/ex-former-previous/
+  physical_file: non-sono-la-stessa-cosa/ex-former-previous/index.md
+- id: conf-134
+  type: confusion_article
+  title: 'explore / exploit: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/explore-exploit/
+  physical_file: non-sono-la-stessa-cosa/explore-exploit/index.md
+- id: conf-135
+  type: confusion_article
+  title: 'extend / expand: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/extend-expand/
+  physical_file: non-sono-la-stessa-cosa/extend-expand/index.md
+- id: conf-136
+  type: confusion_article
+  title: 'famous / infamous: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/famous-infamous/
+  physical_file: non-sono-la-stessa-cosa/famous-infamous/index.md
+- id: conf-137
+  type: confusion_article
+  title: 'farther / further: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/farther-further/
+  physical_file: non-sono-la-stessa-cosa/farther-further/index.md
+- id: conf-138
+  type: confusion_article
+  title: 'fee / fare / tax: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/fee-fare-tax/
+  physical_file: non-sono-la-stessa-cosa/fee-fare-tax/index.md
+- id: conf-139
+  type: confusion_article
+  title: 'female / feminine / woman: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/female-feminine-woman/
+  physical_file: non-sono-la-stessa-cosa/female-feminine-woman/index.md
+- id: conf-140
+  type: confusion_article
+  title: 'few / little / less / fewer: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/few-little-less-fewer/
+  physical_file: non-sono-la-stessa-cosa/few-little-less-fewer/index.md
+- id: conf-141
+  type: confusion_article
+  title: 'fit / match / suit: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/fit-match-suit/
+  physical_file: non-sono-la-stessa-cosa/fit-match-suit/index.md
+- id: conf-142
+  type: confusion_article
+  title: 'floor / ground: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/floor-ground/
+  physical_file: non-sono-la-stessa-cosa/floor-ground/index.md
+- id: conf-143
+  type: confusion_article
+  title: 'for / since: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/for-since/
+  physical_file: non-sono-la-stessa-cosa/for-since/index.md
+- id: conf-144
+  type: confusion_article
+  title: 'forest / jungle / wood / woods: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/forest-jungle-wood-woods/
+  physical_file: non-sono-la-stessa-cosa/forest-jungle-wood-woods/index.md
+- id: conf-145
+  type: confusion_article
+  title: 'fun / funny: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/fun-funny/
+  physical_file: non-sono-la-stessa-cosa/fun-funny/index.md
+- id: conf-146
+  type: confusion_article
+  title: 'girl / lady / woman: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/girl-lady-woman/
+  physical_file: non-sono-la-stessa-cosa/girl-lady-woman/index.md
+- id: conf-147
+  type: confusion_article
+  title: 'good / well: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/good-well/
+  physical_file: non-sono-la-stessa-cosa/good-well/index.md
+- id: conf-148
+  type: confusion_article
+  title: 'good evening / good night: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/good-evening-good-night/
+  physical_file: non-sono-la-stessa-cosa/good-evening-good-night/index.md
+- id: conf-149
+  type: confusion_article
+  title: 'gratuity / tip: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/gratuity-tip/
+  physical_file: non-sono-la-stessa-cosa/gratuity-tip/index.md
+- id: conf-150
+  type: confusion_article
+  title: 'guarantee / warranty: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/guarantee-warranty/
+  physical_file: non-sono-la-stessa-cosa/guarantee-warranty/index.md
+- id: conf-151
+  type: confusion_article
+  title: 'gut / guts: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/gut-guts/
+  physical_file: non-sono-la-stessa-cosa/gut-guts/index.md
+- id: conf-152
+  type: confusion_article
+  title: 'hard / hardly: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/hard-hardly/
+  physical_file: non-sono-la-stessa-cosa/hard-hardly/index.md
+- id: conf-153
+  type: confusion_article
+  title: 'have / have got: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/have-have-got/
+  physical_file: non-sono-la-stessa-cosa/have-have-got/index.md
+- id: conf-154
+  type: confusion_article
+  title: 'have to / must / need to: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/have-to-must-need-to/
+  physical_file: non-sono-la-stessa-cosa/have-to-must-need-to/index.md
+- id: conf-155
+  type: confusion_article
+  title: 'haven’t / don’t have: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/havent-dont-have/
+  physical_file: non-sono-la-stessa-cosa/havent-dont-have/index.md
+- id: conf-156
+  type: confusion_article
+  title: 'hear / listen: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/hear-listen/
+  physical_file: non-sono-la-stessa-cosa/hear-listen/index.md
+- id: conf-157
+  type: confusion_article
+  title: 'hijack / kidnap: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/hijack-kidnap/
+  physical_file: non-sono-la-stessa-cosa/hijack-kidnap/index.md
+- id: conf-158
+  type: confusion_article
+  title: 'historic / historical: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/historic-historical/
+  physical_file: non-sono-la-stessa-cosa/historic-historical/index.md
+- id: conf-159
+  type: confusion_article
+  title: 'holiday / vacation: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/holiday-vacation/
+  physical_file: non-sono-la-stessa-cosa/holiday-vacation/index.md
+- id: conf-160
+  type: confusion_article
+  title: 'hope / wish: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/hope-wish/
+  physical_file: non-sono-la-stessa-cosa/hope-wish/index.md
+- id: conf-161
+  type: confusion_article
+  title: 'hopefully / thankfully: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/hopefully-thankfully/
+  physical_file: non-sono-la-stessa-cosa/hopefully-thankfully/index.md
+- id: conf-162
+  type: confusion_article
+  title: 'hostel / hotel / motel: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/hostel-hotel-motel/
+  physical_file: non-sono-la-stessa-cosa/hostel-hotel-motel/index.md
+- id: conf-163
+  type: confusion_article
+  title: 'house / home: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/house-home/
+  physical_file: non-sono-la-stessa-cosa/house-home/index.md
+- id: conf-164
+  type: confusion_article
+  title: 'how about...? / what about...?: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/how-about-what-about/
+  physical_file: non-sono-la-stessa-cosa/how-about-what-about/index.md
+- id: conf-165
+  type: confusion_article
+  title: 'human / humankind / human being / man / mankind: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/human-humankind-human-being-man-mankind/
+  physical_file: non-sono-la-stessa-cosa/human-humankind-human-being-man-mankind/index.md
+- id: conf-166
+  type: confusion_article
+  title: 'hundred / hundreds: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/hundred-hundreds/
+  physical_file: non-sono-la-stessa-cosa/hundred-hundreds/index.md
+- id: conf-167
+  type: confusion_article
+  title: 'I / my / me / mine / myself: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/i-my-me-mine-myself/
+  physical_file: non-sono-la-stessa-cosa/i-my-me-mine-myself/index.md
+- id: conf-168
+  type: confusion_article
+  title: 'if I was... / if I were...: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/if-i-was-if-i-were/
+  physical_file: non-sono-la-stessa-cosa/if-i-was-if-i-were/index.md
+- id: conf-169
+  type: confusion_article
+  title: 'if / whether: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/if-whether/
+  physical_file: non-sono-la-stessa-cosa/if-whether/index.md
+- id: conf-170
+  type: confusion_article
+  title: 'ignore / neglect: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/ignore-neglect/
+  physical_file: non-sono-la-stessa-cosa/ignore-neglect/index.md
+- id: conf-171
+  type: confusion_article
+  title: 'ill / sick: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/ill-sick/
+  physical_file: non-sono-la-stessa-cosa/ill-sick/index.md
+- id: conf-172
+  type: confusion_article
+  title: 'impending / pending: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/impending-pending/
+  physical_file: non-sono-la-stessa-cosa/impending-pending/index.md
+- id: conf-173
+  type: confusion_article
+  title: 'imply / infer: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/imply-infer/
+  physical_file: non-sono-la-stessa-cosa/imply-infer/index.md
+- id: conf-174
+  type: confusion_article
+  title: 'in / into / inside / within: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/in-into-inside-within/
+  physical_file: non-sono-la-stessa-cosa/in-into-inside-within/index.md
+- id: conf-175
+  type: confusion_article
+  title: 'in / on / at: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/in-on-at/
+  physical_file: non-sono-la-stessa-cosa/in-on-at/index.md
+- id: conf-176
+  type: confusion_article
+  title: 'in time / on time: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/in-time-on-time/
+  physical_file: non-sono-la-stessa-cosa/in-time-on-time/index.md
+- id: conf-177
+  type: confusion_article
+  title: 'incite / insight: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/incite-insight/
+  physical_file: non-sono-la-stessa-cosa/incite-insight/index.md
+- id: conf-178
+  type: confusion_article
+  title: 'income / salary / wage: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/income-salary-wage/
+  physical_file: non-sono-la-stessa-cosa/income-salary-wage/index.md
+- id: conf-179
+  type: confusion_article
+  title: 'Indian / indigenous / Native American: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/indian-indigenous-native-american/
+  physical_file: non-sono-la-stessa-cosa/indian-indigenous-native-american/index.md
+- id: conf-180
+  type: confusion_article
+  title: 'inhabit / live / reside: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/inhabit-live-reside/
+  physical_file: non-sono-la-stessa-cosa/inhabit-live-reside/index.md
+- id: conf-181
+  type: confusion_article
+  title: 'intend / tend: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/intend-tend/
+  physical_file: non-sono-la-stessa-cosa/intend-tend/index.md
+- id: conf-182
+  type: confusion_article
+  title: 'interested / interesting: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/interested-interesting/
+  physical_file: non-sono-la-stessa-cosa/interested-interesting/index.md
+- id: conf-183
+  type: confusion_article
+  title: 'interfere / intervene: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/interfere-intervene/
+  physical_file: non-sono-la-stessa-cosa/interfere-intervene/index.md
+- id: conf-184
+  type: confusion_article
+  title: 'its / it’s: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/its-its/
+  physical_file: non-sono-la-stessa-cosa/its-its/index.md
+- id: conf-185
+  type: confusion_article
+  title: 'job / work / career: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/job-work-career/
+  physical_file: non-sono-la-stessa-cosa/job-work-career/index.md
+- id: conf-186
+  type: confusion_article
+  title: 'just / only: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/just-only/
+  physical_file: non-sono-la-stessa-cosa/just-only/index.md
+- id: conf-187
+  type: confusion_article
+  title: 'kinds / types / sorts: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/kinds-types-sorts/
+  physical_file: non-sono-la-stessa-cosa/kinds-types-sorts/index.md
+- id: conf-188
+  type: confusion_article
+  title: 'know / meet: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/know-meet/
+  physical_file: non-sono-la-stessa-cosa/know-meet/index.md
+- id: conf-189
+  type: confusion_article
+  title: 'last / latest: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/last-latest/
+  physical_file: non-sono-la-stessa-cosa/last-latest/index.md
+- id: conf-190
+  type: confusion_article
+  title: 'last / past: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/last-past/
+  physical_file: non-sono-la-stessa-cosa/last-past/index.md
+- id: conf-191
+  type: confusion_article
+  title: 'late / lately: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/late-lately/
+  physical_file: non-sono-la-stessa-cosa/late-lately/index.md
+- id: conf-192
+  type: confusion_article
+  title: 'lay / lie: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/lay-lie/
+  physical_file: non-sono-la-stessa-cosa/lay-lie/index.md
+- id: conf-193
+  type: confusion_article
+  title: 'like / as: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/like-as/
+  physical_file: non-sono-la-stessa-cosa/like-as/index.md
+- id: conf-194
+  type: confusion_article
+  title: 'little / small: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/little-small/
+  physical_file: non-sono-la-stessa-cosa/little-small/index.md
+- id: conf-195
+  type: confusion_article
+  title: 'look / see / watch: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/look-see-watch/
+  physical_file: non-sono-la-stessa-cosa/look-see-watch/index.md
+- id: conf-196
+  type: confusion_article
+  title: 'lose / loose: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/lose-loose/
+  physical_file: non-sono-la-stessa-cosa/lose-loose/index.md
+- id: conf-197
+  type: confusion_article
+  title: 'lose / miss: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/lose-miss/
+  physical_file: non-sono-la-stessa-cosa/lose-miss/index.md
+- id: conf-198
+  type: confusion_article
+  title: 'made of / made from: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/made-of-made-from/
+  physical_file: non-sono-la-stessa-cosa/made-of-made-from/index.md
+- id: conf-199
+  type: confusion_article
+  title: 'marriage / married / wedding: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/marriage-married-wedding/
+  physical_file: non-sono-la-stessa-cosa/marriage-married-wedding/index.md
+- id: conf-200
+  type: confusion_article
+  title: 'may / might: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/may-might/
+  physical_file: non-sono-la-stessa-cosa/may-might/index.md
+- id: conf-201
+  type: confusion_article
+  title: 'moral / morale: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/moral-morale/
+  physical_file: non-sono-la-stessa-cosa/moral-morale/index.md
+- id: conf-202
+  type: confusion_article
+  title: 'Mr. / Mrs. / Ms. / Miss: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/mr-mrs-ms-miss/
+  physical_file: non-sono-la-stessa-cosa/mr-mrs-ms-miss/index.md
+- id: conf-203
+  type: confusion_article
+  title: 'music / song: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/music-song/
+  physical_file: non-sono-la-stessa-cosa/music-song/index.md
+- id: conf-204
+  type: confusion_article
+  title: 'nausea / nauseous / queasy: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/nausea-nauseous-queasy/
+  physical_file: non-sono-la-stessa-cosa/nausea-nauseous-queasy/index.md
+- id: conf-205
+  type: confusion_article
+  title: 'north / northern: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/north-northern/
+  physical_file: non-sono-la-stessa-cosa/north-northern/index.md
+- id: conf-206
+  type: confusion_article
+  title: 'notable / noticeable: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/notable-noticeable/
+  physical_file: non-sono-la-stessa-cosa/notable-noticeable/index.md
+- id: conf-207
+  type: confusion_article
+  title: 'ocean / sea / lake / pond: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/ocean-sea-lake-pond/
+  physical_file: non-sono-la-stessa-cosa/ocean-sea-lake-pond/index.md
+- id: conf-208
+  type: confusion_article
+  title: 'of / from: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/of-from/
+  physical_file: non-sono-la-stessa-cosa/of-from/index.md
+- id: conf-209
+  type: confusion_article
+  title: 'oppress / suppress / repress: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/oppress-suppress-repress/
+  physical_file: non-sono-la-stessa-cosa/oppress-suppress-repress/index.md
+- id: conf-210
+  type: confusion_article
+  title: 'overtake / take over: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/overtake-take-over/
+  physical_file: non-sono-la-stessa-cosa/overtake-take-over/index.md
+- id: conf-211
+  type: confusion_article
+  title: 'pass away / pass out: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/pass-away-pass-out/
+  physical_file: non-sono-la-stessa-cosa/pass-away-pass-out/index.md
+- id: conf-212
+  type: confusion_article
+  title: 'pass the time / spend time: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/pass-the-time-spend-time/
+  physical_file: non-sono-la-stessa-cosa/pass-the-time-spend-time/index.md
+- id: conf-213
+  type: confusion_article
+  title: 'peak / pique: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/peak-pique/
+  physical_file: non-sono-la-stessa-cosa/peak-pique/index.md
+- id: conf-214
+  type: confusion_article
+  title: 'persons / people: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/persons-people/
+  physical_file: non-sono-la-stessa-cosa/persons-people/index.md
+- id: conf-215
+  type: confusion_article
+  title: 'poison / venom: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/poison-venom/
+  physical_file: non-sono-la-stessa-cosa/poison-venom/index.md
+- id: conf-216
+  type: confusion_article
+  title: 'politics / policy: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/politics-policy/
+  physical_file: non-sono-la-stessa-cosa/politics-policy/index.md
+- id: conf-217
+  type: confusion_article
+  title: 'poor / pore / pour: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/poor-pore-pour/
+  physical_file: non-sono-la-stessa-cosa/poor-pore-pour/index.md
+- id: conf-218
+  type: confusion_article
+  title: 'pray / prey: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/pray-prey/
+  physical_file: non-sono-la-stessa-cosa/pray-prey/index.md
+- id: conf-219
+  type: confusion_article
+  title: 'principal / principle: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/principal-principle/
+  physical_file: non-sono-la-stessa-cosa/principal-principle/index.md
+- id: conf-220
+  type: confusion_article
+  title: 'problem / trouble: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/problem-trouble/
+  physical_file: non-sono-la-stessa-cosa/problem-trouble/index.md
+- id: conf-221
+  type: confusion_article
+  title: 'quiet / silent: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/quiet-silent/
+  physical_file: non-sono-la-stessa-cosa/quiet-silent/index.md
+- id: conf-222
+  type: confusion_article
+  title: 'raise / rise / arise: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/raise-rise-arise/
+  physical_file: non-sono-la-stessa-cosa/raise-rise-arise/index.md
+- id: conf-223
+  type: confusion_article
+  title: 'regard / regardless / regards: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/regard-regardless-regards/
+  physical_file: non-sono-la-stessa-cosa/regard-regardless-regards/index.md
+- id: conf-224
+  type: confusion_article
+  title: 'regretful / regrettable: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/regretful-regrettable/
+  physical_file: non-sono-la-stessa-cosa/regretful-regrettable/index.md
+- id: conf-225
+  type: confusion_article
+  title: 'relation / relationship: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/relation-relationship/
+  physical_file: non-sono-la-stessa-cosa/relation-relationship/index.md
+- id: conf-226
+  type: confusion_article
+  title: 'remember / remind / recall / recollect: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/remember-remind-recall-recollect/
+  physical_file: non-sono-la-stessa-cosa/remember-remind-recall-recollect/index.md
+- id: conf-227
+  type: confusion_article
+  title: 'replace / substitute: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/replace-substitute/
+  physical_file: non-sono-la-stessa-cosa/replace-substitute/index.md
+- id: conf-228
+  type: confusion_article
+  title: 'resolve / solve: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/resolve-solve/
+  physical_file: non-sono-la-stessa-cosa/resolve-solve/index.md
+- id: conf-229
+  type: confusion_article
+  title: 'review / revise: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/review-revise/
+  physical_file: non-sono-la-stessa-cosa/review-revise/index.md
+- id: conf-230
+  type: confusion_article
+  title: 'rob / thief / steal: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/rob-thief-steal/
+  physical_file: non-sono-la-stessa-cosa/rob-thief-steal/index.md
+- id: conf-231
+  type: confusion_article
+  title: 'safety / security: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/safety-security/
+  physical_file: non-sono-la-stessa-cosa/safety-security/index.md
+- id: conf-232
+  type: confusion_article
+  title: 'sell / sale: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/sell-sale/
+  physical_file: non-sono-la-stessa-cosa/sell-sale/index.md
+- id: conf-233
+  type: confusion_article
+  title: 'say / tell / speak: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/say-tell-speak/
+  physical_file: non-sono-la-stessa-cosa/say-tell-speak/index.md
+- id: conf-234
+  type: confusion_article
+  title: 'scream / shout: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/scream-shout/
+  physical_file: non-sono-la-stessa-cosa/scream-shout/index.md
+- id: conf-235
+  type: confusion_article
+  title: 'sensible / sensitive: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/sensible-sensitive/
+  physical_file: non-sono-la-stessa-cosa/sensible-sensitive/index.md
+- id: conf-236
+  type: confusion_article
+  title: 'shade / shadow: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/shade-shadow/
+  physical_file: non-sono-la-stessa-cosa/shade-shadow/index.md
+- id: conf-237
+  type: confusion_article
+  title: 'so / such: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/so-such/
+  physical_file: non-sono-la-stessa-cosa/so-such/index.md
+- id: conf-238
+  type: confusion_article
+  title: 'so / very / a lot: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/so-very-a-lot/
+  physical_file: non-sono-la-stessa-cosa/so-very-a-lot/index.md
+- id: conf-239
+  type: confusion_article
+  title: 'some time / sometime / sometimes: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/some-time-sometime-sometimes/
+  physical_file: non-sono-la-stessa-cosa/some-time-sometime-sometimes/index.md
+- id: conf-240
+  type: confusion_article
+  title: 'stuff / things: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/stuff-things/
+  physical_file: non-sono-la-stessa-cosa/stuff-things/index.md
+- id: conf-241
+  type: confusion_article
+  title: 'such as / as such: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/such-as-as-such/
+  physical_file: non-sono-la-stessa-cosa/such-as-as-such/index.md
+- id: conf-242
+  type: confusion_article
+  title: 'suppose / supposed to: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/suppose-supposed-to/
+  physical_file: non-sono-la-stessa-cosa/suppose-supposed-to/index.md
+- id: conf-243
+  type: confusion_article
+  title: 'than / then: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/than-then/
+  physical_file: non-sono-la-stessa-cosa/than-then/index.md
+- id: conf-244
+  type: confusion_article
+  title: 'think about / think of: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/think-about-think-of/
+  physical_file: non-sono-la-stessa-cosa/think-about-think-of/index.md
+- id: conf-245
+  type: confusion_article
+  title: 'tide / waves: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/tide-waves/
+  physical_file: non-sono-la-stessa-cosa/tide-waves/index.md
+- id: conf-246
+  type: confusion_article
+  title: 'till / until: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/till-until/
+  physical_file: non-sono-la-stessa-cosa/till-until/index.md
+- id: conf-247
+  type: confusion_article
+  title: 'to / for: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/to-for/
+  physical_file: non-sono-la-stessa-cosa/to-for/index.md
+- id: conf-248
+  type: confusion_article
+  title: 'too / very: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/too-very/
+  physical_file: non-sono-la-stessa-cosa/too-very/index.md
+- id: conf-249
+  type: confusion_article
+  title: 'travel / trip / journey: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/travel-trip-journey/
+  physical_file: non-sono-la-stessa-cosa/travel-trip-journey/index.md
+- id: conf-250
+  type: confusion_article
+  title: 'used to / be used to: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/used-to-be-used-to/
+  physical_file: non-sono-la-stessa-cosa/used-to-be-used-to/index.md
+- id: conf-251
+  type: confusion_article
+  title: 'wake / awake / sleep / asleep: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/wake-awake-sleep-asleep/
+  physical_file: non-sono-la-stessa-cosa/wake-awake-sleep-asleep/index.md
+- id: conf-252
+  type: confusion_article
+  title: 'wander / wonder: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/wander-wonder/
+  physical_file: non-sono-la-stessa-cosa/wander-wonder/index.md
+- id: conf-253
+  type: confusion_article
+  title: 'wary / weary: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/wary-weary/
+  physical_file: non-sono-la-stessa-cosa/wary-weary/index.md
+- id: conf-254
+  type: confusion_article
+  title: 'what / which: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/what-which/
+  physical_file: non-sono-la-stessa-cosa/what-which/index.md
+- id: conf-255
+  type: confusion_article
+  title: 'which / that: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/which-that/
+  physical_file: non-sono-la-stessa-cosa/which-that/index.md
+- id: conf-256
+  type: confusion_article
+  title: 'who / whom: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/who-whom/
+  physical_file: non-sono-la-stessa-cosa/who-whom/index.md
+- id: conf-257
+  type: confusion_article
+  title: 'will / would: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/will-would/
+  physical_file: non-sono-la-stessa-cosa/will-would/index.md
+- id: conf-258
+  type: confusion_article
+  title: 'worse / worst: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/worse-worst/
+  physical_file: non-sono-la-stessa-cosa/worse-worst/index.md
+- id: conf-259
+  type: confusion_article
+  title: 'year-old / years old: qual è la differenza?'
+  registry_url: /non-sono-la-stessa-cosa/year-old-years-old/
+  physical_file: non-sono-la-stessa-cosa/year-old-years-old/index.md
+- id: TRV001
+  type: travel_article
+  title: 'Travel English: le frasi essenziali da sapere prima di partire'
+  registry_url: /travel-english/frasi-essenziali-prima-di-partire/
+  physical_file: travel-english/frasi-essenziali-prima-di-partire/index.md
+- id: TRV002
+  type: travel_article
+  title: 'English for Booking a Trip: prenotare voli, hotel e attività'
+  registry_url: /travel-english/booking-a-trip-english/
+  physical_file: travel-english/booking-a-trip-english/index.md
+- id: TRV003
+  type: travel_article
+  title: 'English at the Airport: dal check-in al boarding'
+  registry_url: /travel-english/english-at-the-airport/
+  physical_file: travel-english/english-at-the-airport/index.md
+- id: TRV004
+  type: travel_article
+  title: 'Airport English: bagagli, gate, boarding e controlli'
+  registry_url: /travel-english/airport-english-baggage-gates-boarding/
+  physical_file: travel-english/airport-english-baggage-gates-boarding/index.md
+- id: TRV005
+  type: travel_article
+  title: 'Travel English on Planes: parlare durante un volo'
+  registry_url: /travel-english/english-on-a-plane/
+  physical_file: travel-english/english-on-a-plane/index.md
+- id: TRV006
+  type: travel_article
+  title: 'Train and Bus English: viaggiare con i mezzi pubblici'
+  registry_url: /travel-english/train-bus-english/
+  physical_file: travel-english/train-bus-english/index.md
+- id: TRV007
+  type: travel_article
+  title: 'Renting a Car in English: tutto quello che devi dire'
+  registry_url: /travel-english/renting-a-car-in-english/
+  physical_file: travel-english/renting-a-car-in-english/index.md
+- id: TRV008
+  type: travel_article
+  title: 'Hotel English: prenotare e chiedere informazioni'
+  registry_url: /travel-english/hotel-english-booking-information/
+  physical_file: travel-english/hotel-english-booking-information/index.md
+- id: TRV009
+  type: travel_article
+  title: 'Checking In at a Hotel: cosa dire alla reception'
+  registry_url: /travel-english/hotel-check-in-english/
+  physical_file: travel-english/hotel-check-in-english/index.md
+- id: TRV010
+  type: travel_article
+  title: 'Hotel Problems in English: come segnalare un problema in camera'
+  registry_url: /travel-english/hotel-problems-english/
+  physical_file: travel-english/hotel-problems-english/index.md
+- id: TRV011
+  type: travel_article
+  title: 'Checking Out: pagare, chiedere informazioni e salutare'
+  registry_url: /travel-english/hotel-check-out-english/
+  physical_file: travel-english/hotel-check-out-english/index.md
+- id: TRV012
+  type: travel_article
+  title: 'Restaurant English: ordinare senza sembrare un libro di testo'
+  registry_url: /travel-english/restaurant-english/
+  physical_file: travel-english/restaurant-english/index.md
+- id: TRV013
+  type: travel_article
+  title: 'Café English: ordinare caffè, colazione e snack'
+  registry_url: /travel-english/cafe-english/
+  physical_file: travel-english/cafe-english/index.md
+- id: TRV014
+  type: travel_article
+  title: 'Food Problems in English: errori nell’ordine, allergie e richieste'
+  registry_url: /travel-english/food-problems-english/
+  physical_file: travel-english/food-problems-english/index.md
+- id: TRV015
+  type: travel_article
+  title: 'Asking for Directions: come chiedere e capire indicazioni'
+  registry_url: /travel-english/asking-for-directions/
+  physical_file: travel-english/asking-for-directions/index.md
+- id: TRV016
+  type: travel_article
+  title: Getting Around a New City in English
+  registry_url: /travel-english/getting-around-a-city/
+  physical_file: travel-english/getting-around-a-city/index.md
+- id: TRV017
+  type: travel_article
+  title: Tickets, Fares and Public Transport English
+  registry_url: /travel-english/public-transport-english/
+  physical_file: travel-english/public-transport-english/index.md
+- id: TRV018
+  type: travel_article
+  title: 'Travel Small Talk: parlare con persone incontrate in viaggio'
+  registry_url: /travel-english/travel-small-talk/
+  physical_file: travel-english/travel-small-talk/index.md
+- id: TRV019
+  type: travel_article
+  title: 'When Things Go Wrong: English for Travel Problems'
+  registry_url: /travel-english/travel-problems-english/
+  physical_file: travel-english/travel-problems-english/index.md
+- id: TRV020
+  type: travel_article
+  title: 'Flight Delays and Cancellations: cosa dire in inglese'
+  registry_url: /travel-english/flight-delays-cancellations/
+  physical_file: travel-english/flight-delays-cancellations/index.md
+- id: TRV021
+  type: travel_article
+  title: 'Lost Luggage and Lost Items: come spiegare cosa è successo'
+  registry_url: /travel-english/lost-luggage-items-english/
+  physical_file: travel-english/lost-luggage-items-english/index.md
+- id: TRV022
+  type: travel_article
+  title: Asking for Help in English While Travelling
+  registry_url: /travel-english/asking-for-help-while-travelling/
+  physical_file: travel-english/asking-for-help-while-travelling/index.md
+- id: TRV023
+  type: travel_article
+  title: 'Making Friends While Travelling: English for Meeting People'
+  registry_url: /travel-english/making-friends-while-travelling/
+  physical_file: travel-english/making-friends-while-travelling/index.md
+- id: TRV024
+  type: travel_article
+  title: 'English & Travel Culture: cosa cambia quando comunichi all’estero'
+  registry_url: /travel-english/travel-culture-communication/
+  physical_file: travel-english/travel-culture-communication/index.md
+- id: TRV025
+  type: travel_article
+  title: 'Polite English for Travel: come essere gentili senza parlare in modo artificiale'
+  registry_url: /travel-english/polite-english-for-travel/
+  physical_file: travel-english/polite-english-for-travel/index.md
+- id: TRV026
+  type: travel_article
+  title: 'Travel English Complete Guide: tutto l’inglese che ti serve per viaggiare'
+  registry_url: /travel-english/guida-completa/
+  physical_file: travel-english/guida-completa/index.md
+- id: BUS001
+  type: business_article
+  title: 'Business English: le frasi essenziali per lavorare in inglese'
+  registry_url: /business-english/frasi-essenziali-per-lavorare-in-inglese/
+  physical_file: business-english/frasi-essenziali-per-lavorare-in-inglese/index.md
+- id: BUS002
+  type: business_article
+  title: 'Introducing Yourself at Work: come presentarsi senza sembrare scolastici'
+  registry_url: /business-english/introducing-yourself-at-work/
+  physical_file: business-english/introducing-yourself-at-work/index.md
+- id: BUS003
+  type: business_article
+  title: 'Workplace Small Talk: parlare con i colleghi in modo naturale'
+  registry_url: /business-english/workplace-small-talk/
+  physical_file: business-english/workplace-small-talk/index.md
+- id: BUS004
+  type: business_article
+  title: Talking About Your Role and Responsibilities in English
+  registry_url: /business-english/talking-about-your-role-and-responsibilities/
+  physical_file: business-english/talking-about-your-role-and-responsibilities/index.md
+- id: BUS005
+  type: business_article
+  title: 'Work Emails in English: come scrivere messaggi naturali e chiari'
+  registry_url: /business-english/work-emails-in-english/
+  physical_file: business-english/work-emails-in-english/index.md
+- id: BUS006
+  type: business_article
+  title: 'Slack, Teams and Work Messages: inglese naturale per la comunicazione veloce'
+  registry_url: /business-english/work-messages-slack-teams/
+  physical_file: business-english/work-messages-slack-teams/index.md
+- id: BUS007
+  type: business_article
+  title: 'Meeting English: le frasi che usi davvero durante una riunione'
+  registry_url: /business-english/meeting-english/
+  physical_file: business-english/meeting-english/index.md
+- id: BUS008
+  type: business_article
+  title: 'Asking for Help at Work: come chiedere aiuto a un collega'
+  registry_url: /business-english/asking-for-help-at-work/
+  physical_file: business-english/asking-for-help-at-work/index.md
+- id: BUS009
+  type: business_article
+  title: 'Clarifying in English: come chiedere spiegazioni senza sembrare insicuri'
+  registry_url: /business-english/clarifying-in-english/
+  physical_file: business-english/clarifying-in-english/index.md
+- id: BUS010
+  type: business_article
+  title: 'Agreeing and Disagreeing at Work: esprimere il proprio punto di vista'
+  registry_url: /business-english/agreeing-disagreeing-at-work/
+  physical_file: business-english/agreeing-disagreeing-at-work/index.md
+- id: BUS011
+  type: business_article
+  title: 'Giving Your Opinion in a Meeting: come intervenire in modo naturale'
+  registry_url: /business-english/giving-your-opinion-in-a-meeting/
+  physical_file: business-english/giving-your-opinion-in-a-meeting/index.md
+- id: BUS012
+  type: business_article
+  title: 'Interrupting Politely in English: come intervenire senza essere scortesi'
+  registry_url: /business-english/interrupting-politely-in-english/
+  physical_file: business-english/interrupting-politely-in-english/index.md
+- id: BUS013
+  type: business_article
+  title: Giving and Receiving Feedback in English
+  registry_url: /business-english/giving-receiving-feedback/
+  physical_file: business-english/giving-receiving-feedback/index.md
+- id: BUS014
+  type: business_article
+  title: 'Working Together in English: coordinarsi con colleghi e team'
+  registry_url: /business-english/working-together-in-english/
+  physical_file: business-english/working-together-in-english/index.md
+- id: BUS015
+  type: business_article
+  title: 'Talking About Projects: progress, priorities and next steps'
+  registry_url: /business-english/talking-about-projects/
+  physical_file: business-english/talking-about-projects/index.md
+- id: BUS016
+  type: business_article
+  title: 'Giving a Work Update in English: spiegare a che punto sei'
+  registry_url: /business-english/giving-a-work-update/
+  physical_file: business-english/giving-a-work-update/index.md
+- id: BUS017
+  type: business_article
+  title: 'Deadlines in English: parlare di scadenze, ritardi e priorità'
+  registry_url: /business-english/deadlines-and-priorities/
+  physical_file: business-english/deadlines-and-priorities/index.md
+- id: BUS018
+  type: business_article
+  title: 'Explaining a Problem at Work: trovare le parole giuste'
+  registry_url: /business-english/explaining-a-work-problem/
+  physical_file: business-english/explaining-a-work-problem/index.md
+- id: BUS019
+  type: business_article
+  title: 'Solving Problems in English: proporre soluzioni e alternative'
+  registry_url: /business-english/solving-problems-in-english/
+  physical_file: business-english/solving-problems-in-english/index.md
+- id: BUS020
+  type: business_article
+  title: 'Making Decisions in English: discutere opzioni e scegliere una soluzione'
+  registry_url: /business-english/making-decisions-in-english/
+  physical_file: business-english/making-decisions-in-english/index.md
+- id: BUS021
+  type: business_article
+  title: 'Presentations in English: come iniziare, spiegare e concludere'
+  registry_url: /business-english/presentations-in-english/
+  physical_file: business-english/presentations-in-english/index.md
+- id: BUS022
+  type: business_article
+  title: 'Customer and Client English: parlare con clienti in modo naturale'
+  registry_url: /business-english/customer-client-english/
+  physical_file: business-english/customer-client-english/index.md
+- id: BUS023
+  type: business_article
+  title: 'Business Calls and Video Meetings: comunicare online senza bloccarsi'
+  registry_url: /business-english/business-calls-video-meetings/
+  physical_file: business-english/business-calls-video-meetings/index.md
+- id: BUS024
+  type: business_article
+  title: 'Networking in English: presentarsi, fare domande e mantenere il contatto'
+  registry_url: /business-english/networking-in-english/
+  physical_file: business-english/networking-in-english/index.md
+- id: BUS025
+  type: business_article
+  title: 'Job Interviews in English: parlare di esperienza, competenze e motivazione'
+  registry_url: /business-english/job-interviews-in-english/
+  physical_file: business-english/job-interviews-in-english/index.md
+- id: BUS026
+  type: business_article
+  title: 'Business English Complete Guide: tutto l’inglese che ti serve per lavorare'
+  registry_url: /business-english/guida-completa/
+  physical_file: business-english/guida-completa/index.md
+- id: CUL001
+  type: culture_article
+  title: 'English & Culture: perché sapere l’inglese non significa solo conoscere
+    le parole'
+  registry_url: /english-culture/inglese-e-cultura/
+  physical_file: english-culture/inglese-e-cultura/index.md
+- id: CUL002
+  type: culture_article
+  title: 'Polite English: perché gli inglesi sembrano usare "please" e "sorry" così
+    spesso'
+  registry_url: /english-culture/polite-english-please-sorry/
+  physical_file: english-culture/polite-english-please-sorry/index.md
+- id: CUL003
+  type: culture_article
+  title: 'Direct vs Indirect English: quanto bisogna essere diretti quando si parla
+    inglese?'
+  registry_url: /english-culture/direct-indirect-english/
+  physical_file: english-culture/direct-indirect-english/index.md
+- id: CUL004
+  type: culture_article
+  title: 'Small Talk in English: perché parlare del tempo è così comune?'
+  registry_url: /english-culture/small-talk-weather/
+  physical_file: english-culture/small-talk-weather/index.md
+- id: CUL005
+  type: culture_article
+  title: 'Personal Questions in English: quali domande sono normali e quali possono
+    sembrare invadenti'
+  registry_url: /english-culture/personal-questions-in-english/
+  physical_file: english-culture/personal-questions-in-english/index.md
+- id: CUL006
+  type: culture_article
+  title: 'Greetings in English: hello, hi, how are you? cosa significano davvero'
+  registry_url: /english-culture/english-greetings/
+  physical_file: english-culture/english-greetings/index.md
+- id: CUL007
+  type: culture_article
+  title: How Are You? Perché spesso non è una vera domanda sulla tua salute
+  registry_url: /english-culture/how-are-you-meaning/
+  physical_file: english-culture/how-are-you-meaning/index.md
+- id: CUL008
+  type: culture_article
+  title: 'Turn-Taking in English: come capire quando parlare e quando aspettare'
+  registry_url: /english-culture/turn-taking-in-english/
+  physical_file: english-culture/turn-taking-in-english/index.md
+- id: CUL009
+  type: culture_article
+  title: 'Expressing Opinions in English: come dire la tua senza sembrare troppo categorico'
+  registry_url: /english-culture/expressing-opinions/
+  physical_file: english-culture/expressing-opinions/index.md
+- id: CUL010
+  type: culture_article
+  title: 'Disagreeing in English: come dire "non sono d’accordo" in modo naturale'
+  registry_url: /english-culture/disagreeing-in-english/
+  physical_file: english-culture/disagreeing-in-english/index.md
+- id: CUL011
+  type: culture_article
+  title: 'Sorry in English: quando significa davvero "scusa" e quando no'
+  registry_url: /english-culture/sorry-in-english/
+  physical_file: english-culture/sorry-in-english/index.md
+- id: CUL012
+  type: culture_article
+  title: 'Thank You in English: come cambia il modo di ringraziare in base al contesto'
+  registry_url: /english-culture/thank-you-in-english/
+  physical_file: english-culture/thank-you-in-english/index.md
+- id: CUL013
+  type: culture_article
+  title: 'Invitations in English: quando "maybe" significa davvero sì o no?'
+  registry_url: /english-culture/invitations-in-english/
+  physical_file: english-culture/invitations-in-english/index.md
+- id: CUL014
+  type: culture_article
+  title: 'Saying No in English: come rifiutare senza sembrare scortesi'
+  registry_url: /english-culture/saying-no-in-english/
+  physical_file: english-culture/saying-no-in-english/index.md
+- id: CUL015
+  type: culture_article
+  title: 'Humour in English: perché alcune battute non funzionano quando le traduciamo
+    dall’italiano'
+  registry_url: /english-culture/humour-in-english/
+  physical_file: english-culture/humour-in-english/index.md
+- id: CUL016
+  type: culture_article
+  title: 'British English and British Culture: quanto conta il contesto culturale?'
+  registry_url: /english-culture/british-english-culture/
+  physical_file: english-culture/british-english-culture/index.md
+- id: CUL017
+  type: culture_article
+  title: 'American English and American Culture: lingua, tono e contesto'
+  registry_url: /english-culture/american-english-culture/
+  physical_file: english-culture/american-english-culture/index.md
+- id: CUL018
+  type: culture_article
+  title: 'Workplace Culture in English: formalità, gerarchie e rapporti tra colleghi'
+  registry_url: /english-culture/workplace-culture-english/
+  physical_file: english-culture/workplace-culture-english/index.md
+- id: CUL019
+  type: culture_article
+  title: 'Everyday Etiquette in English: piccole regole sociali che cambiano il modo
+    di parlare'
+  registry_url: /english-culture/everyday-etiquette-english/
+  physical_file: english-culture/everyday-etiquette-english/index.md
+- id: CUL020
+  type: culture_article
+  title: 'Food, Cafés and Restaurants: la cultura dietro l’inglese che usi a tavola'
+  registry_url: /english-culture/food-cafe-restaurant-culture/
+  physical_file: english-culture/food-cafe-restaurant-culture/index.md
+- id: CUL021
+  type: culture_article
+  title: 'Invited to Someone’s Home: cosa aspettarsi e cosa dire in inglese'
+  registry_url: /english-culture/visiting-someones-home-english/
+  physical_file: english-culture/visiting-someones-home-english/index.md
+- id: CUL022
+  type: culture_article
+  title: 'Festivals and Traditions: quando la cultura cambia il significato delle
+    parole'
+  registry_url: /english-culture/festivals-traditions-english/
+  physical_file: english-culture/festivals-traditions-english/index.md
+- id: CUL023
+  type: culture_article
+  title: 'Cultural Misunderstandings in English: quando la frase è corretta ma qualcosa
+    va storto'
+  registry_url: /english-culture/cultural-misunderstandings/
+  physical_file: english-culture/cultural-misunderstandings/index.md
+- id: CUL024
+  type: culture_article
+  title: 'English & Culture Complete Guide: capire l’inglese attraverso la cultura'
+  registry_url: /english-culture/guida-completa/
+  physical_file: english-culture/guida-completa/index.md
+- id: ADU001
+  type: adult_learning_article
+  title: 'Imparare l’inglese da adulti: perché non devi studiare come a scuola'
+  registry_url: /inglese-da-adulti/imparare-inglese-da-adulti/
+  physical_file: inglese-da-adulti/imparare-inglese-da-adulti/index.md
+- id: ADU002
+  type: adult_learning_article
+  title: Come capire cosa ti serve davvero imparare in inglese
+  registry_url: /inglese-da-adulti/cosa-imparare-in-inglese/
+  physical_file: inglese-da-adulti/cosa-imparare-in-inglese/index.md
+- id: ADU003
+  type: adult_learning_article
+  title: 'Studiare inglese con poco tempo: come costruire una routine sostenibile'
+  registry_url: /inglese-da-adulti/studiare-inglese-con-poco-tempo/
+  physical_file: inglese-da-adulti/studiare-inglese-con-poco-tempo/index.md
+- id: ADU004
+  type: adult_learning_article
+  title: '15 Minuti di Inglese al Giorno: come usarli bene'
+  registry_url: /inglese-da-adulti/15-minuti-di-inglese-al-giorno/
+  physical_file: inglese-da-adulti/15-minuti-di-inglese-al-giorno/index.md
+- id: ADU005
+  type: adult_learning_article
+  title: La routine minima efficace per non perdere l’inglese
+  registry_url: /inglese-da-adulti/routine-minima-inglese/
+  physical_file: inglese-da-adulti/routine-minima-inglese/index.md
+- id: ADU006
+  type: adult_learning_article
+  title: Come inserire l’inglese nella tua giornata senza aggiungere un altro impegno
+  registry_url: /inglese-da-adulti/inglese-nella-vita-quotidiana/
+  physical_file: inglese-da-adulti/inglese-nella-vita-quotidiana/index.md
+- id: ADU007
+  type: adult_learning_article
+  title: Perché dimentichi le parole inglesi e cosa fare al posto di ripeterle soltanto
+  registry_url: /inglese-da-adulti/non-dimenticare-le-parole-inglesi/
+  physical_file: inglese-da-adulti/non-dimenticare-le-parole-inglesi/index.md
+- id: ADU008
+  type: adult_learning_article
+  title: Come imparare parole ed espressioni inglesi attraverso il contesto
+  registry_url: /inglese-da-adulti/imparare-inglese-nel-contesto/
+  physical_file: inglese-da-adulti/imparare-inglese-nel-contesto/index.md
+- id: ADU009
+  type: adult_learning_article
+  title: 'Ripassare l’inglese senza annoiarsi: come distribuire la pratica'
+  registry_url: /inglese-da-adulti/ripassare-inglese/
+  physical_file: inglese-da-adulti/ripassare-inglese/index.md
+- id: ADU010
+  type: adult_learning_article
+  title: 'Studiare non basta: come trasformare la conoscenza dell’inglese in uso reale'
+  registry_url: /inglese-da-adulti/studiare-vs-usare-inglese/
+  physical_file: inglese-da-adulti/studiare-vs-usare-inglese/index.md
+- id: ADU011
+  type: adult_learning_article
+  title: Come iniziare a parlare inglese quando hai paura di sbagliare
+  registry_url: /inglese-da-adulti/parlare-inglese-senza-paura/
+  physical_file: inglese-da-adulti/parlare-inglese-senza-paura/index.md
+- id: ADU012
+  type: adult_learning_article
+  title: 'Parlare da soli in inglese: come trasformare la tua giornata in pratica'
+  registry_url: /inglese-da-adulti/parlare-inglese-da-soli/
+  physical_file: inglese-da-adulti/parlare-inglese-da-soli/index.md
+- id: ADU013
+  type: adult_learning_article
+  title: Come usare mini-dialoghi per diventare più naturali in inglese
+  registry_url: /inglese-da-adulti/imparare-inglese-con-dialoghi/
+  physical_file: inglese-da-adulti/imparare-inglese-con-dialoghi/index.md
+- id: ADU014
+  type: adult_learning_article
+  title: 'Da parola a frase: come imparare l’inglese senza tradurre tutto in italiano'
+  registry_url: /inglese-da-adulti/imparare-inglese-senza-tradurre/
+  physical_file: inglese-da-adulti/imparare-inglese-senza-tradurre/index.md
+- id: ADU015
+  type: adult_learning_article
+  title: Non hai più voglia di studiare inglese? Come riprendere senza ricominciare
+    da zero
+  registry_url: /inglese-da-adulti/riprendere-a-studiare-inglese/
+  physical_file: inglese-da-adulti/riprendere-a-studiare-inglese/index.md
+- id: ADU016
+  type: adult_learning_article
+  title: Come mantenere la costanza nell’inglese quando hai giornate piene
+  registry_url: /inglese-da-adulti/costanza-nello-studio-dellinglese/
+  physical_file: inglese-da-adulti/costanza-nello-studio-dellinglese/index.md
+- id: ADU017
+  type: adult_learning_article
+  title: 'Obiettivi realistici in inglese: cosa puoi migliorare davvero in poche settimane'
+  registry_url: /inglese-da-adulti/obiettivi-realistici-inglese/
+  physical_file: inglese-da-adulti/obiettivi-realistici-inglese/index.md
+- id: ADU018
+  type: adult_learning_article
+  title: '“Capisco l’inglese ma non riesco a parlarlo”: perché succede'
+  registry_url: /inglese-da-adulti/capisco-ma-non-parlo-inglese/
+  physical_file: inglese-da-adulti/capisco-ma-non-parlo-inglese/index.md
+- id: ADU019
+  type: adult_learning_article
+  title: Perché traduci mentalmente dall’italiano e come ridurre questa abitudine
+  registry_url: /inglese-da-adulti/smettere-di-tradurre-mentalmente/
+  physical_file: inglese-da-adulti/smettere-di-tradurre-mentalmente/index.md
+- id: ADU020
+  type: adult_learning_article
+  title: Il perfezionismo ti blocca? Come imparare a comunicare anche facendo errori
+  registry_url: /inglese-da-adulti/perfezionismo-e-inglese/
+  physical_file: inglese-da-adulti/perfezionismo-e-inglese/index.md
+- id: ADU021
+  type: adult_learning_article
+  title: Come scegliere cosa studiare quando non sai da dove cominciare
+  registry_url: /inglese-da-adulti/cosa-studiare-per-prima/
+  physical_file: inglese-da-adulti/cosa-studiare-per-prima/index.md
+- id: ADU022
+  type: adult_learning_article
+  title: Come costruire un percorso di inglese adatto alla tua vita
+  registry_url: /inglese-da-adulti/percorso-personale-inglese/
+  physical_file: inglese-da-adulti/percorso-personale-inglese/index.md
+- id: ADU023
+  type: adult_learning_article
+  title: Come capire se stai davvero migliorando in inglese
+  registry_url: /inglese-da-adulti/misurare-progressi-inglese/
+  physical_file: inglese-da-adulti/misurare-progressi-inglese/index.md
+- id: ADU024
+  type: adult_learning_article
+  title: 'Inglese da adulti: guida completa per imparare e migliorare senza tornare
+    a scuola'
+  registry_url: /inglese-da-adulti/guida-completa/
+  physical_file: inglese-da-adulti/guida-completa/index.md
+- id: BAB001
+  type: babbel_page
+  title: 'Babbel: un percorso strutturato per imparare l’inglese'
+  registry_url: /babbel/
+  physical_file: babbel/index.md
+- id: BAB002
+  type: babbel_page
+  title: Come funziona Babbel? Guida per chi vuole imparare una lingua
+  registry_url: /babbel/come-funziona/
+  physical_file: babbel/come-funziona/index.md
+- id: BAB003
+  type: babbel_page
+  title: Il metodo Babbel per imparare le lingue
+  registry_url: /babbel/metodo/
+  physical_file: babbel/metodo/index.md
+- id: BAB004
+  type: babbel_page
+  title: Imparare l’inglese con Babbel
+  registry_url: /babbel/inglese/
+  physical_file: babbel/inglese/index.md
+- id: BAB005
+  type: babbel_page
+  title: Per chi è Babbel? Come capire se può essere adatto al tuo modo di imparare
+  registry_url: /babbel/per-chi-e/
+  physical_file: babbel/per-chi-e/index.md
+- id: BAB006
+  type: babbel_page
+  title: Come usare Babbel per costruire una routine di inglese
+  registry_url: /babbel/come-usarlo/
+  physical_file: babbel/come-usarlo/index.md
+- id: BAB007
+  type: babbel_page
+  title: 'Babbel FAQ: domande frequenti sull’apprendimento delle lingue'
+  registry_url: /babbel/faq/
+  physical_file: babbel/faq/index.md
+- id: IDX-CONFUSIONS
+  type: confusions_index
+  title: Non sono la stessa cosa!
+  registry_url: /non-sono-la-stessa-cosa/
+  physical_file: non-sono-la-stessa-cosa/index.md
