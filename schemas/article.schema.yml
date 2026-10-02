@@ -1,0 +1,26 @@
+schema_version: '3.0'
+schema_name: Fluente-Mente Physical Page Front Matter
+purpose: Contratto minimo per le pagine fisiche Jekyll materializzate dal content registry.
+required:
+  - content_id
+  - content_type
+  - title
+  - description
+  - permalink
+  - canonical
+  - status
+  - index
+  - follow
+  - sitemap
+  - layout
+rules:
+  one_registry_record_per_physical_page: true
+  physical_path_pattern: '<permalink>/index.md'
+  canonical_must_equal_registry_url: true
+  ids_slugs_urls_are_unique: true
+  planned_content_is_noindex_nofollow: true
+  expression_records_do_not_create_detail_pages: true
+  six_dedicated_indexes: true
+layouts:
+  article: record content pages
+  hub: dedicated indexes and hub-style pages

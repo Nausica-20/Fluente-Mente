@@ -1,0 +1,194 @@
+schema_version: '1.1'
+purpose: Centralized affiliate configuration for Babbel while keeping commercial logic separate from editorial content.
+program:
+  brand: Babbel
+  status: configured_link_pending_program_terms_verification
+  network: Awin
+  publisher_id: '2764918'
+  affiliate_base_url: https://www.awin1.com/awclick.php?gid=322314&mid=9659&awinaffid=2764918&linkid=2038278&clickref=
+  default_landing_url: https://www.awin1.com/awclick.php?gid=322314&mid=9659&awinaffid=2764918&linkid=2038278&clickref=
+  terms_url: CONFIGURE
+  commission_model: CONFIGURE
+  cookie_window: CONFIGURE
+  payout_conditions: CONFIGURE
+  link_id: '2038278'
+  merchant_id: '9659'
+  group_id: '322314'
+  clickref: ''
+tracking:
+  enabled: true
+  method: subid_or_network_tracking_parameter
+  content_parameter: content_id
+  cluster_parameter: cluster
+  topic_parameter: topic_id
+  cta_parameter: cta_id
+  pin_parameter: pin_id
+  path_parameter: path_id
+  utm:
+    source: pinterest
+    medium: social
+    campaign: babbel_affiliate
+    content: dynamic
+  rules:
+    one_stable_content_id_per_article: true
+    do_not_insert_personal_data: true
+    keep_tracking_parameters_consistent: true
+    document_parameter_naming: true
+disclosure:
+  required: true
+  short_label: Link affiliato
+  short_text: Questo contenuto può contenere link affiliati.
+  standard_text: Alcuni link presenti sul sito sono link affiliati. Se acquisti tramite uno di questi link, potremmo ricevere
+    una commissione senza costi aggiuntivi per te.
+  placement:
+  - near_first_affiliate_link_when_appropriate
+  - affiliate_content_header_or_intro
+  - site_footer
+  do_not:
+  - hide_the_affiliate_nature_of_the_link
+  - claim_neutrality_when_content_is_commercial
+  - imply_endorsement_not_supported_by_current_terms
+  site_specific_note: Affiliate link provided by the site owner; current commercial terms, commission and cookie window still
+    require verification from Awin/Babbel documentation before publication.
+commercial_content_policy:
+  principles:
+    education_before_conversion: true
+    user_fit_before_sale: true
+    honest_pros_and_cons: true
+    no_fake_urgency: true
+    no_unverified_discount_claims: true
+    no_guaranteed_results: true
+    no_negative_competitor_claims_without_evidence: true
+  content_roles:
+    informational:
+      affiliate_link: optional
+      primary_goal: help_user
+      recommended_cta: soft_or_learning
+    learning:
+      affiliate_link: contextual
+      primary_goal: progress
+      recommended_cta: learning_first
+    comparison:
+      affiliate_link: allowed
+      primary_goal: decision_support
+      recommended_cta: decision
+    commercial:
+      affiliate_link: primary
+      primary_goal: qualified_conversion
+      recommended_cta: commercial
+placement:
+  rules:
+    do_not_place_babbel_cta_on_every_page: true
+    match_cta_to_intent: true
+    keep_affiliate_ctas_contextual: true
+    avoid_interstitial_pressure: true
+    provide_non_affiliate_learning_links: true
+  recommended_locations:
+  - after_problem_solution_section
+  - after_method_comparison_section
+  - end_of_commercial_article
+  - learning_path_next_step_module
+  avoid_locations:
+  - before_the_user_receives_any_value
+  - inside_unrelated_definitions
+  - repeated_immediately_in_multiple_blocks
+affiliate_cta_policy:
+  default_primary_cta: CTA-007
+  decision_cta: CTA-009
+  comparison_cta: CTA-011
+  soft_next_step_cta: CTA-008
+  direct_offer_cta: CTA-010
+  max_affiliate_ctas_per_standard_article: 2
+  max_affiliate_ctas_per_commercial_article: 3
+link_templates:
+  babbel_landing:
+    id: AFF-LINK-001
+    destination: https://www.awin1.com/awclick.php?gid=322314&mid=9659&awinaffid=2764918&linkid=2038278&clickref=
+    rel: sponsored
+    html: <a rel="sponsored" href="https://www.awin1.com/awclick.php?gid=322314&mid=9659&awinaffid=2764918&linkid=2038278&clickref=">Quale
+      lingua vorresti parlare? Prova subito Babbel e impara la lingua che hai sempre sognato di parlare!</a>
+    tracking_template: Use the provided Awin link; do not rewrite its core parameters.
+  babbel_comparison:
+    id: AFF-LINK-002
+    destination: https://www.awin1.com/awclick.php?gid=322314&mid=9659&awinaffid=2764918&linkid=2038278&clickref=
+    rel: sponsored
+    html: <a rel="sponsored" href="https://www.awin1.com/awclick.php?gid=322314&mid=9659&awinaffid=2764918&linkid=2038278&clickref=">Quale
+      lingua vorresti parlare? Prova subito Babbel e impara la lingua che hai sempre sognato di parlare!</a>
+    tracking_template: Use the provided Awin link unless a dedicated comparison destination is supplied.
+measurement:
+  primary_kpis:
+  - affiliate_clicks
+  - affiliate_click_rate
+  - qualified_outbound_click_rate
+  - conversion_rate
+  - revenue_per_visitor
+  secondary_kpis:
+  - top_affiliate_pages
+  - top_affiliate_ctas
+  - top_pinterest_content
+  - conversion_by_learning_path
+  - conversion_by_level
+  minimum_dimensions:
+  - content_id
+  - cluster
+  - topic_id
+  - path_id
+  - cta_id
+  - pin_id
+  - landing_page
+content_mapping:
+  commercial_priority:
+  - BA-001
+  - BA-002
+  - BA-003
+  - BA-004
+  - BA-005
+  - BA-006
+  - BA-007
+  - BA-008
+  - BA-009
+  - BA-010
+  - BA-011
+  - BA-012
+  - CN-003
+  - CN-004
+  - CN-005
+  - CN-008
+  contextual_priority:
+  - LS-003
+  - LS-005
+  - LS-013
+  - LS-015
+  - LS-019
+  - LS-020
+  - UE-001
+  - UE-005
+  - UE-009
+  - UE-016
+  - TR-001
+  - TR-005
+  - TR-009
+  - WE-001
+  - WE-005
+  no_default_affiliate_cta:
+  - UE2-005
+  - UE2-006
+  - UE2-007
+  - UE2-008
+  - BE-006
+  - BE-007
+  - BE-008
+launch_checklist:
+- Inserire il network affiliate effettivamente utilizzato.
+- Inserire publisher ID e URL affiliato ufficiali.
+- Verificare commissioni, cookie window e termini attuali del programma.
+- Testare ogni link affiliato in ambiente reale.
+- Verificare disclosure e privacy/cookie requirements applicabili.
+- Definire il formato definitivo dei parametri di tracking.
+- Verificare che i report del network permettano di attribuire almeno content_id e cta_id.
+- Non pubblicare claim su prezzi, sconti, offerte o commissioni finché non sono verificati.
+site:
+  name: Fluente-Mente
+  language: it
+  market: IT
+  base_url: https://nausica-20.github.io/fluente-mente/

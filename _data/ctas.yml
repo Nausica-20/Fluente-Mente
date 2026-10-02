@@ -1,0 +1,189 @@
+schema_version: '1.1'
+purpose: Centralized CTA system for editorial progression and Babbel affiliate conversion.
+rules:
+  cta_is_referenced_by_id: true
+  content_should_not_duplicate_cta_copy: true
+  one_primary_cta_per_content: true
+  secondary_ctas_are_optional: true
+  educational_content_prefers_learning_ctas: true
+  commercial_ctas_are_used_only_when_relevant: true
+  no_aggressive_cta_on_low_intent_content: true
+  babbel_ctas_require_affiliate_disclosure: true
+  cta_must_match_user_intent: true
+cta_roles:
+  learn: Portare l'utente a un contenuto utile per imparare.
+  progress: Portare l'utente al passo successivo di un learning path.
+  discover: Far scoprire una risorsa o un contenuto correlato.
+  compare: Aiutare l'utente a confrontare metodi o strumenti.
+  commercial: Portare l'utente verso una pagina o offerta Babbel.
+  decision: Aiutare l'utente a decidere se Babbel è adatto.
+placement_rules:
+  inline: CTA contestuale inserita vicino al punto in cui emerge il bisogno.
+  mid_content: CTA dopo una sezione che crea sufficiente valore o consapevolezza.
+  end_content: CTA principale al termine dell'articolo.
+  path_module: CTA che introduce il passo successivo del percorso.
+  commercial_module: Blocco separato per contenuti con intento commerciale.
+ctas:
+- cta_id: CTA-001
+  role: learn
+  name: Continue learning
+  primary_copy: Continua con il prossimo passo
+  supporting_copy: Passa a un contenuto pratico collegato a quello che hai appena imparato.
+  destination_type: learning_path_step
+  affiliate: false
+  slug: continue-learning
+- cta_id: CTA-002
+  role: learn
+  name: Explore related English
+  primary_copy: Approfondisci questo inglese
+  supporting_copy: Scopri un'altra situazione in cui puoi usare la stessa competenza.
+  destination_type: related_content
+  affiliate: false
+  slug: explore-related-english
+- cta_id: CTA-003
+  role: progress
+  name: Follow the path
+  primary_copy: Segui il percorso
+  supporting_copy: Metti in ordine quello che stai imparando e continua dal passo successivo.
+  destination_type: learning_path
+  affiliate: false
+  slug: follow-the-path
+- cta_id: CTA-004
+  role: discover
+  name: See the full guide
+  primary_copy: Guarda la guida completa
+  supporting_copy: Trova tutte le espressioni e situazioni collegate in un'unica risorsa.
+  destination_type: pillar_or_reference
+  affiliate: false
+  slug: see-the-full-guide
+- cta_id: CTA-005
+  role: progress
+  name: Practice the skill
+  primary_copy: Metti in pratica questa competenza
+  supporting_copy: Passa a una situazione reale e usa quello che hai appena imparato.
+  destination_type: real_life_content
+  affiliate: false
+  slug: practice-the-skill
+- cta_id: CTA-006
+  role: compare
+  name: Choose your method
+  primary_copy: Confronta i modi per imparare inglese
+  supporting_copy: Scopri quale approccio può funzionare meglio per il tuo obiettivo e il tempo che hai.
+  destination_type: decision_content
+  affiliate: false
+  slug: choose-your-method
+- cta_id: CTA-007
+  role: commercial
+  name: Discover Babbel
+  primary_copy: Scopri Babbel
+  supporting_copy: Guarda come funziona Babbel e valuta se può adattarsi al tuo modo di studiare.
+  destination_type: babbel_landing
+  affiliate: true
+  affiliate_disclosure_required: true
+  recommended_intent:
+  - commercial
+  - comparison
+  slug: discover-babbel
+- cta_id: CTA-008
+  role: commercial
+  name: Try Babbel as a next step
+  primary_copy: Scopri se Babbel può essere il tuo prossimo passo
+  supporting_copy: Un'opzione da valutare per costruire una pratica più regolare e strutturata.
+  destination_type: babbel_landing
+  affiliate: true
+  affiliate_disclosure_required: true
+  recommended_intent:
+  - learning
+  - commercial
+  slug: try-babbel-as-a-next-step
+- cta_id: CTA-009
+  role: decision
+  name: Is Babbel right for you?
+  primary_copy: Babbel fa per te?
+  supporting_copy: Confronta caratteristiche, obiettivi e modo di studiare prima di decidere.
+  destination_type: babbel_decision_content
+  affiliate: true
+  affiliate_disclosure_required: true
+  recommended_intent:
+  - comparison
+  - commercial
+  slug: is-babbel-right-for-you
+- cta_id: CTA-010
+  role: commercial
+  name: See Babbel options
+  primary_copy: Guarda le opzioni Babbel
+  supporting_copy: Vai alla pagina Babbel per vedere le opzioni disponibili.
+  destination_type: babbel_affiliate_link
+  affiliate: true
+  affiliate_disclosure_required: true
+  recommended_intent:
+  - commercial
+  slug: see-babbel-options
+- cta_id: CTA-011
+  role: decision
+  name: Babbel vs self study
+  primary_copy: Babbel o self-study?
+  supporting_copy: Confronta i due approcci in base a struttura, autonomia e continuità.
+  destination_type: comparison_content
+  affiliate: true
+  affiliate_disclosure_required: true
+  recommended_intent:
+  - comparison
+  - commercial
+  slug: babbel-vs-self-study
+- cta_id: CTA-012
+  role: progress
+  name: Start your next lesson
+  primary_copy: Inizia il prossimo passo
+  supporting_copy: Continua il percorso con una micro-competenza collegata.
+  destination_type: next_content
+  affiliate: false
+  slug: start-your-next-lesson
+funnel_policy:
+  discovery_content:
+    preferred_cta_roles:
+    - learn
+    - discover
+    - progress
+    commercial_cta: avoid_by_default
+  learning_content:
+    preferred_cta_roles:
+    - progress
+    - learn
+    - discover
+    commercial_cta: contextual_only
+  problem_solution_content:
+    preferred_cta_roles:
+    - learn
+    - progress
+    commercial_cta: optional_when_method_is_relevant
+  comparison_content:
+    preferred_cta_roles:
+    - compare
+    - decision
+    commercial_cta: allowed
+  commercial_content:
+    preferred_cta_roles:
+    - decision
+    - commercial
+    commercial_cta: primary
+affiliate_disclosure:
+  required_on_affiliate_ctas: true
+  short_label: Link affiliato
+  recommended_footer_note: Alcuni link presenti sul sito possono essere link affiliati. Potremmo ricevere una commissione
+    se acquisti tramite questi link, senza costi aggiuntivi per te.
+site:
+  name: Fluente-Mente
+  language: it
+  market: IT
+legacy_aliases:
+  next_learning_step: CTA-001
+  learning_progression: CTA-003
+  travel_learning_path: CTA-003
+  work_english_path: CTA-003
+  commercial_next_step: CTA-008
+  learning_method_guide: CTA-006
+  level_learning_path: CTA-003
+  method_comparison: CTA-011
+  app_comparison: CTA-011
+  babbel_primary: CTA-007

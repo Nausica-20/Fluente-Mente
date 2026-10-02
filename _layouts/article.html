@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<main id="main-content" class="page article-page">
+  {% include breadcrumbs.html %}
+  <div class="container article-container">
+    {% include article-header.html %}
+    <div class="article-main">
+      {% if page.toc %}
+        <div class="article-toc article-toc-inline" aria-label="Indice dell'articolo">
+          <h2>In questo articolo</h2>
+          {% include toc.html html=content %}
+        </div>
+      {% endif %}
+      {% include article-body.html %}
+      {% include continue-learning.html %}
+      {% if page.babbel.enabled and page.babbel.cta_level != 'none' %}
+        {% include babbel-cta.html %}
+      {% endif %}
+    </div>
+  </div>
+</main>

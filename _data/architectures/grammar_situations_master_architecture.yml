@@ -1,0 +1,1823 @@
+schema_version: '1.0'
+project: Fluente-Mente
+architecture_type: master_editorial_architecture
+content_type: grammar_article
+series:
+  id: situational_grammar
+  name_it: Grammatica situazionale
+  name_en: Situational Grammar
+  purpose: Insegnare un punto grammaticale principale attraverso una situazione comunicativa concreta, con esempi naturali,
+    errori tipici italiani e pratica guidata.
+  total_grammar_units: 52
+  total_publishable_articles: 52
+  canonical_model: one_grammar_unit -> one_grammar_article
+source_of_truth:
+  grammar_architecture: _data/situational_grammar.yml
+  situation_architecture: _data/situational.yml
+  content_mapping: _data/content_mapping.yml
+  expression_database: _data/expressions_001-365_clean.yml
+  daily_pills: _data/daily_pills.yml
+  content_registry: _data/content_registry.yml
+  front_matter_source: _data/grammar_articles_front_matter.yml
+mission:
+  primary_promise: Capire una struttura grammaticale perché serve in una situazione reale e riuscire a usarla.
+  learner_profile: Italian-speaking learners from A2 to B2 who want practical, natural English.
+  editorial_language: Italian
+  target_language: Natural English
+  learning_style:
+  - context-first
+  - function-first
+  - natural-not-textbook
+  - practical
+  - pattern-based
+  - guided-practice
+  core_question: Quale grammatica mi serve per comunicare correttamente e naturalmente in questa situazione?
+core_rules:
+  one_grammar_unit_one_article: true
+  one_primary_grammar_point_per_article: true
+  one_primary_situation_per_article: true
+  grammar_is_taught_through_use: true
+  context_before_rule: true
+  function_before_terminology_when_helpful: true
+  natural_english_over_textbook_english: true
+  italian_transfer_errors_are_explicit: true
+  mapped_situation_is_required: true
+  mapped_pills_are_reused_not_duplicated: true
+  mapped_expressions_are_reused_not_duplicated: true
+  no_standalone_generic_grammar_rubric: true
+  no_audio: true
+  no_pronunciation_section: true
+  babbel_is_secondary_cta: true
+url_architecture:
+  index_url: /grammar/
+  article_url_pattern: /grammar/{grammar_slug}/
+  permalink_rule: stable, lowercase, hyphenated, descriptive and unique
+  canonical_rule: each grammar article self-canonicalizes to its own permalink
+  article_slug_rule: grammar/{source_grammar_slug}
+standard_front_matter:
+  required_jekyll_fields:
+  - layout
+  - title
+  - description
+  - slug
+  - permalink
+  - published
+  - language
+  - level
+  required_grammar_fields:
+  - grammar.id
+  - grammar.slug
+  - grammar.title
+  - grammar.title_it
+  - grammar.grammar_point
+  - grammar.communicative_function
+  - grammar.article_slug
+  required_situation_fields:
+  - situations.primary_id
+  - situations.primary_ids
+  - situations.urls
+  required_target_language_fields:
+  - target_language.core_patterns
+  - target_language.natural_examples
+  - target_language.italian_traps
+  required_learning_design_fields:
+  - learning_design.method
+  - learning_design.focus
+  - learning_design.rule_first
+  - learning_design.context_first
+  - learning_design.natural_english
+  - learning_design.italian_learner_focus
+  - learning_design.audio
+  - learning_design.pronunciation_focus
+  required_article_spec_fields:
+  - article_spec.required_sections
+  - article_spec.explanation_style
+  - article_spec.grammar_tables
+  - article_spec.examples_minimum
+  - article_spec.mini_dialogue_turns
+  - article_spec.guided_practice_exercises
+  - article_spec.mini_quiz_questions
+  - article_spec.textbook_vs_natural_examples
+  required_linking_fields:
+  - related_content.situation_ids
+  - related_content.expression_ids
+  - related_content.pill_days
+  required_seo_fields:
+  - seo.primary_keyword
+  - seo.secondary_keywords
+  - seo.meta_title
+  - seo.meta_description
+  - seo.excerpt
+  - seo.canonical
+  required_commercial_fields:
+  - cta_profile
+  - funnel_stage
+  - babbel_cta.enabled
+  - babbel_cta.position
+  - babbel_cta.disclosure_required
+standard_learning_design:
+  method: 'Situational grammar: explain the grammar through communicative use'
+  rule_first: false
+  context_first: true
+  natural_english: true
+  italian_learner_focus: true
+  audio: false
+  pronunciation_focus: false
+  focus:
+  - understand the grammar point
+  - see when and why native speakers use it
+  - connect form to communicative function
+  - avoid common Italian transfer mistakes
+  - produce the structure in a realistic context
+standard_article_spec:
+  required_sections:
+  - title
+  - intro
+  - why_this_grammar_matters
+  - situation_context
+  - meaning_and_form
+  - core_pattern
+  - natural_examples
+  - textbook_vs_natural
+  - italian_traps
+  - mini_dialogue
+  - guided_practice
+  - mini_quiz
+  - situation_link
+  - related_pills
+  - related_articles
+  - babbel_cta
+  explanation_style: short explanations + practical examples
+  grammar_tables: true
+  examples_minimum: 8
+  mini_dialogue_turns: 6-8
+  guided_practice_exercises: 4
+  mini_quiz_questions: 3
+  textbook_vs_natural_examples: 3
+  italian_traps_minimum: 3
+  related_daily_pills: use all mapped pill days
+  related_situation_article: true
+grammar_teaching_model:
+  sequence:
+  - real communicative context
+  - notice the pattern
+  - explain meaning/function
+  - show form
+  - contrast with common alternative when useful
+  - highlight Italian trap
+  - controlled practice
+  - personalized production
+  rule: The article must never begin as an abstract grammar chapter detached from the situation.
+  tables: Use concise tables when they clarify form; never replace contextual explanation with tables alone.
+language_model:
+  core_patterns: Use the exact source core_patterns as the primary model sentences.
+  natural_examples: Use the exact source natural_examples as anchors and add only contextually coherent examples.
+  italian_traps: Preserve the source Italian traps and explain them in the article.
+  supporting_language: Use supporting vocabulary/expressions only when needed to perform the target communicative function.
+  exposure_language: Natural contextual language may appear without becoming a new grammar focus.
+textbook_vs_natural:
+  required: true
+  examples: 3
+  purpose: Show a meaningful register, formulation or usage contrast relevant to the grammar point.
+  rules:
+  - Do not call a grammatically correct sentence wrong merely because another form is more conversational.
+  - Explain when each form is appropriate.
+  - Keep every example tied to the primary situation.
+mini_dialogue:
+  required: true
+  turns: 6-8
+  purpose: Make the grammar point visible inside the target situation.
+  rules:
+  - Use the target pattern naturally.
+  - Do not insert unnatural lines just to display the grammar.
+  - Keep the dialogue consistent with the assigned CEFR level.
+guided_practice:
+  required: true
+  exercise_count: 4
+  recommended_formats:
+  - choose the correct form in context
+  - complete a realistic exchange
+  - correct a common Italian-transfer error
+  - produce a short response using the target pattern
+mini_quiz:
+  required: true
+  questions: 3
+  purpose: Check recognition and appropriate use of the target grammar.
+relationship_architecture:
+  situations:
+    role: Primary communicative context.
+    rule: One primary situation is required and should be visibly linked.
+    link: /situations/{situation_slug}/
+  daily_pills:
+    role: Micro-language reinforcement.
+    rule: Link all mapped pill days where available; do not create duplicate pills.
+  expressions:
+    role: Language data layer.
+    rule: Link mapped expressions when relevant; expression entities remain data-only.
+  non_sono_la_stessa_cosa:
+    role: Contrastive support.
+    rule: Link only if a word/expression distinction materially helps the grammar lesson.
+  travel_english:
+    role: Domain expansion when the mapped situation is travel-related.
+    rule: Grammar teaches the structure; Travel English teaches the broader travel domain.
+  business_english:
+    role: Domain expansion when the mapped situation is workplace-related.
+    rule: Grammar teaches the structure; Business English teaches the professional domain.
+  english_culture:
+    role: Pragmatic/cultural expansion.
+    rule: Link only when context, tone or cultural expectation affects the grammar's use.
+  inglese_da_adulti:
+    role: Learning-method support.
+    rule: Link only when a learning-strategy article genuinely helps the learner use the grammar.
+anti_overlap_rules:
+  situations: Situation article teaches the whole interaction; Grammar article isolates one primary grammar point needed within
+    it.
+  daily_pills: Pill teaches one expression; Grammar article teaches a structure/function.
+  expressions: Expression database records language entities; Grammar article uses them as examples.
+  confusions: Confusion article compares similar language items; Grammar article explains structural form/use.
+  travel: Travel is domain-focused; grammar remains structure/function-focused.
+  business: Business is domain-focused; grammar remains structure/function-focused.
+  culture: Culture explains pragmatic context; grammar explains form/use.
+  adult_learning: Adult Learning explains how to learn; Grammar explains what structure to use and why.
+seo_rules:
+  one_primary_intent: true
+  primary_keyword_rule: Target the learner's grammar/use question expressed naturally in Italian.
+  secondary_keywords: Stay within the same grammar intent; do not create competing pages for minor variants.
+  meta_title: Grammar point + clear practical context.
+  meta_description: Explain that the learner will learn the grammar through a real situation with examples and practice.
+  canonical: Self-canonical to the grammar article URL.
+  indexing: Publishable and indexable unless explicit site QA says otherwise.
+pinterest_rules:
+  role: Drive qualified traffic to the canonical grammar article.
+  recommended_angles:
+  - common grammar mistake for Italians
+  - grammar in a real situation
+  - natural English pattern
+  - grammar explained with dialogue
+  - Italian vs English usage difference
+  destination: Canonical grammar article.
+babbel_cta:
+  role: Secondary commercial layer.
+  position: end_of_article
+  profile: solution_soft
+  disclosure_required: true
+  rules:
+  - No unverified pricing.
+  - No unverified discounts or offers.
+  - No guaranteed outcomes.
+  - Do not interrupt the grammar lesson.
+  - Verify current commercial details before publication.
+writing_prompt_contract:
+  input_required:
+  - one GRAM record
+  - primary SIT record
+  - mapped Daily Pill days
+  - mapped expression records
+  - related grammar IDs
+  - site SEO rules
+  - Babbel CTA configuration
+  writer_must:
+  - preserve GRAM ID, title, title_it, level and source slug
+  - preserve the canonical permalink /grammar/{slug}/
+  - teach exactly one primary grammar point
+  - show the grammar in the mapped situation
+  - use the supplied core_patterns and natural_examples
+  - explain the supplied Italian traps
+  - include a 6-8 turn mini-dialogue
+  - include at least 8 examples
+  - include 3 meaningful textbook-vs-natural contrasts
+  - include 4 guided-practice exercises
+  - include a 3-question mini-quiz
+  - link the mapped situation and relevant Pills
+  - finish with the configured soft Babbel CTA and disclosure
+  writer_must_not:
+  - change the grammar identity or permalink
+  - teach multiple competing primary grammar points
+  - turn the article into a generic grammar textbook chapter
+  - invent a new grammar article for every sub-rule
+  - create expression detail pages
+  - duplicate the mapped situation article
+  - add audio/pronunciation sections
+  - force unrelated vertical links
+  - invent Babbel offers or commercial claims
+quality_assurance:
+  pre_publish_checks:
+  - Exactly one primary grammar point is taught.
+  - GRAM ID and source slug are preserved.
+  - Permalink matches /grammar/{slug}/.
+  - Primary situation is explicit.
+  - CEFR level matches the source.
+  - Core patterns are used correctly.
+  - Natural examples are accurate and contextual.
+  - At least 8 examples are present.
+  - Mini-dialogue is 6-8 turns.
+  - Three textbook-vs-natural contrasts are meaningful.
+  - At least 3 Italian traps are addressed.
+  - Four guided-practice exercises are present.
+  - Three mini-quiz questions are present.
+  - Related mapped Pills are linked.
+  - Situation article is linked.
+  - SEO metadata is complete.
+  - Babbel CTA/disclosure follows configuration.
+  - No duplicate grammar route is created.
+  - No audio/pronunciation section is introduced.
+  status_flow:
+  - planned
+  - brief_ready
+  - drafting
+  - draft_ready
+  - review
+  - approved
+  - published
+  - needs_update
+  - archived
+grammar_units:
+- id: GRAM001
+  slug: asking-simple-questions-naturally
+  title: How to Ask Simple Questions Naturally
+  title_it: Come formulare domande semplici in modo naturale
+  level: A2
+  grammar_point: Question formation
+  communicative_function: asking for personal information and keeping a basic conversation going
+  situation_ids:
+  - SIT001
+  expression_ids: []
+  core_patterns:
+  - Where do you live?
+  - What do you do?
+  - How long have you been here?
+  natural_examples:
+  - Where do you live?
+  - What do you do?
+  italian_traps:
+  - 'Dimenticare l''ausiliare: ''Where you live?'''
+  - Usare 'what is your job?' quando 'What do you do?' è più naturale
+  practice_format: situational_practice
+  article_slug: grammar/asking-simple-questions-naturally
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/asking-simple-questions-naturally/
+  canonical: /grammar/asking-simple-questions-naturally/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT001
+- id: GRAM002
+  slug: do-and-be-questions-in-small-talk
+  title: Do and Be Questions in Small Talk
+  title_it: Domande con do e be nelle small talk
+  level: A2
+  grammar_point: Do / be question formation
+  communicative_function: asking about routines, states and everyday facts
+  situation_ids:
+  - SIT002
+  expression_ids: []
+  core_patterns:
+  - Do you work here?
+  - Are you from around here?
+  - Do you usually come here?
+  natural_examples:
+  - Are you from here?
+  - Do you come here often?
+  italian_traps:
+  - Confondere 'Are you...?' e 'Do you...?'
+  - Usare 'Are you live...?' invece di 'Do you live...?'
+  practice_format: situational_practice
+  article_slug: grammar/do-and-be-questions-in-small-talk
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/do-and-be-questions-in-small-talk/
+  canonical: /grammar/do-and-be-questions-in-small-talk/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT002
+- id: GRAM003
+  slug: present-simple-for-talking-about-yourself
+  title: Present Simple for Talking About Yourself
+  title_it: Il Present Simple per parlare di sé
+  level: A2
+  grammar_point: Present simple
+  communicative_function: describing facts, routines and interests
+  situation_ids:
+  - SIT003
+  expression_ids: []
+  core_patterns:
+  - I live in Milan.
+  - I work from home.
+  - I usually go out on Fridays.
+  natural_examples:
+  - I work in marketing.
+  - I love cooking.
+  italian_traps:
+  - Usare sempre il presente progressivo per fatti stabili
+  - Dimenticare la -s alla terza persona
+  practice_format: situational_practice
+  article_slug: grammar/present-simple-for-talking-about-yourself
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/present-simple-for-talking-about-yourself/
+  canonical: /grammar/present-simple-for-talking-about-yourself/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT003
+- id: GRAM004
+  slug: past-simple-for-talking-about-your-weekend
+  title: Past Simple for Talking About Your Weekend
+  title_it: Il Past Simple per raccontare il weekend
+  level: A2-B1
+  grammar_point: Past simple
+  communicative_function: talking about completed past events
+  situation_ids:
+  - SIT004
+  expression_ids: []
+  core_patterns:
+  - I went to...
+  - We stayed in...
+  - Did you do anything?
+  natural_examples:
+  - I went out with some friends.
+  - We watched a movie.
+  italian_traps:
+  - Usare 'have gone' per eventi completati
+  - Dimenticare il passato dei verbi irregolari
+  practice_format: situational_practice
+  article_slug: grammar/past-simple-for-talking-about-your-weekend
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/past-simple-for-talking-about-your-weekend/
+  canonical: /grammar/past-simple-for-talking-about-your-weekend/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT004
+- id: GRAM005
+  slug: like-love-hate-ing
+  title: Like, Love, Hate + -ing
+  title_it: Like, love e hate + forma in -ing
+  level: A2-B1
+  grammar_point: Verb patterns
+  communicative_function: talking naturally about hobbies and preferences
+  situation_ids:
+  - SIT005
+  expression_ids: []
+  core_patterns:
+  - I like cooking.
+  - I love going out.
+  - I hate getting up early.
+  natural_examples:
+  - I really enjoy cooking.
+  - I don't mind staying in.
+  italian_traps:
+  - Confondere 'I like' con 'I'm like'
+  - Usare una struttura poco naturale dopo 'enjoy'
+  practice_format: situational_practice
+  article_slug: grammar/like-love-hate-ing
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/like-love-hate-ing/
+  canonical: /grammar/like-love-hate-ing/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT005
+- id: GRAM006
+  slug: present-continuous-for-future-arrangements
+  title: Present Continuous for Future Arrangements
+  title_it: Il Present Continuous per programmi futuri
+  level: A2-B1
+  grammar_point: Present continuous for future
+  communicative_function: talking about fixed or arranged future plans
+  situation_ids:
+  - SIT006
+  expression_ids: []
+  core_patterns:
+  - I'm meeting Anna tonight.
+  - We're going out on Saturday.
+  natural_examples:
+  - I'm seeing some friends tonight.
+  italian_traps:
+  - Usare solo 'will' per tutti i programmi
+  - Confondere intenzioni generiche e appuntamenti già organizzati
+  practice_format: situational_practice
+  article_slug: grammar/present-continuous-for-future-arrangements
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/present-continuous-for-future-arrangements/
+  canonical: /grammar/present-continuous-for-future-arrangements/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT006
+- id: GRAM007
+  slug: would-you-like-for-invitations
+  title: Would You Like...? for Invitations
+  title_it: Would you like...? per gli inviti
+  level: A2-B1
+  grammar_point: Would you like
+  communicative_function: inviting someone and making an offer naturally
+  situation_ids:
+  - SIT007
+  expression_ids: []
+  core_patterns:
+  - Would you like to come?
+  - Would you like to grab a coffee?
+  natural_examples:
+  - Do you want to grab a coffee?
+  - Would you like to join us?
+  italian_traps:
+  - Tradurre sempre 'Vuoi...?' con 'Do you want...?'
+  - Non distinguere invito e proposta
+  practice_format: situational_practice
+  article_slug: grammar/would-you-like-for-invitations
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/would-you-like-for-invitations/
+  canonical: /grammar/would-you-like-for-invitations/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT007
+- id: GRAM008
+  slug: can-could-would-for-polite-requests
+  title: Can, Could and Would for Polite Requests
+  title_it: Can, could e would nelle richieste educate
+  level: A2-B1
+  grammar_point: Modal verbs for requests
+  communicative_function: asking for things without sounding abrupt
+  situation_ids:
+  - SIT008
+  expression_ids: []
+  core_patterns:
+  - Can you...?
+  - Could you...?
+  - Would you mind...?
+  natural_examples:
+  - Could you send it to me?
+  - Would you mind helping me?
+  italian_traps:
+  - Usare 'Can you...' come unica forma in ogni registro
+  - Dimenticare la struttura dopo 'Would you mind'
+  practice_format: situational_practice
+  article_slug: grammar/can-could-would-for-polite-requests
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/can-could-would-for-polite-requests/
+  canonical: /grammar/can-could-would-for-polite-requests/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT008
+- id: GRAM009
+  slug: going-to-vs-present-continuous
+  title: Going to vs Present Continuous for Plans
+  title_it: Going to vs Present Continuous per i programmi
+  level: B1
+  grammar_point: Future forms
+  communicative_function: distinguishing intentions from arrangements
+  situation_ids:
+  - SIT009
+  expression_ids: []
+  core_patterns:
+  - I'm going to stay home.
+  - I'm meeting Jack at seven.
+  natural_examples:
+  - I'm going to look for a new job.
+  - I'm meeting my manager tomorrow.
+  italian_traps:
+  - Usare le due forme come sinonimi perfetti
+  - Usare 'going to' per un accordo già fissato senza contesto
+  practice_format: situational_practice
+  article_slug: grammar/going-to-vs-present-continuous
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/going-to-vs-present-continuous/
+  canonical: /grammar/going-to-vs-present-continuous/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT009
+- id: GRAM010
+  slug: question-tags-and-short-responses
+  title: Question Tags and Short Responses
+  title_it: Question tags e risposte brevi
+  level: B1
+  grammar_point: Question tags
+  communicative_function: keeping conversations interactive and showing agreement
+  situation_ids:
+  - SIT010
+  expression_ids: []
+  core_patterns:
+  - Nice place, isn't it?
+  - You haven't been here before, have you?
+  natural_examples:
+  - It's a bit cold, isn't it?
+  - You know her, don't you?
+  italian_traps:
+  - Tradurre meccanicamente il tag dall'italiano
+  - Rispondere alle domande negative con la logica italiana
+  practice_format: situational_practice
+  article_slug: grammar/question-tags-and-short-responses
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/question-tags-and-short-responses/
+  canonical: /grammar/question-tags-and-short-responses/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT010
+- id: GRAM011
+  slug: can-i-get-and-would-you-like
+  title: Can I Get...? and Would You Like...?
+  title_it: Can I get...? e Would you like...? al bar
+  level: A2
+  grammar_point: Service requests
+  communicative_function: ordering and responding to routine service questions
+  situation_ids:
+  - SIT011
+  expression_ids: []
+  core_patterns:
+  - Can I get a latte, please?
+  - Would you like anything else?
+  natural_examples:
+  - Can I get this to go?
+  - Anything else?
+  italian_traps:
+  - Usare 'I want...' con il personale
+  - Interpretare 'Can I get...?' solo alla lettera
+  practice_format: situational_practice
+  article_slug: grammar/can-i-get-and-would-you-like
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/can-i-get-and-would-you-like/
+  canonical: /grammar/can-i-get-and-would-you-like/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT011
+- id: GRAM012
+  slug: ill-have-vs-id-like
+  title: I'll Have... vs I'd Like...
+  title_it: I'll have... vs I'd like... al ristorante
+  level: A2-B1
+  grammar_point: Would like / will for choice
+  communicative_function: ordering food and making a choice naturally
+  situation_ids:
+  - SIT012
+  expression_ids: []
+  core_patterns:
+  - I'll have the chicken.
+  - I'd like the fish, please.
+  natural_examples:
+  - I'll have the same.
+  - I'd like a table for two.
+  italian_traps:
+  - Usare 'I want the...'
+  - Confondere una scelta fatta sul momento con una richiesta cortese
+  practice_format: situational_practice
+  article_slug: grammar/ill-have-vs-id-like
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/ill-have-vs-id-like/
+  canonical: /grammar/ill-have-vs-id-like/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT012
+- id: GRAM013
+  slug: some-any-no-in-food
+  title: Some, Any and No
+  title_it: Some, any e no parlando di cibo
+  level: A2-B1
+  grammar_point: Quantifiers
+  communicative_function: asking about ingredients and availability
+  situation_ids:
+  - SIT013
+  expression_ids: []
+  core_patterns:
+  - Is there any...?
+  - There are some...
+  - There isn't any...
+  natural_examples:
+  - Is there any cheese in this?
+  - We don't have any left.
+  italian_traps:
+  - Usare 'some' in tutte le interrogative
+  - Usare la doppia negazione
+  practice_format: situational_practice
+  article_slug: grammar/some-any-no-in-food
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/some-any-no-in-food/
+  canonical: /grammar/some-any-no-in-food/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT013
+- id: GRAM014
+  slug: how-much-how-many-and-prices
+  title: How Much, How Many and Prices
+  title_it: How much, how many e i prezzi
+  level: A2
+  grammar_point: Countable / uncountable + questions
+  communicative_function: asking prices, quantities and totals
+  situation_ids:
+  - SIT014
+  expression_ids: []
+  core_patterns:
+  - How much is it?
+  - How many do you need?
+  - How much are these?
+  natural_examples:
+  - How much is this?
+  - How many tickets do we need?
+  italian_traps:
+  - Confondere 'how much' e 'how many'
+  - Usare 'How much costs it?'
+  practice_format: situational_practice
+  article_slug: grammar/how-much-how-many-and-prices
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/how-much-how-many-and-prices/
+  canonical: /grammar/how-much-how-many-and-prices/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT014
+- id: GRAM015
+  slug: countable-and-uncountable-shopping
+  title: Countable and Uncountable Nouns
+  title_it: Countable e uncountable nella spesa
+  level: A2-B1
+  grammar_point: Countable / uncountable nouns
+  communicative_function: talking about quantities and products
+  situation_ids:
+  - SIT015
+  expression_ids: []
+  core_patterns:
+  - a bottle of water
+  - some bread
+  - two apples
+  natural_examples:
+  - a loaf of bread
+  - two bottles of water
+  italian_traps:
+  - Dire 'two breads' quando si intendono due pagnotte
+  - Dimenticare l'unità di misura
+  practice_format: situational_practice
+  article_slug: grammar/countable-and-uncountable-shopping
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/countable-and-uncountable-shopping/
+  canonical: /grammar/countable-and-uncountable-shopping/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT015
+- id: GRAM016
+  slug: this-that-these-those-in-shops
+  title: This, That, These and Those
+  title_it: This, that, these e those nei negozi
+  level: A2
+  grammar_point: Demonstratives
+  communicative_function: pointing to products and distinguishing near/far items
+  situation_ids:
+  - SIT016
+  expression_ids: []
+  core_patterns:
+  - How much is this?
+  - Do you have those in a smaller size?
+  natural_examples:
+  - Can I try this on?
+  - What about those over there?
+  italian_traps:
+  - Confondere singolare e plurale
+  - Usare sempre 'it' quando si indica un oggetto
+  practice_format: situational_practice
+  article_slug: grammar/this-that-these-those-in-shops
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/this-that-these-those-in-shops/
+  canonical: /grammar/this-that-these-those-in-shops/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT016
+- id: GRAM017
+  slug: past-simple-vs-present-perfect-returns
+  title: Past Simple vs Present Perfect for Returns
+  title_it: Past Simple vs Present Perfect per resi e acquisti
+  level: B1
+  grammar_point: Past simple / present perfect
+  communicative_function: explaining what happened and whether it matters now
+  situation_ids:
+  - SIT017
+  expression_ids: []
+  core_patterns:
+  - I bought it last week.
+  - I've lost the receipt.
+  - I've never worn it.
+  natural_examples:
+  - I bought it yesterday.
+  - I've only had it for two days.
+  italian_traps:
+  - Usare il present perfect con un tempo passato finito
+  - Tradurre 'ho perso lo scontrino' sempre con past simple
+  practice_format: situational_practice
+  article_slug: grammar/past-simple-vs-present-perfect-returns
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/past-simple-vs-present-perfect-returns/
+  canonical: /grammar/past-simple-vs-present-perfect-returns/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT017
+- id: GRAM018
+  slug: there-is-there-are-for-problems
+  title: There Is / There Are + Some / Any
+  title_it: There is / there are per descrivere un problema
+  level: A2
+  grammar_point: There is / there are
+  communicative_function: explaining what is wrong with food or an item
+  situation_ids:
+  - SIT018
+  expression_ids: []
+  core_patterns:
+  - There's a problem with...
+  - There isn't any...
+  - There are too many...
+  natural_examples:
+  - There's something wrong with my order.
+  - There isn't any sauce.
+  italian_traps:
+  - Usare 'It has a problem'
+  - Confondere 'there is' con 'it is'
+  practice_format: situational_practice
+  article_slug: grammar/there-is-there-are-for-problems
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/there-is-there-are-for-problems/
+  canonical: /grammar/there-is-there-are-for-problems/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT018
+- id: GRAM019
+  slug: imperatives-and-sequencing
+  title: Imperatives and Sequencing Words in the Kitchen
+  title_it: Imperativi e parole di sequenza in cucina
+  level: A2-B1
+  grammar_point: Imperatives
+  communicative_function: giving and following simple instructions
+  situation_ids:
+  - SIT019
+  expression_ids: []
+  core_patterns:
+  - Cut the onions.
+  - Then add the tomatoes.
+  - Finally, serve it.
+  natural_examples:
+  - First, heat the pan.
+  - Then add the oil.
+  italian_traps:
+  - Usare 'you must' per ogni istruzione
+  - Tradurre 'poi' sempre con 'after'
+  practice_format: situational_practice
+  article_slug: grammar/imperatives-and-sequencing
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/imperatives-and-sequencing/
+  canonical: /grammar/imperatives-and-sequencing/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT019
+- id: GRAM020
+  slug: prefer-would-rather-would-like
+  title: Prefer, Would Rather and Would Like
+  title_it: Prefer, would rather e would like
+  level: B1
+  grammar_point: Preference structures
+  communicative_function: choosing between dinner options and expressing preferences
+  situation_ids:
+  - SIT020
+  expression_ids: []
+  core_patterns:
+  - I'd rather stay in.
+  - I prefer Italian food.
+  - I'd like to go somewhere quiet.
+  natural_examples:
+  - I'd rather go somewhere nearby.
+  - I'd prefer to eat later.
+  italian_traps:
+  - Confondere 'prefer' e 'would rather' nella struttura
+  - Usare 'more prefer'
+  practice_format: situational_practice
+  article_slug: grammar/prefer-would-rather-would-like
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/prefer-would-rather-would-like/
+  canonical: /grammar/prefer-would-rather-would-like/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT020
+- id: GRAM021
+  slug: could-id-like-booking
+  title: Could I...? and I'd Like to... for Booking
+  title_it: Could I...? e I'd like to... per prenotare
+  level: A2-B1
+  grammar_point: Polite requests
+  communicative_function: making a hotel reservation
+  situation_ids:
+  - SIT021
+  expression_ids: []
+  core_patterns:
+  - Could I book a room for two nights?
+  - I'd like to reserve a double room.
+  natural_examples:
+  - I'd like to book a room for Friday.
+  - Could I check the price?
+  italian_traps:
+  - Dire 'I want to book...' in ogni contesto
+  - Confondere 'book' e 'reserve' nella costruzione della frase
+  practice_format: situational_practice
+  article_slug: grammar/could-id-like-booking
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/could-id-like-booking/
+  canonical: /grammar/could-id-like-booking/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT021
+- id: GRAM022
+  slug: present-perfect-for-bookings
+  title: Present Perfect for Completed Arrangements
+  title_it: Il Present Perfect per prenotazioni già effettuate
+  level: B1
+  grammar_point: Present perfect
+  communicative_function: confirming what has already been arranged
+  situation_ids:
+  - SIT022
+  expression_ids: []
+  core_patterns:
+  - I've booked a room.
+  - I've already paid.
+  - We've made a reservation.
+  natural_examples:
+  - I've booked it under Smith.
+  - We've already paid the deposit.
+  italian_traps:
+  - Usare il past simple senza un tempo finito quando il risultato conta ora
+  - Dimenticare 'have/has'
+  practice_format: situational_practice
+  article_slug: grammar/present-perfect-for-bookings
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/present-perfect-for-bookings/
+  canonical: /grammar/present-perfect-for-bookings/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT022
+- id: GRAM023
+  slug: theres-a-problem-with-hotel
+  title: There's a Problem With...
+  title_it: There's a problem with... per segnalare problemi in hotel
+  level: B1
+  grammar_point: There is / with + noun
+  communicative_function: reporting faults and requesting action
+  situation_ids:
+  - SIT023
+  expression_ids: []
+  core_patterns:
+  - There's a problem with the air conditioning.
+  - The shower isn't working.
+  natural_examples:
+  - There's no hot water.
+  - The key card doesn't work.
+  italian_traps:
+  - Dire 'the air conditioning have a problem'
+  - Confondere una situazione temporanea con un problema abituale
+  practice_format: situational_practice
+  article_slug: grammar/theres-a-problem-with-hotel
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/theres-a-problem-with-hotel/
+  canonical: /grammar/theres-a-problem-with-hotel/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT023
+- id: GRAM024
+  slug: have-you-did-you-at-checkout
+  title: Have You...? / Did You...? at Check-out
+  title_it: Have you...? / Did you...? al check-out
+  level: A2-B1
+  grammar_point: Present perfect / past simple questions
+  communicative_function: confirming actions and charges before leaving
+  situation_ids:
+  - SIT024
+  expression_ids: []
+  core_patterns:
+  - Have you used the minibar?
+  - Did you enjoy your stay?
+  natural_examples:
+  - Have you had any problems?
+  - Did you pay by card?
+  italian_traps:
+  - Confondere esperienza generale e evento completato
+  - Usare sempre 'Did you...?' anche quando il risultato conta ora
+  practice_format: situational_practice
+  article_slug: grammar/have-you-did-you-at-checkout
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/have-you-did-you-at-checkout/
+  canonical: /grammar/have-you-did-you-at-checkout/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT024
+- id: GRAM025
+  slug: present-perfect-travel-experiences
+  title: Present Perfect for Travel Experiences
+  title_it: Present Perfect per parlare di esperienze di viaggio
+  level: B1
+  grammar_point: Present perfect with ever/never
+  communicative_function: talking about travel experiences without a specific time
+  situation_ids:
+  - SIT025
+  expression_ids: []
+  core_patterns:
+  - Have you ever been to...?
+  - I've never flown business class.
+  natural_examples:
+  - Have you ever been to London?
+  - I've never stayed in a hostel.
+  italian_traps:
+  - Usare il past simple con 'ever' per esperienze generali
+  - Aggiungere un tempo passato preciso al present perfect
+  practice_format: situational_practice
+  article_slug: grammar/present-perfect-travel-experiences
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/present-perfect-travel-experiences/
+  canonical: /grammar/present-perfect-travel-experiences/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT025
+- id: GRAM026
+  slug: must-have-to-airport
+  title: Must and Have to for Airport Rules
+  title_it: Must e have to per regole e obblighi
+  level: B1
+  grammar_point: Obligation modals
+  communicative_function: understanding and following travel rules
+  situation_ids:
+  - SIT026
+  expression_ids: []
+  core_patterns:
+  - You have to remove your shoes.
+  - You must show your passport.
+  natural_examples:
+  - Do I have to take my laptop out?
+  - You must keep this with you.
+  italian_traps:
+  - Confondere 'mustn't' e 'don't have to'
+  - Pensare che 'must' sia semplicemente una versione più educata di 'have to'
+  practice_format: situational_practice
+  article_slug: grammar/must-have-to-airport
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/must-have-to-airport/
+  canonical: /grammar/must-have-to-airport/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT026
+- id: GRAM027
+  slug: past-simple-present-perfect-delay
+  title: Past Simple + Present Perfect for Delays
+  title_it: Past Simple e Present Perfect per ritardi
+  level: B1
+  grammar_point: Narrating events + present result
+  communicative_function: explaining what happened and what is still unresolved
+  situation_ids:
+  - SIT027
+  expression_ids: []
+  core_patterns:
+  - The flight was delayed.
+  - We've been waiting for two hours.
+  - They've just announced another delay.
+  natural_examples:
+  - Our flight was delayed last night.
+  - We've been waiting since six.
+  italian_traps:
+  - Usare sempre il past simple per situazioni ancora in corso
+  - Dimenticare 'since/for' con periodi in corso
+  practice_format: situational_practice
+  article_slug: grammar/past-simple-present-perfect-delay
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/past-simple-present-perfect-delay/
+  canonical: /grammar/past-simple-present-perfect-delay/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT027
+- id: GRAM028
+  slug: prepositions-time-place-station
+  title: Prepositions of Time and Place at Stations
+  title_it: Preposizioni di tempo e luogo alla stazione
+  level: A2
+  grammar_point: Prepositions
+  communicative_function: understanding departure times, platforms and locations
+  situation_ids:
+  - SIT028
+  expression_ids: []
+  core_patterns:
+  - at platform 4
+  - on the train
+  - at 8:30
+  - in ten minutes
+  natural_examples:
+  - The train leaves at 9.
+  - We're on platform 4.
+  italian_traps:
+  - Confondere at/on/in
+  - Dire 'in the platform'
+  practice_format: situational_practice
+  article_slug: grammar/prepositions-time-place-station
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/prepositions-time-place-station/
+  canonical: /grammar/prepositions-time-place-station/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT028
+- id: GRAM029
+  slug: can-could-directions
+  title: Can / Could for Asking Directions
+  title_it: Can / could per chiedere indicazioni
+  level: A2-B1
+  grammar_point: Modal requests
+  communicative_function: asking for directions politely
+  situation_ids:
+  - SIT029
+  expression_ids: []
+  core_patterns:
+  - Can you tell me how to get to...?
+  - Could you show me on the map?
+  natural_examples:
+  - Could you tell me where the station is?
+  - Can you point me in the right direction?
+  italian_traps:
+  - Usare 'Where is...?' come unica strategia
+  - Confondere 'could' di cortesia con il passato di can
+  practice_format: situational_practice
+  article_slug: grammar/can-could-directions
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/can-could-directions/
+  canonical: /grammar/can-could-directions/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT029
+- id: GRAM030
+  slug: how-do-i-get-to
+  title: How Do I Get to...?
+  title_it: How do I get to...? per muoversi in città
+  level: A2-B1
+  grammar_point: Question formation + get to
+  communicative_function: asking for routes and transport options
+  situation_ids:
+  - SIT030
+  expression_ids: []
+  core_patterns:
+  - How do I get to the city centre?
+  - What's the best way to get there?
+  natural_examples:
+  - How do I get to the museum from here?
+  - Is it walkable?
+  italian_traps:
+  - Dire 'How can I arrive to...?'
+  - Confondere 'arrive at' e 'get to'
+  practice_format: situational_practice
+  article_slug: grammar/how-do-i-get-to
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/how-do-i-get-to/
+  canonical: /grammar/how-do-i-get-to/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT030
+- id: GRAM031
+  slug: would-could-can-for-services
+  title: Would, Could and Can for Services
+  title_it: Would, could e can nei servizi
+  level: B1
+  grammar_point: Modals in service encounters
+  communicative_function: requesting services and clarifying conditions
+  situation_ids:
+  - SIT031
+  expression_ids: []
+  core_patterns:
+  - Could I change the booking?
+  - Can I pay by card?
+  - Would you be able to help?
+  natural_examples:
+  - Could I change the date?
+  - Can I add insurance?
+  italian_traps:
+  - Usare 'can' in ogni contesto
+  - Tradurre 'potresti' sempre con 'could' senza considerare il contesto
+  practice_format: situational_practice
+  article_slug: grammar/would-could-can-for-services
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/would-could-can-for-services/
+  canonical: /grammar/would-could-can-for-services/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT031
+- id: GRAM032
+  slug: first-conditional-for-travel-problems
+  title: First Conditional for Unexpected Travel Problems
+  title_it: First Conditional per problemi durante un viaggio
+  level: B1
+  grammar_point: First conditional
+  communicative_function: discussing likely consequences and possible actions
+  situation_ids:
+  - SIT032
+  expression_ids: []
+  core_patterns:
+  - If we miss the train, we'll take a taxi.
+  - If the hotel is full, we'll find another one.
+  natural_examples:
+  - If the flight is cancelled, I'll call the airline.
+  italian_traps:
+  - Usare 'will' dopo 'if'
+  - Usare il first conditional per eventi impossibili
+  practice_format: situational_practice
+  article_slug: grammar/first-conditional-for-travel-problems
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/first-conditional-for-travel-problems/
+  canonical: /grammar/first-conditional-for-travel-problems/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT032
+- id: GRAM033
+  slug: id-like-to-make-an-appointment
+  title: I'd Like to Make an Appointment
+  title_it: I'd like to make an appointment
+  level: A2-B1
+  grammar_point: Would like + infinitive
+  communicative_function: booking appointments by phone
+  situation_ids:
+  - SIT033
+  expression_ids: []
+  core_patterns:
+  - I'd like to make an appointment.
+  - I'd like to book a time for Tuesday.
+  natural_examples:
+  - Is there anything available in the afternoon?
+  - Can I come in on Friday?
+  italian_traps:
+  - Usare 'I want an appointment' in ogni contesto
+  - Confondere appointment e meeting
+  practice_format: situational_practice
+  article_slug: grammar/id-like-to-make-an-appointment
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/id-like-to-make-an-appointment/
+  canonical: /grammar/id-like-to-make-an-appointment/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT033
+- id: GRAM034
+  slug: should-need-to-have-to
+  title: Should, Need to and Have to
+  title_it: Should, need to e have to
+  level: B1
+  grammar_point: Modals of advice and necessity
+  communicative_function: understanding and giving practical advice
+  situation_ids:
+  - SIT034
+  expression_ids: []
+  core_patterns:
+  - You should ask the pharmacist.
+  - You need to take it with food.
+  - You have to show ID.
+  natural_examples:
+  - You should check the label.
+  - Do I need to bring anything?
+  italian_traps:
+  - Usare should per obblighi forti
+  - Confondere 'don't need to' e 'mustn't'
+  practice_format: situational_practice
+  article_slug: grammar/should-need-to-have-to
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/should-need-to-have-to/
+  canonical: /grammar/should-need-to-have-to/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT034
+- id: GRAM035
+  slug: asking-for-help-naturally
+  title: Can, Could and Would for Asking for Help
+  title_it: Chiedere aiuto in modo naturale
+  level: A2-B1
+  grammar_point: Polite requests
+  communicative_function: asking for assistance in everyday situations
+  situation_ids:
+  - SIT035
+  expression_ids: []
+  core_patterns:
+  - Can you help me?
+  - Could you give me a hand?
+  - Would you mind taking a look?
+  natural_examples:
+  - Could you help me with this?
+  - Can you give me a hand?
+  italian_traps:
+  - Tradurre 'mi dai una mano?' letteralmente
+  - Usare 'please' come unica strategia di cortesia
+  practice_format: situational_practice
+  article_slug: grammar/asking-for-help-naturally
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/asking-for-help-naturally/
+  canonical: /grammar/asking-for-help-naturally/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT035
+- id: GRAM036
+  slug: present-simple-vs-present-continuous-problems
+  title: Present Simple vs Present Continuous for Problems
+  title_it: Present Simple vs Present Continuous per descrivere problemi
+  level: B1
+  grammar_point: Present simple / continuous
+  communicative_function: distinguishing permanent problems from problems happening now
+  situation_ids:
+  - SIT036
+  expression_ids: []
+  core_patterns:
+  - The app doesn't work.
+  - The website isn't loading.
+  - It usually works.
+  natural_examples:
+  - It doesn't work.
+  - It's not connecting right now.
+  italian_traps:
+  - Usare il progressivo per fatti abituali
+  - Usare il simple per un'azione temporanea in corso
+  practice_format: situational_practice
+  article_slug: grammar/present-simple-vs-present-continuous-problems
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/present-simple-vs-present-continuous-problems/
+  canonical: /grammar/present-simple-vs-present-continuous-problems/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT036
+- id: GRAM037
+  slug: indirect-questions-customer-service
+  title: Indirect Questions for Customer Service
+  title_it: Le domande indirette nel servizio clienti
+  level: B1-B2
+  grammar_point: Indirect questions
+  communicative_function: asking for information politely
+  situation_ids:
+  - SIT037
+  expression_ids: []
+  core_patterns:
+  - Could you tell me where my order is?
+  - Do you know when it will arrive?
+  natural_examples:
+  - I was wondering if you could check that for me.
+  - Could you tell me what I need to do?
+  italian_traps:
+  - Dire 'Can you tell me where is my order?'
+  - Mantenere l'ordine interrogativo dopo la clausola introdotta
+  practice_format: situational_practice
+  article_slug: grammar/indirect-questions-customer-service
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/indirect-questions-customer-service/
+  canonical: /grammar/indirect-questions-customer-service/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT037
+- id: GRAM038
+  slug: present-perfect-continuous-waiting
+  title: 'Present Perfect Continuous: I''ve Been Waiting...'
+  title_it: Present Perfect Continuous per problemi ancora in corso
+  level: B1-B2
+  grammar_point: Present perfect continuous
+  communicative_function: describing an action that started in the past and continues now
+  situation_ids:
+  - SIT038
+  expression_ids: []
+  core_patterns:
+  - I've been waiting for three days.
+  - We've been trying to contact you.
+  natural_examples:
+  - I've been waiting since Monday.
+  - We've been looking for the package.
+  italian_traps:
+  - Usare il present simple con 'since'
+  - Confondere durata con azione completata
+  practice_format: situational_practice
+  article_slug: grammar/present-perfect-continuous-waiting
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/present-perfect-continuous-waiting/
+  canonical: /grammar/present-perfect-continuous-waiting/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT038
+- id: GRAM039
+  slug: ive-lost-vs-i-lost
+  title: I've Lost... vs I Lost...
+  title_it: I've lost... vs I lost...
+  level: B1
+  grammar_point: Past simple / present perfect
+  communicative_function: reporting a lost item and explaining where or when it happened
+  situation_ids:
+  - SIT039
+  expression_ids: []
+  core_patterns:
+  - I've lost my passport.
+  - I lost it at the station.
+  natural_examples:
+  - I've lost my wallet.
+  - I think I lost it on the train.
+  italian_traps:
+  - Usare il past simple quando il risultato presente è il punto principale
+  - Pensare che le due forme siano sempre intercambiabili
+  practice_format: situational_practice
+  article_slug: grammar/ive-lost-vs-i-lost
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/ive-lost-vs-i-lost/
+  canonical: /grammar/ive-lost-vs-i-lost/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT039
+- id: GRAM040
+  slug: could-would-for-complaints
+  title: Softening Complaints With Could / Would
+  title_it: Ammorbidire i reclami con could e would
+  level: B1-B2
+  grammar_point: Softened requests
+  communicative_function: complaining firmly without sounding aggressive
+  situation_ids:
+  - SIT040
+  expression_ids: []
+  core_patterns:
+  - Could you look into this?
+  - Would it be possible to...?
+  - I'd appreciate it if...
+  natural_examples:
+  - Could you check what happened?
+  - Would it be possible to get a refund?
+  italian_traps:
+  - Usare 'I demand...' come primo approccio
+  - Pensare che più parole significhino sempre più educazione
+  practice_format: situational_practice
+  article_slug: grammar/could-would-for-complaints
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/could-would-for-complaints/
+  canonical: /grammar/could-would-for-complaints/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT040
+- id: GRAM041
+  slug: there-is-there-are-and-prepositions-home
+  title: There Is / There Are + Prepositions
+  title_it: There is / there are e preposizioni per descrivere casa
+  level: A2
+  grammar_point: There is / there are + prepositions
+  communicative_function: describing a home and neighbourhood
+  situation_ids:
+  - SIT041
+  expression_ids: []
+  core_patterns:
+  - There's a park near my house.
+  - There are two shops opposite us.
+  natural_examples:
+  - There's a bus stop around the corner.
+  - There are cafés nearby.
+  italian_traps:
+  - Usare 'it has' per descrivere cosa si trova in un luogo
+  - Confondere opposite, next to e near
+  practice_format: situational_practice
+  article_slug: grammar/there-is-there-are-and-prepositions-home
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/there-is-there-are-and-prepositions-home/
+  canonical: /grammar/there-is-there-are-and-prepositions-home/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT041
+- id: GRAM042
+  slug: frequency-adverbs-word-order
+  title: Frequency Adverbs and Word Order
+  title_it: Avverbi di frequenza e ordine delle parole
+  level: A2
+  grammar_point: Adverbs of frequency
+  communicative_function: describing routines and habits naturally
+  situation_ids:
+  - SIT042
+  expression_ids: []
+  core_patterns:
+  - I usually get up at seven.
+  - I don't often cook.
+  - I hardly ever go out on Mondays.
+  natural_examples:
+  - I usually work from home.
+  - I sometimes have breakfast at my desk.
+  italian_traps:
+  - Mettere sempre l'avverbio alla fine
+  - Trasferire l'ordine italiano direttamente in inglese
+  practice_format: situational_practice
+  article_slug: grammar/frequency-adverbs-word-order
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/frequency-adverbs-word-order/
+  canonical: /grammar/frequency-adverbs-word-order/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT042
+- id: GRAM043
+  slug: have-to-dont-have-to-should-chores
+  title: Have to, Don't Have to and Should for Chores
+  title_it: Have to, don't have to e should per le faccende
+  level: A2-B1
+  grammar_point: Obligation and advice
+  communicative_function: talking about household responsibilities
+  situation_ids:
+  - SIT043
+  expression_ids: []
+  core_patterns:
+  - I have to do the laundry.
+  - You don't have to do it today.
+  - You should tidy up.
+  natural_examples:
+  - We have to take the bins out.
+  - You don't have to clean everything.
+  italian_traps:
+  - Confondere 'don't have to' con 'mustn't'
+  - Usare 'should' per obblighi rigidi
+  practice_format: situational_practice
+  article_slug: grammar/have-to-dont-have-to-should-chores
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/have-to-dont-have-to-should-chores/
+  canonical: /grammar/have-to-dont-have-to-should-chores/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT043
+- id: GRAM044
+  slug: feel-look-sound-with-adjectives
+  title: Feel, Look and Sound + Adjectives
+  title_it: Feel, look e sound + aggettivi
+  level: A2-B1
+  grammar_point: Linking verbs
+  communicative_function: describing how someone feels and how things seem
+  situation_ids:
+  - SIT044
+  expression_ids: []
+  core_patterns:
+  - I feel tired.
+  - You look great.
+  - That sounds good.
+  natural_examples:
+  - How are you feeling?
+  - You look exhausted.
+  italian_traps:
+  - Usare sempre 'be' invece di linking verbs
+  - Costruire 'sound' e 'look' come verbi normali con 'be'
+  practice_format: situational_practice
+  article_slug: grammar/feel-look-sound-with-adjectives
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/feel-look-sound-with-adjectives/
+  canonical: /grammar/feel-look-sound-with-adjectives/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT044
+- id: GRAM045
+  slug: how-often-present-simple
+  title: How Often...? + Present Simple
+  title_it: How often...? e Present Simple per parlare di sport
+  level: A2-B1
+  grammar_point: How often + present simple
+  communicative_function: talking about exercise frequency and habits
+  situation_ids:
+  - SIT045
+  expression_ids: []
+  core_patterns:
+  - How often do you work out?
+  - I go twice a week.
+  - I usually run on Sundays.
+  natural_examples:
+  - How often do you train?
+  - I work out three times a week.
+  italian_traps:
+  - Confondere 'how often' e 'how long'
+  - Usare il presente continuo per abitudini
+  practice_format: situational_practice
+  article_slug: grammar/how-often-present-simple
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/how-often-present-simple/
+  canonical: /grammar/how-often-present-simple/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT045
+- id: GRAM046
+  slug: comparatives-and-superlatives-for-opinions
+  title: Comparatives and Superlatives in Opinions
+  title_it: Comparativi e superlativi nelle opinioni
+  level: B1
+  grammar_point: Comparatives / superlatives
+  communicative_function: comparing movies, shows and experiences
+  situation_ids:
+  - SIT046
+  expression_ids: []
+  core_patterns:
+  - It's better than...
+  - This is the best one.
+  - It's more interesting than...
+  natural_examples:
+  - I think the second season is better.
+  - That's probably the funniest one.
+  italian_traps:
+  - Usare 'more better'
+  - Dimenticare 'the' nei superlativi standard
+  practice_format: situational_practice
+  article_slug: grammar/comparatives-and-superlatives-for-opinions
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/comparatives-and-superlatives-for-opinions/
+  canonical: /grammar/comparatives-and-superlatives-for-opinions/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT046
+- id: GRAM047
+  slug: present-continuous-in-messages
+  title: Present Continuous in Messages and Chats
+  title_it: Present Continuous nei messaggi
+  level: A2-B1
+  grammar_point: Present continuous
+  communicative_function: talking about what you are doing and arranging plans in chats
+  situation_ids:
+  - SIT047
+  expression_ids: []
+  core_patterns:
+  - I'm on my way.
+  - I'm running late.
+  - We're meeting at eight.
+  natural_examples:
+  - I'm just leaving.
+  - I'm waiting outside.
+  italian_traps:
+  - Tradurre 'sto arrivando' con 'I come'
+  - Evitare contrazioni tipiche dei messaggi senza motivo
+  practice_format: situational_practice
+  article_slug: grammar/present-continuous-in-messages
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/present-continuous-in-messages/
+  canonical: /grammar/present-continuous-in-messages/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT047
+- id: GRAM048
+  slug: reported-speech-for-online-posts
+  title: Reported Speech for Talking About Posts
+  title_it: Reported Speech per riferire cosa ha detto qualcuno online
+  level: B1-B2
+  grammar_point: Reported speech
+  communicative_function: summarising what someone posted or said online
+  situation_ids:
+  - SIT048
+  expression_ids: []
+  core_patterns:
+  - She said it was amazing.
+  - He told me he'd already seen it.
+  natural_examples:
+  - They said they were going.
+  - She said the show was worth watching.
+  italian_traps:
+  - Confondere say e tell
+  - Mantenere l'ordine originale quando serve la forma riportata
+  practice_format: situational_practice
+  article_slug: grammar/reported-speech-for-online-posts
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/reported-speech-for-online-posts/
+  canonical: /grammar/reported-speech-for-online-posts/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT048
+- id: GRAM049
+  slug: present-simple-vs-continuous-at-work
+  title: Present Simple vs Present Continuous at Work
+  title_it: Present Simple vs Present Continuous al lavoro
+  level: B1
+  grammar_point: Present simple / continuous
+  communicative_function: distinguishing responsibilities from current projects
+  situation_ids:
+  - SIT049
+  expression_ids: []
+  core_patterns:
+  - I work in sales.
+  - I'm working on a new project.
+  - We usually meet on Mondays.
+  natural_examples:
+  - I handle customer accounts.
+  - I'm working on the report this week.
+  italian_traps:
+  - Usare il continuo per ruoli stabili
+  - Usare il simple per attività temporanee
+  practice_format: situational_practice
+  article_slug: grammar/present-simple-vs-continuous-at-work
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/present-simple-vs-continuous-at-work/
+  canonical: /grammar/present-simple-vs-continuous-at-work/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT049
+- id: GRAM050
+  slug: could-you-explain-indirect-questions
+  title: Could You Explain...? and Indirect Questions
+  title_it: Could you explain...? e domande indirette
+  level: B1-B2
+  grammar_point: Indirect questions
+  communicative_function: asking colleagues for clarification without sounding abrupt
+  situation_ids:
+  - SIT050
+  expression_ids: []
+  core_patterns:
+  - Could you explain what this means?
+  - Do you know when it's due?
+  natural_examples:
+  - Could you clarify what you mean?
+  - Do you know how this works?
+  italian_traps:
+  - Dire 'Could you explain me...'
+  - Conservare l'ordine interrogativo nella subordinate clause
+  practice_format: situational_practice
+  article_slug: grammar/could-you-explain-indirect-questions
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/could-you-explain-indirect-questions/
+  canonical: /grammar/could-you-explain-indirect-questions/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT050
+- id: GRAM051
+  slug: present-perfect-for-work-updates
+  title: Present Perfect for Work Updates
+  title_it: Present Perfect per dare aggiornamenti di lavoro
+  level: B1-B2
+  grammar_point: Present perfect
+  communicative_function: reporting completed progress with present relevance
+  situation_ids:
+  - SIT051
+  expression_ids: []
+  core_patterns:
+  - I've finished the report.
+  - We've sent the email.
+  - I've spoken to the client.
+  natural_examples:
+  - I've finished the first part.
+  - We've already sent the draft.
+  italian_traps:
+  - Usare il past simple per aggiornamenti senza tempo finito
+  - Dimenticare already, just o yet
+  practice_format: situational_practice
+  article_slug: grammar/present-perfect-for-work-updates
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/present-perfect-for-work-updates/
+  canonical: /grammar/present-perfect-for-work-updates/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT051
+- id: GRAM052
+  slug: by-until-for-since-deadlines
+  title: By, Until, For and Since With Deadlines
+  title_it: By, until, for e since per scadenze e durata
+  level: B1-B2
+  grammar_point: Time prepositions
+  communicative_function: talking precisely about deadlines and periods
+  situation_ids:
+  - SIT052
+  expression_ids: []
+  core_patterns:
+  - I'll finish it by Friday.
+  - We're open until six.
+  - I've been working on it for two days.
+  - I've been here since Monday.
+  natural_examples:
+  - Can you send it by noon?
+  - We need it by the end of the day.
+  italian_traps:
+  - Confondere by e until
+  - Usare since con una durata
+  - Usare for con un punto di inizio
+  practice_format: situational_practice
+  article_slug: grammar/by-until-for-since-deadlines
+  related_grammar_ids: []
+  status: planned
+  permalink: /grammar/by-until-for-since-deadlines/
+  canonical: /grammar/by-until-for-since-deadlines/
+  article_family: situational_grammar
+  pillar_role: grammar_companion
+  primary_situation_id: SIT052
+final_principle: 'La Grammatica situazionale non è un archivio di regole isolate: sono 52 lezioni in cui ogni struttura grammaticale
+  nasce da una situazione concreta, serve una funzione comunicativa e viene trasformata in uso reale.'

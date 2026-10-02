@@ -1,0 +1,103 @@
+schema_version: '2.0'
+site:
+  name: Fluente-Mente
+  tagline: Impara l’inglese che ti serve davvero.
+  description: Risorse pratiche per italiani che vogliono capire, parlare e usare
+    l’inglese con maggiore naturalezza.
+  language: it
+  market: IT
+  subject: English learning
+  audience: Italian adults learning English
+  base_url: https://nausica-20.github.io/Fluente-Mente/
+  repository: nausica-20/Fluente-Mente
+  domain: nausica-20.github.io
+  platform: GitHub Pages
+  generator: Jekyll
+  timezone: Europe/Rome
+  github_username: nausica-20
+brand:
+  positioning: Aiutare italiani adulti a usare l’inglese in situazioni reali, capire
+    l’inglese naturale e costruire una progressione pratica.
+  tone:
+  - clear
+  - practical
+  - encouraging
+  - adult
+  - non-school-like
+navigation:
+  header:
+  - label: Pillola del giorno
+    url: /pills/
+  - label: Situazioni
+    url: /situations/
+  - label: Grammatica
+    url: /grammar/
+  - label: Non sono la stessa cosa!
+    url: /non-sono-la-stessa-cosa/
+  - label: Travel English
+    url: /travel-english/
+  - label: Business English
+    url: /business-english/
+  utility:
+  - label: Espressioni
+    url: /expressions/
+  - label: Parole
+    url: /words/
+  - label: English & Culture
+    url: /english-culture/
+  - label: Inglese da adulti
+    url: /inglese-da-adulti/
+  - label: Babbel
+    url: /babbel/
+  footer:
+  - label: Chi siamo
+    url: /about/
+  - label: Contatti
+    url: /contact/
+  - label: Privacy
+    url: /privacy/
+  - label: Cookie
+    url: /cookie/
+  - label: Disclosure affiliati
+    url: /affiliate-disclosure/
+  - label: Policy editoriale
+    url: /editorial-policy/
+indexes:
+- id: IDX001
+  label: La Pillola Inglese del Giorno
+  url: /pills/
+  content_type: daily_pill
+- id: IDX002
+  label: Situational English
+  url: /situations/
+  content_type: situation_article
+- id: IDX003
+  label: Situational Grammar
+  url: /grammar/
+  content_type: grammar_article
+- id: IDX004
+  label: Expressions
+  url: /expressions/
+  content_type: expressions_index
+- id: IDX005
+  label: Words
+  url: /words/
+  content_type: words_index
+- id: IDX006
+  label: Non sono la stessa cosa!
+  url: /non-sono-la-stessa-cosa/
+  content_type: confusion_article
+footer:
+  show_affiliate_disclosure: true
+design_system:
+  reference: Fluente-Mente GitHub/Jekyll project supplied by user
+  preserve_visual_language: true
+  colors:
+    primary_navy: '#183b56'
+    accent_orange: '#f26b38'
+    background: '#ffffff'
+    background_soft: '#fff7ed'
+  layout:
+    container_max_width: 1180px
+    reading_max_width: 760px
+    sidebar_width: 260px

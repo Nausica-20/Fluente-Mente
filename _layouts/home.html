@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<main id="main-content" class="page page-home">
+  <section class="home-hero"><div class="container hero-grid"><div class="hero-copy"><p class="eyebrow hero-eyebrow">INGLESE CHE USERAI DAVVERO</p><h1 class="hero-title">{{ page.hero_title }}</h1><p class="hero-subtitle">{{ page.hero_subtitle }}</p><div class="hero-actions"><a class="button button-primary" href="{{ page.primary_cta_url | relative_url }}">{{ page.primary_cta_label }}</a><a class="button button-secondary" href="{{ page.secondary_cta_url | relative_url }}">{{ page.secondary_cta_label }}</a></div><p class="hero-note">A2 → B2 · contenuti in italiano · esempi in inglese · percorsi pratici</p></div><div class="hero-visual"><div class="hero-card"><p class="hero-card-kicker">IL METODO</p><h2 class="hero-card-title">Capire. Usare. Migliorare.</h2><p class="hero-card-copy">Parti da una situazione, capisci cosa dire e collega ogni lezione al passo successivo.</p><div class="hero-card-phrase">English you can actually use.</div></div></div></div></section>
+  <section class="home-daily"><div class="container"><div class="section-heading"><div><p class="eyebrow">ESPLORA</p><h2>Da dove vuoi iniziare?</h2></div></div><div class="card-grid">
+  {% for item in site.data.site.indexes %}<article class="content-card"><p class="eyebrow">RISORSA</p><h3><a href="{{ item.url | relative_url }}">{{ item.label }}</a></h3><p>Esplora questa area di Fluente-Mente.</p></article>{% endfor %}
+  </div></div></section>
+  <section class="home-daily"><div class="container"><div class="section-heading"><div><p class="eyebrow">DOMINI</p><h2>Inglese per contesti reali</h2></div></div><div class="card-grid">
+    <article class="content-card"><h3><a href="{{ '/travel-english/' | relative_url }}">Travel English</a></h3><p>Inglese utile per viaggiare.</p></article>
+    <article class="content-card"><h3><a href="{{ '/business-english/' | relative_url }}">Business English</a></h3><p>Inglese utile per lavorare.</p></article>
+    <article class="content-card"><h3><a href="{{ '/english-culture/' | relative_url }}">English &amp; Culture</a></h3><p>Lingua, contesto e comunicazione.</p></article>
+    <article class="content-card"><h3><a href="{{ '/inglese-da-adulti/' | relative_url }}">Inglese da adulti</a></h3><p>Metodo e pratica sostenibile.</p></article>
+  </div></div></section>
+  <section class="home-daily"><div class="container"><div class="section-heading"><div><p class="eyebrow">STRUMENTO</p><h2>Un possibile passo successivo</h2></div></div><article class="content-card featured-card"><h3><a href="{{ '/babbel/' | relative_url }}">Babbel</a></h3><p>Se cerchi un percorso strutturato, trovi qui le informazioni dedicate a Babbel.</p></article></div></section>
+</main>

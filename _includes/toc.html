@@ -1,0 +1,1 @@
+{% assign headings = include.html | split: '<h2' %}<ol class="toc-list">{% for heading in headings offset:1 %}{% assign parts = heading | split: '</h2>' %}{% assign text = parts[0] | replace: '>', ' ' | strip_html | strip %}{% if text != empty %}<li><a href="#{{ text | slugify }}">{{ text }}</a></li>{% endif %}{% endfor %}</ol>

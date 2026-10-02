@@ -1,0 +1,1892 @@
+schema_version: '1.0'
+project: Fluente-Mente
+architecture_type: master_editorial_architecture
+content_type: situation_article
+source_of_truth:
+  situation_architecture: _data/situational.yml
+  content_mapping: _data/content_mapping.yml
+  expression_database: _data/expressions_001-365_clean.yml
+  grammar_database: _data/situational_grammar.yml
+  content_registry: _data/content_registry.yml
+  front_matter_contract: situational_articles_front_matter.yml
+series:
+  id: situational_english
+  name_it: Situazioni
+  name_en: Situational English
+  purpose: Insegnare l'inglese naturale attraverso 52 situazioni comunicative concrete e ricorrenti.
+  total_situations: 52
+  total_publishable_articles: 52
+  canonical_model: one_situation -> one_situation_article
+mission:
+  primary_promise: Impara cosa dire, come dirlo e come reagire in una situazione reale.
+  learner_profile: Italian-speaking learners from A2 to B2 who want practical, natural English.
+  editorial_language: Italian
+  target_language: Natural English
+  learning_style:
+  - context-first
+  - situational
+  - natural-not-textbook
+  - practical
+  - dialogue-led
+  - guided-practice
+  core_question: Cosa direi davvero in questa situazione?
+core_rules:
+  one_situation_one_article: true
+  one_primary_situation_per_article: true
+  one_primary_communicative_mission_per_article: true
+  situation_is_broader_than_one_expression: true
+  dialogue_is_required: true
+  natural_english_over_textbook_english: true
+  context_before_rule: true
+  italian_transfer_errors_are_explicit: true
+  situational_grammar_only: true
+  no_audio: true
+  no_pronunciation_section: true
+  no_standalone_vocabulary_page_generated: true
+  no_parallel_situational_grammar_library: true
+  mapped_pills_are_reused_not_duplicated: true
+  babbel_is_secondary_cta: true
+url_architecture:
+  index_url: /situations/
+  article_url_pattern: /situations/{situation_slug}/
+  permalink_rule: stable, lowercase, hyphenated, descriptive and unique
+  canonical_rule: each situation article self-canonicalizes to its own permalink
+  article_slug_rule: situations/{source_situation_slug}
+standard_front_matter:
+  defaults:
+    layout: article
+    content_type: situation_article
+    published: false
+    language: it
+    cta_profile: solution_soft
+    babbel_cta_enabled: true
+  required_jekyll_fields:
+  - layout
+  - title
+  - description
+  - slug
+  - permalink
+  - published
+  - language
+  - level
+  required_situation_fields:
+  - situation.id
+  - situation.slug
+  - situation.title
+  - situation.title_it
+  - domain
+  - communicative_goals
+  required_learning_fields:
+  - target_language.expression_ids
+  - target_language.pill_days
+  - target_language.grammar_id
+  - target_language.grammar_slug
+  - target_language.grammar_point
+  - target_language.core_patterns
+  - target_language.natural_examples
+  - learning_design
+  required_linking_fields:
+  - related_content.daily_pill_days
+  - related_content.expression_ids
+  - related_content.grammar_article_url
+  - related_content.related_situation_ids
+  required_seo_fields:
+  - seo.primary_keyword
+  - seo.secondary_keywords
+  - seo.meta_title
+  - seo.meta_description
+  - seo.excerpt
+  - seo.canonical
+  required_commercial_fields:
+  - cta_profile
+  - funnel_stage
+  - babbel_cta.enabled
+  - babbel_cta.position
+  - babbel_cta.disclosure_required
+learning_design:
+  method: Natural English through a real communicative situation
+  focus:
+  - understanding what to say
+  - sounding natural rather than textbook-like
+  - using useful expressions in context
+  - avoiding common Italian transfer mistakes
+  - building confidence through guided practice
+  dialogue:
+    required: true
+    recommended_turns: 8
+    maximum_turns: 12
+    natural_language: true
+  translation:
+    required: true
+    italian_explanation: true
+  useful_language:
+    required: true
+    recommended_items: 8
+  textbook_vs_natural:
+    required: true
+    examples: 4
+  italian_traps:
+    required: true
+    minimum_items: 3
+  situational_grammar:
+    required: true
+    grammar_article_url: /None/
+    core_patterns:
+    - Where do you live?
+    - What do you do?
+    - How long have you been here?
+  mini_practice:
+    required: true
+    exercises: 3
+  no_audio: true
+  no_pronunciation_section: true
+article_spec:
+  required_sections:
+  - title
+  - intro
+  - situation_context
+  - dialogue
+  - translation
+  - useful_language
+  - textbook_vs_natural
+  - italian_traps
+  - situational_grammar
+  - mini_practice
+  - related_daily_pills
+  - related_articles
+  - babbel_cta
+  dialogue_turns: 8-12
+  vocabulary_or_useful_language_items: 8
+  textbook_vs_natural_examples: 4
+  italian_traps_minimum: 3
+  practice_exercises: 3
+  related_daily_pills: use all mapped pill days
+  related_situation_articles: 2-4 relevant links
+  related_grammar_article: true
+required_sections:
+- title
+- intro
+- situation_context
+- dialogue
+- translation
+- useful_language
+- textbook_vs_natural
+- italian_traps
+- situational_grammar
+- mini_practice
+- related_daily_pills
+- related_articles
+- babbel_cta
+content_targets:
+  dialogue_turns: 8-12
+  useful_language_items: 8
+  textbook_vs_natural_examples: 4
+  italian_traps_minimum: 3
+  practice_exercises: 3
+  related_daily_pills: use all mapped pill days
+  related_situation_articles: 2-4 relevant links
+  related_grammar_article: true
+language_model:
+  core_language:
+    purpose: Language explicitly taught because it is central to the situation.
+    rule: Select only language that materially supports the communicative goal.
+  supporting_language:
+    purpose: Useful phrases, words and patterns needed to complete the situation.
+    rule: Supporting items serve the scenario; they do not automatically become new database entities or Pills.
+  exposure_language:
+    purpose: Authentic contextual language that makes the dialogue realistic.
+    rule: Exposure language may appear naturally without becoming another teaching focus.
+  expression_rule: Use mapped expression IDs from content_mapping.yml as the controlled source of truth.
+  grammar_rule: Use the mapped GRAM record and teach it through the situation, not as an abstract grammar lesson.
+dialogue_design:
+  required: true
+  turns: 8-12
+  natural_language: true
+  roles: Define 2 or more realistic roles appropriate to the situation.
+  progression:
+  - set the context
+  - start the interaction
+  - develop the communicative problem or need
+  - respond naturally
+  - reach a plausible resolution
+  quality_rules:
+  - No dialogue line should exist only to insert vocabulary.
+  - Use natural contractions and everyday phrasing where appropriate.
+  - Keep the dialogue consistent with the assigned CEFR level.
+  - Do not make every line a teaching example.
+textbook_vs_natural:
+  required: true
+  examples: 4
+  purpose: Show meaningful differences between literal/school-style English and natural English used in the given situation.
+  rules:
+  - Only include contrasts that are genuinely useful.
+  - Do not label a grammatically correct sentence as wrong merely because another version is more conversational.
+  - Explain register and context.
+  - Prefer natural alternatives used by real speakers.
+italian_traps:
+  required: true
+  minimum_items: 3
+  focus:
+  - literal translation from Italian
+  - false friends
+  - wrong prepositions
+  - incorrect collocations
+  - over-formality
+  - directness/politeness mismatch
+  - word-choice interference
+situational_grammar:
+  required: true
+  purpose: Explain the mapped grammar point only as needed to perform the communicative task.
+  rules:
+  - Start from the dialogue/context.
+  - Show the pattern.
+  - Explain the meaning/function.
+  - Give natural examples from the same situation.
+  - Avoid turning the section into a complete standalone grammar chapter.
+mini_practice:
+  required: true
+  exercises: 3
+  recommended_formats:
+  - choose the natural response
+  - complete a short exchange
+  - rewrite a textbook-style phrase naturally
+  - produce a short personalized response
+  rule: Practice must rehearse the target situation, not introduce a new topic.
+relationship_architecture:
+  pillole_del_giorno:
+    role: Micro-learning units that feed into the situation.
+    rule: Reuse mapped Pillole; never create duplicates just because an expression appears in a Situation article.
+    link_field: related_content.daily_pill_days
+  expression_database:
+    role: Language data layer.
+    rule: Expressions remain data entities; the Situation article does not create expression detail pages.
+    link_field: related_content.expression_ids
+  situational_grammar:
+    role: Dedicated grammar companion for the situation.
+    rule: One mapped grammar unit is preferred; additional grammar may be mentioned only when necessary and must not compete
+      with the primary grammar focus.
+    link_field: related_content.grammar_article_url
+  non_sono_la_stessa_cosa:
+    role: Contrastive support when a word/expression distinction directly helps the situation.
+    rule: Use only relevant comparison articles.
+  travel_english:
+    role: Domain-specific expansion for travel-related situations.
+    rule: Situation teaches the moment; Travel English teaches the broader travel domain.
+  business_english:
+    role: Domain-specific expansion for workplace-related situations.
+    rule: Situation teaches the moment; Business English teaches the broader professional domain.
+  english_culture:
+    role: Pragmatic/cultural expansion when cultural context changes interpretation.
+    rule: Do not duplicate the situation; explain the cultural dimension only.
+  inglese_da_adulti:
+    role: Learning-strategy support.
+    rule: Link only when the article genuinely benefits from a learning-method connection.
+anti_overlap_rules:
+  daily_pills: Pill = one expression micro-lesson; Situation = a broader communicative scenario using multiple mapped language
+    units.
+  grammar: Grammar article = one grammar point taught through context; Situation = broader communicative scenario.
+  travel: Travel = whole travel domain; Situation = specific moment within or outside travel.
+  business: Business = professional domain; Situation = specific workplace interaction.
+  culture: Culture = why context/pragmatics matter; Situation = what to say and do in the interaction.
+  confusion: Confusion = compare similar words/expressions; Situation = use the language in a realistic scenario.
+seo_rules:
+  one_primary_intent: true
+  primary_keyword_rule: Use the actual communicative need expressed in Italian, not a generic 'inglese' keyword.
+  secondary_keywords: Support the same intent; do not create competing search intents.
+  meta_title: Clear situation + useful English intent.
+  meta_description: Explain the practical outcome and major article components.
+  canonical: Self-canonical.
+  indexing: Publishable and indexable unless explicit QA or site policy says otherwise.
+pinterest_rules:
+  role: Drive qualified traffic to the canonical situation article.
+  recommended_angles:
+  - English for a real-life situation
+  - Natural English dialogue
+  - Common Italian mistakes
+  - Textbook vs natural English
+  - Useful English phrases for the situation
+  destination: Canonical situation article, not an expression detail page.
+babbel_cta:
+  role: Secondary commercial layer.
+  position: end_of_article
+  profile: solution_soft
+  disclosure_required: true
+  rules:
+  - No unverified pricing.
+  - No unverified discounts or offers.
+  - No guaranteed outcomes.
+  - Do not interrupt the teaching flow.
+  - Verify current commercial details before publication.
+writing_prompt_contract:
+  input_required:
+  - one SIT record
+  - mapped EXP records
+  - mapped Daily Pill records/days
+  - one mapped GRAM record
+  - related situation IDs
+  - site SEO rules
+  - Babbel CTA configuration
+  writer_must:
+  - preserve SIT ID, title, title_it, level, domain and source slug
+  - use the exact permalink generated from the source slug
+  - write the article around the primary communicative situation
+  - build a realistic dialogue
+  - teach natural English in context
+  - use mapped expressions as source-of-truth language
+  - explain relevant Italian transfer traps
+  - include the mapped situational grammar
+  - include practical exercises
+  - include internal links only when relevant
+  - finish with the configured soft Babbel CTA and disclosure
+  writer_must_not:
+  - change the source situation identity
+  - create a duplicate situation article
+  - invent a second primary communicative mission
+  - turn the article into a generic vocabulary list
+  - turn the article into a standalone grammar chapter
+  - create expression detail pages
+  - add audio/pronunciation sections
+  - force Travel/Business/Culture links that are not relevant
+  - invent Babbel commercial claims
+quality_assurance:
+  pre_publish_checks:
+  - Exactly one primary situation is present.
+  - The source SIT ID and slug are preserved.
+  - Permalink matches /situations/{slug}/.
+  - Level and domain match the source architecture.
+  - Communicative goals are visibly reflected in the article.
+  - Dialogue is realistic and 8-12 turns.
+  - Translation is natural Italian.
+  - Useful Language has 8 items.
+  - Textbook vs Natural has 4 meaningful contrasts.
+  - At least 3 Italian traps are included.
+  - Situational grammar matches the mapped GRAM record.
+  - Three practice exercises rehearse the same situation.
+  - All mapped Daily Pill days are linked.
+  - 2-4 relevant related situation articles are linked.
+  - SEO metadata is complete.
+  - Babbel CTA/disclosure follows configuration.
+  - No duplicate route is created.
+  - No audio/pronunciation section is introduced.
+  status_flow:
+  - planned
+  - brief_ready
+  - drafting
+  - draft_ready
+  - review
+  - approved
+  - published
+  - needs_update
+  - archived
+situations:
+- id: SIT001
+  slug: meeting-someone-for-the-first-time
+  title: Meeting Someone for the First Time
+  title_it: Conoscere qualcuno per la prima volta
+  level: A2-B1
+  domain: Social English
+  communicative_goals:
+  - start and maintain natural conversations
+  - ask and answer follow-up questions
+  - respond appropriately
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/meeting-someone-for-the-first-time
+  permalink: /situations/meeting-someone-for-the-first-time/
+  canonical: /situations/meeting-someone-for-the-first-time/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT002
+  slug: making-small-talk
+  title: Making Small Talk
+  title_it: Fare conversazione informale
+  level: A2-B1
+  domain: Social English
+  communicative_goals:
+  - start and maintain natural conversations
+  - ask and answer follow-up questions
+  - respond appropriately
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/making-small-talk
+  permalink: /situations/making-small-talk/
+  canonical: /situations/making-small-talk/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT003
+  slug: talking-about-yourself
+  title: Talking About Yourself Without Sounding Like a Textbook
+  title_it: Parlare di sé senza sembrare un libro di testo
+  level: A2-B1
+  domain: Social English
+  communicative_goals:
+  - start and maintain natural conversations
+  - ask and answer follow-up questions
+  - respond appropriately
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/talking-about-yourself
+  permalink: /situations/talking-about-yourself/
+  canonical: /situations/talking-about-yourself/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT004
+  slug: talking-about-your-weekend
+  title: Talking About Your Weekend
+  title_it: Parlare del proprio weekend
+  level: A2-B1
+  domain: Daily Life
+  communicative_goals:
+  - describe everyday activities
+  - talk about preferences and routines
+  - make simple arrangements
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/talking-about-your-weekend
+  permalink: /situations/talking-about-your-weekend/
+  canonical: /situations/talking-about-your-weekend/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT005
+  slug: talking-about-hobbies
+  title: Talking About Hobbies and Free Time
+  title_it: Parlare di hobby e tempo libero
+  level: A2-B1
+  domain: Daily Life
+  communicative_goals:
+  - describe everyday activities
+  - talk about preferences and routines
+  - make simple arrangements
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/talking-about-hobbies
+  permalink: /situations/talking-about-hobbies/
+  canonical: /situations/talking-about-hobbies/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT006
+  slug: talking-about-plans
+  title: Talking About Your Plans
+  title_it: Parlare dei propri programmi
+  level: A2-B1
+  domain: Daily Life
+  communicative_goals:
+  - describe everyday activities
+  - talk about preferences and routines
+  - make simple arrangements
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/talking-about-plans
+  permalink: /situations/talking-about-plans/
+  canonical: /situations/talking-about-plans/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT007
+  slug: inviting-someone-out
+  title: Inviting Someone Out
+  title_it: Invitare qualcuno a uscire
+  level: A2-B1
+  domain: Social English
+  communicative_goals:
+  - start and maintain natural conversations
+  - ask and answer follow-up questions
+  - respond appropriately
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/inviting-someone-out
+  permalink: /situations/inviting-someone-out/
+  canonical: /situations/inviting-someone-out/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT008
+  slug: accepting-or-turning-down-an-invitation
+  title: Accepting or Turning Down an Invitation
+  title_it: Accettare o rifiutare un invito
+  level: A2-B1
+  domain: Social English
+  communicative_goals:
+  - start and maintain natural conversations
+  - ask and answer follow-up questions
+  - respond appropriately
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/accepting-or-turning-down-an-invitation
+  permalink: /situations/accepting-or-turning-down-an-invitation/
+  canonical: /situations/accepting-or-turning-down-an-invitation/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT009
+  slug: changing-plans-at-the-last-minute
+  title: Changing Plans at the Last Minute
+  title_it: Cambiare programma all’ultimo momento
+  level: B1
+  domain: Social English
+  communicative_goals:
+  - start and maintain natural conversations
+  - ask and answer follow-up questions
+  - respond appropriately
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/changing-plans-at-the-last-minute
+  permalink: /situations/changing-plans-at-the-last-minute/
+  canonical: /situations/changing-plans-at-the-last-minute/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT010
+  slug: keeping-a-conversation-going
+  title: Keeping a Conversation Going
+  title_it: Tenere viva una conversazione
+  level: B1
+  domain: Conversation Skills
+  communicative_goals:
+  - keep a conversation going
+  - show interest
+  - react naturally
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/keeping-a-conversation-going
+  permalink: /situations/keeping-a-conversation-going/
+  canonical: /situations/keeping-a-conversation-going/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT011
+  slug: ordering-coffee-at-a-cafe
+  title: Ordering Coffee at a Café
+  title_it: Ordinare un caffè al bar
+  level: A2
+  domain: Travel & Daily Life
+  communicative_goals:
+  - order or ask for everyday services
+  - understand routine questions
+  - respond clearly
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/ordering-coffee-at-a-cafe
+  permalink: /situations/ordering-coffee-at-a-cafe/
+  canonical: /situations/ordering-coffee-at-a-cafe/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT012
+  slug: ordering-at-a-restaurant
+  title: Ordering at a Restaurant
+  title_it: Ordinare al ristorante
+  level: A2-B1
+  domain: Travel & Daily Life
+  communicative_goals:
+  - order or ask for everyday services
+  - understand routine questions
+  - respond clearly
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/ordering-at-a-restaurant
+  permalink: /situations/ordering-at-a-restaurant/
+  canonical: /situations/ordering-at-a-restaurant/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT013
+  slug: asking-about-the-menu
+  title: Asking About the Menu
+  title_it: Chiedere informazioni sul menu
+  level: A2-B1
+  domain: Travel & Daily Life
+  communicative_goals:
+  - order or ask for everyday services
+  - understand routine questions
+  - respond clearly
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/asking-about-the-menu
+  permalink: /situations/asking-about-the-menu/
+  canonical: /situations/asking-about-the-menu/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT014
+  slug: paying-the-bill
+  title: Paying the Bill
+  title_it: Pagare il conto
+  level: A2-B1
+  domain: Travel & Daily Life
+  communicative_goals:
+  - order or ask for everyday services
+  - understand routine questions
+  - respond clearly
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/paying-the-bill
+  permalink: /situations/paying-the-bill/
+  canonical: /situations/paying-the-bill/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT015
+  slug: shopping-for-groceries
+  title: Shopping for Groceries
+  title_it: Fare la spesa
+  level: A2-B1
+  domain: Daily Life
+  communicative_goals:
+  - describe everyday activities
+  - talk about preferences and routines
+  - make simple arrangements
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/shopping-for-groceries
+  permalink: /situations/shopping-for-groceries/
+  canonical: /situations/shopping-for-groceries/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT016
+  slug: asking-where-something-is-in-a-shop
+  title: Asking Where Something Is in a Shop
+  title_it: Chiedere dove si trova qualcosa in negozio
+  level: A2
+  domain: Daily Life
+  communicative_goals:
+  - describe everyday activities
+  - talk about preferences and routines
+  - make simple arrangements
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/asking-where-something-is-in-a-shop
+  permalink: /situations/asking-where-something-is-in-a-shop/
+  canonical: /situations/asking-where-something-is-in-a-shop/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT017
+  slug: returning-something-you-bought
+  title: Returning Something You Bought
+  title_it: Restituire qualcosa che hai comprato
+  level: B1
+  domain: Shopping & Services
+  communicative_goals:
+  - ask for information
+  - explain a problem
+  - request a solution
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/returning-something-you-bought
+  permalink: /situations/returning-something-you-bought/
+  canonical: /situations/returning-something-you-bought/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT018
+  slug: a-problem-with-your-food
+  title: A Problem With Your Food
+  title_it: Segnalare un problema con il cibo
+  level: B1
+  domain: Travel & Services
+  communicative_goals:
+  - describe a problem
+  - make a polite request
+  - understand a response
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/a-problem-with-your-food
+  permalink: /situations/a-problem-with-your-food/
+  canonical: /situations/a-problem-with-your-food/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT019
+  slug: cooking-with-someone
+  title: Cooking With Someone
+  title_it: Cucinare insieme a qualcuno
+  level: A2-B1
+  domain: Daily Life
+  communicative_goals:
+  - describe everyday activities
+  - talk about preferences and routines
+  - make simple arrangements
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/cooking-with-someone
+  permalink: /situations/cooking-with-someone/
+  canonical: /situations/cooking-with-someone/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT020
+  slug: making-plans-for-dinner
+  title: Making Plans for Dinner
+  title_it: Organizzare una cena
+  level: A2-B1
+  domain: Social English
+  communicative_goals:
+  - start and maintain natural conversations
+  - ask and answer follow-up questions
+  - respond appropriately
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/making-plans-for-dinner
+  permalink: /situations/making-plans-for-dinner/
+  canonical: /situations/making-plans-for-dinner/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT021
+  slug: booking-a-hotel-room
+  title: Booking a Hotel Room
+  title_it: Prenotare una camera d’hotel
+  level: A2-B1
+  domain: Travel English
+  communicative_goals:
+  - handle common travel interactions
+  - ask for information
+  - solve routine travel problems
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/booking-a-hotel-room
+  permalink: /situations/booking-a-hotel-room/
+  canonical: /situations/booking-a-hotel-room/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT022
+  slug: checking-into-a-hotel
+  title: Checking Into a Hotel
+  title_it: Fare il check-in in hotel
+  level: A2-B1
+  domain: Travel English
+  communicative_goals:
+  - handle common travel interactions
+  - ask for information
+  - solve routine travel problems
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/checking-into-a-hotel
+  permalink: /situations/checking-into-a-hotel/
+  canonical: /situations/checking-into-a-hotel/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT023
+  slug: problem-with-your-hotel-room
+  title: There’s a Problem With Your Hotel Room
+  title_it: Segnalare un problema in hotel
+  level: B1
+  domain: Travel English
+  communicative_goals:
+  - handle common travel interactions
+  - ask for information
+  - solve routine travel problems
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/problem-with-your-hotel-room
+  permalink: /situations/problem-with-your-hotel-room/
+  canonical: /situations/problem-with-your-hotel-room/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT024
+  slug: checking-out-of-a-hotel
+  title: Checking Out of a Hotel
+  title_it: Fare il check-out dall’hotel
+  level: A2-B1
+  domain: Travel English
+  communicative_goals:
+  - handle common travel interactions
+  - ask for information
+  - solve routine travel problems
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/checking-out-of-a-hotel
+  permalink: /situations/checking-out-of-a-hotel/
+  canonical: /situations/checking-out-of-a-hotel/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT025
+  slug: airport-check-in
+  title: At the Airport Check-In Desk
+  title_it: Al banco del check-in in aeroporto
+  level: A2-B1
+  domain: Travel English
+  communicative_goals:
+  - handle common travel interactions
+  - ask for information
+  - solve routine travel problems
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/airport-check-in
+  permalink: /situations/airport-check-in/
+  canonical: /situations/airport-check-in/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT026
+  slug: airport-security
+  title: Going Through Airport Security
+  title_it: Passare i controlli di sicurezza in aeroporto
+  level: A2-B1
+  domain: Travel English
+  communicative_goals:
+  - handle common travel interactions
+  - ask for information
+  - solve routine travel problems
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/airport-security
+  permalink: /situations/airport-security/
+  canonical: /situations/airport-security/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT027
+  slug: flight-delayed
+  title: Your Flight Is Delayed
+  title_it: Quando il volo è in ritardo
+  level: B1
+  domain: Travel English
+  communicative_goals:
+  - handle common travel interactions
+  - ask for information
+  - solve routine travel problems
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/flight-delayed
+  permalink: /situations/flight-delayed/
+  canonical: /situations/flight-delayed/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT028
+  slug: train-station
+  title: At the Train Station
+  title_it: Alla stazione ferroviaria
+  level: A2-B1
+  domain: Travel English
+  communicative_goals:
+  - handle common travel interactions
+  - ask for information
+  - solve routine travel problems
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/train-station
+  permalink: /situations/train-station/
+  canonical: /situations/train-station/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT029
+  slug: asking-for-directions
+  title: Asking for Directions
+  title_it: Chiedere indicazioni stradali
+  level: A2-B1
+  domain: Travel English
+  communicative_goals:
+  - handle common travel interactions
+  - ask for information
+  - solve routine travel problems
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/asking-for-directions
+  permalink: /situations/asking-for-directions/
+  canonical: /situations/asking-for-directions/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT030
+  slug: getting-around-a-new-city
+  title: Getting Around a New City
+  title_it: Muoversi in una città nuova
+  level: A2-B1
+  domain: Travel English
+  communicative_goals:
+  - handle common travel interactions
+  - ask for information
+  - solve routine travel problems
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/getting-around-a-new-city
+  permalink: /situations/getting-around-a-new-city/
+  canonical: /situations/getting-around-a-new-city/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT031
+  slug: renting-a-car
+  title: Renting a Car
+  title_it: Noleggiare un’auto
+  level: B1
+  domain: Travel English
+  communicative_goals:
+  - handle common travel interactions
+  - ask for information
+  - solve routine travel problems
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/renting-a-car
+  permalink: /situations/renting-a-car/
+  canonical: /situations/renting-a-car/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT032
+  slug: something-goes-wrong-on-your-trip
+  title: Something Goes Wrong on Your Trip
+  title_it: Quando qualcosa va storto durante un viaggio
+  level: B1
+  domain: Travel English
+  communicative_goals:
+  - handle common travel interactions
+  - ask for information
+  - solve routine travel problems
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/something-goes-wrong-on-your-trip
+  permalink: /situations/something-goes-wrong-on-your-trip/
+  canonical: /situations/something-goes-wrong-on-your-trip/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT033
+  slug: making-an-appointment
+  title: Calling to Make an Appointment
+  title_it: Telefonare per prendere un appuntamento
+  level: A2-B1
+  domain: Services
+  communicative_goals:
+  - request assistance
+  - give relevant details
+  - understand solutions
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/making-an-appointment
+  permalink: /situations/making-an-appointment/
+  canonical: /situations/making-an-appointment/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT034
+  slug: at-the-pharmacy
+  title: At the Pharmacy
+  title_it: In farmacia
+  level: A2-B1
+  domain: Everyday Services
+  communicative_goals:
+  - ask for basic products or information
+  - describe a simple need
+  - understand instructions
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/at-the-pharmacy
+  permalink: /situations/at-the-pharmacy/
+  canonical: /situations/at-the-pharmacy/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT035
+  slug: asking-for-help
+  title: Asking for Help
+  title_it: Chiedere aiuto
+  level: A2-B1
+  domain: Everyday English
+  communicative_goals:
+  - ask for help
+  - describe situations and problems
+  - make polite requests
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/asking-for-help
+  permalink: /situations/asking-for-help/
+  canonical: /situations/asking-for-help/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT036
+  slug: explaining-a-problem
+  title: Explaining a Problem
+  title_it: Spiegare un problema
+  level: B1
+  domain: Everyday English
+  communicative_goals:
+  - ask for help
+  - describe situations and problems
+  - make polite requests
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/explaining-a-problem
+  permalink: /situations/explaining-a-problem/
+  canonical: /situations/explaining-a-problem/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT037
+  slug: calling-customer-service
+  title: Calling Customer Service
+  title_it: Chiamare il servizio clienti
+  level: B1
+  domain: Services
+  communicative_goals:
+  - request assistance
+  - give relevant details
+  - understand solutions
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/calling-customer-service
+  permalink: /situations/calling-customer-service/
+  canonical: /situations/calling-customer-service/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT038
+  slug: delivery-hasnt-arrived
+  title: A Delivery Hasn’t Arrived
+  title_it: Quando una consegna non è arrivata
+  level: B1
+  domain: Services
+  communicative_goals:
+  - request assistance
+  - give relevant details
+  - understand solutions
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/delivery-hasnt-arrived
+  permalink: /situations/delivery-hasnt-arrived/
+  canonical: /situations/delivery-hasnt-arrived/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT039
+  slug: you-lost-something
+  title: You Lost Something
+  title_it: Quando hai perso qualcosa
+  level: B1
+  domain: Everyday English
+  communicative_goals:
+  - ask for help
+  - describe situations and problems
+  - make polite requests
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/you-lost-something
+  permalink: /situations/you-lost-something/
+  canonical: /situations/you-lost-something/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT040
+  slug: making-a-polite-complaint
+  title: Making a Polite Complaint
+  title_it: Fare un reclamo in modo educato
+  level: B1
+  domain: Services
+  communicative_goals:
+  - request assistance
+  - give relevant details
+  - understand solutions
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/making-a-polite-complaint
+  permalink: /situations/making-a-polite-complaint/
+  canonical: /situations/making-a-polite-complaint/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT041
+  slug: talking-about-where-you-live
+  title: Talking About Where You Live
+  title_it: Parlare di dove vivi
+  level: A2-B1
+  domain: Daily Life
+  communicative_goals:
+  - describe everyday activities
+  - talk about preferences and routines
+  - make simple arrangements
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/talking-about-where-you-live
+  permalink: /situations/talking-about-where-you-live/
+  canonical: /situations/talking-about-where-you-live/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT042
+  slug: describing-your-daily-routine
+  title: Describing Your Daily Routine
+  title_it: Descrivere la propria routine quotidiana
+  level: A2
+  domain: Daily Life
+  communicative_goals:
+  - describe everyday activities
+  - talk about preferences and routines
+  - make simple arrangements
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/describing-your-daily-routine
+  permalink: /situations/describing-your-daily-routine/
+  canonical: /situations/describing-your-daily-routine/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT043
+  slug: talking-about-household-chores
+  title: Talking About Household Chores
+  title_it: Parlare delle faccende domestiche
+  level: A2-B1
+  domain: Daily Life
+  communicative_goals:
+  - describe everyday activities
+  - talk about preferences and routines
+  - make simple arrangements
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/talking-about-household-chores
+  permalink: /situations/talking-about-household-chores/
+  canonical: /situations/talking-about-household-chores/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT044
+  slug: talking-about-how-you-feel
+  title: Talking About Your Health and How You Feel
+  title_it: Parlare di come stai e di come ti senti
+  level: A2-B1
+  domain: Everyday English
+  communicative_goals:
+  - ask for help
+  - describe situations and problems
+  - make polite requests
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/talking-about-how-you-feel
+  permalink: /situations/talking-about-how-you-feel/
+  canonical: /situations/talking-about-how-you-feel/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT045
+  slug: exercise-and-fitness
+  title: Talking About Exercise and Fitness
+  title_it: Parlare di sport e attività fisica
+  level: A2-B1
+  domain: Lifestyle
+  communicative_goals:
+  - talk about habits and interests
+  - say how often you do something
+  - express preferences
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/exercise-and-fitness
+  permalink: /situations/exercise-and-fitness/
+  canonical: /situations/exercise-and-fitness/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT046
+  slug: movies-and-tv-shows
+  title: Talking About Movies and TV Shows
+  title_it: Parlare di film e serie TV
+  level: B1
+  domain: Culture & Entertainment
+  communicative_goals:
+  - give opinions
+  - recommend something
+  - compare experiences
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/movies-and-tv-shows
+  permalink: /situations/movies-and-tv-shows/
+  canonical: /situations/movies-and-tv-shows/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT047
+  slug: making-plans-online
+  title: Making Plans With Friends Online
+  title_it: Organizzare programmi con gli amici online
+  level: A2-B1
+  domain: Digital English
+  communicative_goals:
+  - write natural informal messages
+  - make arrangements online
+  - talk about online habits
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/making-plans-online
+  permalink: /situations/making-plans-online/
+  canonical: /situations/making-plans-online/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT048
+  slug: talking-about-social-media
+  title: Talking About Social Media
+  title_it: Parlare dei social media
+  level: B1
+  domain: Digital English
+  communicative_goals:
+  - write natural informal messages
+  - make arrangements online
+  - talk about online habits
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/talking-about-social-media
+  permalink: /situations/talking-about-social-media/
+  canonical: /situations/talking-about-social-media/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT049
+  slug: first-day-at-work
+  title: Your First Day at Work
+  title_it: Il primo giorno di lavoro
+  level: B1
+  domain: Work English
+  communicative_goals:
+  - communicate clearly at work
+  - ask for clarification or help
+  - give concise updates
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/first-day-at-work
+  permalink: /situations/first-day-at-work/
+  canonical: /situations/first-day-at-work/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT050
+  slug: asking-a-colleague-for-help
+  title: Asking a Colleague for Help
+  title_it: Chiedere aiuto a un collega
+  level: B1
+  domain: Work English
+  communicative_goals:
+  - communicate clearly at work
+  - ask for clarification or help
+  - give concise updates
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/asking-a-colleague-for-help
+  permalink: /situations/asking-a-colleague-for-help/
+  canonical: /situations/asking-a-colleague-for-help/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT051
+  slug: giving-an-update-in-a-meeting
+  title: Giving an Update in a Meeting
+  title_it: Dare un aggiornamento durante una riunione
+  level: B1-B2
+  domain: Work English
+  communicative_goals:
+  - communicate clearly at work
+  - ask for clarification or help
+  - give concise updates
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/giving-an-update-in-a-meeting
+  permalink: /situations/giving-an-update-in-a-meeting/
+  canonical: /situations/giving-an-update-in-a-meeting/
+  pillar_role: core_situation
+  article_family: situational_hub
+- id: SIT052
+  slug: talking-about-a-deadline-or-problem-at-work
+  title: Talking About a Deadline or Problem at Work
+  title_it: Parlare di una scadenza o di un problema al lavoro
+  level: B1-B2
+  domain: Work English
+  communicative_goals:
+  - communicate clearly at work
+  - ask for clarification or help
+  - give concise updates
+  expression_ids: []
+  grammar_ids: []
+  article_slugs: []
+  daily_pill_days: []
+  related_situations: []
+  status: planned
+  content_format:
+    main_article: true
+    dialogue: true
+    useful_language: true
+    textbook_vs_natural: true
+    italian_traps: true
+    situational_grammar: true
+    mini_practice: true
+  article_slug: situations/talking-about-a-deadline-or-problem-at-work
+  permalink: /situations/talking-about-a-deadline-or-problem-at-work/
+  canonical: /situations/talking-about-a-deadline-or-problem-at-work/
+  pillar_role: core_situation
+  article_family: situational_hub
+final_principle: 'Le 52 Situazioni sono il livello che trasforma il corpus linguistico di Fluente-Mente in inglese realmente
+  utilizzabile: una situazione concreta, un obiettivo comunicativo chiaro, un dialogo naturale e collegamenti controllati
+  alle risorse del sistema.'

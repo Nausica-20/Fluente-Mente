@@ -1,0 +1,401 @@
+schema_version: '1.0'
+project: Fluente-Mente
+architecture_type: master_editorial_architecture
+content_type: daily_pill
+series:
+  id: pillola_del_giorno
+  name_it: La Pillola Inglese del Giorno
+  name_en: Daily English Pill
+  purpose: Insegnare ogni giorno una sola espressione inglese realmente utile attraverso contesto, uso naturale e pratica
+    breve.
+  annual_units: 365
+  canonical_content_unit: one_daily_pill_per_expression
+  expression_model: 1 expression record -> 1 daily pill -> 1 canonical educational page
+mission:
+  primary_promise: Un piccolo contenuto utile ogni giorno per parlare inglese in modo più naturale.
+  learner_profile: Italian-speaking learners from A2 to B2 who want practical, natural English.
+  editorial_language: Italian
+  target_language: Natural English
+  learning_style:
+  - context-first
+  - situational
+  - natural-not-textbook
+  - micro-learning
+  - high-reuse-language
+  excluded_focus:
+  - audio-only lessons
+  - pronunciation-focused lessons
+  - isolated vocabulary lists
+  - generic grammar lessons without context
+  - long theoretical explanations
+  - forced Sunday exercises
+core_rules:
+  one_pill_one_focus: true
+  one_primary_expression_per_pill: true
+  each_expression_used_once_as_primary_focus: true
+  365_expression_records: true
+  expression_records_are_data: true
+  expression_detail_pages: false
+  pill_is_canonical_educational_page: true
+  no_duplicate_pill_for_same_expression: true
+  no_separate_vocabulary_rubric_inside_pills: true
+  no_separate_pronunciation_track: true
+  no_audio_required: true
+  natural_english_over_textbook_english: true
+  context_before_rule: true
+  one_primary_learning_goal: true
+  one_primary_topic: true
+  one_primary_cefr_level: true
+  babbel_is_secondary_cta: true
+content_relationships:
+  source_of_truth: _data/content_mapping.yml
+  expression_database: _data/expressions_001-365_clean.yml
+  daily_pill_database: _data/daily_pills.yml
+  publishable_registry: _data/content_registry.yml
+  canonical_chain:
+  - expression_record
+  - daily_pill
+  - situation
+  - situational_grammar
+  - related_content
+  expression_record_role: data_only
+  expression_index_role: searchable/filterable atlas linking to the canonical daily pill
+  no_expression_detail_route: true
+url_architecture:
+  index_url: /pills/
+  article_url_pattern: /pills/{article_slug}/
+  permalink_rule: stable, lowercase, hyphenated, descriptive, unique
+  canonical_rule: daily pill URL is canonical for the expression taught
+  slug_rule: derive from article topic/expression without unnecessary stopwords
+  do_not_create:
+  - /expressions/{expression_slug}/
+  - /words/{word_slug}/
+  - duplicate topical URLs for the same pill
+article_front_matter_contract:
+  required_jekyll_fields:
+  - layout
+  - title
+  - description
+  - slug
+  - permalink
+  - published
+  required_editorial_fields:
+  - day
+  - week
+  - language
+  - level
+  - topic
+  - category
+  - expression_id
+  - expression
+  - expression_type
+  - register
+  - situation_id
+  - grammar_id
+  - article_slug
+  - learning_goal
+  - mini_context
+  - status
+  required_linking_fields:
+  - expression_page_type
+  - expression_page_url
+  - situation_url
+  - grammar_url
+  - related_pill_ids
+  - related_article_urls
+  seo_fields:
+  - seo.title
+  - seo.description
+  - seo.keywords
+  - seo.canonical
+  - seo.robots
+  commercial_fields:
+  - babbel_cta.enabled
+  - babbel_cta.position
+  - babbel_cta.profile
+  - babbel_cta.disclosure_required
+learning_design:
+  core_language:
+    purpose: Language explicitly taught and expected to be remembered.
+    expression_count: 1
+    word_count: small, tightly relevant set
+  supporting_language:
+    purpose: Useful language that helps the learner understand and use the core expression.
+    expression_count: 3
+    word_count: 5
+  exposure_language:
+    purpose: Authentic contextual language that enriches the dialogue without creating additional primary teaching units.
+    rule: May appear naturally in examples/dialogue and does not automatically become a new Pill.
+  learning_goal: One communicative outcome tied directly to the primary expression.
+  learner_outcome: The learner can recognize, understand and use the target expression in at least one realistic situation.
+  context_rule: Teach the expression in a concrete situation before explaining its meaning or grammar.
+  translation_rule: Provide an Italian translation that reflects intended meaning in context rather than word-for-word translation.
+  grammar_rule: Explain grammar only when it helps the learner use the target expression correctly.
+standard_article_structure:
+  required_sections:
+  - title
+  - why_this_expression_matters
+  - real_life_context
+  - natural_mini_dialogue
+  - italian_translation
+  - how_to_use_it
+  - supporting_language
+  - textbook_vs_natural
+  - common_italian_mistake
+  - situational_grammar
+  - quick_check
+  - mini_practice
+  - related_content
+  - babbel_cta
+  section_spec:
+    title:
+      rule: Clear, natural, useful, learner-facing.
+    why_this_expression_matters:
+      target: Brief explanation of why the expression is useful in real English.
+    real_life_context:
+      target: One concrete communicative situation.
+    natural_mini_dialogue:
+      turns: 4
+      rule: Natural, plausible, level-appropriate dialogue.
+    italian_translation:
+      rule: Translate the dialogue naturally into Italian.
+    how_to_use_it:
+      target: Meaning, register, typical collocations/patterns and when to use it.
+    supporting_language:
+      expression_count: 3
+      word_count: 5
+    textbook_vs_natural:
+      example_count: 1
+      rule: Show a common classroom/literal formulation and a more natural alternative only when there is a meaningful contrast.
+    common_italian_mistake:
+      minimum: 1
+      rule: Focus on a realistic Italian interference or misuse.
+    situational_grammar:
+      rule: Short context-based explanation, never a standalone grammar lesson.
+    quick_check:
+      question_count: 1
+      format: meaning/use recognition
+    mini_practice:
+      rule: Brief active-use task; avoid turning the Pill into a worksheet.
+    related_content:
+      pill_count: 3-5
+      situation_count: 1 when relevant
+      grammar_count: 1 when relevant
+      confusion_count: 0-2 when relevant
+    babbel_cta:
+      position: end
+      style: soft contextual
+editorial_voice:
+  tone_it:
+  - chiaro
+  - concreto
+  - amichevole
+  - adulto
+  - incoraggiante
+  - mai scolastico
+  english_standard:
+  - natural
+  - common
+  - context-appropriate
+  - level-appropriate
+  avoid:
+  - fake native phrasing
+  - literal Italian calques presented as natural English
+  - unnecessary slang
+  - over-formality
+  - over-explaining
+  - lists without context
+cefr_rules:
+  A2: High-frequency everyday expressions, clear situations, short examples, limited complexity.
+  B1: Natural everyday interaction, more flexible patterns, common conversational choices.
+  B2: Nuance, register, natural alternatives, workplace/social/travel contexts and more complex usage.
+  level_integrity: Do not assign a higher CEFR level merely because the expression looks advanced; judge the communicative
+    task and required comprehension/production.
+topic_and_category_rules:
+  primary_topic: Exactly one main topic per Pill.
+  allowed_topic_examples:
+  - everyday_conversation
+  - small_talk
+  - plans
+  - food
+  - shopping
+  - travel
+  - work
+  - social_life
+  - problems
+  - communication
+  - modern_life
+  category_role: Classify the language unit, not the article intent.
+  possible_categories:
+  - Everyday expression
+  - Idiom
+  - Phrasal verb
+  - Colloquial English
+  - British English
+  - Modern English
+  - Slang / Internet English
+  - New word / neologism
+weekly_architecture:
+  unit: 7 daily pills
+  weekly_principle: A week may share a situation/topic family, but each day must teach a distinct primary expression.
+  recommended_pattern:
+    monday: conversation/use
+    tuesday: vocabulary-in-context
+    wednesday: idiomatic or fixed expression
+    thursday: colloquial/modern usage when appropriate
+    friday: grammar-in-use
+    saturday: natural usage/review through context
+    sunday: weekly recap or light consolidation, not a mandatory exercise article
+  rule: The weekly pattern guides editorial balance; it does not override the 1-expression-per-pill rule.
+annual_plan:
+  total_pills: 365
+  monthly_counts:
+  - month: 1
+    pills: 31
+  - month: 2
+    pills: 28
+  - month: 3
+    pills: 31
+  - month: 4
+    pills: 30
+  - month: 5
+    pills: 31
+  - month: 6
+    pills: 30
+  - month: 7
+    pills: 31
+  - month: 8
+    pills: 31
+  - month: 9
+    pills: 30
+  - month: 10
+    pills: 31
+  - month: 11
+    pills: 30
+  - month: 12
+    pills: 31
+  production_buffer:
+    minimum_ready_ahead_days: 30
+    ideal_ready_ahead_days: 60-90
+  batch_size: 7
+internal_linking_rules:
+  expression: Link to the expression record/atlas, not to a duplicate expression detail page.
+  situation: Link to the mapped situation article when relevant.
+  grammar: Link to the mapped situational grammar article when relevant.
+  related_pills: Prefer adjacent or semantically related pills without creating repetitive clusters.
+  confusion: Link to a 'Non sono la stessa cosa!' article only when the comparison directly clarifies the target expression.
+  verticals:
+    travel_english: Link when the expression has a genuine travel use.
+    business_english: Link when the expression has a genuine workplace use.
+    english_culture: Link when cultural/pragmatic context materially improves understanding.
+    inglese_da_adulti: Link when the article topic directly relates to learning strategy rather than language meaning.
+anti_overlap_rules:
+  with_expression_database: Database stores the linguistic entity; the Pill teaches it.
+  with_situations: Pill is a micro-lesson on one expression; Situation is a broader scenario article.
+  with_grammar: Pill uses grammar to support one expression; Grammar article teaches a mapped grammar point through a situation.
+  with_confusions: Pill teaches one target expression; Confusion article compares words/expressions as a contrastive lesson.
+  with_travel: Pill is language-unit focused; Travel is domain-focused.
+  with_business: Pill is language-unit focused; Business is professional-domain focused.
+  with_culture: Pill teaches usage; Culture explains how cultural context affects interpretation.
+  with_adult_learning: Pill teaches English; Adult Learning teaches how to learn English.
+seo_rules:
+  search_intent: One primary learner intent per Pill.
+  title: Include the target expression or the natural learning intent when useful; avoid clickbait.
+  meta_description: Concise Italian description explaining what the learner will understand/use.
+  canonical: Self-canonical to the Pill URL.
+  indexing: Publishable and indexable unless an explicit editorial QA rule sets otherwise.
+  schema: Use the site's standard Article/learning-content schema where configured.
+  duplicate_control: Do not create another page targeting the same primary expression/use case.
+pinterest_rules:
+  role: Drive qualified discovery traffic to the canonical Pill.
+  pin_count_per_pill: 1 primary pin recommended; additional variants only when strategically justified.
+  angles:
+  - natural English phrase
+  - common Italian mistake
+  - textbook vs natural English
+  - useful phrase for a real situation
+  cta_rule: Pin CTA should lead to the Pill, not directly to Babbel unless the asset is explicitly commercial.
+babbel_cta:
+  role: Secondary conversion layer.
+  enabled: true
+  position: end_of_article
+  profile: solution_soft
+  default_label: Scopri Babbel
+  default_text: Se vuoi continuare a imparare con un percorso strutturato, puoi scoprire Babbel.
+  disclosure_required: true
+  disclosure_text: Questo contenuto può contenere link affiliati. Se effettui un acquisto tramite un link affiliato, potremmo
+    ricevere una commissione, senza costi aggiuntivi per te.
+  affiliate_url: ''
+  rules:
+  - Do not invent pricing.
+  - Do not invent discounts or promotions.
+  - Do not claim guaranteed outcomes.
+  - Verify current commercial details before publication.
+  - Do not interrupt the teaching flow with the CTA.
+writing_prompt_contract:
+  input_required:
+  - pill record
+  - expression record
+  - mapped situation record when available
+  - mapped grammar record when available
+  - related content IDs
+  writer_must:
+  - write for Italian learners
+  - teach one primary expression
+  - use natural English examples
+  - keep the article situational
+  - respect the assigned CEFR level
+  - use the supplied expression metadata as source of truth
+  - preserve the supplied permalink and IDs
+  - add only relevant supporting language
+  - include a realistic Italian mistake
+  - keep grammar contextual
+  - include internal links specified by the mapping
+  - include the soft Babbel CTA at the end
+  writer_must_not:
+  - invent a new primary expression
+  - change the assigned expression_id
+  - change the canonical permalink
+  - create an expression detail page
+  - turn the article into a generic vocabulary list
+  - turn the article into a generic grammar lesson
+  - add audio/pronunciation sections
+  - create unsupported Babbel offers
+  - force unrelated internal links
+quality_assurance:
+  pre_publish_checks:
+  - Exactly one primary expression is taught.
+  - The expression matches the expression database record.
+  - The title, slug and permalink match the registry.
+  - CEFR level is appropriate.
+  - The learning goal is singular and measurable.
+  - The mini-dialogue sounds natural.
+  - Italian translation reflects context.
+  - Textbook-vs-natural comparison is legitimate and not forced.
+  - Italian mistake is plausible.
+  - Grammar explanation is contextual.
+  - Related links resolve to canonical content.
+  - No duplicate expression detail URL is created.
+  - SEO metadata is complete.
+  - Babbel CTA and disclosure are present where configured.
+  - No unsupported commercial claim is present.
+  - No audio/pronunciation content is introduced.
+  status_flow:
+  - planned
+  - brief_ready
+  - drafting
+  - draft_ready
+  - review
+  - approved
+  - published
+  - needs_update
+  - archived
+master_template:
+  front_matter_source: Generate the article front matter from the mapped pill record and project schemas.
+  body_source: Generate the article from the learning design and expression metadata, not from a generic blog template.
+  canonical_identifier: expression_id
+  canonical_url_field: permalink
+  article_identity: day + expression_id + article_slug
+final_principle: '365 Pillole non significa 365 pagine casuali: significa un corpus coerente di 365 micro-lezioni, ciascuna
+  con una sola espressione centrale, un contesto reale, un obiettivo chiaro e connessioni controllate all''intero ecosistema
+  Fluente-Mente.'

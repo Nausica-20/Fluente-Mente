@@ -1,0 +1,19 @@
+schema_version: '1.0'
+decision_enum:
+- PASS
+- REVIEW
+- FAIL
+check_status_enum:
+- PASS
+- REVIEW
+- FAIL
+required_report_fields:
+- file
+- content_id
+- decision
+- checks
+required_check_fields:
+- section
+- rule
+- status
+- message

@@ -1,0 +1,684 @@
+schema_version: '1.1'
+purpose: Pinterest acquisition layer connecting editorial content to saveable, searchable and click-worthy Pin concepts.
+site:
+  market: IT
+  language: it
+  primary_destination: site_content
+  funnel: Pinterest -> website -> relevant next step -> Babbel when appropriate
+  name: Fluente-Mente
+  profile_url: https://pin.it/7AH50mTlA
+  username: nausica-20
+rules:
+  pinterest_is_an_acquisition_layer: true
+  one_content_unit_can_generate_multiple_pins: true
+  pin_angle_must_match_content_promise: true
+  do_not_use_clickbait: true
+  do_not_publish_near_duplicate_pins_without_new_angle: true
+  prioritize_save_value_over_brand_visibility: true
+  commercial_pins_require_clear_commercial_intent: true
+  every_pin_must_have_one_primary_destination: true
+  pin_text_should_remain_useful_without_click: true
+recommended_creative:
+  standard_ratio: '2:3'
+  standard_size: 1000x1500
+  primary_formats:
+  - static_educational
+  - list
+  - mistake_correction
+  - before_after
+  - mini_guide
+  - problem_solution
+  - comparison
+  - checklist
+pin_intents:
+  curiosity:
+    purpose: Far scattare curiosità su un errore, una differenza o un insight.
+    best_for:
+    - natural_english
+    - false_friends
+    - spoken_english
+    cta_style: soft
+  problem:
+    purpose: Intercettare un problema concreto che l'utente vuole risolvere.
+    best_for:
+    - speaking_problems
+    - listening_problems
+    - italian_mistakes
+    cta_style: solution
+  saveable:
+    purpose: Offrire una risorsa che l'utente vuole conservare per riutilizzarla.
+    best_for:
+    - expressions
+    - vocabulary
+    - real_life
+    - collocations
+    cta_style: reference
+  how_to:
+    purpose: Promettere una procedura pratica e immediatamente applicabile.
+    best_for:
+    - conversation
+    - requests
+    - work
+    - travel
+    cta_style: learn
+  list:
+    purpose: Presentare una raccolta numerata facilmente scansionabile.
+    best_for:
+    - expressions
+    - mistakes
+    - vocabulary
+    - phrases
+    cta_style: learn
+  mistake:
+    purpose: Mostrare un errore tipico e la sua correzione.
+    best_for:
+    - italian_mistakes
+    - false_friends
+    - natural_english
+    cta_style: correction
+  inspiration:
+    purpose: Motivare l'utente mostrando una possibilità concreta di miglioramento.
+    best_for:
+    - progression
+    - study_habits
+    - speaking_confidence
+    cta_style: progress
+  decision:
+    purpose: Aiutare l'utente a scegliere tra approcci, strumenti o opzioni.
+    best_for:
+    - learning_methods
+    - learning_apps
+    - babbel_decision
+    cta_style: compare
+  comparison:
+    purpose: Confrontare due approcci o opzioni per aiutare l’utente a decidere.
+    best_for:
+    - learning_methods
+    - learning_apps
+    - babbel_decision
+    - natural_english
+    cta_style: compare
+  roadmap:
+    purpose: Mostrare un percorso o una sequenza di miglioramento facile da seguire e salvare.
+    best_for:
+    - progression
+    - levels_and_progression
+    - study_habits
+    cta_style: progress
+angles:
+  natural_vs_textbook:
+    promise: Scopri come dire la stessa cosa in un inglese più naturale.
+    formats:
+    - before_after
+    - comparison
+    - mistake_correction
+    priority: P0
+  italian_mistake:
+    promise: Evita un errore che gli italiani fanno spesso in inglese.
+    formats:
+    - mistake_correction
+    - list
+    priority: P0
+  real_life:
+    promise: Cosa dire davvero in questa situazione.
+    formats:
+    - mini_guide
+    - dialogue
+    - checklist
+    priority: P0
+  save_for_later:
+    promise: Salva queste espressioni e usale quando ne hai bisogno.
+    formats:
+    - list
+    - reference
+    - checklist
+    priority: P0
+  conversation:
+    promise: Impara cosa dire per gestire una conversazione reale.
+    formats:
+    - dialogue
+    - how_to
+    - mini_guide
+    priority: P0
+  listening:
+    promise: Capisci perché l'inglese parlato suona diverso.
+    formats:
+    - mini_guide
+    - comparison
+    - before_after
+    priority: P1
+  study_problem:
+    promise: Capisci cosa ti sta bloccando e cosa fare dopo.
+    formats:
+    - problem_solution
+    - checklist
+    - how_to
+    priority: P1
+  progression:
+    promise: Scopri il prossimo passo per migliorare il tuo inglese.
+    formats:
+    - roadmap
+    - checklist
+    - how_to
+    priority: P1
+  method_comparison:
+    promise: Confronta le opzioni prima di scegliere come studiare.
+    formats:
+    - comparison
+    - decision_guide
+    priority: P1
+  babbel_fit:
+    promise: Scopri per chi può avere senso Babbel e quando.
+    formats:
+    - comparison
+    - decision_guide
+    - checklist
+    priority: P1
+    commercial: true
+copy_structure:
+  title:
+    formula: Benefit o problema concreto + contesto
+    max_recommended_length: 100
+  overlay:
+    formula: Promessa principale in poche parole
+    max_recommended_words: 10
+  description:
+    formula: Problema -> valore -> cosa troverai -> motivo per cliccare
+    keyword_naturally: true
+  destination:
+    rule: Link alla pagina più specifica che soddisfa la promessa del Pin.
+content_mapping:
+  UE-001:
+    primary_intent: how_to
+    primary_angle: conversation
+    suggested_pin_count: 3
+  UE-002:
+    primary_intent: saveable
+    primary_angle: conversation
+    suggested_pin_count: 3
+  UE-003:
+    primary_intent: how_to
+    primary_angle: conversation
+    suggested_pin_count: 3
+  UE-005:
+    primary_intent: how_to
+    primary_angle: conversation
+    suggested_pin_count: 4
+  UE-006:
+    primary_intent: saveable
+    primary_angle: conversation
+    suggested_pin_count: 4
+  UE-007:
+    primary_intent: saveable
+    primary_angle: save_for_later
+    suggested_pin_count: 4
+  UE-008:
+    primary_intent: how_to
+    primary_angle: conversation
+    suggested_pin_count: 3
+  UE-009:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  UE-010:
+    primary_intent: saveable
+    primary_angle: real_life
+    suggested_pin_count: 4
+  UE-011:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  UE-012:
+    primary_intent: problem
+    primary_angle: real_life
+    suggested_pin_count: 4
+  UE-013:
+    primary_intent: saveable
+    primary_angle: conversation
+    suggested_pin_count: 3
+  UE-014:
+    primary_intent: saveable
+    primary_angle: conversation
+    suggested_pin_count: 3
+  UE-015:
+    primary_intent: how_to
+    primary_angle: natural_vs_textbook
+    suggested_pin_count: 4
+  UE-016:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  UE2-001:
+    primary_intent: list
+    primary_angle: save_for_later
+    suggested_pin_count: 5
+  UE2-002:
+    primary_intent: saveable
+    primary_angle: save_for_later
+    suggested_pin_count: 4
+  UE2-003:
+    primary_intent: saveable
+    primary_angle: conversation
+    suggested_pin_count: 5
+  UE2-004:
+    primary_intent: mistake
+    primary_angle: natural_vs_textbook
+    suggested_pin_count: 4
+  UE2-005:
+    primary_intent: problem
+    primary_angle: listening
+    suggested_pin_count: 4
+  UE2-006:
+    primary_intent: saveable
+    primary_angle: listening
+    suggested_pin_count: 4
+  UE2-007:
+    primary_intent: saveable
+    primary_angle: listening
+    suggested_pin_count: 4
+  UE2-008:
+    primary_intent: problem
+    primary_angle: listening
+    suggested_pin_count: 4
+  UE2-009:
+    primary_intent: mistake
+    primary_angle: natural_vs_textbook
+    suggested_pin_count: 5
+  UE2-010:
+    primary_intent: mistake
+    primary_angle: italian_mistake
+    suggested_pin_count: 5
+  UE2-011:
+    primary_intent: saveable
+    primary_angle: natural_vs_textbook
+    suggested_pin_count: 5
+  UE2-012:
+    primary_intent: curiosity
+    primary_angle: natural_vs_textbook
+    suggested_pin_count: 5
+  UE2-013:
+    primary_intent: mistake
+    primary_angle: italian_mistake
+    suggested_pin_count: 5
+  UE2-014:
+    primary_intent: mistake
+    primary_angle: italian_mistake
+    suggested_pin_count: 4
+  UE2-015:
+    primary_intent: mistake
+    primary_angle: italian_mistake
+    suggested_pin_count: 4
+  UE2-016:
+    primary_intent: mistake
+    primary_angle: italian_mistake
+    suggested_pin_count: 4
+  BE-001:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 3
+  BE-002:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 3
+  BE-003:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 3
+  BE-004:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 3
+  BE-005:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 3
+  BE-006:
+    primary_intent: mistake
+    primary_angle: italian_mistake
+    suggested_pin_count: 4
+  BE-007:
+    primary_intent: mistake
+    primary_angle: italian_mistake
+    suggested_pin_count: 4
+  BE-008:
+    primary_intent: mistake
+    primary_angle: italian_mistake
+    suggested_pin_count: 4
+  BE-009:
+    primary_intent: mistake
+    primary_angle: italian_mistake
+    suggested_pin_count: 5
+  BE-010:
+    primary_intent: mistake
+    primary_angle: italian_mistake
+    suggested_pin_count: 5
+  BE-011:
+    primary_intent: mistake
+    primary_angle: natural_vs_textbook
+    suggested_pin_count: 4
+  BE-012:
+    primary_intent: mistake
+    primary_angle: natural_vs_textbook
+    suggested_pin_count: 4
+  BE-013:
+    primary_intent: mistake
+    primary_angle: natural_vs_textbook
+    suggested_pin_count: 4
+  BE-014:
+    primary_intent: curiosity
+    primary_angle: natural_vs_textbook
+    suggested_pin_count: 4
+  BE-015:
+    primary_intent: list
+    primary_angle: save_for_later
+    suggested_pin_count: 5
+  BE-016:
+    primary_intent: list
+    primary_angle: save_for_later
+    suggested_pin_count: 5
+  TR-001:
+    primary_intent: saveable
+    primary_angle: real_life
+    suggested_pin_count: 5
+  TR-002:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  TR-003:
+    primary_intent: saveable
+    primary_angle: real_life
+    suggested_pin_count: 4
+  TR-004:
+    primary_intent: problem
+    primary_angle: real_life
+    suggested_pin_count: 4
+  TR-005:
+    primary_intent: saveable
+    primary_angle: real_life
+    suggested_pin_count: 4
+  TR-006:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  TR-007:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  TR-008:
+    primary_intent: problem
+    primary_angle: real_life
+    suggested_pin_count: 4
+  TR-009:
+    primary_intent: saveable
+    primary_angle: real_life
+    suggested_pin_count: 5
+  TR-010:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  TR-011:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 5
+  TR-012:
+    primary_intent: saveable
+    primary_angle: real_life
+    suggested_pin_count: 4
+  WE-001:
+    primary_intent: saveable
+    primary_angle: real_life
+    suggested_pin_count: 5
+  WE-002:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  WE-003:
+    primary_intent: saveable
+    primary_angle: real_life
+    suggested_pin_count: 4
+  WE-004:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  WE-005:
+    primary_intent: saveable
+    primary_angle: real_life
+    suggested_pin_count: 5
+  WE-006:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  WE-007:
+    primary_intent: saveable
+    primary_angle: real_life
+    suggested_pin_count: 4
+  WE-008:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  WE-009:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  WE-010:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  WE-011:
+    primary_intent: saveable
+    primary_angle: real_life
+    suggested_pin_count: 5
+  WE-012:
+    primary_intent: list
+    primary_angle: real_life
+    suggested_pin_count: 4
+  SL-001:
+    primary_intent: inspiration
+    primary_angle: conversation
+    suggested_pin_count: 4
+  SL-002:
+    primary_intent: saveable
+    primary_angle: conversation
+    suggested_pin_count: 4
+  SL-003:
+    primary_intent: how_to
+    primary_angle: conversation
+    suggested_pin_count: 4
+  SL-004:
+    primary_intent: saveable
+    primary_angle: conversation
+    suggested_pin_count: 4
+  EL-001:
+    primary_intent: problem
+    primary_angle: real_life
+    suggested_pin_count: 4
+  EL-002:
+    primary_intent: how_to
+    primary_angle: real_life
+    suggested_pin_count: 4
+  EL-003:
+    primary_intent: saveable
+    primary_angle: real_life
+    suggested_pin_count: 4
+  EL-004:
+    primary_intent: problem
+    primary_angle: real_life
+    suggested_pin_count: 3
+  LS-001:
+    primary_intent: problem
+    primary_angle: study_problem
+    suggested_pin_count: 5
+  LS-002:
+    primary_intent: problem
+    primary_angle: study_problem
+    suggested_pin_count: 5
+  LS-003:
+    primary_intent: problem
+    primary_angle: study_problem
+    suggested_pin_count: 5
+  LS-004:
+    primary_intent: problem
+    primary_angle: listening
+    suggested_pin_count: 5
+  LS-005:
+    primary_intent: how_to
+    primary_angle: progression
+    suggested_pin_count: 5
+  LS-006:
+    primary_intent: problem
+    primary_angle: natural_vs_textbook
+    suggested_pin_count: 5
+  LS-007:
+    primary_intent: how_to
+    primary_angle: progression
+    suggested_pin_count: 4
+  LS-008:
+    primary_intent: inspiration
+    primary_angle: study_problem
+    suggested_pin_count: 4
+  LS-009:
+    primary_intent: how_to
+    primary_angle: listening
+    suggested_pin_count: 5
+  LS-010:
+    primary_intent: problem
+    primary_angle: listening
+    suggested_pin_count: 5
+  LS-011:
+    primary_intent: saveable
+    primary_angle: progression
+    suggested_pin_count: 5
+  LS-012:
+    primary_intent: curiosity
+    primary_angle: listening
+    suggested_pin_count: 4
+  LS-013:
+    primary_intent: decision
+    primary_angle: progression
+    suggested_pin_count: 4
+  LS-014:
+    primary_intent: decision
+    primary_angle: progression
+    suggested_pin_count: 4
+  LS-015:
+    primary_intent: saveable
+    primary_angle: progression
+    suggested_pin_count: 5
+  LS-016:
+    primary_intent: how_to
+    primary_angle: progression
+    suggested_pin_count: 4
+  LS-017:
+    primary_intent: curiosity
+    primary_angle: progression
+    suggested_pin_count: 4
+  LS-018:
+    primary_intent: curiosity
+    primary_angle: progression
+    suggested_pin_count: 4
+  LS-019:
+    primary_intent: inspiration
+    primary_angle: progression
+    suggested_pin_count: 5
+  LS-020:
+    primary_intent: inspiration
+    primary_angle: progression
+    suggested_pin_count: 5
+  CN-001:
+    primary_intent: decision
+    primary_angle: method_comparison
+    suggested_pin_count: 5
+  CN-002:
+    primary_intent: how_to
+    primary_angle: method_comparison
+    suggested_pin_count: 4
+  CN-003:
+    primary_intent: decision
+    primary_angle: method_comparison
+    suggested_pin_count: 5
+  CN-004:
+    primary_intent: decision
+    primary_angle: method_comparison
+    suggested_pin_count: 5
+  CN-005:
+    primary_intent: decision
+    primary_angle: method_comparison
+    suggested_pin_count: 5
+  CN-006:
+    primary_intent: decision
+    primary_angle: method_comparison
+    suggested_pin_count: 4
+  CN-007:
+    primary_intent: decision
+    primary_angle: method_comparison
+    suggested_pin_count: 4
+  CN-008:
+    primary_intent: decision
+    primary_angle: method_comparison
+    suggested_pin_count: 4
+  BA-001:
+    primary_intent: decision
+    primary_angle: babbel_fit
+    suggested_pin_count: 3
+  BA-002:
+    primary_intent: decision
+    primary_angle: babbel_fit
+    suggested_pin_count: 3
+  BA-003:
+    primary_intent: decision
+    primary_angle: babbel_fit
+    suggested_pin_count: 3
+  BA-004:
+    primary_intent: decision
+    primary_angle: babbel_fit
+    suggested_pin_count: 3
+  BA-005:
+    primary_intent: decision
+    primary_angle: babbel_fit
+    suggested_pin_count: 3
+  BA-006:
+    primary_intent: decision
+    primary_angle: babbel_fit
+    suggested_pin_count: 3
+  BA-007:
+    primary_intent: decision
+    primary_angle: babbel_fit
+    suggested_pin_count: 4
+  BA-008:
+    primary_intent: decision
+    primary_angle: babbel_fit
+    suggested_pin_count: 4
+  BA-009:
+    primary_intent: decision
+    primary_angle: babbel_fit
+    suggested_pin_count: 5
+  BA-010:
+    primary_intent: decision
+    primary_angle: babbel_fit
+    suggested_pin_count: 5
+  BA-011:
+    primary_intent: decision
+    primary_angle: babbel_fit
+    suggested_pin_count: 4
+  BA-012:
+    primary_intent: decision
+    primary_angle: babbel_fit
+    suggested_pin_count: 5
+production_defaults:
+  educational_content:
+    pins_per_core_article: 3
+    pins_per_high_pinterest_article: 5
+    commercial_pins_per_article: 3
+  variation_policy:
+    vary_hook: true
+    vary_visual_structure: true
+    vary_promise: true
+    keep_destination_consistent_when_promise_is_same: true
+  quality_gate:
+  - La promessa del Pin è vera rispetto alla pagina di destinazione.
+  - Il Pin comunica valore anche senza il click.
+  - Il testo è leggibile su mobile.
+  - Il titolo contiene naturalmente il tema principale.
+  - Non esiste un Pin quasi identico già pubblicato.
+  - Il Pin non usa una promessa commerciale sproporzionata rispetto alla pagina.
+content_mapping_count: 119

@@ -1,0 +1,5487 @@
+version: '1.0'
+description: Fluente-Mente — Daily English Pills, 365-day editorial calendar.
+editorial_note: One core expression per day. Each pill is linked to one core situation and its primary situational
+  grammar unit. Article slugs remain empty until article production.
+total_days: 365
+mapping_rules:
+  one_expression_per_day: true
+  unique_expression_per_day: true
+  situation_link_required: true
+  grammar_link_required: true
+  article_link_deferred: true
+pills:
+- day: 1
+  expression_id: EXP001
+  expression: go-to
+  pill_title: Go-to — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: compound noun/adjective
+  topic: Daily Life
+  situation_id: SIT015
+  grammar_id: GRAM015
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “go-to” nella situazione collegata.
+  mini_context: Fare la spesa
+  related_expression_ids: []
+  status: planned
+- day: 2
+  expression_id: EXP002
+  expression: read the room
+  pill_title: Read the room — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: idiom
+  topic: Social English
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “read the room” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 3
+  expression_id: EXP003
+  expression: tell me about it
+  pill_title: Tell me about it — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: expression
+  topic: Reactions
+  situation_id: SIT004
+  grammar_id: GRAM004
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “tell me about it” nella situazione collegata.
+  mini_context: Parlare del proprio weekend
+  related_expression_ids: []
+  status: planned
+- day: 4
+  expression_id: EXP004
+  expression: by the book
+  pill_title: By the book — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Work & Life
+  situation_id: SIT040
+  grammar_id: GRAM040
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “by the book” nella situazione collegata.
+  mini_context: Fare un reclamo in modo educato
+  related_expression_ids: []
+  status: planned
+- day: 5
+  expression_id: EXP005
+  expression: do the trick
+  pill_title: Do the trick — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: idiom
+  topic: Problem Solving
+  situation_id: SIT037
+  grammar_id: GRAM037
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “do the trick” nella situazione collegata.
+  mini_context: Chiamare il servizio clienti
+  related_expression_ids: []
+  status: planned
+- day: 6
+  expression_id: EXP006
+  expression: from the get-go
+  pill_title: From the get-go — una espressione da usare davvero
+  level: B1
+  category: Colloquial English
+  type: expression
+  topic: Time & Beginnings
+  situation_id: SIT029
+  grammar_id: GRAM029
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “from the get-go” nella situazione collegata.
+  mini_context: Chiedere indicazioni stradali
+  related_expression_ids: []
+  status: planned
+- day: 7
+  expression_id: EXP007
+  expression: on the fly
+  pill_title: On the fly — una espressione da usare davvero
+  level: B1
+  category: Colloquial English
+  type: idiom
+  topic: Problem Solving
+  situation_id: SIT036
+  grammar_id: GRAM036
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “on the fly” nella situazione collegata.
+  mini_context: Spiegare un problema
+  related_expression_ids: []
+  status: planned
+- day: 8
+  expression_id: EXP008
+  expression: find your groove
+  pill_title: Find your groove — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Personal Development
+  situation_id: SIT045
+  grammar_id: GRAM045
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “find your groove” nella situazione collegata.
+  mini_context: Parlare di sport e attività fisica
+  related_expression_ids: []
+  status: planned
+- day: 9
+  expression_id: EXP009
+  expression: top-notch
+  pill_title: Top-notch — una espressione da usare davvero
+  level: B1
+  category: Colloquial English
+  type: adjective
+  topic: Opinions & Quality
+  situation_id: SIT046
+  grammar_id: GRAM046
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “top-notch” nella situazione collegata.
+  mini_context: Parlare di film e serie TV
+  related_expression_ids: []
+  status: planned
+- day: 10
+  expression_id: EXP010
+  expression: off the cuff
+  pill_title: Off the cuff — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Speaking
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “off the cuff” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 11
+  expression_id: EXP011
+  expression: take the plunge
+  pill_title: Take the plunge — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Life Choices
+  situation_id: SIT006
+  grammar_id: GRAM006
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “take the plunge” nella situazione collegata.
+  mini_context: Parlare dei propri programmi
+  related_expression_ids: []
+  status: planned
+- day: 12
+  expression_id: EXP012
+  expression: second nature
+  pill_title: Second nature — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Learning & Skills
+  situation_id: SIT045
+  grammar_id: GRAM045
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “second nature” nella situazione collegata.
+  mini_context: Parlare di sport e attività fisica
+  related_expression_ids: []
+  status: planned
+- day: 13
+  expression_id: EXP013
+  expression: heavy lifting
+  pill_title: Heavy lifting — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: noun phrase
+  topic: Work
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “heavy lifting” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 14
+  expression_id: EXP014
+  expression: stir the pot
+  pill_title: Stir the pot — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Arguments & Conflict
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “stir the pot” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 15
+  expression_id: EXP015
+  expression: let loose
+  pill_title: Let loose — una espressione da usare davvero
+  level: B1
+  category: Colloquial English
+  type: phrasal_verb
+  topic: Social Life
+  situation_id: SIT046
+  grammar_id: GRAM046
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “let loose” nella situazione collegata.
+  mini_context: Parlare di film e serie TV
+  related_expression_ids: []
+  status: planned
+- day: 16
+  expression_id: EXP016
+  expression: walk someone through
+  pill_title: Walk someone through — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: phrasal_verb
+  topic: Explaining
+  situation_id: SIT050
+  grammar_id: GRAM050
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “walk someone through” nella situazione collegata.
+  mini_context: Chiedere aiuto a un collega
+  related_expression_ids: []
+  status: planned
+- day: 17
+  expression_id: EXP017
+  expression: get your act together
+  pill_title: Get your act together — una espressione da usare davvero
+  level: B1
+  category: Colloquial English
+  type: idiom
+  topic: Organization
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “get your act together” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 18
+  expression_id: EXP018
+  expression: hang in there
+  pill_title: Hang in there — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: expression
+  topic: Encouragement
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “hang in there” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 19
+  expression_id: EXP019
+  expression: bite your tongue
+  pill_title: Bite your tongue — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Self-Control
+  situation_id: SIT040
+  grammar_id: GRAM040
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “bite your tongue” nella situazione collegata.
+  mini_context: Fare un reclamo in modo educato
+  related_expression_ids: []
+  status: planned
+- day: 20
+  expression_id: EXP020
+  expression: off the top of my head
+  pill_title: Off the top of my head — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: expression
+  topic: Speaking
+  situation_id: SIT050
+  grammar_id: GRAM050
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “off the top of my head” nella situazione collegata.
+  mini_context: Chiedere aiuto a un collega
+  related_expression_ids: []
+  status: planned
+- day: 21
+  expression_id: EXP021
+  expression: I don't buy it
+  pill_title: I don't buy it — una espressione da usare davvero
+  level: B1
+  category: Colloquial English
+  type: expression
+  topic: Reactions
+  situation_id: SIT040
+  grammar_id: GRAM040
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “I don't buy it” nella situazione collegata.
+  mini_context: Fare un reclamo in modo educato
+  related_expression_ids: []
+  status: planned
+- day: 22
+  expression_id: EXP022
+  expression: you can't go wrong with
+  pill_title: You can't go wrong with — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: expression
+  topic: Recommendations
+  situation_id: SIT047
+  grammar_id: GRAM047
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “you can't go wrong with” nella situazione collegata.
+  mini_context: Organizzare programmi con gli amici online
+  related_expression_ids: []
+  status: planned
+- day: 23
+  expression_id: EXP023
+  expression: the flip side
+  pill_title: The flip side — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: noun phrase
+  topic: Comparisons
+  situation_id: SIT046
+  grammar_id: GRAM046
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “the flip side” nella situazione collegata.
+  mini_context: Parlare di film e serie TV
+  related_expression_ids: []
+  status: planned
+- day: 24
+  expression_id: EXP024
+  expression: turn over a new leaf
+  pill_title: Turn over a new leaf — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Life Changes
+  situation_id: SIT006
+  grammar_id: GRAM006
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “turn over a new leaf” nella situazione collegata.
+  mini_context: Parlare dei propri programmi
+  related_expression_ids: []
+  status: planned
+- day: 25
+  expression_id: EXP025
+  expression: plan B
+  pill_title: Plan b — una espressione da usare davvero
+  level: A2+
+  category: Everyday expression
+  type: noun
+  topic: Planning
+  situation_id: SIT011
+  grammar_id: GRAM011
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “plan B” nella situazione collegata.
+  mini_context: Ordinare un caffè al bar
+  related_expression_ids: []
+  status: planned
+- day: 26
+  expression_id: EXP026
+  expression: a little something
+  pill_title: A little something — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: noun phrase
+  topic: Gifts & Social Life
+  situation_id: SIT014
+  grammar_id: GRAM014
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a little something” nella situazione collegata.
+  mini_context: Pagare il conto
+  related_expression_ids: []
+  status: planned
+- day: 27
+  expression_id: EXP027
+  expression: keep someone on their toes
+  pill_title: Keep someone on their toes — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Work & Life
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “keep someone on their toes” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 28
+  expression_id: EXP028
+  expression: no leg to stand on
+  pill_title: No leg to stand on — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Arguments
+  situation_id: SIT040
+  grammar_id: GRAM040
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “no leg to stand on” nella situazione collegata.
+  mini_context: Fare un reclamo in modo educato
+  related_expression_ids: []
+  status: planned
+- day: 29
+  expression_id: EXP029
+  expression: can't put my finger on it
+  pill_title: Can't put my finger on it — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Feelings & Reactions
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “can't put my finger on it” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 30
+  expression_id: EXP030
+  expression: all hands on deck
+  pill_title: All hands on deck — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Work & Teamwork
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “all hands on deck” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 31
+  expression_id: EXP031
+  expression: twist someone's arm
+  pill_title: Twist someone's arm — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Persuasion
+  situation_id: SIT007
+  grammar_id: GRAM007
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “twist someone's arm” nella situazione collegata.
+  mini_context: Invitare qualcuno a uscire
+  related_expression_ids: []
+  status: planned
+- day: 32
+  expression_id: EXP032
+  expression: speak someone's language
+  pill_title: Speak someone's language — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Communication
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “speak someone's language” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 33
+  expression_id: EXP033
+  expression: all you like
+  pill_title: All you like — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: expression
+  topic: Arguments & Opinions
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “all you like” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 34
+  expression_id: EXP034
+  expression: around the clock
+  pill_title: Around the clock — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: idiom
+  topic: Time & Work
+  situation_id: SIT038
+  grammar_id: GRAM038
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “around the clock” nella situazione collegata.
+  mini_context: Quando una consegna non è arrivata
+  related_expression_ids: []
+  status: planned
+- day: 35
+  expression_id: EXP035
+  expression: on the go
+  pill_title: On the go — una espressione da usare davvero
+  level: A2+
+  category: Everyday expression
+  type: expression
+  topic: Daily Life
+  situation_id: SIT042
+  grammar_id: GRAM042
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “on the go” nella situazione collegata.
+  mini_context: Descrivere la propria routine quotidiana
+  related_expression_ids: []
+  status: planned
+- day: 36
+  expression_id: EXP036
+  expression: the works
+  pill_title: The works — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: noun phrase
+  topic: Food & Services
+  situation_id: SIT012
+  grammar_id: GRAM012
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “the works” nella situazione collegata.
+  mini_context: Ordinare al ristorante
+  related_expression_ids: []
+  status: planned
+- day: 37
+  expression_id: EXP037
+  expression: a fresh start
+  pill_title: A fresh start — una espressione da usare davvero
+  level: A2+
+  category: Everyday expression
+  type: noun phrase
+  topic: Life Changes
+  situation_id: SIT006
+  grammar_id: GRAM006
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a fresh start” nella situazione collegata.
+  mini_context: Parlare dei propri programmi
+  related_expression_ids: []
+  status: planned
+- day: 38
+  expression_id: EXP038
+  expression: moment of truth
+  pill_title: Moment of truth — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Decisions & Results
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “moment of truth” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 39
+  expression_id: EXP039
+  expression: a big ask
+  pill_title: A big ask — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: noun phrase
+  topic: Requests
+  situation_id: SIT035
+  grammar_id: GRAM035
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a big ask” nella situazione collegata.
+  mini_context: Chiedere aiuto
+  related_expression_ids: []
+  status: planned
+- day: 40
+  expression_id: EXP040
+  expression: a hunch
+  pill_title: A hunch — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: noun
+  topic: Intuition
+  situation_id: SIT039
+  grammar_id: GRAM039
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a hunch” nella situazione collegata.
+  mini_context: Quando hai perso qualcosa
+  related_expression_ids: []
+  status: planned
+- day: 41
+  expression_id: EXP041
+  expression: think on your feet
+  pill_title: Think on your feet — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Problem Solving
+  situation_id: SIT036
+  grammar_id: GRAM036
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “think on your feet” nella situazione collegata.
+  mini_context: Spiegare un problema
+  related_expression_ids: []
+  status: planned
+- day: 42
+  expression_id: EXP042
+  expression: short-change
+  pill_title: Short-change — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: verb
+  topic: Money & Fairness
+  situation_id: SIT014
+  grammar_id: GRAM014
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “short-change” nella situazione collegata.
+  mini_context: Pagare il conto
+  related_expression_ids: []
+  status: planned
+- day: 43
+  expression_id: EXP043
+  expression: cut corners
+  pill_title: Cut corners — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Work & Quality
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “cut corners” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 44
+  expression_id: EXP044
+  expression: kick the can down the road
+  pill_title: Kick the can down the road — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Problem Solving
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “kick the can down the road” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 45
+  expression_id: EXP045
+  expression: keep yourself to yourself
+  pill_title: Keep yourself to yourself — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: expression
+  topic: Social Boundaries
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “keep yourself to yourself” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 46
+  expression_id: EXP046
+  expression: one size fits all
+  pill_title: One size fits all — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: idiom
+  topic: Solutions & Choices
+  situation_id: SIT016
+  grammar_id: GRAM016
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “one size fits all” nella situazione collegata.
+  mini_context: Chiedere dove si trova qualcosa in negozio
+  related_expression_ids: []
+  status: planned
+- day: 47
+  expression_id: EXP047
+  expression: side quest
+  pill_title: Side quest — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: noun
+  topic: Modern Life
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “side quest” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 48
+  expression_id: EXP048
+  expression: understood the assignment
+  pill_title: Understood the assignment — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: expression
+  topic: Internet Culture
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “understood the assignment” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 49
+  expression_id: EXP049
+  expression: hot take
+  pill_title: Hot take — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun phrase
+  topic: Opinions & Internet
+  situation_id: SIT046
+  grammar_id: GRAM046
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “hot take” nella situazione collegata.
+  mini_context: Parlare di film e serie TV
+  related_expression_ids: []
+  status: planned
+- day: 50
+  expression_id: EXP050
+  expression: say less
+  pill_title: Say less — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: expression
+  topic: Reactions
+  situation_id: SIT047
+  grammar_id: GRAM047
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “say less” nella situazione collegata.
+  mini_context: Organizzare programmi con gli amici online
+  related_expression_ids: []
+  status: planned
+- day: 51
+  expression_id: EXP051
+  expression: try it on
+  pill_title: Try it on — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Social Behaviour
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “try it on” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 52
+  expression_id: EXP052
+  expression: non-starter
+  pill_title: Non-starter — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: noun
+  topic: Decisions
+  situation_id: SIT017
+  grammar_id: GRAM017
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “non-starter” nella situazione collegata.
+  mini_context: Restituire qualcosa che hai comprato
+  related_expression_ids: []
+  status: planned
+- day: 53
+  expression_id: EXP053
+  expression: no notes
+  pill_title: No notes — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: expression
+  topic: Praise & Reactions
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “no notes” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 54
+  expression_id: EXP054
+  expression: share your life story
+  pill_title: Share your life story — una espressione da usare davvero
+  level: B1
+  category: Colloquial English
+  type: expression
+  topic: Conversation
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “share your life story” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 55
+  expression_id: EXP055
+  expression: passing ships
+  pill_title: Passing ships — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Relationships
+  situation_id: SIT005
+  grammar_id: GRAM005
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “passing ships” nella situazione collegata.
+  mini_context: Parlare di hobby e tempo libero
+  related_expression_ids: []
+  status: planned
+- day: 56
+  expression_id: EXP056
+  expression: onto something
+  pill_title: Onto something — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: expression
+  topic: Ideas & Problem Solving
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “onto something” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 57
+  expression_id: EXP057
+  expression: sell yourself short
+  pill_title: Sell yourself short — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Self-Confidence
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “sell yourself short” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 58
+  expression_id: EXP058
+  expression: wrap it up
+  pill_title: Wrap it up — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: phrasal_verb
+  topic: Work & Conversation
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “wrap it up” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 59
+  expression_id: EXP059
+  expression: throw ideas at the wall
+  pill_title: Throw ideas at the wall — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: expression
+  topic: Brainstorming
+  situation_id: SIT001
+  grammar_id: GRAM001
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “throw ideas at the wall” nella situazione collegata.
+  mini_context: Conoscere qualcuno per la prima volta
+  related_expression_ids: []
+  status: planned
+- day: 60
+  expression_id: EXP060
+  expression: like a moth to a flame
+  pill_title: Like a moth to a flame — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Attraction & Habits
+  situation_id: SIT045
+  grammar_id: GRAM045
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “like a moth to a flame” nella situazione collegata.
+  mini_context: Parlare di sport e attività fisica
+  related_expression_ids: []
+  status: planned
+- day: 61
+  expression_id: EXP061
+  expression: gatekeep
+  pill_title: Gatekeep — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: verb
+  topic: Internet Culture
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “gatekeep” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 62
+  expression_id: EXP062
+  expression: in over my head
+  pill_title: In over my head — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Problems & Stress
+  situation_id: SIT023
+  grammar_id: GRAM023
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “in over my head” nella situazione collegata.
+  mini_context: Segnalare un problema in hotel
+  related_expression_ids: []
+  status: planned
+- day: 63
+  expression_id: EXP063
+  expression: yap
+  pill_title: Yap — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: verb
+  topic: Internet Culture
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “yap” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 64
+  expression_id: EXP064
+  expression: flow state
+  pill_title: Flow state — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun phrase
+  topic: Focus & Learning
+  situation_id: SIT026
+  grammar_id: GRAM026
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “flow state” nella situazione collegata.
+  mini_context: Passare i controlli di sicurezza in aeroporto
+  related_expression_ids: []
+  status: planned
+- day: 65
+  expression_id: EXP065
+  expression: a bit of a stretch
+  pill_title: A bit of a stretch — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: expression
+  topic: Opinions
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a bit of a stretch” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 66
+  expression_id: EXP066
+  expression: go through a rough patch
+  pill_title: Go through a rough patch — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: expression
+  topic: Life & Problems
+  situation_id: SIT036
+  grammar_id: GRAM036
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “go through a rough patch” nella situazione collegata.
+  mini_context: Spiegare un problema
+  related_expression_ids: []
+  status: planned
+- day: 67
+  expression_id: EXP067
+  expression: learn the hard way
+  pill_title: Learn the hard way — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Learning from Experience
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “learn the hard way” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 68
+  expression_id: EXP068
+  expression: facepalm moment
+  pill_title: Facepalm moment — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun phrase
+  topic: Reactions & Mistakes
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “facepalm moment” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 69
+  expression_id: EXP069
+  expression: shoot off
+  pill_title: Shoot off — una espressione da usare davvero
+  level: B1
+  category: Colloquial English
+  type: phrasal_verb
+  topic: Movement & Communication
+  situation_id: SIT032
+  grammar_id: GRAM032
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “shoot off” nella situazione collegata.
+  mini_context: Quando qualcosa va storto durante un viaggio
+  related_expression_ids: []
+  status: planned
+- day: 70
+  expression_id: EXP070
+  expression: hot on the heels of
+  pill_title: Hot on the heels of — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Time & Events
+  situation_id: SIT001
+  grammar_id: GRAM001
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “hot on the heels of” nella situazione collegata.
+  mini_context: Conoscere qualcuno per la prima volta
+  related_expression_ids: []
+  status: planned
+- day: 71
+  expression_id: EXP071
+  expression: aura farming
+  pill_title: Aura farming — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: noun phrase
+  topic: Internet Culture
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “aura farming” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 72
+  expression_id: EXP072
+  expression: lock in
+  pill_title: Lock in — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: phrasal_verb
+  topic: Focus & Goals
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “lock in” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 73
+  expression_id: EXP073
+  expression: duck out
+  pill_title: Duck out — una espressione da usare davvero
+  level: B1
+  category: Colloquial English
+  type: phrasal_verb
+  topic: Social Life
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “duck out” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 74
+  expression_id: EXP074
+  expression: off base
+  pill_title: Off base — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: adjective phrase
+  topic: Opinions & Reactions
+  situation_id: SIT022
+  grammar_id: GRAM022
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “off base” nella situazione collegata.
+  mini_context: Fare il check-in in hotel
+  related_expression_ids: []
+  status: planned
+- day: 75
+  expression_id: EXP075
+  expression: -coded
+  pill_title: -coded — una espressione da usare davvero
+  level: B2
+  category: New word / neologism
+  type: suffix
+  topic: Internet Culture
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “-coded” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 76
+  expression_id: EXP076
+  expression: make a pig's ear of something
+  pill_title: Make a pig's ear of something — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Mistakes & Problems
+  situation_id: SIT023
+  grammar_id: GRAM023
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “make a pig's ear of something” nella situazione collegata.
+  mini_context: Segnalare un problema in hotel
+  related_expression_ids: []
+  status: planned
+- day: 77
+  expression_id: EXP077
+  expression: -core
+  pill_title: -core — una espressione da usare davvero
+  level: B2
+  category: New word / neologism
+  type: suffix
+  topic: Internet Culture
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “-core” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 78
+  expression_id: EXP078
+  expression: cook
+  pill_title: Cook — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: verb
+  topic: Internet Culture
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “cook” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 79
+  expression_id: EXP079
+  expression: neck of the woods
+  pill_title: Neck of the woods — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: idiom
+  topic: Places & Conversation
+  situation_id: SIT041
+  grammar_id: GRAM041
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “neck of the woods” nella situazione collegata.
+  mini_context: Parlare di dove vivi
+  related_expression_ids: []
+  status: planned
+- day: 80
+  expression_id: EXP080
+  expression: teething problems
+  pill_title: Teething problems — una espressione da usare davvero
+  level: B1
+  category: British English
+  type: noun phrase
+  topic: Work & Projects
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “teething problems” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 81
+  expression_id: EXP081
+  expression: muddle along
+  pill_title: Muddle along — una espressione da usare davvero
+  level: B1
+  category: British English
+  type: phrasal_verb
+  topic: Life & Planning
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “muddle along” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 82
+  expression_id: EXP082
+  expression: tough it out
+  pill_title: Tough it out — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: phrasal_verb
+  topic: Resilience
+  situation_id: SIT024
+  grammar_id: GRAM024
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “tough it out” nella situazione collegata.
+  mini_context: Fare il check-out dall’hotel
+  related_expression_ids: []
+  status: planned
+- day: 83
+  expression_id: EXP083
+  expression: a you problem
+  pill_title: A you problem — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: noun phrase
+  topic: Boundaries & Reactions
+  situation_id: SIT023
+  grammar_id: GRAM023
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a you problem” nella situazione collegata.
+  mini_context: Segnalare un problema in hotel
+  related_expression_ids: []
+  status: planned
+- day: 84
+  expression_id: EXP084
+  expression: the CEO of
+  pill_title: The ceo of — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: noun phrase
+  topic: Internet Culture
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “the CEO of” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 85
+  expression_id: EXP085
+  expression: up to my eyes in
+  pill_title: Up to my eyes in — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Work & Stress
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “up to my eyes in” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 86
+  expression_id: EXP086
+  expression: dabble in
+  pill_title: Dabble in — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: verb + preposition
+  topic: Hobbies & Learning
+  situation_id: SIT005
+  grammar_id: GRAM005
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “dabble in” nella situazione collegata.
+  mini_context: Parlare di hobby e tempo libero
+  related_expression_ids: []
+  status: planned
+- day: 87
+  expression_id: EXP087
+  expression: rope someone in
+  pill_title: Rope someone in — una espressione da usare davvero
+  level: B1
+  category: Colloquial English
+  type: phrasal_verb
+  topic: Social Life & Work
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “rope someone in” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 88
+  expression_id: EXP088
+  expression: scratch the surface
+  pill_title: Scratch the surface — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Learning & Depth
+  situation_id: SIT001
+  grammar_id: GRAM001
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “scratch the surface” nella situazione collegata.
+  mini_context: Conoscere qualcuno per la prima volta
+  related_expression_ids: []
+  status: planned
+- day: 89
+  expression_id: EXP089
+  expression: step into someone's shoes
+  pill_title: Step into someone's shoes — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Empathy & Work
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “step into someone's shoes” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 90
+  expression_id: EXP090
+  expression: drop
+  pill_title: Drop — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: verb
+  topic: Music & Media
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “drop” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 91
+  expression_id: EXP091
+  expression: touch grass
+  pill_title: Touch grass — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: slang expression
+  topic: Internet Culture
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “touch grass” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 92
+  expression_id: EXP092
+  expression: no cap
+  pill_title: No cap — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: slang expression
+  topic: Internet Culture
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “no cap” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 93
+  expression_id: EXP093
+  expression: clap back
+  pill_title: Clap back — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: phrasal_verb
+  topic: Internet Culture
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “clap back” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 94
+  expression_id: EXP094
+  expression: on point
+  pill_title: On point — una espressione da usare davvero
+  level: B1
+  category: Colloquial English
+  type: adjective phrase
+  topic: Opinions & Quality
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “on point” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 95
+  expression_id: EXP095
+  expression: kiss something goodbye
+  pill_title: Kiss something goodbye — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Loss & Change
+  situation_id: SIT039
+  grammar_id: GRAM039
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “kiss something goodbye” nella situazione collegata.
+  mini_context: Quando hai perso qualcosa
+  related_expression_ids: []
+  status: planned
+- day: 96
+  expression_id: EXP096
+  expression: jump through hoops
+  pill_title: Jump through hoops — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Problems & Bureaucracy
+  situation_id: SIT032
+  grammar_id: GRAM032
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “jump through hoops” nella situazione collegata.
+  mini_context: Quando qualcosa va storto durante un viaggio
+  related_expression_ids: []
+  status: planned
+- day: 97
+  expression_id: EXP097
+  expression: call it a day
+  pill_title: Call it a day — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: idiom
+  topic: Work & Daily Life
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “call it a day” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 98
+  expression_id: EXP098
+  expression: got you
+  pill_title: Got you — una espressione da usare davvero
+  level: A2+
+  category: Everyday expression
+  type: expression
+  topic: Reactions & Support
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “got you” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 99
+  expression_id: EXP099
+  expression: know the score
+  pill_title: Know the score — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Understanding & Reality
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “know the score” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 100
+  expression_id: EXP100
+  expression: steal someone's thunder
+  pill_title: Steal someone's thunder — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Social English
+  situation_id: SIT001
+  grammar_id: GRAM001
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “steal someone's thunder” nella situazione collegata.
+  mini_context: Conoscere qualcuno per la prima volta
+  related_expression_ids: []
+  status: planned
+- day: 101
+  expression_id: EXP101
+  expression: bring something to the party
+  pill_title: Bring something to the party — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: expression
+  topic: Work & Life
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “bring something to the party” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 102
+  expression_id: EXP102
+  expression: can-do attitude
+  pill_title: Can-do attitude — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: noun phrase
+  topic: Personal Development
+  situation_id: SIT005
+  grammar_id: GRAM005
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “can-do attitude” nella situazione collegata.
+  mini_context: Parlare di hobby e tempo libero
+  related_expression_ids: []
+  status: planned
+- day: 103
+  expression_id: EXP103
+  expression: skedaddle
+  pill_title: Skedaddle — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: verb
+  topic: Movement & Departure
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “skedaddle” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 104
+  expression_id: EXP104
+  expression: fall on stony ground
+  pill_title: Fall on stony ground — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Communication
+  situation_id: SIT025
+  grammar_id: GRAM025
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “fall on stony ground” nella situazione collegata.
+  mini_context: Al banco del check-in in aeroporto
+  related_expression_ids: []
+  status: planned
+- day: 105
+  expression_id: EXP105
+  expression: make a rod for your own back
+  pill_title: Make a rod for your own back — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Problems & Choices
+  situation_id: SIT023
+  grammar_id: GRAM023
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “make a rod for your own back” nella situazione collegata.
+  mini_context: Segnalare un problema in hotel
+  related_expression_ids: []
+  status: planned
+- day: 106
+  expression_id: EXP106
+  expression: ship
+  pill_title: Ship — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: verb
+  topic: Relationships & Internet
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “ship” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 107
+  expression_id: EXP107
+  expression: twig
+  pill_title: Twig — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: verb
+  topic: Understanding
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “twig” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 108
+  expression_id: EXP108
+  expression: mooch
+  pill_title: Mooch — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: verb
+  topic: Daily Life
+  situation_id: SIT014
+  grammar_id: GRAM014
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “mooch” nella situazione collegata.
+  mini_context: Pagare il conto
+  related_expression_ids: []
+  status: planned
+- day: 109
+  expression_id: EXP109
+  expression: give it some welly
+  pill_title: Give it some welly — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Effort & Encouragement
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “give it some welly” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 110
+  expression_id: EXP110
+  expression: shoehorn something in
+  pill_title: Shoehorn something in — una espressione da usare davvero
+  level: B2
+  category: Phrasal verb
+  type: phrasal verb
+  topic: Time & Planning
+  situation_id: SIT032
+  grammar_id: GRAM032
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “shoehorn something in” nella situazione collegata.
+  mini_context: Quando qualcosa va storto durante un viaggio
+  related_expression_ids: []
+  status: planned
+- day: 111
+  expression_id: EXP111
+  expression: that's on you
+  pill_title: That's on you — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: expression
+  topic: Responsibility
+  situation_id: SIT043
+  grammar_id: GRAM043
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “that's on you” nella situazione collegata.
+  mini_context: Parlare delle faccende domestiche
+  related_expression_ids: []
+  status: planned
+- day: 112
+  expression_id: EXP112
+  expression: warts and all
+  pill_title: Warts and all — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Honesty & Description
+  situation_id: SIT047
+  grammar_id: GRAM047
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “warts and all” nella situazione collegata.
+  mini_context: Organizzare programmi con gli amici online
+  related_expression_ids: []
+  status: planned
+- day: 113
+  expression_id: EXP113
+  expression: off the scale
+  pill_title: Off the scale — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Opinions & Intensity
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “off the scale” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 114
+  expression_id: EXP114
+  expression: throw one's toys out the pram
+  pill_title: Throw one's toys out the pram — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Reactions & Emotions
+  situation_id: SIT027
+  grammar_id: GRAM027
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “throw one's toys out the pram” nella situazione collegata.
+  mini_context: Quando il volo è in ritardo
+  related_expression_ids: []
+  status: planned
+- day: 115
+  expression_id: EXP115
+  expression: make my skin crawl
+  pill_title: Make my skin crawl — una espressione da usare davvero
+  level: B2
+  category: Everyday expression
+  type: idiom
+  topic: Feelings
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “make my skin crawl” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 116
+  expression_id: EXP116
+  expression: an uphill task
+  pill_title: An uphill task — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Challenges
+  situation_id: SIT033
+  grammar_id: GRAM033
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “an uphill task” nella situazione collegata.
+  mini_context: Telefonare per prendere un appuntamento
+  related_expression_ids: []
+  status: planned
+- day: 117
+  expression_id: EXP117
+  expression: bide your time
+  pill_title: Bide your time — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: verb phrase
+  topic: Time & Strategy
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “bide your time” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 118
+  expression_id: EXP118
+  expression: stomping ground
+  pill_title: Stomping ground — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: noun phrase
+  topic: Places & Memories
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “stomping ground” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 119
+  expression_id: EXP119
+  expression: tug at the heartstrings
+  pill_title: Tug at the heartstrings — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Feelings & Culture
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “tug at the heartstrings” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 120
+  expression_id: EXP120
+  expression: clutch at straws
+  pill_title: Clutch at straws — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Problems & Hope
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “clutch at straws” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 121
+  expression_id: EXP121
+  expression: crank up
+  pill_title: Crank up — una espressione da usare davvero
+  level: B1+
+  category: Phrasal verb
+  type: phrasal verb
+  topic: Change & Intensity
+  situation_id: SIT009
+  grammar_id: GRAM009
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “crank up” nella situazione collegata.
+  mini_context: Cambiare programma all’ultimo momento
+  related_expression_ids: []
+  status: planned
+- day: 122
+  expression_id: EXP122
+  expression: wishy-washy
+  pill_title: Wishy-washy — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: adjective
+  topic: Opinions & Personality
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “wishy-washy” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 123
+  expression_id: EXP123
+  expression: shook
+  pill_title: Shook — una espressione da usare davvero
+  level: B1+
+  category: Slang / Internet English
+  type: adjective
+  topic: Reactions
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “shook” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 124
+  expression_id: EXP124
+  expression: have in your locker
+  pill_title: Have in your locker — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: expression
+  topic: Skills & Strengths
+  situation_id: SIT027
+  grammar_id: GRAM027
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “have in your locker” nella situazione collegata.
+  mini_context: Quando il volo è in ritardo
+  related_expression_ids: []
+  status: planned
+- day: 125
+  expression_id: EXP125
+  expression: zing
+  pill_title: Zing — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: noun
+  topic: Personality & Style
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “zing” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 126
+  expression_id: EXP126
+  expression: beige flag
+  pill_title: Beige flag — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun phrase
+  topic: Relationships & Internet
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “beige flag” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 127
+  expression_id: EXP127
+  expression: lay it on thick
+  pill_title: Lay it on thick — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Social English
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “lay it on thick” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 128
+  expression_id: EXP128
+  expression: telling porkies
+  pill_title: Telling porkies — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Honesty & Social English
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “telling porkies” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 129
+  expression_id: EXP129
+  expression: in on it
+  pill_title: In on it — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: expression
+  topic: Social English
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “in on it” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 130
+  expression_id: EXP130
+  expression: brick by brick
+  pill_title: Brick by brick — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: idiom
+  topic: Progress & Learning
+  situation_id: SIT039
+  grammar_id: GRAM039
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “brick by brick” nella situazione collegata.
+  mini_context: Quando hai perso qualcosa
+  related_expression_ids: []
+  status: planned
+- day: 131
+  expression_id: EXP131
+  expression: cook up an idea
+  pill_title: Cook up an idea — una espressione da usare davvero
+  level: B2
+  category: Phrasal verb
+  type: phrasal verb
+  topic: Ideas & Planning
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “cook up an idea” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 132
+  expression_id: EXP132
+  expression: rinse, repeat
+  pill_title: Rinse, repeat — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: expression
+  topic: Routines
+  situation_id: SIT042
+  grammar_id: GRAM042
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “rinse, repeat” nella situazione collegata.
+  mini_context: Descrivere la propria routine quotidiana
+  related_expression_ids: []
+  status: planned
+- day: 133
+  expression_id: EXP133
+  expression: cash in on something
+  pill_title: Cash in on something — una espressione da usare davvero
+  level: B2
+  category: Phrasal verb
+  type: phrasal verb
+  topic: Money & Opportunities
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “cash in on something” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 134
+  expression_id: EXP134
+  expression: make your hair stand on end
+  pill_title: Make your hair stand on end — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Feelings
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “make your hair stand on end” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 135
+  expression_id: EXP135
+  expression: a blow
+  pill_title: A blow — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: noun
+  topic: News & Feelings
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a blow” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 136
+  expression_id: EXP136
+  expression: rear its head
+  pill_title: Rear its head — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Problems
+  situation_id: SIT036
+  grammar_id: GRAM036
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “rear its head” nella situazione collegata.
+  mini_context: Spiegare un problema
+  related_expression_ids: []
+  status: planned
+- day: 137
+  expression_id: EXP137
+  expression: elbow grease
+  pill_title: Elbow grease — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Work & Chores
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “elbow grease” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 138
+  expression_id: EXP138
+  expression: take the wheel
+  pill_title: Take the wheel — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Responsibility & Control
+  situation_id: SIT043
+  grammar_id: GRAM043
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “take the wheel” nella situazione collegata.
+  mini_context: Parlare delle faccende domestiche
+  related_expression_ids: []
+  status: planned
+- day: 139
+  expression_id: EXP139
+  expression: dip your toe into
+  pill_title: Dip your toe into — una espressione da usare davvero
+  level: B1+
+  category: Phrasal verb
+  type: phrasal verb
+  topic: New Experiences
+  situation_id: SIT030
+  grammar_id: GRAM030
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “dip your toe into” nella situazione collegata.
+  mini_context: Muoversi in una città nuova
+  related_expression_ids: []
+  status: planned
+- day: 140
+  expression_id: EXP140
+  expression: peaks and troughs
+  pill_title: Peaks and troughs — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Life & Change
+  situation_id: SIT005
+  grammar_id: GRAM005
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “peaks and troughs” nella situazione collegata.
+  mini_context: Parlare di hobby e tempo libero
+  related_expression_ids: []
+  status: planned
+- day: 141
+  expression_id: EXP141
+  expression: mental gymnastics
+  pill_title: Mental gymnastics — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: noun phrase
+  topic: Thinking & Problem Solving
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “mental gymnastics” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 142
+  expression_id: EXP142
+  expression: call dibs
+  pill_title: Call dibs — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: verb phrase
+  topic: Social English
+  situation_id: SIT001
+  grammar_id: GRAM001
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “call dibs” nella situazione collegata.
+  mini_context: Conoscere qualcuno per la prima volta
+  related_expression_ids: []
+  status: planned
+- day: 143
+  expression_id: EXP143
+  expression: go with the flow
+  pill_title: Go with the flow — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Life & Flexibility
+  situation_id: SIT013
+  grammar_id: GRAM013
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “go with the flow” nella situazione collegata.
+  mini_context: Chiedere informazioni sul menu
+  related_expression_ids: []
+  status: planned
+- day: 144
+  expression_id: EXP144
+  expression: drip-feed
+  pill_title: Drip-feed — una espressione da usare davvero
+  level: B2
+  category: Phrasal verb
+  type: verb
+  topic: Communication & Media
+  situation_id: SIT047
+  grammar_id: GRAM047
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “drip-feed” nella situazione collegata.
+  mini_context: Organizzare programmi con gli amici online
+  related_expression_ids: []
+  status: planned
+- day: 145
+  expression_id: EXP145
+  expression: scatterbrain
+  pill_title: Scatterbrain — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: noun
+  topic: Personality
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “scatterbrain” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 146
+  expression_id: EXP146
+  expression: be in with a shout
+  pill_title: Be in with a shout — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: expression
+  topic: Possibility & Competition
+  situation_id: SIT026
+  grammar_id: GRAM026
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “be in with a shout” nella situazione collegata.
+  mini_context: Passare i controlli di sicurezza in aeroporto
+  related_expression_ids: []
+  status: planned
+- day: 147
+  expression_id: EXP147
+  expression: hard pass
+  pill_title: Hard pass — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: noun phrase
+  topic: Opinions & Choices
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “hard pass” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 148
+  expression_id: EXP148
+  expression: level up
+  pill_title: Level up — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: phrasal verb
+  topic: Learning & Development
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “level up” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 149
+  expression_id: EXP149
+  expression: shout-out
+  pill_title: Shout-out — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun
+  topic: Social Media & Praise
+  situation_id: SIT007
+  grammar_id: GRAM007
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “shout-out” nella situazione collegata.
+  mini_context: Invitare qualcuno a uscire
+  related_expression_ids: []
+  status: planned
+- day: 150
+  expression_id: EXP150
+  expression: it escapes me
+  pill_title: It escapes me — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: expression
+  topic: Memory & Conversation
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “it escapes me” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 151
+  expression_id: EXP151
+  expression: change for the better
+  pill_title: Change for the better — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: expression
+  topic: Change & Life
+  situation_id: SIT034
+  grammar_id: GRAM034
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “change for the better” nella situazione collegata.
+  mini_context: In farmacia
+  related_expression_ids: []
+  status: planned
+- day: 152
+  expression_id: EXP152
+  expression: the gift that keeps on giving
+  pill_title: The gift that keeps on giving — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Benefits & Experiences
+  situation_id: SIT017
+  grammar_id: GRAM017
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “the gift that keeps on giving” nella situazione collegata.
+  mini_context: Restituire qualcosa che hai comprato
+  related_expression_ids: []
+  status: planned
+- day: 153
+  expression_id: EXP153
+  expression: quiet quitting
+  pill_title: Quiet quitting — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun phrase
+  topic: Work
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “quiet quitting” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 154
+  expression_id: EXP154
+  expression: win hands down
+  pill_title: Win hands down — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Competition
+  situation_id: SIT047
+  grammar_id: GRAM047
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “win hands down” nella situazione collegata.
+  mini_context: Organizzare programmi con gli amici online
+  related_expression_ids: []
+  status: planned
+- day: 155
+  expression_id: EXP155
+  expression: fever pitch
+  pill_title: Fever pitch — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Emotions & Events
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “fever pitch” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 156
+  expression_id: EXP156
+  expression: twiddle your thumbs
+  pill_title: Twiddle your thumbs — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: verb phrase
+  topic: Waiting & Time
+  situation_id: SIT027
+  grammar_id: GRAM027
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “twiddle your thumbs” nella situazione collegata.
+  mini_context: Quando il volo è in ritardo
+  related_expression_ids: []
+  status: planned
+- day: 157
+  expression_id: EXP157
+  expression: dog's dinner
+  pill_title: Dog's dinner — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Problems & Mistakes
+  situation_id: SIT023
+  grammar_id: GRAM023
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “dog's dinner” nella situazione collegata.
+  mini_context: Segnalare un problema in hotel
+  related_expression_ids: []
+  status: planned
+- day: 158
+  expression_id: EXP158
+  expression: sitting pretty
+  pill_title: Sitting pretty — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Success & Situation
+  situation_id: SIT030
+  grammar_id: GRAM030
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “sitting pretty” nella situazione collegata.
+  mini_context: Muoversi in una città nuova
+  related_expression_ids: []
+  status: planned
+- day: 159
+  expression_id: EXP159
+  expression: feast your eyes
+  pill_title: Feast your eyes — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Description & Culture
+  situation_id: SIT046
+  grammar_id: GRAM046
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “feast your eyes” nella situazione collegata.
+  mini_context: Parlare di film e serie TV
+  related_expression_ids: []
+  status: planned
+- day: 160
+  expression_id: EXP160
+  expression: put the brakes on
+  pill_title: Put the brakes on — una espressione da usare davvero
+  level: B1+
+  category: Phrasal verb
+  type: verb phrase
+  topic: Change & Control
+  situation_id: SIT009
+  grammar_id: GRAM009
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “put the brakes on” nella situazione collegata.
+  mini_context: Cambiare programma all’ultimo momento
+  related_expression_ids: []
+  status: planned
+- day: 161
+  expression_id: EXP161
+  expression: second-guess
+  pill_title: Second-guess — una espressione da usare davvero
+  level: B2
+  category: Phrasal verb
+  type: verb
+  topic: Decisions & Thinking
+  situation_id: SIT031
+  grammar_id: GRAM031
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “second-guess” nella situazione collegata.
+  mini_context: Noleggiare un’auto
+  related_expression_ids: []
+  status: planned
+- day: 162
+  expression_id: EXP162
+  expression: ins and outs
+  pill_title: Ins and outs — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Understanding
+  situation_id: SIT045
+  grammar_id: GRAM045
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “ins and outs” nella situazione collegata.
+  mini_context: Parlare di sport e attività fisica
+  related_expression_ids: []
+  status: planned
+- day: 163
+  expression_id: EXP163
+  expression: yes and no
+  pill_title: Yes and no — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: expression
+  topic: Conversation & Opinions
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “yes and no” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 164
+  expression_id: EXP164
+  expression: eat your words
+  pill_title: Eat your words — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Mistakes & Opinions
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “eat your words” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 165
+  expression_id: EXP165
+  expression: bug someone
+  pill_title: Bug someone — una espressione da usare davvero
+  level: B1+
+  category: Phrasal verb
+  type: verb
+  topic: Annoyance & Relationships
+  situation_id: SIT019
+  grammar_id: GRAM019
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “bug someone” nella situazione collegata.
+  mini_context: Cucinare insieme a qualcuno
+  related_expression_ids: []
+  status: planned
+- day: 166
+  expression_id: EXP166
+  expression: willy-nilly
+  pill_title: Willy-nilly — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: adverb
+  topic: Choices & Actions
+  situation_id: SIT030
+  grammar_id: GRAM030
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “willy-nilly” nella situazione collegata.
+  mini_context: Muoversi in una città nuova
+  related_expression_ids: []
+  status: planned
+- day: 167
+  expression_id: EXP167
+  expression: gnarly
+  pill_title: Gnarly — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: adjective
+  topic: Description & Reactions
+  situation_id: SIT022
+  grammar_id: GRAM022
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “gnarly” nella situazione collegata.
+  mini_context: Fare il check-in in hotel
+  related_expression_ids: []
+  status: planned
+- day: 168
+  expression_id: EXP168
+  expression: smash it
+  pill_title: Smash it — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: verb phrase
+  topic: Encouragement & Success
+  situation_id: SIT039
+  grammar_id: GRAM039
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “smash it” nella situazione collegata.
+  mini_context: Quando hai perso qualcosa
+  related_expression_ids: []
+  status: planned
+- day: 169
+  expression_id: EXP169
+  expression: a doddle
+  pill_title: A doddle — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: noun phrase
+  topic: Difficulty & Learning
+  situation_id: SIT026
+  grammar_id: GRAM026
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a doddle” nella situazione collegata.
+  mini_context: Passare i controlli di sicurezza in aeroporto
+  related_expression_ids: []
+  status: planned
+- day: 170
+  expression_id: EXP170
+  expression: it's now or never
+  pill_title: It's now or never — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Decisions & Opportunities
+  situation_id: SIT014
+  grammar_id: GRAM014
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “it's now or never” nella situazione collegata.
+  mini_context: Pagare il conto
+  related_expression_ids: []
+  status: planned
+- day: 171
+  expression_id: EXP171
+  expression: happy days
+  pill_title: Happy days — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: expression
+  topic: Reactions & Good News
+  situation_id: SIT020
+  grammar_id: GRAM020
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “happy days” nella situazione collegata.
+  mini_context: Organizzare una cena
+  related_expression_ids: []
+  status: planned
+- day: 172
+  expression_id: EXP172
+  expression: double down
+  pill_title: Double down — una espressione da usare davvero
+  level: B2
+  category: Phrasal verb
+  type: verb
+  topic: Decisions & Strategy
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “double down” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 173
+  expression_id: EXP173
+  expression: game face
+  pill_title: Game face — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: noun phrase
+  topic: Performance & Determination
+  situation_id: SIT027
+  grammar_id: GRAM027
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “game face” nella situazione collegata.
+  mini_context: Quando il volo è in ritardo
+  related_expression_ids: []
+  status: planned
+- day: 174
+  expression_id: EXP174
+  expression: bitten by the bug
+  pill_title: Bitten by the bug — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Hobbies & Interests
+  situation_id: SIT005
+  grammar_id: GRAM005
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “bitten by the bug” nella situazione collegata.
+  mini_context: Parlare di hobby e tempo libero
+  related_expression_ids: []
+  status: planned
+- day: 175
+  expression_id: EXP175
+  expression: onboarding
+  pill_title: Onboarding — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun
+  topic: Work
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “onboarding” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 176
+  expression_id: EXP176
+  expression: thereby hangs a tale
+  pill_title: Thereby hangs a tale — una espressione da usare davvero
+  level: C1
+  category: Idiom
+  type: idiom
+  topic: Stories & Culture
+  situation_id: SIT021
+  grammar_id: GRAM021
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “thereby hangs a tale” nella situazione collegata.
+  mini_context: Prenotare una camera d’hotel
+  related_expression_ids: []
+  status: planned
+- day: 177
+  expression_id: EXP177
+  expression: the royal treatment
+  pill_title: The royal treatment — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Service & Hospitality
+  situation_id: SIT047
+  grammar_id: GRAM047
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “the royal treatment” nella situazione collegata.
+  mini_context: Organizzare programmi con gli amici online
+  related_expression_ids: []
+  status: planned
+- day: 178
+  expression_id: EXP178
+  expression: creatively bankrupt
+  pill_title: Creatively bankrupt — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: adjective phrase
+  topic: Creativity & Work
+  situation_id: SIT050
+  grammar_id: GRAM050
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “creatively bankrupt” nella situazione collegata.
+  mini_context: Chiedere aiuto a un collega
+  related_expression_ids: []
+  status: planned
+- day: 179
+  expression_id: EXP179
+  expression: as if
+  pill_title: As if — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: expression
+  topic: Reactions & Sarcasm
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “as if” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 180
+  expression_id: EXP180
+  expression: ish
+  pill_title: Ish — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: suffix/adverb
+  topic: Conversation & Precision
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “ish” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 181
+  expression_id: EXP181
+  expression: bad hair day
+  pill_title: Bad hair day — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Daily Life & Feelings
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “bad hair day” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 182
+  expression_id: EXP182
+  expression: promises, promises
+  pill_title: Promises, promises — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: expression
+  topic: Relationships & Trust
+  situation_id: SIT001
+  grammar_id: GRAM001
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “promises, promises” nella situazione collegata.
+  mini_context: Conoscere qualcuno per la prima volta
+  related_expression_ids: []
+  status: planned
+- day: 183
+  expression_id: EXP183
+  expression: not see hide nor hair
+  pill_title: Not see hide nor hair — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: People & Communication
+  situation_id: SIT007
+  grammar_id: GRAM007
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “not see hide nor hair” nella situazione collegata.
+  mini_context: Invitare qualcuno a uscire
+  related_expression_ids: []
+  status: planned
+- day: 184
+  expression_id: EXP184
+  expression: curate's egg
+  pill_title: Curate's egg — una espressione da usare davvero
+  level: C1
+  category: British English
+  type: idiom
+  topic: Opinions & Evaluation
+  situation_id: SIT017
+  grammar_id: GRAM017
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “curate's egg” nella situazione collegata.
+  mini_context: Restituire qualcosa che hai comprato
+  related_expression_ids: []
+  status: planned
+- day: 185
+  expression_id: EXP185
+  expression: that'll be the day
+  pill_title: That'll be the day — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: expression
+  topic: Reactions & Possibility
+  situation_id: SIT017
+  grammar_id: GRAM017
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “that'll be the day” nella situazione collegata.
+  mini_context: Restituire qualcosa che hai comprato
+  related_expression_ids: []
+  status: planned
+- day: 186
+  expression_id: EXP186
+  expression: gathering dust
+  pill_title: Gathering dust — una espressione da usare davvero
+  level: B1+
+  category: Phrasal verb
+  type: verb phrase
+  topic: Objects & Daily Life
+  situation_id: SIT042
+  grammar_id: GRAM042
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “gathering dust” nella situazione collegata.
+  mini_context: Descrivere la propria routine quotidiana
+  related_expression_ids: []
+  status: planned
+- day: 187
+  expression_id: EXP187
+  expression: easier said than done
+  pill_title: Easier said than done — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Advice & Challenges
+  situation_id: SIT015
+  grammar_id: GRAM015
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “easier said than done” nella situazione collegata.
+  mini_context: Fare la spesa
+  related_expression_ids: []
+  status: planned
+- day: 188
+  expression_id: EXP188
+  expression: the plot thickens
+  pill_title: The plot thickens — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Stories & Problems
+  situation_id: SIT032
+  grammar_id: GRAM032
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “the plot thickens” nella situazione collegata.
+  mini_context: Quando qualcosa va storto durante un viaggio
+  related_expression_ids: []
+  status: planned
+- day: 189
+  expression_id: EXP189
+  expression: all at sea
+  pill_title: All at sea — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Confusion & Problems
+  situation_id: SIT036
+  grammar_id: GRAM036
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “all at sea” nella situazione collegata.
+  mini_context: Spiegare un problema
+  related_expression_ids: []
+  status: planned
+- day: 190
+  expression_id: EXP190
+  expression: don't mind me
+  pill_title: Don't mind me — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: expression
+  topic: Social English
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “don't mind me” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 191
+  expression_id: EXP191
+  expression: light up like a Christmas tree
+  pill_title: Light up like a christmas tree — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Feelings & Reactions
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “light up like a Christmas tree” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 192
+  expression_id: EXP192
+  expression: I'm out
+  pill_title: I'm out — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: expression
+  topic: Choices & Conversation
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “I'm out” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 193
+  expression_id: EXP193
+  expression: sound out
+  pill_title: Sound out — una espressione da usare davvero
+  level: B2
+  category: Phrasal verb
+  type: verb
+  topic: Communication & Decisions
+  situation_id: SIT007
+  grammar_id: GRAM007
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “sound out” nella situazione collegata.
+  mini_context: Invitare qualcuno a uscire
+  related_expression_ids: []
+  status: planned
+- day: 194
+  expression_id: EXP194
+  expression: fly by night
+  pill_title: Fly by night — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: adjective
+  topic: Business & Trust
+  situation_id: SIT033
+  grammar_id: GRAM033
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “fly by night” nella situazione collegata.
+  mini_context: Telefonare per prendere un appuntamento
+  related_expression_ids: []
+  status: planned
+- day: 195
+  expression_id: EXP195
+  expression: one-up
+  pill_title: One-up — una espressione da usare davvero
+  level: B2
+  category: Phrasal verb
+  type: verb
+  topic: Competition & Social English
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “one-up” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 196
+  expression_id: EXP196
+  expression: tread on someone's toes
+  pill_title: Tread on someone's toes — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Boundaries & Work
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “tread on someone's toes” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 197
+  expression_id: EXP197
+  expression: run for the hills
+  pill_title: Run for the hills — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Problems & Reactions
+  situation_id: SIT023
+  grammar_id: GRAM023
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “run for the hills” nella situazione collegata.
+  mini_context: Segnalare un problema in hotel
+  related_expression_ids: []
+  status: planned
+- day: 198
+  expression_id: EXP198
+  expression: hard at it
+  pill_title: Hard at it — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: expression
+  topic: Work & Effort
+  situation_id: SIT050
+  grammar_id: GRAM050
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “hard at it” nella situazione collegata.
+  mini_context: Chiedere aiuto a un collega
+  related_expression_ids: []
+  status: planned
+- day: 199
+  expression_id: EXP199
+  expression: each to their own
+  pill_title: Each to their own — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: expression
+  topic: Opinions & Preferences
+  situation_id: SIT006
+  grammar_id: GRAM006
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “each to their own” nella situazione collegata.
+  mini_context: Parlare dei propri programmi
+  related_expression_ids: []
+  status: planned
+- day: 200
+  expression_id: EXP200
+  expression: fill your boots
+  pill_title: Fill your boots — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Social English & Offers
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “fill your boots” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 201
+  expression_id: EXP201
+  expression: in my travel era
+  pill_title: In my travel era — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: noun phrase
+  topic: Travel & Lifestyle
+  situation_id: SIT030
+  grammar_id: GRAM030
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “in my travel era” nella situazione collegata.
+  mini_context: Muoversi in una città nuova
+  related_expression_ids: []
+  status: planned
+- day: 202
+  expression_id: EXP202
+  expression: come full circle
+  pill_title: Come full circle — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Life & Change
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “come full circle” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 203
+  expression_id: EXP203
+  expression: grind someone's gears
+  pill_title: Grind someone's gears — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: idiom
+  topic: Annoyance & Relationships
+  situation_id: SIT007
+  grammar_id: GRAM007
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “grind someone's gears” nella situazione collegata.
+  mini_context: Invitare qualcuno a uscire
+  related_expression_ids: []
+  status: planned
+- day: 204
+  expression_id: EXP204
+  expression: feel seen
+  pill_title: Feel seen — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: expression
+  topic: Feelings & Relationships
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “feel seen” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 205
+  expression_id: EXP205
+  expression: it's giving
+  pill_title: It's giving — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: expression
+  topic: Internet & Culture
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “it's giving” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 206
+  expression_id: EXP206
+  expression: dial down
+  pill_title: Dial down — una espressione da usare davvero
+  level: B1+
+  category: Phrasal verb
+  type: phrasal verb
+  topic: Change & Control
+  situation_id: SIT009
+  grammar_id: GRAM009
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “dial down” nella situazione collegata.
+  mini_context: Cambiare programma all’ultimo momento
+  related_expression_ids: []
+  status: planned
+- day: 207
+  expression_id: EXP207
+  expression: the name of the game
+  pill_title: The name of the game — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Work & Strategy
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “the name of the game” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 208
+  expression_id: EXP208
+  expression: do it for the plot
+  pill_title: Do it for the plot — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: expression
+  topic: Lifestyle & Internet
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “do it for the plot” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 209
+  expression_id: EXP209
+  expression: let something slide
+  pill_title: Let something slide — una espressione da usare davvero
+  level: B1+
+  category: Phrasal verb
+  type: phrasal verb
+  topic: Social English
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “let something slide” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 210
+  expression_id: EXP210
+  expression: have someone on
+  pill_title: Have someone on — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: phrasal verb
+  topic: Humour & Social English
+  situation_id: SIT007
+  grammar_id: GRAM007
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “have someone on” nella situazione collegata.
+  mini_context: Invitare qualcuno a uscire
+  related_expression_ids: []
+  status: planned
+- day: 211
+  expression_id: EXP211
+  expression: take one for the team
+  pill_title: Take one for the team — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Teamwork
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “take one for the team” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 212
+  expression_id: EXP212
+  expression: mind your Ps and Qs
+  pill_title: Mind your ps and qs — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Politeness & Social English
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “mind your Ps and Qs” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 213
+  expression_id: EXP213
+  expression: dad dancing
+  pill_title: Dad dancing — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: noun
+  topic: Culture & Humour
+  situation_id: SIT046
+  grammar_id: GRAM046
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “dad dancing” nella situazione collegata.
+  mini_context: Parlare di film e serie TV
+  related_expression_ids: []
+  status: planned
+- day: 214
+  expression_id: EXP214
+  expression: big data
+  pill_title: Big data — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun phrase
+  topic: Technology & Work
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “big data” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 215
+  expression_id: EXP215
+  expression: punch above your weight
+  pill_title: Punch above your weight — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Performance & Competition
+  situation_id: SIT018
+  grammar_id: GRAM018
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “punch above your weight” nella situazione collegata.
+  mini_context: Segnalare un problema con il cibo
+  related_expression_ids: []
+  status: planned
+- day: 216
+  expression_id: EXP216
+  expression: social media influencer
+  pill_title: Social media influencer — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: noun phrase
+  topic: Internet & Work
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “social media influencer” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 217
+  expression_id: EXP217
+  expression: Goldilocks
+  pill_title: Goldilocks — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun/adjective
+  topic: Opinions & Description
+  situation_id: SIT017
+  grammar_id: GRAM017
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “Goldilocks” nella situazione collegata.
+  mini_context: Restituire qualcosa che hai comprato
+  related_expression_ids: []
+  status: planned
+- day: 218
+  expression_id: EXP218
+  expression: ghosting
+  pill_title: Ghosting — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun
+  topic: Relationships & Internet
+  situation_id: SIT047
+  grammar_id: GRAM047
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “ghosting” nella situazione collegata.
+  mini_context: Organizzare programmi con gli amici online
+  related_expression_ids: []
+  status: planned
+- day: 219
+  expression_id: EXP219
+  expression: slow TV
+  pill_title: Slow tv — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun phrase
+  topic: Media & Culture
+  situation_id: SIT046
+  grammar_id: GRAM046
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “slow TV” nella situazione collegata.
+  mini_context: Parlare di film e serie TV
+  related_expression_ids: []
+  status: planned
+- day: 220
+  expression_id: EXP220
+  expression: tiger mother
+  pill_title: Tiger mother — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun
+  topic: Family & Education
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “tiger mother” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 221
+  expression_id: EXP221
+  expression: digital detox
+  pill_title: Digital detox — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: noun phrase
+  topic: Technology & Life
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “digital detox” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 222
+  expression_id: EXP222
+  expression: leave a bad taste in your mouth
+  pill_title: Leave a bad taste in your mouth — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Feelings & Opinions
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “leave a bad taste in your mouth” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 223
+  expression_id: EXP223
+  expression: pea-souper
+  pill_title: Pea-souper — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: noun
+  topic: Weather & Culture
+  situation_id: SIT046
+  grammar_id: GRAM046
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “pea-souper” nella situazione collegata.
+  mini_context: Parlare di film e serie TV
+  related_expression_ids: []
+  status: planned
+- day: 224
+  expression_id: EXP224
+  expression: throw in the towel
+  pill_title: Throw in the towel — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Challenges & Failure
+  situation_id: SIT025
+  grammar_id: GRAM025
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “throw in the towel” nella situazione collegata.
+  mini_context: Al banco del check-in in aeroporto
+  related_expression_ids: []
+  status: planned
+- day: 225
+  expression_id: EXP225
+  expression: a walk in the park
+  pill_title: A walk in the park — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Difficulty & Learning
+  situation_id: SIT034
+  grammar_id: GRAM034
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a walk in the park” nella situazione collegata.
+  mini_context: In farmacia
+  related_expression_ids: []
+  status: planned
+- day: 226
+  expression_id: EXP226
+  expression: dumbphone
+  pill_title: Dumbphone — una espressione da usare davvero
+  level: B2
+  category: New word / neologism
+  type: noun
+  topic: Technology & Lifestyle
+  situation_id: SIT031
+  grammar_id: GRAM031
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “dumbphone” nella situazione collegata.
+  mini_context: Noleggiare un’auto
+  related_expression_ids: []
+  status: planned
+- day: 227
+  expression_id: EXP227
+  expression: no fear
+  pill_title: No fear — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: expression
+  topic: Reassurance & Attitude
+  situation_id: SIT036
+  grammar_id: GRAM036
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “no fear” nella situazione collegata.
+  mini_context: Spiegare un problema
+  related_expression_ids: []
+  status: planned
+- day: 228
+  expression_id: EXP228
+  expression: something to chew on
+  pill_title: Something to chew on — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Thinking & Opinions
+  situation_id: SIT032
+  grammar_id: GRAM032
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “something to chew on” nella situazione collegata.
+  mini_context: Quando qualcosa va storto durante un viaggio
+  related_expression_ids: []
+  status: planned
+- day: 229
+  expression_id: EXP229
+  expression: waffle on
+  pill_title: Waffle on — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: phrasal verb
+  topic: Conversation
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “waffle on” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 230
+  expression_id: EXP230
+  expression: skew-whiff
+  pill_title: Skew-whiff — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: adjective
+  topic: Description
+  situation_id: SIT032
+  grammar_id: GRAM032
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “skew-whiff” nella situazione collegata.
+  mini_context: Quando qualcosa va storto durante un viaggio
+  related_expression_ids: []
+  status: planned
+- day: 231
+  expression_id: EXP231
+  expression: play a blinder
+  pill_title: Play a blinder — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Performance & Sport
+  situation_id: SIT022
+  grammar_id: GRAM022
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “play a blinder” nella situazione collegata.
+  mini_context: Fare il check-in in hotel
+  related_expression_ids: []
+  status: planned
+- day: 232
+  expression_id: EXP232
+  expression: miffed
+  pill_title: Miffed — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: adjective
+  topic: Feelings
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “miffed” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 233
+  expression_id: EXP233
+  expression: mardy
+  pill_title: Mardy — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: adjective
+  topic: Feelings & Personality
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “mardy” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 234
+  expression_id: EXP234
+  expression: curry favour
+  pill_title: Curry favour — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Relationships & Work
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “curry favour” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 235
+  expression_id: EXP235
+  expression: take the biscuit
+  pill_title: Take the biscuit — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Reactions & Opinions
+  situation_id: SIT028
+  grammar_id: GRAM028
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “take the biscuit” nella situazione collegata.
+  mini_context: Alla stazione ferroviaria
+  related_expression_ids: []
+  status: planned
+- day: 236
+  expression_id: EXP236
+  expression: step on it
+  pill_title: Step on it — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Time & Movement
+  situation_id: SIT022
+  grammar_id: GRAM022
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “step on it” nella situazione collegata.
+  mini_context: Fare il check-in in hotel
+  related_expression_ids: []
+  status: planned
+- day: 237
+  expression_id: EXP237
+  expression: ping
+  pill_title: Ping — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: verb
+  topic: Digital Communication
+  situation_id: SIT047
+  grammar_id: GRAM047
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “ping” nella situazione collegata.
+  mini_context: Organizzare programmi con gli amici online
+  related_expression_ids: []
+  status: planned
+- day: 238
+  expression_id: EXP238
+  expression: crunch time
+  pill_title: Crunch time — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: noun phrase
+  topic: Work & Deadlines
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “crunch time” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 239
+  expression_id: EXP239
+  expression: have a pop
+  pill_title: Have a pop — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: verb phrase
+  topic: Trying & Learning
+  situation_id: SIT024
+  grammar_id: GRAM024
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “have a pop” nella situazione collegata.
+  mini_context: Fare il check-out dall’hotel
+  related_expression_ids: []
+  status: planned
+- day: 240
+  expression_id: EXP240
+  expression: a necessary evil
+  pill_title: A necessary evil — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Choices & Life
+  situation_id: SIT041
+  grammar_id: GRAM041
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a necessary evil” nella situazione collegata.
+  mini_context: Parlare di dove vivi
+  related_expression_ids: []
+  status: planned
+- day: 241
+  expression_id: EXP241
+  expression: all that jazz
+  pill_title: All that jazz — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: idiom
+  topic: Conversation
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “all that jazz” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 242
+  expression_id: EXP242
+  expression: not gonna lie
+  pill_title: Not gonna lie — una espressione da usare davvero
+  level: B1+
+  category: Slang / Internet English
+  type: expression
+  topic: Conversation & Internet
+  situation_id: SIT047
+  grammar_id: GRAM047
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “not gonna lie” nella situazione collegata.
+  mini_context: Organizzare programmi con gli amici online
+  related_expression_ids: []
+  status: planned
+- day: 243
+  expression_id: EXP243
+  expression: up your game
+  pill_title: Up your game — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: phrasal verb
+  topic: Learning & Performance
+  situation_id: SIT004
+  grammar_id: GRAM004
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “up your game” nella situazione collegata.
+  mini_context: Parlare del proprio weekend
+  related_expression_ids: []
+  status: planned
+- day: 244
+  expression_id: EXP244
+  expression: shout it from the rooftops
+  pill_title: Shout it from the rooftops — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: News & Feelings
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “shout it from the rooftops” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 245
+  expression_id: EXP245
+  expression: blow the cobwebs away
+  pill_title: Blow the cobwebs away — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Energy & Wellbeing
+  situation_id: SIT031
+  grammar_id: GRAM031
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “blow the cobwebs away” nella situazione collegata.
+  mini_context: Noleggiare un’auto
+  related_expression_ids: []
+  status: planned
+- day: 246
+  expression_id: EXP246
+  expression: a knees-up
+  pill_title: A knees-up — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: noun phrase
+  topic: Social Life
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a knees-up” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 247
+  expression_id: EXP247
+  expression: put someone on the map
+  pill_title: Put someone on the map — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Success & Culture
+  situation_id: SIT001
+  grammar_id: GRAM001
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “put someone on the map” nella situazione collegata.
+  mini_context: Conoscere qualcuno per la prima volta
+  related_expression_ids: []
+  status: planned
+- day: 248
+  expression_id: EXP248
+  expression: down in the dumps
+  pill_title: Down in the dumps — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Feelings
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “down in the dumps” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 249
+  expression_id: EXP249
+  expression: excuse me
+  pill_title: Excuse me — una espressione da usare davvero
+  level: A2
+  category: Everyday expression
+  type: expression
+  topic: Everyday Conversation
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “excuse me” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 250
+  expression_id: EXP250
+  expression: a sting in the tail
+  pill_title: A sting in the tail — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Stories & Problems
+  situation_id: SIT023
+  grammar_id: GRAM023
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a sting in the tail” nella situazione collegata.
+  mini_context: Segnalare un problema in hotel
+  related_expression_ids: []
+  status: planned
+- day: 251
+  expression_id: EXP251
+  expression: cringe
+  pill_title: Cringe — una espressione da usare davvero
+  level: B1+
+  category: Slang / Internet English
+  type: verb/adjective
+  topic: Reactions & Feelings
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “cringe” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 252
+  expression_id: EXP252
+  expression: it's the … for me
+  pill_title: It's the … for me — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: expression
+  topic: Opinions & Reactions
+  situation_id: SIT001
+  grammar_id: GRAM001
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “it's the … for me” nella situazione collegata.
+  mini_context: Conoscere qualcuno per la prima volta
+  related_expression_ids: []
+  status: planned
+- day: 253
+  expression_id: EXP253
+  expression: down / up for something
+  pill_title: Down / up for something — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: adjective phrase
+  topic: Plans & Social Life
+  situation_id: SIT020
+  grammar_id: GRAM020
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “down / up for something” nella situazione collegata.
+  mini_context: Organizzare una cena
+  related_expression_ids: []
+  status: planned
+- day: 254
+  expression_id: EXP254
+  expression: lit
+  pill_title: Lit — una espressione da usare davvero
+  level: B1+
+  category: Slang / Internet English
+  type: adjective
+  topic: Reactions & Culture
+  situation_id: SIT046
+  grammar_id: GRAM046
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “lit” nella situazione collegata.
+  mini_context: Parlare di film e serie TV
+  related_expression_ids: []
+  status: planned
+- day: 255
+  expression_id: EXP255
+  expression: vibe
+  pill_title: Vibe — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: noun
+  topic: Feelings & Culture
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “vibe” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 256
+  expression_id: EXP256
+  expression: noob
+  pill_title: Noob — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: noun
+  topic: Internet & Learning
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “noob” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 257
+  expression_id: EXP257
+  expression: adulting
+  pill_title: Adulting — una espressione da usare davvero
+  level: B2
+  category: New word / neologism
+  type: verb/noun
+  topic: Daily Life
+  situation_id: SIT042
+  grammar_id: GRAM042
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “adulting” nella situazione collegata.
+  mini_context: Descrivere la propria routine quotidiana
+  related_expression_ids: []
+  status: planned
+- day: 258
+  expression_id: EXP258
+  expression: slay
+  pill_title: Slay — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: verb
+  topic: Praise & Culture
+  situation_id: SIT032
+  grammar_id: GRAM032
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “slay” nella situazione collegata.
+  mini_context: Quando qualcosa va storto durante un viaggio
+  related_expression_ids: []
+  status: planned
+- day: 259
+  expression_id: EXP259
+  expression: push back
+  pill_title: Push back — una espressione da usare davvero
+  level: B1+
+  category: Phrasal verb
+  type: phrasal verb
+  topic: Work & Communication
+  situation_id: SIT050
+  grammar_id: GRAM050
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “push back” nella situazione collegata.
+  mini_context: Chiedere aiuto a un collega
+  related_expression_ids: []
+  status: planned
+- day: 260
+  expression_id: EXP260
+  expression: zip it
+  pill_title: Zip it — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: expression
+  topic: Conversation & Reactions
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “zip it” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 261
+  expression_id: EXP261
+  expression: botch job
+  pill_title: Botch job — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: noun phrase
+  topic: Work & Mistakes
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “botch job” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 262
+  expression_id: EXP262
+  expression: it slaps
+  pill_title: It slaps — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: expression
+  topic: Music & Culture
+  situation_id: SIT046
+  grammar_id: GRAM046
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “it slaps” nella situazione collegata.
+  mini_context: Parlare di film e serie TV
+  related_expression_ids: []
+  status: planned
+- day: 263
+  expression_id: EXP263
+  expression: have a lot of plates spinning
+  pill_title: Have a lot of plates spinning — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Work & Time
+  situation_id: SIT050
+  grammar_id: GRAM050
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “have a lot of plates spinning” nella situazione collegata.
+  mini_context: Chiedere aiuto a un collega
+  related_expression_ids: []
+  status: planned
+- day: 264
+  expression_id: EXP264
+  expression: pizzazz
+  pill_title: Pizzazz — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: noun
+  topic: Style & Personality
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “pizzazz” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 265
+  expression_id: EXP265
+  expression: oomph
+  pill_title: Oomph — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: noun
+  topic: Energy & Performance
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “oomph” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 266
+  expression_id: EXP266
+  expression: snap up
+  pill_title: Snap up — una espressione da usare davvero
+  level: B1+
+  category: Phrasal verb
+  type: phrasal verb
+  topic: Shopping & Opportunities
+  situation_id: SIT017
+  grammar_id: GRAM017
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “snap up” nella situazione collegata.
+  mini_context: Restituire qualcosa che hai comprato
+  related_expression_ids: []
+  status: planned
+- day: 267
+  expression_id: EXP267
+  expression: nothingburger
+  pill_title: Nothingburger — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: noun
+  topic: News & Opinions
+  situation_id: SIT026
+  grammar_id: GRAM026
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “nothingburger” nella situazione collegata.
+  mini_context: Passare i controlli di sicurezza in aeroporto
+  related_expression_ids: []
+  status: planned
+- day: 268
+  expression_id: EXP268
+  expression: clout
+  pill_title: Clout — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun
+  topic: Social Media & Influence
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “clout” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 269
+  expression_id: EXP269
+  expression: GOAT
+  pill_title: Goat — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: noun/acronym
+  topic: Sport & Culture
+  situation_id: SIT046
+  grammar_id: GRAM046
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “GOAT” nella situazione collegata.
+  mini_context: Parlare di film e serie TV
+  related_expression_ids: []
+  status: planned
+- day: 270
+  expression_id: EXP270
+  expression: workation
+  pill_title: Workation — una espressione da usare davvero
+  level: B2
+  category: New word / neologism
+  type: noun
+  topic: Work & Travel
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “workation” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 271
+  expression_id: EXP271
+  expression: moonshot
+  pill_title: Moonshot — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun
+  topic: Work & Innovation
+  situation_id: SIT050
+  grammar_id: GRAM050
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “moonshot” nella situazione collegata.
+  mini_context: Chiedere aiuto a un collega
+  related_expression_ids: []
+  status: planned
+- day: 272
+  expression_id: EXP272
+  expression: mic drop
+  pill_title: Mic drop — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun
+  topic: Conversation & Culture
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “mic drop” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 273
+  expression_id: EXP273
+  expression: tone deaf
+  pill_title: Tone deaf — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: adjective
+  topic: Social English
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “tone deaf” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 274
+  expression_id: EXP274
+  expression: bring your A game
+  pill_title: Bring your a game — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: idiom
+  topic: Performance & Work
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “bring your A game” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 275
+  expression_id: EXP275
+  expression: you do you
+  pill_title: You do you — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: expression
+  topic: Choices & Identity
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “you do you” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 276
+  expression_id: EXP276
+  expression: spoiler alert
+  pill_title: Spoiler alert — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: noun phrase
+  topic: Media & Conversation
+  situation_id: SIT047
+  grammar_id: GRAM047
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “spoiler alert” nella situazione collegata.
+  mini_context: Organizzare programmi con gli amici online
+  related_expression_ids: []
+  status: planned
+- day: 277
+  expression_id: EXP277
+  expression: doomscrolling
+  pill_title: Doomscrolling — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun
+  topic: Internet & Habits
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “doomscrolling” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 278
+  expression_id: EXP278
+  expression: crowdsourcing
+  pill_title: Crowdsourcing — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun
+  topic: Technology & Work
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “crowdsourcing” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 279
+  expression_id: EXP279
+  expression: one step at a time
+  pill_title: One step at a time — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: idiom
+  topic: Progress & Encouragement
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “one step at a time” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 280
+  expression_id: EXP280
+  expression: a wake-up call
+  pill_title: A wake-up call — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Change & Awareness
+  situation_id: SIT009
+  grammar_id: GRAM009
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a wake-up call” nella situazione collegata.
+  mini_context: Cambiare programma all’ultimo momento
+  related_expression_ids: []
+  status: planned
+- day: 281
+  expression_id: EXP281
+  expression: thirsty
+  pill_title: Thirsty — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: adjective
+  topic: Social Media & Behaviour
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “thirsty” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 282
+  expression_id: EXP282
+  expression: vanilla
+  pill_title: Vanilla — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: adjective
+  topic: Opinions & Description
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “vanilla” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 283
+  expression_id: EXP283
+  expression: roast
+  pill_title: Roast — una espressione da usare davvero
+  level: B1+
+  category: Slang / Internet English
+  type: verb
+  topic: Humour & Social Media
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “roast” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 284
+  expression_id: EXP284
+  expression: sticking point
+  pill_title: Sticking point — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Problems & Negotiation
+  situation_id: SIT018
+  grammar_id: GRAM018
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “sticking point” nella situazione collegata.
+  mini_context: Segnalare un problema con il cibo
+  related_expression_ids: []
+  status: planned
+- day: 285
+  expression_id: EXP285
+  expression: a slippery slope
+  pill_title: A slippery slope — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Decisions & Consequences
+  situation_id: SIT017
+  grammar_id: GRAM017
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a slippery slope” nella situazione collegata.
+  mini_context: Restituire qualcosa che hai comprato
+  related_expression_ids: []
+  status: planned
+- day: 286
+  expression_id: EXP286
+  expression: throw shade
+  pill_title: Throw shade — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: verb phrase
+  topic: Social English & Internet
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “throw shade” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 287
+  expression_id: EXP287
+  expression: bite the bullet
+  pill_title: Bite the bullet — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Challenges & Decisions
+  situation_id: SIT047
+  grammar_id: GRAM047
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “bite the bullet” nella situazione collegata.
+  mini_context: Organizzare programmi con gli amici online
+  related_expression_ids: []
+  status: planned
+- day: 288
+  expression_id: EXP288
+  expression: blended working
+  pill_title: Blended working — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: noun phrase
+  topic: Work
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “blended working” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 289
+  expression_id: EXP289
+  expression: JOMO
+  pill_title: Jomo — una espressione da usare davvero
+  level: B2
+  category: New word / neologism
+  type: noun/acronym
+  topic: Lifestyle & Social Media
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “JOMO” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 290
+  expression_id: EXP290
+  expression: spill the tea
+  pill_title: Spill the tea — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: expression
+  topic: Social Media & Conversation
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “spill the tea” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 291
+  expression_id: EXP291
+  expression: flex
+  pill_title: Flex — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: verb
+  topic: Social Media & Status
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “flex” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 292
+  expression_id: EXP292
+  expression: salty
+  pill_title: Salty — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: adjective
+  topic: Feelings & Reactions
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “salty” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 293
+  expression_id: EXP293
+  expression: running on fumes
+  pill_title: Running on fumes — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Energy & Work
+  situation_id: SIT050
+  grammar_id: GRAM050
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “running on fumes” nella situazione collegata.
+  mini_context: Chiedere aiuto a un collega
+  related_expression_ids: []
+  status: planned
+- day: 294
+  expression_id: EXP294
+  expression: left on read
+  pill_title: Left on read — una espressione da usare davvero
+  level: B1+
+  category: Slang / Internet English
+  type: expression
+  topic: Messaging & Relationships
+  situation_id: SIT032
+  grammar_id: GRAM032
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “left on read” nella situazione collegata.
+  mini_context: Quando qualcosa va storto durante un viaggio
+  related_expression_ids: []
+  status: planned
+- day: 295
+  expression_id: EXP295
+  expression: talk shop
+  pill_title: Talk shop — una espressione da usare davvero
+  level: B2
+  category: Everyday expression
+  type: idiom
+  topic: Work & Conversation
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “talk shop” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 296
+  expression_id: EXP296
+  expression: snackable
+  pill_title: Snackable — una espressione da usare davvero
+  level: B2
+  category: New word / neologism
+  type: adjective
+  topic: Media & Internet
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “snackable” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 297
+  expression_id: EXP297
+  expression: a memory like a sieve
+  pill_title: A memory like a sieve — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Memory & Daily Life
+  situation_id: SIT042
+  grammar_id: GRAM042
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a memory like a sieve” nella situazione collegata.
+  mini_context: Descrivere la propria routine quotidiana
+  related_expression_ids: []
+  status: planned
+- day: 298
+  expression_id: EXP298
+  expression: peacocking
+  pill_title: Peacocking — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: noun/verb
+  topic: Social Behaviour
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “peacocking” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 299
+  expression_id: EXP299
+  expression: rat race
+  pill_title: Rat race — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Work & Life
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “rat race” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 300
+  expression_id: EXP300
+  expression: cabin fever
+  pill_title: Cabin fever — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Feelings & Daily Life
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “cabin fever” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 301
+  expression_id: EXP301
+  expression: buyer's remorse
+  pill_title: Buyer's remorse — una espressione da usare davvero
+  level: B2
+  category: Everyday expression
+  type: noun phrase
+  topic: Shopping & Money
+  situation_id: SIT017
+  grammar_id: GRAM017
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “buyer's remorse” nella situazione collegata.
+  mini_context: Restituire qualcosa che hai comprato
+  related_expression_ids: []
+  status: planned
+- day: 302
+  expression_id: EXP302
+  expression: carbon footprint
+  pill_title: Carbon footprint — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: noun phrase
+  topic: Environment & Travel
+  situation_id: SIT031
+  grammar_id: GRAM031
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “carbon footprint” nella situazione collegata.
+  mini_context: Noleggiare un’auto
+  related_expression_ids: []
+  status: planned
+- day: 303
+  expression_id: EXP303
+  expression: cough up
+  pill_title: Cough up — una espressione da usare davvero
+  level: B2
+  category: Phrasal verb
+  type: phrasal verb
+  topic: Money & Requests
+  situation_id: SIT014
+  grammar_id: GRAM014
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “cough up” nella situazione collegata.
+  mini_context: Pagare il conto
+  related_expression_ids: []
+  status: planned
+- day: 304
+  expression_id: EXP304
+  expression: brain fade
+  pill_title: Brain fade — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: noun phrase
+  topic: Memory & Conversation
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “brain fade” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 305
+  expression_id: EXP305
+  expression: fib
+  pill_title: Fib — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: noun/verb
+  topic: Honesty
+  situation_id: SIT026
+  grammar_id: GRAM026
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “fib” nella situazione collegata.
+  mini_context: Passare i controlli di sicurezza in aeroporto
+  related_expression_ids: []
+  status: planned
+- day: 306
+  expression_id: EXP306
+  expression: hot under the collar
+  pill_title: Hot under the collar — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Feelings & Reactions
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “hot under the collar” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 307
+  expression_id: EXP307
+  expression: fat chance
+  pill_title: Fat chance — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: expression
+  topic: Possibility & Reactions
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “fat chance” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 308
+  expression_id: EXP308
+  expression: milk it
+  pill_title: Milk it — una espressione da usare davvero
+  level: B2
+  category: Phrasal verb
+  type: phrasal verb
+  topic: Social English
+  situation_id: SIT008
+  grammar_id: GRAM008
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “milk it” nella situazione collegata.
+  mini_context: Accettare o rifiutare un invito
+  related_expression_ids: []
+  status: planned
+- day: 309
+  expression_id: EXP309
+  expression: cherry-pick
+  pill_title: Cherry-pick — una espressione da usare davvero
+  level: B2
+  category: Phrasal verb
+  type: verb
+  topic: Choices & Work
+  situation_id: SIT050
+  grammar_id: GRAM050
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “cherry-pick” nella situazione collegata.
+  mini_context: Chiedere aiuto a un collega
+  related_expression_ids: []
+  status: planned
+- day: 310
+  expression_id: EXP310
+  expression: fight tooth and nail
+  pill_title: Fight tooth and nail — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Determination
+  situation_id: SIT047
+  grammar_id: GRAM047
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “fight tooth and nail” nella situazione collegata.
+  mini_context: Organizzare programmi con gli amici online
+  related_expression_ids: []
+  status: planned
+- day: 311
+  expression_id: EXP311
+  expression: it's a small world
+  pill_title: It's a small world — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: expression
+  topic: Social English & Travel
+  situation_id: SIT030
+  grammar_id: GRAM030
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “it's a small world” nella situazione collegata.
+  mini_context: Muoversi in una città nuova
+  related_expression_ids: []
+  status: planned
+- day: 312
+  expression_id: EXP312
+  expression: vanish into thin air
+  pill_title: Vanish into thin air — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Description & Stories
+  situation_id: SIT022
+  grammar_id: GRAM022
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “vanish into thin air” nella situazione collegata.
+  mini_context: Fare il check-in in hotel
+  related_expression_ids: []
+  status: planned
+- day: 313
+  expression_id: EXP313
+  expression: get the short straw
+  pill_title: Get the short straw — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Fairness & Situations
+  situation_id: SIT025
+  grammar_id: GRAM025
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “get the short straw” nella situazione collegata.
+  mini_context: Al banco del check-in in aeroporto
+  related_expression_ids: []
+  status: planned
+- day: 314
+  expression_id: EXP314
+  expression: soft skills
+  pill_title: Soft skills — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: noun phrase
+  topic: Work & Communication
+  situation_id: SIT050
+  grammar_id: GRAM050
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “soft skills” nella situazione collegata.
+  mini_context: Chiedere aiuto a un collega
+  related_expression_ids: []
+  status: planned
+- day: 315
+  expression_id: EXP315
+  expression: big deal
+  pill_title: Big deal — una espressione da usare davvero
+  level: B1
+  category: Everyday expression
+  type: noun phrase
+  topic: Opinions & Reactions
+  situation_id: SIT041
+  grammar_id: GRAM041
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “big deal” nella situazione collegata.
+  mini_context: Parlare di dove vivi
+  related_expression_ids: []
+  status: planned
+- day: 316
+  expression_id: EXP316
+  expression: clever clogs
+  pill_title: Clever clogs — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: noun phrase
+  topic: Personality & Humour
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “clever clogs” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 317
+  expression_id: EXP317
+  expression: couch surfing
+  pill_title: Couch surfing — una espressione da usare davvero
+  level: B1+
+  category: Modern English
+  type: noun
+  topic: Travel & Lifestyle
+  situation_id: SIT030
+  grammar_id: GRAM030
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “couch surfing” nella situazione collegata.
+  mini_context: Muoversi in una città nuova
+  related_expression_ids: []
+  status: planned
+- day: 318
+  expression_id: EXP318
+  expression: like riding a bike
+  pill_title: Like riding a bike — una espressione da usare davvero
+  level: B1
+  category: Idiom
+  type: idiom
+  topic: Learning & Memory
+  situation_id: SIT039
+  grammar_id: GRAM039
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “like riding a bike” nella situazione collegata.
+  mini_context: Quando hai perso qualcosa
+  related_expression_ids: []
+  status: planned
+- day: 319
+  expression_id: EXP319
+  expression: on fire
+  pill_title: On fire — una espressione da usare davvero
+  level: B1
+  category: Colloquial English
+  type: idiom
+  topic: Performance & Reactions
+  situation_id: SIT026
+  grammar_id: GRAM026
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “on fire” nella situazione collegata.
+  mini_context: Passare i controlli di sicurezza in aeroporto
+  related_expression_ids: []
+  status: planned
+- day: 320
+  expression_id: EXP320
+  expression: out of order
+  pill_title: Out of order — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: adjective phrase
+  topic: Social English & Daily Life
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “out of order” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 321
+  expression_id: EXP321
+  expression: give someone the runaround
+  pill_title: Give someone the runaround — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Customer Service & Problems
+  situation_id: SIT037
+  grammar_id: GRAM037
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “give someone the runaround” nella situazione collegata.
+  mini_context: Chiamare il servizio clienti
+  related_expression_ids: []
+  status: planned
+- day: 322
+  expression_id: EXP322
+  expression: laughing all the way to the bank
+  pill_title: Laughing all the way to the bank — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Money & Success
+  situation_id: SIT014
+  grammar_id: GRAM014
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “laughing all the way to the bank” nella situazione collegata.
+  mini_context: Pagare il conto
+  related_expression_ids: []
+  status: planned
+- day: 323
+  expression_id: EXP323
+  expression: keep a lid on it
+  pill_title: Keep a lid on it — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Control & Secrets
+  situation_id: SIT032
+  grammar_id: GRAM032
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “keep a lid on it” nella situazione collegata.
+  mini_context: Quando qualcosa va storto durante un viaggio
+  related_expression_ids: []
+  status: planned
+- day: 324
+  expression_id: EXP324
+  expression: pull the wool over someone's eyes
+  pill_title: Pull the wool over someone's eyes — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Honesty & Deception
+  situation_id: SIT001
+  grammar_id: GRAM001
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “pull the wool over someone's eyes” nella situazione collegata.
+  mini_context: Conoscere qualcuno per la prima volta
+  related_expression_ids: []
+  status: planned
+- day: 325
+  expression_id: EXP325
+  expression: take the rough with the smooth
+  pill_title: Take the rough with the smooth — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Life & Change
+  situation_id: SIT009
+  grammar_id: GRAM009
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “take the rough with the smooth” nella situazione collegata.
+  mini_context: Cambiare programma all’ultimo momento
+  related_expression_ids: []
+  status: planned
+- day: 326
+  expression_id: EXP326
+  expression: hard-nosed
+  pill_title: Hard-nosed — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: adjective
+  topic: Work & Personality
+  situation_id: SIT050
+  grammar_id: GRAM050
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “hard-nosed” nella situazione collegata.
+  mini_context: Chiedere aiuto a un collega
+  related_expression_ids: []
+  status: planned
+- day: 327
+  expression_id: EXP327
+  expression: have a soft spot
+  pill_title: Have a soft spot — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Feelings & Relationships
+  situation_id: SIT044
+  grammar_id: GRAM044
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “have a soft spot” nella situazione collegata.
+  mini_context: Parlare di come stai e di come ti senti
+  related_expression_ids: []
+  status: planned
+- day: 328
+  expression_id: EXP328
+  expression: make a song and dance about something
+  pill_title: Make a song and dance about something — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Reactions & Communication
+  situation_id: SIT016
+  grammar_id: GRAM016
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “make a song and dance about something” nella situazione collegata.
+  mini_context: Chiedere dove si trova qualcosa in negozio
+  related_expression_ids: []
+  status: planned
+- day: 329
+  expression_id: EXP329
+  expression: a shock to the system
+  pill_title: A shock to the system — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Change & Reactions
+  situation_id: SIT009
+  grammar_id: GRAM009
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a shock to the system” nella situazione collegata.
+  mini_context: Cambiare programma all’ultimo momento
+  related_expression_ids: []
+  status: planned
+- day: 330
+  expression_id: EXP330
+  expression: small talk
+  pill_title: Small talk — una espressione da usare davvero
+  level: A2+
+  category: Everyday expression
+  type: noun phrase
+  topic: Social English
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “small talk” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 331
+  expression_id: EXP331
+  expression: a bright spark
+  pill_title: A bright spark — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: noun phrase
+  topic: Personality & Praise
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a bright spark” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 332
+  expression_id: EXP332
+  expression: to be all downhill
+  pill_title: To be all downhill — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Difficulty & Change
+  situation_id: SIT009
+  grammar_id: GRAM009
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “to be all downhill” nella situazione collegata.
+  mini_context: Cambiare programma all’ultimo momento
+  related_expression_ids: []
+  status: planned
+- day: 333
+  expression_id: EXP333
+  expression: it's the thought that counts
+  pill_title: It's the thought that counts — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Gifts & Social English
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “it's the thought that counts” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 334
+  expression_id: EXP334
+  expression: humblebrag
+  pill_title: Humblebrag — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: noun/verb
+  topic: Social Media & Personality
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “humblebrag” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 335
+  expression_id: EXP335
+  expression: out of your depth
+  pill_title: Out of your depth — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Challenges & Work
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “out of your depth” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 336
+  expression_id: EXP336
+  expression: if the cap fits
+  pill_title: If the cap fits — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Reactions & Personality
+  situation_id: SIT003
+  grammar_id: GRAM003
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “if the cap fits” nella situazione collegata.
+  mini_context: Parlare di sé senza sembrare un libro di testo
+  related_expression_ids: []
+  status: planned
+- day: 337
+  expression_id: EXP337
+  expression: friends in high places
+  pill_title: Friends in high places — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Work & Connections
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “friends in high places” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 338
+  expression_id: EXP338
+  expression: let the dust settle
+  pill_title: Let the dust settle — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Problems & Decisions
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “let the dust settle” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 339
+  expression_id: EXP339
+  expression: nothing to shout about
+  pill_title: Nothing to shout about — una espressione da usare davvero
+  level: B1+
+  category: British English
+  type: expression
+  topic: Opinions & Reactions
+  situation_id: SIT046
+  grammar_id: GRAM046
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “nothing to shout about” nella situazione collegata.
+  mini_context: Parlare di film e serie TV
+  related_expression_ids: []
+  status: planned
+- day: 340
+  expression_id: EXP340
+  expression: let sleeping dogs lie
+  pill_title: Let sleeping dogs lie — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Problems & Relationships
+  situation_id: SIT036
+  grammar_id: GRAM036
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “let sleeping dogs lie” nella situazione collegata.
+  mini_context: Spiegare un problema
+  related_expression_ids: []
+  status: planned
+- day: 341
+  expression_id: EXP341
+  expression: bleed someone dry
+  pill_title: Bleed someone dry — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Money & Relationships
+  situation_id: SIT014
+  grammar_id: GRAM014
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “bleed someone dry” nella situazione collegata.
+  mini_context: Pagare il conto
+  related_expression_ids: []
+  status: planned
+- day: 342
+  expression_id: EXP342
+  expression: an old hand
+  pill_title: An old hand — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Work & Experience
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “an old hand” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 343
+  expression_id: EXP343
+  expression: out of the loop
+  pill_title: Out of the loop — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Work & Communication
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “out of the loop” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 344
+  expression_id: EXP344
+  expression: rub it in
+  pill_title: Rub it in — una espressione da usare davvero
+  level: B1+
+  category: Phrasal verb
+  type: phrasal verb
+  topic: Relationships & Reactions
+  situation_id: SIT040
+  grammar_id: GRAM040
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “rub it in” nella situazione collegata.
+  mini_context: Fare un reclamo in modo educato
+  related_expression_ids: []
+  status: planned
+- day: 345
+  expression_id: EXP345
+  expression: barking up the wrong tree
+  pill_title: Barking up the wrong tree — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Problems & Mistakes
+  situation_id: SIT032
+  grammar_id: GRAM032
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “barking up the wrong tree” nella situazione collegata.
+  mini_context: Quando qualcosa va storto durante un viaggio
+  related_expression_ids: []
+  status: planned
+- day: 346
+  expression_id: EXP346
+  expression: a taste of your own medicine
+  pill_title: A taste of your own medicine — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun phrase
+  topic: Relationships & Consequences
+  situation_id: SIT019
+  grammar_id: GRAM019
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a taste of your own medicine” nella situazione collegata.
+  mini_context: Cucinare insieme a qualcuno
+  related_expression_ids: []
+  status: planned
+- day: 347
+  expression_id: EXP347
+  expression: the best of both worlds
+  pill_title: The best of both worlds — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Choices & Lifestyle
+  situation_id: SIT013
+  grammar_id: GRAM013
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “the best of both worlds” nella situazione collegata.
+  mini_context: Chiedere informazioni sul menu
+  related_expression_ids: []
+  status: planned
+- day: 348
+  expression_id: EXP348
+  expression: to cut a long story short
+  pill_title: To cut a long story short — una espressione da usare davvero
+  level: B1+
+  category: Everyday expression
+  type: expression
+  topic: Conversation & Stories
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “to cut a long story short” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 349
+  expression_id: EXP349
+  expression: just the ticket
+  pill_title: Just the ticket — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: idiom
+  topic: Choices & Satisfaction
+  situation_id: SIT028
+  grammar_id: GRAM028
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “just the ticket” nella situazione collegata.
+  mini_context: Alla stazione ferroviaria
+  related_expression_ids: []
+  status: planned
+- day: 350
+  expression_id: EXP350
+  expression: FOMO
+  pill_title: Fomo — una espressione da usare davvero
+  level: B2
+  category: Slang / Internet English
+  type: noun/acronym
+  topic: Social Media & Feelings
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “FOMO” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 351
+  expression_id: EXP351
+  expression: have a go
+  pill_title: Have a go — una espressione da usare davvero
+  level: B1
+  category: British English
+  type: verb phrase
+  topic: Learning & Trying
+  situation_id: SIT024
+  grammar_id: GRAM024
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “have a go” nella situazione collegata.
+  mini_context: Fare il check-out dall’hotel
+  related_expression_ids: []
+  status: planned
+- day: 352
+  expression_id: EXP352
+  expression: wing it
+  pill_title: Wing it — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: verb phrase
+  topic: Work & Conversation
+  situation_id: SIT051
+  grammar_id: GRAM051
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “wing it” nella situazione collegata.
+  mini_context: Dare un aggiornamento durante una riunione
+  related_expression_ids: []
+  status: planned
+- day: 353
+  expression_id: EXP353
+  expression: it beats me
+  pill_title: It beats me — una espressione da usare davvero
+  level: B1+
+  category: Colloquial English
+  type: expression
+  topic: Conversation & Confusion
+  situation_id: SIT010
+  grammar_id: GRAM010
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “it beats me” nella situazione collegata.
+  mini_context: Tenere viva una conversazione
+  related_expression_ids: []
+  status: planned
+- day: 354
+  expression_id: EXP354
+  expression: give us a bell
+  pill_title: Give us a bell — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: expression
+  topic: Communication
+  situation_id: SIT052
+  grammar_id: GRAM052
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “give us a bell” nella situazione collegata.
+  mini_context: Parlare di una scadenza o di un problema al lavoro
+  related_expression_ids: []
+  status: planned
+- day: 355
+  expression_id: EXP355
+  expression: echo chamber
+  pill_title: Echo chamber — una espressione da usare davvero
+  level: B2
+  category: Modern English
+  type: noun phrase
+  topic: Internet & Society
+  situation_id: SIT048
+  grammar_id: GRAM048
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “echo chamber” nella situazione collegata.
+  mini_context: Parlare dei social media
+  related_expression_ids: []
+  status: planned
+- day: 356
+  expression_id: EXP356
+  expression: the heat is on
+  pill_title: The heat is on — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Pressure & Work
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “the heat is on” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 357
+  expression_id: EXP357
+  expression: no picnic
+  pill_title: No picnic — una espressione da usare davvero
+  level: B1+
+  category: Idiom
+  type: idiom
+  topic: Challenges
+  situation_id: SIT041
+  grammar_id: GRAM041
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “no picnic” nella situazione collegata.
+  mini_context: Parlare di dove vivi
+  related_expression_ids: []
+  status: planned
+- day: 358
+  expression_id: EXP358
+  expression: jack-of-all-trades
+  pill_title: Jack-of-all-trades — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: noun
+  topic: Skills & Work
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “jack-of-all-trades” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 359
+  expression_id: EXP359
+  expression: the coast is clear
+  pill_title: The coast is clear — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Safety & Social Situations
+  situation_id: SIT002
+  grammar_id: GRAM002
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “the coast is clear” nella situazione collegata.
+  mini_context: Fare conversazione informale
+  related_expression_ids: []
+  status: planned
+- day: 360
+  expression_id: EXP360
+  expression: pull a fast one
+  pill_title: Pull a fast one — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Deception
+  situation_id: SIT019
+  grammar_id: GRAM019
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “pull a fast one” nella situazione collegata.
+  mini_context: Cucinare insieme a qualcuno
+  related_expression_ids: []
+  status: planned
+- day: 361
+  expression_id: EXP361
+  expression: to cut your teeth
+  pill_title: To cut your teeth — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Learning & Work
+  situation_id: SIT049
+  grammar_id: GRAM049
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “to cut your teeth” nella situazione collegata.
+  mini_context: Il primo giorno di lavoro
+  related_expression_ids: []
+  status: planned
+- day: 362
+  expression_id: EXP362
+  expression: shrinkflation
+  pill_title: Shrinkflation — una espressione da usare davvero
+  level: B2
+  category: New word / neologism
+  type: noun
+  topic: Money & Consumer Life
+  situation_id: SIT014
+  grammar_id: GRAM014
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “shrinkflation” nella situazione collegata.
+  mini_context: Pagare il conto
+  related_expression_ids: []
+  status: planned
+- day: 363
+  expression_id: EXP363
+  expression: la-la land
+  pill_title: La-la land — una espressione da usare davvero
+  level: B2
+  category: Colloquial English
+  type: noun
+  topic: Opinions & Reality
+  situation_id: SIT001
+  grammar_id: GRAM001
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “la-la land” nella situazione collegata.
+  mini_context: Conoscere qualcuno per la prima volta
+  related_expression_ids: []
+  status: planned
+- day: 364
+  expression_id: EXP364
+  expression: a different kettle of fish
+  pill_title: A different kettle of fish — una espressione da usare davvero
+  level: B2
+  category: British English
+  type: noun phrase
+  topic: Comparison & Conversation
+  situation_id: SIT031
+  grammar_id: GRAM031
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “a different kettle of fish” nella situazione collegata.
+  mini_context: Noleggiare un’auto
+  related_expression_ids: []
+  status: planned
+- day: 365
+  expression_id: EXP365
+  expression: at the drop of a hat
+  pill_title: At the drop of a hat — una espressione da usare davvero
+  level: B2
+  category: Idiom
+  type: idiom
+  topic: Time & Decisions
+  situation_id: SIT005
+  grammar_id: GRAM005
+  article_slug: null
+  learning_goal: Imparare a usare naturalmente “at the drop of a hat” nella situazione collegata.
+  mini_context: Parlare di hobby e tempo libero
+  related_expression_ids: []
+  status: planned

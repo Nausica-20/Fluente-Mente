@@ -1,0 +1,269 @@
+// ============================================================
+// Fluente-Mente — Layout
+// ============================================================
+
+.container {
+  width: calc(100% - (#{$space-6} * 2));
+  max-width: $container-max-width;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.reading-container {
+  width: calc(100% - (#{$space-6} * 2));
+  max-width: $reading-max-width;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+main {
+  min-height: 60vh;
+}
+
+.section {
+  padding-block: $space-20;
+}
+
+.section + .section {
+  border-top: $border-width solid $color-border;
+}
+
+.section-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: $space-6;
+  margin-bottom: $space-10;
+}
+
+.section-heading-centered {
+  display: block;
+  max-width: $reading-max-width;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.section-heading h2 {
+  margin-bottom: $space-3;
+}
+
+.section-heading p:last-child {
+  margin-bottom: 0;
+  color: $color-text-muted;
+}
+
+.eyebrow {
+  margin-bottom: $space-3;
+  color: $color-primary;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-bold;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: grid;
+  gap: $space-6;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+// ------------------------------------------------------------
+// Article layout
+// ------------------------------------------------------------
+
+.article-container {
+  padding-block: $space-10 $space-20;
+}
+
+.article-layout {
+  display: grid;
+  grid-template-columns: minmax(0, $reading-max-width) $sidebar-width;
+  align-items: start;
+  justify-content: space-between;
+  gap: $space-12;
+}
+
+.article-main {
+  min-width: 0;
+}
+
+.article-sidebar {
+  position: sticky;
+  top: calc(#{$header-height} + #{$space-6});
+}
+
+// ------------------------------------------------------------
+// Breadcrumbs
+// ------------------------------------------------------------
+
+.breadcrumbs {
+  width: calc(100% - (#{$space-6} * 2));
+  max-width: $container-max-width;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: $space-6;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-2;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+}
+
+.breadcrumbs li {
+  margin: 0;
+}
+
+.breadcrumbs a {
+  color: $color-text-muted;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: $color-primary;
+}
+
+// ------------------------------------------------------------
+// Table of contents
+// ------------------------------------------------------------
+
+.article-toc {
+  padding: $space-5;
+  border: $border-width solid $color-border;
+  border-radius: $radius-md;
+  background: $color-background-soft;
+}
+
+.article-toc h2 {
+  margin-bottom: $space-4;
+  font-size: $font-size-base;
+}
+
+.toc-list {
+  margin: 0;
+  padding-left: $space-5;
+}
+
+.toc-list li {
+  margin-top: $space-2;
+}
+
+.toc-list a {
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+  text-decoration: none;
+}
+
+.toc-list a:hover {
+  color: $color-primary;
+}
+
+// ------------------------------------------------------------
+// Footer
+// ------------------------------------------------------------
+
+.site-footer {
+  margin-top: auto;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: 1.5fr repeat(3, 1fr);
+  gap: $space-10;
+  padding-block: $space-16 $space-12;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-6;
+  padding-block: $space-6;
+  border-top: $border-width solid $color-border;
+}
+
+.footer-legal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-4;
+}
+
+.footer-disclosure {
+  padding-bottom: $space-8;
+}
+
+.footer-disclosure p {
+  max-width: 900px;
+  margin-bottom: 0;
+  color: $color-text-muted;
+  font-size: $font-size-xs;
+}
+
+// ------------------------------------------------------------
+// Responsive
+// ------------------------------------------------------------
+
+@media (max-width: $breakpoint-lg) {
+  .article-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .article-sidebar {
+    position: static;
+    order: 2;
+  }
+
+  .footer-main {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .section {
+    padding-block: $space-12;
+  }
+
+  .section-heading {
+    display: block;
+  }
+
+  .section-heading .text-link {
+    display: inline-block;
+    margin-top: $space-4;
+  }
+
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    display: block;
+  }
+
+  .footer-copyright {
+    margin-top: $space-4;
+  }
+}
