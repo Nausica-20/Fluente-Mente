@@ -1,6 +1,6 @@
 # Fluente-Mente — Physical Site Rebuild
 
-Questa repository è stata riscritta da zero partendo dalla base Jekyll/visual del file ZIP fornito e materializzando le route del registry corrente.
+Questa repository è stata riscritta da zero partendo dalla base Jekyll/visual del file ZIP fornito e materializzando le route del registry corrente
 
 ## Principi
 
